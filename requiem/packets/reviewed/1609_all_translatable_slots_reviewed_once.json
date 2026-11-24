@@ -1,0 +1,1700 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1609_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Local Gemma 4 26B Q4_0 draft plus exactly one local Gemma review pass; no external API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one local Gemma review pass",
+  "newly_reviewed_range": [
+    1,
+    158
+  ],
+  "new_review_change_count": 7,
+  "new_review_changes": [
+    {
+      "slot": 18,
+      "before": "그건 네가 불평할 일이지.^n하지만, 제대로핥거나 빨아주지 않으면,^n약이 제대로 나오지 않는다고.",
+      "after": "그건 네가 불평할 일이지.^n하지만, 제대로 핥거나 빨아주지 않으면,^n약이 제대로 나오지 않는다고."
+    },
+    {
+      "slot": 30,
+      "before": "끝부분에서스며 나오는 쿠퍼액의 쓴맛에^n가끔 얼굴을 찌푸리면서도,^n그래도 앨리스는 약을 위해애무를 계속한다.",
+      "after": "끝부분에서 스며 나오는 쿠퍼액의 쓴맛에^n가끔 얼굴을 찌푸리면서도,^n그래도 앨리스는 약을 위해 애무를 계속한다."
+    },
+    {
+      "slot": 69,
+      "before": "그래. 하지만 갉아먹으면 안 돼.^n갓을 먹는 게 아니라,^n핥거나 빨아서, 하얀 약을짜내는 거야.",
+      "after": "그래. 하지만 갉아먹으면 안 돼.^n갓을 먹는 게 아니라,^n핥거나 빨아서, 하얀 약을 짜내는 거야."
+    },
+    {
+      "slot": 72,
+      "before": "앨리스의 표정이 당혹감으로일그러진다.",
+      "after": "앨리스의 표정이 당혹감으로 일그러진다."
+    },
+    {
+      "slot": 73,
+      "before": "그전까지의 적극성이 갑자기 사그라들었기에,^n남자는의아한 듯 그녀에게 물었다.",
+      "after": "그전까지의 적극성이 갑자기 사그라들었기에,^n남자는 의아한 듯 그녀에게 물었다."
+    },
+    {
+      "slot": 98,
+      "before": "츕, 츄릅……^n음……너무 냄새나, 토할 것 같아……^n왜, 애벌레 씨는 기뻐하는 거야?",
+      "after": "츕, 츄릅……^n음…… 너무 냄새나, 토할 것 같아……^n왜, 애벌레 씨는 기뻐하는 거야?"
+    },
+    {
+      "slot": 107,
+      "before": "우쭐해져서, 할짝할짝 귀두를 핥아대는 것뿐만 아니라^n귀두 밑부분을 입술로 문지르거나,^n끝부분의 갈라진 틈을 혀로 밀어 넓혀보기도 한다.",
+      "after": "우쭐해져서, 할짝할짝 귀두를 핥아대는 것뿐만 아니라^n기둥 부분을 입술로 문지르거나,^n끝부분의 갈라진 틈을 혀로 밀어 넓혀보기도 한다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216
+  ],
+  "lookup_slot_range": [
+    159,
+    216
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00001",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00002",
+      "source_text": "……ぴちゃ、ぴちゃ……んむ……ちゅる……。",
+      "source_raw_sha256": "56AC3F3A0922368D8902CF3549673D39BAB0BAF689FEFBC1EB832EB8AEECFC78",
+      "target_text": "……챱, 챱……음……츄릅…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00003",
+      "source_text": "アリスは|促[うなが]されるまま、^n男の醜悪な欲望に舌を|這[は]わせていた。",
+      "source_raw_sha256": "5F935916CF34712C35B2E8D95DEB5125C752920E445BAD4CEBB53D7819E98D3C",
+      "target_text": "앨리스는 부추겨지는 대로,^n남자의 추악한 욕망에 혀를 핥고 있었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00004",
+      "source_text": "|愛撫[あいぶ]というよりは、まるで飴を|舐[な]める少女のようだ。^n味を確かめるようにチロチロと舌先でつつく。",
+      "source_raw_sha256": "71A4D0BA355AAF17CE225E69F078ECB503CEA7B88BB1E94CE02108668CA5C8C5",
+      "target_text": "애무라기보다는 마치 사탕을 핥는 소녀 같다.^n맛을 확인하듯 혀끝으로 낼름낼름 건드린다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00005",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00006",
+      "source_text": "んっ、ちゅっ……ちゅぱっ、んん……。",
+      "source_raw_sha256": "7C5B956B02D25D0D9232CC64D0ED3047A6136790BC72AF890B0B5220EE229B71",
+      "target_text": "응, 츕……츄릅, 으응…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00007",
+      "source_text": "たまにキスをするように吸いつくのは、^nこの「芋虫さん」が、^nそうして欲しいと頼んだからだ。",
+      "source_raw_sha256": "3D9010E80896CFB4038F0EB4216AD7BF94A31DAFC6BA1DB0B3047E047DE06A9E",
+      "target_text": "가끔 키스하듯 빨아올리는 것은,^n이 \"애벌레 씨\"가,^n그렇게 해달라고 부탁했기 때문이다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00008",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00009",
+      "source_text": "ああ、うまいよアリス。^nそう、もう少しぐらい強くてもいいな。",
+      "source_raw_sha256": "31FAF13E6A87566D2BC5996764A977317AACC5072DB4C8312E62332D6A8127AE",
+      "target_text": "아아, 맛있다 앨리스.^n그래, 조금 더 강해도 좋아.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00010",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00011",
+      "source_text": "ぴちゃ、んむ……これぐらい、かしら？^nちゅっ、ちゅぱ……んん、にがぁい……。",
+      "source_raw_sha256": "3244D9C9DA9FAA74C0A619232911404713F4332AC78AA942325094422514B306",
+      "target_text": "챱, 음……이 정도일까?^n츕, 츄릅……으응, 써…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00012",
+      "source_text": "愛らしい顔を|歪[ゆが]め、唇を尖らせる。^nおくすりが苦いのはいつものことだが、^nこの「キノコ」には独特の不快さがあって、そこは苦手だ。",
+      "source_raw_sha256": "3C53F2F09974DF605344A343E3475140A8A41B63BCB9E361DD3B050AABD017ED",
+      "target_text": "사랑스러운 얼굴을 일그러뜨리며 입술을 내민다.^n약이 쓴 것은 평소에도 있는 일이지만,^n이 \"버섯\"에는 독특한 불쾌함이 있어서 그건 질색이다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00013",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00014",
+      "source_text": "そこは我慢しないと。^nおくすりは苦いものなんだから、^nおくすりの出るキノコだって、どうしても苦くなるさ。",
+      "source_raw_sha256": "9EE7C39F700125AB3E97EB089E2E542EF66AF17D295DBB2315ED833DC1565A05",
+      "target_text": "그건 참아야지.^n약은 쓴 법이니까,^n약이 나오는 버섯도 어쩔 수 없이 쓰게 되는 거야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00015",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00016",
+      "source_text": "ぴちゃ、んむ……ええ、わかってるわ。^nもちろんわかっているけど、^n文句のひとつぐらい、言ってもいいでしょう。",
+      "source_raw_sha256": "615168830CA96E9018C4A9DDFAC732CDFD855E2640504B2700046268DD902925",
+      "target_text": "챱, 음……에에, 알고 있어.^n물론 알고 있지만,^n불평 한마디 정도는 해도 괜찮겠지.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00017",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00018",
+      "source_text": "そりゃ文句を言うのは君の勝手さ。^nけど、しっかり|舐[な]めたり吸ったりしないと、^nおくすりはきちんと出てこないよ。",
+      "source_raw_sha256": "E392A8DCBEB1832DE663AF1DF7B1D5B732A847B92412EBD4CA5B8754F83CD410",
+      "target_text": "그건 네가 불평할 일이지.^n하지만, 제대로 핥거나 빨아주지 않으면,^n약이 제대로 나오지 않는다고.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00019",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00020",
+      "source_text": "はぁい……ぴちゃ、ちゅっ、ちゅる……んむ……^nわっ、なんだかキノコがぴくんと動いたわ。",
+      "source_raw_sha256": "7391FBBDCC2C2BCDCAEC280BA0C351D68F6DD1BBC58B1DB3B13BC5361A850D53",
+      "target_text": "하아…… 츄릅, 츕, 츄르릅…… 음……^n앗, 왠지 버섯이 움찔하고 움직였어.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00021",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00022",
+      "source_text": "それだけイキがいいってことさ。",
+      "source_raw_sha256": "4BD80F12E37BFB2A42C5D50D93AEC08CF72A4B0C4C7A3F751D6729E0DBED8A65",
+      "target_text": "그만큼 신선하다는 뜻이야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00023",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00024",
+      "source_text": "新鮮なの？^nまあ、新鮮なキノコがお魚みたいに跳ねるなんて、^nいままで知らなかったわ。",
+      "source_raw_sha256": "7412A514EA95613CC8BBFCA7DA1E729217358F8E76BEB2EDE785C74544C900C2",
+      "target_text": "신선한 거야?^n뭐, 신선한 버섯이 물고기처럼 튀어 오르다니,^n지금껏 들어본 적도 없어.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00025",
+      "source_text": "このキノコは特別なのさ、と芋虫は笑う。",
+      "source_raw_sha256": "BE2C6B241A69FA9C0B2D1400B661E65866B91ED077AD5F8DEA4835A362F34A9B",
+      "target_text": "이 버섯은 특별하거든, 하고 애벌레는 웃는다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00026",
+      "source_text": "物語で語られる身体の大きさを変えられるキノコに、^n男は己のペニスをなぞらえていた。",
+      "source_raw_sha256": "8E28CD5CE414408D4AF70263DBC355FDD3BF7993CBA8E9A3438D6BAF2FBE01AB",
+      "target_text": "이야기 속에서 몸의 크기를 바꿀 수 있다는 버섯을,^n남자는 자신의 페니스에 비유하고 있었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00027",
+      "source_text": "はたから見れば、アリスは芋虫を名乗る男の性器に^n|愛撫[あいぶ]をしているのだが、^n彼女の中では、これはあくまでキノコなのだ。",
+      "source_raw_sha256": "3AD57A2AE42B4A8ACB04A589C8D2E545FE0F277A87AD2D04545FBC36AAC6377C",
+      "target_text": "겉보기에는 앨리스가 애벌레를 자처하는 남자의 성기에^n애무를 하고 있는 것이지만,^n그녀의 머릿속에서는 이것은 어디까지나 버섯이다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00028",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00029",
+      "source_text": "ちゅぱ、ちゅる……んむ、ちゅっ、ちゅる……。",
+      "source_raw_sha256": "86E058791F4195D3F09E68D1693EA9F8564D85240B2D6AFC3630C06901B9568C",
+      "target_text": "츄릅, 츄르릅…… 음, 츕, 츄르릅…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00030",
+      "source_text": "先端から|滲[にじ]み出る先走りの苦みに^nたまに顔をしかめながら、^nそれでもアリスは薬のために|愛撫[あいぶ]を続ける。",
+      "source_raw_sha256": "9ADF616110C9A87CFD8C7466A96EC131BC70B435397286600CC956D17CD812E1",
+      "target_text": "끝부분에서 스며 나오는 쿠퍼액의 쓴맛에^n가끔 얼굴을 찌푸리면서도,^n그래도 앨리스는 약을 위해 애무를 계속한다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00031",
+      "source_text": "幸い──というべきか、^n苦くて不味いという以外、^n彼女はこの行為を不快に思っていなかった。",
+      "source_raw_sha256": "39BCA67CDF709EDCAC5B2714C5D25E5D1C633C3B7C09D30824962FB724C6C282",
+      "target_text": "다행이라고 해야 할까──,^n쓰고 맛없다는 것 외에는,^n그녀는 이 행위를 불쾌하게 생각하지 않았다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00032",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00033",
+      "source_text": "ちゅぱ、ちゅるる……^nうふ、ビクビク跳ねて、本当にお魚みたい。",
+      "source_raw_sha256": "171CC7B3D1B93C01C2AE69C90BCB685524C52FA368D9B5F7C86778E772C24933",
+      "target_text": "츕, 츄르르……^n우후, 파르르 떨리는 게 정말 물고기 같아.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00034",
+      "source_text": "アリスは亀頭の先っぽを、^n子供をあやすように優しく|撫[な]で回した。",
+      "source_raw_sha256": "40FF6C3257CC297E45C4BEE9E0468C18A10F925AFF61227814BCD4FA42D6D699",
+      "target_text": "앨리스는 귀두 끝을,^n아이를 달래듯 부드럽게 쓰다듬어 돌렸다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00035",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00036",
+      "source_text": "いい子だからおとなしくしてね。^nそんなに動かれると、うまく|舐[な]められないわ。",
+      "source_raw_sha256": "8326105D6412AC8F026EA73478D80693B37B09748AB02FEF4FC8ED8AA4830164",
+      "target_text": "착한 아이니까 얌전히 있어줘.^n그렇게 움직이면 제대로 핥을 수가 없잖아.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00037",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00038",
+      "source_text": "うっ、おぁ……それは、なかなか……。",
+      "source_raw_sha256": "6FB0B2E9408B98CB690612591CEF65AEF8DCD88B94B20F528170AB0B078A79BB",
+      "target_text": "윽, 으아…… 그건, 꽤나…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00039",
+      "source_text": "くりくりと亀頭を|撫[な]でられて、^n男は思わず腰を引いてしまう。",
+      "source_raw_sha256": "617EEF50E6D9831365D069818AC38CB3BE36B91CC7779869E7CD788B110A012B",
+      "target_text": "귀두를 굴리며 쓰다듬어지자,^n남자는 자신도 모르게 허리를 뒤로 뺐다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00040",
+      "source_text": "大切な薬が逃げてしまうと思ったアリスは、^n慌ててペニスを握りしめた。",
+      "source_raw_sha256": "825704F8B53D5EC11F2E1F259B419BCF56542057240BFF5E1D3973F0B4A2CCC5",
+      "target_text": "소중한 약이 도망가 버릴까 봐 걱정된 앨리스는,^n황급히 페니스를 움켜쥐었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00041",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00042",
+      "source_text": "おっ、おおぉ……くっ、あぁ……。",
+      "source_raw_sha256": "E98D1B86E51F742AAAB231D1C5DCB1DBFB1EA303A56080027CFB912663A8C8D8",
+      "target_text": "오, 오오오…… 윽, 아아…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00043",
+      "source_text": "|容赦[ようしゃ]のない刺激に男は|呻[うめ]くが、^n同時にそれは強い快楽をもたらした。",
+      "source_raw_sha256": "DEEDCA36DD26F49AC0D30265C48160B7CA57C5C3B79902627F00E32116A1B75D",
+      "target_text": "가차 없는 자극에 남자는 신음했지만,^n동시에 그것은 강렬한 쾌락을 가져다주었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00044",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00045",
+      "source_text": "きゃっ、すごく暴れてる！^nこんなに|痙攣[けいれん]して、大丈夫なのかしら……。",
+      "source_raw_sha256": "51AA7335ACBA619210BF2686E48FEF113ADFD39C2CE20BBC014838F9F9967C11",
+      "target_text": "꺄악, 엄청 날뛰고 있어!^n이렇게 경련까지 하다니, 괜찮은 걸까…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00046",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00047",
+      "source_text": "大丈夫……^nもっと、強くしてもいいよ……っ……。",
+      "source_raw_sha256": "19E92EA3B6CDB0EECF609439EDC73F7BA015711C876BE206063EBBE798FF388B",
+      "target_text": "괜찮아……^n더, 세게 해도 돼……읏…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00048",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00049",
+      "source_text": "……どうしたの、芋虫さん。^nなんだかハァハァして、疲れているみたい。",
+      "source_raw_sha256": "77BB007F72B4A760029CD53B635829CC0B0559539631A3BCC65A6279B91F0AE3",
+      "target_text": "……왜 그래, 애벌레 씨.^n왠지 헉헉거리며 지쳐 있는 것 같아.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00050",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00051",
+      "source_text": "いや、なんでもないんだ。^n……ああいや、そのキノコを|舐[な]めたり触ったりすると、^n私は気持ちよくなるんだよ。",
+      "source_raw_sha256": "B36029989443650180E0B5EFC08D8036D9E92419B0D1D4C0CDD652CC5239AE4A",
+      "target_text": "아니, 아무것도 아니야.^n……아아, 아니, 그 버섯을 핥거나 만지면,^n나는 기분이 좋아진단 말이야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00052",
+      "source_text": "男が乱れた声で性的快楽を告げると、^nアリスはきょとんと首を|傾[かし]げた。",
+      "source_raw_sha256": "B6C6226CBA76FEF3BC9F9D5C93F9F6A4B87EE661BA4BF914FAD7C5529BAED02C",
+      "target_text": "남자가 흐트러진 목소리로 성적 쾌락을 고하자,^n앨리스는 멍하니 고개를 갸우뚱했다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00053",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00054",
+      "source_text": "このキノコを|舐[な]めたり、さすったりすると、^n芋虫さんは気持ちいいの？",
+      "source_raw_sha256": "E3481B43C240EF91DE5D0ADEA30E7DBB509A8FDE5DD6376E5D8EE43CBCA53DA4",
+      "target_text": "이 버섯을 핥거나, 문지르면,^n애벌레 씨는 기분이 좋아지는 거야?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00055",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00056",
+      "source_text": "そうだよ。^nさ、休んでいないで、続けるんだ。",
+      "source_raw_sha256": "F41F62352BD1F5BAA0397FF4F892C5A0C0E9433C8E368DFE760311A9693B7F9B",
+      "target_text": "그래.^n자, 쉬고 있지 말고 계속해줘.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00057",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00058",
+      "source_text": "ふぅん……気持ちいいのね。",
+      "source_raw_sha256": "A8C740B47443CEAECB92D6AD97E4619C725AC6D8A96BDD8B233566255F90320A",
+      "target_text": "흐음…… 기분이 좋아지는구나.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00059",
+      "source_text": "試しにアリスは、^n手にしたキノコをぎゅっと握ってみたり、^n前後にゴシゴシとこすったりしてみる。",
+      "source_raw_sha256": "3BB6541E9767F13D8DAF95291418398B1841AF65CAEF107EFF97659572F8E21B",
+      "target_text": "시험 삼아 앨리스는,^n손에 든 버섯을 꽉 쥐어보기도 하고,^n앞뒤로 문질문질 문질러 보기도 한다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00060",
+      "source_text": "そのたびにキノコは激しく反応し、^n芋虫さんも|仰[の]け|反[ぞ]って|呻[うめ]き声をあげた。",
+      "source_raw_sha256": "C40E138A99B2D0DDB009F648C2C0E2DED01AEF191E6EF4ABDF264DCAE4E1E71A",
+      "target_text": "그때마다 버섯은 격렬하게 반응했고,^n애벌레 씨도 몸을 뒤로 젖히며 신음 소리를 냈다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00061",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00062",
+      "source_text": "ふふっ、なんだか面白い。^nこうかしら。ごしごし、ごしごし……^nんっ、ちゅっ……ちゅぱっ、ちゅるる……っ。",
+      "source_raw_sha256": "BDA8F21DB569CE79AD13BC67CC72616FEF620CD886F7FE524F87CAE7E0476587",
+      "target_text": "후훗, 왠지 재미있어.^n이렇게 하면 되려나. 문질문질, 문질문질……^n응, 츕…… 츄릅, 츄르르……읏.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00063",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00064",
+      "source_text": "おおっ、そうだ……いい、いいぞアリス……^nそろそろ、ソレをくわえてみてくれ。",
+      "source_raw_sha256": "107B9182E8611C9CDB39EFF344322413EA8C396D976F5BD0FF7207929E35D964",
+      "target_text": "오오, 그래…… 좋아, 좋아, 앨리스……^n슬슬, 그걸 물어봐 줘.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00065",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00066",
+      "source_text": "……くわえる？^nこのキノコを、お口で頬張るの？",
+      "source_raw_sha256": "10ECD30B52BC29B3D092D2C2EE12E682BC7B7CC8D4C6A95A7CBC683D9EA21B64",
+      "target_text": "……물고는?^n이 버섯을, 입안 가득 머금는 거야?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00067",
+      "source_text": "反応を面白がって、^n無邪気にペニスで遊んでいたアリスは、^nいきなりの言葉にびっくりして男を見上げた。",
+      "source_raw_sha256": "DBDC59668E431E60C6C3C7F848E83D9B4C12E1685EC9F8BAB970E01D5A590D26",
+      "target_text": "반응이 재미있어서,^n천진난만하게 페니스로 놀고 있던 앨리스는,^n갑작스러운 말에 깜짝 놀라 남자를 올려다보았다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00068",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00069",
+      "source_text": "そうだよ。でも、かじったりしちゃダメだ。^nカサを食べるんじゃなく、^n|舐[な]めたり吸ったりして、白いおくすりを|搾[しぼ]り出すんだ。",
+      "source_raw_sha256": "8937A6963F684901C6FB3D544154BE6104AC2C6795F9175195E28557C450A4C6",
+      "target_text": "그래. 하지만 갉아먹으면 안 돼.^n갓을 먹는 게 아니라,^n핥거나 빨아서, 하얀 약을 짜내는 거야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00070",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00071",
+      "source_text": "これをお口に入れるの……？^nうーん……。",
+      "source_raw_sha256": "6004E586BE0B2AB1B76B2CE732DE815639904507A8CCBE91F1FD034A0D7EC837",
+      "target_text": "이걸 입에 넣는 거야……?^n으음…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00072",
+      "source_text": "アリスの表情が困惑に|歪[ゆが]む。",
+      "source_raw_sha256": "7AAEB112490A123BF42E90C9566F1715DA63838C8E6376970B576B2300EBACEE",
+      "target_text": "앨리스의 표정이 당혹감으로 일그러진다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00073",
+      "source_text": "それまでの積極さが突然なりを|潜[ひそ]めたので、^n男は|訝[いぶか]しげに彼女に尋ねた。",
+      "source_raw_sha256": "4AC881589E5CC68B692F684B51275179CB12995C216968D54E4F36CA33377FCB",
+      "target_text": "그전까지의 적극성이 갑자기 사그라들었기에,^n남자는 의아한 듯 그녀에게 물었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00074",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00075",
+      "source_text": "どうしたんだ。^nおくすりが必要なんだろう？",
+      "source_raw_sha256": "4B82B37368731B6EFC76F3BBC890784D1E82365E261E878FA8537138BDEA9DF0",
+      "target_text": "왜 그래.^n약이 필요한 거잖아?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00076",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00077",
+      "source_text": "それは、もちろん。^n大きくなりすぎても、小さくなりすぎても、^nとても困るんですもの。でも、その……。",
+      "source_raw_sha256": "FB51687B1E37698C482365F80D74FC7888EF4268162292D24F80A4788DBFEDAD",
+      "target_text": "그건, 물론이죠.^n너무 커져 버려도, 너무 작아져 버려도,^n정말 곤란하니까요. 하지만, 그게…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00078",
+      "source_text": "アリスは上目遣いに男を見て、^n申し訳なさそうに小さな声で言った。",
+      "source_raw_sha256": "5CF789748FE3EFEB9FC8C027A5B6952C82A5D5048BE40C8D942278F342DB4BFF",
+      "target_text": "앨리스는 치켜뜬 눈으로 남자를 바라보며,^n미안한 듯 작은 목소리로 말했다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00079",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00080",
+      "source_text": "あのね、あまり気を悪くしないで欲しいのだけど。^n実はこのキノコ、苦いだけじゃなくて^n……なんだか、臭いの。",
+      "source_raw_sha256": "925254CB8036232DB771FFF7842D71E4ACD43CC815D6A6D20A4C2270F2B8762A",
+      "target_text": "있잖아, 너무 기분 나쁘게 생각하지 않았으면 좋겠는데.^n사실 이 버섯, 쓰기만 한 게 아니라^n……왠지, 냄새가 나.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00081",
+      "source_text": "それを聞いて目を丸くした男は、^n今度はニンマリと|下卑[げび]た笑顔を浮かべた。",
+      "source_raw_sha256": "866E1BB33DDEAF9053A78F45D81D4D80426C33AD5510BC8DB63CDAB111C830A0",
+      "target_text": "그 말을 듣고 눈을 크게 뜬 남자는,^n이번에는 비열한 미소를 지었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00082",
+      "source_text": "あどけない少女が男の最も不潔な部分を^n目の前にして、臭いに不満を述べている。",
+      "source_raw_sha256": "B1762D30D2A24619F0303BE07C807331316C8ADB47A233B885FAAE7198843417",
+      "target_text": "천진난만한 소녀가 남자의 가장 불결한 부분을^n눈앞에 두고, 냄새에 대해 불만을 말하고 있다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00083",
+      "source_text": "その事実が、男に|倒錯的[とうさくてき]な興奮をもたらしていた。",
+      "source_raw_sha256": "E3B8F54EAC422DC0AEE77869006AFAE9AE369CB2E8423CEE96E1E67B80BAADAA",
+      "target_text": "그 사실이 남자에게 도착적인 흥분을 가져다주고 있었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00084",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00085",
+      "source_text": "おくすりの臭いは嫌いかな？^nでも、これしかおくすりの出るキノコはないんだよ。^n我慢して、きちんと|搾[しぼ]らないと。",
+      "source_raw_sha256": "1A63C00CD3BE16042C42295D3EC1C105504C869A64BA743AE9DBD5F776BCFAD1",
+      "target_text": "약 냄새는 싫은가?^n하지만, 이 약이 나오는 버섯은 이것뿐이야.^n참고서 제대로 짜내야 해.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00086",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00087",
+      "source_text": "うん……そう、よね。^nごめんなさい、せっかく芋虫さんが用意してくれたのに。",
+      "source_raw_sha256": "4FC3654ED14A34C21C363A0CE413539A2DF64A499FC86D9EBE350F71F550AB88",
+      "target_text": "응…… 그렇, 네.^n미안해, 애벌레 씨가 정성껏 준비해 줬는데.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00088",
+      "source_text": "アリスはにっこりと微笑むと、^n何度か深呼吸してから、意を決してペニスをくわえこんだ。",
+      "source_raw_sha256": "8412E8D44238186508D3F5327D10A47EF83A53D03D3DFD11FD673A31BBE8862F",
+      "target_text": "앨리스는 싱긋 미소 짓더니,^n몇 번인가 심호흡을 하고는, 결심한 듯 페니스를 입에 머금었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00089",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00090",
+      "source_text": "んっ、んんっ……んぐっ……^nいやぁ、臭い……でも、我慢しなくちゃ……。",
+      "source_raw_sha256": "BAE01A99F701D26B181AB996F5C2A0FECB4199DFC4CA23902255A3B0073969E8",
+      "target_text": "응, 윽, 으음…… 웁……^n싫어, 냄새나…… 그래도, 참아야 해…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00091",
+      "source_text": "ぱくりと亀頭を呑みこんだアリスの表情が、^nあまりのマズさと臭いにしかめっ面になる。",
+      "source_raw_sha256": "12EBA7F8832CE9960112C275F1508868B739DF45912D7F8D4D9059B3124B27CE",
+      "target_text": "덥석 귀두를 삼킨 앨리스의 표정이,^n너무나 역한 맛과 냄새에 찌푸려진다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00092",
+      "source_text": "それでも大事な薬を|搾[しぼ]りだそうと、^n彼女は吐きそうになるのを我慢して、^n口の中におさめたペニスをペロペロと|舐[な]め回した。",
+      "source_raw_sha256": "41FA0E06D57EE36FAE54EA491A30FFCE083B65CEC92032F93B6504F9AAD244D8",
+      "target_text": "그래도 중요한 약을 짜내기 위해,^n그녀는 토할 것 같은 것을 참으며,^n입안에 넣은 페니스를 낼름낼름 핥아댔다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00093",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00094",
+      "source_text": "んっ、ぢゅる、ちゅば、ちゅるる……っ、^nぴちゃ、ぴちゃ……ちゅぱ、ちゅぱ……っ。",
+      "source_raw_sha256": "0E43945B715481B2F9614CC6CE0CFCD9AA2A3840A8EAB8B0D706A08803526D32",
+      "target_text": "응, 쥬릅, 츄릅, 츄르릅…… 윽,^n츕, 츕…… 츄릅, 츄릅…… 윽.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00095",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00096",
+      "source_text": "……どうだいアリス、臭いかね？",
+      "source_raw_sha256": "27D66039C36DF05829F9ABF65AE78710D63D180572DC83BE3FE2C348CE68166C",
+      "target_text": "……어때 앨리스, 냄새가 나나?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00097",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00098",
+      "source_text": "ちゅばっ、ちゅる……っ、^nんん……とても臭いわ、うぇってなっちゃう……^nどうして、芋虫さんは嬉しそうなの？",
+      "source_raw_sha256": "D5022BE9AF8EE72F2A6B656F2FA42A20F66FC6828366040FB26240213D638C43",
+      "target_text": "츕, 츄릅……^n음…… 너무 냄새나, 토할 것 같아……^n왜, 애벌레 씨는 기뻐하는 거야?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00099",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00100",
+      "source_text": "さっきも言っただろう。^nそのキノコを|舐[な]められると、気持ちがいいからさ。",
+      "source_raw_sha256": "76B15D5D4322F1F4B60FCCF83E488F56B2992C071AD5F5B461FD1CAAABCABDA3",
+      "target_text": "아까도 말했잖아.^n그 버섯을 핥으면 기분이 좋으니까 말이야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00101",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00102",
+      "source_text": "……不公平だわ。^nあたしはこんなにマズくて臭くて気持ち悪いのに、^n芋虫さんだけが気持ちいいなんて……。",
+      "source_raw_sha256": "0F3D16580C7CEB459267E8663D54CAE9D293329ACDD4B8A0C783BF265F38B794",
+      "target_text": "……불공평해.^n나는 이렇게 맛없고 냄새나고 기분 나쁜데,^n애벌레 씨만 기분 좋다니…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00103",
+      "source_text": "はぁ、とため息をついて、^nアリスは男性器への|舌愛撫[したあいぶ]を再開した。",
+      "source_raw_sha256": "70268479D3C2FC915C6BF807FF0B31B9A7ABBDE6E870EDBCE173896B45443882",
+      "target_text": "하아, 하고 한숨을 내쉬며,^n앨리스는 성기에 대한 설애를 재개했다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00104",
+      "source_text": "口にしたモノはとても不快だったが、^n男が|愛撫[あいぶ]に合わせて嬉しそうに震えるのは、^nなんだか見ていて楽しくなってくる。",
+      "source_raw_sha256": "603990E01CAAEBE29DB81387A31A7FFFBF1EB8631561E931ACA9518994154831",
+      "target_text": "입에 담은 것은 매우 불쾌했지만,^n남자가 애무에 맞춰 기쁜 듯이 떨리는 것은,^n왠지 보고 있으면 즐거워진다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00105",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00106",
+      "source_text": "ちゅむっ、んっ、じゅるっ……ちゅぱっ、^nぢゅる、ぴちゃ、じゅるるる……っ！",
+      "source_raw_sha256": "DB57DE6261101EFD19D7E78CE16E8C8AF5289DCA3EE1B4E52E9C0719D210E5B8",
+      "target_text": "츄릅, 응, 쥬릅…… 츄릅,^n쥬르륵, 찌적, 쥬르르르……!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00107",
+      "source_text": "調子に乗って、ペロペロと亀頭を|舐[な]め回すだけでなく^nカサの部分を唇でこすってみたり、^n先端の割れ目を舌で押し拡げてみたりする。",
+      "source_raw_sha256": "C7BCA9AAFC4E5D96269E0AA8DFF6373CC94E13B22B79AE1783FD35A6250A206B",
+      "target_text": "우쭐해져서, 할짝할짝 귀두를 핥아대는 것뿐만 아니라^n기둥 부분을 입술로 문지르거나,^n끝부분의 갈라진 틈을 혀로 밀어 넓혀보기도 한다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00108",
+      "source_text": "そのたびに苦いものが口の中に広がったが、^nなんとかそれは我慢した。",
+      "source_raw_sha256": "5D95C2C2CEF61FBABC089F4E15779B6DE56E69971AB2514A33354D20AE4789EC",
+      "target_text": "그때마다 쓴 것이 입안에 퍼졌지만,^n어떻게든 그것은 참아냈다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00109",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00110",
+      "source_text": "ちゅぱ、ちゅる、ぴちゃ、ぴちゃ……^nじゅるるっ、んっ、んぐ……じゅるる……。",
+      "source_raw_sha256": "0EA66913C1313A9251FF9A742562854A12D044CFDD89D08334CAC3C53298AE13",
+      "target_text": "츄릅, 츄릅, 찌적, 찌적……^n쥬르륵, 응, 응긋…… 쥬르르…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00111",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00112",
+      "source_text": "おお、アリス……いいぞ、^nもうすぐ、おくすりが出そうだよ。",
+      "source_raw_sha256": "11DDCAC8A1D3DCD95AA5F22AA1DC3CE38743E1992A01149ED1BAB1B3DA732D8E",
+      "target_text": "오오, 앨리스…… 좋아,^n이제 곧, 약이 나올 것 같아.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00113",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00114",
+      "source_text": "ちゅぱ、じゅるっ……本当？^nもうすぐ、おくすりが出るの？",
+      "source_raw_sha256": "B01B0E2FEC370A8958CCD1F7D505311D18598539AA20F454B5756AF902E8E379",
+      "target_text": "츕, 쥬릅…… 정말이야?^n곧 약이 나올 거야?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00115",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00116",
+      "source_text": "本当だとも。^n白いおくすりがいっぱい出るからね。^nきちんと飲むんだよ。",
+      "source_raw_sha256": "3E0DF4933C24E0E3A11AE01A3DDD86D3148D5BA8886F958A2A75DD9E810D9812",
+      "target_text": "정말이라니까.^n하얀 약이 잔뜩 나올 테니까 말이야.^n꼭 제대로 마셔야 해.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00117",
+      "source_text": "男の言葉を受けて、^nアリスはより積極的に舌を使っていく。",
+      "source_raw_sha256": "08E374176C47A0131309BE94AE99F4B71BAA684A20B526C7D9B70C77B27556B3",
+      "target_text": "남자의 말을 듣고,^n앨리스는 더욱 적극적으로 혀를 놀린다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00118",
+      "source_text": "その|稚拙[ちせつ]で大胆な口遊びは、^nだからこそより一層、|淫靡[いんび]な雰囲気を|醸[かも]し出す。",
+      "source_raw_sha256": "1CE2247D6E86C330E822AE90C9A76374A756DBCCB36DBC1A5BA44A9EBD4045B0",
+      "target_text": "그 미숙하고 대담한 입놀림은,^n그렇기에 더욱더, 음란한 분위기를 자아낸다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00119",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00120",
+      "source_text": "ちゅばっ、ちゅばっ、じゅるるっ……^nちゅぱ、れろ、ちゅる……じゅる、ちゅっ……。",
+      "source_raw_sha256": "576E96C0D7A0005BFEE108838F99026C943706C1BFF42D3903F54B22566CD73A",
+      "target_text": "츄릅, 츄릅, 쥬르릅……^n츕, 낼름, 츄르릅…… 쥬릅, 츕…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00121",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00122",
+      "source_text": "お、おぉ……っ！",
+      "source_raw_sha256": "56940D8687AB509872048962943F96502D5ED67DFBD5B2978676B4E50F69144C",
+      "target_text": "오, 오오……윽!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00123",
+      "source_text": "男の背筋がぶるぶると震える。^nわき上がる射精感は、もうとどめようがなかった。",
+      "source_raw_sha256": "3628B904D3743BC4B707142E2C494B891D79A7CA7B524CA3114C764A3F705191",
+      "target_text": "남자의 등줄기가 부르르 떨린다.^n치솟는 사정감은 이제 멈출 수가 없었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00124",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00125",
+      "source_text": "ちゅぱっ、んむっ……じゅるる……^nぷは、あむ……んん、ピクピク震えてるわ……^nちゅぱ、じゅる……ちゅぱっ、ちゅぱっ……！",
+      "source_raw_sha256": "7B96AFE5276F104B34ED6C85C67F01DB47C7668BD55B894F0EBD50FA49DBC39C",
+      "target_text": "츕, 음…… 쥬르릅……^n푸하, 아물…… 응응, 파르르 떨리고 있어……^n츕, 쥬릅…… 츕, 츕……!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00126",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00127",
+      "source_text": "──ああっ、出るぞ、アリス！",
+      "source_raw_sha256": "817710E58637C3D8B95D7F64672DF5C69ABA8FAAEC0B0062FA0081BE8B938343",
+      "target_text": "──아앗, 나온다, 앨리스!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00128",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00129",
+      "source_text": "じゅるるっ、ちゅばっ……んっ、んん……っ！",
+      "source_raw_sha256": "31A5BD3CF322695DE4D95DD0D4C7DBDD0C3893BD5D04863FE6E9B3BAC40F16DC",
+      "target_text": "쥬르륵, 츄릅……응, 으응……!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00130",
+      "source_text": "男のペニスが大きく跳ね、^n|白濁液[はくだくえき]が激しく吐き出されていく。",
+      "source_raw_sha256": "B3C969B1F744A9BFB332FDBE0942B744CFD4C1517918DFB39A73DF671924D226",
+      "target_text": "남자의 페니스가 크게 튀어 오르며,^n백탁액이 격렬하게 뿜어져 나온다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00131",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00132",
+      "source_text": "きゃあっ、あっ、んんっ……ぷはっ、^nやっ、おくすりが……飛びちって……！",
+      "source_raw_sha256": "1AB4E74D3FDC8037E525EFFC9E7DCC69D4B192BDBDE9BBC6747154328FC4B089",
+      "target_text": "꺄악, 아, 으응……푸하,^n얏, 약이…… 튀어서……!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00133",
+      "source_text": "あまりの勢いにペニスはアリスの口を離れ、^n欲望のたけを彼女の顔にまでぶちまけた。",
+      "source_raw_sha256": "895B387D0A64FC0F7E7B2CC2B25E16EAA16CEAAFBB5FBE7ECC33183FA8BD1C9A",
+      "target_text": "너무나 강한 기세에 페니스는 앨리스의 입에서 떨어졌고,^n욕망의 정수가 그녀의 얼굴에까지 흩뿌려졌다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00134",
+      "source_text": "激しい射精と、精液の鼻をつく匂いに、^nアリスはただ驚いて硬直したままそれを見ていた。",
+      "source_raw_sha256": "3263EE7809CDF81632008BE0B70F79395DAEF4878F63737DE082FC1EF3648FC9",
+      "target_text": "격렬한 사정과 정액의 코를 찌르는 냄새에,^n앨리스는 그저 놀라 굳은 채로 그것을 바라보고 있었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00135",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00136",
+      "source_text": "あぁ、白いおくすりが、こんなにいっぱい……。",
+      "source_raw_sha256": "164B71BE65D6FA8BB27B413CE2F928BFAD5D11B6476F539B98A7928E021FF78E",
+      "target_text": "아아, 하얀 약이, 이렇게나 많이…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00137",
+      "source_text": "やがて、ペニスの震えがおさまった頃、^n男は長い吐息をつきながら、アリスを見た。",
+      "source_raw_sha256": "AF9CE4BF8425CBF2CCBEF74EC52894F93CFFFEBA768275E7ED736F5D4DD5A84F",
+      "target_text": "이윽고 페니스의 떨림이 가라앉았을 무렵,^n남자는 긴 한숨을 내쉬며 앨리스를 바라보았다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00138",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00139",
+      "source_text": "……さあ、アリス。^n待ちに待ったおくすりだよ、きちんと飲まないと。",
+      "source_raw_sha256": "A8F5CE0C6D19F125CA58649691562511BD5444D8697BC658B3F664C4A6C3D871",
+      "target_text": "……자, 앨리스.^n기다리고 기다리던 약이야, 제대로 마셔야지.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00140",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00141",
+      "source_text": "えぇ……ぴちゃ、ちゅる……うぅっ……。",
+      "source_raw_sha256": "6AD551FB132DA277C542272426E139EA31BA82951E2128FCB9BE5BAD03F30307",
+      "target_text": "에에…… 삐챠, 츄르……으윽…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00142",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00143",
+      "source_text": "どうだい？",
+      "source_raw_sha256": "9EFE88F4B798E31F73ABE13FD0EE4EFDBA2249DF1942834D956F57879CF9955F",
+      "target_text": "어때?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00144",
+      "source_text": "少女に自分の精液を|舐[な]め取らせる。^n|昏[くら]い|悦[よろこ]びをおぼえながら、男はアリスに問いかけた。",
+      "source_raw_sha256": "50E1DC4B0D258BC47175ABB0AFF2F5C96B3CC74E863FACE8C498EBAC0ED7E133",
+      "target_text": "소녀에게 자신의 정액을 핥게 한다.^n어두운 희열을 느끼며, 남자는 앨리스에게 물었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00145",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00146",
+      "source_text": "ぴちゃ、ちゅるっ……うぅ、ひどい臭いだわ……。",
+      "source_raw_sha256": "B00E12055AFF534F63088D7B4E32AA0B9014BB7CFDDB877773D370BC310D499F",
+      "target_text": "챱, 츄릅…… 으으, 지독한 냄새야…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00147",
+      "source_text": "アリスは男の体液を|啜[すす]り、^n顔に飛び散ったものも舌で|舐[な]め取って、それを飲み込む。",
+      "source_raw_sha256": "0F4DE54614DA39D2DFA2D5D49546C7F5D3161B0F90564C97EF94C614F8DBF141",
+      "target_text": "앨리스는 남자의 체액을 빨아먹고,^n얼굴에 튄 것도 혀로 핥아 삼킨다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00148",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00149",
+      "source_text": "生臭くて、マズくて、ねばねばして……^nうまく飲み込めない。んんっ、こく……んぐ……。",
+      "source_raw_sha256": "8D7611152CEF2A8AE29AD347F1C56D0AEA2C2C0A1F022333EFDE9D624F5296F9",
+      "target_text": "비릿하고, 맛없고, 끈적거려서……^n잘 안 넘어가. 윽, 꿀꺽…… 꿀꺽…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00150",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00151",
+      "source_text": "でもこれで、君の体はきちんと元の大きさに戻るさ。",
+      "source_raw_sha256": "DA362F5631EEA9DE0EEE4AC54A6D360F1A3C84042948DC59FDDFAC922E874E3A",
+      "target_text": "하지만 이걸로 네 몸은 제대로 원래 크기로 돌아갈 거야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00152",
+      "source_text": "顔をしかめ精液を|舐[な]め取っていたアリスは、^nその言葉にちょっとだけ微笑んで見せた。",
+      "source_raw_sha256": "67D1FFDA5C10C602F1957F161F3227C7AA16825C34A3F6E23AEF9E4CD5E25A05",
+      "target_text": "얼굴을 찌푸리며 정액을 핥아먹던 앨리스는,^n그 말에 아주 살짝 미소를 지어 보였다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00153",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00154",
+      "source_text": "そうね。そうでなければ、^nこんな美味しくないおくすりを、^nわざわざ|搾[しぼ]って飲んだ意味がないもの。",
+      "source_raw_sha256": "5DF10BC91679690B0E62026E1467894B55D2A1679DDE2836775351EDB95E7D74",
+      "target_text": "그렇네. 그렇지 않으면,^n이런 맛없는 약을,^n일부러 짜서 마신 의미가 없으니까.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00155",
+      "source_text": "芋虫",
+      "source_raw_sha256": "7DA0011209CBAF051D0558F469AE4207EF0A6499B9FFE1892F0249AC1582DB3D",
+      "target_text": "애벌레",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00156",
+      "source_text": "まったくだ。",
+      "source_raw_sha256": "C8EABE88BF55485BF587AAEA82A2D5692E8775AA4E7F759D0EC8E2C0C8814BD1",
+      "target_text": "정말이지.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00157",
+      "source_text": "|白濁[はくだく]に汚れた少女の顔を見下ろして、^n男は欲望に|濁[にご]った眼をしたまま、微笑み返した。",
+      "source_raw_sha256": "55DC5736F9CADD51458FD767BB32AA301D682D6CD42FC9D6C6F405C8B064B683",
+      "target_text": "백탁액으로 더러워진 소녀의 얼굴을 내려다보며,^n남자는 욕망으로 흐려진 눈을 한 채 미소로 화답했다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1609.gsc::slot/00158",
+      "source_text": "アリスの無邪気な仕草は、^nどこまでも愛らしくて、^nそれ故に、とてもいやらしく見えているのだった……。",
+      "source_raw_sha256": "501F4A8585C2E78AEB636AEA4EFB8C69B3AAF2865548352C9773872877776188",
+      "target_text": "앨리스의 천진난만한 몸짓은,^n한없이 사랑스러워서,^n그렇기에 너무나도 음란해 보였다…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1515_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    17
+  ],
+  "new_review_change_count": 7,
+  "new_review_changes": [
+    {
+      "slot": 1,
+      "before": "나선계단은 어딘가 비밀 통로 같아서,^n빙글빙글 돌며 오르내릴 때마다,^n늘 비밀 장소를 드나드는 듯한 인상을 내게 주었다.",
+      "after": "나선 계단은 어딘가 비밀 통로 같아서,^n빙글빙글 돌며 오르내릴 때마다,^n늘 비밀 장소를 드나드는 듯한 인상을 내게 주었다."
+    },
+    {
+      "slot": 3,
+      "before": "그 따뜻하고 유쾌한 색채도 지금의 내게는 아무런 위안이 되지 않았다.^n내가 생각하는 것은 오직 라푼젤뿐.^n그녀가 어떤 답에 도달했을지뿐이었다.",
+      "after": "그 따뜻하고 유쾌한 색채도 지금의 내게는 아무런 위안이 되지 않았다.^n내가 생각하는 것은 오직 라푼젤뿐.^n그녀가 어떤 답을 내렸을지뿐이었다."
+    },
+    {
+      "slot": 6,
+      "before": "밤마다, 낮마다 찾아오는 『왕자님』들.^n얼마만큼의 대가를 치르는지는 모르지만,^n그 대가로 라푼젤을 하룻밤 동안 자유롭게 한다.",
+      "after": "밤마다, 낮마다 찾아오는 『왕자님』들.^n얼마만큼의 대가를 치르는지는 모르지만,^n그 대가로 라푼젤을 하룻밤 동안 자유롭게 해 주고 있다."
+    },
+    {
+      "slot": 7,
+      "before": "그런 『왕자님』의 권리를 망치고 방에서 도망쳤기 때문에,^n그레텔이 저런 식으로 자신을 벌하기 위한 본보기가 되었다고,^n라푼젤은 그렇게 생각하고 있다.",
+      "after": "그런 『왕자님』의 권리를 망치고 방에서 도망쳤기 때문에,^n자신에게 내리는 벌이자 본보기로 그레텔이 저런 일을 당했다고,^n라푼젤은 그렇게 생각하고 있다."
+    },
+    {
+      "slot": 9,
+      "before": "　──자신은 여기에 남아 다시는 도망치지 않을 테니까.^n『왕자님』이라면 누구든 자신이 상대할 테니까.^n　그러니 이제 제발 그레텔에게는 손대지 말아 달라고──",
+      "after": "　──자신은 여기에 남아 다시는 도망치지 않을 테니까.^n『왕자님』들은 모두 자신이 상대할 테니까.^n　그러니 이제 제발 그레텔에게는 손대지 말아 달라고──"
+    },
+    {
+      "slot": 13,
+      "before": "애초에 라푼젤이 자신을 희생물로 내놓는다고 해서,^n그것으로 그레텔이 구원받을 수 있을지는^n아무런 보장도 없잖아──",
+      "after": "애초에 라푼젤이 자신을 희생 제물로 내놓는다고 해서,^n그것으로 그레텔이 구원받을 수 있을지는^n아무런 보장도 없잖아──"
+    },
+    {
+      "slot": 16,
+      "before": "평온해 보이는 『동화 증후군』 환자들을 위한 시설.^n하지만 얇은 껍질 한 장만 벗기면 이곳은,^n부조리와 악의와 거짓으로 가득 찬 작은 세계였다.",
+      "after": "평온해 보이는 『동화 증후군』 환자들을 위한 시설.^n하지만 얇은 껍질 한 겹만 벗기면 이곳은,^n부조리와 악의와 거짓으로 가득 찬 작은 세계였다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    18,
+    75
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00001",
+      "source_text": "|螺旋[らせん]階段はどこかしら隠れ道めいていて、^nぐるぐると廻りながら、上り下りするのは、^n僕にいつも秘密の場所に出入りするような印象をもたらしてくる。",
+      "source_raw_sha256": "B5F6AB74615B2E016FB99C532499CA7E85DA7C40975E43D24FE2BFBEAF379C6E",
+      "target_text": "나선 계단은 어딘가 비밀 통로 같아서,^n빙글빙글 돌며 오르내릴 때마다,^n늘 비밀 장소를 드나드는 듯한 인상을 내게 주었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00002",
+      "source_text": "|螺旋[らせん]階段を下り終えれば、壁いっぱいに落書きされ、^nベビーモビールをシャンデリアのように配置した廊下が^n前後に伸びている。",
+      "source_raw_sha256": "3392C1620D1C5992E80A058C0E43C491F94E7A700FACF14C08FD6D4E633303EE",
+      "target_text": "나선계단을 다 내려가면 벽 가득 낙서가 그려지고,^n아기용 모빌을 샹들리에처럼 매단 복도가^n앞뒤로 길게 뻗어 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00003",
+      "source_text": "そのあたたかくて|愉快[ゆかい]な色彩も、今の僕には何の|慰[なぐさ]めにもならない。^n僕が考えているのは、ただただラプンツェルのこと。^n彼女がどういう答えに至ったのか、ということ。",
+      "source_raw_sha256": "062967ADB736005C8CBA83DCCE3BA8042AE66A81416CB1BE73E0AE4EF6B83E86",
+      "target_text": "그 따뜻하고 유쾌한 색채도 지금의 내게는 아무런 위안이 되지 않았다.^n내가 생각하는 것은 오직 라푼젤뿐.^n그녀가 어떤 답을 내렸을지뿐이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00004",
+      "source_text": "たぶんラプンツェルは──",
+      "source_raw_sha256": "1752F5CC2CD327F4085621ADFFC9A7E275A902707D03083DD3086FCF89E3410F",
+      "target_text": "아마 라푼젤은──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00005",
+      "source_text": "グレーテルがあんな忌まわしい目に|遭[あ]った事を、^nおそらく自分の責任だって考えてる。",
+      "source_raw_sha256": "46B168A4A5EA08E478A956001C2480594BD0A556D1697EA2B2841D2A121A8D7B",
+      "target_text": "그레텔이 그런 끔찍한 일을 당한 것을,^n분명 자기 책임이라고 생각하고 있을 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00006",
+      "source_text": "夜ごと日ごとの「王子様」達。^nどれくらいの代価を支払っているかは知らないけど、^nそれと引き換えにラプンツェルを一夜の間自由にしている。",
+      "source_raw_sha256": "E4748FBF521AA46D0EE302589AA3D5A294959B37CD1ADD064FFC3171249F1FC4",
+      "target_text": "밤마다, 낮마다 찾아오는 『왕자님』들.^n얼마만큼의 대가를 치르는지는 모르지만,^n그 대가로 라푼젤을 하룻밤 동안 자유롭게 해 주고 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00007",
+      "source_text": "そんな「王子様」の権利を台無しにして、部屋から逃げたから、^nグレーテルがああやって自分への罰、見せしめにされたんだって、^nラプンツェルはそう考えてる。",
+      "source_raw_sha256": "60F4A762B0A3B6DA795F9113CA43D464231184D036E80F3B31984194B369B175",
+      "target_text": "그런 『왕자님』의 권리를 망치고 방에서 도망쳤기 때문에,^n자신에게 내리는 벌이자 본보기로 그레텔이 저런 일을 당했다고,^n라푼젤은 그렇게 생각하고 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00008",
+      "source_text": "となれば、ラプンツェルが病棟の職員たちに何を|懇願[こんがん]するのか、^nだいたい見当はつこうってものだ。",
+      "source_raw_sha256": "57AE562A10664B04C0A7BA95270042521D477A49D163CA300C0A2C0EB156A882",
+      "target_text": "그렇다면 라푼젤이 병동 직원들에게 무엇을 애원할지도,^n대강 짐작할 수 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00009",
+      "source_text": "　──自分はここにいて、もう逃げ出したりしないから。^n「王子様」なら全て自分が相手をするから。^n　だからもう、どうか、グレーテルには手を出さないで──",
+      "source_raw_sha256": "07BE433155619166D8BA76744AB9987A186B673E10BAFC16AF51912FECFE1A54",
+      "target_text": "　──자신은 여기에 남아 다시는 도망치지 않을 테니까.^n『왕자님』들은 모두 자신이 상대할 테니까.^n　그러니 이제 제발 그레텔에게는 손대지 말아 달라고──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00010",
+      "source_text": "そういったことを向こうに申し出たのに違いない。",
+      "source_raw_sha256": "2822417A0EF487594B8B53BDBB6A4A12F9D86ADD99AFE0FDAE07CBF693D33D92",
+      "target_text": "분명 그런 제안을 그들에게 했을 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00011",
+      "source_text": "確かに優しく情愛豊かなラプンツェルにとって、^n小さなグレーテルが|慰[なぐさ]みものにされるのは、^n我が身を斬られるより辛いことなんだろう、と僕にも想像はつく。",
+      "source_raw_sha256": "830234CFF2ADB8AB67D53D482DA95B69BB298CE4B32124854808747BD31FD2AF",
+      "target_text": "확실히 다정하고 애정이 깊은 라푼젤에게,^n어린 그레텔이 노리개가 되는 것은,^n자기 몸이 베이는 것보다 괴로운 일이리라 나도 짐작할 수 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00012",
+      "source_text": "だからと言って、納得ができるか言うと全然別だった。",
+      "source_raw_sha256": "1AC8F81B6AE95458BEE9FD1279FF0D5E3DFA3B5BF0F2BC95ACCD161E29C6CB75",
+      "target_text": "그렇다고 납득할 수 있는가는 전혀 다른 문제였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00013",
+      "source_text": "大体、ラプンツェルが我が身を犠牲に差し出したところで、^nそれでグレーテルが救われるかどうかなんて、^nなにも保証がないことじゃないか──",
+      "source_raw_sha256": "D6C80EFC3FA2E7C57AB26A4BE46F34A2DB4F9247E334C825A6939B02D4E049EB",
+      "target_text": "애초에 라푼젤이 자신을 희생 제물로 내놓는다고 해서,^n그것으로 그레텔이 구원받을 수 있을지는^n아무런 보장도 없잖아──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00014",
+      "source_text": "ささくれたまなざしで廊下を見渡せば、^n|愉快[ゆかい]な落書きも親しみやすい色彩も下手なご機嫌取りにしか見えない。^n赤ちゃん扱いされているような反発さえ覚える。",
+      "source_raw_sha256": "2505A9BD37B0BD69A639BED247527022CE092DEBE35F082DA4CE7002D6C9FF49",
+      "target_text": "날카로워진 눈으로 복도를 둘러보니,^n유쾌한 낙서도 친근한 색채도 서투른 비위 맞추기로밖에 보이지 않았다.^n아기 취급을 받는 듯한 반감마저 들었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00015",
+      "source_text": "僕は今やはっきりとこの病棟施設、「楽園」に|不審[ふしん]を抱いていた。",
+      "source_raw_sha256": "51A208CABCFC4CCECB3BCC4A4D6A9DEB80DED2419C97B355F70A5E2A5F31F8D6",
+      "target_text": "나는 이제 이 병동 시설, 『낙원』을 분명히 의심하고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00016",
+      "source_text": "この安穏とした、「|お伽話症候群[フェアリーテイル・シンドローム]」の患者たちのための施設。^nけれど薄皮一枚めくればここは、^n理不尽で、悪意と偽りに満ち満ちた小さな世界なのだ、と。",
+      "source_raw_sha256": "B2C8980A45826982C18EECF8E2E374E63C89B5D4A5A0E9F5A8DB9065C7CA8FEA",
+      "target_text": "평온해 보이는 『동화 증후군』 환자들을 위한 시설.^n하지만 얇은 껍질 한 겹만 벗기면 이곳은,^n부조리와 악의와 거짓으로 가득 찬 작은 세계였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1515.gsc::slot/00017",
+      "source_text": "でも、それに気づいたところで、^n僕に何ができるっていうんだろう……。",
+      "source_raw_sha256": "55B54E065A86D4DA31D1ABD49118CA0BDC2B353698A3F97769A13E7FEDADE4F7",
+      "target_text": "하지만 그 사실을 깨달았다고 해서,^n내가 무엇을 할 수 있다는 걸까…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

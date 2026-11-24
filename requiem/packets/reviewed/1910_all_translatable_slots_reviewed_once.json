@@ -1,0 +1,875 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1910_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    81
+  ],
+  "new_review_change_count": 8,
+  "new_review_changes": [
+    {
+      "slot": 4,
+      "before": "있잖아…….^n앨리스가 죽었대…….",
+      "after": "있잖아…….^n앨리스가 죽어 버렸대……."
+    },
+    {
+      "slot": 6,
+      "before": "어머, 정말이야?^n언제 일어난 일이니?",
+      "after": "어머, 정말이야?^n언제 일이니?"
+    },
+    {
+      "slot": 10,
+      "before": "오늘 점심이 지나고…….^n스스로 목을 맸다고 의사 선생님이…….",
+      "after": "오늘 점심때가 지나고…….^n스스로 목을 맸다고 의사 선생님이……."
+    },
+    {
+      "slot": 21,
+      "before": "괴로운 일이 많이 있으니까,^n죽고 싶어진 거잖아?",
+      "after": "괴로운 일이 아주 많아서,^n죽고 싶어진 거잖아?"
+    },
+    {
+      "slot": 36,
+      "before": "빵을 주는 척하다가 먹어 버리고,^n인형을 빼앗아 달아나고…… 우우우.",
+      "after": "빵을 준다더니 자기가 먹어 버리고,^n인형을 빼앗아 달아나고…… 우우우."
+    },
+    {
+      "slot": 43,
+      "before": "오딜이니까.^n그 아이는 가만히 괴롭힘을 당할 성격이 아니거든.",
+      "after": "오딜이니까.^n그 아이는 가만히 괴롭힘당할 성격이 아니거든."
+    },
+    {
+      "slot": 53,
+      "before": "그 정도로 죽는다면,^n나는 진작에 죽었을걸?",
+      "after": "그 정도로 죽는다면,^n나 같은 건 진작에 죽었을걸?"
+    },
+    {
+      "slot": 55,
+      "before": "응…… 그렇네.^n오딜은 오데트를 자주 괴롭히니까.^n",
+      "after": "응…… 그렇네.^n오딜은 오데트를 자주 괴롭히잖아.^n"
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    82,
+    139
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00001",
+      "source_text": "薔薇の咲き誇る|湖畔[こはん]。^n虫たちの静かなざわめきの中に|佇[たたず]む二人の影。",
+      "source_raw_sha256": "793867C8F1ADE19C8660F5332439F7BD74F6B9F3F195E869BBAEDD8C620BB580",
+      "target_text": "장미가 만발한 호숫가.^n벌레들의 잔잔한 울음 속에 두 사람의 그림자가 서 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00002",
+      "source_text": "沈み込んだ顔でうろつくグレーテルを見かけたオデットは、^n呼び止めてその理由を尋ねたのだが──",
+      "source_raw_sha256": "604BC78315A3143ABD06B910FD3E8F1600A50EE5209B95A33DAA15601DCD14F9",
+      "target_text": "풀이 죽은 얼굴로 서성이는 그레텔을 본 오데트는,^n불러 세워 이유를 물었는데──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00003",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00004",
+      "source_text": "あのね……。^nアリスちゃん、死んじゃったの……。",
+      "source_raw_sha256": "AA742536845355FF5BFD1FD54978092D0873787AF0B4409D3F40D028A8415F21",
+      "target_text": "있잖아…….^n앨리스가 죽어 버렸대…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00005",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00006",
+      "source_text": "えっ、本当に？^nいつのことなの？",
+      "source_raw_sha256": "25365354F4815E124F51D496831D2C032FC2A1CBD2FFEECDE39F2582A736D269",
+      "target_text": "어머, 정말이야?^n언제 일이니?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00007",
+      "source_text": "オデットには寝耳に水の話だった。",
+      "source_raw_sha256": "8A514638BA6390458C98E98BB90C0A9863800F4CC9EA7B78CB32813421D26530",
+      "target_text": "오데트에게는 마른하늘에 날벼락 같은 이야기였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00008",
+      "source_text": "もっとも昼間は部屋で白鳥の姿となっている彼女のこと、^n施設内の出来事に明るくないのは常のことではあったが。",
+      "source_raw_sha256": "7EAF72C1A838C1A998FC74DC5FF681BEB864AE383939214C004B3ACEFEFF9DB9",
+      "target_text": "낮에는 방에서 백조의 모습으로 지내는 그녀가^n시설 안의 일에 어두운 것은 늘 있는 일이었지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00009",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00010",
+      "source_text": "今日のお昼すぎ……。^n自分で首をつっちゃったんだって、お医者様が……。",
+      "source_raw_sha256": "5855E060B25C529998FC1F5E7738CB529CC448740F79932479EBA6C0D2E48090",
+      "target_text": "오늘 점심때가 지나고…….^n스스로 목을 맸다고 의사 선생님이…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00011",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00012",
+      "source_text": "そう……なんだ……。",
+      "source_raw_sha256": "44CCBE96A26CC639C4D8075454146BC0D58C06F03CA139D4B2B1DBD45AC1C447",
+      "target_text": "그렇……구나…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00013",
+      "source_text": "この病院で患者が亡くなるのは、^nこれまでにもなかった話ではない。",
+      "source_raw_sha256": "0A75BA11D92D41A0E7EDA68F547B41D8F48151C4FB27BE436C313779AD2F7ABE",
+      "target_text": "이 병원에서 환자가 죽는 일은^n전에도 없던 이야기는 아니었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00014",
+      "source_text": "オデットの知る限りでも、それは複数いた。^nだいぶ前にインゲル、そしてその後にドロシー。",
+      "source_raw_sha256": "9BA059B8C2EE320031421B27573A9C82DC0D82B7BF986ADDFB8391FE1580B328",
+      "target_text": "오데트가 아는 것만 해도 여러 명이었다.^n오래전에 잉게르, 그리고 그 뒤에는 도로시.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00015",
+      "source_text": "だが、その死因が自殺と伝えられるのは珍しいように思う。",
+      "source_raw_sha256": "B8D17F3936DE83A6126BFDB5C9CA8C6AB69FAF4E086FCAFBD62B790D069842D0",
+      "target_text": "하지만 사인이 자살이라고 알려지는 일은 드문 듯했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00016",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00017",
+      "source_text": "アリスちゃん……誰かにいじめられたのかな。",
+      "source_raw_sha256": "6AC7B3FB83140C031269C95869178010D339BEABA427D970E9C2D9F2F9CBB7E2",
+      "target_text": "앨리스…… 누군가한테 괴롭힘을 당한 걸까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00018",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00019",
+      "source_text": "どう……かしらね。^nわたしには、わからないわ。",
+      "source_raw_sha256": "646F22D95C4BB90923964A1D725A7E08981E17E355202967A2DEC10CC80515BC",
+      "target_text": "글쎄…… 어떨까.^n나는 모르겠어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00020",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00021",
+      "source_text": "だって、つらいことがたくさんあるから、^n死んじゃいたくなるんでしょう？",
+      "source_raw_sha256": "F64B49366FBC8AE970F20425DAF9D4E30AB99100A1B3B7ABE066A5232172DEFD",
+      "target_text": "괴로운 일이 아주 많아서,^n죽고 싶어진 거잖아?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00022",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00023",
+      "source_text": "そう、ね。",
+      "source_raw_sha256": "36CDDEEC5AE62A40A0B00FD117705B9CA37189966110324E42F8A5F998D56802",
+      "target_text": "그렇……겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00024",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00025",
+      "source_text": "まさか……まさかだけど……。^nあのひと──なのかな。",
+      "source_raw_sha256": "983B08FFABC61BEBABB1A07C266678F669ABA3209D5F2E1DF136677DD25B14CB",
+      "target_text": "설마…… 설마 아니겠지만…….^n그 사람──때문일까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00026",
+      "source_text": "グレーテルが戸惑いがちに挙げたのは、^n名無しの少年の事だった。",
+      "source_raw_sha256": "4FCC3C937B443EB3AAD9936054762FFD59326D04C79E114805603CA0FB28CAC5",
+      "target_text": "그레텔이 머뭇거리며 꺼낸 사람은,^n이름 없는 소년이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00027",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00028",
+      "source_text": "なにを言ってるの？^n彼、そんなひとじゃないでしょう？",
+      "source_raw_sha256": "791A0AAFE9BFD46959C3DFA070678A6E9432CE97750D627D1680528927705943",
+      "target_text": "무슨 말을 하는 거니?^n그 사람은 그런 사람이 아니잖아?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00029",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00030",
+      "source_text": "だって、今日……^nわたしたちのこと、いじめたの。",
+      "source_raw_sha256": "E3EDC32FB94D066F09A1B164A92403B7C4C8733A53236C2D2B8CB25718D4672D",
+      "target_text": "하지만 오늘……^n우리를 괴롭혔어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00031",
+      "source_text": "普段、悪意も|悪戯心[いたずらごころ]の欠片もなさそうに見える^n少年なだけに、オデットは意外な思いがした。",
+      "source_raw_sha256": "C699457443CB5E0B2116B647F4E1F8BBCFD858EE98160D6FB9CBD05253BA102B",
+      "target_text": "평소에는 악의도 장난기도 전혀 없어 보이던^n소년이었기에, 오데트는 뜻밖이라고 생각했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00032",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00033",
+      "source_text": "あの人がそんな意地悪をするとは^nとても思えないのだけど……。",
+      "source_raw_sha256": "BF60AC0F1F6187FA745DC7FD4306C5A4BDA49BF2E1390276AF831483CF7844AB",
+      "target_text": "그 사람이 그런 심술을 부릴 거라고는^n도저히 생각되지 않는데…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00034",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00035",
+      "source_text": "わたしも、そう思ってたけど──^n",
+      "source_raw_sha256": "A6DF04886EA0D379960DBDDA7831A143B4BE0A0200CA27F417897D830C31B3D5",
+      "target_text": "나도 그렇게 생각했지만──^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00036",
+      "source_text": "パンをくれる振りして食べちゃったり、^nぬいぐるみを取って逃げたり……うううっ。",
+      "source_raw_sha256": "DC8B4C22DFE80997B6B5083A05BAAB9CC4ACA10336EC1A906EF981120BAD1541",
+      "target_text": "빵을 준다더니 자기가 먹어 버리고,^n인형을 빼앗아 달아나고…… 우우우.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00037",
+      "source_text": "思い出すように、ひしとぬいぐるみを^n抱きしめながらグレーテルは涙ぐむ。",
+      "source_raw_sha256": "4B10BBBD5C4FF9F115C20FA327C98126698D2FD87BCF80B37DF842625997CE40",
+      "target_text": "그때를 떠올리듯 인형을 꼭 끌어안으며^n그레텔은 눈물을 글썽였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00038",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00039",
+      "source_text": "なんか、おかしいの。^n急に、話しかたまで変わっちゃって……。^nラプンツェルさんの髪も、引っ張ったり……。",
+      "source_raw_sha256": "EBE81D91A06FB4F0D07C93164612A03B9D595C0D3BBA85F230A7D9E1FC840005",
+      "target_text": "뭔가 이상해.^n갑자기 말투까지 바뀌어 버리고…….^n라푼젤의 머리도 잡아당기고…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00040",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00041",
+      "source_text": "あっ、オディールさんだけは^nひょいってかわしてたけど。",
+      "source_raw_sha256": "3628A73EED92A549A997C8ABEF922FCC8A37EE5FDAC8BC6D10277B2A1B390094",
+      "target_text": "아, 오딜만은^n휙 하고 피했지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00042",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00043",
+      "source_text": "オディールですものね。^n彼女は黙っていじめられるタイプじゃないもの。",
+      "source_raw_sha256": "01441AA7CAF7EC65397A4C3436BCB1697853A1BE870D2392DCCF3B504589DB82",
+      "target_text": "오딜이니까.^n그 아이는 가만히 괴롭힘당할 성격이 아니거든.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00044",
+      "source_text": "重苦しい話題を少しでも和らげようとしてか、^nオデットは冗談めかした口調で苦笑した。",
+      "source_raw_sha256": "2611280A8758DB48C0E138970C58E997F051FEB60492AD0FF6573AB9A0766CAE",
+      "target_text": "무거운 이야기를 조금이라도 누그러뜨리려는 듯,^n오데트는 농담 섞인 말투로 쓴웃음을 지었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00045",
+      "source_text": "グレーテルは鼻をすすり|零[こぼ]れた涙をぬぐったけれど、^n|項垂[うなだ]れ、沈み込んだままだった。",
+      "source_raw_sha256": "44FF0B32BC409126EC95CF09B7FFE098D9E42FFDC76BDDA6230C6D8441033371",
+      "target_text": "그레텔은 훌쩍이며 흘러내린 눈물을 닦았지만,^n고개를 떨군 채 여전히 풀이 죽어 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00046",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00047",
+      "source_text": "わたしたちは見てないけど、^nどこかでアリスちゃんもいじめられたのかも……。",
+      "source_raw_sha256": "B75FED136D76A98C1E88AAF170C33A986C8FDA706E05FDCAC0A1312A0F956B9B",
+      "target_text": "우리가 보지는 못했지만,^n어딘가에서 앨리스도 괴롭힘을 당했을지도 몰라…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00048",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00049",
+      "source_text": "でも彼が意地悪になったのって、昨日今日の話でしょう？^nアリスちゃんも、少しいじめられたくらいでは^n死んじゃったりはしないんじゃないかしら？",
+      "source_raw_sha256": "6701C5C226C3AB88E6EFDF3C0C8198B9F01B9AC565A3300A46E7A00572202671",
+      "target_text": "하지만 그가 심술궂어진 건 어제오늘 일이잖아?^n앨리스도 조금 괴롭힘을 당한 정도로^n죽지는 않았을 것 같은데?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00050",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00051",
+      "source_text": "……本当に？",
+      "source_raw_sha256": "548767032BC492E954602138662D3BADC03C237B4ADFB2C8C21580093DAEA7E3",
+      "target_text": "……정말?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00052",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00053",
+      "source_text": "そのくらいで死んじゃうなら、^nわたしなんてもうとっくよ？",
+      "source_raw_sha256": "A98D52D7E0365F02905C634B5A18C9A430C7FA1A4894F0E47C98E1178043D781",
+      "target_text": "그 정도로 죽는다면,^n나 같은 건 진작에 죽었을걸?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00054",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00055",
+      "source_text": "うん……そうだね。^nオディールさん、よくオデットさんのこと、いじめてるものね。^n",
+      "source_raw_sha256": "841870C7786717035886916A3FB759B2488DEE913E1217889CCD21AC865F266F",
+      "target_text": "응…… 그렇네.^n오딜은 오데트를 자주 괴롭히잖아.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00056",
+      "source_text": "あ！",
+      "source_raw_sha256": "8DECB7B1897AF5FB56F9571E9D08E593CC8F8162155CB4391C244309C029FBA1",
+      "target_text": "아!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00057",
+      "source_text": "　……ご、ごめんなさい。",
+      "source_raw_sha256": "CB3A0443A6ECA1335161E907F087CA69F831F343BB945AB7E46C388A7FAA6B76",
+      "target_text": "　……미, 미안해.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00058",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00059",
+      "source_text": "ううん、いいのよ。^nでもアリスちゃんのことは、きっと他に理由があるのよ。^n彼のせいじゃないとおもうわ。",
+      "source_raw_sha256": "573EF6E0CCC4F75EEC1128A6251CA46026C0516B5E145BD65FDCB6D70EE96C22",
+      "target_text": "아니야, 괜찮아.^n하지만 앨리스 일에는 분명 다른 이유가 있을 거야.^n그 사람 탓은 아니라고 생각해.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00060",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00061",
+      "source_text": "うん、そう……だよね。^nでも、本当にどうしちゃったんだろう？^n急にいじめっ子になるなんて……。",
+      "source_raw_sha256": "5F3594E4FB7F96F34564E44E93B36D8E7617C58A4451F8C3940736C98E5B1EB2",
+      "target_text": "응, 그렇……겠지.^n그런데 정말 어떻게 된 걸까?^n갑자기 괴롭히는 아이가 되다니…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00062",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00063",
+      "source_text": "きっと、何か理由があるのよ。",
+      "source_raw_sha256": "494763B30EE5E741F3F270B54ADF378F31F58E71EC8AB4A63536A6072A0B746B",
+      "target_text": "분명 무슨 이유가 있을 거야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00064",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00065",
+      "source_text": "意地悪するのにも、理由があるの？",
+      "source_raw_sha256": "5C2CF7D0E51B8658E393E515CA3F68247FCDF6F554FB30F2E32670BAADD89C5A",
+      "target_text": "심술을 부리는 데도 이유가 있어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00066",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00067",
+      "source_text": "ええ、たぶんね。",
+      "source_raw_sha256": "BD99E5F022E34E840438B9156921063997626F3D7ED8DFA81227206C97931433",
+      "target_text": "응, 아마도.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00068",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00069",
+      "source_text": "よくわかんない……。",
+      "source_raw_sha256": "6758AEEE5EEEEFEA0BDD8296C8D493ABBB5E892600F9FDD24DB3A28EC4FF43EB",
+      "target_text": "잘 모르겠어…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00070",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00071",
+      "source_text": "でも、じゃあじゃあ、^nオディールさんがオデットさんを^nいじめるのにも理由があるの？",
+      "source_raw_sha256": "7DEBFC740B5A79B4C61ED1DC6A66D964F132916488DAC122C8CBA9CB9EA82CC5",
+      "target_text": "그럼, 그러면,^n오딜이 오데트를^n괴롭히는 데도 이유가 있어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00072",
+      "source_text": "思わぬ方向からのグレーテルの質問に、^nオデットは少し言い|淀[よど]んでしまう。",
+      "source_raw_sha256": "0A2176F198424AA0D4A1879A2ACE55E69AEB1F2D6214FC2B28FB51E32007BEEC",
+      "target_text": "뜻밖의 방향에서 나온 그레텔의 질문에,^n오데트는 잠시 말이 막혔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00073",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00074",
+      "source_text": "えっ？^n",
+      "source_raw_sha256": "BF2A2E34EBF9D887C2BD985FD4C1581085476AD435C35F70FB4F5BEED4586CEF",
+      "target_text": "어?^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00075",
+      "source_text": "ええ、たぶん、そうね……。",
+      "source_raw_sha256": "477064E4ECAAF05766F340115EF5C5410344F150D22E33004AAD39D0AE4A7A7C",
+      "target_text": "응, 아마 그렇겠지…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00076",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00077",
+      "source_text": "でも、オデットさんは死んじゃ、やだよ？^n他のみんなも……やだけど。",
+      "source_raw_sha256": "6CCABAC10BD1C739010027BB129303F7A0B8C8AD633C1EFE75EAB2EF14D615A2",
+      "target_text": "그래도 오데트가 죽으면 싫어.^n다른 사람들도…… 싫지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00078",
+      "source_text": "鼻をすすりながら不安そうな顔で見上げるグレーテルに、^nオデットは精一杯の優しい笑みを返した。",
+      "source_raw_sha256": "5CCE487282F236B5C0A68C50D94E9FF875FAE08CEC29837708F52A6616C4F133",
+      "target_text": "코를 훌쩍이며 불안한 얼굴로 올려다보는 그레텔에게,^n오데트는 힘껏 다정한 미소를 지어 보였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00079",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00080",
+      "source_text": "ええ、大丈夫よ。^nありがとう、グレーテル。",
+      "source_raw_sha256": "2F2233553AAD8AD86A36EFFEF4AC7B00DC2A1826014C59D700721E080E008A42",
+      "target_text": "응, 괜찮아.^n고마워, 그레텔.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1910.gsc::slot/00081",
+      "source_text": "ふたりはその後も小さな体を寄せ合いながら、^n庭園の薔薇にアリスの面影を見て静かに|佇[たたず]むのであった。",
+      "source_raw_sha256": "103DF6DD2A10F509DF5E001FD371C0CF7000F52A0DFDFA91F0652E2CB947D2B4",
+      "target_text": "두 사람은 그 뒤에도 작은 몸을 맞댄 채,^n정원의 장미에서 앨리스의 모습을 떠올리며 조용히 서 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

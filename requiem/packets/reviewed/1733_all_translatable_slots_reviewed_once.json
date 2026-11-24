@@ -1,0 +1,2070 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1733_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Local Gemma 4 26B Q4_0 draft plus exactly one local Gemma review pass; no external API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one local Gemma review pass",
+  "newly_reviewed_range": [
+    1,
+    191
+  ],
+  "new_review_change_count": 15,
+  "new_review_changes": [
+    {
+      "slot": 16,
+      "before": "우걱우걱우걱우걱…….^n우물우물우물우물…….",
+      "after": "꿀꺽꿀꺽꿀꺽꿀꺽…….^n우물우물우물우물……."
+    },
+    {
+      "slot": 33,
+      "before": "어머, 피터. 하나도 안 먹었잖아.^n이렇게나 많으니까, 좋아하는 걸로 먹어.",
+      "after": "어머, 피터. 하나도 안 먹었잖아.^n이렇게나 많이 있으니까, 좋아하는 걸로 마음껏 먹어."
+    },
+    {
+      "slot": 36,
+      "before": "피터는 퉁명스럽게 대답했습니다.^n분명 아침부터 후크 선장과 싸우느라 지친 것이겠지요.",
+      "after": "피터는 퉁명스럽게 대답했습니다.^n분명 아침부터 후크 선장과 한바탕 싸우느라 지친 것이겠지요."
+    },
+    {
+      "slot": 37,
+      "before": "오늘 그는 네버랜드를 되찾았다고 선언했을 때만^n안심한 듯 미소 지었고,^n그 뒤로는 내내 발바닥을 벌레에게 물린 것처럼 불쾌한 기분입니다.",
+      "after": "오늘 그는 네버랜드를 되찾았다고 선언했을 때만^n안심한 듯 미소 지었고,^n그 뒤로는 내내 발바닥을 벌레에게 물린 것처럼 심술이 나 있습니다."
+    },
+    {
+      "slot": 41,
+      "before": "팅크는 스스로도 명안이라고 생각하며 고개를 끄덕였습니다.^n고기라면 분명 피터도 기쁘게 먹어 주겠지요.",
+      "after": "팅크는 스스로도 좋은 생각이라고 생각하며 고개를 끄덕였습니다.^n고기라면 분명 피터도 기쁘게 먹어 주겠지요."
+    },
+    {
+      "slot": 47,
+      "before": "오딜은 뒤틀린 성격이라 언제나 불쾌한 기분입니다.^n기분이 좋을 때는 적당히 사람을 놀릴 수 있을 때 정도뿐입니다.",
+      "after": "오딜은 성격이 뒤틀려서 언제나 심술이 나 있습니다.^n기분이 좋을 때는 적당히 사람을 놀릴 수 있을 때 정도뿐입니다."
+    },
+    {
+      "slot": 48,
+      "before": "하지만 지금의 불쾌함은 평소와는 조금 다른 것 같다는 느낌이 듭니다.",
+      "after": "하지만 지금의 심술은 평소와는 조금 다른 것 같다는 느낌이 듭니다."
+    },
+    {
+      "slot": 88,
+      "before": "엄마라고 말하려다 다시 고쳐 말한 것은,^n\"작고 다정한, 엄마가 된 지 얼마 안 된 엄마\"에게^n　부담을 주고 싶지 않았기 때문입니다.",
+      "after": "엄마라고 말하려다 다시 고쳐 말한 것은,^n\"작고 다정한, 엄마가 된 지 얼마 안 된 엄마\"에게^n부담을 주고 싶지 않았기 때문입니다."
+    },
+    {
+      "slot": 113,
+      "before": "어머, 그레텔도 참.^n빵을 양손에 들고 먹다니, 예의가 없잖니.^n게다가 볼에 먹다 남은 게 묻었어.",
+      "after": "어머, 그레텔도 참.^n빵을 양손에 들고 먹다니, 예의가 없잖니.^n게다가 볼에 부스러기가 묻었어."
+    },
+    {
+      "slot": 121,
+      "before": "그, 그래…… 아무래도 조금, 많이 넣어버린 것 같아.^n어지러운 게 가라앉을 때까지, 우유라도 좀 마셔야겠어.",
+      "after": "그, 그래…… 아무래도 조금, 너무 많이 넣어버린 것 같아.^n어지러운 게 가라앉을 때까지, 우유라도 좀 마셔야겠어."
+    },
+    {
+      "slot": 129,
+      "before": "──오딜, 왜 그래? 기운이 없어 보이네.^n무슨 고민이라도 있어?^n엄마한테 말하면 들어줄게.",
+      "after": "──오딜, 왜 그래? 기운이 없어 보이네.^n무슨 고민이라도 있어?^n엄마한테 말하면 다 들어줄게."
+    },
+    {
+      "slot": 131,
+      "before": "……………….^n당신이랑은 상관없는 일이야.^n당신이랑은.",
+      "after": "……………….^n너랑은 상관없는 일이야.^n너랑은."
+    },
+    {
+      "slot": 135,
+      "before": "과거 그 소녀는, '낙원'에서^n　오딜 이외에는 단 한 명뿐인,^n'진정한 자신'이라는 것을 잃지 않은 환자였습니다.",
+      "after": "과거 그 소녀는, '낙원'에서^n　오딜 이외에는 단 한 명뿐인,^n'진정한 자신'을 잃지 않은 환자였습니다."
+    },
+    {
+      "slot": 137,
+      "before": "그렇기에 오딜은 입 밖으로 내지는 않았지만,^n자신과 같은 고통에 휩싸여 있는 소녀의 존재를^n조금이나마 고맙게 여기고 있었습니다.",
+      "after": "그렇기에 오딜은 입 밖으로 내지는 않았지만,^n자신과 같은 고통을 겪고 있는 소녀의 존재를^n조금이나마 고맙게 여기고 있었습니다."
+    },
+    {
+      "slot": 168,
+      "before": "팅크는 피터가 피터답지 않게^n변해버린 것 같은 기분이 들어 불안해졌습니다.",
+      "after": "팅크는 피터가 피터다움을^n버려버린 것 같은 기분이 들어 불안해졌습니다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249
+  ],
+  "lookup_slot_range": [
+    192,
+    249
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00001",
+      "source_text": "緑の庭に、色とりどりの声が響きわたります。",
+      "source_raw_sha256": "2EC76E2EEAFCE6680283C6BEE36E1C3DEB959E479E4519502781AA0B80D35918",
+      "target_text": "초록빛 정원에, 형형색색의 목소리가 울려 퍼집니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00002",
+      "source_text": "それぞれのティーカップがあちこちでぶつかって、^n楽しく美味しいティーパーティがはじまりました。",
+      "source_raw_sha256": "C115F30C27A726B526392D1A8FE5794FBDD7CA3601ABBB0E24263F3FCB4376B2",
+      "target_text": "각자의 찻잔이 여기저기서 부딪히며,^n즐겁고 맛있는 티파티가 시작되었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00003",
+      "source_text": "いつか、庭園の同じところで開かれたパーティのように、^n|行儀[ぎょうぎ]のいいものではありません。",
+      "source_raw_sha256": "66C6982A5F19A8B61711663FEEE199D04684DA2B345B5F5350033B5CCE369CDB",
+      "target_text": "언젠가 정원의 같은 장소에서 열렸던 파티처럼,^n예의 바른 것은 아닙니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00004",
+      "source_text": "最初こそ、今までそうしていたから、という理由で^nなんとなく|遠慮[えんりょ]がちだったコドモたちは、^nすぐにオトナの目がない快適さに気づいたのです。",
+      "source_raw_sha256": "F72574933D3C404E4DB06195AF7233871C8CD479D4767B5939A17AAC88C4F083",
+      "target_text": "처음에는 지금까지 그래왔다는 이유로^n어쩐지 머뭇거리던 아이들은,^n곧 어른들의 눈치가 보이지 않는 쾌적함을 깨달았습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00005",
+      "source_text": "なにしろ、ネバーランドをコドモたちの手に^n取り戻したことをお祝いする宴なのですから。",
+      "source_raw_sha256": "A1688A29EE03A2F4E994700CA20CFBEAF8129EF8ABBB0D8821FD203BAA2F000F",
+      "target_text": "무엇보다, 네버랜드를 아이들의 손으로^n되찾은 것을 축하하는 연회니까요.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00006",
+      "source_text": "むしろその喜ばしい事実を盛大にお祝いするためには、^nコドモらしくかしこまらずに、お|行儀[ぎょうぎ]悪く、^n好きなように食い散らかすのが新しいマナーといえるでしょう。",
+      "source_raw_sha256": "B8101709D9DCFC89791EB52924F52854CE8E8FF1E1CFFFE53F7A1A6AF0DE5A8E",
+      "target_text": "오히려 그 기쁜 사실을 성대하게 축하하기 위해서는,^n아이답게 격식을 차리지 않고, 예의 없이,^n마음껏 먹어치우는 것이 새로운 매너라고 할 수 있겠지요.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00007",
+      "source_text": "キッチンにあった食料を好きなだけかき集めて、^n思い切り甘いパンや仮面のようなクッキーを焼いても、^n口うるさく|咎[とが]める人はもういません。",
+      "source_raw_sha256": "8F9C3D5703EC0F8561261D69A976EB39BFA98006EF39A0EC053E3F86D61F3B4B",
+      "target_text": "주방에 있던 식료품을 원하는 만큼 긁어모아,^n마음껏 달콤한 빵이나 가면 같은 쿠키를 구워도,^n잔소리하며 나무랄 사람은 이제 없습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00008",
+      "source_text": "食べ方、飲み方だって、^nいちいち格式張った指図を受けたりしません。",
+      "source_raw_sha256": "ACF4318A1B4D7D774E174634EA52AEC8DCE4543297E79689619589FC0AC590E6",
+      "target_text": "먹는 법, 마시는 법조차,^n일일이 격식 차린 지시를 받지는 않습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00009",
+      "source_text": "塗りすぎたジャムがテーブルクロスにこぼれても、^nパンケーキがひたひたになるほどシロップをかけても、^n食べたいように食べればいいのです。",
+      "source_raw_sha256": "2876F3739953BE05B7D1F6030D98259D82BE5E84B0774A323683B1FCEC632D21",
+      "target_text": "너무 많이 바른 잼이 테이블보에 흘러도,^n팬케이크가 흠뻑 젖을 정도로 시럽을 뿌려도,^n먹고 싶은 대로 먹으면 됩니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00010",
+      "source_text": "並べられたあれこれに夢中になりすぎて^nティーカップを倒してしまったとしても、構いません。",
+      "source_raw_sha256": "7EAD1BF0E5C22AC6FB5A18DF055C084C3366CF069B2BCD68293B887050839C8F",
+      "target_text": "차려진 이것저것에 너무 열중한 나머지^n찻잔을 쓰러뜨린다 해도, 상관없습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00011",
+      "source_text": "テーブルクロスにできるしみがキリンの形をかたどる様を^nじいっと見つめているうちに、^nだれかが新しい飲み物を足してくれます。",
+      "source_raw_sha256": "045E16CB8CEA32CC2108659A0D498F6148AA7F55E3E1D768A50362DF60A7B07F",
+      "target_text": "테이블보에 생긴 얼룩이 기린 모양을 닮아가는 것을^n가만히 바라보고 있으면,^n누군가가 새로운 음료를 채워줍니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00012",
+      "source_text": "おなかや胸の奥にいつの間にかぽっかり空いていた穴も、^n自由気ままに食べたいものをつめこめば、^nとても美味しく、とても幸せな形に埋まるに違いありません。",
+      "source_raw_sha256": "DBE616456331F9476023C741C5CA4BAAF0CBE869504B403BBDB4ACD18B1C6248",
+      "target_text": "배나 가슴 속 깊은 곳에 어느샌가 뻥 뚫려 있던 구멍도,^n자유분방하게 먹고 싶은 것을 채워 넣으면,^n무척 맛있고, 무척 행복한 형태로 채워질 것이 분명합니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00013",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00014",
+      "source_text": "グレーテル、このパンもきっと美味しいわ。",
+      "source_raw_sha256": "EC54069A6CB8C93F174BCC6C949F48268DD8C3437FBCEF155773809E45816B68",
+      "target_text": "그레텔, 이 빵도 분명 맛있을 거야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00015",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00016",
+      "source_text": "んぐんぐんぐんぐ……。^nもぐもぐもぐもぐ……。",
+      "source_raw_sha256": "D73FBC7C3768D443F97AFAE3CC5D2FDA93E84E05B4923B1594749A136059C64E",
+      "target_text": "꿀꺽꿀꺽꿀꺽꿀꺽…….^n우물우물우물우물…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00017",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00018",
+      "source_text": "はぁ……いい香り。",
+      "source_raw_sha256": "69B7DA1AAC1E8D6093B07C056501AF36F97B1397168DB94FEF8BC63306DB4FDD",
+      "target_text": "하아…… 좋은 향기.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00019",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00020",
+      "source_text": "ラプンツェル、お茶に何を入れたの？^nかわった香り……。",
+      "source_raw_sha256": "6B15732F25C0B41DD06D361F93012820253221F29F95B6A82E065ADB3A771652",
+      "target_text": "라푼젤, 차에 뭐 넣은 거야?^n색다른 향기가 나...",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00021",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00022",
+      "source_text": "ブランデーよ。^n一度やってみたかったの。",
+      "source_raw_sha256": "5F66C63F3154CAE7761E200E131D00709CE37DA7814338C9539A22EF72FF2782",
+      "target_text": "브랜디야.^n한번 해보고 싶었거든.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00023",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00024",
+      "source_text": "まあ！　オトナのお味ね、きっと。",
+      "source_raw_sha256": "9C58CEDD84AFFDD747589C801A7F2D4B11B2D0E90200AB0A9BE0C320E96F7A26",
+      "target_text": "어머나! 분명 어른스러운 맛이겠네.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00025",
+      "source_text": "ティンクはすんすんと鼻を鳴らして、^nブランデーの複雑な香りを味わいます。",
+      "source_raw_sha256": "1450F42BCDBA619F27E9720645FC92CB70A50979233EEB66E72548747D8AEE3A",
+      "target_text": "팅크는 킁킁거리며^n브랜디의 복잡한 향기를 음미합니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00026",
+      "source_text": "　あんまりいい匂いには感じられませんが、^n「ブランデー」という響きには、少しくらい好みに合わなくても^n　味わうべき、といった奥行きを感じます。",
+      "source_raw_sha256": "EA906DC66B0CAF5A6638B82042B92CF5419C35A2046399C16618878E9CE67940",
+      "target_text": "그리 좋은 향기라고는 느껴지지 않지만,^n'브랜디'라는 울림에는, 조금 취향에 맞지 않더라도^n음미해야만 하는 듯한 깊이가 느껴집니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00027",
+      "source_text": "しかしティンクは妖精です。^nラプンツェルにとっては一風変わった香り付けでも、^nティンクの小さな体にとっては毒かもしれません。",
+      "source_raw_sha256": "81960A869D7CB54799F5DEC948199254D2698C023B7BBD49A1017367D5C2BC17",
+      "target_text": "하지만 팅크는 요정입니다.^n라푼젤에게는 색다른 향신료일지 몰라도,^n팅크의 작은 몸에는 독이 될지도 모릅니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00028",
+      "source_text": "ティンクには、^nブランデーの味わいより気になるものがありました。",
+      "source_raw_sha256": "9BBD86A480D7A352EA15C5E1F12DDF59D60D1223DFF08CC1EAC4C2D71F19B9D1",
+      "target_text": "팅크에게는,^n브랜디의 맛보다 신경 쓰이는 것이 있었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00029",
+      "source_text": "「オトナのお味」という言葉に反応して^n　ピクリと|眉[まゆ]をしかめた、不機嫌なピーターの手元です。",
+      "source_raw_sha256": "057325035B08DE6888F4A6ABEC5C007E5320D687A62D23D40E7EE93EF36EF3B0",
+      "target_text": "'어른스러운 맛'이라는 말에 반응해^n움찔하며 눈썹을 찌푸린, 불쾌한 기색의 피터의 손끝입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00030",
+      "source_text": "彼のお皿にはスコーンやブリオッシュを山と積んだのに^nピーターはそのどれもに手をつけず、さっきからずっと、^n彩りのためのミントの葉を口にくわえています。",
+      "source_raw_sha256": "17A8CCDA98AB83DA5CBDEEF955E15519D2A28CEB69DB3F6FFC66B53621EBD1FD",
+      "target_text": "그의 접시에는 스콘과 브리오슈가 산처럼 쌓여 있음에도^n피터는 그 무엇에도 손을 대지 않고, 아까부터 계속^n장식을 위한 민트 잎을 입에 물고 있습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00031",
+      "source_text": "ティンクの価値観では、それは食べ物ではありません。",
+      "source_raw_sha256": "1E1233AF5359FA0F77221D1A0B202F270E6CBB4343D29013AAF9493D305D64D5",
+      "target_text": "팅크의 가치관으로는, 그것은 음식이 아닙니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00032",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00033",
+      "source_text": "あら、ピーター。ちっとも食べていないじゃない。^nこれだけあるのだから、お好きなものを召し上がって。",
+      "source_raw_sha256": "B9B3997A15A6AA69BE32860475CD25781CF642F49E6DB895F039B272E0CEB8FE",
+      "target_text": "어머, 피터. 하나도 안 먹었잖아.^n이렇게나 많이 있으니까, 좋아하는 걸로 마음껏 먹어.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00034",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00035",
+      "source_text": "──お好きなものなんてねぇよ。^n口ん中が甘ったるくなるのはごめんだ。",
+      "source_raw_sha256": "699B8C6AC7673C206F329BD57A63ABD27EADE3672835608A25005213CD42DDC0",
+      "target_text": "──좋아하는 거라니 말도 안 돼.^n입안이 달콤해지는 건 사양이야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00036",
+      "source_text": "ピーターはぶっきらぼうに答えました。^nきっと朝からフック船長とやりあって、疲れているのでしょう。",
+      "source_raw_sha256": "892C87E5CAEF5AEBB927D780C580060874A7C6B44419FA1EA19A4A82A4B73F0E",
+      "target_text": "피터는 퉁명스럽게 대답했습니다.^n분명 아침부터 후크 선장과 한바탕 싸우느라 지친 것이겠지요.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00037",
+      "source_text": "今日の彼はネバーランドを取り返したという宣言をした時だけ^n安心したように微笑み、^nあとはずっと足の裏を虫に刺されたように不機嫌です。",
+      "source_raw_sha256": "63C369A6BFB4ECAE50A9B920725E3247E5ACABFA04AA398226F58908A7AE16AB",
+      "target_text": "오늘 그는 네버랜드를 되찾았다고 선언했을 때만^n안심한 듯 미소 지었고,^n그 뒤로는 내내 발바닥을 벌레에게 물린 것처럼 심술이 나 있습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00038",
+      "source_text": "心なしか、顔色も悪いように感じます。",
+      "source_raw_sha256": "1D39BDDF2A0BC1B992ADEE0510D4D879B11D786437D8CDD5F3474FEAA8A8CE47",
+      "target_text": "기분 탓인지, 안색도 안 좋아 보입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00039",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00040",
+      "source_text": "困ったわねぇ……。^nわかったわ。あとでお肉を焼いてあげるから。",
+      "source_raw_sha256": "41E67B824B59057333D7B77248A4EAD03A54EB9FA5E4A90F3E3FCA6DC115D80D",
+      "target_text": "곤란하네…….^n알았어. 나중에 고기를 구워 줄 테니까.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00041",
+      "source_text": "ティンクは自分でも名案だと思いながら、うなずきました。^nお肉ならきっとピーターも喜んで食べてくれるでしょう。",
+      "source_raw_sha256": "AC5FA4A9CCAE92FE7174075C83C6E91E589276D374F67B977DA59918ED088668",
+      "target_text": "팅크는 스스로도 좋은 생각이라고 생각하며 고개를 끄덕였습니다.^n고기라면 분명 피터도 기쁘게 먹어 주겠지요.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00042",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00043",
+      "source_text": "もぐもぐもぐもぐ、ごくん！^n──ねぇ、どうしたの。食べない、ですか？",
+      "source_raw_sha256": "D5FD9BB6192493A81DE751622E92C6BBA065DCCE277EB27629A25A20F125A038",
+      "target_text": "우물우물우물우물, 꿀꺽!^n──저기, 왜 그래? 안 먹을 거야?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00044",
+      "source_text": "グレーテルはグレーテルで、^n向かいに座っているオディールの様子が気になっているようです。",
+      "source_raw_sha256": "0220AF262AB05FEB180D30D0C9B1B519C51487A23C77EA17C6CF57DEEE40FC96",
+      "target_text": "그레텔은 그레텔대로,^n맞은편에 앉아 있는 오딜의 상태가 신경 쓰이는 모양입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00045",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00046",
+      "source_text": "ん……？^nあたしも、甘いのは趣味じゃないのよ。^n前に言わなかったっけ。",
+      "source_raw_sha256": "3A8D2D9258B38F3E2D8F52C31C23070EB4F42B4A264C461F302960755616B70B",
+      "target_text": "응……?^n나도 단 건 취미 아니거든.^n전에 말하지 않았었나?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00047",
+      "source_text": "オディールはひねくれものですから、いつも不機嫌です。^n機嫌がいいときは、いい具合に人をからかえた時くらいです。",
+      "source_raw_sha256": "4233E1CA981FA9F75BD24875330A6F54DCC9E90B39ECD68A610620A7B3128C04",
+      "target_text": "오딜은 성격이 뒤틀려서 언제나 심술이 나 있습니다.^n기분이 좋을 때는 적당히 사람을 놀릴 수 있을 때 정도뿐입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00048",
+      "source_text": "しかし今の不機嫌は、いつものとは少し違うような気がします。",
+      "source_raw_sha256": "4D3CC5F787808EDFC00D45D0DA4A4A3AA96676A2ACD3CC40BD3AFB941389E75C",
+      "target_text": "하지만 지금의 심술은 평소와는 조금 다른 것 같다는 느낌이 듭니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00049",
+      "source_text": "疲れていて眠たいのに、^n無理矢理叩き起こされて苦手な算数を学ばされている、^nそんなけだるい顔をしています。",
+      "source_raw_sha256": "5BD844E0F62950212B872C3ACAEDF3559563C798DCED298DD39420DD749B8088",
+      "target_text": "피곤해서 졸린데도,^n억지로 억지로 깨워져서 싫어하는 산수를 배우고 있는,^n그런 나른한 얼굴을 하고 있습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00050",
+      "source_text": "いつもなら、誰かのおせっかいには鋭い|剣突[けんつく]を食らわせるのに、^nグレーテルに向かってどこか投げやりにこういうだけです。",
+      "source_raw_sha256": "B807C55908FF9B6E3951E0AF8A0B7EB2741858B7C4EFA26661239F8B095FC431",
+      "target_text": "평소라면 누군가의 참견에 날카로운 일침을 가했을 텐데,^n그레텔을 향해서는 어딘가 자포자기한 듯 이 정도뿐입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00051",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00052",
+      "source_text": "どうしてもっていうなら、あいつの……。^nオデットの分を包んでやって頂戴。^nあとで持っていくから。",
+      "source_raw_sha256": "51A0B943648957EF0C421E479058B4C2B92D17048C2A4F90C313B149CBB477E1",
+      "target_text": "정 그렇다면, 그 녀석의……^n오데트의 몫까지 싸서 가져다줘.^n나중에 가져갈 테니까.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00053",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00054",
+      "source_text": "……？^n白鳥から人間に戻ったら、食べる？",
+      "source_raw_sha256": "C5ACD601A2BA5AE4835E7F85C46D62AB822151977D2BCAD79BCD261263B96B7E",
+      "target_text": "……?^n백조에서 인간으로 돌아가면, 먹을 거야?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00055",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00056",
+      "source_text": "まあ、そういうことね。",
+      "source_raw_sha256": "56663E3E6BEAB47A60D436A1EEC58C357657708B012CEC473947A421F6377E8B",
+      "target_text": "뭐, 그런 셈이지.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00057",
+      "source_text": "もちろん、オデットは白鳥の姿でこの会に出席しています。^nしかし鳥の姿でいるときは、^n人間の食べ物はあまり合わないのかもしれません。",
+      "source_raw_sha256": "5E0C119A307E39BA88987CD8731F8E26C0B97B18BBBD1791E2625144F21F1B27",
+      "target_text": "물론, 오데트는 백조의 모습으로 이 모임에 참석하고 있습니다.^n하지만 새의 모습으로 있을 때는,^n인간의 음식이 잘 맞지 않는 것일지도 모릅니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00058",
+      "source_text": "オディールはいつものようにオデットを小突きながら、^nどこか遠い目をしています。",
+      "source_raw_sha256": "8E48CEDB93695A15A0E7B936BC639DFF25524DEBA17EAD75BE1B7F0E49E95AEA",
+      "target_text": "오딜은 평소처럼 오데트를 쿡쿡 찌르며,^n어딘가 먼 곳을 바라보는 눈을 하고 있습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00059",
+      "source_text": "見えない影が落ちている、という言い回しを^nグレーテルは思い出しました。",
+      "source_raw_sha256": "C23C316187EBD077D51E230957CF91221433A30B8324E871971D7FEDAA89C09B",
+      "target_text": "보이지 않는 그림자가 드리워져 있다는 표현을^n그레텔은 떠올렸습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00060",
+      "source_text": "記憶をたどると、どうやらそれは^nオディールが「許せない相手」を手に掛けたときに^n彼女の上だけ空が|曇[くも]るように、落ちてきたのです。",
+      "source_raw_sha256": "6ADD35ED186D7B81547566C14C45498E3F5499D10E92DF73A3F3125EDA78FA3A",
+      "target_text": "기억을 더듬어보니, 아무래도 그것은^n오딜이 '용서할 수 없는 상대'를 해쳤을 때^n그녀의 머리 위로만 하늘이 흐려지듯 드리워진 것이었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00061",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00062",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00063",
+      "source_text": "そしてその「見えない影」は^nこのネバーランドの太陽であるピーターの上にも^n差し掛かっているようです。",
+      "source_raw_sha256": "0FAAD67523492DBD379A8C66D192FE85EB9054A05CC557E899F86507753A13FD",
+      "target_text": "그리고 그 '보이지 않는 그림자'는^n이 네버랜드의 태양인 피터에게도^n다가오고 있는 듯합니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00064",
+      "source_text": "ティンクはなおもあれこれと話しかけていますが、^n雨雲が日差しを|遮[さえぎ]るように、うまく届いていない様子でした。",
+      "source_raw_sha256": "2C71B0134DFA63D1B3D4CFAAB6985BE96D8BCFFA8B1A413F182DCFF87FAC2AB8",
+      "target_text": "팅크는 계속해서 이것저것 말을 걸고 있지만,^n먹구름이 햇살을 가로막듯, 제대로 닿지 않는 모양이었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00065",
+      "source_text": "ピーターもまた、フック船長を倒した時に^n自分の上だけお日様が届かなくなったことを知ったのでした。",
+      "source_raw_sha256": "1149EFE9FDA69FBA64677C4D777AA53F117D42C65758CB546B9BC87290BF5A4C",
+      "target_text": "피터 또한, 후크 선장을 쓰러뜨렸을 때^n자신에게만 햇살이 닿지 않게 되었다는 사실을 알게 되었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00066",
+      "source_text": "剣を握っていた右手からは、いまだに、^nずぶずぶと肉を切り裂いた感触が離れません。",
+      "source_raw_sha256": "6B981AFD8CCCE8553D4D1FB2AD7E84D5CBADA7935A7B3650DA5BA351BC811077",
+      "target_text": "검을 쥐고 있던 오른손에는, 여전히^n질척하게 살을 베어 가르던 감촉이 남아 있습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00067",
+      "source_text": "ピーターとオディールの様子を見ていたラプンツェルは、^nグレーテルやティンクよりもお姉さんですから、^nなんとなくその影の正体を察していました。",
+      "source_raw_sha256": "07E305CE855667414E9AEB0A99BF952F72A255CA002EE5298AB94D0B56166EBE",
+      "target_text": "피터와 오딜의 상태를 지켜보던 라푼젤은,^n그레텔이나 팅크보다 언니이기에,^n어렴풋이 그 그림자의 정체를 짐작하고 있었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00068",
+      "source_text": "けれど、ラプンツェルにはどうにもできません。^n彼らの心の雲を払える者は、この世にたったひとりです。",
+      "source_raw_sha256": "3573632886F19AD3BC7998176324FB43D6E40FFA96E09A5018EF56085BE98B81",
+      "target_text": "하지만 라푼젤로서는 어찌할 도리가 없습니다.^n그들의 마음속 구름을 걷어낼 수 있는 자는, 이 세상에 단 한 사람뿐입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00069",
+      "source_text": "あの人はまだ、寝たきりなのでしょうか。^n最近は、いつ訪ねていってもずっと目を閉じていて、^nまるで永遠の眠りについたような印象でした。",
+      "source_raw_sha256": "7D22943D40E25F9221C4A80391E02160A1AD7E56E7CB61837BF11318D247A91D",
+      "target_text": "그 사람은 아직, 누워만 있는 걸까요.^n요즘은 언제 찾아가도 계속 눈을 감고 있어서,^n마치 영원한 잠에 빠진 듯한 인상이었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00070",
+      "source_text": "こういうときにこそいてほしい。^nラプンツェルはブランデーの匂いに|目眩[めまい]しながら、^n心の中で神様に祈りました。",
+      "source_raw_sha256": "EFCAE4C78732EE7DC272A98519A7284068F1C95DAEA9ACD27C8942340359EB93",
+      "target_text": "이럴 때일수록 있어 주었으면 좋겠습니다.^n라푼젤은 브랜디 향기에 어지러움을 느끼며,^n마음속으로 신에게 기도했습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00071",
+      "source_text": "すると──",
+      "source_raw_sha256": "266F65150DC3CE6644F895ADFEDD8E36CFE30D1C5B8353C5206253483AD6EC6D",
+      "target_text": "그러자──",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00072",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00073",
+      "source_text": "──お待たせ。^n遅くなってしまってごめんなさいね。",
+      "source_raw_sha256": "62A19A15580B407D0AAD6A9208C18B20C7C0FE752B0D7E53E047B8AEFA7F260C",
+      "target_text": "──기다렸지.^n늦어서 미안해.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00074",
+      "source_text": "こんなにも早く、祈りが届くとは思ってもいませんでした。",
+      "source_raw_sha256": "ED3C49A197DA82A221400BA3A63793D4E083F6B728C5171F57359EE25F43D661",
+      "target_text": "이렇게나 빨리, 기도가 닿을 줄은 생각지도 못했습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00075",
+      "source_text": "　柔らかな微笑みを浮かべて席についたのは、^n　ウェンディこと、みんなが心の奥で待ち望んでいた^n「小さい、優しいおかあさん」でした。",
+      "source_raw_sha256": "18BB1AA8CB78C84ABDEDE4EBFE004A1C0CDB5C7675243B04FFB4C91E0DD62DDC",
+      "target_text": "부드러운 미소를 띠며 자리에 앉은 것은,^n웬디라 불리는, 모두가 마음속 깊이 갈망해 왔던^n「작고 다정한 어머니」였습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00076",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00077",
+      "source_text": "ウェンディ！",
+      "source_raw_sha256": "9719A26FAD5445B4E2BEF20E174A4C55F3A4531566F63A220BF2A1339B774A96",
+      "target_text": "웬디!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00078",
+      "source_text": "ピーターは椅子から飛び上がらんばかりに喜びます。",
+      "source_raw_sha256": "A30E44028D881D5C39DB0081B4E359F8CC81D1082B4DA74748A3725BCC57062E",
+      "target_text": "피터는 의자에서 튀어 오를 듯이 기뻐합니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00079",
+      "source_text": "さっきまでけだるそうに放り出していた手や足を引っ込め、^nしゃんと背筋を伸ばして、姿勢良く座りなおします。",
+      "source_raw_sha256": "D129E8077D6C3968F60AB44D419D5BBED37C0EFE5EAD5BA96A3B824980143273",
+      "target_text": "방금 전까지 나른하게 늘어뜨리고 있던 손과 발을 거두고,^n허리를 곧게 펴고 바른 자세로 다시 앉습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00080",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00081",
+      "source_text": "あらあら……いらっしゃい。^nもうお加減はいいの？",
+      "source_raw_sha256": "CC611E495215C72B6442CE58B5F3DADE8733D2F15D62CAD0390D1E2D883AE3D3",
+      "target_text": "어머나…… 어서 와.^n이제 몸은 좀 괜찮니?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00082",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00083",
+      "source_text": "ええ、もうすっかり。^n私の小さな子供たちのことが心配でね。^n早くベッドから出たかったわ。",
+      "source_raw_sha256": "F7A5C98B76C840D6892DC15474F23D9DAC866610B53DCF6A9714E27345665985",
+      "target_text": "네, 이제 완전히요.^n우리 작은 아이들이 걱정돼서 말이에요.^n빨리 침대에서 일어나고 싶었어요.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00084",
+      "source_text": "そのあたたかな声に感動して、^nコドモたちのため息が次々と風に乗りました。",
+      "source_raw_sha256": "53C11750FD6D3F9C3D1DC6DB610653933027C745D97BB9BA7E351CF08C1C72E0",
+      "target_text": "그 따뜻한 목소리에 감동하여,^n아이들의 한숨이 차례차례 바람을 타고 흘러갔습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00085",
+      "source_text": "グレーテルは瞳を|潤[うる]ませて、^n一番のお気に入りの、最後にとっておいたパンを^nウェンディに差し出します。",
+      "source_raw_sha256": "A17A8FBA866BC7617A1598C406C002C7E74764E7B4E079A0987764CB155EAFA1",
+      "target_text": "그레텔은 눈시울을 붉히며,^n가장 아끼는, 마지막까지 아껴두었던 빵을^n웬디에게 내밉니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00086",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00087",
+      "source_text": "おかあさ……ウェンディ、これ美味しいよ。",
+      "source_raw_sha256": "0795201896C364E22407B69C544395C9CC3EEFC00B39E7767C944F204978C3C0",
+      "target_text": "엄마…… 웬디, 이거 맛있어.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00088",
+      "source_text": "　おかあさんと言いかけて言い直したのは、^n「小さい優しい、おかあさんになりたてのおかあさん」に^n　負担をかけたくなかったからです。",
+      "source_raw_sha256": "00128C79175461352428C0695D141752A0765CDB482C9BFFF0FE16EA15AA211D",
+      "target_text": "엄마라고 말하려다 다시 고쳐 말한 것은,^n\"작고 다정한, 엄마가 된 지 얼마 안 된 엄마\"에게^n부담을 주고 싶지 않았기 때문입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00089",
+      "source_text": "しかしウェンディは心からうれしそうに微笑みました。",
+      "source_raw_sha256": "303066B8C451DBC3AE3CDFB7D8788E6EA3FB494AD72B6533769070AAAE689026",
+      "target_text": "하지만 웬디는 진심으로 기쁜 듯이 미소 지었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00090",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00091",
+      "source_text": "ありがとう、グレーテル。^nええ、おかあさんって呼んでも構わないわ。",
+      "source_raw_sha256": "FE7C28A202CA3634CF633E25163B58C7681F2CE1A6DEEBFFFE15A9A336F5D666",
+      "target_text": "고마워, 그레텔.^n응, 엄마라고 불러도 괜찮아.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00092",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00093",
+      "source_text": "……！　お、おかあさん！",
+      "source_raw_sha256": "B5F713E78156EEE360300B841BD30A8C7626301E5C9CDC964303C31B077A4495",
+      "target_text": "……! 엄, 엄마!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00094",
+      "source_text": "グレーテルは声を震わせ、呼びました。^nずっとずっと、こんなふうにおかあさんを呼んでみたかったのです。^n子供思いの、優しいおかあさんに巡り会えたとしたら。",
+      "source_raw_sha256": "83320EC21FC8CA120612A2BB5A4DAE91B10FC655159FD5E60BF159D6A7FE4554",
+      "target_text": "그레텔은 목소리를 떨며 불렀습니다.^n줄곧, 줄곧 이렇게 엄마라고 불러보고 싶었습니다.^n아이를 아끼는 다정한 엄마를 만날 수 있다면 말이에요.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00095",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00096",
+      "source_text": "ふふ、ありがとう。^n私はね、みんなのおかあさんになるために、^nこのネバーランドにお呼ばれされたのよ。",
+      "source_raw_sha256": "E2D973F1308731E7487E4D6C2B00DD297E40B4FC17AFDFC9A985D8E327AE10A2",
+      "target_text": "후후, 고마워.^n나는 말이야, 모두의 엄마가 되기 위해서,^n이 네버랜드로 초대받은 거란다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00097",
+      "source_text": "ウェンディは改めて宣言しながら、^n列席者の顔を眺め回しました。",
+      "source_raw_sha256": "0D63B99A9EDBD47B7B8A5AD50B16621C074ED3570765770AB0362957D00EAB55",
+      "target_text": "웬디는 다시 한번 선언하며,^n열석한 이들의 얼굴을 훑어보았습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00098",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00099",
+      "source_text": "そうでしょう、ピーター。",
+      "source_raw_sha256": "CB92B8EB994196ACB46F11E6059C68C54A98283C32EBE4BCF5FC62C1923D5255",
+      "target_text": "그렇지, 피터?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00100",
+      "source_text": "ピーターに向かって、^n理想の母の顔で、「おかあさん」は微笑みます。",
+      "source_raw_sha256": "6F32634D9AEE7430FDB4F53BE0C70EA7C38E698B4742151287A76602EDA1C133",
+      "target_text": "피터를 향해,^n이상적인 어머니의 얼굴로, \"엄마\"는 미소 짓습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00101",
+      "source_text": "ピーターのまっすぐな背筋が、ひときわ緊張しました。^nテーブルの下で|膝[ひざ]をこすって^nそわそわとてのひらの汗を|拭[ぬぐ]います。",
+      "source_raw_sha256": "54975AF4A8F6DC30A3FB40E12D26E46DA7849006025160821D6F51B2B4575001",
+      "target_text": "피터의 곧은 등줄기가 유난히 긴장했습니다.^n테이블 아래에서 무릎을 비비며^n안절부절못하며 손바닥의 땀을 닦아냅니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00102",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00103",
+      "source_text": "あ、ああ。そうさ。^nそうなんだ。",
+      "source_raw_sha256": "43A824A1BBA3AB82D50198CB4D4046E3B96F91571924EAF8E1A6D0319C3221EC",
+      "target_text": "아, 아아. 맞아.^n그래.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00104",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00105",
+      "source_text": "オレたちにはおかあさんが必要だろ？^nそれでオレはおかあさんを探して飛び回っていて、^nウェンディを見つけたんだ──",
+      "source_raw_sha256": "CB377231D9D153750D7E40ED0A315669AD4C0861F70A030C26B63EB28FDBA719",
+      "target_text": "우리에게는 엄마가 필요하잖아?^n그래서 난 엄마를 찾아서 날아다니다가,^n웬디를 찾아낸 거야──",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00106",
+      "source_text": "それはまるで、自分に言い聞かせているような声でした。",
+      "source_raw_sha256": "E7F539700EA624A17B0B9FE3AF0101F042926DA6D368F2B184E5AFEE88648AC5",
+      "target_text": "그것은 마치, 자기 자신에게 타이르는 듯한 목소리였습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00107",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00108",
+      "source_text": "よかったわね、ピーター！",
+      "source_raw_sha256": "C9267E60BE6832BB1B257F9805F5A647D21EB8BE47277BC8C15FF13EC3665BB9",
+      "target_text": "잘됐네, 피터!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00109",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00110",
+      "source_text": "ああ……。",
+      "source_raw_sha256": "B9CD62EC860EADF1D9F2E835DA67B7D747E77E62F569EBBC4A8DCB8B2A8C0219",
+      "target_text": "아아…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00111",
+      "source_text": "がんばって彼自身の望みを叶えたのに、^n叶ってしまったことにどこか気後れしているような^nぎこちない表情でした。",
+      "source_raw_sha256": "F1DC235F96771309237C7711CD39F451F7FB048C2540C10C8B502DD26A3FA61B",
+      "target_text": "힘껏 자신의 소망을 이뤄냈음에도,^n정말로 이루어져 버린 것에 어딘가 주저하는 듯한^n어색한 표정이었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00112",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00113",
+      "source_text": "まあ、グレーテルったら。^nパンを両手に持って食べるなんて、お|行儀[ぎょうぎ]が悪いわよ。^nそれに、頬に食べかすがついているわ。",
+      "source_raw_sha256": "4D4F93172E1790B413568F0E182F1F8CD78F4CB7BB3C8EF5422CAF09A25CC497",
+      "target_text": "어머, 그레텔도 참.^n빵을 양손에 들고 먹다니, 예의가 없잖니.^n게다가 볼에 부스러기가 묻었어.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00114",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00115",
+      "source_text": "ん、んんぅ……。^nご、ごめんなさい。",
+      "source_raw_sha256": "D97752C7EEEB7BA8B47B9F262BC4206173E2B28D0DE541B485C640FF10DE3921",
+      "target_text": "응, 으응…….^n미, 미안해요.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00116",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00117",
+      "source_text": "ふふ、小さいけれど、しっかりしたおかあさまね。",
+      "source_raw_sha256": "C10B04D66BABA25533955C36A7E0F1A52E83502D2FC3831D2304EA1111B26806",
+      "target_text": "후후, 작지만 듬직한 어머니네.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00118",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00119",
+      "source_text": "ラプンツェルは、ブランデーを入れ過ぎじゃないかしら？^n身体を温めるのはいいことだけれど、^n酔って転ばないように注意するのよ。",
+      "source_raw_sha256": "CA3A9D7B35B9E0140B53F90B18D7F3ECBCBF2D5CDEB94EEBBEE66344E0BBCBAB",
+      "target_text": "라푼젤, 브랜디를 너무 많이 넣은 거 아니니?^n몸을 따뜻하게 하는 건 좋지만,^n취해서 넘어지지 않도록 조심하렴.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00120",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00121",
+      "source_text": "そ、そうなの……どうやら少し、入れ過ぎてしまったの。^nくらくらするのが収まるまで、ミルクでもいただくわ。",
+      "source_raw_sha256": "F7C5610E107C6FD2B6A77440D4E64C116A333F3BD75FC15A79C9EA6CA9411274",
+      "target_text": "그, 그래…… 아무래도 조금, 너무 많이 넣어버린 것 같아.^n어지러운 게 가라앉을 때까지, 우유라도 좀 마셔야겠어.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00122",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00123",
+      "source_text": "ティンク、ティンカー＝ベルはちょっと座りなさい。^nあなた、他の人の世話を焼いてばかりで自分はどうしたの？^n子供は子供らしく、いっぱいお菓子を食べなさいね。",
+      "source_raw_sha256": "0439EE1375BEFB9B495311461E57949463A606DDBBF5DF8F06C70A90A37F44C5",
+      "target_text": "팅크, 팅커벨은 좀 앉으렴.^n너는 다른 사람 뒷바라지만 하고 정작 네 자신은 어쩌고?^n어린이는 어린이답게, 과자 많이 먹으렴.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00124",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00125",
+      "source_text": "あっ、はいっ、おかあさま。^nそれじゃあ、あたしもいただきます！",
+      "source_raw_sha256": "7A7C82145B533C44F6C2F469A6A2A49B1AB33E0098BA43616CB29406FFD6B4F4",
+      "target_text": "앗, 네, 어머니.^n그럼, 저도 먹을게요!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00126",
+      "source_text": "おかあさんという、優しい光が現れたおかげで、^n宴に落ちかかっていた不思議な影は薄れたかに思えました。",
+      "source_raw_sha256": "25DA901F2520D6F6D137C3B4A7991CC1B052B22FC79EF728EB2C3754BD7EBEF8",
+      "target_text": "어머니라고 불리는, 다정한 빛이 나타난 덕분에,^n연회에 드리워졌던 신비로운 그림자는 옅어진 것처럼 느껴졌습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00127",
+      "source_text": "──しかし。",
+      "source_raw_sha256": "5E49F295A2BD1B79BEA4070B69DE4240BA2B566D265918F5284E3110AE43F259",
+      "target_text": "──하지만.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00128",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00129",
+      "source_text": "──オディール、どうしたの。元気がないようね。^n何か悩み事？^nかあさんでよければ、お話聞くわよ。",
+      "source_raw_sha256": "6BBC062A7101FE68AC082B9B6D24C9E9CFD5A625759533FADF52AA306BD253C1",
+      "target_text": "──오딜, 왜 그래? 기운이 없어 보이네.^n무슨 고민이라도 있어?^n엄마한테 말하면 다 들어줄게.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00130",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00131",
+      "source_text": "………………。^nあんたには関係ないわ。^nあんたには。",
+      "source_raw_sha256": "8E625D81296AAB253B52C95328EFDF594E0C569D92EC77B353D008E95637A8DF",
+      "target_text": "……………….^n너랑은 상관없는 일이야.^n너랑은.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00132",
+      "source_text": "オディールの影はなぜか、ますます濃くなったようです。^nオディールはおかあさんの愛もぬくもりも|拒[こば]むように、^n目も合わせずに突き放したのです。",
+      "source_raw_sha256": "912C93FDD9950EA1B7AC10AE1695FFFDF3A6B4941C7363029C2FA492E853530B",
+      "target_text": "오딜의 그림자는 왠지 모르게 점점 더 짙어진 듯합니다.^n오딜은 엄마의 사랑도 온기도 거부하듯,^n눈도 마주치지 않고 밀쳐냈습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00133",
+      "source_text": "オディールには、すべてわかっていました。",
+      "source_raw_sha256": "27A388FCB6EF990C2E78B35A000AEE236BDCD819FFBCD1C029B75675643A060D",
+      "target_text": "오딜은 모든 것을 알고 있었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00134",
+      "source_text": "ウェンディがかつては別の名前で呼ばれていたことも。^n彼女の身体をウェンディに明け渡すために、^nその勇気ある少女がしたとても重い選択についても。",
+      "source_raw_sha256": "05EE73C6667355317BF8AAFA59AAC91F350C414A4A7A6000274D557DEA28FC88",
+      "target_text": "웬디가 예전에는 다른 이름으로 불렸다는 것도.^n그녀의 몸을 웬디에게 양도하기 위해,^n그 용기 있는 소녀가 내린 매우 무거운 선택에 대해서도.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00135",
+      "source_text": "　かつてその少女は、「楽園」において^n　オディール以外ではただひとり、^n「本当の自分」というものを失っていない患者でした。",
+      "source_raw_sha256": "DCED44533FD74F0AE0058049093E5D7B4AC7378320DA6D53D64BE5696ABE3B13",
+      "target_text": "과거 그 소녀는, '낙원'에서^n　오딜 이외에는 단 한 명뿐인,^n'진정한 자신'을 잃지 않은 환자였습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00136",
+      "source_text": "たったひとりで「本当の自分」を保ち続けることは、^n心細く頼りないものです。",
+      "source_raw_sha256": "F8756420997839F4B3C1CC0198180AECCE3F560E86AAE806C3D0242C608E84B9",
+      "target_text": "단 한 명의 힘으로 '진정한 자신'을 계속 유지한다는 것은,^n외롭고 불안한 일입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00137",
+      "source_text": "それゆえにオディールは、口には出さないまでも、^n自分と同じ苦しみに包まれている少女の存在を^n少しだけありがたく思っていました。",
+      "source_raw_sha256": "D0B4F1A9F736245CAAC9121882DB1FDD30B8AC3179F707147C217A4D5B580E9F",
+      "target_text": "그렇기에 오딜은 입 밖으로 내지는 않았지만,^n자신과 같은 고통을 겪고 있는 소녀의 존재를^n조금이나마 고맙게 여기고 있었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00138",
+      "source_text": "心のどこかで、仲間のように思っていたのです。",
+      "source_raw_sha256": "E552E8241D8F6E4E2C28CF48EE98525308651FF50A37BA7B1F2567AC3D93CDA1",
+      "target_text": "마음 한구석에서, 동료처럼 생각하고 있었던 것입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00139",
+      "source_text": "その仲間が薄っぺらい「ウェンディ」に身体を明け渡して^n誰の手も届かない遠くに行ってしまったのですから、^nオディールが複雑な気持ちを抱くのも、無理はありません。",
+      "source_raw_sha256": "8A98935B8BE7026CE40D84AFC5D4F9CEC154CE8236F2D78F205063CEDCB3AB25",
+      "target_text": "그 동료가 얄팍한 '웬디'에게 몸을 양도하고^n누구의 손도 닿지 않는 먼 곳으로 가버렸으니,^n오딜이 복잡한 심경을 느끼는 것도 무리는 아닙니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00140",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00141",
+      "source_text": "……いいわ。^nそうして反抗するのも、かあさんに秘密を持つのも、^n子供が大きくなった証だもの。",
+      "source_raw_sha256": "3ED5834696C2D3C7757C31D0E0379C37FC20309BB5653FE32C84BDC5D5ED811F",
+      "target_text": "……그래, 괜찮아.^n그렇게 반항하는 것도, 엄마에게 비밀을 갖는 것도,^n아이가 성장했다는 증거니까.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00142",
+      "source_text": "精一杯ものわかりのいいおかあさんを演じてみせる^nウェンディの笑顔を見ていられなくて、^nオディールは黙って顔を背けました。",
+      "source_raw_sha256": "ACDE8B400D85FCD47D1166F0384972346FF5BC5F9A12645BEF517E636BEC4E05",
+      "target_text": "최대한 이해심 넓은 엄마를 연기해 보이는^n웬디의 미소를 차마 볼 수 없어서,^n오딜은 말없이 고개를 돌렸습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00143",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00144",
+      "source_text": "……っ、……！",
+      "source_raw_sha256": "9FA7449D3371CAA6294F19C695C4B96627329511E5EA797D118D632717982F8D",
+      "target_text": "……윽, ……!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00145",
+      "source_text": "そのとき突然、ピーターが弾かれたように席を立ちました。",
+      "source_raw_sha256": "4E90C69D091C5923A0D50D45D04C0CEC9C236C42E68D5E59398C6379FCC32E9C",
+      "target_text": "그때 갑자기, 피터가 튀어 오르듯 자리에서 일어났습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00146",
+      "source_text": "ウェンディ",
+      "source_raw_sha256": "5B1C395A768BF3100628202FEEA698323D5A92A1671C90EA8B9FC9695DFE5212",
+      "target_text": "웬디",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00147",
+      "source_text": "突然どうしたの、ピーター。^nお茶会の途中で席を立つなんて、お|行儀[ぎょうぎ]がよくないわよ！",
+      "source_raw_sha256": "766067EF27131D6E074453E9EA07712881086E468F5D0C222EF9F45DCC03A5C6",
+      "target_text": "갑자기 왜 그래, 피터.^n티타임 도중에 자리를 뜨다니, 예의가 없잖아!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00148",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00149",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00150",
+      "source_text": "ピーターは、さっきのオディールと同じような目で^n大好きな「おかあさん」を眺めました。",
+      "source_raw_sha256": "CB57860BD27B57DF637D1599D7086E67B8B716563175FED7C853204D8FC872F4",
+      "target_text": "피터는 아까 오딜과 같은 눈으로^n사랑하는 \"엄마\"를 바라보았습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00151",
+      "source_text": "そして、誰かが何かを問う間もなく駆けだして、^nあっという間に丘の向こうへと去ってしまいました。",
+      "source_raw_sha256": "BA508C9EE853D33395D432F5DF6365629BE16ACF3F15FA3349E272D0252837E9",
+      "target_text": "그리고 누군가 물어볼 틈도 없이 달려 나가,^n순식간에 언덕 너머로 사라져 버렸습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00152",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00153",
+      "source_text": "ご、ごめんね、おかあさま。あたしも！",
+      "source_raw_sha256": "0FF6DA9BF5168D9DF932F8AE4025AA06F42C88CC2457749F8BE4C94FAAB03153",
+      "target_text": "미, 미안해, 엄마. 나도!",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00154",
+      "source_text": "ティンクも、かじりかけのドーナツを放り出して^nピーターの後を追いました。",
+      "source_raw_sha256": "3B132685A7E5B40A41B1A79D0439E608408E7A418542A75B56AC8DAC5F2CDFE7",
+      "target_text": "팅크도 먹다 만 도넛을 내던지고^n피터를 뒤쫓았습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00155",
+      "source_text": "ティンクは、丘の上でピーターに追いつきました。",
+      "source_raw_sha256": "A155DC7C537BDC1FC217A495B2FA51C8D45DDA62801A3892A02C7FC2DE155DD2",
+      "target_text": "팅크는 언덕 위에서 피터를 따라잡았습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00156",
+      "source_text": "彼は大きな木の幹を何度も殴りつけながら、^n全身で|嗚咽[おえつ]していました。",
+      "source_raw_sha256": "19EAC9193A3C0B171D08CA1320A4838BEB7B80C60223D10C47A54D590FC1CBC4",
+      "target_text": "그는 커다란 나무 밑동을 몇 번이고 내리치며,^n온몸으로 오열하고 있었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00157",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00158",
+      "source_text": "……う、うぅ……っ。",
+      "source_raw_sha256": "2D2C8F7E7AF330FB44EE5FBFB82BEAB3393C87E8AF58547B1679A83CAE552CE8",
+      "target_text": "……으, 으으……윽.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00159",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00160",
+      "source_text": "ピーター、どうしたの？^n──泣いているの？",
+      "source_raw_sha256": "3EEDE462E2311EBB43CB8DA1E512443B93A3B5C2115E60245AB5D21F0E827BA6",
+      "target_text": "피터, 왜 그래?^n──울고 있는 거야?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00161",
+      "source_text": "ティンクはびっくりして顔を覗き込みました。^nピーターが泣くところを初めてみたからです。",
+      "source_raw_sha256": "E6FB654D54AE1CA19ED021BFC80D02315B26AB6A1D0B2A8884BA5F2CD6948D17",
+      "target_text": "팅크는 깜짝 놀라 얼굴을 들여다보았습니다.^n피터가 우는 모습을 처음 보았기 때문입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00162",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00163",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00164",
+      "source_text": "ティンクはピーターが顔を背けてしまうほんの一瞬の間に、^nぽたぽたとこぼれている涙の|滴[しずく]を見ました^nそして、彼が誰かの名前をつぶやいた気がしました。",
+      "source_raw_sha256": "2A8DBDDBA7883E45215F1F0C448B8E697D51C82397558EA6A220AF6596433F4B",
+      "target_text": "팅크는 피터가 고개를 돌려버린 아주 짧은 순간에,^n뚝뚝 떨어지는 눈물방울을 보았습니다^n그리고 그가 누군가의 이름을 중얼거린 것 같은 기분이 들었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00165",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00166",
+      "source_text": "え？　なに？^n聞こえないわ……。",
+      "source_raw_sha256": "7996E040B7F277EB2F44D58C0FDF7401ACC9982691FC9497D65BEAAC5912117D",
+      "target_text": "어? 뭐야?^n안 들려…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00167",
+      "source_text": "こんなふうに、涙をこらえて肩を震わせ、^n泣き顔をどこまでも隠そうとするのは、^nコドモとしてはあまり|誉[ほ]められたやり方ではありません。",
+      "source_raw_sha256": "17339EE25F0D8A52EBB4921AF62934F206563F56AFD6C6B4AB90FB4761817D05",
+      "target_text": "이렇게 눈물을 참으며 어깨를 떨며,^n우는 얼굴을 필사적으로 숨기려 하는 것은,^n아이로서는 별로 칭찬받을 만한 태도가 아닙니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00168",
+      "source_text": "ティンクはピーターがピーターであることを^n捨ててしまったような気がして、不安になりました。",
+      "source_raw_sha256": "A29C703BDECDD8E4D6F719AB9EA03E9597353A6294CCEFFCB044FB640BAB5010",
+      "target_text": "팅크는 피터가 피터다움을^n버려버린 것 같은 기분이 들어 불안해졌습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00169",
+      "source_text": "けれど、よく考えなくても^nそんなことがあるわけありません。",
+      "source_raw_sha256": "1965741C6626B22E41C0B3F7B507353E8EB65A61C2AFE4E50718BEFB4F224804",
+      "target_text": "하지만, 깊이 생각하지 않아도^n그럴 리가 없습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00170",
+      "source_text": "きっと、気の迷いというやつで、^n不意にらしくないことをしたくなってしまったのでしょう。",
+      "source_raw_sha256": "E4E1E694BFC4FE836D81819846F779466EDF76F354046D79FC9E403725AA00C2",
+      "target_text": "분명, 일시적인 방황 같은 것이라,^n문득답지 않은 행동을 하고 싶어진 것이겠지요.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00171",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00172",
+      "source_text": "──ねぇ、ピーター。^n悲しいことなんてなんにもないわ。^nだってここはあたしたちの楽園、ネバーランドでしょう？",
+      "source_raw_sha256": "EBF17CE70B65540C3FF78BBF7520AD0198F4274754C022E88531670B144B2DF0",
+      "target_text": "──있지, 피터.^n슬픈 일 같은 건 아무것도 없어.^n왜냐하면 여기는 우리의 낙원, 네버랜드잖아?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00173",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00174",
+      "source_text": "不幸せなことなんてなにもない、永遠の遊び場。^nあなたがそう変えてくれたでしょう？",
+      "source_raw_sha256": "F5997E68FACB29C465C18179B544C083FA0447F4E325083E9727023D7B3F1EC7",
+      "target_text": "불행한 일 따위는 하나도 없는, 영원한 놀이터.^n당신이 그렇게 바꿔놓았잖아?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00175",
+      "source_text": "ティンクは、今し方抜け出してきた席が^n祝賀会であることを思いだし、^n英雄である彼を|誉[ほ]めたたえました。",
+      "source_raw_sha256": "FDFF587A79844BAD873F53D81164BB139193B26D768B3ECC098364B2CF64C36E",
+      "target_text": "팅크는 방금 빠져나온 자리가^n축하 파티라는 것을 떠올리며,^n영웅인 그를 찬양했습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00176",
+      "source_text": "何ひとつ、悲しいことなんてないはずです。",
+      "source_raw_sha256": "5B0F2B237090B77C4DFE740550BBC23DCDAD5590797368F627336C1F663FF23C",
+      "target_text": "그 무엇 하나, 슬픈 일 따위는 없을 것입니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00177",
+      "source_text": "もしかしたらピーターに涙を流させたのは、^nこのネバーランドにひとかけらだけ残された^n悩み苦しみの最後の抵抗だったのかもしれません。",
+      "source_raw_sha256": "B43DF38286FA580C8507587EAA6C9CAD1F4136A51C9FCC43966914CA5FAB3C0C",
+      "target_text": "어쩌면 피터에게 눈물을 흘리게 한 것은,^n이 네버랜드에 한 조각만 남겨진^n고뇌와 괴로움의 마지막 저항이었을지도 모릅니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00178",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00179",
+      "source_text": "……………………。^n──ああ、そうだな。",
+      "source_raw_sha256": "B7896B0E571209006AADAC9912965D27EA078FF54CA6A1AD1553BBF89A94A9D1",
+      "target_text": "…………………….^n──아아, 그렇네.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00180",
+      "source_text": "その|証拠[しょうこ]に、ピーターはすぐに立ち直りました。",
+      "source_raw_sha256": "C3165243D3E100352F82158491A7145A4A6916781C9B3BB2D2E52AEDCB247693",
+      "target_text": "그 증거로, 피터는 금세 기운을 차렸습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00181",
+      "source_text": "ぐいーと|袖[そで]で目元を|拭[ぬぐ]って振り向くと、そこには^nティンクが大好きで大好きでたまらない、^nやんちゃで生意気な少年の笑顔がありました。",
+      "source_raw_sha256": "F6847927914521AFBAA870CB602805F8DC4CB5EEE73A800F97BB119F94E6823B",
+      "target_text": "소매로 눈가를 슥 닦고 뒤를 돌아보자, 그곳에는^n팅크를 너무나도 너무나도 좋아하는,^n장난기 가득하고 건방진 소년의 미소가 있었습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00182",
+      "source_text": "ティンク",
+      "source_raw_sha256": "DBDF45E6762E3C3D517F6EE3A2BB20993AAE590D86C0866210CAAB731F5BB212",
+      "target_text": "팅크",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00183",
+      "source_text": "さあ、みんなのところに戻りましょう。^nあたし、今すぐにでもお肉を焼いてあげるから。",
+      "source_raw_sha256": "21E69722B475E7969C5269657AD318D82EBC744C3F32950219797221962F1A39",
+      "target_text": "자, 다들 있는 곳으로 돌아가자.^n내가 지금 당장이라도 고기를 구워줄 테니까.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00184",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00185",
+      "source_text": "……ああ、頼むぜ。",
+      "source_raw_sha256": "8953B3BF75DB1A2A90DF4664D783A816D7384ECA0323EFEFEFB2D6266013CB5F",
+      "target_text": "……아아, 부탁할게.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00186",
+      "source_text": "ティンクと並んで歩きながら、^nピーターは鳥の影を追うように青空を見上げました。",
+      "source_raw_sha256": "8023481CB2BBD534AC1AD04971BDDD1991312FEB2DBF7FBC80643373A07F66E4",
+      "target_text": "팅크와 나란히 걸으며,^n피터는 새의 그림자를 쫓듯 푸른 하늘을 올려다보았습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00187",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00188",
+      "source_text": "そうだな、オレは──^n帰ったら、みんなに空の飛び方を教えてやるんだ。",
+      "source_raw_sha256": "B7BDEF25D97AEFB9D754AC944DE8D5D42865F73389A2561ED92BFF4936318357",
+      "target_text": "그래, 나는──^n돌아가면 모두에게 하늘을 나는 법을 가르쳐 줄 거야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00189",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00190",
+      "source_text": "みんなで手をつないで、どこまでも飛んでいくんだ。^nきっと楽しいぜ。",
+      "source_raw_sha256": "E41D7ECBC0E7FE6BBA370CE47490E5A28C540B64BAB3274DFF5EBD94EE87D921",
+      "target_text": "다 함께 손을 잡고, 어디까지든 날아가는 거야.^n분명 즐거울 거야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1733.gsc::slot/00191",
+      "source_text": "ティンクもまたすてきな提案に胸を|躍[おど]らせて、^nはてしなく青い空に吸い込まれていく^nコドモたちの姿を思い浮かべるのでした。",
+      "source_raw_sha256": "B9CBCFAD20C0544F8B4D459864D2C2CB91B05A67B6122CFF470622C5EFC3E98A",
+      "target_text": "팅크 또한 멋진 제안에 가슴을 설레며,^n끝없이 푸른 하늘로 빨려 들어가는^n아이들의 모습을 떠올렸습니다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    }
+  ]
+}

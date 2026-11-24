@@ -1,0 +1,545 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1806_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    44
+  ],
+  "new_review_change_count": 14,
+  "new_review_changes": [
+    {
+      "slot": 2,
+      "before": "뭐어, 앨리스,^n그렇게 몸이 커져 버렸어!?",
+      "after": "뭐어, 앨리스,^n그렇게 몸이 커져 버렸던 거야!?"
+    },
+    {
+      "slot": 4,
+      "before": "응……정말 큰일이었어.^n집 안에 꽉꽉 끼여서,^n질식하는 줄 알았다니까.",
+      "after": "응……정말 큰일이었어.^n집 안에 꽉꽉 끼여서,^n질식해 버리는 줄 알았다니까."
+    },
+    {
+      "slot": 7,
+      "before": "앨리스는 희미해진 기억을 들여다보듯^n눈을 가늘게 뜨고 연신 고개를 끄덕였다.",
+      "after": "앨리스는 바래 버린 기억을 들여다보듯^n눈을 가늘게 뜨고 연신 고개를 끄덕였다."
+    },
+    {
+      "slot": 8,
+      "before": "앨리스가 인형의 집에 끼인 것은 불과 그저께의 일이다.^n하지만 앨리스 안에서는 부끄러운 기억일수록^n창고 깊숙한 곳에 보관되는 법이었다.",
+      "after": "앨리스가 인형의 집에 끼어 꼼짝 못 하게 된 건 불과 그저께의 일이다.^n하지만 앨리스 안에서는 부끄러운 기억일수록^n창고 깊숙한 곳에 보관되는 법이었다."
+    },
+    {
+      "slot": 16,
+      "before": "『──이건 작아지는 약!』^n　나는 금세 알아챘어.",
+      "after": "『──이건 작아지는 약이야!』^n　나는 금세 알아챘어."
+    },
+    {
+      "slot": 18,
+      "before": "약효가 잘 들도록 맛을 보고, 천천히,^n식감과 단맛을 마음껏 음미하며 먹었더니…….^n──정신을 차렸을 때는 원래 크기로 돌아와 있었어.",
+      "after": "약효가 잘 들도록 천천히 맛을 보며,^n식감과 단맛을 마음껏 음미해서 먹고…….^n──정신을 차렸을 때는 원래 크기로 돌아와 있었어."
+    },
+    {
+      "slot": 22,
+      "before": "앨리스의 이야기에 진지하게 귀를 기울이는 그레텔의 눈은,^n동공이 녹아 버릴 만큼 촉촉하게 젖어 있었다.",
+      "after": "앨리스의 이야기에 진지하게 귀를 기울이는 그레텔의 눈은,^n동공이 녹아 버릴 만큼 물기에 젖어 있었다."
+    },
+    {
+      "slot": 24,
+      "before": "……꿀꺽…….^n",
+      "after": "……츄릅…….^n"
+    },
+    {
+      "slot": 28,
+      "before": "그, 그, 그, 그렇구나…….^n조약돌이 케이크로 변하다니……꿀꺽.^n시, 신기한 일도 있구나…….",
+      "after": "그, 그, 그, 그렇구나…….^n조약돌이 케이크로 변하다니……츄릅.^n시, 신기한 일도 있구나……."
+    },
+    {
+      "slot": 29,
+      "before": "필사적으로 얼버무리려는 그레텔이었지만,^n배는 꼬르륵거리며 계속 배고프다고 울어 대어,^n그녀의 생각을 자백하는 듯했다.",
+      "after": "필사적으로 얼버무리려는 그레텔이었지만,^n배는 꼬르륵거리며 계속 배고프다고 울어 대어,^n그녀의 속셈을 자백하는 듯했다."
+    },
+    {
+      "slot": 32,
+      "before": "아, 찾았다!^n언젠가 주운 돌이 주머니에 남아 있었어!",
+      "after": "아, 찾았다!^n언젠가 주웠던 돌이 주머니에 남아 있었어!"
+    },
+    {
+      "slot": 37,
+      "before": "듣고 보니 이거,^n하얗고 반짝반짝해서…….",
+      "after": "그러고 보니 이거,^n하얗고 반짝반짝해서……."
+    },
+    {
+      "slot": 41,
+      "before": "자, 잘 먹겠습니다!^n──앙.",
+      "after": "자, 잘 먹겠습니다!^n──아앙."
+    },
+    {
+      "slot": 42,
+      "before": "손끝으로 만지작거릴 때 느껴지던 단단함도,^n부드러운 스펀지와 크림으로 변해 녹아내릴 터였다.^n그레텔은 그렇게 굳게 믿었지만──",
+      "after": "손끝으로 만지작거릴 때는 단단하던 촉감도,^n부드러운 스펀지와 크림으로 변해 녹아내릴 터였다.^n그레텔은 그렇게 굳게 믿었지만──"
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    45,
+    102
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00001",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00002",
+      "source_text": "ええっ、アリスちゃん、^nそんなに身体が大きくなってしまったの！？",
+      "source_raw_sha256": "1B60E2799FFAD9BBAB6480A3E62D98D126F6802BD4DB9944A2C61DEA39D5E009",
+      "target_text": "뭐어, 앨리스,^n그렇게 몸이 커져 버렸던 거야!?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00003",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00004",
+      "source_text": "ええ……それはもう、大変だったわ。^n家いっぱいにぎゅうぎゅうに|詰[つ]め込まれて、^n窒息してしまうかと思ったもの。",
+      "source_raw_sha256": "7D7E246F6A83959791B5420F68CEF33F6FD0D51B5987A45581E4A0A110065F1D",
+      "target_text": "응……정말 큰일이었어.^n집 안에 꽉꽉 끼여서,^n질식해 버리는 줄 알았다니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00005",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00006",
+      "source_text": "まあ、もう遠い過去のことだけれどね。",
+      "source_raw_sha256": "FB5B395B4DAB6C6204FDAB76CA13D783DD9FAC91638637F51871A4AA079C7475",
+      "target_text": "뭐, 이제는 먼 옛날 일이지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00007",
+      "source_text": "アリスは風化した記憶に目を|凝[こ]らすように^n目尻を細めてうんうんとうなずいた。",
+      "source_raw_sha256": "BFFF063E9390770CBD28D91B070A92EF1E39020943440A8C2BBAEFD725C30751",
+      "target_text": "앨리스는 바래 버린 기억을 들여다보듯^n눈을 가늘게 뜨고 연신 고개를 끄덕였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00008",
+      "source_text": "アリスがドールハウスに|嵌[はま]りこんだのはつい一昨日のことだ。^nけれどアリスの中では、|恥[は]ずかしい記憶ほど^n倉庫の奥のほうに保管されることになっている。",
+      "source_raw_sha256": "DFFE05817CC3AD3FE17E8E92A1307B151FD6F97EA35E9ADC1C227CEC3400FB90",
+      "target_text": "앨리스가 인형의 집에 끼어 꼼짝 못 하게 된 건 불과^n그저께의 일이다. 하지만 앨리스 안에서는 부끄러운^n기억일수록 창고 깊숙한 곳에 보관되는 법이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료; post-review dialogue layout overflow repair v1",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00009",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00010",
+      "source_text": "わあ……大変だ……。^nど、どうやって元に戻ったの？",
+      "source_raw_sha256": "B1ED9AD62481CE1368592729C204A6B350EE8723A4B65D6231641C4375333F13",
+      "target_text": "와아……큰일이었겠다…….^n어, 어떻게 원래대로 돌아왔어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00011",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00012",
+      "source_text": "窓から小石が投げ込まれたのだけれど、^nそれがケーキに変わって、^nあたしの口の中に飛び込んできたのよ。",
+      "source_raw_sha256": "851C1211657C5EA358E80C24581F266EA87B57FE4353DD220F28D0C8E2AD512C",
+      "target_text": "창문으로 조약돌이 던져졌는데,^n그게 케이크로 변해서,^n내 입안으로 날아들었어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00013",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00014",
+      "source_text": "……！？",
+      "source_raw_sha256": "908FBA9707A4AC131F75A1D85D61D892B3C36A0B64E762DADE1340C036A2D8CE",
+      "target_text": "……!?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00015",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00016",
+      "source_text": "「──これは小さくなるおくすり！」^n　あたし、すぐに気づいたわ。",
+      "source_raw_sha256": "DAC316E6F3F7D0CEC49FA733DC0F33322BF8774E133EFF22A4B07001F8773864",
+      "target_text": "『──이건 작아지는 약이야!』^n　나는 금세 알아챘어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00017",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00018",
+      "source_text": "おくすりがよく効くように、味わって、ゆっくりと、^n食感と甘みとを存分に味わいながらいただいて……。^n──気がついたら元の大きさに戻っていたの。",
+      "source_raw_sha256": "39DA8B5DED0E45C6057248BDD2918E35DD3C130A70E45D3AD1BB399DCE4ABB67",
+      "target_text": "약효가 잘 들도록 천천히 맛을 보며,^n식감과 단맛을 마음껏 음미해서 먹고…….^n──정신을 차렸을 때는 원래 크기로 돌아와 있었어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00019",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00020",
+      "source_text": "そうしたら、今度は小さくなりすぎてしまって^nそれはそれで大冒険だったのだけれど……。^n",
+      "source_raw_sha256": "AB6568176F9690A4A29C16BE834A267219E1A2E286280B54EDBD6F3E8B0016E5",
+      "target_text": "그러고 나니 이번에는 너무 작아져 버려서^n그건 그것대로 대모험이었지만…….^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00021",
+      "source_text": "──グレーテル、どうかしたの？",
+      "source_raw_sha256": "BE6EA816A077DC0CA538D54A56A50C4EE9D9F85B5199695BC1EEDAAFF69D5C25",
+      "target_text": "──그레텔, 왜 그래?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00022",
+      "source_text": "アリスの話に神妙に耳を|傾[かたむ]けるグレーテルの目が、^n瞳孔が溶けるほどに|潤[うる]みきっている。",
+      "source_raw_sha256": "39133DFEF9129F6CBE9B588364979421D15193852E2A42386F76BC951D58AE78",
+      "target_text": "앨리스의 이야기에 진지하게 귀를 기울이는 그레텔의 눈은,^n동공이 녹아 버릴 만큼 물기에 젖어 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00023",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00024",
+      "source_text": "……じゅるり……。^n",
+      "source_raw_sha256": "E24318C89EE642CAD26AE947F4CBB58AF70D7317977A5E0A40AE7EE7C18561E5",
+      "target_text": "……츄릅…….^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00025",
+      "source_text": "──はっ。な、何でもないよ！？",
+      "source_raw_sha256": "73ECACD7742A2C3F46922DB6495DF62403F4573688A5F4BAB0347DE596C439DE",
+      "target_text": "──핫. 아, 아무것도 아니야!?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00026",
+      "source_text": "そのだらしなくほどけた唇の端から^n危うく唾液が垂れかけて、彼女はハッと口元を押さえた。",
+      "source_raw_sha256": "9FD98BB0FDFC408686BD5855E5B09B151251C8FB912052FDBA80D8B60EFD6EC5",
+      "target_text": "헤벌어진 입술 끝에서^n하마터면 침이 흘러내릴 뻔해, 그녀는 화들짝 입가를 가렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00027",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00028",
+      "source_text": "そ、そ、そ、そうなんだ……。^n小石がケーキに変わるなんて……じゅる。^nふ、不思議なこともあるの、ね……。",
+      "source_raw_sha256": "4381247122C2FA981289E1E1025FC602579C3B16351088C3519D8D9D256863CE",
+      "target_text": "그, 그, 그, 그렇구나…….^n조약돌이 케이크로 변하다니……츄릅.^n시, 신기한 일도 있구나…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00029",
+      "source_text": "必死に|誤魔化[ごまか]そうとするグレーテルだったが、^nおなかはぐうぐうと空腹に|呻[うめ]きつづけて、^n彼女の思いつきを自白しているようだった。",
+      "source_raw_sha256": "684283461FA9ECA0935F80167F3832449F67ADACF2B74E079A501550E8E7FC99",
+      "target_text": "필사적으로 얼버무리려는 그레텔이었지만,^n배는 꼬르륵거리며 계속 배고프다고 울어 대어,^n그녀의 속셈을 자백하는 듯했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00030",
+      "source_text": "アリスがおいとました後、^nグレーテルは部屋中をひっくり返して目当てのものを探した。",
+      "source_raw_sha256": "665F33059AFA7E456615910CBAC434E63A2A555170151B0AA22C49CB90052206",
+      "target_text": "앨리스가 돌아간 뒤,^n그레텔은 방 안을 몽땅 뒤엎으며 원하는 것을 찾았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00031",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00032",
+      "source_text": "あっ、あった！^nいつかの石がポケットに残ってた！",
+      "source_raw_sha256": "778A1B0224CB946D6E64E0B33E568A8B91E76088ED8B340C7B3EDED3F75D5FC3",
+      "target_text": "아, 찾았다!^n언젠가 주웠던 돌이 주머니에 남아 있었어!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00033",
+      "source_text": "洋服という洋服を取り出して、^n布という布を広げて、全てのポケットをひっくり返して、^nようやく転げ落ちてきたものは──",
+      "source_raw_sha256": "F4013093BD1DF69DB96FE4F229063EA3C8D9798B5171BD93F75A10556052B02C",
+      "target_text": "옷이란 옷은 모조리 꺼내고,^n천이란 천은 전부 펼치고, 모든 주머니를 뒤집은 끝에,^n마침내 굴러떨어진 것은──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00034",
+      "source_text": "──いつ手に入れたものだったか。^n何故拾ったのか、誰と拾ったのか、^nグレーテルにはぼんやりとした覚えしかない。",
+      "source_raw_sha256": "596C321620B7F7015EC730B43A77858263B83F217108190EB7B18734C907D607",
+      "target_text": "──언제 얻었던 것일까.^n왜 주웠는지, 누구와 함께 주웠는지,^n그레텔에게는 어렴풋한 기억밖에 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00035",
+      "source_text": "けれど、今は石を手に入れた経緯などどうでもよかった。^n小さな石ころを眺めまわすその口の中に、^nじんわりと生暖かい唾が湧いてくる。",
+      "source_raw_sha256": "3A6EE786A62E8181EBEC81BD577D15C0247240E048AC7F3E20D784537B7139A5",
+      "target_text": "하지만 지금은 돌을 손에 넣은 사정 따위 아무래도 좋았다.^n작은 조약돌을 이리저리 살피는 그 입안에,^n미지근한 침이 서서히 고여 들었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00036",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00037",
+      "source_text": "言われてみたら、これ、^n白くてぴかぴかしていて……。",
+      "source_raw_sha256": "F158801DE31BA528310722AA8B474F857AC64E77B738D8DD660083CD174EF350",
+      "target_text": "그러고 보니 이거,^n하얗고 반짝반짝해서…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00038",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00039",
+      "source_text": "キャンディかな？^nそれともコーティングチョコ？^nアーモンドドラジェにも見える、かも……。",
+      "source_raw_sha256": "5D59FB168804E0A88E3AB4561A143E73C287571D3E18B118018231D94A5BF785",
+      "target_text": "사탕일까?^n아니면 코팅 초콜릿?^n아몬드 드라제처럼 보이기도, 하고…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00040",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00041",
+      "source_text": "い、いただきます！^n──あむ。",
+      "source_raw_sha256": "5C73B3A8C179AFF724AA125C0AFE557CF112EF968999139EE34CFCFE4F998EDD",
+      "target_text": "자, 잘 먹겠습니다!^n──아앙.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00042",
+      "source_text": "指先で|弄[もてあそ]んでいた時は硬かった感触も、^n柔らかなスポンジとクリームに変わって溶けていくはず。^nそう、グレーテルはすっかり信じていたが──",
+      "source_raw_sha256": "7AA80841D217EFFEC4E848DBE61B647D092342DBD0CCC3A82E16787CA69C08C5",
+      "target_text": "손끝으로 만지작거릴 때는 단단하던 촉감도,^n부드러운 스펀지와 크림으로 변해 녹아내릴 터였다.^n그레텔은 그렇게 굳게 믿었지만──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00043",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1806.gsc::slot/00044",
+      "source_text": "～～～～～～ひぎィ！！？",
+      "source_raw_sha256": "76E6E245A6F6C3B2817D80465C335C8169E5AC0C995FBF85E6ECA06A402CDBF2",
+      "target_text": "～～～～～～히기익!!?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ],
+  "post_review_repairs": [
+    {
+      "id": "dialogue_layout_overflow_repair_v1",
+      "completed_utc": "2026-08-13T22:45:23.987889Z",
+      "slots": [
+        8
+      ],
+      "reason": "prevent Malie four-line auto-wrap text-format error; 3 lines and <=992 units"
+    }
+  ]
+}

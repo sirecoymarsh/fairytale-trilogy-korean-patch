@@ -1,0 +1,543 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1328_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API; deterministic post-review control-spacing normalization",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    47
+  ],
+  "new_review_change_count": 3,
+  "new_review_changes": [
+    {
+      "slot": 6,
+      "before": "흐트러진 잠에서 깨어 서로 얼굴을 마주했을 때,^n우리는 서로의 눈 속에서 『남자』와 『여자』를 보았다.^n그것으로 남매 놀이는 끝났다.",
+      "after": "무방비하게 잠든 뒤 깨어나 서로 얼굴을 마주했을 때,^n우리는 서로의 눈 속에서 『남자』와 『여자』를 보았다.^n그것으로 남매 놀이는 끝났다."
+    },
+    {
+      "slot": 28,
+      "before": "미치르가 볼을 부풀리며 나를 바라본다.^n야무지고 또박또박 말하며 무척 활기찬 여동생이다.",
+      "after": "미치르가 볼을 부풀리며 나를 바라본다.^n야무지고 말도 똑 부러지며 무척 활기찬 여동생이다."
+    },
+    {
+      "slot": 36,
+      "before": "『파랑새를 얻지 못하고 집으로 돌아가자, 집에서 기르던 비둘기가^n 전보다 파래져 있었고 이것이 파랑새였음을 깨닫는다.^n 행복은 알아차리지 못했을 뿐 바로 곁에 있었던 것입니다.』",
+      "after": "『파랑새를 찾지 못한 채 집으로 돌아가자, 집에서 기르던 비둘기가^n 전보다 파래져 있었고 이것이 파랑새였음을 깨닫는다.^n 행복은 알아차리지 못했을 뿐 바로 곁에 있었던 것입니다.』"
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    48,
+    105
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00001",
+      "source_text": "──あれからしばらくの時が過ぎ去った。",
+      "source_raw_sha256": "E9EECB2EF0DE6D37A519BBBE77191B7CC2DD549FC7CC6DB52EC91F70731F6E26",
+      "target_text": "──그 뒤로 얼마간 시간이 흘렀다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00002",
+      "source_text": "？？？",
+      "source_raw_sha256": "864E5E1F0B9D10790BFE488EAAA526B3E243476B72430C2F1C91D6F1506104FF",
+      "target_text": "???",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00003",
+      "source_text": "お兄ちゃん、ほら、あれ見て！^nすっごく綺麗な夕日だよ？",
+      "source_raw_sha256": "86E91D8683F0BD7DFF72EAC779EE53E24DA7AAC3C4563BC013275E482BCBEBC2",
+      "target_text": "오빠, 저기 저거 봐!^n정말 아름다운 석양이야!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00004",
+      "source_text": "鳥籠かごを手にした「妹」が、^nもう片方の手で空を指さしながら、僕を振り返った。",
+      "source_raw_sha256": "3A4033AB189758601FF1E34E05A8C024BF84BF4477305722CDC0D19E043CD3C7",
+      "target_text": "새장을 든 『여동생』이,^n다른 손으로 하늘을 가리키며 나를 돌아보았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00005",
+      "source_text": "──あの後、結局僕と彼女は^nヘンゼルとグレーテルであり続けることは出来なかった。",
+      "source_raw_sha256": "9B9DACD574FC07779EC2E262E83CE6D0E11C0CAD550E5F8C3E79A2D165D4C115",
+      "target_text": "──그 후 결국 나와 그녀는^n계속 헨젤과 그레텔로 남을 수 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00006",
+      "source_text": "しどけない眠りから目覚めて顔を合わせた時、^n僕たちはお互いの目の中に「男」と「女」を見た。^nそれが兄妹ごっこの終わりだった。",
+      "source_raw_sha256": "ADB050B3C5D1B7DA755D601FF01F477C52CD3EE805B2A083507BB01478D00358",
+      "target_text": "무방비하게 잠든 뒤 깨어나 서로 얼굴을 마주했을 때,^n우리는 서로의 눈 속에서 『남자』와 『여자』를 보았다.^n그것으로 남매 놀이는 끝났다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00007",
+      "source_text": "「聖書」のない今、こんなどうしようもない変化を抱えて^n　あの物語をたどりきることなんてできない。",
+      "source_raw_sha256": "CF26B23DF8ACA12504A14F73F0BA7126995CDCA9F0527223A2F9A9329843B6CD",
+      "target_text": "『성서』가 없는 지금, 이런 돌이킬 수 없는 변화를 안고^n그 이야기를 끝까지 따라갈 수는 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00008",
+      "source_text": "そうなることはどこかでわかっていたはずなのに、^n僕も彼女も「誰でもない」自分というものに耐えきれず、^n今度こそ狂いきってしまうかと思われた。",
+      "source_raw_sha256": "6DB5284EB957242B0EB1B28F543F5D8F8EC4F25B926DB78AFDA798A0D63929D7",
+      "target_text": "그렇게 되리란 걸 어딘가에서는 알고 있었을 텐데,^n나도 그녀도 『그 누구도 아닌』 자신을 견디지 못해,^n이번에야말로 완전히 미쳐 버릴 것만 같았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00009",
+      "source_text": "そんな僕たちを救ってくれたのは、^nお菓子の家に置いてあった１冊の絵本だった。",
+      "source_raw_sha256": "0297A04B8BB9B7DFCF86729E0B9148086353453A34E3C65EA3A378098BEFBA96",
+      "target_text": "그런 우리를 구해 준 것은^n과자 집에 놓여 있던 그림책 한 권이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00010",
+      "source_text": "──メーテルリンクの「青い鳥」。",
+      "source_raw_sha256": "315B7414E1AA763576B01AE63001F840E54AEE4ADD4BD419AEEA21967B125005",
+      "target_text": "──메테를링크의 『파랑새』.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00011",
+      "source_text": "「青い鳥」は、幸せの青い鳥を探して^n　チルチルとミチルの兄妹がたくさんの世界を旅する話だ。",
+      "source_raw_sha256": "2290C92900A50989B72B6C74B3294C3668C0877ADEE8BD803A15180A6717259A",
+      "target_text": "『파랑새』는 행복의 파랑새를 찾아^n치르치르와 미치르 남매가 수많은 세계를 여행하는 이야기다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00012",
+      "source_text": "そして、その「青い鳥」をこわごわと手に取った^n僕たちの背をさらに押すように、^nお菓子の家の戸棚からダイヤつきの帽子が見つかった。",
+      "source_raw_sha256": "916138927EEF3FD3D160ED90B49D353A2CA0782BF55917DA1FD176071A22BBFF",
+      "target_text": "그리고 그 『파랑새』를 겁먹은 채 집어 든^n우리의 등을 한 번 더 밀어 주듯,^n과자 집 찬장에서 다이아몬드가 박힌 모자가 발견되었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00013",
+      "source_text": "これは「青い鳥」のための小道具に違いない。",
+      "source_raw_sha256": "C80CB3DE51289C6CE9FF9FED69D75946D72C163E3F3ADF21192DAC9E0FFA3A47",
+      "target_text": "이건 『파랑새』를 위한 소품이 틀림없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00014",
+      "source_text": "兄妹が謎のおばあさんから貰い受けるダイヤつきの帽子は、^nとても不思議な力を持っていて、ひねると物がしゃべりだしたり、^n火や水の精が見えるようになったりする。",
+      "source_raw_sha256": "98BC9958B01ED55AF89557984DC10B02E0657389BC334D21C5EAFC54A157510C",
+      "target_text": "남매가 수수께끼의 할머니에게 받는 다이아몬드 모자는^n무척 신기한 힘을 지녀, 비틀면 물건이 말을 시작하거나,^n불과 물의 정령이 보이게 된다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00015",
+      "source_text": "最も魅惑的な奇跡は、ひねるたびに^n違う世界へと導いてくれるということだ。",
+      "source_raw_sha256": "9B6E5D25C1A078C25F609B8D8F7754F28F636BF6B8F9F45988F8F24C1B1ACBB0",
+      "target_text": "가장 매혹적인 기적은 비틀 때마다^n다른 세계로 이끌어 준다는 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00016",
+      "source_text": "──どこにだって行ける。^nそんなイメージが、どれだけ僕と彼女を勇気づけたことか。",
+      "source_raw_sha256": "F03321A0DF982CF5AC0B4B846BEE3404F9FC8F42FED9D13EBE47EE5104C4B168",
+      "target_text": "──어디든 갈 수 있다.^n그 이미지가 나와 그녀에게 얼마나 큰 용기를 주었는지 모른다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00017",
+      "source_text": "貧しい木こりの子供だったチルチルとミチルの兄妹なら、^n|彼女[グレーテル]にとっても無理なく演じられそうだ、^nそんなことも考えた。",
+      "source_raw_sha256": "8E17B6BD16987A6584A7B0467BCDD646E078C7FB69F736550AA1F7B48E2DE0E1",
+      "target_text": "가난한 나무꾼의 아이들인 치르치르와 미치르 남매라면,^n그녀도 무리 없이 연기할 수 있을 것 같다는^n생각도 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00018",
+      "source_text": "──やり直せる。^n",
+      "source_raw_sha256": "6BE3CDB668BA335B95D1BAE1398B398C44C46E8D4EEB529A2A49042ED14F4CF1",
+      "target_text": "──다시 시작할 수 있다.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00019",
+      "source_text": "──もう一度、兄妹として。^n",
+      "source_raw_sha256": "A0B435182117238815A08BDB686BFA1FD7BAA12396DA466989C2096B3CFD6081",
+      "target_text": "──다시 한번 남매로서.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00020",
+      "source_text": "──何ひとつ間違いのない、元気で健全な兄妹として。",
+      "source_raw_sha256": "72D7A4D151B80FBEBAC5774084B14FDA0E9A07DE7966EFC6011A9B0085F837D2",
+      "target_text": "──무엇 하나 잘못되지 않은 건강하고 건전한 남매로서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00021",
+      "source_text": "そうして僕たちはさっそく、「本来の僕たち」を閉じ込めるための^n新しい|繭[まゆ]を作り始めたのだ──",
+      "source_raw_sha256": "C104487F8DCF056C8DB7CFBBCEECA73EE205B181A44029387C892CE65DB09099",
+      "target_text": "그렇게 우리는 곧바로 『본래의 우리』를 가두기 위한^n새로운 고치를 만들기 시작했다──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00022",
+      "source_text": "僕たちは帽子の力を使って今日もたくさんの世界を渡り歩き、^nまだ見ぬ「青い鳥」を探し求めて旅をしている。",
+      "source_raw_sha256": "BEBF3EC608DD70295F07BB18C69A00CF8D49FEFD3069A25A0071AE78751BD6AE",
+      "target_text": "우리는 모자의 힘으로 오늘도 수많은 세계를 넘나들며,^n아직 보지 못한 『파랑새』를 찾아 여행하고 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00023",
+      "source_text": "たまに誰かに見つかって追いかけられることもあるけれど、^n帽子のダイヤさえひねればすぐに振り切れた。",
+      "source_raw_sha256": "CB178F84CD10441FAEA87D0A272635A388FC89124B47B02FED896F1BCCD4C654",
+      "target_text": "가끔 누군가에게 들켜 쫓길 때도 있지만,^n모자의 다이아몬드만 비틀면 곧바로 따돌릴 수 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00024",
+      "source_text": "ミチル",
+      "source_raw_sha256": "3180919A0B8008010066D9292497A4C817F598332012F59FCEDD22DD0C796999",
+      "target_text": "미치르",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00025",
+      "source_text": "お兄ちゃん、チルチルお兄ちゃん？^nもうっ、聞いてるの？",
+      "source_raw_sha256": "A84AE3ADBA888DEE3145AFD47401D18F819F9F18BFC25A24B1F9BC237BD17173",
+      "target_text": "오빠, 치르치르 오빠?^n정말, 듣고 있어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00026",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00027",
+      "source_text": "聞いてるよ、ミチル。^nうん、綺麗な夕焼けだね。",
+      "source_raw_sha256": "33F2B8A51133D760C960AE5A3FA0706B7B0F9BA6BD09292A584C31C4AD209048",
+      "target_text": "듣고 있어, 미치르.^n응, 아름다운 저녁놀이네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00028",
+      "source_text": "ミチルが頬を膨らませて僕を見る。^nしっかり者で、はきはきしていて、とても元気な妹だ。",
+      "source_raw_sha256": "C1F443D911952386A453F4235ECB99D437BBB76FD4C19107BB1B6055A6F4FE19",
+      "target_text": "미치르가 볼을 부풀리며 나를 바라본다.^n야무지고 말도 똑 부러지며 무척 활기찬 여동생이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00029",
+      "source_text": "ミチル",
+      "source_raw_sha256": "3180919A0B8008010066D9292497A4C817F598332012F59FCEDD22DD0C796999",
+      "target_text": "미치르",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00030",
+      "source_text": "ねえお兄ちゃん、次はどこに行こうか？",
+      "source_raw_sha256": "F0C96B2828E4131D582EAEC1F15FA08DE35684FDD4370076AD4F6FB4D0AFBD76",
+      "target_text": "있지, 오빠. 다음에는 어디로 갈까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00031",
+      "source_text": "「|妹[ミチル]」が期待に輝く瞳で僕に尋ねた。",
+      "source_raw_sha256": "554C9DCB0B4EEB9CB29725191F65A961677306011E1B37AD603C9E4F3696E7FD",
+      "target_text": "『여동생』이 기대감으로 빛나는 눈으로 내게 물었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00032",
+      "source_text": "「青い鳥」には「要らない子」は出てこない。^n　仙女のお告げで幸せの青い鳥を探しに行く、^n　希望に胸を膨らませる兄妹がいるだけ──",
+      "source_raw_sha256": "23FB36CA14D3201894B44F742B6478E9C2CB520F984A6D4A2CF833A9028DBA99",
+      "target_text": "『파랑새』에는 『필요 없는 아이』가 나오지 않는다.^n요정의 계시를 받아 행복의 파랑새를 찾으러 가는,^n희망에 가슴 부푼 남매가 있을 뿐──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00033",
+      "source_text": "ミチル",
+      "source_raw_sha256": "3180919A0B8008010066D9292497A4C817F598332012F59FCEDD22DD0C796999",
+      "target_text": "미치르",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00034",
+      "source_text": "今度こそ、見つかるかな、青い鳥。",
+      "source_raw_sha256": "623B7B45F6629643DFF25EB73D97416BD005800563399EC5262E8EAC41A1AA25",
+      "target_text": "이번에는 찾을 수 있을까, 파랑새.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00035",
+      "source_text": "チルチルになった僕は、たまに思うことがある。",
+      "source_raw_sha256": "DD08F02FABE1EA2D4201FC049AFB6BAE4667F6CC91DF8D57AB2F3971C8069997",
+      "target_text": "치르치르가 된 나는 가끔 생각하곤 한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00036",
+      "source_text": "「青い鳥を得られずに家に帰ったら、家で飼っていた鳩が^n　前より青くなっていて、これが青い鳥だったのだと気付く。^n　幸せは、気づかないだけですぐ近くにあったのでした」",
+      "source_raw_sha256": "DAD37D7DB9F03BFEE5D3F42E1D6EC0FB19FF977E1707CA87044BBC8D7DBC20A4",
+      "target_text": "『파랑새를 찾지 못한 채 집으로 돌아가자, 집에서 기르던 비둘기가^n전보다 파래져 있었고 이것이 파랑새였음을 깨닫는다.^n행복은 알아차리지 못했을 뿐 바로 곁에 있었던 것입니다.』",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00037",
+      "source_text": "──というのが、この「聖書」の結末だけれど。",
+      "source_raw_sha256": "1FBDE0F255E7908D973EE01B2B966E4E6E1F71EE341C9B9AA1B8FEC21CE5AB85",
+      "target_text": "──라는 것이 이 『성서』의 결말이지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00038",
+      "source_text": "でも、僕たちには帰る場所がない。^nそんな僕らに、青い鳥が見つかる日はくるんだろうか？",
+      "source_raw_sha256": "781BB83B21613D97B6E53F3D070187F997C38C47E1B2CB11013DFCCA4B526C62",
+      "target_text": "하지만 우리에게는 돌아갈 곳이 없다.^n그런 우리가 파랑새를 찾는 날이 올까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00039",
+      "source_text": "でも──同時に僕はこうも思う。",
+      "source_raw_sha256": "72B49772A700DC337E42FFBE5DB59B6173C7FFA7D17601C2F3CB6712D9798D01",
+      "target_text": "하지만──동시에 나는 이렇게도 생각한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00040",
+      "source_text": "この「妹」と一緒にいられることは、^n何にも代えがたい、とても幸福なことなんだと。",
+      "source_raw_sha256": "D3BE5508AFDAD996E1517EEB0E00E86215AB3D0BB0AFC3CC01D1D10C505B2D92",
+      "target_text": "이 『여동생』과 함께 있을 수 있다는 것은,^n무엇과도 바꿀 수 없는 크나큰 행복이라고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00041",
+      "source_text": "きっと帰る家がなくたって、^n青い鳥はすぐにでも見つかるはずだ。",
+      "source_raw_sha256": "50E27395121BB86D9526AD48A483B5825CE576C45602307F6B1B87C3E953AD22",
+      "target_text": "분명 돌아갈 집이 없더라도,^n파랑새는 금세 찾을 수 있을 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00042",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00043",
+      "source_text": "……ああ、見つかるさ、きっと。",
+      "source_raw_sha256": "42E544860CE89850B58401CFF5B4D722789457F30589702B956DA85029A2AB20",
+      "target_text": "……그래, 찾을 수 있어. 반드시.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00044",
+      "source_text": "　僕たちの辛い思い出ばかりを|詰[つ]め込んだ「思い出の王国」も、^n「夜の宮殿」も「お墓の国」も、みんな過ぎ去った。",
+      "source_raw_sha256": "1B05557F0AB1C3AF6880533B42B2425C1FFAB5BD1BF687E0FBD9831B9B034497",
+      "target_text": " 우리의 괴로운 추억만 가득 담은 『추억의 왕국』도,^n『밤의 궁전』도 『무덤의 나라』도 모두 지나갔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00045",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00046",
+      "source_text": "さあ行こう、ミチル。^n次に向かうのは「未来の王国」だよ！",
+      "source_raw_sha256": "AF0BCA524DFC465591A5B5090072D78B3DA30705A79F48C2548CEA37625368C8",
+      "target_text": "자, 가자, 미치르.^n다음 목적지는 『미래의 왕국』이야!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1328.gsc::slot/00047",
+      "source_text": "僕は帽子のダイヤをひねって、^n妹と一緒にまだ見ぬ世界へと旅立つのだった──",
+      "source_raw_sha256": "1C6C1BF583B5D511B3D179F042C00B13D7BE52C6CC65EDB08EC4B7792F2ACEAA",
+      "target_text": "나는 모자의 다이아몬드를 비틀고,^n여동생과 함께 아직 보지 못한 세계로 여행을 떠났다──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ],
+  "post_review_corrections": [
+    {
+      "type": "Malie control-token ASCII spacing normalization",
+      "method": "removed only ASCII space/tab immediately adjacent to ^n; no wording change",
+      "applied_utc": "2026-08-13T10:52:34.566453Z",
+      "changes": [
+        {
+          "slot": 7,
+          "before": "『성서』가 없는 지금, 이런 돌이킬 수 없는 변화를 안고^n 그 이야기를 끝까지 따라갈 수는 없다.",
+          "after": "『성서』가 없는 지금, 이런 돌이킬 수 없는 변화를 안고^n그 이야기를 끝까지 따라갈 수는 없다."
+        },
+        {
+          "slot": 11,
+          "before": "『파랑새』는 행복의 파랑새를 찾아^n 치르치르와 미치르 남매가 수많은 세계를 여행하는 이야기다.",
+          "after": "『파랑새』는 행복의 파랑새를 찾아^n치르치르와 미치르 남매가 수많은 세계를 여행하는 이야기다."
+        },
+        {
+          "slot": 32,
+          "before": "『파랑새』에는 『필요 없는 아이』가 나오지 않는다.^n 요정의 계시를 받아 행복의 파랑새를 찾으러 가는,^n 희망에 가슴 부푼 남매가 있을 뿐──",
+          "after": "『파랑새』에는 『필요 없는 아이』가 나오지 않는다.^n요정의 계시를 받아 행복의 파랑새를 찾으러 가는,^n희망에 가슴 부푼 남매가 있을 뿐──"
+        },
+        {
+          "slot": 36,
+          "before": "『파랑새를 찾지 못한 채 집으로 돌아가자, 집에서 기르던 비둘기가^n 전보다 파래져 있었고 이것이 파랑새였음을 깨닫는다.^n 행복은 알아차리지 못했을 뿐 바로 곁에 있었던 것입니다.』",
+          "after": "『파랑새를 찾지 못한 채 집으로 돌아가자, 집에서 기르던 비둘기가^n전보다 파래져 있었고 이것이 파랑새였음을 깨닫는다.^n행복은 알아차리지 못했을 뿐 바로 곁에 있었던 것입니다.』"
+        }
+      ]
+    }
+  ]
+}

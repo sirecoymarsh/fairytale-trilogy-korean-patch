@@ -1,0 +1,520 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1619_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    43
+  ],
+  "new_review_change_count": 13,
+  "new_review_changes": [
+    {
+      "slot": 9,
+      "before": "여기서는 낮도 밤도 상관없었다.^n배도 고프지 않다. 졸리지도 않는다.",
+      "after": "여기서는 낮과 밤도 상관없었다.^n배도 고프지 않다. 졸리지도 않는다."
+    },
+    {
+      "slot": 15,
+      "before": "──기억의 조각을.",
+      "after": "──기억의 조각."
+    },
+    {
+      "slot": 17,
+      "before": "벽난로에서 장작이 튀는 소리.^n",
+      "after": "벽난로에서 장작이 타닥거리며 튀는 소리.^n"
+    },
+    {
+      "slot": 22,
+      "before": "쾅쾅 울부짖으며 사나워지는 눈보라.^n",
+      "after": "맹렬하게 울부짖는 눈보라.^n"
+    },
+    {
+      "slot": 23,
+      "before": "새하얗게 반짝이는 얼음 알갱이.^n",
+      "after": "새하얗게 눈부시도록 반짝이는 얼음 알갱이.^n"
+    },
+    {
+      "slot": 26,
+      "before": "나만 이 하얀 어둠 속에 버려둔다.",
+      "after": "나만 이 하얀 어둠 속에 버려 둔다."
+    },
+    {
+      "slot": 27,
+      "before": "나는 홀로 몸부림쳤다. 헐떡였다.",
+      "after": "나는 홀로 몸부림쳤다. 숨을 헐떡였다."
+    },
+    {
+      "slot": 29,
+      "before": "발판을 걷어차는 발,^n",
+      "after": "발판을 걷어차던 발,^n"
+    },
+    {
+      "slot": 31,
+      "before": "모든 것이 얼어붙을 듯한 추위 너머에서 본 것.^n",
+      "after": "모든 것이 얼어붙을 만큼 차가운 곳 너머에서 본 것.^n"
+    },
+    {
+      "slot": 34,
+      "before": "아지랑이처럼, 신기루처럼, 요정의 안개처럼.^n",
+      "after": "아지랑이처럼, 신기루처럼, 요정의 안개 『파타 모르가나』처럼.^n"
+    },
+    {
+      "slot": 36,
+      "before": "조각에 닿는 손가락이 난도질당하듯 아프다.^n",
+      "after": "조각에 닿는 손가락이 잘게 베이는 듯 아프다.^n"
+    },
+    {
+      "slot": 39,
+      "before": "분명 나는 더 이상 추위를 느끼지 않아도 될 것이다.",
+      "after": "분명 나는 이제 추위를 느끼지 않아도 될 것이다."
+    },
+    {
+      "slot": 41,
+      "before": "아아, 그 답은 분명 보이고 있을 텐데,^n나는 그 퍼즐을 맞출 수 없다.^n",
+      "after": "아아, 그 답은 분명 눈앞에 보일 텐데,^n나는 그 퍼즐을 맞출 수 없다.^n"
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    44,
+    101
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00001",
+      "source_text": "あの女を追いやってから、^n僕はずっと|教会[そこ]の中にいた。",
+      "source_raw_sha256": "EDF0E08E5A7FD848DEF5B8A7E01108879EFAD20330D85FA180E0D13AB75EFD62",
+      "target_text": "그 여자를 몰아낸 뒤,^n나는 줄곧 교회 안에 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00002",
+      "source_text": "あれは何日前のことだったろうか。^n",
+      "source_raw_sha256": "7C03233C02DA65975FCAFCB2C62FCB609B4A170109A5265656F4C3F8AE1E26C3",
+      "target_text": "그게 며칠 전 일이었을까.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00003",
+      "source_text": "思い出そうとしても思い出せない。",
+      "source_raw_sha256": "401D5AA264AE3AEA84334BCE21EFF0DEB726B9F6AF4A194C298CE00A42910356",
+      "target_text": "떠올리려 해도 생각나지 않는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00004",
+      "source_text": "気付けば教会の中は一面の氷で|覆[おお]われていた。",
+      "source_raw_sha256": "14EEC7EC9011C0D0E553A004FEE54A202D125B7E20C3E5711F12B0127B7A4540",
+      "target_text": "정신을 차리고 보니 교회 안은 온통 얼음으로 뒤덮여 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00005",
+      "source_text": "いいや、違う。^n",
+      "source_raw_sha256": "073CEF9BF02921EC1C4B7C4B4A517203335083AAFDEFE80111D3D45C950772CC",
+      "target_text": "아니, 다르다.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00006",
+      "source_text": "凍り付いたのは教会だけじゃない。",
+      "source_raw_sha256": "52884DB7825AF78F0BF409B96F12724B391FFE0365CA42C9646393CEDA186DCD",
+      "target_text": "얼어붙은 것은 교회뿐만이 아니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00007",
+      "source_text": "ここでは何もかもが凍り付いている。^n",
+      "source_raw_sha256": "AAD3F0580FCA7778F3D546177005EFE81B32AF6537C40290665CA92446FBFC90",
+      "target_text": "여기서는 모든 것이 얼어붙어 있다.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00008",
+      "source_text": "僕の身体も、心も、そして時すらも。",
+      "source_raw_sha256": "DE34C33BAD4A56CC5BE34DD5DF8A62F74C2F3458E74D8F25624D16186C594EAB",
+      "target_text": "내 몸도, 마음도, 그리고 시간마저도.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00009",
+      "source_text": "ここでは昼も夜も関係なかった。^nお腹も減らない。眠くもならない。",
+      "source_raw_sha256": "3D725D54F535F8B8942879018FEC6DECC5CB1178CE63B5F2E4C3080E11BEC5DE",
+      "target_text": "여기서는 낮과 밤도 상관없었다.^n배도 고프지 않다. 졸리지도 않는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00010",
+      "source_text": "僕の身体と心とが感じるのは、^nひたすらに「寒い」という事だけ。",
+      "source_raw_sha256": "E5A0D03F4BB946F3F093B0EF9559AD4BB10983F2285E3461EAC44B22B4DF0BAD",
+      "target_text": "내 몸과 마음이 느끼는 것은,^n오로지 『춥다』는 사실뿐.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00011",
+      "source_text": "凍り付いた身体と時の中で、^n僕の頭の中で何かを必死に^n組み立てようとしている「僕」がいる。",
+      "source_raw_sha256": "11AC15E4E92F3E47C38013852B1A183214AE359861C1E480D91656365EED00DD",
+      "target_text": "얼어붙은 몸과 시간 속에서,^n내 머릿속에는 무언가를 필사적으로^n맞추려 하는 『나』가 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00012",
+      "source_text": "散らばった欠片を|掻[か]き集めては、^n黙々とそれを組み合わせていく。^nそれは僕以外には見えない欠片。",
+      "source_raw_sha256": "D52B6BF2FC5A7B2D699A3507A2302F4CFE6D54163B0F1B797FB3242B849F1875",
+      "target_text": "흩어진 조각을 긁어모아,^n묵묵히 서로 맞춰 간다.^n그것은 나 말고는 누구도 볼 수 없는 조각.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00013",
+      "source_text": "──僕の欠片。^n",
+      "source_raw_sha256": "EE69651969ABF5872A5AD49723153E2AF167F4BE5DA03D5C34B63CAEE4948C7E",
+      "target_text": "──나의 조각.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00014",
+      "source_text": "──心の欠片。^n",
+      "source_raw_sha256": "0912DFCEF68B2FCF555A07281C5950196B0C652F6603A4CB79A365EEE22FE93A",
+      "target_text": "──마음의 조각.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00015",
+      "source_text": "──記憶の欠片を。",
+      "source_raw_sha256": "4F15C486C2219E3E7A93A6A6830FCF9B8F3963C1F4A8ED60BBB66C9473A26AAA",
+      "target_text": "──기억의 조각.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00016",
+      "source_text": "それは暖かな部屋の記憶。",
+      "source_raw_sha256": "8215BA3E93D1CCEC8BCC2B1FEC4B3EC3D9BBFE90E98CF4A150F97A5C04D654F8",
+      "target_text": "그것은 따뜻한 방의 기억.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00017",
+      "source_text": "暖炉で|爆[は]ぜる薪の音。^n",
+      "source_raw_sha256": "CF822366BC467C2AFF562E7931099E07CA3F139E7678C6A8A1B31D961774C398",
+      "target_text": "벽난로에서 장작이 타닥거리며 튀는 소리.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00018",
+      "source_text": "おばあさんの昔語り。",
+      "source_raw_sha256": "7BA52F058FC0E7A58A37405614EBC2ACD6040BC961D251BF2C4EFA02DC1034D0",
+      "target_text": "할머니가 들려주는 옛이야기.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00019",
+      "source_text": "　窓辺に咲く一輪の薔薇。^n",
+      "source_raw_sha256": "716405DC1212C4BA50CA4650BD1710C0CE817D1AFDB0E0171DF2A7C01DB0DCFA",
+      "target_text": "　창가에 핀 장미 한 송이.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00020",
+      "source_text": "　|傍[そば]にたたずむ「誰か」。",
+      "source_raw_sha256": "A93408BEDC4870171A37D24A1498ED566BAF9900AA1CBF24CDA1E39153ABBB4F",
+      "target_text": "　곁에 서 있는 『누군가』.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00021",
+      "source_text": "^n「誰か」と交わした約束。",
+      "source_raw_sha256": "43DE5BE72AC39A026877C54B89C1B02B7F2F23AA0C3D481B761CF2C2732E4DA2",
+      "target_text": "^n『누군가』와 나눈 약속.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00022",
+      "source_text": "轟々と吠え猛る吹雪。^n",
+      "source_raw_sha256": "C03583BEE073B2D7D6CBDCD8474BD81B4F01CA2C63ECA68B2267034900727F58",
+      "target_text": "맹렬하게 울부짖는 눈보라.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00023",
+      "source_text": "|皓々[こうこう]と|煌[きら]めく氷の|礫[つぶて]。^n",
+      "source_raw_sha256": "0B05B13EBB2DD8B5F6A66B34BA68A4C840EB94F0B77AD412180D33A0AED86B4C",
+      "target_text": "새하얗게 눈부시도록 반짝이는 얼음 알갱이.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00024",
+      "source_text": "視界を|覆[おお]い尽くす白。",
+      "source_raw_sha256": "501CFC37FE3040335375A94DF6E17291A39C382151918EBC838B3ACAD2A4066D",
+      "target_text": "시야를 온통 뒤덮는 흰색.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00025",
+      "source_text": "どこまでも真白く、どこまでも冷たいそれは、^n僕の大切な物をことごとく吹きさらっていく。^n",
+      "source_raw_sha256": "1AA3254F2474652B8F6C360CEC5DD4B831C0DD938F0DFC3084DEC4423D838EB6",
+      "target_text": "끝없이 새하얗고 끝없이 차가운 그것은,^n내 소중한 것을 모조리 휩쓸어 간다.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00026",
+      "source_text": "僕ひとりをこの白い闇の中に置き去りにする。",
+      "source_raw_sha256": "B15B721EE3B0D146A345FD3A6BEBDC31988D9324BF2BE349A0D7606DA526EEED",
+      "target_text": "나만 이 하얀 어둠 속에 버려 둔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00027",
+      "source_text": "僕はひとりきりで|もがいた[・・・・]。|喘[あえ]いだ。",
+      "source_raw_sha256": "0327E1E79A14ED6D750448970CDEFFCB22D6816C0C4DEE2F243A9064CCAB0341",
+      "target_text": "나는 홀로 몸부림쳤다. 숨을 헐떡였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00028",
+      "source_text": "|嘲[あざけ]る声、",
+      "source_raw_sha256": "EB3DD2CD75C84B5B6FE70940CF8D4C1535A4FE239382DBC1ABABC32B6D6DBC3C",
+      "target_text": "비웃는 목소리,",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00029",
+      "source_text": "踏み台を蹴る足、^n",
+      "source_raw_sha256": "7D113ECA0B0ABA987F13A4C74045EFA6954709F5B8D425B3168F5EBD7860437B",
+      "target_text": "발판을 걷어차던 발,^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00030",
+      "source_text": "苦しい、苦しい──寒い。",
+      "source_raw_sha256": "FDC89C59901C8E450601AD8B54C77FAFB43F0B4260820C6C330B470C85444B21",
+      "target_text": "괴로워, 괴로워──추워.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00031",
+      "source_text": "全て凍るほどの寒さの向こうに見たもの。^n",
+      "source_raw_sha256": "F96AD68F9712C785F850995DF9FAB908923A56A624BDC45B125801A5B92AF2D4",
+      "target_text": "모든 것이 얼어붙을 만큼 차가운 곳 너머에서 본 것.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00032",
+      "source_text": "ああ、それは、あたたかな「永遠」だった。",
+      "source_raw_sha256": "F03B1485D94FBA3ADE67B2C9CCF99D4E50627B43E39F660766618BF3155C1692",
+      "target_text": "아아, 그것은 따뜻한 『영원』이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00033",
+      "source_text": "けれど幾ら手を伸ばしてもそれには届かない。^n",
+      "source_raw_sha256": "EBEB3ADDE394B47295EEE39F7BE7EA8A7020AD55221B1130928AE7486EA1E878",
+      "target_text": "하지만 아무리 손을 뻗어도 닿지 않는다.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00034",
+      "source_text": "|陽炎[かげろう]の様に、|蜃気楼[しんきろう]の様に、|妖精の霧[ファタ・モルガーナ]の様に。^n",
+      "source_raw_sha256": "213522458472057D608FA3F7A7215E2FE2269DC15330470E29A47EAA60CB2CBE",
+      "target_text": "아지랑이처럼, 신기루처럼, 요정의 안개 『파타 모르가나』처럼.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00035",
+      "source_text": "僕を幻惑しては遙か遠くへと消え去ってゆく。",
+      "source_raw_sha256": "AF5F28ABD1E767AFE07A5F454F54F0719D1F09A7DFC9048904069CA5653E41F7",
+      "target_text": "나를 현혹하고는 아득히 먼 곳으로 사라져 간다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00036",
+      "source_text": "欠片を触る指が切り刻まれるように痛む。^n",
+      "source_raw_sha256": "DB24CC8BAFC445ABE200F4EE96F0B872D46AAC2076C600316ACCC431C4CD7D60",
+      "target_text": "조각에 닿는 손가락이 잘게 베이는 듯 아프다.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00037",
+      "source_text": "冷気が僕の指を|容赦[ようしゃ]なく切りつけている。",
+      "source_raw_sha256": "0F781B7D4E8EAC8AF5F445C3684423843EB20E6EE93B56A499A90509E8F7E314",
+      "target_text": "냉기가 내 손가락을 가차 없이 베고 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00038",
+      "source_text": "でもこのパズルを組み立てることが出来たならば。^n",
+      "source_raw_sha256": "8B5ED10A08B2E4111CA5BC08F5E9E0E2BE00A0A5DC4E1F0B26F72E699488CC00",
+      "target_text": "하지만 이 퍼즐을 맞출 수만 있다면.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00039",
+      "source_text": "きっと僕は寒さを感じずに済むようになるはずだ。",
+      "source_raw_sha256": "C83DE2D6FD57464337B4143E5DC640263AA915972D7E83A03669D975A578E2E5",
+      "target_text": "분명 나는 이제 추위를 느끼지 않아도 될 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00040",
+      "source_text": "そのためにはあの答えに|辿[たど]りつかなくては。",
+      "source_raw_sha256": "9193977BEA45F217095D93541AEE5BE963A44BD2C91F9DB5F75230CE4B3C1D3E",
+      "target_text": "그러려면 그 답에 도달해야 한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00041",
+      "source_text": "ああ、その答えは確かに見えている|筈[はず]なのに、^n僕にはそのパズルを組み立てる事が出来ない。^n",
+      "source_raw_sha256": "2D50289C910EEE5E7F60BF8EAD0C8189874B0E15E65A287063FF338BE858B275",
+      "target_text": "아아, 그 답은 분명 눈앞에 보일 텐데,^n나는 그 퍼즐을 맞출 수 없다.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00042",
+      "source_text": "どれだけ|彷徨[さまよ]っても|辿[たど]り着くことができない。",
+      "source_raw_sha256": "61E86B8E725FA386285CEC9893D3C4AC71D4BA100AAB482EBF2895200883B2FF",
+      "target_text": "아무리 헤매도 도달할 수 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1619.gsc::slot/00043",
+      "source_text": "あの日見た「|永遠[ＥＶＥＲ]」という答えに。",
+      "source_raw_sha256": "E479711929CB0D8B17D995A19C1573EDBBB31B27D84E643DF89EFFEF2571805F",
+      "target_text": "그날 보았던 『영원(EVER)』이라는 답에.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

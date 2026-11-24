@@ -1,0 +1,56 @@
+from assets import *
+def make():
+    installs=read('audit/install.json');work=read('audit/workload.json');op=read('audit/opening_install.json')
+    qa=read('audit/final_game_run.json') if (ROOT/'audit/final_game_run.json').is_file() else {}
+    lines=[
+    '# 페어리테일 심포니·앙코르 한국어판 작업량',
+    '',
+    '두 게임을 Y:에 설치했다. 게임 화면의 UI와 글자가 들어간 CG, 타이틀 로고, 앙코르 오프닝을 한국어화했다. 글자 없는 일러스트는 번역 집계에서 제외했다. 시나리오는 사용자가 제미나이에 의뢰하며 번역본을 받은 뒤 검수한다.',
+    '',
+    '## 세 작품에서 같은 원본',
+    '',
+    '| 비교 항목 | 레퀴엠 고유 수 | 앙코르 고유 수 | 심포니 고유 수 | 앙코르·심포니 공통 | 세 작품 공통 |',
+    '|---|---:|---:|---:|---:|---:|']
+    for key,label in [('system_panels','시스템 화면 레이어'),('title_buttons','타이틀·루트 버튼'),('library','서재 그림'),('map','지도 그림')]:
+        v=work[key];a=v['unique_per_game'];lines.append(f"| {label} | {a['Requiem']} | {a['Encore']} | {a['Symphony']} | {v['pairwise_shared']['Encore + Symphony']} | {v['shared_by_three']} |")
+    lines+=['','압축을 푼 원본 화상 데이터를 SHA-256으로 대조했다. 두 후속작의 시스템 UI는 각 148개 레이어 참조에서 중복 제거 후 116종이다. 전 116종이 두 작품에 공통이고 112종은 레퀴엠에도 있다. 지도 68종과 서재 58종도 세 작품에 공통이다.',
+    '',
+    '## 실제 번역과 설치',
+    '',
+    '| 작품 | 갤러리 작품별 제목 | 재사용한 한글 이미지 상태 | 새로 조판·제작한 상태 | 설치한 이미지 상태 | 갱신한 XFL |',
+    '|---|---:|---:|---:|---:|---:|']
+    for g,kr,t in [('Encore','앙코르',49),('Symphony','심포니',24)]:
+        a=installs[g];n=a['changed_image_states'];lines.append(f"| {kr} | {t} | {n['reuse']} | {n['new']} | {sum(n.values())} | {len(a['banks'])} |")
+    lines+=['','이미지 상태 수에는 버튼 기본·선택 상태, 저장 슬롯의 같은 제목, 타이틀 애니메이션 반복 프레임이 각각 들어간다. 앙코르 49개와 심포니 24개가 작품별 갤러리 제목의 실제 번역량이다. 공통 음악 제목 11곡과 가사 카드, 작품별 크레딧, 실행 파일의 창·확인 대화상자 16개 문자열도 반영했다.',
+    '',
+    '## 새 한글 로고와 오프닝',
+    '',
+    '두 로고는 한글 자모를 베지에 곡선으로 그렸다. 원본의 굵고 가는 검은 획, 말린 끝, 흰 테두리와 그림자를 따랐다. 금색 별은 앙코르 부제 오른쪽에 하나, 심포니 부제 왼쪽에 두 개를 놓았다. 원래 글자에 가려졌던 풍선 세 개는 같은 장면의 풍선 그림, 남아 있는 윤곽과 실제 화면 색으로 복원했다.',
+    '',
+    '메인 타이틀은 작품별 8프레임이다. 심포니의 시작 연출은 원래 96프레임을 썼다. 한글 잉크가 들어간 69개 조각 중 56개는 원본 모서리를 추적했고, 일본어 획이 지나지 않아 추적점이 부족했던 13개는 가장 가까운 원본 조각의 움직임을 적용했다.',
+    '',
+    '앙코르 오프닝은 1280×720, 30000/1001fps, 3,818프레임이다. 원본에서 측정한 레코드판 회전과 기울기, 잔상에 같은 한글 도안을 얹고 마지막 제작진 표기를 교체했다. 수정 구간 앞과 사이의 2,614개 압축 영상 프레임을 그대로 연결했다. 스테레오 MP2 음원은 원본과 설치본의 해시가 일치한다. 전체 영상을 오류 없이 디코드했고, 접합 경계·정지 로고·회전·크레딧 22프레임을 대조했다.',
+    '',
+    '## 결과 파일',
+    '',
+    '- [원본·한국어판 로고 비교](로고%20비교.html)',
+    '- [앙코르 로고 원화](design/앙코르.png) · [심포니 로고 원화](design/심포니.png)',
+    '- [오프닝 프레임·음원 검증](audit/opening_install.json) · [게임 아카이브 검증](audit/install.json) · [전체 자산 비교](audit/workload.json)',
+    '',
+    '비교 페이지에서 두 화면은 마우스 휠로 함께 확대·축소한다. 포인터 기준 확대, 화면 맞춤, 영상 재생·정지·탐색을 브라우저에서 확인했다. 원본 디스크의 파일은 프로젝트의 original 폴더에 있다.',
+    '',
+    '## 게임 실행 확인','']
+    if qa:
+        for g,item in qa.items():
+            if isinstance(item,dict):lines.append('- '+item.get('summary',g))
+    else:lines.append('이번 최종 설치본은 게임 아카이브와 영상 파일 검증을 마쳤다. 게임 창에서 확인한 항목은 실행 기록에 추가한다.')
+    lines+=['','## 참고한 원본과 도구','',
+    '디자인은 제작사의 작품별 타이틀과 사용자 디스크의 원래 로고 프레임을 대조했다. [앙코르](https://www.liar.co.jp/fairy_encore/) · [심포니](https://www.liar.co.jp/fairy_symphony/)',
+    '',
+    'XFL 구조는 GARbro의 MIT 구현과 LiarsoftTool의 GPL 구현을 참고했다. 재조립은 기존 레퀴엠 프로젝트의 XFL 어댑터와 검증된 WCG 코덱을 재사용했다. [GARbro XFL](https://github.com/morkt/GARbro/blob/master/ArcFormats/Liar/ArcXFL.cs) · [LiarsoftTool](https://github.com/Love-in-idleness/LiarsoftTool)',
+    '',
+    '번역 기록의 translator_model 값은 Codex internal이다.']
+    (ROOT/'작업량.md').write_text('\n'.join(lines)+'\n',encoding='utf-8-sig')
+    p=read('progress.json');p.update(phase='UI, CG, title redesign and Encore opening installed on Y',opening=op['installed'],workload=str(ROOT/'작업량.md'),review=str(ROOT/'로고 비교.html'),game_run=qa,remaining_scenario='Gemini scenario review on user delivery');save('progress.json',p)
+if __name__=='__main__':make()
+

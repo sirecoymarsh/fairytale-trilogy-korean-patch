@@ -1,0 +1,51 @@
+{
+  "deliverable": "시작 다음 단계의 작품 선택 화면 시안",
+  "scope": "시각 시안 및 확대 보기",
+  "generator": "built-in image_gen",
+  "translator_model": "Codex internal",
+  "image": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\design\\collection-main-menu\\work-selection-v2.png",
+  "pixels": [
+    1672,
+    941
+  ],
+  "sha256": "803d6bd4bad2e1a242528f145d8a49d868affdd445c1d900e61c6602974e1065",
+  "prompt": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\design\\collection-main-menu\\work-selection-v2.prompt.txt",
+  "preview": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\design\\collection-main-menu\\preview.html",
+  "reference": "기존 세 작품의 타이틀 화면",
+  "design_decision": "공통 성 안의 세 문으로 작품 선택",
+  "flow": [
+    "공통 메인",
+    "시작",
+    "작품 선택",
+    "선택한 작품 플레이"
+  ],
+  "common_title": {
+    "image": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\design\\collection-main-menu\\common-title-v1.png",
+    "pixels": [
+      1280,
+      720
+    ],
+    "sha256": "b93329e7720663a046622f933b7012d8b64053963cb493e0ee0ba3306b8aae65",
+    "runtime_reference": "qol/evidence/Encore/title.png",
+    "registered_clean_plate": "art/Encore/grpe/9101-0/clean.png",
+    "wordmark": "common-title-logo.png",
+    "wordmark_generator": "built-in image_gen",
+    "prompt": "common-title-v1.prompt.txt",
+    "translator_model": "Codex internal",
+    "reference_site": "https://www.liar.co.jp/fairy_symphony/",
+    "design_decision": "앙코르 타이틀의 창문 메뉴와 식물 액자를 쓰고 부제가 있던 왼쪽에 공통 한 줄 로고를 배치했다.",
+    "changed_pixel_bounds_xyxy": [
+      238,
+      127,
+      713,
+      337
+    ],
+    "preview_file": "common-title-preview.html",
+    "preview_url": "http://127.0.0.1:12225/preview.html#title",
+    "browser_verified": [
+      "local file entry",
+      "title and selection: wheel zoom in, wheel zoom out, pointer anchor, fit reset",
+      "Start to selection and Back to title"
+    ]
+  }
+}

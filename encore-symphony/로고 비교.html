@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>페어리테일 로고 비교</title>
+<style>
+:root{color-scheme:dark;font-family:"Malgun Gothic",system-ui,sans-serif;color:#f4eee5;background:#151316}*{box-sizing:border-box}
+body{max-width:1650px;margin:auto;padding:clamp(18px,4vw,48px)}h1{margin:0 0 22px;font-family:"Noto Serif KR","Malgun Gothic",serif;font-size:clamp(24px,3vw,38px);font-weight:700}
+nav,.controls{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}button{font:inherit;color:#f3ebef;background:#262229;border:1px solid #514953;padding:9px 14px;border-radius:5px;cursor:pointer}
+button[aria-pressed=true]{border-color:#efd47f;background:#3a3223;color:#ffe7a0}button:focus-visible,input:focus-visible,canvas:focus-visible{outline:2px solid #f3d77e;outline-offset:3px}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}figure{margin:0}figcaption{font-size:14px;margin-bottom:7px;color:#d5cbd1}canvas{width:100%;display:block;aspect-ratio:16/9;border:1px solid #524953;border-radius:5px;background:#161518;touch-action:none;cursor:grab}canvas.drag{cursor:grabbing}
+.controls p{margin:0 0 0 auto;font-size:13px;color:#c0b6bd}.videoTools{display:inline-flex;gap:9px;align-items:center}.videoTools[hidden]{display:none}input[type=range]{width:clamp(90px,19vw,300px);accent-color:#f0d580}output{min-width:50px;text-align:center;color:#f6da89;font-variant-numeric:tabular-nums}#status{min-height:1.4em;color:#ffce9f}
+@media(max-width:720px){.gallery{grid-template-columns:1fr;gap:13px}.controls p{margin:5px 0;color:#c0b6bd}nav button{padding:7px 10px}}
+</style>
+<main><h1>페어리테일 로고 비교</h1>
+<nav aria-label="비교할 장면"><button data-mode="enc" aria-pressed="true">앙코르 타이틀</button><button data-mode="sym" aria-pressed="false">심포니 타이틀</button><button data-mode="movie" aria-pressed="false">앙코르 오프닝</button><button data-mode="pieces" aria-pressed="false">심포니 조각 연출</button></nav>
+<section class="gallery"><figure><figcaption>일본어 원본</figcaption><canvas id="left" tabindex="0" aria-label="일본어 원본 확대 보기"></canvas></figure><figure><figcaption>한국어판</figcaption><canvas id="right" tabindex="0" aria-label="한국어판 확대 보기"></canvas></figure></section>
+<div class="controls"><button id="fit">화면에 맞춤</button><output id="zoom">100%</output><span class="videoTools" hidden><button id="play">일시정지</button><input type="range" id="seek" min="0" max="1000" value="0" aria-label="재생 위치"></span><p>이미지 위에서 휠로 확대·축소하고, 드래그로 이동하세요.</p></div><p id="status" role="status"></p></main>
+<script>
+'use strict';
+const scenes={enc:['audit/full/Encore/grpe/9101-0.png','art/Encore/grpe/9101-0/final.png'],sym:['audit/full/Symphony/grpe/9101-0.png','art/Symphony/grpe/9101-0/final.png'],movie:'review/앙코르-오프닝-비교.mp4',pieces:'review/심포니-조각-비교.mp4'};
+const canvases=[document.querySelector('#left'),document.querySelector('#right')],zoom=document.querySelector('#zoom'),seek=document.querySelector('#seek'),play=document.querySelector('#play'),statusEl=document.querySelector('#status');
+let scale=1,cx=.5,cy=.5,media=[],size=[1280,720],video=null,scene='',serial=0,raf=0;
+function fit(){scale=1;cx=cy=.5;render();}
+function geometry(c){const r=c.getBoundingClientRect();const base=Math.min(r.width/size[0],r.height/size[1]);return{r,w:size[0]*base*scale,h:size[1]*base*scale};}
+function sourcePoint(c,x,y){const{r,w,h}=geometry(c);return[cx+(x-r.left-r.width/2)/w,cy+(y-r.top-r.height/2)/h];}
+function render(){zoom.value=Math.round(scale*100)+'%';canvases.forEach((c,i)=>{const{r,w,h}=geometry(c),d=devicePixelRatio||1,px=Math.round(r.width*d),py=Math.round(r.height*d);if(c.width!==px||c.height!==py){c.width=px;c.height=py;}const ctx=c.getContext('2d');ctx.setTransform(d,0,0,d,0,0);ctx.fillStyle='#151316';ctx.fillRect(0,0,r.width,r.height);if(!media[i])return;const sx=video?i*size[0]:0;ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';ctx.drawImage(media[i],sx,0,size[0],size[1],r.width*.5-cx*w,r.height*.5-cy*h,w,h);});if(video&&Number.isFinite(video.duration)){seek.value=Math.round(1000*video.currentTime/video.duration);play.textContent=video.paused?'재생':'일시정지';}}
+function loop(){render();if(video&&!video.paused)raf=requestAnimationFrame(loop);}
+function loadImg(url){return new Promise((res,rej)=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>rej(new Error('이미지를 열지 못했습니다.'));im.src=url;});}
+async function show(name){const call=++serial;cancelAnimationFrame(raf);if(video){video.pause();video.removeAttribute('src');video.load();}video=null;media=[];scene=name;statusEl.textContent='';document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===name)));document.querySelector('.videoTools').hidden=Array.isArray(scenes[name]);fit();
+try{if(Array.isArray(scenes[name])){const imgs=await Promise.all(scenes[name].map(loadImg));if(call!==serial)return;media=imgs;size=[imgs[0].naturalWidth,imgs[0].naturalHeight];}
+else{const v=document.createElement('video');v.muted=true;v.loop=true;v.playsInline=true;v.preload='auto';await new Promise((res,rej)=>{v.onloadeddata=res;v.onerror=()=>rej(new Error('영상을 열지 못했습니다.'));v.src=scenes[name];v.load();});if(call!==serial){v.removeAttribute('src');v.load();return;}video=v;size=[v.videoWidth/2,v.videoHeight];media=[v,v];v.onplay=()=>{cancelAnimationFrame(raf);loop();};v.onpause=render;v.onseeked=render;await v.play().catch(()=>{});}render();}catch(e){if(call===serial)statusEl.textContent=e.message;}}
+for(const c of canvases){c.addEventListener('wheel',ev=>{if(ev.ctrlKey||ev.metaKey)return;ev.preventDefault();const anchor=sourcePoint(c,ev.clientX,ev.clientY);scale=Math.max(.5,Math.min(12,scale*Math.exp(-ev.deltaY*(ev.deltaMode===1?.032:.002))));const after=sourcePoint(c,ev.clientX,ev.clientY);cx+=anchor[0]-after[0];cy+=anchor[1]-after[1];render();},{passive:false});c.ondblclick=fit;let last=null;c.onpointerdown=e=>{if(e.button!==0)return;c.setPointerCapture(e.pointerId);last=[e.clientX,e.clientY];c.classList.add('drag');};c.onpointermove=e=>{if(!last)return;const{w,h}=geometry(c);cx-=(e.clientX-last[0])/w;cy-=(e.clientY-last[1])/h;last=[e.clientX,e.clientY];render();};c.onpointerup=c.onpointercancel=()=>{last=null;c.classList.remove('drag');};c.onkeydown=e=>{if(e.key==='0'||e.key==='Home'){fit();e.preventDefault();}};}
+document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>show(b.dataset.mode));document.querySelector('#fit').onclick=fit;play.onclick=()=>{if(!video)return;video.paused?video.play():video.pause();};seek.oninput=()=>{if(video&&Number.isFinite(video.duration))video.currentTime=video.duration*Number(seek.value)/1000;};
+new ResizeObserver(render).observe(document.querySelector('.gallery'));show('enc');
+</script></html>

@@ -1,0 +1,24 @@
+{
+  "schema": "contextual-game-localization.language-contract.v1",
+  "source_language": "ja-JP",
+  "replacement_slot": "single Japanese script string-table slot",
+  "target_language": "ko-KR",
+  "preserved_languages": [],
+  "source_encoding": "cp932",
+  "target_encoding": "cp949",
+  "display_exceptions": [
+    {
+      "scope": "GSC opcode 0x79 directory and lookup keys",
+      "rule": "preserve source bytes exactly",
+      "reason": "engine lookup identity; not player-facing prose"
+    },
+    {
+      "scope": "GSC opcode 0x0F string arguments",
+      "rule": "do not translate until runtime visibility is proven",
+      "reason": "observed as empty/runtime placeholders in static analysis"
+    }
+  ],
+  "approval_basis": "User requested Korean localization of the installed Japanese game.",
+  "status": "approved_for_static_pilot",
+  "updated_utc": "2026-08-12T02:55:51.142098Z"
+}

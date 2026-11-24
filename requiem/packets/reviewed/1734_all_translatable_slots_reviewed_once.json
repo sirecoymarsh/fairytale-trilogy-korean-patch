@@ -1,0 +1,275 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1734_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    22
+  ],
+  "new_review_change_count": 6,
+  "new_review_changes": [
+    {
+      "slot": 3,
+      "before": "피터의 『성서』인 『피터 팬』 이야기를^n쓴 사람도, 몇 번이고 되풀이해 읽은 독자도,^n이 이야기의 앞날을 알 수는 없습니다.",
+      "after": "피터의 『성서』인 『피터 팬』 이야기를^n쓴 사람도, 몇 번이고 되풀이해 읽어 온 독자도,^n이 이야기의 앞날을 알 수는 없습니다."
+    },
+    {
+      "slot": 5,
+      "before": "앞으로 따라갈 이야기를 안다는 것은 따분한 일입니다.^n무언가가 시키는 대로 살아간다는 것은 너무 지루하고,^n피터에게는 굴욕적인 일입니다.",
+      "after": "앞으로 따라갈 이야기를 안다는 것은 따분한 일입니다.^n무언가가 시키는 대로 살아간다는 것은 너무나 지루하고,^n피터에게는 굴욕적인 일입니다."
+    },
+    {
+      "slot": 7,
+      "before": "자기답게 살아가는 데에는 그리 많은 것이 필요하지 않다고,^n피터는 생각합니다.",
+      "after": "자기답게 살아가는 데에는 그리 많은 것이 필요하지 않다고^n피터는 생각합니다."
+    },
+    {
+      "slot": 13,
+      "before": "피터 일행은 공부와 숙제, 각종 교습과 정리처럼^n마음에 들지 않는 것은 전부 버리고,^n자유롭고 편안한 나날을 보내고 있습니다.",
+      "after": "피터 일행은 공부와 과제, 교습과 정리정돈처럼^n마음에 들지 않는 것은 전부 버리고,^n자유롭고 편안한 나날을 보내고 있습니다."
+    },
+    {
+      "slot": 16,
+      "before": "하지만 언젠가 문득 나타날 것 같은 기분이 듭니다.^n무척 강한 예감이니 틀림없이 현실이 되겠지요.",
+      "after": "하지만 머지않아 문득 나타날 것 같은 기분이 듭니다.^n무척 강한 예감이니 틀림없이 현실이 되겠지요."
+    },
+    {
+      "slot": 21,
+      "before": "자신이 아직 어린이라는 것,^n아직 네버랜드의 적이 아니라는 것을 증명하듯,^n최대한 매끄럽고 위태로움 없이 날아 보입니다.",
+      "after": "자신이 아직 어린이라는 것,^n아직 네버랜드의 적이 아니라는 것을 증명하듯,^n최대한 부드럽고 위태로움 없이 날아 보입니다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    23,
+    80
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00001",
+      "source_text": "それから、どうなりましたかって？",
+      "source_raw_sha256": "0C25953E983289414C91C11BC4740447425CFC6A3217F5B4871A06A22A244C09",
+      "target_text": "그 뒤 어떻게 되었느냐고요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00002",
+      "source_text": "それは、誰にもわかりません。",
+      "source_raw_sha256": "15807370B9638B049AD38FED2E8F11B6DC74515933DA99F1CDC36DE318CCED5F",
+      "target_text": "그것은 아무도 모릅니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00003",
+      "source_text": "ピーターの「聖書」である「ピーターパン」のお話を^n書いた人にも、何度も何度も読み込んだ読者にも、^nこの物語の行く末がわかるわけはありません。",
+      "source_raw_sha256": "A88525DC318D95BD33E3C9412D7459D4CF777FE79749F3CBDCBC691B7D40DB06",
+      "target_text": "피터의 『성서』인 『피터 팬』 이야기를^n쓴 사람도, 몇 번이고 되풀이해 읽어 온 독자도,^n이 이야기의 앞날을 알 수는 없습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00004",
+      "source_text": "なぜならピーターは、自分の「聖書」を^n自らの手でばらばらに引き裂いてしまったからです。",
+      "source_raw_sha256": "A6947FD99E8F9CB6954EC455B122BBB61944A1A9BC9D7B362D07C9ABA249D703",
+      "target_text": "피터가 자기 『성서』를^n스스로 갈기갈기 찢어 버렸기 때문입니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00005",
+      "source_text": "たどる物語がわかっている、なんてつまらないことです。^n何かに言われたように生きる、なんて退屈すぎて、^n彼にとっては|屈辱的[くつじょくてき]なことです。",
+      "source_raw_sha256": "C03E821867D6B6E9E47C21F6125E54FD9AA2DB9AE3E18606A1E9B150C2024D7A",
+      "target_text": "앞으로 따라갈 이야기를 안다는 것은 따분한 일입니다.^n무언가가 시키는 대로 살아간다는 것은 너무나 지루하고,^n피터에게는 굴욕적인 일입니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00006",
+      "source_text": "だから彼は「聖書」を破り捨て、^n定められた運命から外れた無限の生き方の中から^nおもしろそうな道を選ぶことにしたのです。",
+      "source_raw_sha256": "C7FD4265DA64EFB651BE0B3AD21CAEEE030ABA7DA008F40CB513920F61E83520",
+      "target_text": "그래서 피터는 『성서』를 찢어 버리고,^n정해진 운명을 벗어난 무한한 삶의 방식 중에서^n재미있어 보이는 길을 고르기로 했습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00007",
+      "source_text": "自分らしく生きるには、たいして多くのものは必要じゃない、^nとピーターは思います。",
+      "source_raw_sha256": "F7B8868434784B6A37BAE3EEA1C4F925C7CB06FE182538AE0D7A3E18E6E11982",
+      "target_text": "자기답게 살아가는 데에는 그리 많은 것이 필요하지 않다고^n피터는 생각합니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00008",
+      "source_text": "ネバーランドと、共に冒険を繰り広げる仲間たち、^nそれに自由と永遠と空を飛ぶ力さえあれば、怖いものなしです。",
+      "source_raw_sha256": "06FFCDBAB2CC730EC29938203A0919DAF8542C92853A5CEE04176DEEB0EA13E6",
+      "target_text": "네버랜드와 함께 모험할 동료들,^n그리고 자유와 영원, 하늘을 나는 힘만 있으면 두려울 것이 없습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00009",
+      "source_text": "あのオトナに反旗を|翻[ひるがえ]してネバーランドを取り戻した日に、^nそのすべてが手に入りました。",
+      "source_raw_sha256": "ACCD80B638023C12723FA1DD0B6CAD734D5FE77B775FD21AE73B9184389BEC88",
+      "target_text": "그 어른에게 반기를 들고 네버랜드를 되찾은 날,^n그 모든 것을 손에 넣었습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00010",
+      "source_text": "このネバーランドのことを知っているオトナたちは、^n誰ひとりここのことを口に出さないまま、^n忘れたふりをして生きていくでしょう。",
+      "source_raw_sha256": "250F1A5FBEDD390751AA99676C0F24C0279211F0E7E936EC1E17CC1C6DC4C0AB",
+      "target_text": "이 네버랜드를 아는 어른들은,^n누구도 이곳을 입에 올리지 않은 채,^n잊은 척하며 살아갈 것입니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00011",
+      "source_text": "警察に通報だとか、保護だとか、^nそんなものはお節介な誰かがすればいい、と^n僅かな罪悪感を|誤魔化[ごまか]しながら。",
+      "source_raw_sha256": "041C3A3FEF519D9E057CF96C96F72CAB0635C0C34178F8078DD628C3A62A119C",
+      "target_text": "경찰에 신고하거나 보호하는 일 따위는,^n참견하기 좋아하는 누군가가 하면 된다며^n조그만 죄책감을 얼버무리면서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00012",
+      "source_text": "そして結果的に、^nやっぱりお節介な誰かなどこの世にはいませんでした。",
+      "source_raw_sha256": "E7F94B962FC068782AD30B83B0FC14DDEFC124DC61D9B472F466922CEBA04EA0",
+      "target_text": "그리고 결국,^n역시 그렇게 참견할 누군가는 세상에 없었습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00013",
+      "source_text": "ピーターたちは勉強や課題、お稽古ごとやお片づけなど^n気に食わないものはすべて捨てて、^n気ままで快適な毎日を過ごしています。",
+      "source_raw_sha256": "285D5660FC647B30013AFCFFCEEA1A7E624E2E95AF1918F3DE8005BEE9ECC873",
+      "target_text": "피터 일행은 공부와 과제, 교습과 정리정돈처럼^n마음에 들지 않는 것은 전부 버리고,^n자유롭고 편안한 나날을 보내고 있습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00014",
+      "source_text": "空の飛び方も、もう全員が憶えました。",
+      "source_raw_sha256": "532C83270A8784499FB9FEE945CD85C1BB6B83B76D5EEFEE5C306FE9888F3981",
+      "target_text": "하늘을 나는 법도 이제 모두 익혔습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00015",
+      "source_text": "血の気の多いピーターにしてみれば、^nこのネバーランドのどこにも「敵」がいないのは^n少し物足りなくもあります。",
+      "source_raw_sha256": "16634DFDB7B5C5A024AFCC2278B45A4ADA34E318F9AEE6E4CE3183FA22021408",
+      "target_text": "혈기 왕성한 피터에게는,^n이 네버랜드 어디에도 『적』이 없다는 사실이^n조금 아쉽기도 합니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00016",
+      "source_text": "けれど、そのうちにふと現れる、そんな気がするのです。^nとても強い予感ですので、きっと現実になるでしょう。",
+      "source_raw_sha256": "6853BB044473AD09E8803EF26DD03DF54F43C658B50DF74218EE7E5A8A8CB02C",
+      "target_text": "하지만 머지않아 문득 나타날 것 같은 기분이 듭니다.^n무척 강한 예감이니 틀림없이 현실이 되겠지요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00017",
+      "source_text": "ピーター、ウェンディ、ティンク、^nグレーテル、オデット、オディール、ラプンツェル。",
+      "source_raw_sha256": "5A41F5F76AEC91F05525617DE71A8BABBD33CE2DB567C4E0EBE855483CFA6A5A",
+      "target_text": "피터, 웬디, 팅크,^n그레텔, 오데트, 오딜, 라푼젤.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00018",
+      "source_text": "みんなそろって、今日も空を飛びます。",
+      "source_raw_sha256": "C01000C3E05EC44CC7B18C49259F5B1585AE6C9DD1EE8BCA934C54F6638107BA",
+      "target_text": "모두 함께 오늘도 하늘을 납니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00019",
+      "source_text": "天気がいい日は、お日様に|挨拶[あいさつ]しながら。^n曇りの日は、雲の|絨毯[じゅうたん]の上に寝転がって。^nざんざん降りの日は、身体を叩く雨粒の音を楽しみながら。",
+      "source_raw_sha256": "48CD45F99E808E29B3368854C97D7A2C8A2EC73E494CAD66B6E4FD10EADEA0F3",
+      "target_text": "날씨가 좋은 날에는 해님에게 인사하면서.^n흐린 날에는 구름 융단 위에 드러누워서.^n비가 억수로 오는 날에는 몸을 두드리는 빗방울 소리를 즐기면서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00020",
+      "source_text": "虹のアーチの端を探して、^n時には気の立った鳥のお母さんにつつかれながら、^n歓声を上げてどこまでも飛びます。",
+      "source_raw_sha256": "6CC2618C989179AC35B7C4AD8B0824F8EF5AD3C258FB273952274F4FDE9CFDEF",
+      "target_text": "무지개 아치의 끝을 찾아,^n때로는 성난 어미 새에게 쪼이면서도,^n환호성을 지르며 어디까지고 날아갑니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00021",
+      "source_text": "自分がまだコドモであること、^nまだネバーランドの敵ではないことの証として、^nできるだけなめらかに、危うげなく飛んでみせます。",
+      "source_raw_sha256": "F2F7442779A29DAF5F61945A6942ED16951BF7A774F8FC3C67EC0B733EFFE6A2",
+      "target_text": "자신이 아직 어린이라는 것,^n아직 네버랜드의 적이 아니라는 것을 증명하듯,^n최대한 부드럽고 위태로움 없이 날아 보입니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1734.gsc::slot/00022",
+      "source_text": "そうして、ネバーランドの自由と永遠は^nこれからもずっと守られていくことでしょう。",
+      "source_raw_sha256": "2D9388EEDD594EC57DFCA12EEEFB83E6EC036935BE1695DCA3297F98B26A8CF4",
+      "target_text": "그렇게 네버랜드의 자유와 영원은^n앞으로도 줄곧 지켜질 것입니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

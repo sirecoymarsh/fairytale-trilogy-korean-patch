@@ -1,0 +1,51 @@
+{
+  "schema": "fairytale-translation-verification-v1",
+  "generated_utc": "2026-11-18T13:47:24.991106+00:00",
+  "overall_status": "PASS",
+  "works": [
+    {
+      "work": "Encore",
+      "title": "앙코르",
+      "status": "PASS",
+      "selected_packets": 39,
+      "verified_packets": 39,
+      "verified_rows": 4122,
+      "expected_packets": 39,
+      "expected_rows": 4122,
+      "failure_count": 0,
+      "warning_count": 0,
+      "failures": [],
+      "warnings": [],
+      "source_integrity": {
+        "verified_files": 52,
+        "mismatches": [],
+        "extra_files": [],
+        "ok": true
+      },
+      "merged_path": null,
+      "merged_sha256": null
+    },
+    {
+      "work": "Symphony",
+      "title": "심포니",
+      "status": "PASS",
+      "selected_packets": 21,
+      "verified_packets": 21,
+      "verified_rows": 2329,
+      "expected_packets": 21,
+      "expected_rows": 2329,
+      "failure_count": 0,
+      "warning_count": 0,
+      "failures": [],
+      "warnings": [],
+      "source_integrity": {
+        "verified_files": 34,
+        "mismatches": [],
+        "extra_files": [],
+        "ok": true
+      },
+      "merged_path": null,
+      "merged_sha256": null
+    }
+  ]
+}

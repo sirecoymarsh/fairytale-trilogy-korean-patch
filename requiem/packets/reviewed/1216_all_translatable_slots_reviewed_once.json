@@ -1,0 +1,339 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1216_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API; deterministic post-review control-spacing normalization",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    26
+  ],
+  "new_review_change_count": 3,
+  "new_review_changes": [
+    {
+      "slot": 2,
+      "before": "방으로 찾아가도 문이 활짝 열려 있을 때는^n언제나 자리를 비웠고, 닫혀 있을 때는 노크 소리에^n졸린 목소리가 대답해서 방해하지 않을 수 없었다.",
+      "after": "방으로 찾아가도 문이 활짝 열려 있을 때는^n언제나 자리를 비웠고, 닫혀 있을 때는 노크 소리에^n졸린 목소리가 대답해서 물러날 수밖에 없었다."
+    },
+    {
+      "slot": 11,
+      "before": "그때는 앨리스가 회복한 것이 그저 기뻐서,^n말실수를 해 버린 경솔함과 둘러대는 모습에^n훈훈하게 쓴웃음을 짓는 것으로 끝났지만.",
+      "after": "그때는 앨리스가 회복한 것이 그저 기뻐서,^n말실수를 해 버린 경솔함과 둘러대는 모습에^n흐뭇하게 쓴웃음을 짓는 것으로 끝났지만."
+    },
+    {
+      "slot": 21,
+      "before": "이렇게 간지럽고 낯간지러운 기분이 드는 건^n본래 앨리스 쪽이어야 하지 않을까.",
+      "after": "이렇게 간질간질하고 낯간지러운 기분이 드는 건^n본래 앨리스 쪽이어야 하지 않을까."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    27,
+    84
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00001",
+      "source_text": "それからしばらく、僕はアリスを見かけなかった。",
+      "source_raw_sha256": "E609F4F7F220D76B9644E58E3450E73853C6D9B26746ABF55D71EE88F7D5B754",
+      "target_text": "그 뒤 한동안 나는 앨리스를 보지 못했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00002",
+      "source_text": "部屋に訪ねていっても、ドアが開きっぱなしの時は^n決まって不在だったし、閉じている時はノックの音に^n眠そうな声が応えるから、|遠慮[えんりょ]せざるをえなかった。",
+      "source_raw_sha256": "4CA1D98D39450F5447B5D9DB46F055059D0142AC1B725325D972BD6292E0BF7C",
+      "target_text": "방으로 찾아가도 문이 활짝 열려 있을 때는^n언제나 자리를 비웠고, 닫혀 있을 때는 노크 소리에^n졸린 목소리가 대답해서 물러날 수밖에 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00003",
+      "source_text": "目撃証言から、庭園や娯楽室、^n僕の知らないいろいろな場所を飛び回っていることは^n|窺[うかが]えたけれど、何のためかは誰も知らない。",
+      "source_raw_sha256": "0F712DC36FE907F35B377801C3E5BFF81B1935F4B5EF6F5593698DE012F7F7C3",
+      "target_text": "목격담을 들어 보면 정원과 오락실,^n내가 모르는 여러 장소를 뛰어다니고 있다는 사실은^n짐작할 수 있었지만, 무엇 때문인지는 아무도 몰랐다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00004",
+      "source_text": "とはいえ僕も、^nそれほど積極的に探して歩いたわけではない。",
+      "source_raw_sha256": "3D9BA363EA65903B9DE5F247A2F89B5DA4E0D160E4182EA7D0BD6107D0A0C2FF",
+      "target_text": "그렇다고 나도^n그리 적극적으로 찾아다닌 것은 아니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00005",
+      "source_text": "あの一件以来、アリスと顔を合わせるのは^n気まずく感じられたから、こうして自然に会わずにすむのは、^n|寂[さび]しい反面気が楽でもあった。",
+      "source_raw_sha256": "35CDF4324C967DDC1B4B5AB645E46615B444815868F4A6072059CF62ED6F22A1",
+      "target_text": "그 일 이후 앨리스와 얼굴을 마주하기가^n어색하게 느껴졌기에, 이렇게 자연스럽게 만나지 않아도 되는 건^n쓸쓸한 한편 마음이 편하기도 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00006",
+      "source_text": "その理由は、ごく単純。",
+      "source_raw_sha256": "8612A314F329CF16E058056CBE623D6160D6CE2F0DECE2D324F70891DAE5C4C8",
+      "target_text": "그 이유는 아주 단순하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00007",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00008",
+      "source_text": "そうそう、そしてこれが一番大事ね。^n──あなたに気持ちを伝える準備をしなきゃ！",
+      "source_raw_sha256": "D49BE82E03EC250E1DCD6D31986AFC3DC686F5E87E97CBBF6156BE283C299C46",
+      "target_text": "아, 그리고 이게 가장 중요하네요.^n──당신에게 제 마음을 전할 준비를 해야 해요!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00009",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00010",
+      "source_text": "（あれって……。^n　あれって、やっぱり）",
+      "source_raw_sha256": "303AD24AD581905CB099F73C23F25225FA9CA9D7E1A1BC171F455B037C2F8373",
+      "target_text": "(그 말은…….^n역시 그 말은)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00011",
+      "source_text": "あのときは、アリスの復調がただうれしくて、^n口を滑らせてしまったうかつさや、取り|繕[つくろ]う様に^nほのぼのと苦笑して終わったけれど。",
+      "source_raw_sha256": "2EA36CB79D7041F12CFEE67537CA01ED9295D84CCE64838AA154F5593CA1590F",
+      "target_text": "그때는 앨리스가 회복한 것이 그저 기뻐서,^n말실수를 해 버린 경솔함과 둘러대는 모습에^n흐뭇하게 쓴웃음을 짓는 것으로 끝났지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00012",
+      "source_text": "時が経つにつれて彼女の口にした言葉が^nじわじわと頭に浸透してきたのだ。",
+      "source_raw_sha256": "D0F4D3870002BA2C2B2DB35072EDE35BCEFDAE043895C184805707164C6A851A",
+      "target_text": "시간이 지나면서 그녀가 입에 담은 말이^n서서히 머릿속으로 스며들어 왔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00013",
+      "source_text": "「早々と！　私は愛を知ったかもしれない。^n　昨日まで、私の心臓は図鑑に載っているような^n　気味の悪い肉の塊だった」",
+      "source_raw_sha256": "C294BDE149B92159FC2B5A155F4BAE5771A291DC975537614FC81EC92427B756",
+      "target_text": "『이렇게 빨리! 나는 사랑을 알게 되었을지도 모른다.^n어제까지만 해도 내 심장은 도감에 실릴 법한^n징그러운 고깃덩어리였다』",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00014",
+      "source_text": "「けれど今は、きっときれいなハート型！」",
+      "source_raw_sha256": "A8E5F534F3BC27720C544757847C7E2D2A231C3BCD0C3A52AB95E131AA1241B8",
+      "target_text": "『하지만 지금은 분명 예쁜 하트 모양!』",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00015",
+      "source_text": "「いいえ、きっとこれは『恋』のほうね。^n　だって私は、すとん、と落ちたんだもの」",
+      "source_raw_sha256": "1C93D89A538AF61922C5CCA750574696C3B532340F8C3547D2C94E3CBE8A8113",
+      "target_text": "『아니, 분명 이건 『연정』 쪽이겠지.^n왜냐하면 나는 툭, 하고 연정에 빠졌으니까』",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00016",
+      "source_text": "僕の頭の中で、^nアリスの日記に書いてあったことと結びついてしまった時には^n|恥[は]ずかしさでのたうちまわりたくなった。",
+      "source_raw_sha256": "1B018ED698F96B3B97CB5A0C28A7A0371B9DE4725BD7089A5008B97C91762E89",
+      "target_text": "내 머릿속에서^n앨리스의 일기에 적힌 내용과 이어지고 말았을 때는^n부끄러워서 몸부림치고 싶어졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00017",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00018",
+      "source_text": "（うう……。^n　どうして僕がこんな気持ちにならなきゃならないんだ）",
+      "source_raw_sha256": "C316F6C0168C5424A34D3007087234207F3C012E83D707345EB2DFF7F3F292AB",
+      "target_text": "(으으…….^n왜 내가 이런 기분을 느껴야 하는 거야)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00019",
+      "source_text": "正直、悪い気はしない。^nアリスはかわいらしい女の子だし、^nかなり風変わりではあるけれど、慣れてしまえば魅力的だ。",
+      "source_raw_sha256": "68208DAC65003666D79C4454555B3C11C01DBA72E8ADEE50B8387FBF1CD8B49D",
+      "target_text": "솔직히 기분 나쁘지는 않다.^n앨리스는 귀여운 여자아이이고,^n상당히 별나기는 해도 익숙해지면 매력적이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00020",
+      "source_text": "でも、なんだろう、なんといったらいいんだろう。^nうれしさよりも戸惑いが強い。^nそして戸惑いよりも圧倒的に、|気恥[きは]ずかしさが勝る。",
+      "source_raw_sha256": "F8F3E1FB13E3F83002CB3355CF4BE269669AEC00552A30BA088C4DE8BB1F6804",
+      "target_text": "하지만 뭐랄까, 어떻게 말해야 할까.^n기쁨보다 당혹감이 강하다.^n그리고 당혹감보다 압도적으로 낯부끄러움이 앞선다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00021",
+      "source_text": "こんなにむずがゆい、面はゆい気持ちになるのは^n本来アリスのほうであるべきなんじゃないか。",
+      "source_raw_sha256": "BDF1392D423F222EDE19EAB64B97DDD6FB6A8458B9D02731724C403FF9D1D475",
+      "target_text": "이렇게 간질간질하고 낯간지러운 기분이 드는 건^n본래 앨리스 쪽이어야 하지 않을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00022",
+      "source_text": "好意を打ち明ける前から間抜けに知られることになって、^n知らないふりをする相手に改めて告白するなんて、^n僕だったら耐えられない。かっこ悪すぎて。",
+      "source_raw_sha256": "272EA37CF6DBE9E66D25F59451EC8ED8268E43E3BEB25A75E1ABDCD712E8A637",
+      "target_text": "호감을 털어놓기도 전에 바보같이 들켜 버리고,^n모르는 척하는 상대에게 새삼 고백하다니,^n나라면 견딜 수 없다. 너무 꼴사나워서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00023",
+      "source_text": "僕自身だって、なんというか^n甘ったるい|拷問[ごうもん]を受けている気分だ。",
+      "source_raw_sha256": "7B3D0A582EBEB635263F9F3C89AD8D5B895400F51F9608B51E5EF47D10BF39B9",
+      "target_text": "나 자신도 뭐랄까,^n달콤한 고문을 받는 기분이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00024",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00025",
+      "source_text": "（それにしても、アリスは^n　なんであんなに忙しそうにしているんだろう？）",
+      "source_raw_sha256": "472D06603BA26FEC5AA0278048738E2BC12791F3987BC8A4AB17AFCB4A766910",
+      "target_text": "(그나저나 앨리스는^n왜 그렇게 바쁘게 다니는 걸까?)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1216.gsc::slot/00026",
+      "source_text": "気を|逸[そ]らすためにそんなことを考えてみるけど、^nもちろん、答えなんてわかるはずはない。",
+      "source_raw_sha256": "09B56924F69A7A1B468E43487936BC48E98F1934F92A2F7CA17F8C293B824DDE",
+      "target_text": "주의를 돌리려고 그런 생각을 해 보지만,^n물론 답을 알 리가 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ],
+  "post_review_corrections": [
+    {
+      "type": "Malie control-token ASCII spacing normalization",
+      "method": "removed only ASCII space/tab immediately adjacent to ^n; no wording change",
+      "applied_utc": "2026-08-13T10:52:25.481145Z",
+      "changes": [
+        {
+          "slot": 10,
+          "before": "(그 말은…….^n 역시 그 말은)",
+          "after": "(그 말은…….^n역시 그 말은)"
+        },
+        {
+          "slot": 13,
+          "before": "『이렇게 빨리! 나는 사랑을 알게 되었을지도 모른다.^n 어제까지만 해도 내 심장은 도감에 실릴 법한^n 징그러운 고깃덩어리였다』",
+          "after": "『이렇게 빨리! 나는 사랑을 알게 되었을지도 모른다.^n어제까지만 해도 내 심장은 도감에 실릴 법한^n징그러운 고깃덩어리였다』"
+        },
+        {
+          "slot": 15,
+          "before": "『아니, 분명 이건 『연정』 쪽이겠지.^n 왜냐하면 나는 툭, 하고 연정에 빠졌으니까』",
+          "after": "『아니, 분명 이건 『연정』 쪽이겠지.^n왜냐하면 나는 툭, 하고 연정에 빠졌으니까』"
+        },
+        {
+          "slot": 18,
+          "before": "(으으…….^n 왜 내가 이런 기분을 느껴야 하는 거야)",
+          "after": "(으으…….^n왜 내가 이런 기분을 느껴야 하는 거야)"
+        },
+        {
+          "slot": 25,
+          "before": "(그나저나 앨리스는^n 왜 그렇게 바쁘게 다니는 걸까?)",
+          "after": "(그나저나 앨리스는^n왜 그렇게 바쁘게 다니는 걸까?)"
+        }
+      ]
+    }
+  ]
+}

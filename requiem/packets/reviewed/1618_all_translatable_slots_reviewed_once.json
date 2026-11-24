@@ -1,0 +1,1040 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1618_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    95
+  ],
+  "new_review_change_count": 13,
+  "new_review_changes": [
+    {
+      "slot": 2,
+      "before": "아, 진짜 난감하게 됐네.",
+      "after": "아, 진짜 골치 아프게 됐지."
+    },
+    {
+      "slot": 3,
+      "before": "해가 기울기 시작할 무렵, 오후 휴식 시간이었는지^n시설 직원들이 주방에 모여 잡담에 열을 올리고 있었다.",
+      "after": "해가 기울기 시작할 무렵, 오후 휴식 시간이었는지^n시설 직원들이 주방에 모여 한창 잡담을 나누고 있었다."
+    },
+    {
+      "slot": 8,
+      "before": "경찰의 현장 검증과 참고인 조사가 끝나^n일단락된 참이었으리라.",
+      "after": "경찰의 현장 검증과 조사가 끝나,^n이제야 한숨 돌리던 참이었으리라."
+    },
+    {
+      "slot": 16,
+      "before": "그런 면에서는 라푼젤이 더 알기 쉽지.",
+      "after": "그런 쪽은 라푼젤이 더 단순하지."
+    },
+    {
+      "slot": 38,
+      "before": "게르다 얘기가 나와서 말인데,^n직원 중에서는 내가 현장에 제일 먼저 달려갔잖아?",
+      "after": "그 게르다 말인데,^n직원 중에서는 내가 현장에 제일 먼저 달려갔잖아?"
+    },
+    {
+      "slot": 44,
+      "before": "그래, 맞아.^n내가 갔을 때는 게르다가 이미^n시신을 밧줄에서 내려놓은 뒤였는데…….",
+      "after": "그래, 맞아.^n내가 갔을 때는 게르다가 이미^n시신을 밧줄에서 내려 둔 뒤였는데……."
+    },
+    {
+      "slot": 48,
+      "before": "그 애, 완전히 넋이 나가 있었거든.^n걔가 요즘 입던 코트 있잖아?^n그걸 앨리스에게 입히고 안아서 데우려는 거야.",
+      "after": "그 애, 완전히 넋이 나가 있었거든.^n게르다가 요즘 입던 코트 있잖아?^n그걸 앨리스에게 입히고 안아서 데우려는 거야."
+    },
+    {
+      "slot": 52,
+      "before": "그렇지? 정말 못 견디겠더라.^n딸꾹질하듯 흐느껴 울면서^n시신을 어루만지는 여자애라니.",
+      "after": "그렇지? 정말 못 견디겠더라.^n흐느껴 울면서^n시신을 어루만지는 여자애라니."
+    },
+    {
+      "slot": 60,
+      "before": "그랬더니 울고불고 소리 지르고 날뛰고 할퀴고,^n정말 온갖 고생을 다 했다니까.",
+      "after": "그랬더니 울고불고 소리 지르고 날뛰고 할퀴고 해서^n정말 온갖 고생을 다 했다니까."
+    },
+    {
+      "slot": 70,
+      "before": "새로 온 그 남자 환자 말이야.",
+      "after": "새로 들어온 그 남자 환자 녀석 말이야."
+    },
+    {
+      "slot": 82,
+      "before": "어디 숨어들어 죽어 있는^n늙은 고양이 꼴만 안 났으면 좋겠는데.",
+      "after": "어딘가에 숨어들어 죽어 버린^n늙은 고양이 같은 꼴만 안 났으면 좋겠는데."
+    },
+    {
+      "slot": 86,
+      "before": "그런 걸 한 번 걸린 사람은 다음에도 걸린다더라.^n동창 중에 기관사가 된 녀석이 그러던데.",
+      "after": "그런 일을 한 번 걸린 사람은 다음에도 걸린다더라.^n동창 중 기관사가 된 녀석이 그러던데."
+    },
+    {
+      "slot": 95,
+      "before": "사람 한 명이 죽었다고 하기에는 지나치게 태연한 투로^n잡담을 마친 직원들은 뿔뿔이 각자의 자리로 돌아갔다.",
+      "after": "사람 한 명이 죽었다고 하기에는 지나치게 태연한 투로^n잡담을 마친 직원들은 삼삼오오 각자의 자리로 돌아갔다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    96,
+    153
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00001",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00002",
+      "source_text": "いやまいったよな、ほんとにさぁ。",
+      "source_raw_sha256": "94EA46720B12B70842FD58168E6B2633D6693F6C0F55C8A5234BD29062D0E601",
+      "target_text": "아, 진짜 골치 아프게 됐지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00003",
+      "source_text": "日が|傾[かたむ]き始めた頃、午後の休憩時間なのだろうか、^n施設職員たちがキッチンに集まり雑談に興じていた。",
+      "source_raw_sha256": "CFEB00785E4C47D8C17274B5E6A8EE6E535428882866B78104D2B5C2C9489B8C",
+      "target_text": "해가 기울기 시작할 무렵, 오후 휴식 시간이었는지^n시설 직원들이 주방에 모여 한창 잡담을 나누고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00004",
+      "source_text": "思い思いの飲み物を手に談笑する。^n医療施設だというのに煙草をふかす者もいた。",
+      "source_raw_sha256": "1B6CBA511E248913A9817E86500A5AD5B4FF0F67A1C950E10777230BF0F2B77F",
+      "target_text": "저마다 마실 것을 손에 들고 웃으며 이야기한다.^n의료 시설인데도 담배를 피우는 사람까지 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00005",
+      "source_text": "看護師",
+      "source_raw_sha256": "7C9BC55431F0BD999C9CBD3B5F2EF99ACBA567FB9D25297DB2871A3D7DF766FA",
+      "target_text": "간호사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00006",
+      "source_text": "まさか自殺しちゃうだなんてね。",
+      "source_raw_sha256": "0CDCF76EB847E5C43345516E1666006CE3A3C07D89DADD343B0107870AC92CB0",
+      "target_text": "설마 자살해 버릴 줄이야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00007",
+      "source_text": "茶請け代わりの話題はどうやら、^n自殺したばかりのアリスの事の様だった。",
+      "source_raw_sha256": "20045410D0A62FD48C377B14D0408049998A5F56E9AE6A9C598D1F3491B024DF",
+      "target_text": "다과 대신 입에 오른 화제는 아무래도^n방금 자살한 앨리스에 관한 이야기인 듯했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00008",
+      "source_text": "警察の現場検証と事情聴取が終わり、^nひと段落といったところなのだろう。",
+      "source_raw_sha256": "6742ED7D91FF7DB65E7E9D200571294C71AA19661C7DCFE5BAB6763E63275744",
+      "target_text": "경찰의 현장 검증과 조사가 끝나,^n이제야 한숨 돌리던 참이었으리라.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00009",
+      "source_text": "職員Ｂ",
+      "source_raw_sha256": "B4E422E786285E9CDC31D2CF8B1499E857C8036227A446DDA3F58E8E59BE4A73",
+      "target_text": "직원 B",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00010",
+      "source_text": "楽しい子だったなぁ。^nいつも飴をくれたんだ。",
+      "source_raw_sha256": "DB43AC2623F643623D9B9D8A67113EC1200E2738A3C40115E2123D429ACB5CAF",
+      "target_text": "재미있는 아이였지.^n언제나 사탕을 줬거든.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00011",
+      "source_text": "職員Ｃ",
+      "source_raw_sha256": "A305F7B811208A1D12AA29E12BFD077C32237A48088BBC0D670D5775EFDD4659",
+      "target_text": "직원 C",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00012",
+      "source_text": "毎日変な名前で呼んでくるんだよなぁ。^nグリフィンとかドードー鳥とか。^n毎回どんな顔で対応したらいいか悩むったら。",
+      "source_raw_sha256": "CB862654A51AF2DD10F2A960B7FE450BE5E86DB0A5A92D1B130994903687635F",
+      "target_text": "매일 이상한 이름으로 부르곤 했지.^n그리핀이라든가 도도새라든가.^n매번 무슨 표정으로 받아 줘야 하나 고민됐다니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00013",
+      "source_text": "職員Ｄ",
+      "source_raw_sha256": "854CD58BD71D763F0C9365B206907CB1AF4F2531B3DBC711750F6380C4A15163",
+      "target_text": "직원 D",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00014",
+      "source_text": "まだいいじゃん。^n俺なんか、公爵夫人なんて呼ばれちまった。",
+      "source_raw_sha256": "C1F5FB3E90EC8389484B6CCDCC10930681803B223A273CABCF28C2A2E9DA617B",
+      "target_text": "그 정도면 낫지.^n난 공작부인이라고 불렸어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00015",
+      "source_text": "看護師",
+      "source_raw_sha256": "7C9BC55431F0BD999C9CBD3B5F2EF99ACBA567FB9D25297DB2871A3D7DF766FA",
+      "target_text": "간호사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00016",
+      "source_text": "その辺、ラプンツェルの方がわかりやすいわね。",
+      "source_raw_sha256": "A7B99170EF164E98CA88DCCC2D3461BC6008CC1E610E4652DAB89C790B0C6621",
+      "target_text": "그런 쪽은 라푼젤이 더 단순하지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00017",
+      "source_text": "職員Ｂ",
+      "source_raw_sha256": "B4E422E786285E9CDC31D2CF8B1499E857C8036227A446DDA3F58E8E59BE4A73",
+      "target_text": "직원 B",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00018",
+      "source_text": "まぁ彼女の場合、二択だからねぇ。",
+      "source_raw_sha256": "F8E2D300AD36D6C8E434F6AAA10C38B78DDD11A854C75F035A55C33A4439796E",
+      "target_text": "뭐, 그 애는 둘 중 하나니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00019",
+      "source_text": "職員Ｃ",
+      "source_raw_sha256": "A305F7B811208A1D12AA29E12BFD077C32237A48088BBC0D670D5775EFDD4659",
+      "target_text": "직원 C",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00020",
+      "source_text": "しっかしさ。^nやっぱ自殺の原因って、|あれ[・・]かねぇ？",
+      "source_raw_sha256": "0BF66C7EE608F4BC088DDDFCF33D681DDA613EF03C43D73090BBD17AD5E4F377",
+      "target_text": "그건 그렇고.^n역시 자살한 원인은 그 일 때문일까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00021",
+      "source_text": "看護師",
+      "source_raw_sha256": "7C9BC55431F0BD999C9CBD3B5F2EF99ACBA567FB9D25297DB2871A3D7DF766FA",
+      "target_text": "간호사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00022",
+      "source_text": "あれって、ゲルダのこと？",
+      "source_raw_sha256": "78AAE9C7800F1BD90D04330A069EBEBDA73DA0EB877EA58875E54B6DA8222569",
+      "target_text": "그 일이라니, 게르다 말이야?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00023",
+      "source_text": "職員Ｃ",
+      "source_raw_sha256": "A305F7B811208A1D12AA29E12BFD077C32237A48088BBC0D670D5775EFDD4659",
+      "target_text": "직원 C",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00024",
+      "source_text": "そうそう。^nなんか、アリス追いつめたらしいじゃん。^n余計なおせっかいするからさぁ。",
+      "source_raw_sha256": "8944415763FEF8799FD0A2D9BC009093358E31B8C621677BAE382F5F276A1D03",
+      "target_text": "그래, 맞아.^n앨리스를 궁지에 몰아넣었다면서.^n쓸데없이 참견하니까 그런 거지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00025",
+      "source_text": "職員Ｂ",
+      "source_raw_sha256": "B4E422E786285E9CDC31D2CF8B1499E857C8036227A446DDA3F58E8E59BE4A73",
+      "target_text": "직원 B",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00026",
+      "source_text": "そういうなって。^n彼女自身も病気から半端に回復してきてるから^n苦しいんだろう。",
+      "source_raw_sha256": "4D34AA6F865451D9BD0BF0C1E53DDBE10D9AA4038899684B8E9B537134AACBAD",
+      "target_text": "그렇게 말하지 마.^n그 애도 병에서 어중간하게 회복하고 있으니^n괴로운 거겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00027",
+      "source_text": "職員Ｃ",
+      "source_raw_sha256": "A305F7B811208A1D12AA29E12BFD077C32237A48088BBC0D670D5775EFDD4659",
+      "target_text": "직원 C",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00028",
+      "source_text": "なんだよ、妙に肩もつなぁ。",
+      "source_raw_sha256": "32C73F088C6B89FEDE227FE929A6B4F8A64D895A9B9FC7B0FF8355F7009E00EE",
+      "target_text": "뭐야, 이상하게 편을 드네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00029",
+      "source_text": "職員Ｂ",
+      "source_raw_sha256": "B4E422E786285E9CDC31D2CF8B1499E857C8036227A446DDA3F58E8E59BE4A73",
+      "target_text": "직원 B",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00030",
+      "source_text": "べ、別にそういう訳じゃないって。",
+      "source_raw_sha256": "B14A3C836A37AD6008C5CFBB21A80C55D60E5F4DE8F77A1A86063C47A2D299D9",
+      "target_text": "벼, 별로 그런 건 아니라니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00031",
+      "source_text": "職員Ｄ",
+      "source_raw_sha256": "854CD58BD71D763F0C9365B206907CB1AF4F2531B3DBC711750F6380C4A15163",
+      "target_text": "직원 D",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00032",
+      "source_text": "俺なんてこないだ白衣盗まれて酷い目にあったよ。",
+      "source_raw_sha256": "CEB94ACA84F5C41CBC0F55F3BF624D7EAB72B7FCBAFFCE02113FA454F4CE236B",
+      "target_text": "난 얼마 전에 흰 가운을 도둑맞아서 고생했어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00033",
+      "source_text": "看護師",
+      "source_raw_sha256": "7C9BC55431F0BD999C9CBD3B5F2EF99ACBA567FB9D25297DB2871A3D7DF766FA",
+      "target_text": "간호사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00034",
+      "source_text": "|絨緞[じゅうたん]の下に隠してたのよね。^nあちこちから拾ってきた物を。",
+      "source_raw_sha256": "344B0F6EB9125FF6512EEF87A0E581A450ADEAF0B12B6722368D78490F54181D",
+      "target_text": "카펫 밑에 숨겨 놨었지.^n여기저기서 주워 온 물건들을.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00035",
+      "source_text": "職員Ｄ",
+      "source_raw_sha256": "854CD58BD71D763F0C9365B206907CB1AF4F2531B3DBC711750F6380C4A15163",
+      "target_text": "직원 D",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00036",
+      "source_text": "ほんと、勘弁してほしいっての。",
+      "source_raw_sha256": "0E487D3E166DDF1AC68169415310E9BDB594D79636E1B23522E87386DDB19DF2",
+      "target_text": "정말이지, 좀 봐줬으면 좋겠다고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00037",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00038",
+      "source_text": "ゲルダって言えばさぁ、^n俺、職員ん中じゃ最初に現場に駆け付けただろ？",
+      "source_raw_sha256": "88C7AFE2072616EAF78B5C9346DD1418F457B495103264F71943E4985493E9EE",
+      "target_text": "그 게르다 말인데,^n직원 중에서는 내가 현장에 제일 먼저 달려갔잖아?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00039",
+      "source_text": "看護師",
+      "source_raw_sha256": "7C9BC55431F0BD999C9CBD3B5F2EF99ACBA567FB9D25297DB2871A3D7DF766FA",
+      "target_text": "간호사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00040",
+      "source_text": "ああ、そうらしいわね？",
+      "source_raw_sha256": "98AD3A8A73AC008598C67FA1F7DD3358E55B5A8AE1C54F18D4B07D15ABFE6CB1",
+      "target_text": "아, 그렇다더라?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00041",
+      "source_text": "職員Ｄ",
+      "source_raw_sha256": "854CD58BD71D763F0C9365B206907CB1AF4F2531B3DBC711750F6380C4A15163",
+      "target_text": "직원 D",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00042",
+      "source_text": "で、第一発見者はゲルダだったんだろ。",
+      "source_raw_sha256": "92FCA2BEFEF4983236FAA0686F0CABFB566B12C2F91F116DC0720ACCCCEF24A9",
+      "target_text": "그래서 최초 발견자는 게르다였지?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00043",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00044",
+      "source_text": "そうそう。^nでさ、俺が行った時にはもうゲルダが^n死体をロープから下してたんだけどさぁ……。",
+      "source_raw_sha256": "4F61C9A1F66DD053572F5B00960595B62CE53CE488CC2E55B34121A893D7359E",
+      "target_text": "그래, 맞아.^n내가 갔을 때는 게르다가 이미^n시신을 밧줄에서 내려 둔 뒤였는데…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00045",
+      "source_text": "職員Ｃ",
+      "source_raw_sha256": "A305F7B811208A1D12AA29E12BFD077C32237A48088BBC0D670D5775EFDD4659",
+      "target_text": "직원 C",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00046",
+      "source_text": "なんだよ、もったい付けずに早く言えよ。",
+      "source_raw_sha256": "C4C7B8B8719F6A528434FD62BAA8DA8859BC2FEE2E1F043B3DE4A29C0A386CDA",
+      "target_text": "뭐야, 뜸 들이지 말고 빨리 말해.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00047",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00048",
+      "source_text": "あいつ、すっかり取り乱しちゃっててさ。^n彼女が最近着てたコートあるだろ？^nあれ、アリスに着せて、抱いて温めようとしてたわけよ。",
+      "source_raw_sha256": "BCFF748D4E060E1F88B7B9667A33C700B9D7A664787E313E2432ECE0DA0D4CD9",
+      "target_text": "그 애, 완전히 넋이 나가 있었거든.^n게르다가 요즘 입던 코트 있잖아?^n그걸 앨리스에게 입히고 안아서 데우려는 거야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00049",
+      "source_text": "職員Ｃ",
+      "source_raw_sha256": "A305F7B811208A1D12AA29E12BFD077C32237A48088BBC0D670D5775EFDD4659",
+      "target_text": "직원 C",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00050",
+      "source_text": "うわぁ、それヒくわぁ……。",
+      "source_raw_sha256": "69D0888A7628C227334961E6B120325D915C7CCB14697A0715D1D0F07D2DB5CC",
+      "target_text": "으, 그건 좀 소름 끼치는데…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00051",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00052",
+      "source_text": "だろぉ？　たまんないぜ？^nひっくひっく泣きじゃくりながら^n死体さすってる女の子なんてさ。",
+      "source_raw_sha256": "46284E5FD20F99152B8C165B582C52A17A38B3084A31BE188A8CA49DD6DB0E78",
+      "target_text": "그렇지? 정말 못 견디겠더라.^n흐느껴 울면서^n시신을 어루만지는 여자애라니.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00053",
+      "source_text": "職員Ｄ",
+      "source_raw_sha256": "854CD58BD71D763F0C9365B206907CB1AF4F2531B3DBC711750F6380C4A15163",
+      "target_text": "직원 D",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00054",
+      "source_text": "変な趣味目覚めたりしてな。",
+      "source_raw_sha256": "71C1A024B5E6F885DC1977A278C91BADDF2037C525C92BBC2EBC0DAC8DE350E8",
+      "target_text": "이상한 취향에 눈뜨는 거 아냐?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00055",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00056",
+      "source_text": "冗談止めろって。^nマジ、今晩夢に見そうだっての。",
+      "source_raw_sha256": "B86A09556716F2B4381E949150C8912D00590C29A29BF6FB5F3825FA5508A70C",
+      "target_text": "그런 농담은 그만둬.^n진짜 오늘 밤 꿈에 나올 것 같다고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00057",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00058",
+      "source_text": "まあ、とにかくな、^nそのままにさせとくわけにはいかないからさ、^n無理やり引きはがしたわけよ？",
+      "source_raw_sha256": "7B7ACDC4247B27515EF5104E4AA144DB83BB518769EAA684BF6772488AA866A3",
+      "target_text": "아무튼 말이야,^n그대로 내버려 둘 수는 없으니까^n억지로 떼어 낸 거지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00059",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00060",
+      "source_text": "そしたら泣くわ喚くわ暴れるわひっかくわで^nほんと、踏んだり蹴ったりだったわ。",
+      "source_raw_sha256": "4C9649E78DF33314DABEE03D420744687D01A833216D3C502B7C241E79B39BB4",
+      "target_text": "그랬더니 울고불고 소리 지르고 날뛰고 할퀴고 해서^n정말 온갖 고생을 다 했다니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00061",
+      "source_text": "職員Ｂ",
+      "source_raw_sha256": "B4E422E786285E9CDC31D2CF8B1499E857C8036227A446DDA3F58E8E59BE4A73",
+      "target_text": "직원 B",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00062",
+      "source_text": "そのゲルダは今、どうしてるんだい？",
+      "source_raw_sha256": "15D40F674C3D7D7E8ADCEFA54A3CB86A43CBA8BCB0B36A39115650FC58ADB094",
+      "target_text": "그 게르다는 지금 어떻게 지내?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00063",
+      "source_text": "看護師",
+      "source_raw_sha256": "7C9BC55431F0BD999C9CBD3B5F2EF99ACBA567FB9D25297DB2871A3D7DF766FA",
+      "target_text": "간호사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00064",
+      "source_text": "今は薬で眠っているわ。",
+      "source_raw_sha256": "4522EEF5D89EB169DC05D8144EE1A26DFB5A261332841769505E2658770A041F",
+      "target_text": "지금은 약을 먹고 잠들어 있어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00065",
+      "source_text": "職員Ｄ",
+      "source_raw_sha256": "854CD58BD71D763F0C9365B206907CB1AF4F2531B3DBC711750F6380C4A15163",
+      "target_text": "직원 D",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00066",
+      "source_text": "あー、そういやさ。^n話変わるんだけど、あいつ最近見たか？",
+      "source_raw_sha256": "F6D36077AE3444132956B09B2EDC70335987CCE528575924F58B9AE7B0776BD6",
+      "target_text": "아, 그러고 보니.^n얘기가 바뀌는데, 그 녀석 요즘 봤어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00067",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00068",
+      "source_text": "あいつって？",
+      "source_raw_sha256": "6902E251BE38614E92B931F835A2FE25B6CF5F944178EBEBD86C547DE5780E01",
+      "target_text": "그 녀석이라니?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00069",
+      "source_text": "職員Ｄ",
+      "source_raw_sha256": "854CD58BD71D763F0C9365B206907CB1AF4F2531B3DBC711750F6380C4A15163",
+      "target_text": "직원 D",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00070",
+      "source_text": "新顔だよ、あのヤローの患者。",
+      "source_raw_sha256": "374250451838A370A8446BEB94E0F5D6CA68BB6C85907FCC2051451994D469BE",
+      "target_text": "새로 들어온 그 남자 환자 녀석 말이야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00071",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00072",
+      "source_text": "ああ、そういや見てないな。",
+      "source_raw_sha256": "39CC929A10B7202D145C68B9DDFAD8586DAAEFAE3383AD2468AF30C6041DEE13",
+      "target_text": "아, 그러고 보니 못 봤네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00073",
+      "source_text": "職員Ｂ",
+      "source_raw_sha256": "B4E422E786285E9CDC31D2CF8B1499E857C8036227A446DDA3F58E8E59BE4A73",
+      "target_text": "직원 B",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00074",
+      "source_text": "他の患者と違ってあまり変なことしないし、^n結構聞き分けよかったから扱い楽だったよな。",
+      "source_raw_sha256": "04F7C4660AEDFD3A8FDAFC6F322074EC7CB414F48553FE0B991B95BAE9760847",
+      "target_text": "다른 환자처럼 이상한 짓을 많이 하지도 않고,^n꽤 말도 잘 들어서 다루기 편했는데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00075",
+      "source_text": "職員Ｃ",
+      "source_raw_sha256": "A305F7B811208A1D12AA29E12BFD077C32237A48088BBC0D670D5775EFDD4659",
+      "target_text": "직원 C",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00076",
+      "source_text": "そうかぁ？　こないだ、チビスケと^n廊下で追いかけっこしてるの見たぜ？^nけたけた笑いながらさ。",
+      "source_raw_sha256": "2BB8363AD87F2932FEF82047403B8A17C7BBFDC61C3BE573DE8D6638A52BF486",
+      "target_text": "그랬나? 얼마 전에는 꼬맹이랑^n복도에서 술래잡기하는 걸 봤는데?^n깔깔 웃으면서 말이야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00077",
+      "source_text": "看護師",
+      "source_raw_sha256": "7C9BC55431F0BD999C9CBD3B5F2EF99ACBA567FB9D25297DB2871A3D7DF766FA",
+      "target_text": "간호사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00078",
+      "source_text": "そんなことあったの？",
+      "source_raw_sha256": "8EA3526A65B12AB030D545B46B5D2D157425613886CDC30B19BC15A89AA1E71F",
+      "target_text": "그런 일이 있었어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00079",
+      "source_text": "職員Ｂ",
+      "source_raw_sha256": "B4E422E786285E9CDC31D2CF8B1499E857C8036227A446DDA3F58E8E59BE4A73",
+      "target_text": "직원 B",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00080",
+      "source_text": "まあこの施設は結構広いし、^n目が届かないところも多いからさ、^nどっかに潜り込んでるんじゃないのかな？",
+      "source_raw_sha256": "BA7BEEDE7D6B65B409D4AF69D5E35F29C56CEAD6619A81F683E199E728D5AD46",
+      "target_text": "뭐, 이 시설은 제법 넓고^n눈길이 닿지 않는 곳도 많으니까^n어딘가에 숨어든 게 아닐까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00081",
+      "source_text": "職員Ｃ",
+      "source_raw_sha256": "A305F7B811208A1D12AA29E12BFD077C32237A48088BBC0D670D5775EFDD4659",
+      "target_text": "직원 C",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00082",
+      "source_text": "どこぞに潜り込んで死んでいる^n老猫みたいにならないといいけどな。",
+      "source_raw_sha256": "4928D79E1652418CFBCCC74DB458A2DD2FBE33DF6D7A39B670287B1EC416B0A4",
+      "target_text": "어딘가에 숨어들어 죽어 버린^n늙은 고양이 같은 꼴만 안 났으면 좋겠는데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00083",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00084",
+      "source_text": "おいおい、勘弁してくれよ。^nまた死体片付ける羽目になるじゃんか。",
+      "source_raw_sha256": "F6EFB999FEDD17EFF237A3FF2A8F8F828CD781EC61B17407ABF2AF28010DB4DE",
+      "target_text": "야, 제발 좀 봐줘.^n또 시신을 치워야 하잖아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00085",
+      "source_text": "職員Ｃ",
+      "source_raw_sha256": "A305F7B811208A1D12AA29E12BFD077C32237A48088BBC0D670D5775EFDD4659",
+      "target_text": "직원 C",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00086",
+      "source_text": "そういうの引き当たる奴って次も当たるもんだってな。^n同級生で電車の運転手になった奴が言ってたぜ。",
+      "source_raw_sha256": "0885043E9963A7BD295A6F8A9AD9AC8C27FCDF6C10559F3E11E723F8C5E6AA8E",
+      "target_text": "그런 일을 한 번 걸린 사람은 다음에도 걸린다더라.^n동창 중 기관사가 된 녀석이 그러던데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00087",
+      "source_text": "職員Ａ",
+      "source_raw_sha256": "5EA55F1A3C5352FCC69F52DDEF7B1E37C7C8BBEC7DC4D21E53B021EC1F2D25EB",
+      "target_text": "직원 A",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00088",
+      "source_text": "ホント、勘弁してくれって。^n次またあったら飯ぃ食えなくなるっての。",
+      "source_raw_sha256": "1E4592E2FD4E62755C0AC0FD5CE443CDAAB1EB7EDFE403B8B0DB3A4E3D4118A1",
+      "target_text": "진짜 제발 좀 그만해.^n또 그런 일이 생기면 밥도 못 먹는다고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00089",
+      "source_text": "職員Ｄ",
+      "source_raw_sha256": "854CD58BD71D763F0C9365B206907CB1AF4F2531B3DBC711750F6380C4A15163",
+      "target_text": "직원 D",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00090",
+      "source_text": "それにしても、なんか最近面倒事多いよなぁ。^n特別手当とか出ないのかねぇ。",
+      "source_raw_sha256": "ED5D27E3EAA752325A84A038998471314FB1C27E4DC85353F9B6DFB106CE7849",
+      "target_text": "그런데 요즘 귀찮은 일이 참 많지 않아?^n특별 수당 같은 건 안 나오려나.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00091",
+      "source_text": "看護師",
+      "source_raw_sha256": "7C9BC55431F0BD999C9CBD3B5F2EF99ACBA567FB9D25297DB2871A3D7DF766FA",
+      "target_text": "간호사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00092",
+      "source_text": "こないだのキッチンの掃除も大変だったものね……。",
+      "source_raw_sha256": "B1808D8A10B7B77884EE6D002E1829948D9C08E00C0D112A84AFF3D197DBDAFC",
+      "target_text": "얼마 전 주방 청소도 힘들었잖아…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00093",
+      "source_text": "職員Ｄ",
+      "source_raw_sha256": "854CD58BD71D763F0C9365B206907CB1AF4F2531B3DBC711750F6380C4A15163",
+      "target_text": "직원 D",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00094",
+      "source_text": "はぁ……そろそろ休憩時間も終わりか。^n準夜勤と交代するまでもうひと踏ん張りするかね。",
+      "source_raw_sha256": "FC47E8CC2C0DE4C36038752669F9798195C8357BB192FE41B742805C2B312868",
+      "target_text": "하아…… 이제 슬슬 휴식 시간도 끝인가.^n저녁 근무조와 교대할 때까지 조금만 더 힘내 볼까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1618.gsc::slot/00095",
+      "source_text": "人が一人死んだというにはあまりにあっけらかんとした調子の^n雑談を終えた職員たちは、三々五々持ち場へ引き上げていった。",
+      "source_raw_sha256": "EB0E2DFBE8CB47F0D8223B24A3CF3BBB18BD33751A0872EAC8B44B80A0438306",
+      "target_text": "사람 한 명이 죽었다고 하기에는 지나치게 태연한 투로^n잡담을 마친 직원들은 삼삼오오 각자의 자리로 돌아갔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+ "checked_utc": "2026-11-23T20:01:57+00:00",
+ "distribution": "Y:\\GAME\\Fairytale Collection",
+ "launcher": "Windows x64; .NET Framework 4.8; Microsoft Edge WebView2 Runtime",
+ "original_engines": "Windows x86 (all 3)",
+ "copy_size_bytes_without_browser_profile": 9229091204,
+ "browser_profile_bytes_at_inspection": 73286485,
+ "relocation": {
+  "folder": "T:\\Fairytale",
+  "fresh_saves": true,
+  "works": [
+   "Requiem",
+   "Encore",
+   "Symphony"
+  ],
+  "results": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\portability-20261124\\host-evidence\\result.json"
+ },
+ "isolated_windows": {
+  "type": "Windows Sandbox, offline",
+  "edition": "Enterprise",
+  "build": "26100",
+  "locale": "ko-KR",
+  "dotnet_framework_release": 533320,
+  "webview2_registry_version": [
+   "157.0.4341.60"
+  ],
+  "saw_host_drive_p": false,
+  "saw_host_drive_y": false,
+  "executable_folder": "C:\\GameDrop\\Fairytale",
+  "first_scene_and_hub_return": [
+   "Requiem",
+   "Encore",
+   "Symphony"
+  ],
+  "first_scene_captures": [
+   "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\portability-20261124\\guest-diagnostics\\visual\\Requiem.png",
+   "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\portability-20261124\\guest-diagnostics\\visual\\Encore.png",
+   "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\portability-20261124\\guest-diagnostics\\visual\\Symphony.png"
+  ],
+  "music": "Fairytale 0:02 to 0:05 / 4:44 in the actual album UI",
+  "music_captures": [
+   "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\portability-20261124\\guest-diagnostics\\gallery\\music-a.png",
+   "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\portability-20261124\\guest-diagnostics\\gallery\\music-b.png"
+  ],
+  "opening": "The Encore opening did not play in the guest. Windows WPF reported MILAVERR_INVALIDWMPVERSION for both the exact movie and a built-in Windows WAV; wmp.dll was missing.",
+  "media_error_hresult": "88980507",
+  "media_evidence": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\portability-20261124\\guest-diagnostics\\gallery\\windows-media.json",
+  "host_movie_check": "Earlier successful playback of the same Encore opening on the host.",
+  "host_wmp_dll_present": true
+ },
+ "method_note": "The initial name-based registry filter and unavailable CDP endpoint did not establish a missing WebView2 Runtime. Exact registered version and visible mouse-operated gameplay supersede the preliminary probes.",
+ "sources": [
+  "https://learn.microsoft.com/en-us/dotnet/framework/get-started/system-requirements",
+  "https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution",
+  "https://learn.microsoft.com/en-us/dotnet/desktop/wpf/graphics-multimedia/multimedia-overview",
+  "https://support.microsoft.com/ko-kr/windows/apps/windowsmediaplayer/troubleshoot-windows-media-player-errors"
+ ]
+}

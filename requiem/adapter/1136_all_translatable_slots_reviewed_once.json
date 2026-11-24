@@ -1,0 +1,395 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1136_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    30
+  ],
+  "new_review_change_count": 14,
+  "new_review_changes": [
+    {
+      "slot": 1,
+      "before": "모퉁이를 막 돌려던 순간,^n그 너머에 모여 있는 흰 가운들을 발견하고,^n나는 반사적으로 걸음을 멈췄다.",
+      "after": "모퉁이를 막 돌려던 순간,^n그 너머에 모여 있는 흰 가운 무리를 발견하고,^n나는 반사적으로 걸음을 멈췄다."
+    },
+    {
+      "slot": 2,
+      "before": "모두 똑같이 곤란한 표정으로 무언가를 속삭이고 있다.^n이렇게 되면 누가 의사 선생님이고 간호사 선생님이며,^n그 밖의 직원인지 나는 구별할 수 없다.",
+      "after": "모두 똑같이 난처한 표정으로 무언가를 속삭이고 있다.^n이렇게 되면 누가 의사 선생님이고 누가 간호사 선생님이며,^n누가 그 밖의 직원인지 나는 구별할 수 없다."
+    },
+    {
+      "slot": 4,
+      "before": "어째서…… 어쩌다 그런 일이…….^n대체 누가 한 짓이란 말인가.",
+      "after": "왜…… 어째서 그런 일이…….^n대체 누가 그런 짓을 한 거지."
+    },
+    {
+      "slot": 11,
+      "before": "내버려 두는 수밖에 없겠죠.",
+      "after": "그냥 내버려 두는 수밖에 없겠죠."
+    },
+    {
+      "slot": 13,
+      "before": "하지만 그러면 그 아이가 편히 눈감지 못해!",
+      "after": "하지만 그러면 그 아이가 편히 잠들지 못해!"
+    },
+    {
+      "slot": 17,
+      "before": "자자, 불에 타 죽었다고 단정할 순 없어요, 이케노 씨.^n제 생각엔 죽은 뒤에 태워졌을 가능성이 더 큽니다.",
+      "after": "글쎄요, 꼭 불에 타 죽었다고 볼 수는 없습니다, 이케노 씨.^n저는 죽은 뒤에 태워졌을 가능성이 더 높다고 봅니다."
+    },
+    {
+      "slot": 19,
+      "before": "오히려 언제 죽어도 이상하지 않은 상태였잖아요.^n그 영 미심쩍은 모습을 보면요.^n화장하는 수고를 덜었다고 생각하면 되죠, 그렇죠?",
+      "after": "오히려 언제 죽어도 이상하지 않은 상태였잖아요.^n그 영 미심쩍은 모습을 보면요.^n화장할 수고를 던 셈 치면 되죠, 그렇죠?"
+    },
+    {
+      "slot": 22,
+      "before": "이케노 씨는 견디지 못한 듯 눈가를 가리고 그 자리를 떠났다.",
+      "after": "이케노 씨는 더는 견디지 못한 듯 눈가를 가리고 그 자리를 떠났다."
+    },
+    {
+      "slot": 23,
+      "before": "나도,^n엿듣고 있다는 걸 들키면 곤란하다는 사실을 깨닫고,^n그곳을 떠나기로 했다.",
+      "after": "나도 나대로,^n엿듣고 있었다는 걸 들키면 곤란하다는 걸 깨닫고,^n그곳을 떠나기로 했다."
+    },
+    {
+      "slot": 25,
+      "before": "(역시 누군가 죽었어.^n여기 사람들은 어떻게든 덮으려 하고 있어.)",
+      "after": "(역시 누군가 죽었어.^n여기 사람들은 어떻게든 이 일을 덮으려고 해.)"
+    },
+    {
+      "slot": 26,
+      "before": "나는 생각보다 동요하지 않는 모양이었다.^n모두 머리 한구석으로 예상했던 일인지도 모른다.",
+      "after": "나는 생각보다 동요하지 않은 모양이다.^n어쩌면 이 모든 것을 머리 한구석으로는 예상하고 있었는지도 모른다."
+    },
+    {
+      "slot": 28,
+      "before": "(──그래도 저런 이케노 씨는 처음 봤어.)",
+      "after": "(──그건 그렇고, 저런 이케노 씨는 처음 봤어.)"
+    },
+    {
+      "slot": 29,
+      "before": "언제나 싱글벙글 기분 좋아 보이던 얼굴을 일그러뜨리고,^n눈을 새빨갛게 물들이고──떠날 때는 정말로 울고 있었던 것 같다.",
+      "after": "언제나 싱글벙글 기분 좋아 보이던 얼굴을 일그러뜨리고,^n눈은 새빨갛게 충혈된 채──떠날 때는 정말 울고 있었던 것 같다."
+    },
+    {
+      "slot": 30,
+      "before": "대체 사라져 버린 시체는 누구의 것이었을까.",
+      "after": "대체 사라져 버린 시체는 누구의 시체였을까."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    31,
+    88
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00001",
+      "source_text": "角を曲がりかけた時、^nその先に集合している白衣たちに気づいて、^n僕はとっさに足を止めた。",
+      "source_raw_sha256": "A2B88A6337EAA3E6B77F811CA50C73AAA5E2A1BCDD315849EC6892EB70406E66",
+      "target_text": "모퉁이를 막 돌려던 순간,^n그 너머에 모여 있는 흰 가운 무리를 발견하고,^n나는 반사적으로 걸음을 멈췄다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00002",
+      "source_text": "皆同じような困り顔で、何か|囁[ささや]きあっている。^nこうなると誰がお医者様で、看護師さんで、^nその他の職員さんなのか、僕には見分けがつかない。",
+      "source_raw_sha256": "F7EE8A1C4929C65FC647302A96791FAFD7FC26D398037CBCA243F990A2344DCE",
+      "target_text": "모두 똑같이 난처한 표정으로 무언가를 속삭이고 있다.^n이렇게 되면 누가 의사 선생님이고 누가 간호사 선생님이며,^n누가 그 밖의 직원인지 나는 구별할 수 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00003",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00004",
+      "source_text": "どうして……。どうしてあんなことに……。^n一体誰がやったというんだ。",
+      "source_raw_sha256": "D7630C164D06A64F35924817C2D188ECCEC6B8205DB2029A62C46EA3EBE343FD",
+      "target_text": "왜…… 어째서 그런 일이…….^n대체 누가 그런 짓을 한 거지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00005",
+      "source_text": "イケノさんだけは相変わらずわかりやすい。^n浮かべている|憔悴[しょうすい]しきった表情のせいか、^nかなり印象は違って見えたけれど。",
+      "source_raw_sha256": "534CA358FBC3E7BF9957E34637BE2DB5A055E74E1C45FE39FE3D3FD477BB5589",
+      "target_text": "이케노 씨만은 여전히 알아보기 쉽다.^n몹시 초췌한 표정 탓인지,^n평소와 인상이 꽤 달라 보였지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00006",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00007",
+      "source_text": "あの子たちの中の誰かだろう。^n我々があんなことをするわけがない。^n意味だってない。",
+      "source_raw_sha256": "48FEE7210D9DBE0D2E92C6E319F9B1B9CDC465F7C6E542EF3B7BA9DC2C323877",
+      "target_text": "저 아이들 중 누군가겠지.^n우리가 그런 짓을 할 리가 없어.^n그럴 이유도 없고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00008",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00009",
+      "source_text": "どうしましょう。",
+      "source_raw_sha256": "DAFE573C58842F54974394CB5C397A5CFA1DFC8099EDDEEB9D22B138E543D46F",
+      "target_text": "어떻게 하죠?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00010",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00011",
+      "source_text": "放っておくしかないでしょうよ。",
+      "source_raw_sha256": "C7F0508F362A18D8A08808C3CBFD30C8F2ADB17245AB3B3152567444651998BA",
+      "target_text": "그냥 내버려 두는 수밖에 없겠죠.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00012",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00013",
+      "source_text": "でもそれじゃあ、あの子が浮かばれない！",
+      "source_raw_sha256": "0103CC5BB946655343ECD3649429CB1506FECCDDF2F443D136576AAD7D4624FF",
+      "target_text": "하지만 그러면 그 아이가 편히 잠들지 못해!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00014",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00015",
+      "source_text": "焼き殺されるなんて、さぞかし苦しかったろうに、^n熱かったろうに……。",
+      "source_raw_sha256": "F15D0EA5D5D31456EA335BEFF07BABEBBF2F6E3F4FCF3F122D026B8B75A7E049",
+      "target_text": "불에 타 죽다니, 얼마나 괴로웠을까,^n얼마나 뜨거웠을까…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00016",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00017",
+      "source_text": "まあまあ、焼き殺されたとは限りませんよ、イケノさん。^n私は死んでから焼かれた可能性の方が強いと踏んでおります。",
+      "source_raw_sha256": "492E7DDE5FAF38C8B5288A4BEB4DAEA0BC0D4C5709000F51A2821FE6BE1A88F7",
+      "target_text": "글쎄요, 꼭 불에 타 죽었다고 볼 수는 없습니다, 이케노 씨.^n저는 죽은 뒤에 태워졌을 가능성이 더 높다고 봅니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00018",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00019",
+      "source_text": "むしろ、いつ死んでもおかしくはなかったですよねぇ。^nあのうろんな様子ですと。^n火葬の手間が省けたと思っておけば、ねぇ？",
+      "source_raw_sha256": "C04885C6BA47B05A3662AE72A10004DA83F85E9FFC772826C8F701981F647CB9",
+      "target_text": "오히려 언제 죽어도 이상하지 않은 상태였잖아요.^n그 영 미심쩍은 모습을 보면요.^n화장할 수고를 던 셈 치면 되죠, 그렇죠?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00020",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00021",
+      "source_text": "…………。僕は、お墓を作ってきます。",
+      "source_raw_sha256": "AA68763F5625C7FB71AF22389862E1EC6AEB34792F75601A3BEF248C6F979D8F",
+      "target_text": "…………. 저는 무덤을 만들고 오겠습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00022",
+      "source_text": "イケノさんが耐えかねたように目元を|覆[おお]って、その場を離れる。",
+      "source_raw_sha256": "6D1FCB607D8B52ACCFA3185CC10314F5E55C8AE4869C9218C2142F203A55832F",
+      "target_text": "이케노 씨는 더는 견디지 못한 듯 눈가를 가리고 그 자리를 떠났다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00023",
+      "source_text": "僕は僕で、^n立ち聞きに気づかれるとまずいということに気づいて、^nそこから立ち去ることにした。",
+      "source_raw_sha256": "CF062DABFA9C5798A3BEC1E2066BF59D824BA8B989A946FD662102545E1C8FF1",
+      "target_text": "나도 나대로,^n엿듣고 있었다는 걸 들키면 곤란하다는 걸 깨닫고,^n그곳을 떠나기로 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00024",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00025",
+      "source_text": "（やっぱり、誰か死んだんだ。^n　ここの人たちは、なんとかもみ消そうとしているんだ）",
+      "source_raw_sha256": "97B75757B2B6A0ED96C3E998EB09F5006264241FCDE4EAADB19F2F21E2E9382F",
+      "target_text": "(역시 누군가 죽었어.^n여기 사람들은 어떻게든 이 일을 덮으려고 해.)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00026",
+      "source_text": "僕は思ったより動揺していないようだった。^nすべて、頭のどこかで予想していたことなのかもしれない。",
+      "source_raw_sha256": "F3993DD6E7BB6281CB3496B5BD242219545B630683A7ADB2844434B3CE846759",
+      "target_text": "나는 생각보다 동요하지 않은 모양이다.^n어쩌면 이 모든 것을 머리 한구석으로는 예상하고 있었는지도 모른다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00027",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00028",
+      "source_text": "（──それにしても、あんなイケノさん初めて見たな）",
+      "source_raw_sha256": "E2418E9B700EFA9556C8160A00817F2EEB65746E5F92927882881D6EA04B1B2D",
+      "target_text": "(──그건 그렇고, 저런 이케노 씨는 처음 봤어.)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00029",
+      "source_text": "いつもにこにことご機嫌な顔をゆがめて、^n目を真っ赤にして──去り際は本当に泣いていた気がする。",
+      "source_raw_sha256": "A52F2348182AD80143AE01A5233370F70AC015C2182BE68F0F8A79A36A8154CE",
+      "target_text": "언제나 싱글벙글 기분 좋아 보이던 얼굴을 일그러뜨리고,^n눈은 새빨갛게 충혈된 채──떠날 때는 정말 울고 있었던 것 같다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1136.gsc::slot/00030",
+      "source_text": "一体、消えてしまった死体は誰のものだったんだろう。",
+      "source_raw_sha256": "B39C577370DB39800908680B568B72868D88EB7BB6C350A42E1B59C9B397419C",
+      "target_text": "대체 사라져 버린 시체는 누구의 시체였을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

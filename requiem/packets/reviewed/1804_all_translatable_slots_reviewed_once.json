@@ -1,0 +1,950 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1804_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    88
+  ],
+  "new_review_change_count": 9,
+  "new_review_changes": [
+    {
+      "slot": 6,
+      "before": "──어머, 오늘 밤엔 별난 손님이 다 오셨네요.",
+      "after": "──어머, 오늘 밤엔 뜻밖의 손님이 오셨네요."
+    },
+    {
+      "slot": 17,
+      "before": "무슨 일이신가요.^n제 방까지 찾아와 주시다니.^n따로 긴히 하실 말씀이라도?",
+      "after": "무슨 일이신가요.^n제 방까지 찾아와 주시다니.^n무언가 긴히 하실 말씀이라도?"
+    },
+    {
+      "slot": 19,
+      "before": "저기…… 라푼젤 씨…….^n라푼젤 씨의 왕자님은 벌써 만나셨나요?",
+      "after": "저기…… 라푼젤 씨…….^n라푼젤 씨의 왕자님은 이미 만나셨나요?"
+    },
+    {
+      "slot": 22,
+      "before": "밤마다 찾아오는 왕자, 비밀스러운 밀회.^n그 비밀을 들킨 듯해 가슴이 철렁했다.",
+      "after": "밤마다 찾아오는 왕자님, 비밀스러운 밀회.^n그 비밀을 들킨 듯해 가슴이 철렁했다."
+    },
+    {
+      "slot": 46,
+      "before": "오데트가 할 말이 있다는 듯 라푼젤을 바라보았다.^n어째서인지 그 찰나의 표정에 라푼젤은^n등골이 서늘해지는 이질감을 느꼈다.",
+      "after": "오데트가 할 말이 있다는 듯 라푼젤을 바라보았다.^n어째서인지 그 찰나의 표정에 라푼젤은^n서늘하고 차가운 위화감을 느꼈다."
+    },
+    {
+      "slot": 48,
+      "before": "그렇게…… 저주를 이겨 낼 만큼^n사랑이란 강한 걸까요…….",
+      "after": "그 정도로…… 저주를 이겨 낼 만큼^n사랑이란 강한 걸까요……."
+    },
+    {
+      "slot": 55,
+      "before": "목소리를 죽이고 담담히 중얼거리던 오데트가,^n마침내 견디지 못한 듯 말끝을 흐렸다.",
+      "after": "목소리를 죽이고 담담히 중얼거리던 오데트가,^n마침내 견디지 못한 듯 목이 메어 말을 잇지 못했다."
+    },
+    {
+      "slot": 60,
+      "before": "──미, 미안해요, 라푼젤 씨.^n갑자기 찾아와서 이상한 일을 상담하고──^n아니, 상담조차 되지 못했네요.",
+      "after": "──미, 미안해요, 라푼젤 씨.^n갑자기 찾아와서 이상한 이야기를 상담하고──^n아니, 상담이라고 할 수도 없었네요."
+    },
+    {
+      "slot": 84,
+      "before": "처음 왕자를 만난 밤의 일.^n처음으로 마음을 나눈 순간의 체온.^n몇 번이나 밀회를 거듭하고도 식지 않은 정열에 관하여.",
+      "after": "처음 왕자를 만난 밤의 일.^n처음으로 마음을 나누던 순간의 체온.^n몇 번이나 밀회를 거듭하고도 식지 않은 정열에 관하여."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    89,
+    146
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00001",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00002",
+      "source_text": "（──今夜はもう、いらっしゃらないかしらね……）",
+      "source_raw_sha256": "198ABE2C3E3C6469751DA12229CBAF77DC2B27DC014A0A4A31C454E9AB4471C4",
+      "target_text": "（──오늘 밤은 이제 오시지 않으려나……）",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00003",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00004",
+      "source_text": "（扉から……？　どなたかしら。^n　もしや、おばあさまがいらっしゃったなんてこと……）",
+      "source_raw_sha256": "D5047AE916E7DEA62FBA869EDCF548EB86BB8FFBCB7D13338EF2AA81B3DF98A3",
+      "target_text": "（문 쪽에서……? 누구시지.^n혹시 할머님께서 오신 건……）",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00005",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00006",
+      "source_text": "──あら、今夜は珍しいお客様だこと。",
+      "source_raw_sha256": "63E89D007BAB30E313DF35ABD5BDAA90B9A624EA66A5CCC1C4668891B5482874",
+      "target_text": "──어머, 오늘 밤엔 뜻밖의 손님이 오셨네요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00007",
+      "source_text": "警戒と共に扉を開いたラプンツェルは、^n薄闇に浮かび上がる純真な白い像に目を丸くした。",
+      "source_raw_sha256": "1D0C062F526D53DBCC618284F35DBF5219145D12D2EE31F7C5ADCE9DFD9255F5",
+      "target_text": "경계하며 문을 연 라푼젤은,^n어스름 속에 떠오른 순진무구한 새하얀 형상에 눈을 동그랗게 떴다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00008",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00009",
+      "source_text": "こんばんは、ラプンツェルさん。^nお邪魔してもいいですか？",
+      "source_raw_sha256": "A17CE004687DAAA3888A0C46C4DB3F2C5EB53E2C89B4E9AEB85CD1078DE12608",
+      "target_text": "안녕하세요, 라푼젤 씨.^n잠시 실례해도 될까요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00010",
+      "source_text": "夜更けの来客はオデットだった。^n寄る辺ない迷子のような瞳がラプンツェルを|窺[うかが]う。",
+      "source_raw_sha256": "7CD9EABE8C914B5D741EEBB73E5B3E3192185AD9C0EECB36244104121302492A",
+      "target_text": "밤늦게 찾아온 손님은 오데트였다.^n의지할 곳 없는 미아 같은 눈동자가 라푼젤의 눈치를 살핀다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00011",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00012",
+      "source_text": "|大歓迎[だいかんげい]よ。どうぞお入りになって。",
+      "source_raw_sha256": "85111A4F92C530EFE73AD4072BC0881CC0E54CFA8D3E19F395CCE499DE2F11B6",
+      "target_text": "대환영이에요. 어서 들어오세요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00013",
+      "source_text": "ラプンツェルは笑顔で彼女を招き入れた。",
+      "source_raw_sha256": "5E46D7DC36C5C2E4F5F7A6F67A62B32FB7B53BDC1B9B4EE7865771A5AE06B1EF",
+      "target_text": "라푼젤은 미소 지으며 그녀를 안으로 맞아들였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00014",
+      "source_text": "片や夜にしかその真の姿を現さない者、^n片や自らの居室を離れようとはしない者。",
+      "source_raw_sha256": "472807B1FE9C42B455B11DD9CEA02D5607033B2E197551F68CE05F47E0AB361F",
+      "target_text": "한쪽은 밤에만 진정한 모습을 드러내는 사람,^n다른 한쪽은 제 방에서 좀처럼 나오지 않는 사람.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00015",
+      "source_text": "いずれも「楽園」に暮らして長いが、^n互いにあまり接点のない者同士だった。",
+      "source_raw_sha256": "29D5E21628BC2A2C21BE70FD785136D5551881FD6A08CC5B7FC6C29A0FC76C95",
+      "target_text": "둘 다 『낙원』에서 오래 살았지만,^n서로 별다른 접점은 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00016",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00017",
+      "source_text": "どうしたのかしら。^nわたくしの部屋を訪ねてくださるなんて。^nなにか折り入ってお話でも？",
+      "source_raw_sha256": "6FAC324D62B3C688A8F793C2B10A4D54418E807399141F36C6C90896EDAA68AA",
+      "target_text": "무슨 일이신가요.^n제 방까지 찾아와 주시다니.^n무언가 긴히 하실 말씀이라도?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00018",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00019",
+      "source_text": "あの……ラプンツェルさん……。^nラプンツェルさんの王子様には、もう会えました？",
+      "source_raw_sha256": "3A44830B2B6092A2B566ADB47E98848FBDA21A58342FF44254AD81068DC6F564",
+      "target_text": "저기…… 라푼젤 씨…….^n라푼젤 씨의 왕자님은 이미 만나셨나요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00020",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00021",
+      "source_text": "え……っ。",
+      "source_raw_sha256": "49180F8FC070C4AEF76B61ACFF7140B2E6F6EA7C5E3C712B091C47650A4E3139",
+      "target_text": "네……?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00022",
+      "source_text": "夜ごと訪れる王子、秘密の|逢瀬[おうせ]。^nその秘密に触れられた気がしてドキリとした。",
+      "source_raw_sha256": "5C10CDBD69F0CB9270FEAC0A1A4D16F3DB32CE7DA2EC92BDF7AEE34EE7575301",
+      "target_text": "밤마다 찾아오는 왕자님, 비밀스러운 밀회.^n그 비밀을 들킨 듯해 가슴이 철렁했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00023",
+      "source_text": "が、オデットの何気ない口調や表情から^n秘密を知られたわけではないと判断する。",
+      "source_raw_sha256": "6192522F2F7ED8C80D66085097ACEA240B03F138D00E3629E6096066BBB89C70",
+      "target_text": "하지만 오데트의 아무렇지 않은 말투와 표정을 보고^n비밀을 알아낸 것은 아니라고 판단했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00024",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00025",
+      "source_text": "ラプンツェルさんの物語って、王子様に出会って、^n想いを深め合っていく──^nそんな内容だったわよね？",
+      "source_raw_sha256": "A5390F6B30B58182BE0C8EFE77BD44F94955A8C74A2114752B1E4A005FD3841B",
+      "target_text": "라푼젤 씨의 이야기는 왕자님과 만나서,^n서로의 마음을 키워 가는──^n그런 내용이었죠?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00026",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00027",
+      "source_text": "それなら、わたしたちが知らないだけで、^nもうラプンツェルさんは王子様と会っているんじゃ……。^nわたし、そう思ったの。",
+      "source_raw_sha256": "2580192171D6FFB41A34D08DD915B407B8C211B45400A77A52C9762D95F66559",
+      "target_text": "그렇다면 우리가 모를 뿐,^n라푼젤 씨는 벌써 왕자님과 만나고 있는 게 아닐까…….^n전 그렇게 생각했어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00028",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00029",
+      "source_text": "……っ、それは……。",
+      "source_raw_sha256": "2590FE280E261EF559E0B12DD7155203E37149A0C99D7AB5567D954EAD230337",
+      "target_text": "……그, 그건…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00030",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00031",
+      "source_text": "あ、あ、……あの、言いづらいなら無理はしないでいいの。^n大変な秘密なんでしょう。わかっています、から。",
+      "source_raw_sha256": "1F06FB1B231F41D015E45A7772060FB54E53A1E66BADF51A4CE3BB4C750A316D",
+      "target_text": "아, 아…… 저기, 말하기 곤란하시면 억지로 안 하셔도 돼요.^n아주 중요한 비밀이겠죠. 알고, 있으니까요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00032",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00033",
+      "source_text": "──わたしも……わたしの「聖書」にも、^n王子様がわたしを見つけてくれて恋に落ちるって^n書いてあるの。",
+      "source_raw_sha256": "25CBFDA3B670830BAE16DAA98C8D16D645B51F5EC2980681C20B5BEB92257C90",
+      "target_text": "──저도…… 제 『성서』에도,^n왕자님이 저를 찾아내 사랑에 빠진다고^n적혀 있어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00034",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00035",
+      "source_text": "ジークフリート様が永遠の愛の|誓[ちか]いを交わすことで^nわたしの呪いを解いてくださるって、約束してくださる──^nそんな運命が、この「聖書」に示されているの。",
+      "source_raw_sha256": "B483B360C34293A4EE93C45410FCCAD9F08565B644BEC30BF2906520360D6F61",
+      "target_text": "지크프리트 님이 영원한 사랑의 맹세를 나누어^n제 저주를 풀어 주겠다고 약속하신다──^n그런 운명이 이 『성서』에 적혀 있어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00036",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00037",
+      "source_text": "まあ、すてきね。",
+      "source_raw_sha256": "C3C0A73B0DAD076F854C6D44FE8CC37F3CCBC1C74B3C650DA2701A5901C4EA8E",
+      "target_text": "어머, 멋지네요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00038",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00039",
+      "source_text": "けれど、わたしの姿をしたオディールに誘惑されて、^nあの子に対して|誓[ちか]いを交わしてしまう、とも──",
+      "source_raw_sha256": "C45BC92F1B46E2EBC2D881F7A51A89CCE06B937F32F5AEABEAE256A20A56B98D",
+      "target_text": "하지만 제 모습을 한 오딜의 유혹에 넘어가,^n그 아이에게 맹세해 버린다고도──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00040",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00041",
+      "source_text": "ええ、あなたの物語は知っているわ。^nでも大丈夫よオデット。^nその後は、王子様とふたりでロットバルトを斃すのでしょう？",
+      "source_raw_sha256": "AB5416881DA38FC88270555E170E8940991BA251C9B1816A129391A8DDB59921",
+      "target_text": "네, 당신의 이야기는 알고 있어요.^n하지만 괜찮아요, 오데트.^n그 뒤에는 왕자님과 함께 로트바르트를 쓰러뜨리잖아요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00042",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00043",
+      "source_text": "そうしたら呪いが解けて人間の姿を取り戻し、^nあなたたちはいつまでも幸せに暮らす。^nそこまでがあなたの物語よ。そうでしょう？",
+      "source_raw_sha256": "B389A6034825AF73D4D4B5EE3931868E290CCE17CB07B4A670A28FA8ABC533C6",
+      "target_text": "그러면 저주가 풀려 인간의 모습을 되찾고,^n두 분은 언제까지나 행복하게 살지요.^n거기까지가 당신의 이야기예요. 그렇지요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00044",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00045",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00046",
+      "source_text": "オデットがもの言いたげにラプンツェルを見た。^nなぜかその一瞬の表情に、ラプンツェルは^nヒヤリと冷たい違和感を覚えた。",
+      "source_raw_sha256": "384E1DF394BA6449858240C1BEDFC624A8D4D439B90A6B4F9224A932BCD597BC",
+      "target_text": "오데트가 할 말이 있다는 듯 라푼젤을 바라보았다.^n어째서인지 그 찰나의 표정에 라푼젤은^n서늘하고 차가운 위화감을 느꼈다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00047",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00048",
+      "source_text": "そんなに……呪いに打ち勝てるほど、^n愛って強いものなんでしょうか……。",
+      "source_raw_sha256": "4D9D894A07CA04D450BC94FB7784A4035149372CF5DA6F6204605D4DB37A97C4",
+      "target_text": "그 정도로…… 저주를 이겨 낼 만큼^n사랑이란 강한 걸까요…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00049",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00050",
+      "source_text": "オデット……？",
+      "source_raw_sha256": "13F9C0DAD52EB51051A3E7D7C226D1918A7152C8CBA2281B88AE2BC3ABC7E75E",
+      "target_text": "오데트……?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00051",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00052",
+      "source_text": "わたしにはそうは思えないの。^n愛はうつろいやすくて|脆[もろ]いもの。^nそうとしか思えなくて──",
+      "source_raw_sha256": "BC9027D6500ECCB4913B8568C2F0F34EF815ED790C2519E2D3C69902E261E68E",
+      "target_text": "저는 그렇게 생각되지 않아요.^n사랑은 변하기 쉽고 부서지기 쉬운 것.^n그렇게밖에는 생각할 수가 없어서──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00053",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00054",
+      "source_text": "オディールは選ばれて、わたしは捨てられる。^n誰と恋に落ちても、どれだけ|誓[ちか]っても、どんなに愛しても。^nそんなイメージが頭から消えなくて……っ。",
+      "source_raw_sha256": "A10A955320095877D8C830656D5C45851DDE72D0B347120B062CBF7AFD731C02",
+      "target_text": "오딜은 선택받고, 저는 버려져요.^n누구와 사랑에 빠져도, 아무리 맹세해도, 아무리 사랑해도.^n그런 모습이 머릿속에서 사라지지 않아서…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00055",
+      "source_text": "声を抑えて淡々と|呟[つぶや]いていたオデットが、^nとうとう耐えかねたように言葉を|詰[つ]まらせた。",
+      "source_raw_sha256": "7E47E8748724DAD8F924F64776C1F30C611C983565ABC895BF53B78BD53623C7",
+      "target_text": "목소리를 죽이고 담담히 중얼거리던 오데트가,^n마침내 견디지 못한 듯 목이 메어 말을 잇지 못했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00056",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00057",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00058",
+      "source_text": "しばらくの間、唇を|噛[か]みしめて震えていたのは、^nとめどもない不安の泉の鎮静を待つためなのだろう。",
+      "source_raw_sha256": "81E2165AD95116C81BEC7487369EAC82432B59A03807952F5EEC58620AA6060F",
+      "target_text": "한동안 입술을 깨문 채 떨고 있었던 것은,^n끝없이 솟는 불안의 샘이 가라앉기를 기다리기 위해서였으리라.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00059",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00060",
+      "source_text": "──ご、ごめんなさいラプンツェルさん。^nいきなり押しかけて、おかしなことを相談して──^nいえ、相談にもなっていなくて。",
+      "source_raw_sha256": "E872DE17EB3A7D3CD43D4C4218F1B86929355C24291430C2380DD5A9ADEEFD27",
+      "target_text": "──미, 미안해요, 라푼젤 씨.^n갑자기 찾아와서 이상한 이야기를 상담하고──^n아니, 상담이라고 할 수도 없었네요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00061",
+      "source_text": "ごめんなさい、と消え入りそうな声で言い残して、^nオデットは鳥が飛び立つように身をひるがえした。",
+      "source_raw_sha256": "1EE28B3D063D9031F6A36E1E6D45A227993BD8D98BA4C48F8C5C51E4B1B4D21B",
+      "target_text": "미안해요, 하고 사라질 듯한 목소리로 말한 뒤,^n오데트는 새가 날아오르듯 몸을 돌렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00062",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00063",
+      "source_text": "オデット……！^n待って、お待ちになって！",
+      "source_raw_sha256": "35290430EB93A6C83EE515B8043911D2604043FA26AECD9C0BF30C53EFD0B195",
+      "target_text": "오데트……!^n기다려요, 잠깐만 기다려요!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00064",
+      "source_text": "その傷だらけの翼が見えるような背に、^nラプンツェルは思わず声をかけていた。",
+      "source_raw_sha256": "44579FD0C4379DC9FCCA932F7B52F084B1F43D61217EBDE82B401208681A6C3B",
+      "target_text": "상처투성이 날개가 보이는 듯한 그 뒷모습에,^n라푼젤은 저도 모르게 목소리를 높였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00065",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00066",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00067",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00068",
+      "source_text": "愛はそんなに弱いものではないわ、オデット。^nあなたもその時になればわかる──",
+      "source_raw_sha256": "6FA263F443C98F0691348D38C4B479428845F1E9BDB5C1C264647A6F1AF7E0A5",
+      "target_text": "사랑은 그렇게 약한 것이 아니에요, 오데트.^n당신도 때가 오면 알게 될 거예요──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00069",
+      "source_text": "振り返ったオデットの瞳は、^nまるであと少しの力で砕け散る、ひび割れたガラス珠のようだ。",
+      "source_raw_sha256": "24C6207F05907EEBC34B3982858B3B78D80DB0C95DCBAA5668448B50D4749CCA",
+      "target_text": "뒤돌아본 오데트의 눈동자는,^n조금만 힘을 주어도 산산조각 날 금이 간 유리구슬 같았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00070",
+      "source_text": "少しの|逡巡[しゅんじゅん]を挟んで、ラプンツェルは心を決めた。",
+      "source_raw_sha256": "7E63793A212B342C3C7165DBB1311C9CDA54DF5BB61E103DA558D1560092B182",
+      "target_text": "잠시 망설인 끝에 라푼젤은 마음을 굳혔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00071",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00072",
+      "source_text": "　──あなたになら、打ち明けてもいいでしょう。^n　そう、あなたの考えた通り、わたくしはすでに^n「王子様」には会えていてよ。",
+      "source_raw_sha256": "17F1B2FC8A0563702F57753C9AF952E546C8B76B5E97102F12FD1F5FAF437D65",
+      "target_text": "──당신이라면 털어놓아도 되겠지요.^n그래요, 당신 생각대로 전 이미^n『왕자님』을 만났답니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00073",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00074",
+      "source_text": "……！",
+      "source_raw_sha256": "1A8E369E83AAD9740790D4F7808856D5E3967EFEEEC267023E41E843C8936E62",
+      "target_text": "……!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00075",
+      "source_text": "はっ、とオデットが息を呑んだ。^n遥か遠く、地平線ギリギリに希望を見た、^nそんなあえかな喜びが、可憐な頬を明るく染める。",
+      "source_raw_sha256": "E78B6EB11399B394F63C6E65BA0BFF5E57BF214B53B6E651BF296B37691B9E6E",
+      "target_text": "오데트가 흠칫 숨을 삼켰다.^n아득히 먼 수평선 끝에서 희망을 발견한 듯한^n가녀린 기쁨이 앳된 뺨을 환히 물들인다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00076",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00077",
+      "source_text": "ですから、わたくしにははっきりと見えますの。^nあなたがジークフリート王子とふたり、^n幸せに暮らしている姿が……。",
+      "source_raw_sha256": "AC1AB7521A22F314CE3192C737827491F59365B068AB3A5E4384CA4077634616",
+      "target_text": "그러니 제 눈에는 똑똑히 보여요.^n당신이 지크프리트 왕자님과 함께^n행복하게 살아가는 모습이…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00078",
+      "source_text": "オデット",
+      "source_raw_sha256": "F217A5E379A89C13BBD7051450E207C13527FBE22024E0756D52AA104B755699",
+      "target_text": "오데트",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00079",
+      "source_text": "ラプンツェルさん……。^n本当にそうだったら、いいな……。",
+      "source_raw_sha256": "5E4815CDED99D881722054A8D401EF7B3CBC917302034DE86A90A5CEE74C40B0",
+      "target_text": "라푼젤 씨…….^n정말 그렇게 된다면 좋겠어요…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00080",
+      "source_text": "わずかに開きだしたつぼみのような微笑み。^nもっと大胆に、もっと美しく、その花弁を広げられるよう、^nラプンツェルは声にいっそうの力を込めた。",
+      "source_raw_sha256": "0FC74815C35A4DA094AF32F8DE52C9AD06E272A3CC42E193B3FB2D46038B2596",
+      "target_text": "살짝 피어나기 시작한 꽃봉오리 같은 미소.^n더욱 대담하게, 더욱 아름답게 꽃잎을 펼칠 수 있도록,^n라푼젤은 목소리에 한층 힘을 실었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00081",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00082",
+      "source_text": "本当ですとも。いいこと、オデット。^n心と心が通じ合うということは、^n無限に湧き出る力を手にするということですのよ──",
+      "source_raw_sha256": "DCDFA34C496D0B02A82902281EFAFED51DF4DC6BFF70A777DAC6E36D2CBAEB11",
+      "target_text": "물론이지요. 잘 들어요, 오데트.^n마음과 마음이 통한다는 것은,^n무한히 솟아나는 힘을 손에 넣는다는 뜻이에요──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00083",
+      "source_text": "ラプンツェルは、オデットにすべてを語り始めた。",
+      "source_raw_sha256": "2B380AED87E5F134668E61514D983CEB6D596F6F2D73F4D271B7F21B68DBDCB8",
+      "target_text": "라푼젤은 오데트에게 모든 일을 이야기하기 시작했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00084",
+      "source_text": "初めて王子と会った夜のこと。^n初めて想いを交わした瞬間の体熱。^n何度も|逢瀬[おうせ]を重ねて尚、衰えない情熱について。",
+      "source_raw_sha256": "92013D11A09C87203826B8260FE7951951D8196FF7DDA20FE6AFD5AAA1EA6CB8",
+      "target_text": "처음 왕자를 만난 밤의 일.^n처음으로 마음을 나누던 순간의 체온.^n몇 번이나 밀회를 거듭하고도 식지 않은 정열에 관하여.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00085",
+      "source_text": "秘密を打ち明けたのは、|迂闊[うかつ]な判断だったかもしれない。^n筋書き通り、ゴーテルばあさんに知られて|放逐[ほうちく]される、^nそのきっかけがこのやり取りなのかもしれない。",
+      "source_raw_sha256": "1185458CFACAB68F3D5033E92209D490402A502A879FAF312128613499B4AE06",
+      "target_text": "비밀을 털어놓은 것은 경솔한 판단이었을지도 모른다.^n이야기의 줄거리대로 고델 할머니에게 들켜 쫓겨나는,^n그 계기가 바로 이 대화일지도 모른다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00086",
+      "source_text": "けれどラプンツェルの胸の内では、それならそれで、という^n落ち着いた覚悟が固まりつつある。",
+      "source_raw_sha256": "6ED90E02214EEC8E4785F00949D9CAB32EBB33E594B4C66327A0C948023FDABD",
+      "target_text": "하지만 라푼젤의 마음속에서는 그렇다면 그것도 좋다는^n차분한 각오가 굳어지고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00087",
+      "source_text": "自分の前に立ち尽くす、^n愛との縁遠さを予感して嘆く少女に、^n愛し愛されることの喜びと幸せ──",
+      "source_raw_sha256": "4E8C901D8F26C1706F1F00D916147A1DC0D97A790465855F4343FFFDD72C16D9",
+      "target_text": "자신의 앞에 우두커니 서서,^n사랑과는 인연이 없으리라는 예감에 슬퍼하는 소녀에게,^n사랑하고 사랑받는 기쁨과 행복──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1804.gsc::slot/00088",
+      "source_text": "何より呪いに打ち勝つ愛の可能性というものを^n信じてもらうために、^n自分ができるのはこれだけなのだから。",
+      "source_raw_sha256": "66D89776572A259469199C2F0E6C5F604E20C210CFCE80326355CED4E17E9637",
+      "target_text": "무엇보다 저주를 이겨 내는 사랑의 가능성을^n믿게 하기 위해서,^n자신이 할 수 있는 일은 이것뿐이었으니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "contextual-game-localization.legacy-adapter.v1",
+  "engine": {
+    "family": "codeX RScript",
+    "file_version": "1.11.0.3",
+    "executable_sha256": "7C5392ABEF0810EC2CE3EC8C6318A566FCE854281BBD52C7C032A8D7477ECD66"
+  },
+  "archives": [
+    {
+      "format": "XFL",
+      "count_in_install": 18,
+      "verified_archives": [
+        "scr.xfl",
+        "grpo.xfl"
+      ]
+    },
+    {
+      "format": "GSC",
+      "container": "scr.xfl",
+      "entry_count": 302
+    }
+  ],
+  "script_encoding": "cp932",
+  "target_encoding": "cp949",
+  "entry_identity": "archive name + entry name/case + table order",
+  "no_change_roundtrip": {
+    "status": "passed_for_scr_xfl_grpo_xfl_and_all_302_gsc_entries",
+    "byte_identical": true,
+    "logical_payload_identical": true,
+    "deterministic_rebuild": true,
+    "evidence": [
+      "audit/scr_xfl_roundtrip.json",
+      "audit/grpo_xfl_roundtrip.json",
+      "audit/gsc_structure_audit.json"
+    ]
+  },
+  "required_checks": [
+    "entry_count",
+    "entry_names_and_case",
+    "duplicate_names",
+    "entry_order",
+    "compression_mode",
+    "alignment_and_offsets",
+    "uncompressed_sizes",
+    "logical_payload_sha256",
+    "GSC command section byte identity",
+    "GSC trailing section byte identity",
+    "non-target string-slot byte identity",
+    "CP949 target encodability",
+    "protected control-token parity"
+  ],
+  "updated_utc": "2026-08-12T02:55:51.142098Z"
+}

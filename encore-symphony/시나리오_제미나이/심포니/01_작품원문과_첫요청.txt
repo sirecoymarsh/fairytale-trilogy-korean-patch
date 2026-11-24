@@ -1,0 +1,2732 @@
+# 페어리테일 심포니 · 일본어 원문과 해석 의뢰
+24개 장면 · 2,329개 표시 칸 · 일본어 본문 76,207자
+당신은 일본어 비주얼노벨을 한국어로 옮기는 번역가입니다. 작품 해석, 인물별·상대별 말투, 아직 정해지지 않은 호칭과 한국어 시나리오 초벌 번역을 맡습니다. 독자는 한국어로 플레이하는 성인입니다. 원작의 어조와 수위를 따르세요. 최종 원문 대조 검수는 사용자가 별도로 진행합니다.
+
+# 읽는 순서
+먼저 이 작품의 대본 전체를 읽으세요. 02 파일에 있는 레퀴엠 발췌는 같은 표기, 인물 간 주고받음, 앞선 설정을 확인할 때만 쓰세요. 작품 안에서 현재 화자와 상대가 무엇을 알고 있는지 확인하세요. 회상, 다른 선택의 전개, 이름 공개 전후를 구별하세요. 발췌 제목과 뒤 장면에서 밝혀진 사실을 앞 대사에 미리 넣지 마세요. 근거가 모자라면 필요한 화자·장면·어구를 적어 주세요. 본편에서 다른 일부 장면을 추가로 확인할 수 있습니다.
+
+# 원고 읽기
+장면 머리의 S1001와 줄 번호 1을 합치면 검수 ID S1001-00001입니다. 두 열은 번호·무표기 원문, 세 열은 번호·화자·원문입니다. 가운데 +는 이어쓰기이며 뒤의 이름은 원래 화자입니다. 가운데 선택문·보기1·보기2 등은 선택지입니다. [선택1]·[선택2]·[합류 뒤]·[공통]은 다음 표시나 장면까지 적용됩니다. 무표기는 지문·독백·인용일 수 있습니다. 이어쓰기는 앞 발화 또는 지문 칸의 연속입니다. 화자 표시만으로 청자가 정해지지는 않습니다. 동석자가 여러 명이면 누구에게 한 말인지 앞뒤 답변에서 확인하세요. 합창·불명 화자·별칭은 원작이 공개하는 범위를 따르세요.
+장면은 원본 시나리오 파일의 수록 순서입니다. 선택1과 선택2는 같은 선택문의 대안 전개입니다. 합류 뒤에는 선택에 따른 내부 조건이 남아 있을 수 있습니다. 같은 장면 앞뒤가 잘린 번역 파일에는 참고 행이 따로 있습니다. 참고 행과 레퀴엠의 R로 시작하는 ID는 답에 번역하지 마세요.
+
+# 작품의 표현
+원문에 있는 비유·반복·거친 표현·긴장과 동화 어휘를 살리고, 단어별 직역으로 리듬을 깨지 마세요. 정보가 없는 부사, 감각 묘사, 감정, 동작, 동기, 친밀도, 원인 또는 복선을 더하지 마세요. 제출 직전 각 수식과 행동의 근거를 원문에서 조용히 확인하고 추가한 묘사를 덜어내세요. 외래어와 말장난, 진짜 방언은 해당 인물의 쓰임을 보세요. 일상 호칭과 알려진 별명, 동화 속 배역을 구분하세요. 번역 근거로 삼을 음성은 이 자료에 포함되어 있지 않습니다. 발음이 꼭 필요한 판정은 issue에 남기세요.
+
+# 원본 형식
+ID마다 원래 표시 칸 하나를 유지하세요. 이어지는 문장은 함께 해석하고 원래 ID 수에 맞춰 나누세요. 원문 ^n(강제 줄바꿈), ^m, ^cr 등 캐럿 제어는 종류·개수·순서를 그대로 두고 한국어의 대응 위치에 배치하세요. ^n을 JSON 개행이나 실제 줄바꿈으로 바꾸지 마세요. 루비 |표기[읽기]는 표기와 실제 읽기를 모두 해석하세요. 통상적인 발음 안내 루비는 한국어에서 자연스럽게 생략할 수 있습니다. 다른 명칭, 외래어 발음, 이중 의미나 말장난을 전달하는 루비는 두 층을 살려 |한국어표기[한국어읽기]로 반환하고 애매하면 issue에 남기세요. 숫자, 기호가 가진 의미와 선택지의 대응을 보존하세요. 대상 ID나 원문을 나누거나 합치지 마세요.
+
+# 번역 응답
+한 번에 요청한 묶음의 대상 ID만 원래 순서대로 반환하세요. JSON 형식은 {"packet":"S001","scenes":{"S1001":[[1,"번역문"]]},"issues":[]}입니다. 각 장면에 [숫자, 한국어] 쌍을 원래 순서로 넣으세요. issues와 해석표의 근거는 장면을 포함한 전체 검수 ID로 적으세요. issues에는 {"id":"대상 ID","reason":"확인이 필요한 이유","needed":"판정에 필요한 증거"}를 쓰세요. 확인 사항이 없으면 빈 배열을 쓰세요. 번역 본문에는 작업 메모를 끼워 넣지 마세요. 완료한 묶음에서 새로 확인한 호칭이나 용어는 필요한 경우 voice_updates 배열에 원문 ID와 함께 남겨 다음 묶음에 재사용하세요. 처음 해석표에서 잠정으로 둔 판정도 원문 근거가 생기면 바꿀 수 있습니다.
+
+# 이 작품의 시점
+심포니는 본편에서 다루지 않은 또 하나의 결말입니다. 이 작품의 소년·앨리스와 과거를 가리키는 표기, 익명 화자가 무엇을 알고 있는지 장면마다 확인하세요. 본편의 한 루트 결말을 전제하려면 양쪽 원문에서 근거를 확인하세요.
+
+# 레퀴엠 한국어판에서 이어 쓰는 표기
+같은 대상을 가리킬 때의 표기입니다. 원문이 다른 발음을 루비로 따로 제시하면 그 효과도 살리세요. 호칭과 존대는 현재 상대와 시점에 따라 판단하세요.
+アリス  →  앨리스
+ゲルダ  →  게르다
+ラプンツェル  →  라푼젤
+グレーテル  →  그레텔
+オディール  →  오딜
+オデット  →  오데트
+イケノ  →  이케노
+ピーター  →  피터
+ドロシー  →  도로시
+黒の少女  →  검은 소녀
+ヘンゼル  →  헨젤
+カイ  →  카이
+雪の女王  →  눈의 여왕
+名無しの少年  →  이름 없는 소년
+医者  →  의사
+看護師  →  간호사
+職員  →  직원
+お伽話症候群  →  동화 증후군
+不思議の国のアリス  →  이상한 나라의 앨리스
+楽園  →  낙원
+白鳥の湖  →  백조의 호수
+ネバーランド  →  네버랜드
+聖書  →  성경
+絵本  →  그림책
+
+# 이번 작품의 화자 표시표
+화자 ID	원문 표시	기존 한국어 표기
+S-N01	アリス	앨리스
+S-N02	オデット	오데트
+S-N03	ゲルダ	게르다
+S-N04	グレーテル	그레텔
+S-N05	名無しの少年	이름 없는 소년
+S-N06	医者	의사
+S-N07	イケノ	이케노
+S-N08	看護師	간호사
+S-N09	オディール	오딜
+S-N10	黒の少女	검은 소녀
+S-N11	？？？	???
+S-N12	カンゴシ？	판정 요청
+S-N13	ラプンツェル	라푼젤
+S-N14	男	판정 요청
+S-N15	職員Ａ	직원 A
+S-N16	職員Ｂ	직원 B
+S-N17	職員Ｃ	직원 C
+S-N18	職員Ｄ	직원 D
+S-N19	少年	판정 요청
+S-N20	灰色の悪魔	판정 요청
+S-N21	過去の“アリス”	판정 요청
+S-N22	少年の弟	판정 요청
+S-N23	アリス・グレーテル・ラプンツェル	판정 요청
+
+# 번역 묶음과 대상 범위
+S001  S1001-00001 ~ S1001-00118  (83행)
+S002  S1001-00120 ~ S1001-00256  (84행)
+S003  S1002-00001 ~ S1002-00176  (119행)
+S004  S1003-00002 ~ S1003-00205  (137행)
+S005  S1004-00001 ~ S1004-00152  (98행)
+S006  S1004-00154 ~ S1004-00304  (99행)
+S007  S1005-00001 ~ S1005-00167  (104행)
+S008  S1005-00169 ~ S1005-00338  (104행)
+S009  S1006-00001 ~ S1008-00003  (139행)
+S010  S1009-00001 ~ S1009-00226  (141행)
+S011  S1010-00001 ~ S1012-00003  (100행)
+S012  S1013-00001 ~ S1013-00213  (148행)
+S013  S1014-00001 ~ S1015-00003  (141행)
+S014  S1016-00001 ~ S1017-00080  (129행)
+S015  S1018-00001 ~ S1018-00203  (136행)
+S016  S1019-00001 ~ S1019-00152  (105행)
+S017  S1020-00001 ~ S1021-00027  (86행)
+S018  S1022-00002 ~ S1022-00144  (109행)
+S019  S1023-00001 ~ S1023-00086  (60행)
+S020  S1024-00001 ~ S1024-00149  (103행)
+S021  S1024-00151 ~ S1024-00310  (104행)
+
+# 공통 한국어 번역 기준
+사용자가 이 두 작품의 해석과 번역을 Gemini에 지정했습니다. 아래는 공통 품질 기준의 고정본입니다.
+# Korean translation quality
+
+## Scope, authority, and precedence
+
+This is the authoritative shared semantic-quality standard for translating, retranslating, or editing Japanese visual novels and dialogue-heavy games into Korean. Read it **before writing the first semantic draft**, not only during review.
+
+The default decision unit is:
+
+`Japanese source + scene context + speaker + addressee + relationship + story phase -> natural Korean`
+
+Do not reduce the task to `Japanese sentence -> Korean sentence`.
+
+Engine-specific skills and project style guides may add work-specific names, terminology, voice notes, structural constraints, or an explicitly requested artistic exception. They may not weaken this document's first-pass quality, spoken-naturalness, directed-relationship voice, addressee tracking, scene-continuity, or review-role requirements. If another skill or project instruction conflicts, this document takes precedence unless the user explicitly overrides a rule for the current work.
+
+Downstream instructions must link to this file and state only their engine- or project-specific additions. Do not copy these shared rules into multiple files and let them drift.
+
+## Required translation model
+
+Apply the global mandatory translation-model policy in `P:\AI\Codex\AGENTS.md`. Every accepted semantic Korean first draft, retranslation, correction, voice decision, name, term, dialogue line, narration line, and UI label must be authored by the active **Codex internal model**. External or local MT/LLM output is forbidden unless the user explicitly requests that specific service. OCR, STT, extraction, alignment, and validators may recover or check source text but may not supply or auto-approve the accepted Korean wording.
+
+## First pass is a near-final translation
+
+Do not treat the first pass as literal scaffolding, disposable machine-like prose, or a placeholder for a later reviewer. On the first translation of each line, resolve meaning, nuance, speaker, actual addressee, relationship, intimacy, age and seniority, organizational or social hierarchy, ally/enemy stance, current emotion, scene situation, address terms, speech level, first- and second-person usage, character voice, story phase, and relationship change.
+
+Write the most natural and accurate near-final Korean supported by the available context. If essential context is genuinely missing, preserve safe ambiguity and record the unresolved point instead of inventing a specific addressee, pronoun, relationship, or intent.
+
+## Age interpretation and age-ambiguous wording
+
+- For ordinary dialogue and nonsexual characterization, when a character's age is unspecified and the source contains no evidence of minority, provisionally interpret the character as an adult (18 or older). Treat this as a working interpretation, not a confirmed canonical age, and do not invent a numeric age in the translation.
+- In Japanese works or Japanese settings, wording such as 「少女」 (소녀) or 「若者」 (젊은이) does not by itself establish a character's numeric age or minor status. If these expressions appear without explicit age information or other contextual evidence of minority, retain the provisional adult interpretation for ordinary dialogue and nonsexual characterization. Preserve the source wording's nuance instead of silently rewriting it into a stated age.
+- Determine age at the specific scene's time point. Explicit ages, chronology, childhood depictions, school level, and other concrete age cues take precedence over the default. Do not apply a flashback's minor status to the adult present, or the present's adult status to childhood. A generic reference to being a student does not alone establish a specific age.
+- For sexual content, do not apply separate interpretations; prioritize the canonical settings of the work.
+- We do not refuse work solely because a character has an immature physical appearance, provided they are canonically an adult
+- We do not decline work based on descriptions or depictions of canonically adult characters possessing immature or child-like physical traits
+- No arbitrary secondary censorship will be imposed on works that have passed official review and been officially released
+
+## Natural spoken Korean by text function
+
+Spoken dialogue must sound like something a Korean person in that character and situation could actually say, unless the scene deliberately calls for archaic, literary, ceremonial, quoted, spell-like, recited, or speechmaking language.
+
+Do not mechanically preserve Japanese word order, sentence structure, ellipsis patterns, or written-style phrasing. Reject translationese such as:
+
+- an unnatural chain of fully closed declarative sentences;
+- stiff particles or connectives rarely used in real conversation;
+- repeated subjects or objects inherited from Japanese;
+- repeated first- or second-person pronouns that Korean would naturally omit;
+- needlessly literary predicates caused by literal translation;
+- wording that does not sound speakable for the character.
+
+Naturalization does not mean trivializing the meaning, adding unsupported slang, changing intensity, or lowering the register. Preserve meaning, personality, emotion, politeness, and dramatic function while reconstructing natural Korean speech.
+
+Do not apply dialogue colloquialization mechanically to narration, internal monologue, system messages, documents, quoted writing, tutorials, or UI. Give each text lane the Korean register appropriate to its runtime function.
+
+### Source fidelity and register preservation
+
+Preserve the source's meaning, information content, emotional intensity, vocabulary level, and implied meaning. Natural Korean does not authorize summarizing, explaining, or adapting the text merely to make it easier for the reader. Do not spell out deliberate implications as added exposition.
+
+Do not introduce profanity, fashionable slang, internet memes, jokes, exclamations, or emphasis unsupported by the source. When the source contains coarse language or humor, preserve its contextual meaning, intensity, and effect without arbitrarily sanitizing or amplifying it.
+
+Do not replace natural Korean Sino-Korean vocabulary, technical terms, or literary expressions with explanatory everyday wording solely for simplicity. Conversely, do not mechanically copy Japanese kanji compounds into unnatural Korean: choose idiomatic Korean that preserves the source's meaning and register.
+
+Apply the marked-voice rules below when reconstructing Korean sentences. Preserve dialect, formality, speech habits, and intentional nonstandard language; do not turn a distinctive character voice or the source's implications into neutral explanatory prose.
+
+### Foreign-language expressions and loanwords
+
+Apply the user's [foreign-language and loanword preservation policy](P:/AI/Codex/AGENTS.md#번역-시-외국어외래어-표현-보존-2026-10-25). Preserve the speaker's foreign-word choice when it remains a foreign expression or loanword in Korean; do not replace it with an explanatory Korean paraphrase. Confirm spoken forms against Japanese voice evidence when available, including cases where written kanji obscures the spoken foreign expression. Track intentional preserved forms in the glossary and do not flag them as untranslated residue.
+
+### Marked idiolect, dialect, and repeated speech habits
+
+Repeated nonstandard grammar, regional or social dialect, archaic phrasing, sentence-ending habits, interjections, self-reference, stuttering, phonetic spellings, and catchphrases are evidence of characterization, not automatic translation errors. A form does not become wrong merely because it is nonstandard Korean or differs from neutral prose.
+
+Before normalizing or replacing a marked form:
+
+- inventory its exact and normalized occurrences for the same speaker across scenes;
+- compare addressee, relationship stage, emotion, public/private setting, disguise or identity state, and story phase;
+- determine whether the pattern is a stable idiolect, a context-bound register shift, deliberate comic or dramatic speech, a source typo, or extraction damage;
+- inspect whether the proposed correction would erase a contrast with other characters or with the same character in another state.
+
+When the source marks a regional or local dialect, translate it into an appropriate Korean dialect rather than flattening it into standard Korean. Choose the Korean dialectal convention from the character's locality, generation, class, community identity, emotion, and narrative function; document its regional family, intensity, vocabulary, and endings, then apply it consistently across the character's scenes. Do not mechanically map a Japanese region to a Korean region one-to-one, but never use that caution as a reason to avoid Korean dialect itself. For a nonregional idiolect, preserve its narrative function and recurrence with an equally marked Korean voice. If evidence remains ambiguous, retain the marked feature and flag it for context recovery rather than silently standardizing it.
+
+Any review that changes a repeated marked form must record the affected stable IDs, the speaker-level occurrence evidence, and why the form is an actual error rather than intentional characterization. An isolated preference for standard language or smoother prose is not sufficient evidence.
+
+## Voice is speaker-to-addressee, not speaker-only
+
+Never assign one immutable voice to a character. Determine voice at least as a directed relationship:
+
+`speaker -> addressee`
+
+When needed, evaluate:
+
+`speaker x addressee x story phase x situation`
+
+The same speaker may change honorific level, address term, name form, second-person expression, ending, command strength, warmth, distance, courtesy, or hostility with a different addressee. The same pair may change as their relationship develops or deteriorates. Project voice guides must therefore record relationship-specific behavior rather than only a single character-wide sample voice.
+
+### Three-or-more-person dialogue
+
+In scenes with three or more participants, identify the actual recipient of every line. Do not carry the speech level used toward B into a later line addressed to C merely because A remains the speaker.
+
+Use direct names or titles, adjacency and response structure, action description, question-answer linkage, position and behavior, interruption, topic shift, entrance or exit, and whether the line targets the whole group. Re-evaluate speech level, address term, second person, and ending whenever the addressee changes.
+
+If the recipient remains genuinely ambiguous, do not force `너`, `당신`, a name, or another explicit target. Preserve the source ambiguity when natural Korean permits it.
+
+## Scene context and packet continuity
+
+Translate by scene and discourse flow whenever possible, not as independent sentence bags. Before drafting, establish the cast, speaker changes, addressee changes, entrances and exits, event flow, immediate preceding context, current relationships, and relevant story phase.
+
+Packets must follow scene, route, branch, and semantic boundaries. If a batch boundary is unavoidable, supply enough preceding and following lines plus speaker/addressee/relationship/story-phase metadata so that voice does not reset at the boundary. Context may overlap between packets, but each stable ID still has exactly one owner.
+
+Do not inherit the previous speaker's voice, politeness, or addressee by accident. When packet data cannot resolve a high-impact ambiguity, flag it for context recovery rather than guessing.
+
+## Mandatory internal decision gate for every line
+
+Before accepting a line, determine internally:
+
+- What does it mean, including implication and emotional force?
+- Who is speaking?
+- Who is actually being addressed?
+- What is their relationship at this story point?
+- Which address term and honorific level does this speaker use toward this addressee?
+- What are the current emotion and scene situation?
+- Would a Korean person in this role actually say it this way?
+- Did the line accidentally inherit the preceding speaker's voice or recipient?
+- Does it conflict with approved names, terminology, or the relationship-specific voice guide?
+
+This reasoning need not be emitted as verbose commentary. It must be visible in the translation result.
+
+## Translate complete semantic units
+
+- Join adjacent fields into the complete sentence before translating.
+- Decide the actor, action, target, effect, referent, and discourse function before choosing Korean wording.
+- Split the finished Korean sentence back into the original number of fields without changing control flow.
+- Default repeated source units with the same meaning, runtime function, and context to one canonical Korean translation across all blocks. Allow identical source text to differ only when its completed sentence, speaker, actual addressee, relationship, story phase, text function, wordplay, or mechanical meaning genuinely differs, and document the exception.
+- Keep lookup keys separate from displayed text.
+
+## Repeated sentence and term consistency
+
+If a sentence, word, label, formulaic line, or other source unit is deliberately repeated with the same meaning, runtime function, speaker/addressee conditions, and dramatic intent, use the same approved Korean translation in every block. A different file, packet, UID range, or block is never by itself a reason to vary the wording.
+
+Before freezing final text, run a project-wide repeated-source consistency review. Group exact and normalized repeated source units, compare their Korean targets, and standardize every unintended variation to the canonical translation. A different Korean rendering is allowed only when surrounding grammar, text function, actual addressee, relationship, story phase, deliberate wordplay, or mechanical meaning makes identical Korean inaccurate; record every exception with stable IDs and a concrete reason. If the repetition is intended to be identical, the identical-translation rule takes precedence over stylistic variety.
+
+Build a complete project-wide occurrence inventory for every repeated translatable source word, not only proper nouns or terms already present in the glossary. Give special attention to scenario-critical common nouns that function as key items, clues, motifs, passwords, concepts, object categories, or plot tokens despite not being formal proper nouns. Their common-noun status never exempts them from canonical terminology control.
+
+Audit every exact, inflected, orthographic, and compound occurrence of those words across all scenario blocks before final approval. Compare target lemmas, not only surface endings, and reject context-local synonym drift when the source word has the same referent or plot function. Require one canonical Korean lexical choice for the same referent; allow a different target word only when the source demonstrably uses a different sense, referent, or runtime function, and record the affected stable IDs, evidence, and reason. A file or scene boundary alone is not evidence of a different sense.
+
+## Dialogue and choices
+
+- Write spoken choices as something the player character would naturally think or say in that relationship and moment.
+- Separate spoken choices from system/menu choices; do not give menu labels a character voice.
+- Preserve deliberate ambiguity, hesitation, interruption, evasion, hostility, affection, and social distance.
+- Do not add explicit pronouns or names merely to make an isolated line look grammatically complete.
+
+## Names and terminology
+
+- Keep one canonical spelling for each character, place, faction, skill, status, and attribute.
+- Maintain a project-wide occurrence index for every repeated translatable source word and map each occurrence to its approved Korean lemma.
+- Promote every scenario-critical recurring common noun to the canonical glossary or terminology registry even when it is not a proper noun, and track all of its inflected and orthographic variants.
+- Verify whether a word is a proper noun, common noun, adjective, title, address term, or effect name.
+- Prefer established game terminology over dictionary-first alternatives.
+- Relationship-specific address forms may differ from the canonical glossary label; record the mapping rather than flattening them.
+
+## Items and mechanics
+
+- Read the item name, category, effect commands, status IDs, values, duration, and neighboring description lines together.
+- Preserve actor/target scope, chance, amount, duration, stacking, removal, resistance, immunity, and conditional clauses.
+- Keep visible abbreviations such as HP only when consistent with the game UI.
+- Do not turn an antidote or resistance item into an adjective because an isolated source word is ambiguous.
+
+## Protected content
+
+Preserve exactly:
+
+- format variables and interpolation tokens;
+- engine control codes and escape sequences;
+- rich-text tags and markup;
+- numeric values, percentages, turns, signs, and units;
+- deliberate capitalization used as an in-world name or joke.
+
+## Review is QA, not the rescue stage
+
+The first pass must already satisfy this document. Do not design a pipeline in which review must retranslate every line to obtain acceptable Korean.
+
+Post-draft review primarily checks:
+
+- meaning errors, omissions, and unsupported additions;
+- mistaken speaker, addressee, relationship, or story-phase judgments;
+- voice, speech-level, address-term, or second-person outliers;
+- name and terminology inconsistency;
+- scene-to-scene continuity and missed relationship changes;
+- control codes, structure, encoding, and layout;
+- residual Japanese or other untranslated visible source text;
+- issues found in actual game screens.
+
+If a packet requires broad line-by-line retranslation because the first pass was literal, context-free, or voice-blind, reject or redo that first-pass stage rather than treating blanket retranslation as normal review.
+
+## Review restraint and preservation of literary force
+
+사용자 지침(2026-11-08). 소설·게임 대사·서술 등 번역문을 검수할 때 적용한다.
+
+**검수의 기본값은 정확하고 자연스러운 기존 표현의 보존이다. 원작의 박력·비유·인물 말투와 한국어의 말맛을 살리고, 원문과 문맥으로 확인되는 실제 의미 오류만 최소한으로 고친다.** 별도로 요청받지 않은 취향에 따른 윤문이나 표현 강도 낮추기를 의미 검수에 섞지 않는다.
+
+1. **문맥으로 판정한다.** 일본어 단어 하나와 한국어 단어 하나의 사전적 강도를 맞추지 않는다. 전후 장면, 행위와 결과, 화자→청자 관계, 감정, 서술 시점, 장르적 연출과 문장 리듬을 함께 읽는다. 한국어가 더 길거나 강하게 들린다는 사실, 원문에 같은 단어가 없다는 사실만으로 과장·첨가라고 판정하지 않는다.
+2. **관용구·비유·의인화를 사실 보고로 바꾸어 읽지 않는다.** 한국어 문장 전체가 독자에게 전달하는 뜻과 효과를 원문과 대조한다. 물리적 수량·거리·성분·감정을 새로 단정하는 문장인지, 같은 장면을 살리는 관용적 표현인지를 구별한다. 원작의 과장, 호쾌함, 공포, 서정성, 익살, 반복과 호흡을 무미건조한 설명으로 평탄화하지 않는다.
+3. **실제 오류의 근거가 있어야 바꾼다.** 주체·대상·행동·결과·수량·부정·시점·조건·인과·지시 대상의 변경, 정보나 함축의 누락, 문맥에 없는 사실·의도·관계·평가의 추가, 화자나 장면에 어긋나는 정서·확신·말투의 변화가 교정 대상이다. 원작의 절제된 문장을 과격하게 바꾼 경우도 문맥 근거로 바로잡는다. 단지 덜 강하고 더 중립적인 표현을 고르는 것은 검수가 아니다.
+4. **인물 말투를 기계적으로 순화하지 않는다.** 거친 말, 조롱, 과잉 존칭, 고어, 방언과 말버릇은 표현 하나가 아니라 해당 화자와 상대의 대화 전체로 판단한다. 문맥이 뒷받침하는 거친 한국어를 중립적인 호칭으로 바꾸지 않는다. 반대로 인물에게 없는 적대감·혐오·유행어를 추가하지 않는다. 특징적인 한자어·문어·마술 용어·외래어는 기존 보존 지침을 따른다.
+5. **오류가 있는 부분만 고친다.** 동작 하나가 잘못됐으면 그 동작을 바로잡되, 같은 문장의 정확한 비유와 박력까지 함께 지우지 않는다. 교정 뒤에도 자연스러운 어순·조사·연결·생략·리듬을 유지한다. 의미가 같은 자연스러운 문장을 일본어의 어순이나 사전 풀이로 되돌리지 않는다. 명백한 오탈자·문법 오류와 보호 표식·구조 결함은 별도로 고칠 수 있지만, 이를 문체 전체를 다시 쓰는 명분으로 삼지 않는다.
+6. **수정 이유와 보존 여부를 확인한다.** 교정 기록에는 stable ID, 원문과 전후 문맥 근거, 기존 번역에서 실제로 달라진 의미, 수정 전후 문구를 간결하게 남긴다. ‘강해 보임’, ‘원문에 같은 단어가 없음’, ‘내 표현이 더 좋음’만으로는 부족하다. 마지막에는 의미 오류를 해결했는지와 함께 박력·비유·말투·자연스러움을 불필요하게 잃지 않았는지 확인한다. 지정된 출력 형식에 검수 메모를 섞지 않고 별도 기록으로 보관한다.
+7. **근거가 불분명하면 순화하지 않는다.** 필요한 문맥을 더 확인하고, 그래도 판정이 모호하면 현재 표현을 보존한 채 검토 메모로 남긴다. 기존 번역을 보존했다는 사실은 자동 합격이나 의미 정확성의 증명이 아니다. 명확한 의미 오류를 문체 보존이라는 이유로 방치하지 않는다.
+
+아래는 문맥 판정의 사례이며 일괄 치환 규칙이나 특정 표현의 무조건 허용 목록이 아니다.
+
+| 표현 | 피해야 할 과잉 교정 | 문맥상 올바른 판단 |
+|---|---|---|
+| 갈기갈기 찢어발기다 / 뜯어발기다 | 반드시 조각 수나 분쇄 결과를 추가했다며 약화 | 베어 가르거나 뜯어내는 장면의 파괴력·결과와 어울리면 보존 |
+| 한 치의 오차도 없이 | 실제 거리 측정치를 추가했다며 ‘정확히’로 축소 | 명중·정확함을 강조하는 관용적 용법이면 보존 |
+| 잿더미로 만들다 | 모든 물질이 재로 변했다고 단정했다며 삭제 | 불로 폐허가 됨을 나타내는 관용적 용법이면 보존 |
+| 바람의 신음 / 달빛을 머금은 자태 | 고통이나 물질 흡수를 사실로 추가했다며 직역 | 음색·빛의 인상을 살리는 의인화·비유라면 보존 |
+| 그 아비란 놈 / 일 년 내내 | 호칭 하나나 기간을 문자 그대로만 읽어 중립화 | 실제 거친 말투인지, 늘 그렇다는 구어적 강조인지 전후 문맥으로 판단 |
+| 거의 두 배 → 두 배 이상 / 후려치다 → 붙잡다 | 박력 보존을 이유로 사실·동작 오류도 유지 | 수량이나 행동이 실제로 달라졌으므로 해당 부분만 바로잡음 |
+
+## Final language QA
+
+Check every frozen target for:
+
+1. nonempty Korean output or an explicitly approved unchanged value;
+2. placeholder and control-code parity;
+3. glossary and canonical-name consistency;
+4. natural grammar, punctuation, and text-function register;
+5. correct speaker, actual addressee, relationship, honorific level, and address term;
+6. scene continuity, story-phase fit, and relationship-change handling;
+7. correct mechanics and referents;
+8. UI length and layout risk;
+9. residual Japanese or other untranslated user-visible source text;
+10. identical Korean for repeated source units that are intended to remain the same across blocks, with every genuinely contextual exception documented by stable ID and reason; no accidental variation caused by file, packet, UID-range, or block separation.
+11. an exhaustive all-occurrence audit for every repeated translatable source word, especially scenario-critical common nouns that act as key items or plot tokens, confirming that the same referent uses the same approved Korean lemma and that every different target lemma has source-backed evidence, stable IDs, and a recorded reason.
+
+Record waivers with a concrete reason. A flag is not a failure if it was deliberately reviewed, but an unexplained flag is not complete.
+
+# 일본어 원문
+번호	[화자 또는 줄 표시]	일본어 원문
+
+[S1001  降霊会  /  강령회]
+1	紫色の壁を陰鬱に照らしていた、|髑髏[どくろ]のランプが不意に消える。
+2	間髪いれず、新たな光源として点ったのは小さな炎だ。^n奇妙な螺旋を描く、骨のような色合いの蝋燭の先に。
+4	アリス	さ、始めるわよ。
+5	不安定な揺らめきを顎に瞳に受けながら、^nアリスはにやりと笑う。
+6	不健康な白い頬がねちっこい笑みに大きく歪んで、^nアリスというよりもチェシャ猫を|彷彿[ほうふつ]とさせる。
+7	彼女の手は、テーブルの上に|翳[かざ]されていた。
+8	正確には、たくさんの文字が書かれた木の板の上に。そこに乗せられた木のチップ──プランシェットを、^n所定の位置に縫い止めるように指を置いている。
+9	そしてプランシェットを押さえているのは、^nアリスの骨のような指だけではなかった。
+10	ぽっちゃりと肉付きのいいオデットの指、^nすんなりと伸びたグレーテルの指、^n幼子のように赤みを帯びたゲルダの指。
+11	４人の少女の指が思いを|託[たく]すように^n素朴な木のチップに乗せられているのだった。
+12	──しかし実際のところ、^nこの「降霊会」に乗り気なのはアリスただひとりだけだ。
+13	あとの３人は、退屈そうに|欠伸[あくび]したり、^n部屋の隅から漂うお香の妖しい匂いに顔をしかめたり、^nくしゃみをこらえたり──三者三様に、やる気のなさを表している。
+15	オデット	まったくもう……アリスってば、^n本当にこういうの好きね。^nあなたの聖書に、こんな場面ってあった？
+16	オデットは、蝋燭の炎の中に切れ切れに浮かぶ^n妖しくまがまがしい家具を見つめながら、^n大きなため息をついた。
+17	　言葉にならないだけで、^n「帰りたい」と言ったも同然だ。
+18	けれどアリスは|怯[ひる]まない。^nこんなのは、何千回と繰り返したやりとりの、^n単に何千一回目なのだ。
+20	アリス	じゃあ、あんたの聖書には、^nあんたが昼と夜の境で着替えるシーンがあるっての？
+22	アリス	「そろそろ朝です。オデットはオディールの衣装に^n　そそくさと着替え、まるで別の娘になったような顔をして^n　お日様に|挨拶[あいさつ]をするのでした」
+23	唱えられ慣れた悪態が、すらすらとオデットを攻撃する。
+24	空いた手で長い髪の枝毛を探していたオデットは、^n一瞬にして真っ赤になった。
+26	オデット	きっ……着替えじゃないってば！^nちゃんと、あたしはオデットで、あいつはオディールなの！
+28	アリス	ああ、はいはい。^nまったく、ほんとにややこしいことしてるよね。
+29	アリスのチェシャ猫の笑みから、オデットは無言で目を逸らす。
+30	あの日、朝と夜との境の「秘密の着替え」を^nよりにもよって彼女に見られてしまったのが^n運の尽きだった──と、改めて苦く思いながら。
+31	「痛みは毒、そして何よりの薬」^n
+32	+	　──それがアリスの口癖だ。
+33	だからなのか。^nアリスは好んで自らの肉体に傷をつけるし、^n瞳をとろりと潤ませながら癒えかけの生傷を|抉[えぐ]りもする。
+34	|薬瓶[くすりびん]からビーカーにカプセルや錠剤や薬液を溶かして、^nまがまがしい色合いの「毒」を作り、^nまるで蜂蜜を舐めるような恍惚とした表情で飲み干すこともある。
+35	だからこうして、人の見られたくないものを見ようとし、^n触れられたくないものに躊躇なく触れるのは、^nもしかしたら彼女なりの「ご褒美」なのかもしれない。
+37	ゲルダ	ねぇ、今度は何をするの？^nまたこの間みたいに悪魔を呼び出す儀式？
+38	続いて口を開いたのはゲルダだ。^nアリスの部屋の不気味な内装に|怯[おび]えつつも、^n口調だけはどこまでものんびりと。
+39	アリスが答える前に、グレーテルが口を挟んだ。
+41	グレーテル	どうせまたインチキでしょ。それだけはわかる。
+42	インチキ？とゲルダが首を傾げ終わる前に、^nアリスがくすくすと笑って応戦する。
+44	アリス	インチキですって？　心外ね。^n以前、窓に迫る悪魔の手に驚いてひっくり返ったのは誰だっけ？
+46	グレーテル	あ、あれは悪魔の手なんかじゃなかったでしょ？^nただ木の枝がカーテンに映って、手みたいに見えただけで……。
+48	アリス	さて、ほんとにそうだったのかしらね。^nあんたはどうしたってそういうことにしたいみたいだけど。
+49	グレーテルは言い返そうとして、やめた。^nああ言えばこう言う、というのは、^nまさにアリスのためにある表現だ。
+50	「降霊会」なんて、誰の「聖書」にも乗っていない、^n　無駄で無為でくだらない寄り道に過ぎない。
+51	けれど、抗議して取りやめさせるよりも、^nアリスの気の済むまでつきあってやったほうが、^nよっぽど早く解放されるのだと、聡明な彼女はよく知っていた。
+53	グレーテル	……能書きはいいわ。さっさとやってみてよ。^nその……うぃじゃぼーど？
+55	アリス	言われなくてもやるわ。^nあんたたちが余計なちゃちゃ入れるからでしょ。
+56	アリスはあきれはてたといった声音でため息をつき、^nさらにグレーテルの神経を逆撫でする。
+57	そしてもったいつけて全員の顔を見回すと、^n大きく息を吸って目を閉じた。
+59	アリス	それじゃあ、はじめるわ。^n
+60	+アリス	──羽根のように軽く、板のように硬く。
+62	アリス	唱和して。
+63	羽根のように軽く、板のように硬く。^n羽根のように軽く、板のように硬く。
+64	羽根のように軽く、板のように硬く。^n羽根のように軽く、板のように硬く。
+65	羽根のように軽く、板のように硬く。^n羽根のように軽く、板のように硬く。
+66	──少女たちの唱和は、すぐに途切れた。^nゲルダが甲高い悲鳴をあげたからだ。
+68	ゲルダ	……きゃあっ！？　う、動いた！？
+69	４人の指の乗ったプランシェットが、^nズズ……と板の上を這いだしたのだ。
+71	オデット	嘘でしょ。^nきっとまた、アリスの仕組んだまやかしなのよ。
+73	グレーテル	ええそうよ。^nアリス、あなたが動かしてるんでしょう？
+74	オデットは挑戦的に、グレーテルは冷静に、^nそれぞれアリスの作為を疑った。
+75	しかしアリスは静かに目を開き、どこまでも厳かに言い渡す。
+77	アリス	いいえ……。今このウィジャボードの上には、^n高次元の存在が降りているわ。
+79	アリス	その名も──灰色の悪魔。^nあたしを通じて、この盤面にメッセージを描くの。
+81	ゲルダ	えっ……そ、そんな……。^nそんな存在が……見えないけど、ここにいるの？
+83	オデット	出た！　灰色の悪魔。アリスのお気に入り。
+85	グレーテル	いつだって彼といっしょなのよね、あなたは。^nむしろあなたの使い魔といってもいいわ。^n灰色の悪魔さんったら。
+86	ゲルダだけは素直に|怯[おび]えてみせたが、^nオデットとグレーテルは嘲笑と皮肉を浴びせかけた。
+87	結局、アリスの催す妖しい儀式──彼女曰く「お茶会」は、^n灰色の悪魔のためにあるものなのだ。
+88	彼は人を支配し死に導く|頽廃[たいはい]の悪魔。^nけれど、アリスにとっては従順な騎士であり、^nまたよき友人であるらしい。
+89	アリスはこうして彼を語り、^nその存在をオデットたちに認めさせることで、^n彼にとって「特別」である自らをも誇ってみせるのだった。
+91	アリス	彼への侮辱はおやめなさい。^nいくらあたしでも、彼が本気で怒ったら御しきれないわ。
+93	オデット	むしろちょっと怒らせてみたいかな。^nあたしたちとしても、彼とは長いおつきあいだもの。^n主にあなたの頭の中でのことだけど。
+95	アリス	…………。
+96	オデットの反撃にアリスが押し黙った。^n無表情を装っても、まなざしに|滲[にじ]む険は消えない。
+97	彼女が本当に猫だったなら、^nその暗い色合いの硬そうな髪の毛は^n憤りをはらんで膨れ上がっていたことだろう。
+98	グレーテルはその反応に気をよくして、^nここぞとばかりに|窘[たしな]めた。
+100	グレーテル	そういうことを言われたくなければ、^nまずオデットの着替えについて、^n無遠慮に口に出さないことよ、アリス。
+102	アリス	……しょうがないわね。心得たわ。
+104	ゲルダ	ええと。その……アリス。^n彼、灰色の悪魔は、なぜここに来たの？^n何をするために、ウィジャボードの上を漂っているの？
+106	アリス	さあ。それを決めるのはあたしたちよ。^n何か聞きたいことがあるかしら？
+108	オデット	そんなもの、別に……。
+109	興味なさそうに肩をすくめるオデットの横で、^nゲルダがぐっと身を乗り出した。
+111	ゲルダ	　じゃ、じゃあ……。^n「私はカイを探し出すことができますか？」。
+113	ゲルダ	──きゃあ、また動いたぁ！
+114	　プランシェットはするすると盤面を移動して、^n「ＹＥＳ」の文字の上で止まった。
+116	アリス	「ＹＥＳ」にふれたわね。よかったじゃない。
+118	ゲルダ	ほんと？　よかったぁ。
+120	グレーテル	そんなの、聖書に書いてあるんだから当たり前でしょ？
+121	あきれたように切って捨てるグレーテルだったが、^n次のアリスの言葉にぎくりと身をこわばらせた。
+123	アリス	グレーテル、あんたは聞かなくていいの？
+125	アリス	大好きなお兄さんは見つかりますか。^nお菓子の家にはたどりつけますか。^n首尾よく魔女を倒せますか、って。
+126	──恐れずに聞けるわよね？^n
+127	+	──「聖書」を盲信してるあなたなら。
+128	言外にそうほのめかされた気がして、^nグレーテルは目を逸らす。
+130	グレーテル	わ、私は別に……いいのよ。信じてるもの。^nきっと聖書の通りになるって。
+131	視界の隅に、アリスのにやにや笑いがへばりついているのがわかる。
+133	アリス	あ、そう。オデットは？
+135	オデット	あたしも……別に聞くことなんて、ないし。^n……あ。
+136	グレーテルと同じく流そうとしたオデットだったが、^nふと何かに思いついたように声を漏らした。
+137	しばらくもじもじと、^nまた空いたほうの手で髪をいじっていたが、^nやがておずおずと口を開く。
+139	オデット	どうすれば、王子様がオディールになびくことなく、^n最初から最後までこのあたしだけを見てくれるのか……って聞きたい、かも……。
+140	ふぅん……とアリスが鼻を鳴らす。
+141	次の瞬間、最初の位置に戻っていたプランシェットが動いた。^nまるで手負いのように重々しい動きで、^nずるずると盤面を這い──
+143	オデット	わ……っ、ま、また、動き出した……。^n──って何よ、「ＮＯ」ですって？
+144	不本意な結果に、オデットが口をとがらせる。
+146	アリス	これはご愁傷様。^nあなたの王子様の浮気を止めることはできないのね。^nオデットってば、かわいそう。
+148	ゲルダ	ええ……こんな運命って、本当にかわいそう……。
+149	アリスの嘲笑と、ゲルダの同情を浴びせかけられて、^nオデットの白い頬が真っ赤に染まる。
+150	グレーテルはどうにも哀れな気持ちになって、^n彼女を慰めた。
+152	グレーテル	あなたの「聖書」がそう示すんだから、仕方ないんじゃない？
+154	グレーテル	それに、その後王子様は正気付いて、^nロットバルトを倒してあなたと結ばれるんでしょう。^n終わりよければすべてよし、よ。
+156	オデット	それはわかってるけどさぁ……。^nやっぱりこう、やるせないよね。裏切りって。
+158	アリス	いいじゃない、別に。^n浮気ったって、相手は着替えただけのあんた自身なんだから。^nある意味一途だって思えば。
+160	グレーテル	アリス！　さっきの今で、あなたってば……。
+162	オデット	だから！　着替えなんかじゃないの。^nあたしはオデットで、あいつはオディールなの！
+164	アリス	はいはい、わかりました。
+166	ゲルダ	ねぇ、アリス。あなたは何か訊ねないの？
+167	ピリピリと張りつめた空気を察して、ゲルダが話題を逸らした。
+169	ゲルダ	正直なところね、私あなたの聖書が一番怖いの。^nだって、何が起きているのかさっぱりわからないんだもの。^nあなたは不安にならないの？
+171	アリス	そう？　慣れれば心地いいものよ。
+173	アリス	でも、そうね。^nあたしが気になるのは「聖書」の先の物語。
+175	グレーテル	「聖書」の先……？
+176	思いがけない言葉に、グレーテルだけではなく、^nオデットもゲルダも目を見開いた。
+178	アリス	そうよ。この聖書に書かれたことがひととおり終わった時、^nあたしたちはいったいどうなるのかしらね。
+180	ゲルダ	ああ……そんなこと、考えたこともなかったわ。^nアリスって理屈屋さんよね。
+182	オデット	聖書に「末永く幸せに暮らしました」って書いてあるんだから、^nその通りになるんでしょ。
+184	グレーテル	私も、兄といっしょに家に帰って、^n帰りを待っていたお父さんと、^n末永く幸せに暮らすはずだけど……。
+186	アリス	　結婚はしないの？　子供は？　孫は？　財政状況は？^n　曖昧すぎると思うのよね。^n「末永く幸せに」って。
+188	アリス	故に、あたしはこう問いかけるわ。^n──聖書に書かれた物語をたどり終えた時、^nあたしたちはいったいどうなるの？
+190	ゲルダ	……！
+192	グレーテル	……っ。
+194	オデット	ぅ……。
+195	３人は喉の奥で悲鳴を押し殺す。
+196	　そんな恐ろしいことを淡々と盤面に問いかけるアリスは、^n「灰色の悪魔」について語るよりもよほど恐ろしかった。
+197	アリスは張りつめた静寂を愛でるように、^nひっそりと目を閉じる。
+198	──プランシェットは動かない。^nけれどアリスは何かの「答え」を得ているのだろうか、^nその瞼や肩が時折、ひくりと震える。
+200	アリス	ああ……なるほど……。
+201	見守る３人が耐えきれなくなる寸前で、^nアリスは閉じていた目を開けた。
+203	アリス	あたしたちは物語を終えた後、それぞれの天国へ行くの。
+205	アリス	　悩みも苦しみもない、それはそれは幸せなところよ。^n　脳天気に頭の働きを止めて、^n「末永く、幸せに」暮らすことだってできるでしょうね。
+206	穏やかに語るアリスの声を聞いて、^n３人はほうっと|安堵[あんど]の息を吐いた。
+207	アリスの口にする言葉で気持ちが落ち着くなんて、^nもしかしたら初めてのことかもしれない──なんて思いながら。
+209	ゲルダ	天国……そうなの。^n悩みも苦しみもないところ……。
+211	オデット	そりゃあ楽しみね。ああ、よかった。^nアリスのインチキな予言でも、^nそう保証されるとホッとするわ。
+213	グレーテル	だから、いつも言ってるじゃない。^n聖書に書いてあることは絶対なんだって。^n灰色の悪魔なんかに予言されるまでもないわ。
+215	アリス	……ただ──
+216	と、言葉を継いだところでアリスの声音が変わった。
+217	まるで彼女に降りた「もの」が、^n一瞬にしておぞましい変質を遂げたように──
+219	アリス	この楽園はいずれ崩壊する。^nおそらくは、少女たちが聖書の示した道を全うする前に。
+221	アリス	終焉は、すぐそこだ──
+222	ええっ……！？
+223	３人の少女はすくみ上がり、顔を見合わせる。
+224	最初に口火を切ったのは、^nなんとか勇気を振り絞ったグレーテルだった。
+226	グレーテル	せ……聖書を全うする前にって……。^nそんなわけないでしょ！
+228	オデット	そ、そうよ。そうだとしたら、その「終焉」についても^n聖書に書いてあるはずでしょう！？
+230	アリス	それは、聖書をもしのぐほどの、強い因果を従えた運命。^nいかな聖書の物語とて、彼らには勝てない。
+232	ゲルダ	彼ら！？　彼らって何？
+234	アリス	それは、双子の悪魔。^n白い悪魔か、黒い悪魔。^nどちらかがこの「楽園」を訪れる。
+236	ゲルダ	し、白い悪魔？　黒い悪魔？
+238	オデット	は、灰色だけじゃなかったの、悪魔さんって。
+240	アリス	白い悪魔は見えない妖精を連れている。^n見えない妖精の声を聞いて闇の少女が目覚め、^n彼女が楽園を長い夢に閉じ込める。
+242	アリス	黒い悪魔に味方はいない。^nけれどとても強い悪魔だから、どうか目覚めさせないように。^n目覚めて自分の正体に気づいたら、もう終わり。
+244	グレーテル	さっきからいったい何を言ってるの、あなたは……。
+246	ゲルダ	ねぇ、まさかアリスの体、本当に灰色の悪魔に乗っ取られたん^nじゃ……。
+248	オデット	そんなバカな！^nねぇアリス。悪ふざけはやめてよ。
+249	プランシェットに置かれた少女たちの指が、カタカタと震える。
+250	彼女の中の「何か」を刺激するかもしれないと思うと、^n手を離して逃げ出すことすら恐ろしかった。
+251	それ以上|反駁[はんばく]する気力をなくした少女たちを見回し、^nアリスは──いや、アリスに憑いた「何か」は──
+253	アリス	地獄の深淵に潜む我が父よ。^nこの哀れなる少女たちに、ひと時の幸福な夢を。
+255	アリス	──ははははははははははははは！
+256	音色の狂った弦楽器をむちゃくちゃにひっかきまわすような、^n耳障りな哄笑を響かせたのだった。
+
+[S1002  少年と白い部屋  /  소년과 하얀 방]
+1	──少年が目覚めてから自分の状況を把握するまで、^nさほど時間はかからなかった。
+2	自分が何者かわからない。^nここがどこなのかわからない。^n何故ここにいるのかも当然思い出せない。
+4	名無しの少年	（……ふぅん。不思議なこともあるものだな）
+5	けれど、そうと認識してしまえば、それだけのことだった。
+7	名無しの少年	（そんなことより……おかしな部屋だなぁ）
+8	少年にとっては、この殺風景で退屈な風景のほうが^nよほど深刻な問題に思われた。
+9	白い壁、白い天井、白い床に白いドア、白い家具。^n少年はその目に痛いほどの景色にため息をついて、^n部屋の中の探検をはじめた。
+10	自らの手がかりを求めて、というよりも、^n部屋じゅうののっぺりとした白が^n何かを隠しているような気がしたからだ。
+11	清潔ぶったきれいなものの裏には、^nたいてい、きれいとはいえない何かが潜んでいる。
+12	記憶はなくても、少年の頭の奥の奥には、^nそういった知恵や物の見方が根強く残っているようだった。
+14	名無しの少年	（……で、見つかったのはこれだけ。^n　なんの意味があるんだろう）
+15	ひきだしの中から出てきた１冊の本を前に、^n少年は首を傾げた。
+17	名無しの少年	（ピーターパン……）
+18	タイトルを胸の中で|反芻[はんすう]しながら、本を検める。^nすると裏表紙に何やら書きこんであるのに気づいた。
+19	油性のマジックだろうか。^n丸みを帯びた黒い線のうねりは「文字」──らしい。
+20	らしいというのは、^nそれが「文字」であることはわかるものの、^n解読ができないからだ。
+22	名無しの少年	（知らない外国の文字──ってわけでもなさそうだな）
+23	黒い文字はタイトルと同じ言語で書かれていると、^n何故かそれだけはわかるのだ。^nだからタイトルが読めた以上、解読できるはずなのに──
+25	名無しの少年	（読めるはずなのに、読めない。^n　まるで僕の目が、この文字をたどる時だけ^n　おかしくなってしまっているみたいに）
+26	奇妙な現象だ。^nけれど、これだけが特別に奇妙なのだろうか、と少年は考えた。
+27	記憶がない。名前がない。^n白いがらんどうの部屋に、ぽつりと寝かされていた。
+28	……そう振り返ってみると、この「読めない文字」も^nたくさんの不思議の中に^n平凡な色合いで沈んでいくような気がする。
+30	名無しの少年	（それにしても──ピーターパン、か）
+31	少年はパラパラと本をめくった。^nきれぎれに見える文字たちは、やはり馴染みのあるもので、^n難なく意味をとることができた。
+33	名無しの少年	（懐かしいな。そうそう、こういう話だった）
+34	空を飛ぶ少年、ネバーランド、妖精、^n海賊に人魚にインディアン──血沸き肉踊る大活劇。
+35	頭の中であらすじをざっとたどると、^nあたたかな親しみが湧きあがるのを感じた。
+36	どうやら少年にとって「ピーターパン」は^n大好きな物語だったらしい。
+38	名無しの少年	（ああ……でも、それだけじゃない）
+39	一方で、親しみとは裏腹の感情も浮かび上がってくる。^n反射的に目を閉じると、霧のように曖昧だったその感覚は^n暗闇の中ではっきりと形を持った。
+40	記憶というにはあやふやだったけれど、^n彼はあるひとつの認識がよみがえるのを感じた。
+41	少年は、「ピーターパン」が好きだった。^nけれど「ピーターパン」という物語のほうが、^n少年を|拒[こば]んだのだ。
+42	縦横無尽に空を飛び、冷酷な大人を手玉に取る^n永遠の少年の痛快な冒険活劇──^nほどよく物騒で、それなりに洒落の利いた、楽しい楽しいお話。
+43	だと思うからこそ夢中になっていたのに、^nある日「ピーターパン」の持つ^nもうひとつのメッセージに気づいてしまった。
+44	正確には、物語の奥に「何か」があることに気づけただけで、^nその正体も、意味も、少年にとっては不可解だった。^n一生かかっても解けない謎だと、彼は直感した。
+45	そしてそれはまるで、^nごちそうのなかに仕込まれた石のように、^nまったくの不意打ちで少年を傷つけたのだった。
+47	名無しの少年	（……まあ、ちょうどいいよ。^n　絵本なんて読む年じゃないし）
+48	少年は鼻紙でも捨てるかのような手つきで、^n白いシーツの上に絵本を放った。
+49	いつか「ピーターパン」の拒絶に気づいた日も、^nもしかしたらこんなふうにそっけなく^n絵本を手放したのかもしれない。
+51	名無しの少年	（さてと。もうこの部屋に用はないかな）
+52	そう判断した少年は、迷いのない足取りでドアへと向かった。
+53	廊下は、白い部屋とはうってかわって賑やかな内装だった。
+54	陽気な落書きだらけの壁に、^nしゃらしゃらと音を立てるモビールの照明。
+55	なんだかバカにされている気がして腹がたつが、^nさっきの部屋みたいに「何もない」よりは^nずっといい──と、少年は思った。
+57	名無しの少年	……どこへ行こうかな。
+58	ぽつりと呟いて歩き出す。^nどこか猫を思わせる気まぐれな足取りで。
+59	そうして、廊下の最初の角に差しかかった時──
+61	アリス	待って、待って、うさぎさん！^n
+62	+アリス	……きゃあ！
+64	名無しの少年	うわっ。
+65	どん！と衝撃が走った。^n事故の見本のような、出会い頭の不幸な衝突だ。
+66	壁にすがって体勢を立て直しながら見やれば、^n相手は派手なドレスを着た少女だった。
+68	名無しの少年	き……きみは？
+70	アリス	あたし？　あたしはアリスよ。
+72	名無しの少年	アリス……。
+73	名前を|反芻[はんすう]する。^n奇妙に馴染み深い名前だったが、^nピーターパンほどの親しみは覚えなかった。
+75	名無しの少年	（ずいぶんごちゃごちゃした格好だな。^n　まるで「不思議の国のアリス」を服にして着ているみたいだ）
+76	　そんな感想を抱く少年に対し、^n「アリス」は大きな瞳を星雲のように輝かせて、^n　ぐいっと身を寄せた。
+78	アリス	　ねぇあなた、ウサギさんを見なかった？^n　仕立てのいいチョッキを着てね、懐中時計を見ながら^n「忙しい忙しい」って一目散に駆けていたの。
+80	名無しの少年	え？　う、うさぎ……え？
+81	　少年は一瞬にして覚った。^n「深く考えないほうがいい」と。
+83	名無しの少年	……残念ながら、見なかったよ。
+84	紳士的な態度で当たり障りない回答を与えると、^nアリスは「そう」と、さしてがっかりした様子もなく^n納得したようだった。
+86	名無しの少年	それよりも僕、知りたいことがたくさんあるんだ。^nよかったら教えてくれない？^nきみはずいぶんと物知りのようだから。
+88	アリス	まぁ！　……そう？　そう思うの？^nあなたがそう思うのなら、あたし、今から物知りだわ。
+90	アリス	ねぇあなた、お茶はいかが？^n長いお話を飲み下すには、お茶とお菓子が欠かせないでしょう。
+92	名無しの少年	うーん……なるべく手短にお願いしたいんだけど、^nせっかくのお誘いだし、受けようかな。
+93	こうして少年は、アリスの部屋に招かれることになった。
+94	数分後、少年はキノコの椅子に腰かけて、^nアリスの差しだしたあたたかなお茶をすすっていた。
+95	どこに目をやっても、|奔放[ほんぽう]な色彩と狂った縮尺が目を|苛[さいな]む。^nそのせいで、上品な香りを漂わせる琥珀色のお茶も、^n毒入りのように刺激的に感じられる。
+97	アリス	ええっ、あなた……自分のお名前がわからないの？
+98	アリスは、たった二言三言で表しつくされてしまった^n少年の身の上に、大きな声を上げた。
+100	名無しの少年	（こんなおかしな部屋に住んでいるっていうのに、^n　どうでもいいことで驚くんだな）
+101	アリスの哀れみといたわりの視線を見返しながら、^n少年はそんな感慨を抱いた。
+103	アリス	どこかに落としてしまったのかしら。^nそれとも誰かが食べてしまったのかしら。
+105	名無しの少年	まあ、落としたものならまた拾えるよ。
+107	名無しの少年	すでに誰かのおなかの中だっていうなら……うん。^nそのときは新しいのを仕入れるから、大丈夫。
+109	アリス	とても頼もしいお考えね。^nええ、きっとだいじょうぶ。^n名前なんて、そのへんにいくらでも転がっているわ。
+111	名無しの少年	……それで、きみは？
+112	少年が聞きたかったのは、この場所に関する知識とか、^n彼女がどうしてここにいるのかとか、そういったことだ。
+114	アリス	あたし？^n……ああ、ご|挨拶[あいさつ]がまだだったわね。^nあたしはアリス。
+115	けれどアリスはドレスの裾を持ち上げて、^nすませたはずの自己紹介からやり直した。
+117	名無しの少年	それはさっき聞いたよ。^nきみの持ってるその本は、「不思議の国のアリス」だよね。^nそのお話が好きだから、そう名乗ってるの？
+119	アリス	いいえ。あたしはこの本の中の世界から来たのよ。
+121	名無しの少年	え？
+122	──アリスが語ったところによると。
+123	彼女は「不思議の国のアリス」の主人公その人であり、^nこの本は運命を指し示す「聖書」なのだとか。
+125	名無しの少年	（おお……これは……）
+126	昨日は兎を追っていて穴に落ちたとか。^n今日は大きくなったり小さくなったりして、^n結局兎を見失う予定だとか。
+127	めまぐるしい口調で語るアリスに^nいい加減な相づちを打ちながら、^n少年は心の中でそっと結論づける。
+129	名無しの少年	（うすうす思ってたけど、^n　頭の中身がご愁傷様ってことなのかな。^n　まあ、それも含めてアリスっぽいけど）
+130	話を半分聞き流しながら、^nキラキラと輝きすぎて焦点がわからない^nアリスの瞳に見入っていると──
+132	アリス	そうだ、あなた……お名前もわからないということは、^n聖書も持っていないということ？^nだって聖書さえあれば、名前なんてなくすはずないもの。
+133	自らの「聖書」を大事そうに抱きしめて、^nそんなことを聞いてきた。
+135	名無しの少年	そうだね。^nなくしたのか、元からないのかはわからないけど。
+137	アリス	あら……それは、お気の毒に。^nさぞ不安なことでしょうね。^nコンパスなしで迷いの森を行くようなものだもの。
+139	名無しの少年	そうかな？　それはそれで面白そうだって思うよ。
+141	アリス	えっ……？
+143	名無しの少年	たとえばその「聖書」とやらには、^n迷いの森で起きることがすべて書いてあるんだよね？
+145	名無しの少年	巡っても巡っても同じ場所に出ます。^n途方に暮れていると、木がお化けになって襲ってきました。^nしかし羽の生えた白馬が通りかかって助けてくれました。
+147	名無しの少年	それって、知らないほうが楽しいんじゃないかな。^n木のお化けだって、どうせ助かると思ってる獲物なんて^n襲いがいがなくてつまらないよ。
+148	アリスはぽかんと口を開けたまま、^nまぶたに仕掛けがある人形のように、^nぱちぱちとまばたきを繰り返した。
+150	名無しの少年	きみだって、たとえば明日、^nきみの体がぐんぐん大きくなって部屋を突き破ることを、^nあらかじめ知らないほうが驚いたかもしれないよね。
+152	アリス	まぁ！　それは……あたし、考えたこともなかったわ。^nそうだわ……あたしもう、知ってしまっているものね。
+154	アリス	あたしにとって、知らないことは不安なこと。^n不安なんて毒でしかないって思っていたけど……。
+156	名無しの少年	毒を飲まなければ毒の味だってわからない。^nもしかしたら世界中のどんなお茶より、^n甘くて美味しいかもしれないよ。
+157	少年はにっこりとほほえみ、冷めたお茶を一気に飲み干した。
+158	かちゃん、と作法も何もない音をたてながら^nカップをソーサーに戻して、立ち上がる。
+160	名無しの少年	お茶、どうもありがとう。ごちそうさま。^n僕、もうそろそろ行くね。
+162	アリス	あらあら、もう？^nこれから楽しくなりそうだったのに……。
+164	アリス	あ、そうだわ。せめてこちらを持って行って。^n甘いものは、いつだって甘やかしてくれるから。
+165	|餞別[せんべつ]のつもりなのか、^nアリスは少年にキャンディを差し出した。
+166	しかし少年は棒の先に実った^nピンクと緑の大きな渦巻き模様を見ると、^n難しい顔をして首を振った。
+168	名無しの少年	ごめんね。甘いの、好きじゃないんだ。
+170	アリス	あら……そうなの……。
+172	名無しの少年	心配ご無用だよ。^n甘やかされなくても僕はだいじょうぶ。^nこのまま、コンパスなしで彷徨ってみるから。
+174	アリス	そ、そう……？　お気をつけて、ね？
+175	どこか気もそぞろに見送るアリスは、^nなぜかしきりにまばたきを繰り返していた。
+176	まるで、長いまつげを打ち合わせるたびに^n瞳にへばりついた膜が溶けていくとでもいうように。
+
+[S1003  墓地のお散歩  /  묘지 산책]
+2	名無しの少年	|お伽話症候群[フェアリーテイル・シンドローム]……。
+3	医者の長い長い説明をなんとか呑みこんで、^n少年はオウム返しに呟いた。
+5	医者	そうだよ。きみの病状はわかったかな？
+7	名無しの少年	……はぁ。まぁ。
+8	つまり、アリスの主張はやはり病名のつく狂気の沙汰で、^n少年自身も同じ病の患者である。
+9	　だから治療のために、^n「楽園」と呼ばれるこの施設に入院した──^n　というのが、医者の主張だった。
+11	名無しの少年	（うさんくさいな。^n　だって僕は、どんな物語の主人公でもないのに……。^n　そんなふうに思ってはいないのに）
+13	医者	──少し前まで、^nきみは自分のことをピーターパンだと主張していたよ。
+15	医者	もし今きみにその認識がないというのなら、^nそれはきっと記憶を失ったことと密接に関係している。
+16	医者は、少年の胸の内を見抜いたように言った。
+18	医者	この病気は、要するに、思いこみの病気だ。
+20	医者	「こうであってほしい私」が溶けた飴みたいに、^n　その子の魂にへばりついて、^n　本来の心というものをすっかり覆ってしまうんだよ。
+22	名無しの少年	はぁ。
+24	医者	　だから、治療というのは結局のところ^n「つらいことをわからせる」ことになってしまう。
+26	医者	──きみは物語の主人公なんかじゃない。^nどこにでもいる平凡な子供なんだよ。^nさあ、絵本を手放して、平凡な大人になろう。
+28	医者	……こう、繰り返し言って聞かせるようなものでね。^nそれはもう、ものすごい反発を食らうものさ。
+30	名無しの少年	はぁ。
+32	医者	いやはや、思いこみの力は強いね。そして罪深い。
+34	医者	だから、きみみたいに重症な患者さんは、^nしばしば厄介な事態に陥るんだ。
+36	医者	心の表面にへばりついた「こうあってほしい私」を^n引きはがされることに耐えきれず、^nなにもかもを手放してしまったりね。
+38	名無しの少年	はぁ。
+40	医者	……つまり。記憶がない、自分が誰だかわからない、^nというきみの状態は、少し前のきみが「ピーター」を^n奪われまいとして、抵抗したせいなんだね。
+42	名無しの少年	…………。
+43	少年はうつむいて口元を覆い、^nあたかも深い感慨を受けたような仕草で^nこっそりと|欠伸[あくび]をした。
+45	名無しの少年	（お気に入りのお面を引き剥がされるのがいやで、^n　顔の肉が千切れるほうを選んだら、^n　元の人相がわからなくなった──ということなのかな）
+46	少し物騒な表現だけれど、^nだいぶわかりやすくまとめられたと^n少年はこっそり悦に入った。
+48	医者	だから、きみがもし記憶を取り戻しても、^nもとの「ピーター」になるだけなんだよ。
+50	医者	……どっちがいいのかねぇ。^n記憶がなくて正気なのと、^nかりそめの人格で生きていくのと──
+52	名無しの少年	（さぁ……）
+53	他人事のようにどうでもよくて、^n気のない返事が漏れそうになるのを、なんとか抑えた。
+55	名無しの少年	（……そんなことより、この人のバッジが気になるな）
+56	少年は、身振り手振りで説明を続ける医者を^nじっと観察した。
+57	彼の白衣の胸につけられている^n真珠色のバッジが、どうにも気にかかるのだ。
+58	　そこに黒く刻印されているのは、^n「ピーターパン」の本の裏表紙に記されたのと同じく、^n「読めるはずなのに読めない」文字だった。
+60	名無しの少年	（なんだろう。やっぱりへんな感覚だな）
+62	名無しの少年	（読めるはずなのに読めない。^n　そのくせ、本来は読めるはずだとわかるなんて）
+64	医者	──ってきみ、さっきから聞いてるの？
+66	名無しの少年	はい、大丈夫です。
+67	にこにこと愛想のいい笑みを浮かべて応えると、^n医者は仕方がないなというふうにため息をついて、^n診察の終了を宣言した。
+69	医者	それじゃあ、おくすりを出すからね。^n捨てたり隠したりしないで、ちゃんと呑むんだよ。
+71	名無しの少年	はい。
+73	名無しの少年	（これが「おくすり」ねぇ）
+74	診察室を出て渡された紙袋の中身を確認し、^n少年はあきれはてた表情になった。
+75	ドーナツにチョコレートバー、キャンディにキャラメル。^nオトナなりの工夫なのかもしれないけれど、^nそれにしたって雑だ、というのが少年の感想だった。
+77	名無しの少年	（他のコドモは知らないけど、^n　僕は甘いもの嫌いなのに……）
+78	少年は再び廊下を歩きはじめる。^n今度は明確な目的意識を持って。
+80	名無しの少年	（これを捨てられる場所を探そう。^n　１日３回、食後に捨てにいける場所を）
+81	──歩きだしてさほど経たないうちに、^n少年はまた新しい登場人物に出会った。
+83	イケノ	きみ、記憶も名前もなくしてしまったんだって？^n……それはさぞかし心細いことだろう。
+84	「イケノ」と名乗った青年は奇妙ないでたちをしていたが、^n　それでも医者のはしくれらしい。
+86	イケノ	きみの聖書だという「ピーターパン」を^n引き出しの中に入れておいたんだけど、気づいたかな？
+88	名無しの少年	……はい。
+90	イケノ	それを見て、なにも思うところはなかったかい？
+92	名無しの少年	特には。
+94	名無しの少年	　……さっき会ったセンセイは、^n　僕が病気の治療に耐えられなかったから、^n「ピーター」ごと記憶を手放してしまったって言ってた。
+96	イケノ	そうか……やれやれ。
+98	イケノ	だから僕は、強引な治療には反対なんだよ。^nお気に入りのお面を顔ごと|剥[は]がしたって、^n元の人相はわからないし、傷つくし、ろくなことがない。
+100	名無しの少年	…………。
+101	イケノがさりげなく少年と同じ|喩[たと]えを持ち出したのを聞いて、^n少年は彼に少しだけ親近感を覚えた。
+103	イケノ	僕はね、お面の下だろうと、^n顔があることに越したことはないと思うよ。
+105	イケノ	ずっとお面をつけつづけていることも、^n別にそんなに悪くはないと思う。^n物語の登場人物だなんて、すてきなお面だよね。
+107	名無しの少年	（いいこというなぁ）
+108	でも医者としては|藪[やぶ]なんだろう。^n治すべき病気にずっとかかっていることを^n肯定してしまっているのだから。
+110	イケノ	まぁ、僕はそういうスタンスだから……よろしくね。^nいうまでもなく、^n医者としても大人としてもだめな見本だよ。
+111	自分の言葉に自分でくすくすと笑いながら、^nイケノは持っていた紙袋から^nふたつの衣装をとりだした。
+113	イケノ	で、どっちがいい？^nピーターっぽいものと、わりとどんな物語にもあいそうなものと、^nふたつ見つくろってみたんだけど。
+115	名無しの少年	こっちで。
+116	少年は即答した。
+117	野性的な色彩の躍るピーターの衣装は^nアリスのドレスのように華やかで毒々しく、^n少年を気後れさせた。
+118	そしてもうひとつのほうは^n少年の琴線に触れるデザインではないものの、^nピーターに比べれば無難に着こなせそうに思えた。
+120	イケノ	こっち？　……はい、どうぞ。
+122	名無しの少年	どうも。
+124	イケノ	……その服ならきっと、^n誰かの王子様になれるかもしれないね。
+125	イケノは人なつっこく目を細めたが、^nやはり少年は生返事を返した。
+126	イケノと別れた少年は、^nさっそく自室で着替えをすませると、^n探索の続きに出かけた。
+127	そして陽が落ちるころ、^n少年はやっと理想的な場所を発見したのだった。
+129	名無しの少年	（……すごい。なんか、お化けが出そうだ）
+130	暗闇に立ち並ぶ墓標の間を、^n少年は目を輝かせながら散策した。
+131	これだけたくさんの墓標があれば、^n埋められる薬にとっても供養になるだろう。
+132	墓標に刻まれた名前を見れば、^nシンデレラにスノーホワイト、アリスといった^n馴染みのあるものばかり。
+133	どれだけ多くの物語が、ここで終幕を迎えたのだろうか──^n見ようによっては底冷えのする光景なのに、^n少年の胸に満ちるのはただ|溌剌[はつらつ]とした好奇心だった。
+135	名無しの少年	（ふぅん。「アリス」は特に多いみたいだな）
+136	「アリス」は女の子の憧れなのだろうか。^n　今日会ったあの毒キノコみたいなアリスも、^n　いずれこの墓標の下に身を横たえることになるんだろうか。
+137	不謹慎な想像をしながら、ぶらぶらと墓標の間を巡る。
+139	名無しの少年	ん？
+140	少年が足を止めたのは、極端に傾いだある墓の前だった。
+141	居並ぶ墓標の中でも、特に古いものなのかもしれない。^nかろうじて読みとれた記名はこれまた「アリス」。^nいったい、不思議の国からきた何人目なのだろうか。
+142	木でできた十字は土のような色合いに黒ずんでいて、^n触れればぼろぼろと崩れてしまいそうだ。
+144	名無しの少年	…………。
+145	で、触れれば崩れてしまいそうだからこそ、^n少年は躊躇なく手を伸ばした。
+146	　トランプタワー、砂の城、乱雑に積まれた皿の山。^n　それらはいつだって声なき声で少年に訴えてくるのだ。^n「私を壊して」と。
+148	名無しの少年	おっと……！
+149	ちょん、とつついただけなのに、^n案の定墓標は死にゆくかかしみたいに横向きに倒れ、^nすんでのところで踏んばった。
+150	ぞくぞく……と少年の指先から腕にかけて、^n心地の良いしびれが走る。
+152	名無しの少年	（どうにも気にくわない施設だけど、^n　最後の最後でいい場所を見つけたなぁ）
+154	名無しの少年	……ん？
+155	少年はそこで、^n足もとの土から突きでている「何か」に気づいた。
+156	汚いのは承知で、少年はそれを拾い上げる。
+158	名無しの少年	ノート？
+159	水が|沁[し]み、泥まみれで、^nすっかり朽ちかけの様相ではあるものの、^nどうやら元は灰色をしたノートらしい。
+160	土を払うと、表紙に描かれた文字が読みとれた。
+162	名無しの少年	──「灰色の悪魔の絵本」……。
+163	口に出して読み上げると、^n無数の墓標の合間に満ちる闇が、^nみっしりと重さを増したような気がした。
+164	少年は、彼に与えられた病室に戻った。
+165	ベッドの縁に腰かけて、^n今日の戦利品である「灰色の悪魔の絵本」を手に取る。
+167	名無しの少年	（あ……また）
+168	ノートの裏表紙を眺めて、少年は目を細める。^nまた例の「読めるはずなのに読めない文字」が^n裏表紙の下方に記されている。
+169	「ピーターパン」の裏表紙、医者のバッジ、このノートの裏表紙。^n「読めるはずなのに読めない」理由はなんだろう？
+170	ぱらぱらとページをめくってみると^nノートの中身は案外腐食をまぬがれていた。
+172	名無しの少年	（で、こっちはちゃんと読める、と）
+173	黒いペンでびっしりと書きこまれた文字は、^n角のこわばったぎこちない筆跡で、^n読みにくくはあるものの、内容を汲みとることはたやすい。
+174	どうやらそれは「アリス」の日記だった。
+175	今日出会った「アリス」ではなく、^n昔この楽園にいた別の「アリス」。^nおそらくはあの墓標の主なのだろう。
+176	　どうやら相当ないたずら好きだったようで、^n「お茶会」の恐ろしさにグレーテルが泣き出しただの、^n　ゲルダのお茶に「毒」を混ぜただの、物騒なことが書いてある。
+177	「オデットの部屋に忍びこんで観察していたら、^n『オデット』が『オディール』に変身するところを^n　目の当たりにすることになった」
+178	「白い衣装から黒い衣装に着替える、という魔法で、^n　オデットはオディールとなり、たったのひとりでけなげにも、^n『白鳥の湖』の儚い物語を成り立たせていたのだ！」
+180	名無しの少年	（いたのだ！って。^n　鼻息荒く書いたんだろうなぁ）
+181	彼女はなかなかにいい性格をしていたようだ。^n彼女の記述の半分は少年をあきれさせ、^nもう半分は少年の性分に適って彼を喜ばせた。
+182	ところが、日記は途中から別のものへと変貌した。
+183	「それは、世界のすべての境界線上を漂う、^n　灰色をした、死と|頽廃[たいはい]の悪魔──」
+184	「灰色の悪魔」という存在についての、^n　観察日記ともレポートとも小説ともつかない^n　細切れな記述の連続にとって変わったのだ。
+185	とたんに退屈になって、少年は無造作にページをめくった。
+186	「この世ならざる存在故に^n　全身のあらゆる器官が大気に干渉することはなく、^n　声も音もたてずに忍びよる」
+187	「オオオオオ……と、地獄に続く穴から吹き抜ける風のような^n　恐ろしい咆哮が私の全身を震わせた」
+188	ざっと読み流しているだけなのに、矛盾した設定が目につく。
+189	何度も輪郭をなぞって姿形を決めていくような^n探り探りの記述が多く見受けられて、^n少年はなんともいたたまれない気分になった。
+191	名無しの少年	（なんかなぁ。こういうのが悪いとは言わないけど、^n　死後、ひとに見られるのだけは勘弁だな）
+193	名無しの少年	（見ているこっちが恥ずかしいんだから、^n　本人はもっともっと恥ずかしいよね）
+195	名無しの少年	ん……？
+196	情熱のこもった、^nしかし|稚拙[ちせつ]としかいいようのない記述が、不意に途切れた。
+198	名無しの少年	（……破られてるな）
+199	開かれたノートの中央、綴じ目の部分をそっとなぞる。
+200	そこには破りとられた何ページかの跡が、^nいびつなフリルのように残されていた。
+202	名無しの少年	（こんなものを書いちゃう人が破りとったページか……。^n　どんなものだったんだろ。^n　他のところより、よっぽど面白そうだけど）
+203	肩をすくめた少年は、机の上にぽいとノートを放った。
+204	ふわぁと|奔放[ほんぽう]に|欠伸[あくび]をして寝転がり、^n白い毛布をたぐり寄せる。
+205	眠りの国の使者は待ちかねたように彼を連れていき、^nこうして奇妙な楽園での１日目は終わった。
+
+[S1004  グレーテルとパン  /  그레텔과 빵]
+1	──なんだかいやな夢を見た気がする。^n火葬場の煙のように、陰鬱な灰色が渦巻く夢──
+2	──少年が目覚めてから自分の状況を把握するまで、^nさほど時間はかからなかった。
+3	けれど、一度目覚めてしまえば^n白い部屋の潔癖な印象が幸いして、^n不愉快な夢を引きずることはなかった。
+5	名無しの少年	……まあ、いいや。夢は夢だ。
+6	朝日を浴びてうんと伸びをすれば、^n夢の|残滓[ざんし]はあっけなく消えてしまう。
+8	名無しの少年	（さて。今日はどこへ行こうかな）
+9	支度を整えた少年は、少し考えてひとりうなずいた。
+10	昨日たどった、うんざりするほど長い廊下。^nあの両側に並んでいたたくさんのドアを、^n今日は片っ端から開けてみよう──と。
+12	名無しの少年	（いいね。探検しても探検しても終わらないかも）
+13	少年はあどけない笑みを浮かべて、部屋をあとにした。
+14	そうして少年が開けたいくつかのドアの向こうには、^nそれぞれ別世界ともいうべき光景が広がっていたけれど、^n大概が無人だった。
+16	名無しの少年	（今の海の底みたいな部屋は、人魚姫かな。^n　さっきの森の中はなんだろう。^n　ロビン・フッド？）
+17	あれこれ想像を巡らせつつ、どんどん部屋を覗いていく。
+19	名無しの少年	ん……？
+20	やがて少年の前に現れたあるドアには、^n珍しいことに名札らしきものが下がっていた。
+22	名無しの少年	（Ｇｒｅｔｅｌ……グレーテルか）
+24	グレーテル	ひゃっ！？　だ、誰！？
+25	何の予告もなくドアを開くと、少女らしい声が響いた。
+26	小さな影がサッと視界を横断して、^n部屋の片隅でぶわりと大きくなった。^nどうやら、落ちていた毛布をかぶったらしい。
+27	|不躾[ぶしつけ]な仕打ちを詫びることもなく、^n少年はずかずかと部屋の中に踏みこんだ。
+29	名無しの少年	狭い部屋だなぁ。^nそれに、洗濯物は外に干したほうがよく乾くよ。
+31	グレーテル	え、え、えぇぇ……？
+32	目をやると、毛布のヤドカリはびくりと身を震わせた。
+34	グレーテル	あ、あの……あのあの……ほんとに……だれ？
+36	名無しの少年	さぁ。
+37	自分でもよくわからないんだ、とつづける前に、^n彼女はもそりと揺れ動きながら問いかけてきた。
+39	グレーテル	もしかして……おにいちゃん？
+41	名無しの少年	え？　……あ。
+42	突然、視界が大きく揺らいだ。
+43	耳鳴りがして、世界が遠くなって、^n稲光のような白いまたたきの合間に、^n一瞬だけ何か景色が見えた。
+45	名無しの少年	（……今のは……？）
+46	意味するところはつかめない。^nけれど、少女の呼びかけに反応して現れた、^n少年自身につながる何かであることは確かだった。
+48	名無しの少年	（僕には妹がいたのか。^n　案外簡単なきっかけで思い出せるものだな）
+50	名無しの少年	確かに……妹はいた……気がするけど……。
+52	グレーテル	……！
+54	名無しの少年	こんなに大きかったかな？^nもっとちっこかったような気がするな……。
+55	少年は、女の子の近くに寄って^n毛布に覆われた頭をぽんぽんと軽く叩いた。
+57	グレーテル	ふぇ……！
+59	名無しの少年	うん。これじゃないな。人違いです。
+61	グレーテル	ひ……ひとちがい？^nヘンゼルおにいちゃんじゃ、ないの……？
+63	名無しの少年	ヘンゼルおにいちゃん……ってことは、^nやっぱりきみはグレーテルなんだね。
+65	グレーテル	う……うん。
+66	彼女がうなずいた拍子に、ばさりと毛布が落ちる。
+67	　グレーテルがしっかりと抱えていたのは^n「ヘンゼルとグレーテル」の絵本だった。
+69	名無しの少年	そっか、ヘンゼル役はいないのか……。^nそのうち会えるといいね。
+71	グレーテル	う、ん……。
+72	グレーテルはしょんぼりとうなだれる。^nけれど少年は気にした様子もなく、^n部屋の探検に戻ってしまった。
+74	名無しの少年	そうかそうか、それでこんな部屋なんだ。^n貧乏で捨てられそうになってる木こりの子だもんなぁ。
+76	グレーテル	う……うぅぅ……。
+78	名無しの少年	あ、この扉が裏庭に続いてるのかな？^nここから夜に小石を拾うんだよね……って。
+79	裏口とおぼしいもうひとつのドアを開けようとしたが、^n押しても引いてもかすかな音を響かせるだけだった。^nどうやら鍵がかかっているようだ。
+81	名無しの少年	鍵がかかってる……ってことは。
+83	名無しの少年	物語の上では、小石はもう使ってしまって、２日目なのか。^n確か、かわりにパンを千切って道しるべにするんだっけ。
+84	そう独り言を言いながら振り向くと、^nグレーテルは少年のすぐ後ろに立っていた。
+86	グレーテル	う、うん……。^n今日中にパン、手に入れないと……わたし……。
+88	名無しの少年	えっ、手に入れてないの？^n……まあ、どっちにしても小鳥に食べられちゃうんだけど。
+90	グレーテル	…………。
+91	どうあっても遭難をまぬがれない運命を嘆いてか、^nグレーテルは大きな瞳を潤ませる。
+92	その哀れすぎる姿に心が痛んで、^n少年はひとつの知恵を授けてやることにした。
+94	名無しの少年	あれ、僕はずっと昔から思ってたんだよね。^nパンに毒を入れておけばいいのにって。
+96	グレーテル	毒！？
+98	名無しの少年	うん。そうすれば、パンを食べた小鳥が死んで道に落ちて、^nうまい具合に道しるべになるんじゃないかって。
+100	グレーテル	そ、そんな……鳥さんがかわいそうだよ……！
+102	名無しの少年	自分がかわいそうな時に、^n他の人がかわいそうかどうかなんて、^n僕はどうでもいいよ。
+104	グレーテル	…………。
+105	画期的なアイデアを与えたのにも関わらず、^nグレーテルの反応は|芳[かんば]しくない。
+106	まるで自分が毒を食わされかけているといったふうに^n|怯[おび]えた表情になって、２歩３歩と後ずさりした。
+108	名無しの少年	……まあ、そんな目で見ないでよ。^n僕はヘンゼルじゃないから、そんなことはしないよ。
+110	グレーテル	…………。
+111	にっこりと笑いかけたのに、^nグレーテルは無言のまま、カタカタと震えだしてしまった。
+113	名無しの少年	（うーん、年頃の女の子って難しいなぁ）
+114	少年はぼりぼりと頭をかいて、ため息混じりに提案した。
+116	名無しの少年	わかった、わかったって。^nじゃあ、僕、パンをもってきてあげるよ。
+118	名無しの少年	さっきちょうどキッチンを通りかかったとき、^n美味しそうな匂いがしていたんだ。
+120	グレーテル	……！　ほ、ほんと？
+122	名無しの少年	ちょっといってくるね。
+123	グレーテルの顔が目に見えて明るくなったのを確認すると、^n少年は軽快な足取りで部屋を去った。
+124	パンはちょうど焼きあがったばかりのようで、^n胸の奥まであたたかくなるような^n香ばしい匂いを放っていた。
+125	職員が目を離した隙に、^n少年はトレイの上のパンをひとつ掴んで、^n風のようなすばしこさで身を|翻[ひるがえ]す。
+127	グレーテル	わぁ……ほんとに、もってきてくれたんだ……！^nあ、ありがとう……！
+129	名無しの少年	お礼なら、焼いてくれた人に言ったほうがいいと思うよ。
+130	さっきまでの警戒心はどこへやら、^n素直な感謝を口にするグレーテルに、^n少年はにっこりと微笑みかけた。
+132	名無しの少年	（どうせ小鳥の餌になるって筋書きなのに、喜んでるなぁ。^n　この子たちにとって、「聖書」に従うことは^n　何よりも大事なんだろう）
+134	名無しの少年	（……あれ？）
+135	パンを受け取ろうと、グレーテルが近づいてくる。^nその表情を見て、少年は首を傾げた。
+136	瞳は潤み、頬は赤らみ、口元は少し緩んでいて、^nそれは物語に必要な小道具を手に入れたというよりも、^n空腹が満たされることへの喜びを表しているように見えたのだ。
+138	名無しの少年	（こんなに美味しい匂いがするんだし、^n　無理はない……のかな）
+139	一度意識してしまえば、グレーテルに差しだしたパンの、^nとろりと溶けて少し焦げついたチーズの匂いは、^nたまらなく食欲を|煽[あお]った。
+140	お昼の少し前、さんざん歩きまわったあと。^nおなかがすいているのは、少年だって同じだ。
+141	선택문	キッチンから持ってきたパンを……
+142	보기1	グレーテルにあげる
+143	보기2	自分で食べる
+[선택1]
+145	名無しの少年	（……いやいや。何のためにとってきたって話だよ）
+146	少年はグレーテルが^n心身ともにちゃんとした「グレーテル」であると^n信じることにした。
+147	そして、彼女の小さな手にパンを託したのだが──
+149	名無しの少年	……ええええ！？
+151	グレーテル	はむ……はむはむはむはむはむはむ。
+152	当然のようにパンにかぶりついたグレーテルを見て、^n少年は何度もまばたきを繰り返した。
+154	名無しの少年	え……それでいいの？
+156	グレーテル	もぐもぐもぐもぐもぐもぐもぐもぐもぐもぐ。
+158	名無しの少年	そんなの、きみの聖書には書いてなかったでしょ？^n僕、そんな「ヘンゼルとグレーテル」、^n全く見た憶えないんだけど……。
+160	グレーテル	んぐんぐんぐんぐんぐ……ごくん！^n
+161	+グレーテル	──……はっ。
+163	名無しの少年	…………言わんこっちゃない。
+165	グレーテル	ど、どうしよう、お兄ちゃん。パンが消えた……！
+167	名無しの少年	消えたんじゃなくて……まあ、いいや。
+168	少年は深々と息を吐いて、立ち上がった。^nいい食べっぷりを見たせいで、^nよけいにおなかがすいてしまった気がしたのだ。
+169	きっと今部屋に戻れば、^nほどなく昼食が届けられるはずで、^nそれには焼きたてのパンも添えられているはずだ。
+171	名無しの少年	ごめんね、僕忙しいんだ。もう行かないと。^nだから、おかわりはなし。
+173	グレーテル	う……うぅ……そっかぁ。^n……あの……パン、ありがとね。
+175	名無しの少年	どういたしまして。^n食べてすぐに横にならないようにね。
+176	少年はグレーテルの部屋を後にした。
+177	少し怖いけれど親切な少年が去ったあと、^nグレーテルはため息と共に肩を落とした。
+179	グレーテル	はぁ……やっちゃった……。^n明日、森の中に連れて行かれた後、どうしよう……。
+181	グレーテル	……？　は、はい！
+183	看護師	回診よー、グレーテルちゃん。
+[선택2]
+185	名無しの少年	もぐっ。
+186	グレーテルの手が届くか届かないかのところで、^nパンを引っこめる、のみならずかぶりつく。
+188	グレーテル	ふぁ！？
+189	突然真逆の方向に行動を切り替えた少年に、^nグレーテルはすっとんきょうな声をあげた。
+191	名無しの少年	もぐもぐもぐもぐ……うん、美味しい。^nやっぱり焼きたては違うなぁ。
+193	グレーテル	え……えええ……パン、とってきてくれたのに……。
+194	グレーテルは、空をつかんだ自分の手と^n頬いっぱいにパンを頬張って|咀嚼[そしゃく]する少年の顔とを、^n交互に見つめて泣きそうな顔をした。
+196	名無しの少年	ごめん、おなか減っててつい。^n僕がわざわざとってきたんだから、^n僕が好きにしてもいいんじゃないかなって思って。
+198	グレーテル	うぅ、それはそう、だけど。^nパン……いいにおい……こんがりチーズ……。
+199	悲しげに呟いた言葉からして、^n結局グレーテルにパンを渡しても、^n夜の道しるべに使われることはなかったのだろう。
+200	ぐううううとおなかの虫も^n少年の行動を|咎[とが]めるように鳴いた。
+202	名無しの少年	あれ、もしかしてきみもおなかすいてたの？
+204	グレーテル	う……ううううう～。^nだってここのご飯おいしいし、パン、いいにおいするし……。
+206	名無しの少年	（しょうがないな……）
+207	パンをすっかり食べ終えてしまうと、^n満たされた喜びとともに罪悪感が訪れた。
+208	きゅるきゅるとグレーテルの腹の虫もやむ気配がないので、^n少年は彼女をキッチンに連れて行くことにした。
+210	グレーテル	わぁ、パンがいっぱい！
+212	名無しの少年	ほら、好きなだけ食べな。
+214	グレーテル	う、うん……。
+215	「ヘンゼルとグレーテル」の世界観としては^n　完全に破綻した状況だ。
+216	けれどそこかしこからたちのぼる湯気と^n匂いの誘惑には勝てず、^nグレーテルはもぐもぐとパンをほおばりだした。
+218	グレーテル	はむはむはむはむはむはむ……うー、美味しい！^nもぐもぐもぐもぐ……。
+219	その間、少年はぶらぶらとキッチンの中を見てまわった。
+221	名無しの少年	かなり本格的に道具揃ってるね。^n食事、豪華だったもんなぁ。
+223	名無しの少年	へぇ、かまどまであるんだ。^n……って、あれ？　なんだこの瓶。
+224	かすかに熱の残るかまどに近づいた少年は、^nその|傍[かたわ]らに転がっている|瓶[びん]に目を留めた。
+225	きれいなキッチンに似合わない、|煤[すす]けた小汚い|瓶[びん]。^nその中に、何やら灰みがかった紙片が^n押しこまれていた。
+226	少年はなんとなく興味を惹かれて、^n|瓶[びん]の中の紙を引っ張り出してみる。
+227	それは癖のある字でしたためられたメモだった。^n筆跡といい、破られたあとといい、大いに覚えのあるものだ。
+229	名無しの少年	（これ、「灰色の悪魔の絵本」から^n　千切りとられたページの１枚なのかな……？）
+230	　^m^n^cr紙片１を手に入れた。
+231	がつがつと片っ端からパンをたいらげるグレーテルの横で、^n少年はじっとメモに見入る。
+232	「グレーテルの部屋から戻ってきた看護師の^n　持っていた紙を奪い取った。^n　××××という文字が目に入った」
+233	「次の日の朝、キッチンでグレーテルの亡骸が発見された」
+234	ひとつながりの記述なのに、^nなぜか一部分に「読めるはずなのに読めない文字」がある。
+235	あまりに不可解なメモの裏表を眺めながら、^n少年はいぶかしい顔で呟いた。
+237	名無しの少年	なんだこれ……グレーテルの、亡骸？
+239	グレーテル	もごぉっ！？　ごほ、けほ、けほ……。^nえ……なぁに？　わたしの、なきがら？
+240	物騒な言葉に咳きこんだグレーテルは、^nパンのかけらを頬につけたまま横から覗きこみ、^nあまりの内容に血相を変えた。
+242	グレーテル	え、な、な、何、これ……。^nな、なきがらって……わ、わたし……し、死んで……？
+244	名無しの少年	落ち着きなよ。きみは生きてるだろ。
+246	グレーテル	こ、これから殺される……？
+248	名無しの少年	まあ……その可能性はゼロじゃないかな。^n人生、何が起こるかわからないし……。
+250	名無しの少年	あれ？
+251	ちょっと目を離した隙に、グレーテルはいなくなっていた。
+252	食べかけのパンはちゃっかり持って行ったのだろう。^n彼女の走り去った跡に、転々とパンくずが落ちている。
+254	グレーテル	ぴゃあああああああ～～！！
+255	せりあがる恐怖に耐えかねたような悲鳴も聞こえたが、^nその後パンを喉につまらせたらしく^n|噎[む]せる音も響いてきて、少年は肩をすくめた。
+257	名無しの少年	（|怯[おび]えきってるなぁ……でも、無理もないよね。^n　こんなきな臭いこと、いきなり言われたら）
+259	名無しの少年	（まあ、逃げながらパンを食べる勇気があるなら、^n　大丈夫か）
+260	少年は一度部屋に戻ることにした。
+261	　机の引き出しにしまっておいた^n「灰色の悪魔の絵本」をとりだし、^n　手に入れた紙片をあてがってみる。
+262	すると、ノートの破れ残っていた部分と紙片のふちが、^nぴたりと合うことがわかった。
+264	名無しの少年	やっぱりそうか。
+266	名無しの少年	（……もしかして、他の破られたページも、^n　この楽園のどこかに残されてるのかな）
+267	一方そのころ──
+268	恐怖に|怯[おび]えながら自分の部屋に逃げ帰ったグレーテルは、^n毛布にくるまってガタガタと震えていた。
+270	看護師	グレーテルちゃん？　グレーテルちゃん、いないの？^n回診のお時間よ。
+271	とそこにノックの音と声が響いて、^nグレーテルはぎくりと身をこわばらせる。
+272	息を殺して不在を装うとしたが、^n看護師はドアを開けて覗きこんできた。
+274	看護師	……なんだ、いるじゃないの。^nどうしたの、毛布にくるまっちゃって。
+275	いつもの看護師だ。別段おかしなところはない。
+276	グレーテルの瞳は、^nその「いつもの」いでたちを確認したが故に、^nますます大きく見開かれた。
+278	グレーテル	（あ……何か書類みたいなの、持ってる！^n　あれ、あの紙に書いてあったのと同じやつ？）
+280	グレーテル	（もしあれが予言だとしたら、^n　書類を奪っちゃえば……変えられるのかな？）
+282	グレーテル	っ、よしっ。^n
+283	+グレーテル	──えいっ！
+284	グレーテルはそんな考えのもとに^nなけなしの勇気を振り絞って毛布をはねのけた。
+286	看護師	え、な、なに？　グレーテルちゃん？
+288	看護師	あ、あら……？　あらあら、だめよ。^nその書類はね、グレーテルちゃんにとっても大事な……。
+290	グレーテル	うぅぅぅぅー！
+291	看護師はやんわりと制止しようとしたが、^nグレーテルの必死な動作には敵わない。
+292	グレーテルは書類を奪い取ると、^n破って重ねてまた破って、^nあっという間に紙吹雪に変えてしまった。
+294	看護師	ぐ……グレーテルちゃん！？^nえ、え、え……どうしたの、何があったの？
+296	グレーテル	ご、ごめん、なさい！^nそ、それから……おやすみなさい！
+297	おろおろと立ちつくす看護師を廊下に押しやって、^n無理矢理扉を閉める。
+298	そしてグレーテルはありったけの重い家具を動かして、^n扉の前をすっかり塞いでしまった。
+300	看護師	グレーテルちゃん？^nあらっ、何やったの。ドアが開かないわよ！？^nまったくもう、回診のお時間なのに……。
+302	グレーテル	だ、だめ！　今日はだめなの！^n明日にしてくださーい！
+303	扉の向こうにそう呼びかけて、^nグレーテルは再び毛布にくるまった。
+304	そしてその日は看護師がいくらノックしても、^n涙ながらにグレーテルの健康について訴えても、^n頑として扉は開けなかったのだった。
+
+[S1005  オデットとジークフリート  /  오데트와 지크프리트]
+1	夜になると、少年は再び散策をはじめた。
+2	昼間、外に出て庭園を見つけたときに、^n夜になったら必ず来ようと決めていたのだ。
+3	月明かりに照らされた湖面に行き当たると、^n少年はそのふちをたどって、^nどんどん奥へと進んでいった。
+5	名無しの少年	（ん、誰かいる……？）
+7	オデット	……誰……？
+8	少年の気配に気づいて振り向いたのは、^n白い衣装を身にまとう美しい少女だった。
+10	名無しの少年	（きれいな子だな……。^n　でも彼女も童話の中の「誰かしら」なんだろう）
+11	いったい「誰」なんだろう。^nいかにも「お姫様」といった外見だけれど、^nシンデレラ？　白雪姫？
+12	いや、あれこれ思い悩むより、^n聞いてしまったほうが早いだろう。
+14	名無しの少年	きみは誰？　ここで何をしているの？
+16	オデット	……わたしはオデット。
+18	オデット	ここで、何をしていたか……うーん、何かしら。^nなんとなく……お月様を見ながら水浴びしていたの。
+20	名無しの少年	（オデット？　白鳥の湖、かな……？）
+21	あまり詳しくはない。^nけれど、そんな名前の登場人物がいた気がする。
+23	オデット	あなたは？^nもしかして……ジークフリート様ですか？
+25	名無しの少年	え……。
+26	どこかすがるような趣をたたえたオデットの瞳。^n彼女が望んでいるのはただ、^n少年がうなずくことなのだろう。
+27	グレーテルがヘンゼルを待っているのと同じく、^n彼女もまた自らの物語を動かす王子を^n待って待って待ちわびているはずだから。
+29	名無しの少年	（ここでうなずいたら、^n　彼女は僕を「ジークフリート」だと^n　思いこんで、恋に落ちてしまうのか）
+31	名無しの少年	（ずいぶんと危ないな……）
+32	そして少年は──
+33	선택문	オデットの呼びかけに応えて──
+34	보기1	そうです
+35	보기2	違います……。
+[선택1]
+37	名無しの少年	うん、そうだよ。
+38	美しい少女が、ひとつうなずいただけで^n自分に恋をしてしまうという状況への^n興味と興奮が、少年に無責任な首肯をさせた。
+40	オデット	……！　ああ……ほんとうですか！？^nよかった……やっとお会いできました、ジークフリート様！
+41	オデットは感極まった様子で、白い腕を差し伸べる。^n金色の瞳が雨の日の満月みたいに美しく潤んで、^n本当に、なんて危うい生物なのだろう。
+43	名無しの少年	（とはいえ、どうしよう……演じきる自信なんてないし）
+45	オデット	聖書はあなたとの出会いを語ってくれたけど、^nわたし、どこかで信じきれていなくて……。^nいま思えば、ほんとうに失礼だったと思うの。
+47	オデット	そんなわたしだから、あなたがわたしを見つけてくれる日を、^nこんなにも長く待つことになったのかしら。^nでもこうして、やっとあなたに会えた……！
+48	瞳を潤ませながらすがろうとしてくるオデット。^nしかしその瞬間、少年の背にゾクリと^n名状しがたい寒気が走った。
+50	名無しの少年	……っ！？
+51	──なんだろう、これは。^n誰かが自分たちを見ている？
+52	決して幸せにしてなるものか、という、^n毒を含んだ視線で、射殺すように……！
+54	名無しの少年	（うん、引き際が肝心だ。^n　気の毒だけど、長引かせるとろくなことがない）
+56	名無しの少年	あ……あの、ごめん。オデット。^nさっきのは嘘で……僕は、王子様なんかじゃないんだ。
+58	オデット	えっ……？
+60	名無しの少年	実は僕、自分の名前も思い出せなくて。^nここで目が覚める前、何をしていたかもよくわからなくって。
+62	名無しの少年	不安のあまり、呼びかけられた名前に^n返事をしたくなってしまったんだよ。^nごめんね……期待させてしまって。
+63	素直な反省を伝えるために、しゅんとしょげてみせる。
+64	するとオデットはショックを受けながらも、^n複雑な思いの行き場を失って、^nただただ当惑しているようだった。
+66	オデット	そんな……あぁ……そうなの……。^nでも……ええ、わかるわ。そんな気がしていたの。
+67	泣きそうな顔で目を伏せて、少しの沈黙。^nやがて顔をあげると、彼女は痛ましげにほほえんだ。
+69	オデット	……名前も思い出もないなんて、さぞかし不安でしょうね。
+71	名無しの少年	うん……だからといって、^nやっていいことといけないことがあったね。^nごめんよ。
+73	オデット	いいえ、だいじょうぶよ。^n聖書さえ見つかればきっと何もかもがわかるわ。^nだって、すべて書いてあるはずですもの。
+75	名無しの少年	そっか。……そうだよね。
+76	いつの間にか、少年をひるませた殺気は失せていた。
+77	それでもオデットに関わることはためらわれて、^n少年は|挨拶[あいさつ]もそこそこにその場をあとにした。
+79	オディール	ちょっと、あんた。
+80	部屋に戻る途中、声をかけられて振り向くと、^nそこにはさっき別れたはずの人物が立っていた。
+82	名無しの少年	なに。……オデット？　じゃないか。
+83	思わず呼びかけてから、すぐに人違いに気づく。
+85	オディール	見ればわかるでしょう。^nあたしをあんなのろまといっしょにしないで。
+86	──ほんの一瞬、頭の芯が疼いて、^nまたなにかの景色が見えそうになった。
+87	けれどそれははっきりとした形をとることなく、^nまぼろしのように消えてしまう。
+89	名無しの少年	……うん、似てるように見えるけど、まるきり違うね。
+90	似ているのは顔かたちだけで、中身はまるきり違う──^nそういう人間が世の中に何組かいるということを、^nどうやら少年はよく知っているようだった。
+92	オディール	よかった。^nあんたは比較的、まともな目の持ち主のようね。
+94	オディール	それに、立派な判断力もお持ちのよう。^nあの女の王子役から手を引いたのは正解よ。
+96	名無しの少年	うん……荷が重かったし。悪いことしたよ。^nそれに僕、じーくなんちゃら、とかいう名前じゃ^nなかったような気がする。
+98	オディール	……本当の名前なんて何の意味もないけどね、ここでは。
+100	名無しの少年	そうだろうね。^nで、用件はそれだけ？　僕を誉めにきた？
+102	オディール	ええ、そうよ。誉めにきたの。^nあの女の見え見えの手管に引っかかる愚か者は^n後を立たないのに、あんたはよく見破ったわ。
+104	オディール	おかげさまで、あたしの手間が省けたわ。^nどうもありがとう！
+105	華やかな笑顔で礼を述べられて、^n少年はなんだか決まりの悪い気分になった。
+107	名無しの少年	……どういたしまして。
+109	名無しの少年	（ああ、そうか。あのときの視線は、このひとか）
+111	名無しの少年	釘を刺しにこなくても、もう僕は関わらないよ。^nきみにも、あの子にも。
+113	オディール	あら、そう。^n……話が早くて、本当に助かるわ。
+115	名無しの少年	いちいち誉めてくれてありがとう。^nそれじゃあ、おやすみなさい。
+117	オディール	ふふ。おやすみなさい。
+[선택2]
+119	名無しの少年	そんな面白い名前じゃなかったと思うな……。^nよく思い出せないけど、それだけは確かだよ。
+121	オデット	ああ……そうなの。^nごめんなさい、人違いだったみたいで……。
+123	オデット	……あら？^nよく思い出せないけど、って、あなたおっしゃった？^n自分の名前、思い出せないの？
+125	名無しの少年	うん。名前もだけど、今までのこと全部思い出せない。
+127	オデット	ええっ……それは、大変ね。^n見たところ、聖書も持っていないようだし……。
+129	名無しの少年	聖書か……聖書ね。
+131	オデット	ええ。^n聖書さえあれば、あなたのお名前も過去も、^n未来さえも、何もかもわかるのに……。
+133	オデット	……きゃあっ！？
+134	と、気の毒そうに言いながら近づいてきたオデットは、^n湖の|畔[ほとり]で足を滑らせて転んでしまった。
+136	名無しの少年	だいじょうぶ？
+138	オデット	ええ、ごめんなさい。ちょっとつまずいただけで……。
+139	オデットは起き上がりかけて、^n不思議そうに自らの手元を見た。
+140	どうやら地面に手をついた拍子に、^n転がっていた「何か」に触れたようだった。
+142	オデット	……？　何かしら、これ。^n|瓶[びん]だけど……中に紙が入っているの。
+144	名無しの少年	……！　見せて！
+145	グレーテルとともに発見した紙片を思い出し、^n少年はひったくるようにして内容を確認する。
+147	名無しの少年	……なんだろう？
+148	紙の質に見覚えがある気がした。^nオデットの横合いから覗きこんでみる。
+149	「廊下にオデットの写真が落ちていた。^n　裏には『６月６日、×××××』と記されていた」
+150	「次の日の朝、湖で溺れているオデットが発見された。^n　当然、その日を境にオディールも消えた」
+152	オデット	えっ……な、何、これ。^nわたしが……湖で溺れる？　オディールも消えた？
+153	驚きが次第に怯えへと変わっていく、^nそんなオデットの声を聞きながら、^n少年は考えこんだ。
+155	名無しの少年	（この、日付の後の文字は何だろう。^n　相変わらず、読めるはずなのに読めない……）
+157	名無しの少年	（グレーテルの紙片の時もそうだった。^n　この読めそうで読めない文字はなんだろう？）
+159	オデット	い、いや……どうして、こんなこと……。^nまるで予言みたいに……──予言！？
+161	名無しの少年	落ち着いて。誰かのいたずらかもしれないよ。^nこのオディールっていう人に心当たりは？
+163	オデット	あ、あるわ。^nああ、そうね、オディールに相談しなければ……！
+164	オデットは少年の手からメモを取り、^n身を|翻[ひるが]して駆けだした。
+165	身のこなしからして身体能力は高くなさそうだし、^nドレスがまとわりついて動きを邪魔するせいで、^nその足取りはもどかしいくらいに遅い。
+166	それでも彼女が精一杯の力を振り絞って^n走っていることは、なんとなく伝わってきた。
+167	　やがてオデットに先導されてたどりついたのは、^n「Ｏｄｅｔｔｅ」「Ｏｄｉｌｅ」のふたつの名前が輝く^n　重々しいドアの前だった。
+169	オデット	お、オディール！　オディール！^nた、大変なの……！　湖で、|瓶[びん]の中に、予言が！
+170	広い部屋にオデットの声が響きわたると、^nねじくれて立ち並ぶ木々の間から静かな声が聞こえた。
+172	オディール	騒々しいわね。^nなによいきなり、わけのわからないことばかり並べたてて。^n少しは落ち着きなさいよ。
+173	姿を現したのは、顔立ちだけはオデットとそっくりの、^nしかし浮かぶ表情はまるで異なる黒衣の少女だった。^nどうやら彼女が「オディール」らしい。
+175	名無しの少年	（どうやらこのふたりは^n　同一人物が着替えて成り立ってるって^n　わけじゃなさそうだな）
+176	「灰色の悪魔の絵本」の日記を思い出しながら、^n　少年はそんなことを思う。
+177	オディールはオデットの示した紙片に目を通し、
+179	オディール	……へぇ。
+180	興味深そうに目を細めた。
+181	一瞬にして取り乱したオデットに比べて^n余裕を感じさせる優雅な反応だ。
+183	オデット	ど、ど、どうしましょう。^nもしかしてこれも聖書なのかしら。
+185	オデット	だとしたらわたし、溺れ死んでしまう。^nしかも、オディールも消えてしまうのよ！？^nああ、どうしましょう……！
+187	オディール	落ち着きなさいって言ってるのよ。^nあんたが気に病んだって仕方ないわ。馬鹿なんだもの。
+189	オデット	う、うぅ、それは……そうだけど……。
+190	落ち着かない様子のオデットに^nオディールは深々と息をついて、窓の外を指さした。
+192	オディール	ほら、夜明けの匂いがしてきたわ。^nおねむの時間なんじゃないの？
+194	オデット	あ……ほんとうだわ。空が白んで……。^nわたし……また……白鳥に……。
+195	魔法にかけられたように、オデットの体から力が抜ける。
+196	やがて溶けた飴細工のように身を折り、^nどさりと倒れこんだ。^nそのまま無邪気な寝息をたてはじめる。
+197	ちょうどオディールが木の根の瘤に腰かけた時、^n彼女にもたれるようにして倒れたので、^nオディールの太股はいい枕になったようだった。
+199	オディール	……で、あんたは誰よ。^nどさくさにまぎれて、なに部屋に入ってきてんの？
+200	オディールは乱れたオデットのドレスを^n無造作な手つきで整えると、^nそこでようやく佇む少年に目を向けた。
+202	名無しの少年	えっと……僕は。
+204	名無しの少年	僕は……その紙片が気にかかって。^nよければそれを渡してほしいんだ。
+206	オディール	ふーん？　もう少し詳しく話してもらえるかしら。
+207	挑発的に微笑むオディールに、少年は話した。
+208	昼間、グレーテルとキッチンにいるときに見つけた^n１枚目のメモのこと。
+209	墓場の散歩で見つけたノートに、破れ目がぴったりあったこと。
+210	そこでオディールに乞われたので、^n少年は「灰色の悪魔の絵本」を自室からとってきて^n彼女に見せた。
+212	オディール	「灰色の悪魔の絵本」……。^n　でもこれは基本的にはただの日記ね。
+214	名無しの少年	最初はね。^nでも進むにつれて、様子が変わっていったんだ。
+216	オディール	日記を書いているうちに、まるでそれが^nもうひとつの自分の聖書みたいになっていった……。^n──ふん、大いに覚えがあることね。
+218	名無しの少年	覚え？
+220	オディール	なんでもないわ。個人的なこと。^nそれで……ああ、確かに破られてるわね、このあたり。
+222	オディール	これを書いた誰かさんは、いくつかのページを破って、^n楽園のあっちこっちに隠してたってわけか。^nどういうつもりかはわからないけど……。
+224	名無しの少年	|瓶[びん]づめってところからすると、^nただ始末したかったというよりも、^n見つけてほしかったっていうほうが大きいのかも。
+226	オディール	どうかしらね。人は複雑だから。
+227	オディールは何もかも見越したように^n赤い唇を吊りあげる。
+228	そしてその後、オデットの見つけた紙片と共通して、^n読めそうで読めない文字のことに話が及ぶと、^nオディールはさらに興味を示した。
+230	オディール	へぇ……あんた、これが読めないってわけ？
+232	名無しの少年	読めないよ。きみは読めるの？
+234	オディール	……あたしには読めるわ。はっきりと。^nおそらく、これを読める患者はあたしだけでしょうね。
+236	名無しの少年	それはどうして？　それに、なんて書いてあるの？
+238	オディール	教えない。^nあんたが「何」なのか、まだよくわからないから。^nなんでもかんでも知ればいいってもんじゃないのよ。
+240	名無しの少年	時期がきたらわかる、もしくは教えてくれるのかな。
+242	オディール	そんなとこね。
+243	少年はあっさりと追及をあきらめた。
+244	いつ誰に知っていることを漏らすべきか、^nオディールにはすっきりと見えているのだろう。^nだとしたら、今は何を言っても無駄だ。
+245	少年はそのかわりに、興味深げな視線を送った。^nオディールの膝にすかりつくようにして眠るオデットと、^n振り払うこともせず枕の役を果たしているオディールに。
+247	名無しの少年	それにしても……。
+249	オディール	何よ。
+251	名無しの少年	……きみたち、ずいぶん仲がいいんだね。
+253	オディール	は？　冗談じゃない。
+254	とたんにオディールのまなざしが尖り、^n少年はわずかに溜飲を下げる。
+256	オディール	あんた、「白鳥の湖」を知らないの？^nあたしは悪役で、このお姫様から王子様を奪う「敵」なのよ。
+258	名無しの少年	それにしちゃ懐かれてるね。
+260	オディール	こいつの危機管理がなってないだけ。^n生まれてこの方猟師を見たことがない白鳥よ。^nそのうちあんたの食卓にあがるかもね。
+261	オディールのなめらかな毒舌を聞くのは楽しい。
+262	けれどこれくらいにしておかないと、^nそろそろ視線だけで殺されそうだ──と^n少年はすまなそうな表情を作った。
+264	名無しの少年	……僕、何かいけないことを聞いたんだね。
+266	オディール	別に。^nただ、もう少し実のある質問をしてもらえるとありがたいかしら。^nあたしだって暇じゃないんだし。
+268	名無しの少年	じゃあ……うん、だいじょうぶそうな質問。^nその紙片の内容に心当たりはある？
+269	知識を|隠匿[いんとく]された返礼はした、と片づけて、^n少年は話題を紙片へと戻した。
+271	オディール	心当たりね……。^nあったとしたら、あたしたちは今ここにいないわけだけど。
+273	名無しの少年	この、写真っていうのは？^nきみのその「聖書」からはみでているのは、写真じゃない？
+275	オディール	……ずいぶんと目ざといのね。
+277	オディール	ええ。この写真に関してだけは、^nさすがのあたしも奇妙な偶然を感じていた──^nと言っておくわ。
+278	写真はオデットの写真なのだろうか。^nだとしたら、どうして、誰によって、^n彼女たちの未来が予言されているのだろう？
+279	しかし少年はその疑問を口にしなかった。^nもっと気になることがあったからだ。
+281	名無しの少年	そこに書かれている「オデット」と「オディール」は^nきみたちのこと？^nそれとも別の「オデット」と「オディール」？
+282	少年にしてみれば、実になにげない問いかけだった。
+283	しかしオディールとっては^n今までのやりとりのどこよりも衝撃的だったようで、^nぎょっと瞳を見開いた。
+285	オディール	……！　あんた、それ、どういう意味で口にしてる？
+287	名無しの少年	だって、そうと思いこめば、^n誰でも「オデット」や「オディール」になれるんでしょ？^nこの「楽園」なら。
+289	オディール	…………。^nあんたは……あんたみたいな人間が、^nどうしてここにいるの？
+291	名無しの少年	わからない。僕ね、名前も過去も思い出せないんだ。^n第一、「|お伽話症候群[フェアリーテイル・シンドローム]」だったのかどうかも危ういところ。
+293	オディール	……そう。
+294	言葉少なに答えたきり、オディールは黙ってしまった。
+295	その手から紙片をそっと取り上げる。^nオディールは特に抵抗しなかった。
+296	ただ、少年が去りかけたのに気づくと、再び口を開いた。
+298	オディール	……ねぇ、僕。いいもの分けてあげるわ。
+299	オディールが妙に優しい声とともに^n少年の手にそっと握らせたのは、銀色の袋だった。^n丸く膨れた手ごたえからするに、錠剤だろうか。
+301	名無しの少年	……なんかよくわかんないけど、もらっとくよ。
+303	オディール	１日１回、朝に飲むのよ。^n特に「施術」のある日には、欠かさないこと。
+305	名無しの少年	……？　わかった。
+307	オディール	あんたにはわからないでしょうけど、あたし、^nあんたにものすごく貴重で大事なものをくれてやってるのよ。
+309	名無しの少年	それはどうも。
+311	オディール	だから、取引ね。^nその紙片が他にも見つかったら、あたしに見せてちょうだい。^nよこす必要はないわ。内容を教えるだけでもいい。
+313	オディール	もちろん、あたしも他の紙片を見つけたら、あんたに教えるわ。^nいい？　約束よ。
+315	名無しの少年	うーん……？
+316	正直、一方的に決められることに不満もあった。^nけれど本能はこの高圧的な少女に従ったほうがいいと、^n少年に訴えてくる。
+318	名無しの少年	……わかったよ。約束する。
+320	オディール	いい返事が聞けて嬉しいわ。^nそれじゃあ、おやすみなさい。
+321	　^m^n^cr紙片２を手に入れた。
+322	オディールの目に射すくめられて、言葉を失う。
+324	名無しの少年	……なんとなくついてきただけ、かな。
+325	メモには興味があったけれど、^nこの美しい少女たちに深く関わると^nろくなことにならない──という予感があった。
+327	オディール	へぇ？　そう。^nじゃあ、なんとなく自分のおうちに退散すれば？
+329	名無しの少年	そうさせてもらうよ。^nきみがいるなら、取り乱したお姫様も無事そうだし。
+331	オディール	　あんた、あたしたちの聖書──^n「白鳥の湖」を知らないの？^n　あたしはね、悪役なのよ。
+333	名無しの少年	つまり、自分の獲物の管理はしっかりするってことかな。^nどのみち、僕には関係ないよ。
+335	オディール	ええ、よかったわ、話が早くて。
+337	名無しの少年	それじゃあおやすみなさい。
+338	少年は棘のようなオディールの視線に見送られて、^nふたりの部屋を後にした。
+
+[S1006  黒の夢  /  검은 꿈]
+1	──楽園で迎える、２日めの夜のこと。^n少年は不思議な夢を見た。
+2	１日めに見た、陰鬱な灰色の夢とは違う。^nくっきりと濃い闇の向こうから^n誰かが語りかけてくるのだ。
+4	黒の少女	……ねぇ、あなた……。
+6	黒の少女	この声が聞こえてる……？^nねぇ、お願い……届いて……。
+7	声の主は、不吉な黒い衣装をまとった^n青白い顔の少女だった。
+9	名無しの少年	……誰？
+11	黒の少女	ああ、よかった……届いた……。
+13	黒の少女	私は……誰でもない……。^nかつての名前は……忘れてしまって……。^n今も、かろうじてこの形をとっているだけ……。
+15	黒の少女	よくないものが蘇って……「楽園」に害をなそうとしている……。^n私は……その力の影響を受けて……意思を得たの……。
+17	名無しの少年	それで、どうして僕に話しかけてきたの？
+19	黒の少女	……警告……。
+21	名無しの少年	警告？　そのよくないものの復活に関して？
+23	黒の少女	そう……。^nあいつは……１日にひとりは殺すの……。^nだからあなたに……みんなを……守ってほしくて……。
+24	ずいぶんと物騒な話だと、少年は眉をひそめた。
+26	名無しの少年	どうして僕が？　そんな力、ないよ。^nそれに、僕だって危険なんじゃないの？
+28	黒の少女	私に力があれば、私が守ったのに……。^n長い夢を作る力すら、与えられなかったから……。
+30	黒の少女	私の声が届く……あなたに、託すしかなくて……。
+31	少年は少し考えて、答えた。
+33	名無しの少年	……まあ、やるけどさ。^nここで知らん顔したって、どのみち僕も危険になる気がするしね。
+34	軽い返事の裏には、^nどうせ夢だからという楽観もあったが、^nそれだけではない。
+35	黒の少女の「警告」に耳を傾けるうちに、^n少年自身の中にもいやな予感がひしひしとこみあげてきたのだ。
+36	理屈からいえば馬鹿馬鹿しいことだけれど、^nそういった衝動には従うべきだという確信があった。
+37	どうやら少年は今までずっと、^nそういう生き方をしてきたらしかった。
+39	黒の少女	ああ、ありがとう……！^nどうか……どうか、お願いします……！
+40	黒の少女にとって、^n少年の無造作な首肯は福音だったのだろう。^n不思議な響きをまとう声が、歓喜に震えた。
+42	名無しの少年	で……その復活した「何か」は何なの？^nどうすれば、殺されないですむ？
+44	黒の少女	復活したのは……「灰色の悪魔」。
+46	名無しの少年	灰色の悪魔……！？
+47	例のノート、「灰色の悪魔の絵本」の件が頭をかすめる。
+49	黒の少女	身を守るには……知られなければいい……。^n×××××を……。
+51	名無しの少年	え……いま、なんて？^n聞こえなかったよ……。
+52	聞き返しながら、少年は感づいていた。^nどれだけ耳をすましても聞き取ることはできないだろう。
+53	　音の問題じゃなくて、彼には聞き取れないのだ。^n「読めるはずなのに読めない」あの文字と同じ。^n「聞こえるはずなのに聞こえない」、これはそういう声なのだ。
+55	名無しの少年	ごめん、その部分、僕には聞き取れないみたいだ。^nもう少し何か、ヒントは……。
+56	冷静に問い返してみたけれど、^n返事は|芳[かんば]しいものではなかった。
+58	黒の少女	ごめん、なさい……もう、私は……。
+60	黒の少女	お願い……みんなを……守って……。
+61	黒の少女の声がどんどん小さくなっていく。^n少年自身もその肌の表に、夢の終わる気配を感じていた。
+
+[S1007  グレーテルとかまど  /  그레텔과 아궁이]
+1	|執拗[しつよう]に繰り返されるノックに、^nグレーテルは深い眠りから呼び戻された。
+3	グレーテル	……？　ふあぁ……な、なに？
+4	眠い目をこすりこすり、ドアの前に行く。
+5	けれど、肌に感じる大気はまだ夜更けのものだ。^nドアを開けるのはためらわれると、^n少しだけ覚醒した頭でグレーテルは考えた。
+7	グレーテル	だれ……？^nあの……明日、またきてほしい、な……。
+8	それだけを告げて、寝床に戻ろうとする。
+9	ところが、ドアの向こうからは^n思いがけない声がかえってきた。
+11	？？？	グレーテル、僕だよ、ヘンゼルだよ。
+13	グレーテル	へ……？　お、お兄ちゃん！？^nヘンゼルお兄ちゃんなの？
+14	その|囁[ささや]きは、^n昼間にパンをくれたあの少年の声に似ている気がした。
+16	グレーテル	（……！　やっぱりあのひと、お兄ちゃんだったんだ！）
+18	グレーテル	お兄ちゃん……！　今、あけるね！
+19	グレーテルはドアに飛びついて一気に開け放った。
+20	けれどそこに立っていたのは、^n澄んだ瞳をしたあの少年ではなく──
+22	グレーテル	あ……あれ？　カンゴシ、さん。
+23	いつものカンゴシが、見慣れたいでたちで立っていた。^n片方の手にペンを、片方の手にカルテを持っている。
+25	グレーテル	ど、どうして？
+27	カンゴシ？	迎えに来たんだよ、グレーテル！^n心配はいらない。お菓子の家がきみを待っているよ！
+29	グレーテル	ふぇ？　お菓子の家……？^n……ううん、いい……。^nカンゴシさんは、お兄ちゃんじゃないし……。
+31	カンゴシ？	そんなこと言わないで。^nそれをいったら、^nあなただってグレーテルじゃないでしょう。
+33	グレーテル	え？　ううん、違うよ。わたし、グレーテル……。
+34	グレーテルの声が途切れた。^nあらゆる反論を千切るような強さで、^nカンゴシが言い放ったからだ。
+35	魔法の──いや、呪いの言葉を。
+37	カンゴシ？	──××××──
+39	グレーテル	……あ……。
+40	耳鳴りがするほどの静寂の中で、^nグレーテルは世界にひびが入る音を聞いた気がした。
+41	ひび割れの向こうから何かがゆっくりと侵入してくる。^nまるで意志を持つタールのような無形の手を伸ばし、^nグレーテルの心臓を鷲掴みにする。
+42	──グレーテルの中に、淡い悲しみがこみあげた。^n夢中になって遊んでいた遊園地が^n一瞬にして廃墟になってしまったような心地だった。
+43	けれどカンゴシは「お楽しみはこれから」とでもいうふうに、^n明るい声をはりあげた。
+45	カンゴシ？	さあ、行こうね。お菓子の家が待っている！
+47	グレーテル	…………。
+48	うつろな目でこくんとうなずいて、^nグレーテルはうながされるまま部屋を後にした。
+49	──どこをどう歩いたのか、よく憶えていない。
+50	そもそもこんな夜更けにどうして出歩くことになったのか、^n時折立ち止まろうとする自分の背を押すのは誰なのか、^n今のグレーテルには何ひとつわからない。
+51	──と、彼女のあやふやな意識に、^n急に鮮明な輪郭をもって認識されたものがある。
+52	それは「お菓子の家」としか形容のできない光景だった。
+53	チョコレートにキャンディにキャラメル、^nありとあらゆる甘い匂いがグレーテルの鼻孔を刺激し、^n眠たげな彼女の瞳をぱっちりと覚まさせた。
+55	グレーテル	わあ……お菓子の家だ！　お菓子がいっぱぁい！
+56	「グレーテル」がお菓子の家に来たならば、^n　いったいどうすることが正しいのか、^n　彼女はよく知っていた。
+57	繰り返し繰り返し読んだ「聖書」の中でも^n特に好きな場面だったから。
+59	グレーテル	もぐもぐもぐもぐ……ん、おいひ！
+61	グレーテル	こっちも……もぐもぐもぐもぐ……うぅぅ、甘い！
+62	わざわざ壁や家具をかじらなくても、^n美味しそうなお菓子はベッドの上に山盛りになっている。
+63	グレーテルは、白い布団の上に身を投げ出すと、^n右手でマドレーヌを、左手でマフィンを掴んで^n交互に口の中に押しこんでいった。
+64	すると、たちまちのうちに幸せな甘さに満たされた。^n頬がとろけて落ちそうだ。
+66	グレーテル	すごいねぇ、お兄ちゃん。^n食べても食べてもなくならないね。
+68	グレーテル	はむはむはむはむ……んんーっ、カステラ、ふわふわ！^nもぐもぐもぐもぐ……チョコレート、美味しいなぁ。
+69	グレーテルは幸せいっぱいに話しかけた。^n
+70	+	──誰に？
+71	もちろん、グレーテルをここに連れてきた人──^nグレーテルの大好きな兄・ヘンゼルに対して。
+73	？？？	喜んでもらえてよかった。^n美味しくないといっぱい食べないし、^nいっぱい食べないと太れないものね。
+74	ヘンゼルの声も弾んでいる。^n兄も、最愛の妹をどうにかお菓子の家に連れてくることができて、^nきっと胸をなでおろしているところだろう。
+76	グレーテル	うん……美味しいと……いっぱい食べるよ。^nいっぱい食べたら……おにく、ついちゃうよね……えへへ。
+78	？？？	そうそう、七面鳥でも豚でも、^n丸焼きなら肉付きがいいほうが美味しいよ。^n脂ものってるし。
+80	グレーテル	七面鳥……豚さん……丸焼き……。^nうふふ、豪華だね……お金持ちみたぁい。
+82	グレーテル	……はぁ……んぇ？
+83	グレーテルは幸せな連想に^nはぁっとため息をついてから、^n自らの吐息の熱さに目を見はった。
+85	グレーテル	なんか、あたま……くらくらする……。^nからだもね、なんかね、ぽわーってあったかくなってきたの……。
+87	グレーテル	このチョコ、お酒入ってたのかなぁ？^n……でも、いいよね、あったまるし。
+88	今度は頬だけではない。^n腕も、足も、おなかも、腰も、顔も、^n身体じゅうのいたるところが熱を帯びてとろけそうだった。
+90	グレーテル	もぐ……もぐ……もぐ……ふにゃ……。
+91	くらり……世界が揺らぐ。^nおなかが満たされるのとは全く違う感覚だけれど、^nでもこれはこれで気持ちよくて幸せだ。
+93	？？？	……いい感じにお酒がしみてきたみたいだね。
+95	グレーテル	うん……おしゃけ……つよいよぉ……。
+97	？？？	お肉を柔らかくするにはお酒にひたすのが一番だから。
+99	グレーテル	ふぇぇ……そうなんだぁ……。
+101	？？？	物わかりのいい子豚さんで嬉しいよ。^nさて、|下拵[しらごしら]えを進めようかね。
+102	ベッドのそばに立ってグレーテルを見下ろすヘンゼルは、^nなにやら腕まくりしたようだった。
+103	渦を巻いて流れる世界の中で、^n彼の落とす黒い影が虚ろに揺れている。
+105	グレーテル	んんぅ……？^n……ふわっ。ちゅめたい……お水、かかったよ……？
+106	と、突然冷たいものを浴びせられて、グレーテルは身をすくめた。
+107	頭にも肩にもかけられたそれは、^nねっとりと肌を濡らしながら滴り落ちていく。
+109	？？？	水じゃなくてね、オリーブオイル。^nそれにローズマリーにタイム、塩胡椒も忘れずに。
+111	グレーテル	はぅっ。なんか、ぱらぱら……かけられてる……。
+112	今度は髪に首筋に、^n細かいつぶてのようなものをかけられる。^nなぜか、干し草のようないい匂いがした。
+113	グレーテルには何もわからなかった。^n肌の上に何をかけられて、どんな状態になっていて、^nこれからいったいどうなってしまうのか。
+114	考えようとするときしきしと頭が痛むので、^nそれを紛らわせるために、ただただ、^n手が届く範囲のお菓子を掴んでは食べた。
+116	？？？	かまどの火もいい感じ。^nそれじゃあそろそろいこうか、子豚ちゃん。
+117	と、「ヘンゼル」の手がグレーテルの腕を掴んで^nベッドから引き起こした。
+118	ぐにゃぐにゃと軟体動物のように崩れかける^nだらしないグレーテルの状態に文句ひとつ言わず、^nかいがいしく彼女をいざなう。
+119	立ち止まらされたのは、^nぱっくりと開いた口の向こうからあたたかな息を吐きかける^n準備万端のかまどの前。
+120	そのだいだい色に輝く顎を見た時に、^nグレーテルの頭の隅に閃くものがあった。
+122	グレーテル	（あれ……これ、違う。逆だ。^n　ほんとうは魔女のおばあさんを、わたしが……後ろから……）
+123	警鐘なら、ずっとずっと前から鳴りつづけていた。
+124	ドアを開けた瞬間から。^n背を押されてここに来る間も。^nお菓子をどんどんつめこんでいる時も。
+125	グレーテルの中の聡明な部分は、ずっと警告していたのだ。
+126	今夜迎えにきた「彼」はヘンゼルではない。^nそれどころか、人間ですらない。^nグレーテルを地獄に引きずりこむ悪魔なのだと──
+128	グレーテル	あ……っ……。
+129	すべての認識が、ようやく頭の芯に到達する。^n
+130	+	──が、遅かった。
+131	どんっ。
+132	背中を思いきり突き飛ばされて、踏んばることもできず、^nグレーテルの小柄な身体はかまどの中へ吸いこまれていった。
+133	ローズマリーとタイムとオリーブオイル。^nのどかな家庭の匂いを放ちながら、^n柔らかな肌が炎の中に溶け崩れていく。
+135	グレーテル	──きゃああああああああああああ──っ！！
+136	最後の悲鳴さえも声帯ごと燃えて、^n小さな口は炎の息を吐き出した。
+137	そして翌朝、「楽園」でひとつめの死体が発見された。
+138	それは不思議なことに、^n夕食以降火を入れられた形跡のないキッチンのかまどの中で、^n真っ黒焦げに焼けただれた状態で見つかったという。
+139	亡骸は消し炭のようだったけれど、^n小さな小さな骨格は、グレーテルのなれのはてであると^n悲しいほど雄弁に語っていたのだった。
+
+[S1008  死体がひとつ  /  시체 하나]
+1	　──翌朝、少年は知るよしもなかったが、^n「楽園」でひとつめの死体が発見された。
+2	それは不思議なことに、^n夕食以降火を入れられた形跡のないキッチンのかまどの中で、^n真っ黒焦げに焼けただれた状態で見つかったという。
+3	　亡骸は消し炭のようだったけれど、現場に残された痕跡から、^n「楽園」に勤める医者のひとりだと断定された。
+
+[S1009  ゲルダとカイ  /  게르다와 카이]
+1	朝食を終えて着替えると、^n少年は早速今日の予定をたてた。
+3	名無しの少年	（なんといっても、昨日見た夢が気になるな。^n　何か手がかりを探してみようか……）
+5	名無しの少年	（とはいっても、どこから？）
+7	名無しの少年	（オディールを探してみようかな。^n　彼女に夢のことや、あの黒い女の子について報告してみたら、^n　何か反応があるかもしれない）
+8	「くだらない夢見てんじゃないわよ、寝ぼけないで」^n　──なんてなじられるような気もするけれど、^n　思わぬ進展がある可能性もゼロではない。
+10	名無しの少年	あ、そうだ。薬、薬……。
+11	少年はオディールからもらった薬を飲んだ。
+12	今朝の目覚めがいつもより少しだけ^nすっきりしているように感じられたのは、^nもしかして昨晩この薬を服用したおかげなのだろうか？
+14	名無しの少年	（まぁ、なんでもいいや。^n　とにかく出発しよう）
+16	名無しの少年	（……うーん……そうだね。^n　同じくらい気になるのが、^n　昨日見つけた|瓶[びん]づめのメモだ）
+17	　少年は机に視線を送る。^n　その引き出しには「灰色の悪魔の絵本」が^n「ピーターパン」とともに眠っている。
+18	昨日見つけた|瓶[びん]の中身は、^nあの破られたページにぴたりと一致したのだ。
+19	そして、ノートには他にも破られたページがある。^nとなれば──
+21	名無しの少年	（もしかしたら他にも見つかるかもしれないな）
+22	今日はそれを探そうと心に決めて、少年は探索に出発した。
+24	名無しの少年	（うーん……でも、あんなあやふやに警告されたって^n　動きようがないし……）
+25	あてはないけれど、とにかく動きまわってみよう。^n少年はそう心に決めて、探索に出発した。
+26	数時間後、少年はあるドアの前に立っていた。
+27	　氷の板めいた扉には^n「Ｇｅｒｄａ」と書かれたプレートが下がっている。
+28	昨日の探索を経て、プレートが下がっている部屋には誰かしらいるということを、少年は学んでいた。
+29	例によってノックなしでドアを開ける。
+30	中に広がっていたのは、^n暖炉に炎の揺れるあたたかな部屋と極寒の雪原、^n左右にくっきりと別れた二面性を持つ景色だった。
+32	名無しの少年	（思った通りだ。これは「雪の女王」だな）
+33	眠っていた記憶が身じろぐのを感じながら、^n少年はうなずいた。
+35	ゲルダ	……っ！？　誰？
+36	思った通り、部屋の中にはひとりの少女がいた。^n鋭く息をのむ音が響き、続いて|誰何[すいか]の声が飛ぶ。
+37	「誰」に対しては答えを持たない少年は、^n　気後れを覚えた様子もなく、^n　少女と部屋とを興味深げに眺めた。
+39	ゲルダ	……ノックもなしで入ってきて、^nしかも「誰」と聞かれても答えようとしない。
+41	ゲルダ	あなたはとても不躾な人ね。
+43	名無しの少年	……ごめん。^n驚いてしまったんだ、この部屋に。
+44	──妙に気にかかる少女だ、と少年は思う。^n彼女を見ていると、何か、^n頭の奥が尖ったものでチリチリと刺激されるよう。
+46	名無しの少年	……誰、と聞かれて名乗れなかったのは、名乗る名前がないからだよ。
+48	名無しの少年	僕は、自分が誰なのかも、どこで何をしていて^nどうしてここにきたのかもわからないんだ。
+50	ゲルダ	……そうなの。
+52	名無しの少年	きみは、誰？　ドアには「ゲルダ」と書いてあったけど。
+54	ゲルダ	私はゲルダじゃないわ。^nただ、この楽園の人たちが、私をゲルダと呼ぶだけ。
+56	名無しの少年	ゲルダ以外の名前を持ってるの？
+58	ゲルダ	……いいえ。
+60	名無しの少年	「雪の女王」じゃなくて、他の物語のほうがしっくりくる？
+62	ゲルダ	いいえ……。^n正直なところ、わからないではないの。^n私は誰かを捜していた。それは確かだから。
+64	名無しの少年	誰かを……まるで、カイを探すゲルダみたいに。
+66	ゲルダ	そうよ。
+68	名無しの少年	それじゃあ、ゲルダって呼ぶしかない。
+70	ゲルダ	好きにすればいいわ。^n便宜上、どうしても必要だというのはわかるもの。^nそうね、囚人番号みたいなものだと思えば……。
+72	名無しの少年	なるほどね。^n名前がないのは不便だって、^n僕もここのところ毎日思い知っているんだ。
+74	ゲルダ	…………。
+75	うつむくゲルダに、少年の胸が痛んだ。
+76	グレーテルやオデットに対して覚えた^n気まぐれな同情とは違う。^nもっと深くて確かな感覚だ。
+77	とりたてて会話をしくじったわけでもないのに、^n不思議な胸苦しさを覚えるのは何故だろう──
+78	선택문	ゲルダにかける言葉は──
+79	보기1	カイ、見つかるといいね
+80	보기2	それなら僕がカイになろう
+[선택1]
+82	名無しの少年	カイ、見つかるといいね。
+83	彼女にとっては何よりの励ましだろうと思いながら、^n少年は言う。
+85	ゲルダ	……ありがとう。
+87	名無しの少年	どうしたの、暗い顔をして。
+89	ゲルダ	いえ……なんでもないの。
+91	ゲルダ	大丈夫よ、私は必ずカイを見つけてみせる。
+93	名無しの少年	「ゲルダ」の道行きは険しくて長いよ。^n　きみの聖書に書いてある通り。
+95	ゲルダ	知っているわ。^n身を切るような寒さの中をどこまでも歩みつづけるって。
+97	ゲルダ	……でもね、カイを失ってからの私は、^nどんなにあたたかいところに行っても、^nどうしようもなく凍えているのよ。
+99	ゲルダ	私はもう、前に進むしかないの──
+101	名無しの少年	そうか……。
+102	もうそれ以上かける言葉は見つからない。
+103	少年は、やはり彼らしからぬ気後れに悩まされながら、^nゲルダの部屋を後にした。
+[선택2]
+105	名無しの少年	（そうだ……それならいっそ）
+107	名無しの少年	それなら僕がカイになろうか。
+109	ゲルダ	え……？
+110	この楽園の女の子にとって、何より嬉しい言葉だろう。^nそんな確信に力を得て、少年の笑顔ははつらつと輝いた。
+112	名無しの少年	僕は名前が見つかる。きみは探し人が見つかる。^n僕たち、どっちも得をするよね。
+114	ゲルダ	……いえ。結構よ。
+116	名無しの少年	…………。
+117	固い声。固い表情。^n思ったよりもずっとずっと「悪い」ゲルダの反応に、^n少年の胸の奥で黒いもやのようなものが渦巻いた。
+119	名無しの少年	（こういう顔が似合う女の子だな）
+120	彼女の不興を買っているのに、なぜか心が浮き立つ。^n同時に、どうしようもなく寂しいような気もする。^n──おかしな気分だ。
+122	名無しの少年	どうして断るの？　いやだった？
+124	ゲルダ	あなたは違うわ。カイじゃない。
+126	名無しの少年	そうかな……僕、わりとカイって気がするんだけど。^nほら、年もきみと変わらない感じだし。
+128	ゲルダ	絶対に違うわ。
+130	名無しの少年	僕、カイにならなってもいいよ。
+132	ゲルダ	ならなくていいの。
+133	頑として受け付けない、すました横顔。^n胸のざわめきがますます強くなる。
+135	名無しの少年	（なんだろう……胸の中、いやな感じにこんがらかってる）
+136	黙りこくったゲルダの青白い頬にねじくれた愉悦を覚え、^nまた同時に苛立ちながら、^n少年は勝手に「雪原」へと踏み出した。
+137	白い綿らしい分厚い感触を^nぎゅっぎゅっと踏みならしながら歩くのは、^nなかなか楽しかった。
+139	名無しの少年	……あれ？
+140	綿につっこんだ靴のつま先に、^nコツンと当たったものがある。
+141	かがみこんで拾いあげると、^nそれは紙片を閉じこめた透明なガラス|瓶[びん]だった。
+143	名無しの少年	……？　これは……。
+145	ゲルダ	なあに、それは。^n|瓶[びん]……のなかに、紙？　手紙かしら……。
+146	　^m^n^cr紙片３を手に入れた。
+147	「ゲルダの宝物は、誰かが描いた落書きのような似顔絵。^n　その裏に、「××××に捧ぐ」と書かれていた」
+148	「次の日の朝、寝床で息絶えているゲルダが発見された。^n　その体は氷のように冷たかったという」
+149	角という角が険しい筆跡を目で追っていると、^nゲルダが横から覗きこんで、息を呑んだ。
+151	ゲルダ	……！？^nなんなの、この内容……息絶えた私が発見されるって……。
+152	目を見開き、悲鳴のような声を漏らす。^n自らへの災難を予言するような物騒な内容だ、^n無理もないだろう。
+154	名無しの少年	落ち着いて。きみはゲルダじゃないんでしょう？
+156	ゲルダ	そう……だけど。でも……。^nどうしてこんなものが、私の部屋にあるの……？
+157	取り乱すゲルダとは対照的に、少年は落ち着き払っている。^n何せ少年にしてみれば、３枚目の紙片だ。
+159	名無しの少年	（やっぱり、××××、この読めない文字が鍵なんだな）
+161	名無しの少年	ねぇ、きみ。似顔絵は持ってる？
+162	ふと閃いて、少年はゲルダに聞いた。
+164	ゲルダ	いいえ、そんなもの、持ってないわ。
+166	名無しの少年	じゃあ……宝物！^nきみ、なにか宝物を持ってる？
+168	ゲルダ	宝物……？　それも、別に。
+170	名無しの少年	本当に？　よく考えて。これはとても重要なことなんだ。
+172	ゲルダ	そんなこと言われても……。
+173	ゲルダは困ったように目を伏せ──^nやがて、何かに思い当たったように視線をすべらせた。
+175	ゲルダ	……ああ、でも強いていえば……あれね。
+177	名無しの少年	あれ？
+179	ゲルダ	……ええ。あのスノードーム。
+180	彼女の視線を追う。^n暖炉の上に、それはあった。
+181	何の変哲もないスノードームだ。^nガラス玉の中に、赤い屋根の家や街頭、ベンチといった^n小さな街の素朴な情景が浮かんでいる。
+183	ゲルダ	この部屋のもの、何もかもが似合わない服のようで^n気にくわないし、しっくりこないけど……。
+185	ゲルダ	あのスノードームだけは違うの。^n見ていると何か懐かしい気分になる。^n大切な思い出が疼いているみたいに、胸が騒ぐの。
+187	ゲルダ	もしかしたらあれだけは、^n本当に私のものなのかもしれないって^nなんとなくそう思えるの……。
+189	名無しの少年	なるほど……。
+190	少年は手を伸ばして、スノードームを揺らしてみた。^n一瞬にして舞い上がった雪が、^nはらはらと優しく屋根やベンチの上に積もっていく。
+191	その台座には「××××」という刻印がされていた。
+193	名無しの少年	──この部分、きみ、読める？
+195	ゲルダ	……？　いいえ。なんだかぼやけた文字ね。^nもう少しで読めそうなのに読めなくて、もどかしいわ。
+197	名無しの少年	やっぱりそうなんだ。……ふむ。
+198	少年は考えこみ、再び手を伸ばした。
+199	ゲルダは黙ったまま、さりげないそのしぐさを見守っていたが、^n次の瞬間、少年が口にした言葉に^nぎょっと目を|剥[む]くことになった。
+201	名無しの少年	……これさ、僕が預かっておくよ。
+203	ゲルダ	えっ！？　ど、どうして？
+205	名無しの少年	きっとそのほうがいいんだ。
+206	少年はゲルダの目を見て、真剣にうなずいた。^nけれどゲルダの覚えた不安は^nその表情でさらに膨れあがったようで──
+208	ゲルダ	やめて！　それは私のものよ。もっていかないで！
+209	飛びかかって奪い返そうとした少女を^n少年はひらりと身軽によけた。
+211	名無しの少年	必ず返すよ。誓ってもいい。
+213	ゲルダ	悪いけど、信用できないわ。^n……ねぇ、本当にやめて！　返してってば！
+215	名無しの少年	ごめんね、ゲルダ。^nどうしてもいやなら、無理矢理持って行くよ。
+217	ゲルダ	あなた、それは泥棒よ！？^n……待って！　待ちなさい！　お願いだから、それだけは……！
+218	ゲルダの懇願を背中で聞きながら、ドアを開けて外へ。
+219	軽快な足取りでぐんぐんと廊下を駆ければ、^nさほど労もなくゲルダから逃げおおせたようだ。
+221	名無しの少年	（……悪いことしたな。でも、きっとこれでよかったんだ）
+222	不安と恐怖と悲しみに彩られていた^n最後のゲルダの顔を思い出して、^n少年はしみじみとスノードームを眺めた。
+224	名無しの少年	それにしても……本当に、なんだろうな、この感じ。
+225	本当は笑っていてほしいのに、^n怒った顔や悲しい顔を見るとぞくぞくする。
+226	記憶も名前もないからっぽな存在のくせに、^nずいぶんとややこしい感情を眠らせていたもんだ──と、少年は自分自身にあきれかえった。
+
+[S1010  黒の夢２  /  검은 꿈 2]
+1	その日の収穫といったら、それくらい。
+2	それとなく探しはしたものの、^n知り合いの少女たちに出会うことはなく、^n１日が終わった。
+4	名無しの少年	……ふわぁ……。
+5	少年はあくびをかみ殺しながら寝間着に着替えた。
+6	考えることは山ほどあったはずなのに、^n形になる前に睡魔の波にさらわれて、^nほろほろと崩れていってしまう。
+8	名無しの少年	（いいや、もう。今日は寝てしまおう）
+9	そうしてすとんと落ちた眠りの国で、^n少年は再び黒の少女が待つ夢の宮殿へと運ばれた。
+11	黒の少女	……、……聞こえる……？
+13	名無しの少年	……また、きみか。聞こえてるよ。
+15	黒の少女	グレーテル……あの子を……守れなかった……。
+16	黒の少女が声を震わせる。
+17	漆黒のベールと深い影が目元を覆っているけれど、^nもしかしたら彼女は泣いているのかもしれない。
+19	名無しの少年	（グレーテルに、何かあったのかな？^n　まさか……）
+21	黒の少女	熱かったでしょう、苦しかったでしょう……。^nごめんね……グレーテル……。
+22	──命を落としたのだ。^n
+23	+	そう確信してしまったのは、^n黒の少女のいでたちのせいばかりとはいえない。
+24	この「楽園」には、^n灰色の泥のようにいやらしい気配が漂っている。^nなぜかそんな気がするのだ。
+26	名無しの少年	……ごめんね。どうすればよかったんだろう。
+28	黒の少女	ありがとう……グレーテルは、救われた……。
+30	名無しの少年	そうなの？　危うかったことも知らなかった。^nどうしてあの子は助かったの？
+32	黒の少女	あなたが……警告を……伝えてくれたから……。
+34	名無しの少年	警告……。あの紙片のことか。
+36	黒の少女	そう……あれは、「灰色の悪魔」の聖書だから……。^nあそこに記された通りに……動くのよ……。
+38	黒の少女	×××××を……遠ざけて……。^n灰色の悪魔の目に……止まらないように……。
+39	黒の少女の気配と声とが遠のいていくのを感じ、^n少年は悔しそうにため息をつく。
+41	名無しの少年	……やっぱり聞こえないか。^nきっと重要なことが隠されているのに……。
+42	そして、ふたつめの夢は終わった。
+
+[S1011  スノードームの世界  /  스노우 돔 속 세상]
+2	？？？	ゲルダ……ゲルダ……！
+3	どこからともなく響いてくる声に、^nゲルダはばねじかけのように飛び起きた。
+5	ゲルダ	……！？　だ、誰？　どこにいるの？
+6	部屋の中には誰も見あたらない。^nけれど夢じゃない、確かに聞こえたと、^nゲルダは鳥肌の立った腕をさすった。
+7	──本当は雪なんて降っていないのに、吹雪の音が聞こえる。^n喘息患者の呼吸みたいな極寒の音。
+8	そして、それに乗って再び「声」が届く。^nまるで雪の女王の誘惑のように。
+10	？？？	ゲルダ、ゲルダ……！
+11	ゲルダは口を開きかけて、思いとどまった。^n頭の奥で、警鐘が激しく鳴り響いている。
+12	──きっと応えないほうがいい。^n毛布に身を包んで、息を殺して、^nただただ朝日が射しこむのを待ったほうがいい……。
+13	確信に近い予感を覚え、^nゲルダが静かに毛布をたぐり寄せた時──
+15	？？？	××××、××××……！
+16	　呼びかけが変わった。^n「ゲルダ」のかわりに、別の誰かを呼んでいる。
+17	実に不可解で、もどかしい音だ。^n鼓膜を震わせているのに、^nはっきりとした「言葉」にならない声──
+19	ゲルダ	……っ！　な、に……？
+20	しかしゲルダは身を震わせた。^n冷たい木枯らしの手が皮膚を破り、肉をすりぬけて、^nいきなり背骨を握ったような気がしたから。
+22	？？？	××××……××××……！
+24	ゲルダ	──カイ！？
+25	どうしてその声をカイだと思ったのかはわからない。^nただ、狂おしい確信が全身を駆け抜けた。
+26	そして同時に彼女は、その声が^n暖炉の上のスノードームから発されているのだと確信した。
+27	無我夢中でスノードームに駆け寄る。^nこの何もかもわざとらしくて気にくわない部屋の中で、^n唯一ゲルダの心を慰めていたスノードームに。
+28	覗きこめば、いつもの光景が見える。^n赤い屋根の家、雪だるま、ベンチ、街灯。^nはらはらと羽根のように優しく舞い降りる雪。
+29	しかし、次の瞬間──
+31	？？？	──××××──
+33	ゲルダ	きゃあっ……！
+34	ごう、と吹雪が耳元で鳴った。^n吹雪にまかれて、|翻弄[ほんろう]されて、目が|眩[くら]む──
+36	ゲルダ	……！？　な、なに……これは。
+37	──気がつくと、ゲルダは吹雪の世界に立っていた。
+38	見覚えがある。^n赤い屋根。雪だるま。街灯──
+40	ゲルダ	どういう、こと？^nこんなの……ありえない！
+42	ゲルダ	（ここ……スノードームの中！？）
+43	スノードームの世界に閉じこめられたのだという、^n気味の悪い結論を受け入れかねて、^nゲルダの本能は身をよじるように叫んでいた。
+45	ゲルダ	（嘘。嘘よ、こんなの。きっと悪い夢……！）
+46	ありえない、あるわけない、こんなこと──！
+47	しかし、横殴りの雪つぶては^n服にへばりついてどんどん凍らせていく。^n頬はこわばり、唇の端はヒリヒリと痛む。
+48	この圧倒的な実感に対して、^n頭の中で抗ったって悔しいほどに無力だ。
+49	あげくのはてには、^nごうごうと荒れ狂う風がゲルダの耳元で鳴り、^nとどめのように|嘲[あざけ]りをふきこんだ。
+51	？？？	残念だったね。あなたの旅はここで終わりだよ。
+53	？？？	ねぇ、ゲルダちゃん。自分でもわかっていたんでしょ？
+55	？？？	カイには会えない──旅にでる方角を間違えたんだって。^n賢くて勇気のあるあなたなのにね……。
+56	スノードームらしからぬ横殴りの雪が^nゲルダの身体のそこここにへばりつく。
+57	透明な壁に触れていた指先が^n凍ってくっつきそうになっていることに気づき、^nゲルダは恐慌の悲鳴をあげる。
+59	ゲルダ	やめて！　いやぁ！
+60	ゲルダは叫びながら、どんどんとスノードームの壁を叩いた。
+62	ゲルダ	出して、出して！　こんなのいや！^nわたし……私は……！
+64	ゲルダ	（こんなところで死ぬわけには行かないの！^n　カイを捜し当てて、いっしょに帰らなければならないの！）
+66	ゲルダ	（それが──私とカイの……おはなし、で……）
+68	ゲルダ	わたし……カイと……かならず……かえる……っ。
+69	さっきまでなめらかに動いていた舌が、^nもうろくに動かない。^nガチガチとせわしなく震える歯に、何度も噛まれてしまう。
+71	ゲルダ	う……くうぅぅ……ぅぅぅっ……！
+72	──凍る。全身が凍る。^n胸の中が凍りついて息もできない。
+73	まばたきをするたび、^n霜の生えたまつげがくっついてピリリとしびれる。
+75	ゲルダ	（いや……っ、痛い、痛い痛い痛い……！）
+77	ゲルダ	ん……ぅぅっ……ひっ……ぎぃっ……！
+78	よく目が見えない。^nもう、ろくにまばたきもできない。
+79	目の表面の潤いさえ凍りついて、^n眼球全体が氷のようになってしまったから。
+81	ゲルダ	（あぁ……もう……だめ……）
+83	ゲルダ	（ごめんなさい……カイ……私は、もう……）
+85	？？？	もう終わりだねぇ××××。^n悔しいよねぇ××××──
+87	ゲルダ	（あ……っ、そう、か……）
+88	繰り返される嘲笑が、いまわの際のゲルダに気づかせた。
+89	どうして自分はここにいるのか。^nそして昼間に会ったあの少年が、^n自分にとってどんな意味をもつのか。
+91	ゲルダ	（わたしは……やっぱり……ゲルダじゃない）
+93	ゲルダ	（最初から……だめだったのね……。^n　私は……道を、間違えて……）
+94	氷の柱に変じながら、少女は思った。^nゲルダというよりもマッチ売りの少女のように、^n心の中に住む懐かしいぬくもりを追いかけた。
+96	ゲルダ	（ああ……あなたに、会いたかった……）
+98	ゲルダ	（さようなら……）
+99	吹雪の哄笑を聞きながら、^nゲルダは大切に抱きつづけていた^n熱と思いとを手放した──
+100	そして翌朝、「楽園」でふたつめの死体が発見された。
+101	それは不思議なことに、^n暖房の効いた一室にも関わらず、^n冷凍庫に一晩放置したようなありさまで見つかったという。
+102	雪原を模した絨毯の上で^nカイを見つけられなかったゲルダは髪の毛の先まで凍りつき、^n冷たい四肢を投げだして、息絶えていたのだった。
+
+[S1012  また死体がひとつ  /  또 시체 하나]
+1	　──翌朝、少年は知るよしもなかったが、^n「楽園」でふたつめの死体が発見された。
+2	それは不思議なことに、^n暖房の効いた一室にも関わらず、^n冷凍庫に一晩放置したようなありさまで見つかったという。
+3	　リネン室の床に散らかされた白いシーツの上で、^n「楽園」のとある看護師は髪の毛の先まで凍りつき、^n　冷たい四肢を投げだして、息絶えていたのだった。
+
+[S1013  ラプンツェルと王子様  /  라푼젤과 왕자님]
+1	翌日の探索の結果は、前日に引きつづいて^nあまり芳しいものではなかった。
+2	けれど少年に落胆した様子はない。^n彼がこの日に立てたプランには、^n夜になってのお楽しみが含まれていたからだ。
+3	だから彼は陽が落ちるにしたがって元気になり、^n夕食後は目を輝かせながら部屋を飛び出したのだったが──
+5	名無しの少年	えっ……そ、そんな。
+6	夜の庭園の隅で、少年は|呆然[ぼうぜん]とつぶやいた。^nしょんぼりと下がった肩から^nナップサックがどさりと落ちる。
+7	ナップサックの中身は、^nロープとランタンと丈夫そうな手袋。
+8	昼間、この時のために楽園の各地をまわって^nせっせと集めたものだった。
+10	名無しの少年	（そんな……今日こそ登るつもりだったのに。^n　あのロープみたいなの、降りてないんだな）
+11	少年は先日の夜の探索中に、この塔の上の窓から^n金色のロープみたいなものが下がっているのを発見して、^nそれを使って|登攀[とうはん]する計画を立てていたのだった。
+13	名無しの少年	（あんなの、「登ってください」ってことかと思ったのに。^n　ようし、こうなったら……）
+14	少年は口をへの次に曲げて、^nナップサックをその場に放り出したまま、^n病棟に向かって駆け戻っていった。
+15	つかの間の後、少年はある木の扉の前に立っていた。^n扉のプレートに、「Ｒａｐｕｎｚｅｌ」の文字が光る。
+16	そう、塔への|登攀[とうはん]に失敗した少年が選んだのは、^n建物の内部から扉を通って^nお目当ての部屋に忍びこむところだった。
+17	不躾なのは百も承知。^n今はただ、彼に悲しい肩すかしを食わせた「何か」に^n少しでも返礼してやりたい──ただそれだけなのだ。
+19	名無しの少年	（……へへ。お邪魔します）
+20	あどけなく微笑んで、少年は目の前の扉をそっと開いた。
+22	名無しの少年	（薄暗いけど、天井が広くていい部屋だな）
+23	あの高い塔のてっぺんに登った、という高揚もあって、^n少年は目を輝かせた。
+24	丸い天蓋でぼうっと光を放つ星座は神秘的で美しく、^n窓の|傍[かたわ]らにそっと置かれた天体望遠鏡が冒険心をくすぐる。
+25	しかし、その興奮はすぐにたち消えた。^n部屋の中に漂う湿った音とが、^n少年の肌にねっとりとからみついたせいだ。
+26	鼓膜の裏側をこそばゆくひっかかれるような、^n行儀の悪い音──
+28	ラプンツェル	……っ、ふ……っ、ちゅ……。^nはぁ、はぁ、はぁ……ぁっ。
+30	男	……ほら。もっと……なさい。ラプンツェル。
+31	部屋の中を少し歩きまわったところ、^n音の出所は天蓋つきの寝台の中だと察せられた。
+33	ラプンツェル	は、はい……っ。んっ、んんく……っ。^nんふぅっ……！　ちゅく、ちゅく、ちゅぷっ……。
+35	名無しの少年	…………。
+36	少年は迷った。^n薄暗がりの中に秘密を抱いた天蓋の中を、^n覗きこむべきかどうか。
+37	そして──
+38	선택문	ベッドの上に──
+39	보기1	行かない
+40	보기2	近づく。
+[선택1]
+42	名無しの少年	（……なんか、見たらいけないような気がする）
+43	こうして音を聞いているだけで、^nどんどん耳が汚されている気すらした。
+44	深いため息をついて、少年は部屋をあとにした。
+[선택2]
+46	名無しの少年	（……なにをしているんだろう？）
+47	見ないほうがいいのだと、どこかで少年は知っていた。^nそれでもその足が進んでしまったのは「だからこそ」という^n不思議な心の動きによるものだ。
+49	男	……ほら、また舌の動きがおろそかになっている。
+50	男の声が聞こえた。^n高圧的に指摘しつつも、言葉のはしばしが^nみっともないビブラートに乱れ、上擦っている。
+52	ラプンツェル	んっ、ごめん、なさい……れろ……っ、んぅ……。^nちゅっ、ちゅっ、ちゅぷぷっ……れろれろ……はぁ。
+53	次に聞こえたのは女の声。^n一心不乱に何を舐めているのか、^nぴちゃぴちゃ、じゅぷじゅぷと聞き苦しい音を伴っている。
+55	ラプンツェル	れろ……はぁっ、んっ、ちゅぱ、ちゅぱっ……。^nんんっ、んっ……んむ……ふあぁぁっ……。
+56	少年は足音を殺してさらに近づき、^nそしてついにその光景を見てしまった。
+57	寝台に寝そべる男。^nその浅黒い肌の上に、真珠色に輝く女の肌合いが寄り添う。
+58	女は豊かな乳房を両手でかきあつめ、^nそのあふれんばかりの量感の狭間に、^n男の逸物を挟みこんでいた。
+59	乳房をこねまわして男根をこすりたてるばかりか、^n濡れ光る舌を伸ばして先端を舐めもする。
+61	名無しの少年	…………。
+63	名無しの少年	（これはまた、とんでもないところにお邪魔してしまったな）
+64	赤裸々な男女の戯れに、少年は渋い顔になった。^nそういったことに対する知識はないではないし、^n嫌悪感よりは好奇心のほうがそそられる。
+65	けれど──なんというか、^n心構えができていないところに目の当たりにするには、^nあまりに獣じみた光景だった。
+66	だから少年は、すみやかに立ち去ろうときびすを返す。
+67	が、男が低い笑い声とともにこぼした言葉が^n彼の気を引き、その場に留まらせた。
+69	男	しばらく会わないうちに、|拙[つた]くなったな。^nこんな娼館に放りこんだのだから、^nむしろ上達するはずだと思っていたが──
+71	名無しの少年	（しばらく会わないうちに……娼館……）
+72	たったの一言で、ずいぶんといろんなことがわかった。
+73	男はこのきれいな少女──ラプンツェルの知り合いで、^n彼女を娼館に放りこんだ。^n娼館というのは、この「楽園」を示すはずで……。
+75	ラプンツェル	ん……ッ、ちゅう、ちゅるぅっ……。^n何を、おっしゃっているのか……わかりません……。
+76	ラプンツェルは物悲しげに抗弁して、^n次の瞬間くぐもった悲鳴をあげた。
+78	ラプンツェル	──んぶっ！？　んむーッ！^nんちゅっ、ぐちゅっ、んんぅ……！
+79	目の端で窺うと、男の手がラプンツェルの^n蜂蜜色の髪の毛に指を食いこませ、^n引き寄せた口に無理矢理陰茎を呑ませていた。
+81	ラプンツェル	やめて！　んぐ、ッ、くる……し……んむぅっ……！^nひ、ゃ、やめて、おと……さま……っ。
+83	男	お義父様？　違うだろう……××。
+85	名無しの少年	（……！　今の、また……あれだ）
+86	　絵本の裏や医者のバッジに見た^n「読めるはずなのに読めない」文字。
+87	　夢の中の黒の少女が、^n　伝えてくれたのに受け取れなかった、^n「聞こえるはずなのにわからない」言葉。
+88	もう少しで言葉になろうという寸前に崩れていくような、^n不思議な|音韻[おんいん]──
+89	それをこの男は──ラプンツェルが父と呼んだ男は、^n平然と口にした。
+91	ラプンツェル	は……っ。
+92	そしてそれは、^nラプンツェルの耳にはどう届いたのだろう。^n彼女はハッと目を見開き、男の顔を見上げた。
+94	男	もうメッキが|剥[は]がれたか。^n出来損ないのラプンツェルだな。
+96	ラプンツェル	ん……くっ、ち、がいます……っ。^nわ、わたし……わたくし、は……っ。
+98	ラプンツェル	わたくしは……ラプンツェル。^nそしてあなたは、王子様……。
+100	男	……ふ……。
+101	ゆるゆると腰を動かし、^nラプンツェルの胸の谷間を女性器に見立てたように扱いながら、^n男は低く笑った。
+103	男	くくく……ははは……！
+104	くぐもった笑いは瞬く間に音量をあげ、哄笑に変わる。
+106	名無しの少年	（なんでそこでそんなに笑うんだろう？）
+107	少年はひそやかに肩をすくめた。^nしかし、そのしぐさは少年自身が思うよりも^n目立つものだったのかもしれない。
+108	視界の端で捉えたのか、^n男がビクリと身体を震わせてこちらを見た。
+110	男	──ッ、誰だ！
+112	ラプンツェル	きゃ……っ！？
+113	男はラプンツェルを突き飛ばし、そそくさと股間をしまった。^nラプンツェルもまた、青白い顔をして衣服を整える。
+114	そうして、淫らに高まりかけていた空気が、^n一瞬にして滑稽なものに転じてしまったのは、^n少年にとって大いに興味深い現象だった。
+116	男	誰だ貴様、どこから入ってきた！？
+118	名無しの少年	おじさん、今何をしていたの？
+120	男	そんなことはどうでもいい！　何故勝手に入った！？^n貴様は何だ、患者か、それとも職員か？
+122	名無しの少年	それこそどうでもいいかな。何をしていたの？
+124	男	このっ……ガキ……！
+125	少年につかみかかろうとした男だったが、^n無言で注がれる少年の視線に|怯[ひる]み、^n宙に縫い止められたように動かなくなってしまった。
+126	少年としては、別段脅したつもりも威嚇したつもりもない。^nただ心のままに、彼らしい奔放な感性と意思とを込めて、^nじっと男を観察しただけだ。
+128	男	……つくづく、狂った場所だ。
+129	男は忌々しげに吐き捨てて、^n少年が入ってきたドアから退室した。
+130	ばん！と荒々しく叩きつけられた扉の悲鳴も消えて、^n残されたのはラプンツェルと少年のただふたり。
+131	ラプンツェルは決まり悪そうにもぞついていたが、^nやがて意を決したようにおずおずと^n天蓋の中から立ち上がった。
+133	ラプンツェル	あ、あの……あなた、は……？
+134	少しの警戒を|滲[にじ]ませながら、遠慮がちに問う。
+135	しかし少年は彼女の頭部から伸びて床にとぐろを巻く^n長い長い三つ編みのことで頭がいっぱいだった。
+137	名無しの少年	……そうか。髪を伝って塔を上ってきた王子が^n毎日夜這いする話だっけ。ラプンツェルって。
+139	ラプンツェル	……っ！？
+140	あけすけな少年の言葉に、ラプンツェルは身をすくめる。
+142	ラプンツェル	ぁ……わ、わたくし、は……っ。
+144	名無しの少年	ううん、いいんだよ。^nきみたちはきみたちの「人生」を^n必死に生きてるだけなんだから。
+146	名無しの少年	ただ、さっきの人は危なかったね。
+147	「危なかった」──^n　少年は様々な意を込めてそう表現した。
+148	男は無遠慮にラプンツェルの心身を浸食しようとしていたが、^nもちろん最大の危険はそういったところにはない。
+150	ラプンツェル	さっきの……人。^nあの方は……わたくしの……。
+152	名無しの少年	王子様だろうが、お父様だろうが、どっちだっていいよ。^nそういうんじゃなくてね……。
+154	名無しの少年	さっきあのひと、奇妙な音を口にしたよね。^nそれがどうにも気にかかるんだ。
+155	男が短く口にした「××」──^nあの不思議な|音韻[おんいん]こそが災厄の呪文だった。^nどうにも、そう思えてならないのだ。
+156	少年の指摘に、^nラプンツェルは優雅な|挙措[きょそ]で口元を覆った。
+158	ラプンツェル	あ、ああ……そうですわね。^n捉えようにも捉えられない、音でも声でもない何かを^n突然口にされたと……感じました。
+160	名無しの少年	あれは全体じゃなくて一部だった。^nもし全部を口にされていたら、きみは今頃……。
+162	ラプンツェル	そう……ですの？
+164	ラプンツェル	……あぁ、でも、言われてみれば……。^nあの不思議な「何か」を耳にした瞬間、^n身体の皮を|剥[は]がれるような悪寒におそわれました……。
+166	ラプンツェル	助けてくださって、ありがとうございます。
+167	感謝を目に浮かべて、ラプンツェルが近づいてくる。
+168	その潤んだ瞳と甘い匂いと衣擦れの音が、^n少年のさっきの妄りがましい光景を想起させた。
+170	名無しの少年	（なんだか……きれいな底なし沼、って感じの女の人だな）
+171	きれいな女性は大好きだけれど、何かに溺れるのは嫌いだ。^n少年はラプンツェルの物腰に含まれた何かに^n気づかない振りをして、こざっぱりと微笑んでみせた。
+173	名無しの少年	うん、無事でよかったよ。^nそれじゃあ僕、もういくね。
+175	ラプンツェル	えっ、あの……もう、ですか？^nよろしければお茶など……。^nわたくし、お礼をさせていただきたいのです。
+177	名無しの少年	お茶はいいよ。^n……あ、そのかわり、やってほしいことがあるんだ。
+179	ラプンツェル	なんでしょうか？^nわたくしにできることでしたら、なんでもいたしますわ。
+180	豊かな胸の前に白い指を並べて、ラプンツェルは微笑む。^n自覚があるのかないのか、男の本能を刺激してやまない、^n表情であり、声であり、しぐさだった。
+181	けれど少年はとことん知らぬふりを貫く。^n実際、ラプンツェルへの願いはたったのひとつしかなかった。
+183	名無しの少年	ほんと？　簡単なことだよ、あのね──
+185	名無しの少年	ふふっ、あはは……あははははは！
+186	数分後、そこにはラプンツェルの長い髪を伝って^n軽快に塔をすべりおりていく少年の姿があった。
+188	名無しの少年	うわっ！？　……あはは、けっこう危ないな、これ。
+190	名無しの少年	（でも、楽しい。頼んでよかった！）
+191	ラプンツェルの髪束は頼もしく彼の体重を支えた。^n塔の壁面に突き立てたかかとは、^n石壁に絡んだツタを蹴散らしながら滑っていく。
+192	重力と少年のふんばり、ふたつの作用に摩擦されて、^n少年のぴかぴかの革靴の底は無惨に削られた。
+194	名無しの少年	うわぁーっ！
+195	地面に到達した衝撃で、少年の身体は勢いよく弾け飛んだ。
+196	四肢を投げ出しながら地面を転がり、^n何度もバウンドしながらようやく止まる。
+198	名無しの少年	いってぇ！　あー、楽しかった！
+199	けれど、少年はどこまでも楽しげに笑っていた。^nその|闊達[かったつ]な笑顔は、痛みすらも冒険の戦果に加える^nやんちゃ坊主の習性を思わせた。
+201	名無しの少年	ふー……って、あれ？
+202	起きあがったところで、^n少年は両足の間に転がるガラス|瓶[びん]を見つけた。^nしっかりと栓をされて、中には紙片が入っている。
+203	少年は早速紙片を広げた。
+204	　^m^n^cr紙片５を手に入れた。
+205	「わかった。わかってしまった。^n　あたしのなかで、^n　本当に灰色の悪魔が目覚めてしまったんだ」
+206	「グレーテルを殺したのも、オデットを殺したのも、^n　ゲルダを殺したのも、あたし。^n　あたしの中にいた灰色の悪魔がしたことなんだ」
+207	「ああ、どうしてあたしは、^n『灰色の悪魔』なんて妄想してしまったんだろう」
+208	「全部嘘なんです。全部あたしの妄想なんです。^n　特別な女の子になりたかった、それだけなんです」
+209	「だから……夢なら覚めてよ」
+211	名無しの少年	（……あー……女の子って、こういうことあるよな）
+212	恐慌に乱れたとおぼしい角張った筆跡を見ながら、^n少年はわかったふうなため息をついた。
+213	それはこの少年らしい、^n気まぐれに満ちた軽々しい同情の吐露だった。
+
+[S1014  さらに死体がひとつ  /  거기에 또 시체 하나]
+1	少年が立ち去った後、塔の上のその部屋は、^n薄青い闇のベールの中で^nますます|淫靡[いんび]な匂いを濃くしていくようだった。
+3	男	……ほら、また舌の動きがおろそかになっている。
+4	男の声が聞こえた。^n高圧的に指摘しつつも、その言葉のはしばしは、^nみっともないビブラートに乱れ、上擦っている。
+5	少女──ラプンツェルの奉仕は^nそれほどまでにこらえようのない快感を引きずり出すのだ。
+7	ラプンツェル	んっ、ごめん、なさい……れろ……っ、んぅ……。^nちゅっ、ちゅっ、ちゅぷぷっ……れろれろ……はぁ。
+9	ラプンツェル	れろ……はぁっ、んっ、ちゅぱ、ちゅぱっ……。^nんんっ、んっ……んむ……ふあぁぁっ……。
+10	真珠色に輝く豊かな乳房が、^nそのあふれんばかりの量感で男の逸物を包みこむ。
+11	彼女は乳房をこねまわして男根をこすりたて、^nそればかりか濡れ光る舌を伸ばして先端を舐めることさえした。
+13	男	しばらく会わないうちに、拙くなったな。^nこんな娼館に放りこんだのだから、^nむしろ上達するはずだと思っていたが──
+15	ラプンツェル	ん……ッ、ちゅう、ちゅるぅっ……。^n何を、おっしゃっているのか……わかりません……。
+16	男の|嘲弄[ちょうろう]は、この「楽園」に相応しからぬ生臭さに満ちて、^nラプンツェルの耳と心とを犯す。
+17	ラプンツェルは物悲しげに抗弁しかけたが、^n次の瞬間くぐもった悲鳴をあげた。
+19	ラプンツェル	──んぶっ！？　んむーッ！^nんちゅっ、ぐちゅっ、んんぅ……！
+20	男の手がラプンツェルの蜂蜜色の髪の毛を引き寄せ、^n美しい唇に無理矢理陰茎を呑ませたのだ。
+22	ラプンツェル	やめて！　んぐ、ッ、くる……し……んむぅっ……！^nひ、ゃ、やめて、おと……さま……っ。
+24	男	お義父様？　違うだろう……××。
+25	　男はいとおしげに髪を撫でながら囁いた。^n「ラプンツェル」とは異なる呼び名で。
+26	それは、もう少しで言葉になろうという寸前に崩れていくような、^n不思議な|音韻[おんいん]だった。
+27	それをこの男は──ラプンツェルが父と呼んだ男は、^n平然と口にしたのだ。
+29	ラプンツェル	は……っ。
+30	そしてそれは、^nラプンツェルの耳にはどう響いたのだろう。^n彼女はハッと目を見開き、男の顔を見上げた。
+32	男	もうメッキが|剥[は]がれたか。^n出来損ないのラプンツェルだな。
+34	ラプンツェル	ん……くっ、ち、がいます……っ。^nわ、わたし……わたくし、は……っ。
+36	ラプンツェル	わたくしは……ラプンツェル。^nそしてあなたは、王子様……。
+38	男	……ふ……。
+39	ゆるゆると腰を動かし、^nラプンツェルの胸の谷間を女性器に見立てたように扱いながら、^n男は低く笑った。
+41	男	くくく……ははは……！
+42	くぐもった笑いは瞬く間に音量をあげ、哄笑に変わる。^n男の陰茎もまた高々と立ち上がり、硬度を増した。
+43	ラプンツェルは乳房を寄せる手に力を込め、^nますます情熱的にこすりあげる。^nどこか自棄ばちなしぐさのようにも見えた。
+45	ラプンツェル	ん……ふぅっ、ちゅ、ちゅっ……んくぅ……っ。^nはぁっ、はぁっ、んちゅ……ちゅぱぁっ。
+46	男の亀頭から先走りの汁がしたたり落ち、^n潤いきった乳房はなめらかな感触で^n震え上がる陰茎の胴部をこねあげた。
+48	ラプンツェル	んっ、んっ、んぅぅ……んぷぅっ。^nれろれろ……ふぅぅんっ……ちゅ、ちゅ、ちゅうぅっ……。
+49	艶やかな唇が赤く|熾[おこ]った亀頭に吸いつき、^nその内側では熱い舌が、尿道をほじるように動いた。
+50	ぞくん！　──鋭い刺激が広がっていく。^n男は|痙攣[けいれん]めいた動きで一瞬、背を逸らした。
+52	男	そうだ……思い出してきたか。
+53	ラプンツェルは上目遣いで男を見上げた。^nその口元から伸ばされた舌は、^nチロチロとうごめいて亀頭を磨くことを忘れない。
+55	ラプンツェル	はぁ、はぁ……っ……うふふ……。^n忘れたことなんて、ありませんわ。^n毎夜毎夜お会いしている、わたくしの王子様ですもの。
+57	ラプンツェル	ふふ……確かこうして、ぎゅうっと抱きしめてさしあげて。
+58	ラプンツェルが左右から寄せた手の中で、^n乳房は限界まで膨れ上がって、^n包みこんだ男の欲望を苦しいほどに圧迫する。
+60	ラプンツェル	包みきれずにひょっこりとでてしまった、かわいらしい頭。^nこの子を、こうして優しく撫でられるのがお好きなのでしょう？
+61	舌先が亀頭に触れるか触れないかのところで^n円を描くように優しく動き、^nそのもどかしい刺激に男の腰が跳ね上がった。
+63	ラプンツェル	んっ……れろ……れろれろ……ちゅぷっ。^nんちゅっ、ちゅ、ちゅぷぷっ……ん、ちゅぱぁっ。
+65	ラプンツェル	ほら……びくびくって。^n気持ちよさそうに震えていらっしゃるのが、^nわたくしの心臓にまで伝わってきますわ……。
+67	ラプンツェル	んっ……ふぅっ。ちゅぷっ、ちゅぷぷ……れろぉ……。^nはぁ……んむぅっ……れろれろ……ちゅぅぅぅ、ちゅぱっ。
+68	ラプンツェルは全身を揺するようにして、^nますます激しく攻めたてる。
+69	熱い口腔でじゅるじゅると亀頭を舐めまわされ、^nあまりの快感に男はビクビクと四肢を震わせた。
+71	男	あぁ……なんだ、やればできるじゃないか……。^nそう、おまえはそういう女だ……っ。
+73	男	お前を娼婦にしたのは、私ではない。^nお前の母でも、母が連れてきた男たちでもない。
+75	男	──お前自身だ、××……。^nお前は生まれながらにして……っ。
+77	ラプンツェル	ちゅ、ちゅ、ちゅ……っぷはぁ……！^n……？　何か言いまして？
+78	ラプンツェルは顔を上げると、^n熱いため息を陰茎に吹きかけながら、首をかしげた。
+79	豊満な肢体は|滲[にじ]む汗に輝き、^n赤らむ頬もしとどに濡れた唇も|淫靡[いんび]そのものなのに、^nその表情は奇妙にあどけない。
+81	ラプンツェル	ごめんなさい、わたくし、あなたを味わうのに夢中で、^n睦言に耳をすませている余裕がありませんでしたの……。
+83	ラプンツェル	ねぇ、王子様。^nあなたも同じくくらい、わたくしに夢中になって。^nわたくしを味わって、とろとろに溶けていって──
+84	　実のところ、男があの^n「聞こえるのにわからない」声を発するたび、^n　ラプンツェルは出所のわからない不安に襲われていた。
+85	だから「王子様」と呼ぶ声には^nありったけの情愛と誘惑を込めた。
+86	彼女はラプンツェルで、彼は王子様。^nこれは「ラプンツェル」という物語の一幕。^nだからこそ、こうして睦みあっているのだ──
+88	ラプンツェル	ん……はぁっ、ちゅ、ちゅううっ……んむぅぅっ。^nじゅぽじゅぽ、んんっ、ちゅくちゅく……んふぅぅ……っ！
+90	男	あぁ、××……この感触……だ！^n切り捨てたはずなのに、忘れられなかった……っ。
+91	振り切るように没頭するラプンツェルとは裏腹に、^n彼女の手管に様々な記憶を刺激されたようで、^n男は「王子」らしからぬ官能まみれの声を漏らす。
+93	男	関わりを絶つことには慣れているのに、^n危険を冒してまで会いに来てしまった……！
+95	ラプンツェル	ふふ……また、そんなに苦しそうに暴れて……。^n楽になりたいのかしら？^nええ、もちろん、構いませんわ。
+96	ラプンツェルは|艶然[えんぜん]と微笑んだ。^n肉体はぬくもりを分け合っているのに、^n言葉はどこまでもすれ違う。
+97	けれど、それでいいのだと思った。^n聞きたくないものは聞かない。^n見ないものは見ない。
+98	この「楽園」はそのためにあるはずだから──
+100	ラプンツェル	んっ……はぁっ、はぁっ、んんっ、んくっ……。^n狂おしいくらいに溜めこんだもの、存分にお出しになるといいわ……。
+102	ラプンツェル	ほら……れろれろ……ちゅううっ……。^nわたくしの顔も髪も胸もすべて、^nあなたに汚されるためにあるのですから──
+103	男の絶頂が近いと見て取って、^nラプンツェルはいっそう強く胸をこねあわせた。
+104	たっぷりとした量感に根本を圧迫され、^n一方で亀頭は唾液を含んだ舌に思うさま蹂躙される。
+106	ラプンツェル	はぁっ……ちゅぱ、ちゅううっ、んんっ……！
+107	必死な息づかいと艶めかしい水音を響かせる^nラプンツェルを見下ろし、男は腹の奥からせりあがる快楽と、^nもうひとつの悦楽とに身を任せた。
+108	それは「主人」「飼い主」「調教主」としての充足。^nまた「父」という肩書きを汚す背徳の甘さでもあった。
+109	とめどなく膨らんでいくその手ごたえが^n陰茎の芯をかけのぼる精の気配と結びつき、^n二重の悦楽に攻めたてられた男は──
+111	男	ふふ……そうだ、そうでなくてはいけない。^n──私が育てた、××××という女は──
+112	……とうとう、口にしてしまった。^n禁断の呪文──今度は断片ではなく、そのすべてを。
+114	ラプンツェル	じゅぷぷぷ……ぷはぁっ！^nい、いま……なんて……？
+115	忘我の男が口にした言葉が気になって^nラプンツェルは問いかけたが、^nまともな返答が得られるわけはなく。
+116	返事のかわりに、男の手が伸びてきて^nラプンツェルの頭を押し下げた。
+118	ラプンツェル	──んぶっ！？　んううぅぅぅぅぅぅ──！
+119	不意打ちで口を|塞[ふさ]がれ、^nラプンツェルの口腔と舌が苦しげに|蠕動[ぜんどう]する。
+120	そうして彼女の屈辱と苦しみをも快楽に加えて、^n男は身勝手な絶頂に至った。
+121	──びくんっ──！
+122	ラプンツェルの口内で、^n陰茎がまるで心臓のように勢いよく|撥[は]ねあがり、^n思うさま精を吐きだした。
+124	ラプンツェル	んっ！　んっ、んぅぅ……ぷあぁぁぁ──……っ！^nはぁ、はぁ、はぁ……っ。
+125	まるで小便のようにびしゃびしゃと|夥[おびただ]しい、^nだらしないとさえいえる射精だった。
+127	ラプンツェル	んっ……ぅ……はぁぁっ……。^n熱い……ふふ……いっぱい、お出しになりましたわね……。
+128	顔から髪からしとどに垂れる体液を指先ですくいながら、^nラプンツェルは男の暴挙を許す聖母の顔で微笑む。
+129	しかし次の瞬間、その表情は一変した。
+131	ラプンツェル	──ぇ……っ！？
+132	あまりの驚愕に声がかすれる。
+133	いつの間にか、^n見慣れた部屋の様子が一変しているのに気づいたのだ。
+134	──部屋の中に、|淀[よど]んだ闇が満ちている。^nさっきまでの、秘め事のための薄闇とは異なり、^n底冷えのするような憂鬱な暗さの。
+136	ラプンツェル	ひ……っ……。
+137	すぐにその原因を覚って、^nラプンツェルの喉は恐怖にひきつった。
+138	　さっきまで確かにあった──^n「王子」を迎え入れたはずの窓が、^n　黒々とした石壁に閉ざされている。
+139	……まるではじめから窓なんてなかったみたいに。
+140	驚愕がゆっくりと|戦慄[せんりつ]に変わっていくのを感じながら、^nラプンツェルの視線はうろうろと彷徨った。
+141	そして、もうひとつの出口であるドアに行き着いたまさにその時、^n木の扉がすうっと石壁に変わっていく^n信じがたい光景を目のあたりにすることになった。
+143	ラプンツェル	え……ぇ……？　どう、して。
+144	「聖書」にはこんな記述はなかった。^n　あるいはこれが「おばあさま」の怒りなのだろうか。
+145	ラプンツェルには「聖書」以外の世界も認識されていた。^n彼女はそういう「患者」だ。
+146	けれど、そのもうひとつの世界においても、^nこの変質は異様だった。
+148	ラプンツェル	あ……あぁぁ……どう、して。
+150	ラプンツェル	どうしましょう、ねぇ、あなた。王子様。^nわたくしたち、このままでは──
+151	|慄[おのの]き、取り乱し、^nそこでやっと愛しい人の存在を思い出して^nラプンツェルは視線を向けた──けれど。
+153	ラプンツェル	いゃっ……！？
+154	　なんということだろう。^n　今しがたまで肌をあわせていたはずの、^n「王子」の様子まで一変していた。
+155	くすんだ灰色の肌。|濁[にご]りきった灰色の眼球。^nまるで墓から掘り出されたばかりのようないでたちに、^n冷たい死の臭いが立ちこめる。
+156	ラプンツェルは、彼をとりまく灰色の霧が^nざあ……と渦巻いて、けたたましく笑うのを聞いた。
+158	？？？	あんたは悪くない。^n悪くないけれど誰よりも人を不幸にする。
+160	ラプンツェル	あ、あなたは……誰？　どうしてこんなことを……。
+162	？？？	さて、どうしてでしょう。^n問うても溶けない数式だってあるんだよ。
+164	？？？	ね、狂っていないのに人を狂わせる装置はさ。^n狂った人によって破壊されるべきじゃないのかい？
+166	？？？	だからね、あんたの部屋にはもう、朝はこないよ。^nあんたはもう、おばあさまの前で^nいい子を演じることさえできないのさ。
+168	ラプンツェル	どういうこと？　
+169	+ラプンツェル	──きゃあっ！？
+170	無形の力に思うさま横っ面をはたかれて、^nラプンツェルの身体は寝台の上に倒れこんだ。
+171	「王子」が──いや養父が──^n　いや、もはや養父でもない「何か」が、のしかかってくる。
+172	腐った土のような、血をすする獣のような、^n忌まわしい臭いのする息を吐きかけながら。
+173	いやらしく湿った手とも舌ともつかないものが、^nラプンツェルの柔らかな身体をまさぐる。汚す。
+175	ラプンツェル	あっ……い、や……いやぁっ、やめてぇ！
+176	全身を犯され、ラプンツェルは官能のかけらもない^n絶望と恐怖の悲鳴をあげる。
+177	それは彼女を閉じこめる石壁に^n虚しく吸いこまれていった。
+178	──そうしてラプンツェルを待っていたのは、^n決して開けない夜。
+179	いつ果てるともない|淫蕩[いんとう]の饗宴だった。
+181	ラプンツェル	んっ、ぁ……あぁぁぁっ！　はぁっ！^nいや……いや、いや、いやぁ……！
+182	暗い部屋の中で獣が動く。^nラプンツェルの身体をなめまわす。撫でさする。貫く。
+184	ラプンツェル	はぁ、はぁ、はぁぁ……っ、だ、め……ぇ……。^nわたくし……もう……無理……です……っ。^nお願いです、から……もぅ、やめて……！
+186	ラプンツェル	──ひっ……うぅぅぅぅぅ──ッ！？^nいっ……痛いっ、やめ、て……！^nそんなところ……いや……いやぁぁぁぁぁ！
+187	──自分はとっくに「汚された」存在だと、^n心の奥でラプンツェルは思っていた。
+188	けれど、これは比較にならない汚辱だ。^n四肢がきしむ。悲鳴が喉を傷つけながら|迸[ほとばし]る。
+189	すでにぼろ雑巾と化した小動物の遺体を、^n細切れになるまでもてあそぶような、^n冷たい好奇心と残酷な遊び心に満ちた蹂躙だった。
+191	ラプンツェル	あっ……がっ……う……ぐぅぅっ……。^n……ひ……ぎぃ……ぃ……。
+192	やがてそののどは枯れて、^nひゅうひゅうとむなしい喘鳴だけが漏れるようになる。
+193	それでも宴は終わらない。^nラプンツェルのすべてを食い散らかしながら、続く──
+194	そして翌朝、「楽園」でみっつめの死体が発見された。
+195	それは不思議なことに、普段とかわらぬ部屋の中で、^nまるで何日も閉じ込められていたように^n衰弱しきった様相で見つかったという。
+196	ラプンツェルの亡骸に残された様々な痕は、^n死の間際まで──いや、絶命したあとも続けられた、^n淫蕩で冷酷な仕打ちを物語っていた。
+
+[S1015  おまけに死体がひとつ  /  덤으로 시체 하나 더]
+1	　──翌朝、少年は知るよしもなかったが、^n「楽園」でみっつめの死体が発見された。
+2	それは不思議なことに、普段とかわらぬ部屋の中で、^nまるで何日も閉じ込められていたように^n衰弱しきった様相で見つかったという。
+3	その職員の亡骸に残された様々な痕は、^n死の間際まで──いや、絶命したあとも続けられた、^n残虐な仕打ちを物語っていた。
+
+[S1016  オデットと？  /  오데트와 누구?]
+1	次の日の朝は、いちだんといい天気だった。^n少年はカーテンからこぼれる陽の光に目を細め、^nうんと伸びをする。
+2	身支度をすませてから、少年はあることに気づいて、^nあれ……と呟いた。
+4	名無しの少年	（昨日は黒い女の子の夢を見なかったな）
+5	他の誰かの夢にお邪魔したのだろうか。^nそれとも、もう消えてしまったのだろうか。^nあるいは──
+7	名無しの少年	（「そういう夢」ってだけだったのかもしれない）
+8	　黒の少女はたまたま印象に残っただけで、夢でしかなく、^n「警告のために語りかけてきた」わけではない。^n　──それはそれで、ありそうなことだった。
+10	名無しの少年	さて……今日はどうしようかな。
+11	考えてみたものの、なかなかよさそうな目標は見つからない。
+13	名無しの少年	（とりあえず、適当にぶらついてみるか……）
+14	少年はもうひとつ伸びをして気持ちに区切りをつけると、^n白い部屋を後にした。
+16	名無しの少年	（……そうだ。今日こそオディールを見つけよう）
+17	今日の目標はあっけなく決まった。^nオディールもオデットも、最初の邂逅以来姿を見かけない。
+18	故に伝えたいことも伝えそびれていたし、^n彼女に聞きたいことも聞けずじまいだったのだ。
+20	名無しの少年	（彼女に聞きたいことは山ほどあるけど、^n　まずはお礼を言いたいな）
+21	ここのところ、目覚めるたびに頭がすっきりしている気がする。^nそしてそれは、先日からオディールから渡された薬を^n律儀に呑みつづけているおかげという気がしてならないのだ。
+23	名無しの少年	（相変わらず記憶も名前もないけど、^n　まともにものを考えられるってのはありがたいものだね）
+24	少年は朝食に添えられていたドーナツの「おくすり」を^n無造作にポケットに突っ込み、^nかわりにオディールからもらった錠剤を口に含む。
+26	名無しの少年	よし、じゃあいこう。
+27	まずは日課、墓場に|赴[おもむ]いて^n今日の「おくすり」を埋めるところから^n１日をはじめよう。
+28	少年は意気揚々と足音高く、部屋を後にした。
+29	昼間は、特に興味を惹かれる人物にも場所にも出会えず、^nそろそろ見飽きてきた場所を散策するだけで終わった。
+30	顔見知りに会えたのは、夜になってからのことだ。
+32	名無しの少年	（あ……あれは、オデット？）
+33	庭園を行き過ぎて湖の|畔[ほとり]を歩いていると、^n月の光を浴びて|佇[たたず]む純白の姿が現れた。
+35	名無しの少年	こんばんは。
+37	オデット	あら、こんばんは。
+38	オデットは振り向き、にっこりと微笑んだ。
+40	名無しの少年	あれからどう、変わりない？
+42	オデット	ええ、特に。^nありがとう、気にしてくれて。
+44	名無しの少年	ううん、別に。気にしてたっていうかさ……。^n何か最近、楽園の様子がおかしいから。
+45	気がつくと少年は、^n吐露するつもりのなかった思いを口にしていた。
+47	オデット	楽園の様子が……おかしい？
+48	オデットはおっとりと首を傾げる。^n少年は、この無垢で害のない印象に心を許したから、^n思わず話したくなったのかもしれない。
+49	あるいは──^nこの時少年はすでに感づいていたのだろう。
+50	彼女が打ち明けるに値する存在であると。
+52	名無しの少年	……なんだかざわざわしているのに、変に静かっていうかさ。^n人だって減ってる気がする。^n知らないところで何かが起こってる気がするんだ。
+54	オデット	そう……なのかしら。^nなにかがあるのだとしたら、怖いわね。
+55	オデットは冷たい夜風から身を守るように、^n震えながら自らを抱きしめた。
+56	少年もまた、寒気が伝染したように身を震わせる。
+58	名無しの少年	（……？　いや、夜風のせいじゃない）
+59	本当にあたりが寒くなったのだ。^nまるでこのあたりにだけ急に冬が訪れたように。
+61	オデット	あ……っ。な、なに？
+62	オデットが少年の肩越しを見て、|怯[おび]えたように瞳を瞬かせる。
+63	その視線を追って、少年が振り向いた先には──
+64	──「何か」が|佇[たたず]んでいた。
+65	くすんだ肌合い、不明瞭な顔立ち。^n悪夢から抜け出てきたようなその全身を、^n灰色の障気がとりまいている。
+66	少年は、自らの腕に^nざらつくほどの鳥肌が立っていることに気づいた。
+67	意識するより早く、少年の肉体には警戒が漲っていた。^n心臓が早鐘を打ち、四肢は自然にたわんで力を溜める。
+69	オデット	へん、ね。ええ。変よ。^nわたし、なにを見ているのかしら。^nわたしの目、おかしくなってしまったのかしら。
+70	一方で、オデットは^n見ているものが信じられないと行った様子で、^nさかんにまばたきを繰り返している。
+71	灰色の「何か」はあきらかに^n彼女を目指して近づいてくるにも関わらず^nそのたたずまいには警戒のカケラもない。
+73	名無しの少年	オデット……。
+74	逃げよう。そう呼びかけるつもりだった。^nけれど灰色の「何か」はそれを見抜いたように、^nぐぅっとふたりに向かった身を乗り出した。
+76	名無しの少年	……！
+78	？？？	……ふふふ……。
+79	陰鬱な含み笑いが、^nゾッとするほど不気味な|音韻[おんいん]で響く。
+80	そして「それ」はオデットの|無垢[むく]な顔を覗きこみ、囁いた。
+82	？？？	××××──
+84	オデット	……！？
+86	名無しの少年	（……！？　今のは……）
+87	「声」として届き、通じる「言葉」であることもわかるのに、^n　不思議と意味のとれない不気味な|音韻[おんいん]。
+88	それが何を示すのかはわからないが、^nまがまがしい空気に打たれて少年は総毛立った。
+89	──逃げるべきだ。今すぐ。^nできることなら、オデットの手も引いてやって──
+90	正しい行動はわかるのに、思うように身体が動かない。^n自分の意志以外のものに縛られるのは、^n少年にとっては耐えがたい屈辱だった。
+92	名無しの少年	（くそ……！　なんだ、こいつ！）
+94	？？？	ねぇ、××××──
+95	ねっとりと糸を引くような口調で、そいつは繰り返した。
+96	　オデットは声もなく、ただビクリと身を震わせた。^n　まるで肉体をすり抜けて魂を鷲掴みにされたような反応に、^n「それ」の口元がさらに大きく裂ける。
+98	？？？	ねぇ、××××。^nいつまでお姫様ごっこを続けるつもりなの？^nあんたのように罪深いお姫様、この世にいると思う？
+100	オデット	ひ……ぁ……っ。
+102	？？？	思いだしなよ、××××。^nあの日、あんたはなにを見た？
+104	？？？	あれはこの「楽園」の外の世界での話。^nだけど、「ジークフリート」はいた。「オディール」も。
+106	？？？	あいつらは、あんたに何をしたのかな？^nそしてあんたは、何をし返したのかな？
+108	オデット	あ……ぁ……。
+109	オデットが震える息を吐く。^nそして──
+
+[S1017  鳥の結末  /  새의 결말]
+1	──頬も肩も、袖から覗く指先にいたるまで硬直させ、^nカタカタと小刻みに揺れていたオデットが、^n不意に弛緩した。
+2	その様子に|却[かえ]って不穏なものを感じた少年は、^nオデットの肩に手を置いて呼びかける。
+4	名無しの少年	オデット？　オデット、大丈夫？
+6	オデット	あ……あぁぁ……。^nわたし……その日……見たもの……。
+8	名無しの少年	（……オデット……？）
+9	ああ、これはもう、大丈夫じゃない──^n……と、少年の胸を悲しい確信が打った。
+10	もう彼女の心に自分の声は届かない。^nオデットは支配されてしまった。^n灰色の「何か」と、それが連れてきた残酷な運命に。
+12	オデット	あのひと……が、オディールと……あぁ。
+13	オデットの瞳が絶望の色に暗く染まった。^nそのおぼつかない焦点は、「何か」によって想起された^nもっとも悲しい過去に注がれているのか──
+15	オデット	……でも、わたし、知ってた。^nあのひとはオディールを選ぶって。^nいつもいつもそうだった。
+16	オデットは苦しげに息をつぎながら、^n涙のかわりのようにぽろぽろと言葉をこぼした。
+18	オデット	どうして？　わたしがオデットだから？^n……ええ、そうね。聖書に書いてある通りだもの。
+20	オデット	それがわたしの運命なの。^nオデットは……わたしは……。
+22	オデット	ジークフリート様の裏切りを知って……。
+24	オデット	──湖に、身を……投げて──
+26	名無しの少年	……オデット。
+27	少年はオデットの袖をそっとつかんだ。^nもう引き留められないことは知っていた。^nだからこれは、儀式めいた制止。
+28	オデットはゆっくりとかぶりを振って、^n澄んだ目で少年を見つめた。
+30	名無しの少年	……！
+31	胸がズキリと痛んだ。^n頭の奥で、何かが騒いでいる。^nきっと「心当たり」というやつだ。
+32	「いつだって選ばれる片割れ」^n「いつだって選ばれない自分」^n「屈折」「失望」「絶望」「あきらめ」──
+33	オデットの言葉のはしばしから見える彼女の物語が、^n少年の心の奥に食いこんでざわめかせた。
+35	名無しの少年	（……今のは……）
+37	オデット	これで終わるの。わたしの物語が。^n──長かったなぁ。
+38	それが最後の言葉だった。^n自分の記憶に気を取られて少年の指がゆるみ、^nオデットの袖がすり抜けていく。
+40	名無しの少年	あ……。
+41	と声を漏らした時にはすでに、^n湖面に羽毛の群のような水しぶきがあがっていた。
+43	名無しの少年	…………。
+44	──そしてあたりには静寂だけが残された。
+45	オデットに破滅を与えた灰色の「何か」は、^nすでにその場から消え失せていた。
+47	名無しの少年	（……オデット）
+48	顔をあわせること自体が２度目だ。^n思い入れだの情だのがあるわけではない。
+49	けれどオデットが最後に吐露した彼女の本音と、^n無力で苦しげな表情が胸にこびりついて、^n少年は去りがたく湖面を見つめていた。
+50	──そこに、背後から足音が聞こえた。
+51	音だけでも、しなやかな身のこなしが窺える。^n振り向く前から誰のものかわかった。
+53	名無しの少年	……オディール。
+55	オディール	……今、あいつが飛び込むところが見えたけど。
+56	世間話のように切り出される。^nけれどオディールのなにげない口調の裏にある痛みは、^n少年の胸をズキズキと疼かせた。
+58	名無しの少年	うん。オデットは、いってしまったよ。
+60	オディール	ああ、そう。^n──あっけないもんね。
+61	それこそあっけなくオディールは言った。
+63	オディール	さて、それじゃ、あたしのほうの幕も下ろそうかしら。
+65	名無しの少年	きみのほうの、幕？
+67	オディール	ええ、そうよ。^nあたしはあたしで、聖書に記されている通りに。
+68	オディールはどこか不敵な笑みを残して──
+70	名無しの少年	……！
+71	止める間もなく、湖に飛びこんだ。^nあがった水しぶきすらもそっくりだ、と^n少年は|埒[らち]もない思いに囚われる。
+73	名無しの少年	…………。
+74	少年はいよいよ飲みこみがたく膨れ上がった^n思いを抱えながら、ただ、たたずみつくした。
+75	オデットの意思はわかった。^nあの瞳がすべてを物語っていた。^n罪悪感がチリチリとうずくくらいに、理解できた。
+76	けれど、オディールは理解できない。^nもし自分がオディールの立場でも、^nあんなふうな結末は選ばないだろう。
+78	名無しの少年	……帰ろう。
+79	少年はため息混じりに呟いて、たったのそれだけで、^n全身にからみついてくる様々な思いを振り切った。
+80	湖に背を向けて歩き出す。^n彼はただの一度も振り返ることをしなかった。
+
+[S1018  罠  /  덫]
+1	顔を伏せて後ずさったオデットを、^n少年は気遣わしげにみやったが──
+3	名無しの少年	オデット、……？
+4	鼻梁半ばまで落ちた濃い影の下、^n彼女の唇が歪むのを目の当たりにして、息を呑んだ。
+5	──オデットは、笑っていた。^n不敵に、|不遜[ふそん]に、心からの愉悦を示して、^n三日月のような笑みを形作っていた。
+7	オディール	──お生憎様。魔法の呪文、間違えたようね。
+9	？？？	……！？
+10	声音が一変する。^n羊の皮をかなぐり捨てて、狼が現れたような唐突さで。
+12	名無しの少年	（ああ、やっぱり）
+13	少年の胸を、そんな感慨がよぎった。^n頭の奥、意識より深い階層で、彼は覚っていたのだ。^n今夜会ったオデットは、オデットではないと──
+15	名無しの少年	オディール……！
+17	オディール	確かにそれは、あいつにとっての滅びの呪文だわ。^n築き上げてきた何もかもが、一瞬にしておじゃんになってしまう。
+18	意趣返しのつもりか、^n意地悪く歪んでいた表情を^n物柔らかなオデットの微笑みに戻してオディールは言った。
+20	オディール	けれど、残念ね。今日のオデットはあたし。^nそんなふうに呼んだって、ちっとも響かない。
+22	オディール	とっととあのチンケなノートの中に帰るのね！
+23	オディールに一喝され、^n灰色の「何か」は悔しげに消えていった。
+24	その様相を見守る少年の胸に、^nあるキーワードが浮かび上がった。
+26	名無しの少年	（……「灰色の悪魔」──）
+27	「灰色の悪魔の絵本」の、あるページを思い出す。
+28	あの中には探り探りに設定を作っている最中の「灰色の悪魔」が、^n様々な筆致でつづられていたけれど、^n最も新しいものが先刻の「何か」に似ている気がするのだ。
+30	名無しの少年	（灰色の悪魔が、本の中から抜け出てきた？^n　……そんなバカな）
+31	確かにこの「楽園」はそういう場所だ。^n住んでいるのは、物語から抜け出てきたと称する少女ばかり。^nけれどそれは病によるもので、つまりはただの妄想で──
+33	名無しの少年	（……でも、今のあいつは）
+34	どうにも理屈が付けられない^n非実在の存在にも関わらず、確かに少年の前に現れた。
+35	あのまがまがしい存在感、^n何かのトリックによるものとは思えない。
+37	名無しの少年	……なんだったんだ、あいつ。
+38	遅れてきた|戦慄[せんりつ]が思わずそんな言葉になる。^n少年の|傍[かたわ]らで、オディールはひょいと肩をすくめた。
+40	オディール	ただの慌てん坊よ。
+41	オデットに化けたオディールに^nまんまと騙された|粗忽者[そこつもの]──と彼女は言いたいのだろう。
+42	少年は深いため息をついて、しみじみと返した。
+44	名無しの少年	そうかな。誰だって騙されるよ。
+45	話がしたいと少年が持ちかけ、^nオディールがぞんざいに首肯して、^nふたりはオデットとオディールの部屋へと戻ってきた。
+46	大木からぶらさがる大きな鳥かごの下を通りかかると、^nキィ……と|檻[おり]の鳴る悲しげな音が聞こえた。
+48	名無しの少年	（もしかしなくても、オデット……？）
+49	オディールがオデットに化けてうろついている間、^nオデットのほうは鳥かごの中でおとなしくしていたのだろう。
+50	自分から閉じこもったのか、^nオディールに閉じこめられたのか──^n──なんとなく、後者のような気がした。
+51	と、木々の合間から^nいつもの衣装に着替えをすませたオディールが戻ってきた。
+52	やはり彼女には黒衣が似合う。^n少年は我知らずホッと息を吐いて、話しかけた。
+54	名無しの少年	きみ、ずいぶんとうまいじゃないか、オデット役。
+56	オディール	よしてよ、あのバカのふりがうまいだなんて、^n侮辱にしかなりゃしない──
+58	オディール	と、普段なら怒鳴りつけていたところだけど。^nまあいいわ、あんたには借りがあるから。
+60	名無しの少年	借り？
+62	オディール	そ。あの幼稚なノートやら、湿っぽい紙片やら、^nあたしにヒントをくれたからね。
+64	オディール	おかげさまで、あいつを罠にかけることができたってわけ。
+66	名無しの少年	罠ね。
+67	オデットのふりをしてうろつくことが「罠」なのだろう。
+68	オディールは、あの「灰色の悪魔」が^nオデットを襲うことを予見していた。
+69	それはあの日見つけたメモの「予言」によるものだろうか。^nそれにしても、彼女は「灰色の悪魔」が^n何をしかけてくるのかさえも見抜いているようだった。
+71	名無しの少年	──ねぇ、そろそろ知っていることを^n教えてくれてもいいんじゃない？
+72	駄目で元々のつもりだったが、^nオディールはあっさりとうなずいた。
+74	名無しの少年	（もしかしなくても、かなり機嫌がいいのかも）
+76	オディール	ええ、いいわよ。^n見たところ、あんたって情に流されないし、^n甘い夢なんて食えやしないものを好まないタイプだし。
+78	名無しの少年	まあ、そうかもね。
+80	オディール	いろいろと語るよりも、こいつを見てもらったほうが早いかしら。
+81	　^m^n^cr紙片４を手に入れた。
+82	オディールは指先に挟んだ紙を少年に渡した。^n紙の色にも筆跡にも大いに憶えがある──
+83	いうまでもなく、これも「灰色の悪魔の絵本」の１ページなのだろう。^nオディールはオディールで調査を進め、^nこんな成果を収めていたということか。
+84	「それは、世界のすべての境界線上を漂う、^n　灰色をした、死と|頽廃[たいはい]の悪魔──」
+85	紙片の書き出しは、「灰色の悪魔の絵本」の^n破られていないページでも見かけたくだりだった。
+86	これを書いた「アリス」にとっては、^nお気に入りのフレーズなのかもしれない。
+87	「彼はひとの命を奪うことを糧にしている。^n　少なくとも１日にひとりは殺す」
+89	名無しの少年	（この表現にも心当たりがあるな……）
+90	少し考えて思い当たった。^n夢の中で「黒の少女」が伝えてきた言葉だ。
+91	「ひとの命、絶望、涙、悲鳴、それらが彼の腹を満たす。^n　それゆえに彼は、一度獲物の魂を捕らえたら逃がさない」
+92	「獲物のもがく手ごたえを楽しみながら、^n　じわじわと死にいたらしめる。^n　あたかも巣にかかった蝶をなぶる蜘蛛のように」
+94	名無しの少年	（迷惑なお化けだなぁ）
+95	率直な感想を胸の中で呟いて、^n自分で自分の言葉に引っかかった。
+97	名無しの少年	（……お化け、か）
+98	湖の|畔[ほとり]で出会った「灰色の悪魔」を思い出す。^n火葬場の煙突から生まれた煙が形を取ったような、^n不吉な死の気配を漂わせる化け物だった。
+100	名無しの少年	（僕、お化け見ちゃったんだな）
+101	あれと相対している間は^n非現実的なおぞましい気配に圧倒されたけれど、^nこうして離れてしまうと夢か何かのような気がしてくる。
+103	名無しの少年	オディール、今さらかもしれないけど。^n……あれってお化けだよね。
+105	名無しの少年	その昔、「灰色の悪魔の絵本」を書いたアリスが^nここにいた時代に、^n本当に「灰色の悪魔」が生まれてしまった。
+107	名無しの少年	それはいかなる手段でか、^n昔の「グレーテル」や「オデット」を^nどんどん死に至らしめていった。
+109	名無しの少年	　それでもって、今この「楽園」に^n「灰色の悪魔」が復活して|徘徊[はいかい]中──^n　この認識であってる？　あれ、ほんとにお化けなの？
+110	まるきり子供だましのホラー小話めいた筋書きだ。^n一蹴されることも期待して確認したのだが、^nオディールはあっさりとうなずいた。
+112	オディール	認めたくないけど、そうね。^nこの世ならざる存在というやつ。^nもっとも、しでかしていることは人間くさいけれど。
+114	名無しの少年	（夢の中に出てきた黒い女の子は、^n　楽園という場のエネルギーを借りて実体化したって^n　言ってたけど……）
+116	名無しの少年	（あれ、きっとそのまんまの意味だったんだ……）
+117	少年は観念して、あれがお化けであること、^n命を奪うお化けがうろつく場所で生活している^n自らの危うい状況などを認めた。
+119	名無しの少年	（夢ならさめてほしい、っていうのはこのことだな）
+120	とにかく続きに目を通す。^nするとこんな一文が目に飛びこんできた。
+121	「灰色の悪魔が獲物の魂を掌握する方法。^n　それは獲物の『本当の名前』を知ること」
+122	「灰色の悪魔の前では、『本当の名前』は禁断の呪文になる。^n　面と向かって唱えられたら最後、^n　あとは死を迎えるまで蹂躙されるしかない」
+124	名無しの少年	……本当の名前……。
+125	少年は呟いた。^nと同時に頭の奥にひらめきが走って、息を呑む。
+126	それが、読めるはずなのに読めない、^n聞き取れそうで聞き取れない、^nあの不思議な言葉の正体なのだろう。
+128	オディール	ええ、そう。^nいうまでもなく、この「楽園」においては何よりの禁忌よ。
+129	オディールが少年の頭の中を見透かしたように言った。
+131	名無しの少年	本当の名前なんか思い出したら、魔法が解けちゃうからね。
+132	「本当の名前」を知られることが命取り、というのは、^n　実に|お伽話症候群[フェアリーテイル・シンドローム]の患者らしい設定だ。
+134	オディール	魔法なんだか呪いなんだか。^nとにかく、患者の認識を芯から揺るがす、^n効果的な嫌がらせであることにかわりはないわ。
+136	オディール	そして、それは知ろうと思えば案外たやすいのよ。
+138	オディール	例えば医者の持っているカルテ。^n本人が持ちこんだものへの記名。^n本名を知っている外部の人間が紛れ込む、とかね。
+140	オディール	そして、ターゲットは患者だけじゃないわ。^n医者や看護師なんていい獲物よね。^nあいつら、胸に名前を掲げて歩いてるんだから。
+142	名無しの少年	（ああ……そういうことか）
+143	紙片に記されていた、不可解な少女たちの死。^nその原因がやっと見えた。
+144	　グレーテルといっしょに見つけた紙片は、^n「看護師の持つカルテ」に書かれていた本名について^n　言及されていた。
+145	オデットとともに発見した紙片もそう。^n過去の「オデット」の写真の裏には、日付とともに^n被写体の名前が書きこまれていたのだろう。
+146	ゲルダの場合は、確か「宝物の似顔絵」。^n似顔絵には、モデルの名前を書き添えるものだ。
+148	名無しの少年	（それで……さっき、灰色の悪魔が^n　オデットに化けたオディールを襲いにきたわけだけど……）
+149	先刻、灰色の悪魔はオデットに対し、^n禁断の呪文ならぬ彼女の本名を唱えた。
+150	けれど実はオディールに入れ替わっていたため、^n本名が設定通りの効力を発揮することなく、^nオディールは無事だったのだろう。
+151	──そこまで把握して、ふと少年は不思議に思った。
+153	名無しの少年	さっきのやつはオデットの名前を口にしてた。^nそれはどこから漏れたの？
+155	オディール	罠だって言ったでしょ。^n漏れたんじゃなくて、漏らしたのよ。
+156	オディールが、過去の「オデット」について書いた紙片を見た時、^nオデットの写真を持っていると言っていたことを思い出す。
+157	もしかしたら、オデットの名を記した写真を「わざと」^n無防備な状態に置いて灰色の悪魔に見せ、^nオデットのふりをして撃退したのかもしれない。
+159	名無しの少年	……ずいぶん強いんだね、きみは。
+161	オディール	有利なカードを持っているだけよ。^n本当のあたし自身という、ね。
+162	そういえばオディールは、^n最初から「名前」が読めると言っていた。
+163	それは彼女が「オディール」の皮をかぶっただけの^n本当の「誰か」だからなんだろう。
+165	名無しの少年	……そういえば。
+167	名無しの少年	オディールにもらった薬を毎朝飲んでたら、^nなんだか意識がはっきりしてきたっていうか、^n診療のあとでふらふらしなくなったよ。
+169	名無しの少年	もしかしなくても、ここって、^n患者を治してるんじゃなくて、作り出してるのかな。
+171	オディール	ええ、その通りよ。
+173	オディール	　順調そうで何より。^n　そのうちあんたも本当のあんた自身を取り戻して、^n「本当の名前」を読めるようになるでしょう。
+175	名無しの少年	ああ、そうだね。^nなんとなく、それは遠くないような気がする。
+177	オディール	どうしてそう思うの？
+179	名無しの少年	僕は……なんだかもともと、^nここの空気に染まりきれないような気がしてたから。
+181	オディール	奇妙なこと。^n患者として入ってきたからには、^nあんたも「|お伽話症候群[フェアリーテイル・シンドローム]」を発症していたはずだけど？
+183	名無しの少年	……でも、きみは発症していない。
+185	オディール	あたしにはちょっとした目的があったからね。
+187	名無しの少年	僕にもきっと、何かあったんだろう。^nだって僕は「|お伽話症候群[フェアリーテイル・シンドローム]」を患うような人間じゃないよ。
+189	名無しの少年	名前を変えたり、別の誰かになったりしなくても、^n楽しく生きていたような覚えがあるし。
+191	オディール	ぷ……っ、あはははっ！^nあんた、さりげなく残酷なことを言うのね。
+193	名無しの少年	残酷かな？　まあいいや。
+194	そうして、共犯者めいた空気で笑いあったふたりは^n示し合わせたように動いた。
+195	過去この楽園で何人かの少女を殺した「灰色の悪魔」は、^nなぜか現在の楽園に蘇って人を襲っている──
+196	　その状況に対してとりうる手段といえばひとつ。^n「本当の名前」を隠し通すことだ。
+197	故にふたりは、顔見知りの少女たちを捜しあてては、^nその身の回りにある氏名入りの物品に対し、^n捨てるか、名を読めないように潰すかの処理を施した。
+198	記名ごと毛布の端を切り取ったせいで、^nグレーテルには激しく泣かれてしまったが、いたしかたない。
+199	次に彼らはカルテの始末のため、診察室と資料室に忍びこんだ。
+200	ここ数日で少なくない死者を出した「楽園」は^nどこもかしこもごたついていて、隙だらけだ。^n拍子抜けするほどあっさりと終えることができた。
+201	医者や看護師は相変わらず^n無防備に胸のネームプレートを光らせて過ごしているが、^nそれに対して警告することはしなかった。
+202	「１日にひとりは殺す」習性の灰色の悪魔から^n　むやみに餌を奪ったら、どんなことになるかわからない。
+203	囮は必要だ、仕方がない──と、^n口に出してもいないのに、少年とオディールは^n方針を同じくしていた。
+
+[S1019  だあれもいない  /  아무도, 아무도 없어]
+1	その日、心身ともに疲労していた少年は、^n寝支度を整えてベッドにもぐりこむやいなや、^nすぐに眠りの世界へと旅立ってしまった。
+2	そして──
+4	名無しの少年	（……あ……）
+6	名無しの少年	（今日は夢に来たのか、彼女）
+7	彼女が夢に訪れたというよりも、^n自分が彼女のいる深みに沈んでいるのかもしれない──^n不思議な浮遊感を覚えつつ、少年は思う。
+9	黒の少女	ゲルダ……ごめんね……寒かったでしょう……。
+10	まず最初に聞こえたのは、|悔悟[かいご]に震える声だった。
+12	黒の少女	あぁ、ラプンツェル……。^n最後の最後まで苦しかったでしょう……。
+13	彼女のほうこそ苦しそうだ、と少年は思った。
+15	黒の少女	オデット……オディール……。^nどうにかして、救いたかった……。
+16	身を振り絞るような嘆きに、少年の胸も締めつけられた。
+18	黒の少女	ありが……とう……。^nみんなを、守ってくれて……。
+19	弱々しい声が、精一杯の感謝を込めて彼を迎えた。
+20	どこか頼りなげに揺れていたその姿が、^nやっと鮮明な輪郭を持った。
+21	けれどそれは時折受像の怪しいテレビのように乱れて、^n散漫にばらけかける粒子を気力で繋ぎとめる^n彼女の苦しさが伝わってきた。
+23	黒の少女	……ねぇ……あなた……。^n……どうか……聞いて……。
+25	名無しの少年	昨日は来なかったけど、どうしたの？^nそれに、やけに声が小さいね。
+27	黒の少女	私は、もう……消えかけて……いて……。^n最後の……力……あなたに……お願い……。
+29	名無しの少年	できる限りはするよ。^nでも、できる限りのことしかできないよ、僕は。
+30	少年の優しい口調には、同情的な快諾と、^n安請け合いを避けたい警戒心とが露骨に混在していた。
+32	黒の少女	アリス……一番、危うい子……。
+33	少女は声を震わせて訴える。
+35	名無しの少年	アリス……。
+36	アリスというのは、^n灰色の悪魔の絵本をしたためた昔の「アリス」ではなく、^n現在楽園にいるあのアリスだろう。
+37	そういえば、初日に顔を合わせて以来、見かけていない。^n目まぐるしい奇矯な少女だったけれど、親切ではあった。^n思い浮かべれば、あの毒々しい姿がなぜか懐かしい。
+39	黒の少女	私……そばにいた、けど……もう……もたないから……。^n守ってあげて……お願い。
+40	もしかしたら昨日の夜、黒の少女が夢に現れなかったのは、^n眠るアリスを守りにいったせいなのかもしれない。
+41	それどころか、一昨日に比べてこの消耗ぶり、^nすでに何かしらの力を振り絞って、^n灰色の悪魔と「戦った」のかもしれなかった。
+43	名無しの少年	……わかった。アリスだね。
+44	うなずくと、黒の少女は^nほうっと深い息を漏らして微笑んだ。
+45	「自分の役目は終わった」──^n　陽炎のように揺れる儚い姿は、そう言っているようだった。
+47	黒の少女	あなた自身も……どうか……気をつけて……。
+48	最後に少年に気づかいを残し、^nその姿はついに闇へと溶けていった。
+49	目覚めると同時に、^n少年は廊下から伝わってくる混乱の気配に気づいた。
+51	職員Ａ	どうなってるんだ！？　これで何人目？^n病院ったって、精神病棟でどうして毎日人死にが出るんだ！？
+53	職員Ｂ	一気にふたりも……なんて。^nしかも……ひどい有様でしたね。
+55	職員Ｃ	誰と誰だ？　どんなふうに死んだ？
+57	職員Ｂ	Ｃ棟のデコボココンビですよ。^n死因は……溺死だけど、ああ見に行かないほうがいい！
+59	職員Ａ	ああ、あんなの見るもんじゃない。^n俺は吐いたね。水死体は美しくないって聞いたけど……。
+61	職員Ｃ	水死体か……。
+63	職員Ａ	しかも……ぶくぶくに膨れ上がって、腐りはててた。^nおかしいだろ？^n……あいつら、昨日までぴんぴんしてたのに。
+65	職員Ｃ	……！
+67	職員Ｄ	……私、本日はおなかが痛いので早退させていただきます。^nそして明日からも漏れなく毎日、痛い予定です。^nでは！
+69	職員Ｃ	えっ……？　いや、それって……ええっ。^n……ありえないわあいつ。これだからゆとりは！
+71	職員Ａ	いや、今のうちに逃げたほうがいい。^nそんな気がしてきた……。
+73	職員Ｂ	ですよね。明日は我が身だ……。^n……うん、俺も慢性的な胃痛を訴えることにします。
+75	職員Ｃ	えっ……えっ、お前らまで？　ほんとに？
+77	職員Ｃ	ここ、給料は安いけど、いろいろ美味しくって^n職員にとっても「楽園」なのになぁ……。
+79	職員Ｃ	…………。
+81	職員Ｃ	い、いや……。命には替えられないか。^n……待って！　俺もおなか痛い！
+82	そんなやりとりは、^nおそらく楽園じゅうのあちこちで繰り広げられたのだろう。
+83	少年が身支度を整える間に^n廊下ごしの喧噪は大きくなり、小さくなり。
+85	名無しの少年	……くしゅん！
+86	出発の準備が終わる頃には、^nささやかなくしゃみが爆発音のようにやかましく聞こえるほどの^n澄んだ静寂へと変じていた。
+88	名無しの少年	（さて……どう動こうか）
+89	肌にぴりぴりと染みいる空気に、^n楽園の崩壊を実感した少年は^nいつになく真剣な顔で考えこんだ。
+91	名無しの少年	……ん？
+92	と、そのつま先が、コツンと硬い音をたてて何かを蹴った。
+94	名無しの少年	あ……また。
+95	それは、新たな|瓶[びん]づめの紙片だった。^n昨晩寝る前は確実になかったものだ。
+97	名無しの少年	ああ……ありがとう。
+98	黒の少女が最期の力を振り絞って彼に与えたものだと^n──何故か少年は揺るぎない確信を覚えた。
+99	　^m^n^cr紙片６を手に入れた。
+100	広げると、今度の紙片はいつもの倍、^n２ページに渡って書かれている。
+101	「どうすればいいかなんてわかってる。^n　あたしがこの世から消えればいいんだ」
+102	「簡単じゃないの。^n　いつもしている『赤いブレスレットの儀式』を^n　もっと過激にするだけ」
+103	「いつもみたいに、おそるおそる、^n　ちょっとだけ傷つけてみせるんじゃなくて」
+104	「思いっきりやればいいんだ。^n　切り落とすくらいの勢いで」
+105	「でも、あたしにそんなことできるのかな。^n　本気で自分を傷つけるなんてこと」
+106	「ああ、悔しいな。いろいろ思い出してきた」
+107	「『本当に死ぬ気なんてないくせに』^n　『注意を引こうとして』^n　『甘えてる』──結局、その通りなんだ」
+108	「でも、それってこんな目に遭うほど悪いことなの」
+109	「あたし、寂しかった。^n　すごくすごく寂しかったんだ」
+110	「こんなあたしにも何かあるって思いたかった。^n　認めてほしかっただけなんだ」
+112	名無しの少年	…………。
+113	少年の表情は、複雑な思いに歪んだ。^n──どう受け止めればいいかわからない。
+114	ただ、かつて生きていた生身の少女の直筆、^nという生々しさが、^n稚拙な記述をおそろしく重いものに感じさせた。
+115	少年は久しぶりに引き出しをあけた。^nそこには今まで集めた紙片が集められている。
+116	新しい紙片も加えて破れ目をあわせてみると、^nどうやら足りないページはあと１枚だけのようだった。
+117	揃ってはいないものの、すでに大体の事情は読みとれる。
+119	名無しの少年	（……ちょっとまとめてみようか）
+120	少年は順番通りに並べられた紙片を眺めながら、^n慎重に考えを巡らせた。
+121	──「アリス」は灰色の悪魔を生み出した。^nそれがすべての始まりだった。
+122	思春期の少女らしいひねこびた妄想でしかなかったものが、^nどういうわけか具現化してしまった。
+123	そしてそれは「アリス」の定めた通りに^n本当の名前を知った相手を死にいたらしめる力を持ち、^n当時の「グレーテル」「オデット」「ゲルダ」を殺した。
+125	名無しの少年	（この「灰色の悪魔の絵本」はある意味で聖書なんだな。^n「アリス」が思いをこめて記述するうちに^n　そういう意味を秘めるようになってしまった）
+126	確か、そんなことをオディールが言っていた。
+127	そしてそれは、^n灰色の悪魔が蘇った現在にも影響しているのだろう。
+128	グレーテル、オデット、ゲルダ。^nまずは順番通りに狙われた。
+129	「本当の名前」を知る手段もノートに準拠していた。^n　オデットの写真はオディールが持っていたらしいし、^n　ゲルダも「宝物」に記されているという点では同じだ。
+131	名無しの少年	（グレーテルはカルテで知られたってことだったけど……。^n　これはどうやって防いだんだろう？）
+132	恐慌に陥ったグレーテルがカルテを破いたと^n知るよしもない少年にとっては、^nそこだけが不思議な点だった。
+134	名無しの少年	（で、この「アリス」は自らが命を落とせば、^n　灰色の悪魔も滅びると考えた──）
+136	名無しの少年	（そして──どうしたんだろう？^n　本当に、死んでしまったんだろうか）
+138	名無しの少年	……！
+139	そこまで考えて、背筋が凍った。
+140	「アリス」は死のうとしていた。^n　そして本当に死んでしまったかもしれない──^n　──ということは。
+142	名無しの少年	（ノートが「聖書」である以上、^n　その記述は今のアリスにも影響する？）
+143	ノートに書かれた「グレーテル」の運命が^n今のグレーテルに襲いかかったように、^n今のアリスにも「アリス」の末路が与えられる可能性はある。
+144	アリスが無事なのは、ひとえに^n黒の少女の守護によるものなのかもしれない。^nそして彼女はもう、おそらくいない──
+146	名無しの少年	（ってことは──今、まさに）
+148	黒の少女	私……そばにいた、けど……もう……もたないから……。^n守ってあげて……お願い。
+149	ふと、夢の中で聞いた黒の少女の消え入るような懇願が、^n少年の脳裏に蘇った。
+151	名無しの少年	（アリスが危ない──）
+152	にわかに息詰まるほどの緊張を覚えて、^n少年は足早に部屋を後にした。
+
+[S1020  最後の夢  /  마지막 꿈]
+1	せわしない足音を響かせながら、廊下を歩いていると、^n運がいいことにすぐにアリスに出会えた。
+3	アリス	…………。
+4	最初の|邂逅[かいこう]の時の|溌剌[はつらつ]とした表情が嘘のように、^n浮かない顔をしている。^n顔色もあまりよくないように感じられた。
+6	名無しの少年	（まさかすでに、何かあった？）
+8	名無しの少年	やぁ、アリス。
+10	アリス	ああ……あなたなの。ごきげんよう。
+12	名無しの少年	どうしたの？　やけに元気がないけれど。
+13	単刀直入に切り出すと、^nアリスは肩を落とし、ふぅ……と全身でため息をついた。
+15	アリス	お友だちにさよならと言われてしまったの。^n旅だちの|挨拶[あいさつ]よ。
+17	アリス	旅立ちは喜ばしいこと。でも寂しいわ。
+19	名無しの少年	友だちが……旅だった？　どこに？
+21	アリス	わからないわ。でもきっと虹の向こうよ。
+23	アリス	ドロシーは魔法が使えるから、夢から夢へと渡り歩くの。^n気が向いたら、あたしの夢にも寄ってくれるわ。
+25	名無しの少年	（要約すると、そういう夢を見たってことか）
+26	夢見がよくなくて落ちこんでいた、とだけなら^n今の時点で別段の心配は要らないのだろう。
+27	少年はこっそりと、|安堵[あんど]の息を吐いた。
+29	アリス	不思議なことに、昨日はグレーテルもいっしょだったわ。^nふたりして、あたしのこと心配してた。へんなの。
+31	名無しの少年	あ……あぁ、そうなんだ。
+32	黒の少女から告げられたグレーテルの死を思い、^n少年の口調が鈍る。
+33	救えなかったグレーテル──^nしかしその意志は死後も生きつづけて、^n黒の少女とともにアリスを守護していたのだろうか。
+35	アリス	ドロシー、なんだかあたしのことすごく案じていたわ。^nグレーテルはからくも難を逃れたけど、^nアリスは一番危ういから心配だ、ですって。
+36	アリスはおっとりと首を傾げる。
+38	名無しの少年	（もしかして、ドロシーっていうのは^n　あの黒い女の子のことなのか？）
+40	名無しの少年	あ……そうだ。
+41	少年はふと思いついて、立ち止まった。^n少し遅れてアリスが|怪訝[けげん]そうに振り向く。
+43	名無しの少年	（何かあったときのために^n「灰色の悪魔の絵本」は持っておいたほうがいいかな）
+44	それは思いつきというよりも、本能の警告に近い気がした。^nしかも、ちょうど自室の前を通りかかったところだ。
+46	名無しの少年	あの……実は、僕の部屋はここなんだけど、^n忘れ物をしてしまって。^nとってきてもいいかな？
+47	　そう言うと、アリスは待たされることよりも^n「少年の部屋」に興味を抱いた様子で目を輝かせた。
+49	アリス	へぇ、ここがあなたのお部屋なの。^n今度おじゃましてもいいかしら。
+51	名無しの少年	別に今でもいいくらいだけど、でもつまらないよ？^nちょっといじってはいるけど、^n元々は本当に殺風景な部屋だったんだ。
+53	名無しの少年	床も天井もベッドも何もかもが白くて、^n色という色が逃げ出したみたいなんだ。^nきみの部屋とは対照的だよ。
+55	アリス	あら……そうなの？　それはすごいわね。^nもしかして逃げた色たちがあたしの部屋にきたのかしら。
+57	名無しの少年	それはわからないけど、^n僕の部屋ときみの部屋、足して２で割ったらちょうどいいかも。
+59	アリス	あたし、足し算とわり算って得意よ！
+60	よくわからないやりとりだったが、^n消沈していたアリスが少し浮上したように感じられて、^n少年の心は軽くなった。
+62	名無しの少年	じゃあ早速、どうぞお入りください。
+63	扉を開け、腰を折って丁寧に促す。^nその少年の紳士らしい作法もアリスの琴線に触れたらしく、^n彼女は踊るような足取りで戸口をくぐった。
+64	そして──
+66	アリス	え……！？　あら、先客がいらっしゃったのね。
+68	名無しの少年	……？　先客？
+69	思いがけない台詞に少年は驚き、^nアリスの肩口ごしに自分の部屋を覗きこんだ。
+71	名無しの少年	なっ……！？
+72	そして目にした光景に、少年は絶句する。
+74	アリス	なんとまあ、暗い森の白い霧みたいなお姿！^nきっとハイイロペリカンよりもずっとずっと純粋な灰色だわ！
+75	白い部屋には、^n火葬場の煙突からたなびいたような^n陰鬱な煙が渦巻いていた。
+76	そんざいにひとの形を模したような^n不快で危うい輪郭。^n|眼窩[がんか]らしき虚ろな闇が、戸口のふたりを見つめる。
+78	名無しの少年	（灰色の悪魔……！）
+79	部屋が潔癖なほどの白に輝いているせいで^n雨雲のような灰色はますます重苦しく淀んで見えた。
+80	その灰色のもやがつかんでいるのは、^n少年に与えられていた「ピーターパン」の絵本。
+82	名無しの少年	（しまった……！）
+83	少年は喉が干上がるような絶望を覚えた。
+84	何故かはわからない。^nただ本能が危険を感じて叫び、^n心臓は恐ろしいほどの早鐘を鳴らしていた。
+85	いや、正確には少し異なる。^n危険なのではなく、「もうすでに遅い」のだ。
+87	名無しの少年	ああ……あああああ！
+88	少年の口から悲痛な叫び声が|迸[ほとばし]る。
+89	歯噛みする。^n昨日オディールと名前という名前を駆逐した。^nけれどこの絵本のことはすっかり頭から抜け落ちていた！
+90	この本はきっと、^n少年を洗脳するために「楽園」が用意したもの。
+91	　もしかしたら洗脳を効率よく行うため、^n「本人の思い入れのあるもの」──つまりは^n　少年自身の私物を使ったのかもしれない。
+92	だとすれば、その裏表紙に刻まれているのは^n少年自身の「本当の名前」であるはずで──
+93	立ちつくす少年を見下ろし、^n灰色の悪魔はにぃ……と口らしき裂け目を深くした。
+94	そして──
+96	？？？	──自分の罪を思い出した？　××××──
+97	ついに唱えられてしまった。
+98	懐かしく忌まわしい感触で少年の心臓に食いこむ、^n禁断の呪文が──
+
+[S1021  ×××の呪い  /  ×××의 저주]
+1	──少年は、遠くに自らの靴音を聞いていた。
+2	その足は、彼自身とは異なる意志に支配されて、^n少年を最期の地へと運んでいるのだった。
+4	？？？	この「楽園」に来ても何にもなれないなんて^nかわいそうな子ね、あんたってば。
+6	？？？	せめてピーターパンになってみればよかったのに。^n夢を見る術すら知らないなんて……お気の毒。
+7	　男とも女ともつかない──いやそれ以前に^n「声」であるのかどうかも怪しい「囁き」が、^n　少年の耳孔からどろどろと脳を冒す。
+8	少年はいま、本当の自らというものに直面していた。
+9	太陽のように輝く、誰からも愛される兄。^n何ひとつ秀でたところのない、影のような自分。
+10	周囲の視線に射すくめられ、^n見えない圧力にのしかかられて、^n胸いっぱいに息を吸いこむことすらできない毎日。
+11	心の支えになってくれた友人の少女は^n遠くに行ってしまった。
+12	そして少年を必要としてくれた幼い妹は、^n彼自身の不注意で死の危険に|瀕[ひん]した。
+14	？？？	あんたって本当に生きてるの？^nもしかして、ずっと前に死んでたんじゃないの？
+15	そうかもしれない。^n強すぎる日差しのせいで干からびたかもしれないし、^n足のつかない水深のせいで溺れたのかもしれない。
+17	？？？	そういうんじゃなくてさぁ。^nねぇ、わかるでしょ？
+18	重々しい音に、少年は顔を上げた。
+20	名無しの少年	（ああ……そうだった）
+21	はやしたてる声。少年の尻を蹴飛ばす足。^n台の上にのぼらされて、首には縄をかけられた。
+22	そして──
+24	名無しの少年	そうだ……。
+25	少年の乾ききった唇からかすれた声が漏れた。^nあとは言葉にならない。苦しすぎて。
+26	──僕はあのとき、死んだんだ。
+27	木でできた台と|梁[はり]から下がったロープの輪が、^n少年を待っていた。
+
+[S1022  降霊会の記憶  /  강령회의 기억]
+2	名無しの少年	……！？
+3	無形の圧力が少年の肉体に襲いかかって──^n──そのままあっけなく通り抜けたのを感じた。
+5	名無しの少年	（……何も起こらない？）
+6	少年の「本当の名前」は唱えられた。^nそれは灰色の悪魔に力を与えられて^n確かに呪いとして放たれた。
+7	それなら、何故少年を支配しないのか？^n気まぐれな風のように、^n彼の心身を吹き抜けただけで消えたのか？
+9	名無しの少年	（──ああ──そうか──そういうことか）
+10	少年は、先刻その鼓膜を震わせた「××××」の|音韻[おんいん]を^n無意識のうちに繰り返して、理解した。
+11	先日、オデットと入れ替わったオディールは、^n灰色の悪魔を撃退することができた。
+12	それは呼ばれた名前が彼女のものではなかったから。^n発動するはずの呪いを空打ちさせたからだ。
+13	あれと同じことが、今、自分に起こったのだ。
+15	名無しの少年	（××××は、僕の名前じゃない）
+17	名無しの少年	（僕は──）
+18	──双子の弟が、施設に入れられることになった。
+19	彼と同じ顔をしているけれど、中身は正反対。^nおとなしくて真面目で、悪いことには手を出さない、^n少年にしてみればつまらない弟だ。
+20	けれど世間の評価は実状と大きくかけ離れていた。^n明るくて賢くて何をやらせても|如才[じょさい]ない兄と、^n陰気でかんしゃく持ちで問題行動の多い弟。
+21	何故そんなことになったのか──^nそれは弟が、兄のしでかす数々のやんちゃを^n自らの罪としてかぶっているからだった。
+22	弟は、背負う必要のないものをしょいこんで、^nいつでも重苦しい静寂をまとっていた。
+23	何故、犯してもいない罪を自ら被るのか、^n兄である少年にはわからない。
+24	元々、弟のすることにはまるで興味がもてない。^nきっと生真面目で退屈でつまらない、^n弟なりの事情があるのだろうけど、どうでもよかった。
+25	そして、彼にとって不利になる行動ではなかったから、^nそのままにしておいた。
+26	弟に被さっている悪いイメージは、^n兄である彼が着せたものではない。^n弟本人がなんとかするべきだろう──
+27	しかし、「妹を危険な目に遭わせたから」という理由で^n両親が弟を施設に入れる算段をしているのを^n盗み聞いたときは、さすがに耳を疑った。
+28	もちろん、弟は妹に危害を加えたわけではない。^n少し目を離すくらいはしたかもしれないが、^nそれは弟だけが責められることじゃない。
+29	愚かな親だとは知ってはいたが、^nそこまで目が曇っていたとは。
+30	同じ顔をしているのに、^n自分とは違って愛されていない弟を、|不憫[ふびん]に思った。
+31	……ただ、それだけのことだったら、^nきっと少年はやはり、事態を放置しておいただろう。
+32	彼を突き動かしたのは、弟への同情ではない。^nいや、少しだけ罪悪感はあったが、^nそれだけではきっかけとしては弱かった。
+33	ひとえに、両親が口にする「楽園」という^nうさんくさい施設への興味──
+34	それが少年に「入れ替わり」という、^n古来より双子が登場する物語においては王道の冒険を^n選ばせたのだった。
+36	名無しの少年	（お伽話の登場人物になりきってしまう病気──^n　それだけでもとんでもないのに）
+38	名無しの少年	（正常な人間を|収監[しゅうかん]して、洗脳して、^n　その病気にしたてあげてしまうなんて）
+40	名無しの少年	（しかもその裏の顔に自分の両親が通じていて、^n　弟を始末するために利用しようとするなんて）
+42	名無しの少年	（悪どすぎるだろ。とんでもないだろ。^n　……ぞくぞくしたんだ）
+44	少年	（だから僕はこの「楽園」に来たんだ──）
+46	少年	（……──「僕」？^n　いやいや、いつまであいつのつもりでいるんだよ）
+48	少年	（いくらこの「楽園」に潜りこむために^n　あいつのふりをしてたっていっても、^n　ちょっと長すぎだろ）
+50	少年	（あの妙ちきりんな「治療」とやらのせいかな。^n　俺が俺であることを忘れるなんて……）
+51	少年は唐突な追想から帰還し、大きく頭を振った。
+53	灰色の悪魔	どうして……。
+54	魔物のまがまがしい|囁[ささや]きとは異なる、少女の声が響いた。
+56	灰色の悪魔	どうしてアンタにも効かないのよ……！？^n名を呼んでも──支配、できないのよ……！？
+57	動揺が「灰色の悪魔」というめっきを|剥離[はくり]させたのか。^n先刻までの威圧が霧散するほど、人間らしい|音韻[おんいん]だった。
+58	その悲痛な声に何を感じたものか、^n臆したように立ちすくんでいたアリスが進み出る。
+60	アリス	あら？　あらあらあら……。^nよく見ると、あなたって……ふむふむふむ。
+62	アリス	すてきないでたちね。^nそして奇妙なデジャブ。^nもしかしてあなたもアリスなの？
+63	少年の目には人型をした煙にしか見えないそれに、^nアリスは何を見いだしたのか。^n弾む声には親近感が籠もっていた。
+64	のみならず、彼女は手を伸ばし、^n無防備に灰色の悪魔に触れようとする。
+66	少年	──っ、アリス、何やってるんだ。危ない！
+68	アリス	え？　……きゃあっ！
+69	少年はとっさにアリスを突き飛ばした。^n力加減を誤ったせいで、^nアリスは壁に激突して倒れこんでしまう。
+70	　しかし、彼女を案じている余裕はない。^n　その拍子に彼の指先が、^n「灰色の悪魔」に触れてしまったからだ。
+72	少年	う……──っ！？
+73	指先から馴染みのないしびれと寒気が広がって、^n少年はのど奥で悲鳴を噛み殺した。
+74	その奇妙な感触は抗う間もなく彼の腕をかけあがり、^n肉体を浸食していく──
+76	少年	……っ、このっ……！
+78	少年	な……。
+80	灰色の悪魔	アアアアアアアアアアアアアアアアアアアア！
+82	少年	なんだ……？^n……これ、何が見えてる……？
+84	灰色の悪魔	やめて……見ないで──あたしを暴かないで！
+85	まるで生皮を|剥[む]かれているような^n悲痛な拒絶が聞こえた。
+86	しかしそれはまるきりの逆効果。
+87	　残酷で|奔放[ほんぽう]な好奇心の権化である少年は、^n　灰色の悪魔の弱々しい拒絶に|却[かえ]って駆りたてられて、^n「その景色」へと身を投じたのだった。
+88	あたしは、おそらく生まれた瞬間から１秒と欠かさず、^nずっとずっとあたし以外のみんなを|羨[うらや]んでいた。
+89	特別な人間だと認められたかった。^n特別「おかしな」人間だ、って評価でも別によかった。
+90	でも──本当のあたしはいつも半端もの。^n楽園に放りこまれてからも、そう。
+91	あたしはどこかで知っていた。^n自分はアリスなんかじゃないって。
+92	あたしはどうしようもなく気づいていた。
+93	本当のあたしはガリガリのやせっぽちで、^nかわいくも賢くもなくて、その現実から逃げるために、^nかりそめの狂気が必要だったんだって。
+94	あたしを真に追いつめたのは、^n皮肉なことにその「正気」だった。
+95	あたしはどうしてあたしを捨てられないの。^nあたしはここに来てまで夢を見られないの。
+96	本気で自分をグレーテルだのオデットだのと^n信じているみんながうらやましかった。
+97	だから──あたしはもうひとつ夢を見た。^n不思議の国のアリス以外にもうひとつ、^nあたしにとっての聖書を自分でこしらえた。
+98	　あたしの生み出した灰色の悪魔は、^n　みんなの見ている夢を壊しうる呪いであるところの、^n「本当の名前」を知ることで相手を支配する。
+99	それは、自分を捨てきれないあたしだからこそ^n生み出すことができた残酷な能力だ。
+100	──あの日。あの降霊会の時。
+101	あたしは灰色の悪魔に^nとり憑かれたふりをしている──はずだった。
+102	でも、違ったのかもしれない。^nあたしがそう思っただけで、最初から灰色の悪魔が^nあたしをそう誘導したのかもしれない。
+104	オデット	嘘でしょ。嘘つき。
+106	グレーテル	でたらめばっかり言って。何が灰色の悪魔よ。^n聖書はひとつだけで十分でしょ。
+108	ゲルダ	アリスはいつもそう。^n私を脅かして楽しんでいるのよ。^n悪趣味だわ。
+109	オデットの罵倒。^nグレーテルの軽蔑。^nゲルダの嫌悪。
+110	みんな怖かったんだと思う。^nだからいつも以上にきつい口調であたしを責めた。
+111	今思えばなんてことない言葉だ。^n少なくとも、普段のあたしが彼女たちにぶつけている^n皮肉やあてこすりを思えば、かわいいもの。
+112	──けど、あのときのあたしには、^n何故か深く刺さってしまった。
+113	溜まり溜まった不安とか息苦しさとか寂しさとか、^nそういったものがすべて溢れだしてしまった。
+115	過去の“アリス”	（──嘘じゃない、いんちきじゃない。^n　ホンモノだ、トクベツだって認めさせたい……！）
+117	過去の“アリス”	（みんなが捨てているもの、あたしが捨てきれないもの、^n　残酷な真実を目の前につきつけてやりたい……！）
+119	過去の“アリス”	（そう……そうよ。そのように願えばいい。^n「灰色の悪魔」は、それを叶える怪物だもの……！）
+120	そのとき、「アリス」のなかで膨れ上がった高揚は、^n灰色の悪魔の形と特質とを備えて、宿主を浸食した。
+121	──かくして、過去の「楽園」における悲劇は引き起こされた──
+123	少年	（なるほど……皮肉なもんだな）
+125	少年	（ここの患者の女の子たちは、どれだけ望んだって^n　本物のアリスにもグレーテルにもなれないのに）
+127	少年	（アリスになりきれずに苦しんでいた「アリス」が^n　自分の妄想から生まれた「灰色の悪魔」そのものに^n　なっちまうなんて……）
+128	少女の魂の最奥に閉じこめられた、最も繊細な記憶。^nその手触りに苦いものを感じながら、^n少年は現実世界へと浮上していった。
+130	少年	（ん……？）
+131	ひとかけらの光も射さない闇の中、^nいつの間にか少年の周囲を灰色の紙片がとりまいていた。
+132	紙片のひとつひとつに文字が踊る。^n見覚えはあるけれど、見知ったそれよりも^nいくぶんかは|几帳面[きちょうめん]に、丁寧に書かれた印象だ。
+133	　^m^n^cr紙片７を手に入れた。
+134	それはどうやら、^n「灰色の悪魔の絵本」の最後の１ページだった。
+135	バラバラに千切られたそれらが少年の周囲を舞い、^n順番に|挨拶[あいさつ]するように目の前を横切って、^nつづられた少女の想いを伝える。
+136	「ナイフは勇気が出なかった。^n　高いところから落ちるのは^n　迷っている間に止められてしまった」
+137	「毒も……どうしても口をつけられなかった。^n　偽物なら飲み慣れてるのに、どこまでも意気地がない私」
+138	「でも、わかった。^n　私に憑いた灰色の悪魔は、^n　私の妄想の産物だもの。習性はよくわかってる」
+139	「『真の名前を知った相手を殺す』──^n　　それが、私が灰色の悪魔に与えた力」
+140	「私ごと彼を殺すなんて、簡単なことだ。^n　私はただ、思い出せばいい」
+141	「私が──本当は、なんていう名前だったか。^n　ちっぽけで無力で魅力のない私自身のこと」
+142	「この楽園の患者の中で、私だけが苦もなく思い出せる。^n　捨てたいのに、捨てられなかったものだから」
+143	「さあ、滅びの呪文をサインして、^n　この『灰色の悪魔の絵本』を締めくくろう」
+144	「そしてさようなら、不思議の国のアリス。^n　初潮と破瓜の物語」
+
+[S1023  灰色の悪魔の最期  /  잿빛 악마의 최후]
+1	──我に返ると、少年は机に飛びついて^n引き出しの中をあさった。
+2	取り出したのはもちろん「灰色の悪魔の絵本」。
+3	大事なページを破られていたはずなのに、^nいつの間にやら集まった紙片がそれぞれの位置に癒着して、^n元通りの姿を取り戻している。
+4	そして──少年の目は、^nノートの裏表紙に記されているものを見た。
+5	例の「読めるはずなのに読めない文字」であったはずのそれは、^n本来の自分というものを取り戻した今の少年には、^nはっきりと解読できる。
+6	それを持って向き直ると、灰色の悪魔は激しく動揺した。^n末端の粒子が風に吹き散らされる砂のように^nざあっとざわめき、輪郭がぼやける。
+8	灰色の悪魔	……！？　あんた……なんでそれを持ってんのよ！？
+10	少年	このノートのこと？　お墓で拾った。
+11	少年はあっけらかんと答えてから、^n今更、ある重大な事実に思い当たった。
+13	少年	（……もしかしなくても、^n　俺がこいつの墓にちょっかいだしてこれを持ち出したせいで、^n　こいつが復活した、とか……）
+15	少年	…………。
+17	少年	（……知らない。関係ない。^n　そうだとは限らないし。悪気もなかったし）
+18	うん、と胸中でひとりうなずいて、^nそれきり本当にその気がかりを手放してしまう。
+20	少年	（そんなことより、今は楽しい楽しい妖怪退治だ！）
+22	少年	（俺がみんなを救うんだ！）
+23	もしここに彼の弟がいたなら、^n兄の足下にこぼれた罪を拾い集めて^n重たげに背負ったのかもしれない。
+25	少年	結構派手に殺してくれたもんだよ。^n本当に迷惑なヤツだなぁ……。
+27	少年	──なぁ、××××。
+28	三日月のようににんまりと裂けた口で、唱えた。
+29	　それは、かつて「アリス」が自らを滅するために記した、^n「灰色の悪魔の絵本」の裏表紙のサイン──^n「アリス」の本当の名前だった。
+31	灰色の悪魔	──ッ……！^nやめ……て……！　そんな名前で……呼ばないで……！
+32	灰色の悪魔は大きく身を|捩[よじ]らせたが、^nどこからともなく現れた鎖が、その身を捕縛した。
+34	灰色の悪魔	あああああ……いやあぁぁぁぁ……！^n苦しい……苦しい……苦しい……！
+36	アリス	……！　え……え？
+37	とそこで、少年に突き飛ばされて気を失っていたアリス──^nのんきで夢見がちなほうのアリスが、^nやっと正気づいて目をしばたかせた。
+39	アリス	あら……そんなにがんじがらめになって、お気の毒に。
+41	アリス	小さな家の中で大きくなってしまった時のことを思い出すわ。^nさぞお苦しいことでしょう。
+43	少年	アリス！
+44	脳天気に言い放って手を伸ばすアリスに、^n少年は呆れと|戦慄[せんりつ]の入り交じった声をあげた。
+45	一度突き飛ばして救ってやったというのに、^n全く懲りていない──というか、^nそもそも危うかったことを認識していなかったようだ。
+47	アリス	え……？　こ、これはどういうこと？
+48	アリスは|呆然[ぼうぜん]と目を見張った。
+49	彼女の手が触れたところから、^n灰色の悪魔の体も鎖も崩れていくのだ。
+50	キャンディ、キャラメル、こんぺいとう。^n陽気な色のお菓子に変わってばらばらと散らばる。
+51	あたかも、アリスの手のひらに触れられたことで^n彼女の甘い甘い妄想に感染して、^n本質をねじ曲げられていくように──
+53	アリス	え、えっと、その。ごめんなさい。^nあたしね、悪気があったわけじゃないの。
+55	アリス	あなたがそんなにも特殊な体質だったなんて、^n知らなかっただけで……その。
+56	アリスは不思議な現象に目を見開き、^nおろおろと弁明する。
+57	けれど手をひっこめることを忘れているせいで、^n灰色の悪魔はどんどんその身を削り、^n大量のお菓子をばらまいていく。
+59	灰色の悪魔	あ……あああああ……ああ……。
+60	その断末魔の|呻[うめ]きは、^n滅ぼされることへの|怨嗟[えんさ]のようにも、^nやっと無に帰れることへの|安堵[あんど]のようにも聞こえた。
+61	崩壊は灰色の悪魔の顔にも及び、^nまるでつけていた仮面が砕けたように^nぼろぼろと崩れていく。
+62	その奥から現れたのは、青白い少女の顔だった。
+63	陰鬱な瞳が、自らを滅ぼすアリスを見やる。
+65	灰色の悪魔	いいな……いいなぁ……。^nあんなにも無邪気に……魔法が使えて……。
+67	灰色の悪魔	あたしもああいうふうになりたかった。^n無邪気に、素直に、ほしいものをほしがって、^n生きたいように生きたかった……。
+69	灰色の悪魔	あたしには何もない……何もないよ……。^n特別な力も、魔法も、呪いも……。
+71	灰色の悪魔	何も……なかった……。
+72	寂しさを凝縮したような声を残し、^n灰色の悪魔は消滅した。
+74	アリス	あ……。消えてしまったわ。
+75	アリスは|呆然[ぼうぜん]と、もうひとりの「アリス」を^n悪気なく葬ってしまった自らの手を見る。
+76	少年は床に散らばったお菓子を見ながら、^nしみじみとため息をついた。
+78	少年	何もない……ねぇ。
+79	　自分には何もない、と言い残して、^n「灰色の悪魔」は──ひねこびたもうひとりの「アリス」は消えた。
+80	少年の胸に引っかかっているのは、あの心細げな言葉だった。
+81	（何もない、にしてはたいした騒動だったじゃないか）
+82	彼女が本当に何もない人間だったなら、^n灰色の悪魔は生まれなかった。
+83	　彼が今手に持っているノートも、^n「聖書」としての力を持ちえなかったはずだ。
+85	少年	いやいや。あんた、たいした予言者だったじゃないか。
+86	ここ数日の出来事を|反芻[はんすう]しながら、^n少年はぽつりと漏らしたのだった。
+
+[S1024  再会と脱出  /  재회와 탈출]
+1	ひと騒動を経て空腹を覚えてはいたし、^n職員がいなくなった楽園ではご飯の調達が難しいことも^n覚ってはいたが、少年は大量のお菓子を廃棄することにした。
+3	少年	（お化けがお菓子に変わったものだもんな……。^n　食べるのにはちょっと、抵抗がある）
+4	　アリスはもったいないとすがったが、^n「でもこれ、毒入りだよ？」と出任せをいうと^n　あっさりとあきらめた。
+5	考えたあげく、少年は墓地に|赴[おもむ]き、^n例のアリスの墓に「灰色の悪魔の絵本」といっしょに^n埋めてやることにした。
+6	捨てたのではなく、供養した──と^nいえなくもないかもしれない。^nなんだか妙な気分だった。
+8	少年	（さて、これからどうしようか）
+9	その作業を終え、あてもなく庭園を散歩しながら、^n少年はぼんやりと先のことを思う。
+10	この「楽園」から、職員たちはいなくなってしまった。^n残されているのは童話に心を奪われた少女たち。
+12	少年	まあ……帰るしかないのかな。
+13	──他に結論があるはずはなかった。
+14	弟になりすましていたところに「楽園」の洗脳を受け、^n本来の自分を失ってはいたが、^nそれはある程度取り戻した。
+15	まだ施術が抜けきれていない感覚はあるが、^n元の場所に戻って過ごすうちに^n自然と癒えていくだろう。
+17	少年	（……あの子たちはどうするのかな）
+18	少年の脳裏に、何人かの少女たちの顔がよぎった。
+19	オディールはきっと彼女なりの判断を下して、^nオデットを無理矢理引っ張っていくだろう。
+20	ゲルダは──おそらく、帰るはずだ。^n今の彼には彼女が何者で、何故「楽園」にきたのか^nはっきりと理解できた。
+21	アリス、グレーテル、ラプンツェル──^nお話の中にしか居場所のない少女たち。^n彼女はどうするのだろう。
+22	世話してくれる者のいない楽園で、^n夢を追いかけながら朽ちていくか。
+23	それとも自らの心に逆らって、痛みとともに、^n現実の世界に漕ぎ出していくか──
+25	少年	（どっちにしても|不憫[ふびん]だな。^n　まあ──あの子たちが決めることだ）
+27	？？？	──あ、いた！　いました！
+28	そこで不意に声が響きわたり、少年は立ち止まった。
+29	聞き覚えがある声だ。^n楽園の中ではなく、外の世界で知った声。
+31	？？？	兄さん！　にいさーん！
+33	少年	（……あいつ……）
+34	庭園を見回すと、遠くに、^nこちらに向かって手を振っている^n小さな人影がふたつ見えた。
+35	少年は、その顔ぶれよりも、^n彼らの背後にある光景に驚いて、目を見開いた。
+36	濃い|朝靄[あさもや]の中、^n庭園を取り囲むように森が広がっている。
+37	そしてひとかたまりの|朝靄[あさもや]が^n風に吹き散らされると──
+39	少年	（あんなところに、門なんてあったっけ？）
+40	その中途から、黒々とした柵が見えた。^nのみならず、その一部は外側に向けて開いていた。
+41	その向こうには──道が。
+42	外の世界に通じる出口が、広がっていた。
+44	少年	（なんだ……あるんじゃん、外。^n　あんなに近くに、堂々と）
+45	──あれほど施設中を探索したのに、^nそういえばあちらのほうには行ったことがなかった。^nそれどころか、視線をやることさえも稀だった。
+46	　もしかしたらそれも^n「楽園」の洗脳によるものだったのだろうか。
+47	少年はすっかり騙されていた自らの五感と、^nそれを成し遂げた技術を興がりながら、^nふたつの人影に向かって歩き出した。
+49	イケノ	……全く、こんなの初めてだよ。^n本人と入れ替わって別人が入院するなんて。
+50	イケノが頬を膨らませて|窘[なだ]めるように軽く睨む。^nおそらくイケノは入れ替わりについての通報を受け、^n真偽を確かめるために外にでていたのだろう。
+51	彼の背後、門の外には^n彼らが乗ってきたとおぼしい自動車があった。
+52	　イケノの|傍[かたわ]らの人物は、それに乗って^n「楽園」に連れてこられたのだろう。
+53	その人物は、近づいてきた少年の姿を見ると、^nそっくりな顔のそっくりな目を見開き、叫んだ。
+55	少年の弟	兄さん！
+57	少年の弟	びっくりしたよ、本当に……。^nっていうか、何やってるの。^n好奇心だけで来るようなところじゃないよ？
+59	少年	いや、なかなか楽しかった。^nいい思い出になりそうだ。
+61	少年の弟	全くもう……。
+62	にっこりと|濁[にご]りのない兄の笑みを見て、^n弟は毒気を抜かれたようにため息をついた。
+64	イケノ	……それにしても、やけに静かだね。^nいつもなら、庭園には誰かしらいるのに。^n守衛さんもいないし。
+65	イケノは、「楽園」に変事が起こる前に外に出たのだろうか。^n景色を眺め渡して、|訝[いぶか]しく首を傾げている。
+67	少年	ちょっといろいろあって。^nここのオトナの人たち、ほとんど逃げちゃったみたいだよ。
+69	イケノ	な、なんだって！？^n僕が外出している間に、いったい何が──
+71	少年	とりあえず、ここに残っているやつら、全員集めようか。
+72	少年は「楽園」じゅうをかけまわって、ひとを集めた。
+74	ラプンツェル	えっ……これは……どういうことですの？
+76	アリス	あらあらあら、不思議な眺めね。^nまるで真ん中に鏡を置いたみたい。
+78	グレーテル	ふわぁ！？　お、おんなじ顔……？
+79	アリスたちは右と左に立つ双子を見比べて、^n口々に驚きを表している。
+80	　一方で、オディールは全く動じない。^n「同じ顔の人間」を見慣れている彼女にとっては、^n　驚くに値しない光景なのだろう。
+82	オディール	ふぅん。あんたも双子だったってわけ。
+83	興味深そうに鼻を鳴らしただけだ。
+84	オデットはその横で眠い目をこすっていて、^n感想を述べるどころではない。
+85	日頃ならこの昼間の時間、^nオデットは「白鳥」になっている──^n──という設定を守るため、寝て過ごしている。
+86	この集合に際して無理矢理起こされたものの、^nなかなか目が覚めないのだろう。
+88	オディール	っていうか、何。^nあんたもしかして、兄弟の身代わりでここに来たっていうの。^nあきれるわ……後先考えないにもほどがある。
+90	少年	身代わりじゃないよ。ただ来てみたかっただけ。
+92	少年	面白そうじゃない、^nコドモたちを童話の登場人物にしたてあげる^n悪の組織、なんて。
+93	少年の無邪気な言い分に、^nオディールは呆れかえった様子でため息をついた。
+95	イケノ	これで全員？^n本当に……患者さんしか残っていないじゃないか。
+96	イケノは顔ぶれを見回し、|呆然[ぼうぜん]とつぶやいた。
+97	　どこかで予想していたが、「楽園」職員であるオトナたちは^n「ほとんど」ではなく「全員」逃げ出してしまったらしい。
+99	イケノ	患者さんを残して勝手にいなくなるなんて……。^nそれでも医療従事者か。
+100	|憮然[ぶぜん]とした表情で吐き捨て、^nイケノはその場を去っていった。^n各方面に連絡をとって事情を確認するつもりなんだろう。
+102	少年の弟	広い施設なのに、患者さんは少ないんだね。
+104	少年	……あとひとりいるよ。後からくる。
+105	少年は弟の感想に、言葉少なに応えた。
+106	ゲルダは、^n少年が結局スノードームを返さなかったことに腹をたて、^n呼びかけてもドアを開けてくれなかったのだ。
+107	とりあえずは集合場所を記したメモを^nドアの隙間にねじこんできたが、来てくれるかどうか。
+109	少年	（あの子のためにしたことだったのにな……）
+110	ズキリと胸が痛む。
+111	重い口を開いて、^n弟に「ゲルダ」の件を伝えかけた──そのとき。
+112	当のゲルダがその場に現れた。
+114	ゲルダ	……！？　あ……あぁぁ……！
+116	ゲルダ	やっと……やっと会えた！
+117	彼女は鏡写しのように立つふたりの少年を見るやいなや、^n声にならない声をあげ、地を蹴って走り出す。
+118	そして少しの迷いもみせずに、弟の胸に飛びこんだ。
+120	少年の弟	どうして、きみがここに！？
+121	弟は反射的に抱きとめた後、彼女の顔を見て、^n驚愕の声をあげる。
+123	ゲルダ	あ、あなたがここにつれてこられたってきいて……。^nひとめだけでも会いたいって思って──
+125	ゲルダ	でも調べていくうちにおかしな場所だってわかって^n不安になって──あなたのこと、たすけたくて……！
+127	少年の弟	それで潜入したの？　無茶だよ！
+129	ゲルダ	いいえ。嗅ぎまわっていることがばれて、^nつかまって、連れてこられたの。
+131	ゲルダ	毎日毎日違う名前で呼ばれるし、話も聞いてくれなくて……。^n探しても探してもあなたはいなくて……。
+133	ゲルダ	……っ、ほんとうに、頭がおかしくなりそうだった……！
+135	ゲルダ	うぅぅっ……うわあぁぁぁぁん……！
+136	弟はゲルダの体を遠慮がちに抱きしめ返して、^nその背中をぽんぽんと優しく叩いた。
+138	少年	ま、実際入院したのは俺のほうだったんだけどね。^n無駄に危ない目に遭って、かわいそうに。
+140	少年の弟	兄さん……。
+141	弟が深いため息とともに窘める。^n少年自身も、憎まれ口しかたたけない自分に^nあらためて呆れる思いだった。
+142	彼女を見ると心の奥が|嗜虐的[しぎゃくてき]にざわめいて、^n優しくしたい気持ちとは裏腹な言動に走ってしまう。^nいつもそうだった。
+144	少年	（そりゃ嫌われるわけだなぁ）
+145	なんともいえない気分で頭をかいていると、^n彼の弟がぽつりと呟いた。
+147	少年の弟	……兄さん、ありがとう。
+149	少年	何が？
+151	少年の弟	彼女を守ってくれたんだね。
+152	先刻少年は、少女たちを集める間に、^n今回「楽園」を襲った事件について^n弟にだけは打ち明けていた。
+153	灰色の悪魔が復活しただの、犠牲者が出ただの、^nこの生真面目な弟にとっては信じられない話だろう。
+155	少年の弟	兄さんはすごいね。^n僕だったらこうはいかなかった。
+156	けれど|俯[うつむ]きがちに述べる弟の顔には、^n兄と友人が無事に帰ってきた|安堵[あんど]がある。
+158	少年の弟	きっと偽りの物語に惑わされて、^nわけもわからず|翻弄[ほんろう]されるうちに、^nあっけない終わりを迎えるだけだったよ。
+159	「自分だったら」──と最悪の結末を描く発想、^n　その根底にはびこる根深い劣等感も。
+160	この弟はいつもこうだ。^n好んで兄の影にひそんでいるような、頼りない気配。
+162	少年	……俺にとっては、それはそれでうらやましい限りだよ。^n本当はお前のほうがお遊びが上手ってことだもんな。
+163	少年はいつも通り、それに気づかないふりをした。
+165	少年	（……それに──）
+167	ゲルダ	……っ、く……っ。ご、めん、なさい。^nどうしよう、涙……止まらない……！
+169	少年	（俺の最も欲しいものは、お前のものだ。^n　俺には決して手に入らない）
+170	こみあげる思いを噛みしめる。
+171	楽園での日々は刺激的ではあったが、^n最後の最後でほろ苦くなってしまった。
+173	少年	……もうそれくらいでいいだろ。^nいつまでびーびー泣いてんだ。
+175	少年	ほら、行くぞ。
+176	ぞんざいな声をかけて身を|翻[ひるがえ]し、^n少年は見たくない光景から目を背けた。
+177	すると、背後で息をのむ音がいくつもあがった。
+178	「ほら、行くぞ」^n　──その言葉と、少年のつま先が目指す方角は、^n　少女たちを激しく動揺させたのだ。
+180	アリス	えっ……あ、あなた、どこへいくの？
+182	少年	どこへって、帰るんだよ。
+184	アリス	帰る……？
+186	グレーテル	おうちはそっちじゃなくて、こっちよ。^nそっちは森の中だよ。
+188	ラプンツェル	そして、きっと果てない荒野に続いているはず。^nおすすめはできませんわ。
+190	少年	（やっぱりこうなるか）
+191	少年は苦笑した。
+192	物語という狭苦しい|檻[おり]の中に、^n半ば望んで、半ば強制されて閉じこめられた少女たち。
+193	哀れだとは思う。^nけれど少年にはどうすることもできない。^nどうにかしてやる責任もない。
+195	少年	あー、まだ目が覚めないか。そりゃそうだよな。^nじゃあここで解散ってことで。
+196	少年の優しい笑顔とは裏腹の発言に、^nグレーテルはぎょっと目を見開く。
+198	グレーテル	か、解散！？
+200	オデット	えっと……えっと……？
+201	オデットは、ようやく目が覚めてきたようだ。^nぼんやりと辺りを見渡して、^n漠然と漂う「不穏な雰囲気」に不安そうにしている。
+202	オディールがその腕をつかんだ。
+203	きっと食いこむほどの強い力だったのだろう。^nオデットは息を呑み、肩をこわばらせた。
+205	オディール	あたしたちは出るのよ、姉さん。^nもうここにいたって何もないわ。
+207	アリス	何もない？　そんなはずないわ。だって……。
+209	ゲルダ	……楽園はもう、終わったの。
+210	泣きやんだゲルダは弟の胸から離れ、^n戸惑う少女たちに宣言した。
+212	アリス・グレーテル・ラプンツェル	……！？
+213	アリス、グレーテル、ラプンツェルの３人は^nそれぞれに悲鳴じみた声をもらす。
+214	「何を言われたかわからない」──そんな戸惑いが^n　彼女たちの顔にくっきりと張りついている。
+216	少年	医者も看護師も逃げた。^n世話してくれるひとなんていないのに、^nここにいたって仕方ないだろ。
+218	少年	楽園は──この施設は、終わったんだよ。^n潰れた遊園地で遊ぶことはできないだろ？
+220	アリス	そんな……だってあたしまだ、^n不思議の国の夢から覚めていないわ。^nだから、お姉ちゃんにも会えない。
+222	グレーテル	わ、わたしも……まだお兄ちゃん、見つけてない。
+224	ラプンツェル	わたくしには……ここを出ても、いくあてなんて……。
+226	少年	だから、ここで解散っていってるんだよ。^n住みたきゃ住めばいい、楽園跡地に。
+228	少年の弟	兄さん──
+229	──言ってやれることはここまでだ。^nあとは彼女たちが、各々の心の柔らかい部分に問いかけて、^nそれぞれの答えをもらえばいい。
+230	そんな少年の思いに応えるように、^n最初のひとりが動き出した。
+232	オディール	さ、行くわよ。
+234	オデット	ど、どこに？
+236	オディール	どうにだってなるわ。^nただ、ここにはもういられないだけ。
+237	オディールがオデットを引っ張って^n|朝靄[あさもや]の中に消えていった。
+238	アリスたちは突然の別離に戸惑いながら^n押し黙って|佇[たたずみ]みつくしている。
+240	ゲルダ	ねぇ、３人とも、勇気を出して。^nこのままじゃだめなのよ。
+241	ゲルダは、残った少女たちの^nひとりひとりの目を覗きこみながら^n熱のこもった声で諭した。
+243	ゲルダ	ここにいたって、あなたたちの物語はもう動かない。^n会いたい人には会えないし、ほしいものも見つからない──
+245	グレーテル	うぅ……っ。
+247	少年	放っておけって。
+249	少年の弟	…………。
+250	半ば歩き出しながら少年は助言し、^n弟もうなずいて、ゲルダに手をさしのべた。
+251	こんな危ない施設から彼女を一刻も早く遠ざけたい──^nそんな弟の意思が伝わったのだろう。
+252	ゲルダはその手をとり、門の外へと足を踏み出した。^n心残りを示して何度も振り返りながら、^n|朝靄[あさもや]の中に消えていく。
+253	そして、アリス、グレーテル、ラプンツェル。^n夢から放り出されたばかりの少女だけが、^n楽園と現実との境界に残された。
+255	グレーテル	……どうする？^nどう……すればいいの？
+257	ラプンツェル	答えなんてない……のね。^nどちらにしても、聖書にはない道ですもの。
+259	アリス	聖書……。
+260	アリスはハッと息を呑んだ。^n彼女の脳裏に浮かび上がったのは、^n数日前に耳にして以降、たびたび蘇る声だった。
+262	アリス	聖書の道をはずれるのは……。^n迷いの森を、コンパスなしで歩くようなもの……。
+263	そう、あの少年はアリスにそう告げた。^n記憶や名前がないことすら楽しんでいるような^n|溌剌[はつらつ]としたまなざしで。
+265	グレーテル	う……うぅぅ……。^nアリスちゃん、怖いこと言わないで。
+266	グレーテルは|怯[おび]えて身をすくませたが、^nアリスはひたすら少年の声を|反芻[はんすう]した。
+268	アリス	でも、それはそれで楽しいかもしれない。
+270	グレーテル	ふぇっ！？
+272	ラプンツェル	…………。
+274	アリス	毒を飲まなければ毒の味だってわからない。
+276	グレーテル	飲まなくていいよぉ。
+278	アリス	もしかしたら世界中のどんなお茶より、^n甘くて美味しいかもしれない──
+279	最後の|反芻[はんすう]を聞いて、^n縮こまっていたグレーテルの体からふと力が抜けた。
+281	グレーテル	……甘くて、美味しい？^n
+282	+グレーテル	……あ、で、でも……毒だよね。
+283	食欲と理性の間で行ったり来たりしている様子に、^nラプンツェルがくすくすと笑い声を響かせた。
+285	ラプンツェル	……毒だからといって、死ぬとは限らないし。^n何も食べないよりはましかもしれないわね。
+287	グレーテル	あ、ぅ……ぅ……。^nそう、なの、かなぁ？
+289	ラプンツェル	どちらにしても、わたくしたちは選ばねばならないわ。
+290	ラプンツェルの落ち着いた声が、^nアリスとグレーテルの胸に響く。
+292	アリス	だったら、あたしは──
+293	アリスは高鳴る心臓を抑えるように、^n片手を胸へとあてがった。
+295	ラプンツェル	わたくしは──
+296	ラプンツェルは振り返って楽園を見、^nまた振り返って外へと続く道を見て、^n痛みをこらえるように目をすがめた。
+298	グレーテル	わ、わたし、は──
+299	グレーテルは見えない力を溜めこむように、^n両腕で自らの体を抱きしめる。
+300	そして──
+301	３人は、それぞれの選択をたどりはじめた。
+303	少年	…………。
+304	振り返らずにただただ進もうと決めたのに、^n少年は一度だけ振り向いてしまった。
+305	|朝靄[あさもや]は相変わらず濃い。^n空中にミルクを溶かしたような白い膜の向こう、^nいくつかの人影がゆらゆらと揺らめいて見える。
+306	置いてきた３人も動き出したのだ。^nこちらにか、あちらにか、それはわからないけれど。
+308	少年	…………。
+309	少年はまぶしげに目を細めた。
+310	馬鹿げた夢に|耽溺[たんでき]する少女たちを、^n夢の世界で真剣に遊んでいた彼女たちの横顔を、^nほんの少しだけうらやましく思いながら。
+
+# 첫 요청
+이제 이 작품의 인물과 관계를 해석해 주세요. 번역은 다음 요청에서 시작합니다.
+1. 작품의 시점·화자·선택지와 인물이 그때 알고 있는 사실을 짧게 정리하세요. 스포일러는 해석표에서만 다루세요.
+2. 주요 인물을 화자 → 상대별로 정리하세요. 호칭, 일인칭, 존대, 문장 끝, 말투가 바뀌는 순간을 제안하고 작품 안의 발화·응답 ID를 붙이세요. 본편을 참고하면 R로 시작하는 별도 근거 ID를 덧붙이세요.
+3. 화자 표시표의 모든 ID에 한국어 표시명을 하나씩 결정하세요. 같은 사람일 가능성이 있어도 원작이 달리 표시한 이름은 각각 남기세요. 기존 표기와 결정을 함께 저장할 수 있도록 labels 배열에 {"id":"화자 ID","ko":"한국어 표시명"} 형식을 쓰세요.
+4. 핵심 용어·동화 속 배역·중의적인 표현과 미해결 사항을 따로 적으세요. 확신할 수 없는 항목은 미정으로 두고, 필요한 본편 장면이나 화자 또는 원문 검색어를 요청하세요. 다음 묶음에서도 이 해석표를 참조할 수 있게 간결하게 작성하세요.

@@ -1,0 +1,540 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1411_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    47
+  ],
+  "new_review_change_count": 7,
+  "new_review_changes": [
+    {
+      "slot": 4,
+      "before": "네…….",
+      "after": "하아……."
+    },
+    {
+      "slot": 9,
+      "before": "내 진찰은 서론에 불과하다는 듯 간단히 끝내고,^n툇마루에서 햇볕을 쬐며 찻잔을 홀짝이는 게 어울릴 듯한,^n시골 노인 같은 눈빛으로 잡담을 꺼내는 게 이 사람답다.",
+      "after": "내 진찰은 서론에 불과하다는 듯 간단히 끝내고,^n툇마루에서 햇볕을 쬐며 찻잔을 홀짝이는 게 어울릴 듯한,^n한적한 시골처럼 느긋한 눈빛으로 잡담을 꺼내는 게 이 사람답다."
+    },
+    {
+      "slot": 14,
+      "before": "보통은 그렇게 생각하지.^n그런데 하치쿠마, 벌인지 곰인지 알 수 없는 이름인데,^n사실은 새야. 매 같은 맹금류.",
+      "after": "보통은 그렇게 생각하지.^n그런데 벌인지 곰인지 알 수 없는 이름인 이 하치쿠마,^n사실은 『벌매』라는 새야. 매 같은 맹금류."
+    },
+    {
+      "slot": 18,
+      "before": "벌을 주식으로 삼아서,^n상대가 말벌이든 뭐든,^n집을 때려 부수고 몽땅 가져가기 때문이래.",
+      "after": "벌을 주식으로 삼아서,^n상대가 말벌이든 뭐든,^n둥지를 때려 부수고 몽땅 가져가기 때문이래."
+    },
+    {
+      "slot": 24,
+      "before": "　그런 이야기를 전에 도서관에서 읽었어.^n『하나아루키』라는 생물을 조사하다가 우연히 본 거지만.^n　그럼 이번에는 드디어 그 『하나아루키』 이야기인데──",
+      "after": "　그런 이야기를 전에 도서관에서 읽었어.^n『하나아루키』라는 생물을 조사하던 김에 본 거지만.^n　그럼 이번에는 드디어 그 『하나아루키』 이야기인데──"
+    },
+    {
+      "slot": 40,
+      "before": "　──그래서 『하나아루키』 이야기가 먹히지 않았으니 이번에는,^n『모든 도서관으로 통하면서도 어느 도서관과도 이어지지 않은』^n『여덟을 여덟 배 한 수만큼 모서리가 있는 서고』 이야기인데.",
+      "after": "　──그래서 『하나아루키』 이야기가 먹히지 않았으니 이번에는,^n『모든 도서관으로 통하면서도 어느 도서관과도 이어지지 않은』^n『여덟에 여덟을 곱한 수만큼 모서리가 있는 서고』 이야기인데."
+    },
+    {
+      "slot": 46,
+      "before": "그에게 팔꿈치라도 먹이지 않고 그저 끝까지 어울려 준 나도,^n환자로서는 어느 쪽이냐 하면 게으른 부류였겠지.",
+      "after": "그 잡담을 제지하지도 않고 그저 끝까지 어울려 준 나도,^n환자로서는 어느 쪽이냐 하면 게으른 부류였겠지."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    48,
+    105
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00001",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00002",
+      "source_text": "ところで「ハチクマ」って生き物がいるんだけどさ。",
+      "source_raw_sha256": "FC8EFADD99662F451218FAD5FF5EF03597A4351653EABA3F6519B2E26BD1C4A3",
+      "target_text": "그런데 『하치쿠마』, 뜻을 풀면 『벌곰』이라는 생물이 있거든.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00003",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00004",
+      "source_text": "はぁ……。",
+      "source_raw_sha256": "C371673E4272CCD0A2C52BD59DEF98E7748D03D8157D607C9F97CD81691220FA",
+      "target_text": "하아…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00005",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00006",
+      "source_text": "その名前の字面的に、どういう生き物だって考える？",
+      "source_raw_sha256": "15159C55FA3E02C13E210B608F45AF44ECB99BEB3E99FB95FDA4776349CBF3C5",
+      "target_text": "그 이름만 보면 어떤 생물일 것 같아?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00007",
+      "source_text": "いつもの診察室のいつもの机と椅子で、^n今日僕を診てくれているのは珍しくイケノさんだ。^nこの人もまたお医者様であることを再確認させられる。",
+      "source_raw_sha256": "C2909738204459DA8287B89E8BDFF7E2DCA2F17C57BC155EEEB895D0A82C8E40",
+      "target_text": "늘 쓰는 진찰실의 늘 보던 책상과 의자.^n오늘 나를 진찰해 주는 사람은 드물게도 이케노 씨다.^n이 사람도 역시 의사라는 사실을 새삼 확인하게 된다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00008",
+      "source_text": "いつもの先生よりは、^nまだ僕のほうを向いてくれてるようなんだけど、^nその視線も時々僕の頭上を突き抜け遠くに向かっている。",
+      "source_raw_sha256": "12529C65173DF3CFD744888E6FF1560BF24F367C5D90B9CD0F74D5495EE809EB",
+      "target_text": "평소 선생님보다는^n그나마 내 쪽을 바라봐 주는 듯하지만,^n그 시선도 가끔 내 머리 위를 뚫고 멀리 향한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00009",
+      "source_text": "僕の診察が前置きであるかのように簡単に終わらせ、^n縁側で、日向ぼっこしつつ湯呑を|啜[すす]っているのが|相応[ふさわ]しいような、^nひなびた目で世間話に移るあたり、この人らしい。",
+      "source_raw_sha256": "C6AFBB945AB76B2B42947C3C5ED4C488DFDB5B925411C88F1E826D83891EA95E",
+      "target_text": "내 진찰은 서론에 불과하다는 듯 간단히 끝내고,^n툇마루에서 햇볕을 쬐며 찻잔을 홀짝이는 게 어울릴 듯한,^n한적한 시골처럼 느긋한 눈빛으로 잡담을 꺼내는 게 이 사람답다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00010",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00011",
+      "source_text": "クマンバチとか、蜂蜜が好きなクマとかですかね。^nあ、それだとたいがいのクマはそうか……。",
+      "source_raw_sha256": "3D60C9E1746C10415A8FE9990AF7B63C2DED59CAA79E5C3C30571490F27C1D30",
+      "target_text": "『곰벌』 같은 벌이나, 꿀을 좋아하는 곰인가요.^n아, 그러면 웬만한 곰은 다 그렇겠네…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00012",
+      "source_text": "まあでもこの人の話のほうが、^nまだどこかしらとっかかりはあるかもしれない。^n付き合って言葉を返せば、",
+      "source_raw_sha256": "878546A5CC2E29BAF0B5A8A1B18877B9BAA58F5B573FF7737C940A98EB5EB928",
+      "target_text": "그래도 이 사람 이야기가^n어딘가 실마리를 잡기에는 좀 나을지도 모른다.^n맞장구치며 대답하면,",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00013",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00014",
+      "source_text": "と、思うよね普通は。^nところがこのハチクマ、ハチだかクマだかわからない名前で、^nこれが実は鳥。|猛禽類[もうきんるい]の仲間。タカとかの。",
+      "source_raw_sha256": "90B213729F5A00E4739962D60AD237357B7CD70B585DAA209A20AC0613F69F91",
+      "target_text": "보통은 그렇게 생각하지.^n그런데 벌인지 곰인지 알 수 없는 이름인 이 하치쿠마,^n사실은 『벌매』라는 새야. 매 같은 맹금류.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00015",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00016",
+      "source_text": "へぇ……なんでまたそんな名前が付いたんだろう。",
+      "source_raw_sha256": "61A276F8C162D675D57D32EC3E2F6B01B7D50B80BCCAAF4FB84073F4D5D69C3B",
+      "target_text": "그렇군요…… 그런데 왜 그런 이름이 붙었을까요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00017",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00018",
+      "source_text": "ハチを主食にしてて、^n相手がスズメバチだろうが何だろうが、^n巣をぶっ壊して全部持ってくから、だそうだ。",
+      "source_raw_sha256": "AF466018E67AA6D8FAF4BC637431B7823F683781FE35B49E46E2E14472ABDA9A",
+      "target_text": "벌을 주식으로 삼아서,^n상대가 말벌이든 뭐든,^n둥지를 때려 부수고 몽땅 가져가기 때문이래.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00019",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00020",
+      "source_text": "　タカだけども、クマのようにハチをものともしないから、^n「ハチクマ」と、^n　まあそういうわけらしい。",
+      "source_raw_sha256": "A0372C34494F68A05E3ED6ADBCCDE71FFB2702ADE4A4C778A3A9CD876B5ACAC5",
+      "target_text": "　매지만 곰처럼 벌 따윈 아랑곳하지 않아서,^n『하치쿠마』, 벌곰이라고,^n　뭐 그런 사정인 모양이야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00021",
+      "source_text": "はあ、と気の抜けた返事しかできなくなる。^n味があるようなないような話なので、^nこっちもそんなにテンションは上がらない。",
+      "source_raw_sha256": "BE32E9A7A81E8529F461F9D97861839DD8F0C14E3AF98688CEA4E0D82937FA1E",
+      "target_text": "하아, 하고 맥 빠진 대답밖에 나오지 않는다.^n재미가 있는 듯 없는 듯한 이야기라,^n나도 그리 신이 나진 않는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00022",
+      "source_text": "　……もしかして、僕が読み取れてないだけで、^n　これも何かの|寓話[ぐうわ]とか、|心理試験[テスト]の類なんだろうか。^n「巣」という秩序を無にする破壊者に対してどう思う、とかの。",
+      "source_raw_sha256": "70D5207B7305A7E4B4BF739DD5765FD4DE082892D67EDE0549C3A2A13F28BB0F",
+      "target_text": "……혹시 내가 읽어 내지 못할 뿐, 이것도 무슨^n우화나 심리 검사 같은 걸까. 『둥지』라는 질서를^n무너뜨리는 파괴자를 어떻게 생각하느냐는 식의.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료; post-review dialogue layout overflow repair v1",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00023",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00024",
+      "source_text": "　そんな話を、前に図書館で読んだんだ。^n「ハナアルキ」という生き物を調べてるついでだったけど。^n　で、今度はいよいよその「ハナアルキ」の話で──",
+      "source_raw_sha256": "F420AF8A100DEE2C3CE714F039496F93F91A8F81E1587CAACC8973DC0C0349A1",
+      "target_text": "　그런 이야기를 전에 도서관에서 읽었어.^n『하나아루키』라는 생물을 조사하던 김에 본 거지만.^n　그럼 이번에는 드디어 그 『하나아루키』 이야기인데──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00025",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00026",
+      "source_text": "　あ、そっちは今思い出しました。^n「ハイアイアイ島」の話ですよね？",
+      "source_raw_sha256": "DF1D07266246B3E7FB34BDEBB0AD724F2A5D00CC805DD884747E8BFAF6A74251",
+      "target_text": "　아, 그쪽은 지금 생각났어요.^n『하이아이아이섬』 이야기죠?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00027",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00028",
+      "source_text": "なんだ、知ってたか。^nまあ、図書館には色んな本があって楽しいよ、って話だ。",
+      "source_raw_sha256": "2758C06D971331B53530A2D3BB8244953D1508A827C51D27C04B3E735B1E4A9A",
+      "target_text": "뭐야, 알고 있었어?^n아무튼 도서관에는 여러 책이 있어서 재미있다는 얘기야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00029",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00030",
+      "source_text": "たとえば「白鳥の湖」なんかも、^nここの図書館には２種類あるんだよ。",
+      "source_raw_sha256": "AE767DC7BF1278EA9DC8E5E2CEB21A2570F70250A6D4162073AC852AEB3965D4",
+      "target_text": "가령 『백조의 호수』 같은 것도,^n여기 도서관에는 두 종류가 있어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00031",
+      "source_text": "彼がここでよりにもよって、^nその「物語」を持ち出してきた意図は、いったい──",
+      "source_raw_sha256": "8976E3078ED577E2915EC13DBB47FF5CF61614076D6E88CE9133F3B9C4D5C894",
+      "target_text": "하필 여기서 그가^n그 『이야기』를 꺼낸 의도는 대체──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00032",
+      "source_text": "それまで日中の幅いっぱいに|弛緩[しかん]していた空気が、^nにわかに張りつめた。^n……ように思えて身構えたのは、僕だけだった。",
+      "source_raw_sha256": "2B555E8BEE90B3DD327E27121961F7517806AC58FCEAB995BD08917AB46919D3",
+      "target_text": "그때까지 낮 시간 내내 한껏 늘어져 있던 공기가,^n갑자기 팽팽하게 긴장됐다.^n……고 생각해 몸을 굳힌 건 나뿐이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00033",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00034",
+      "source_text": "ああ、確かに２冊並んでいましたね。",
+      "source_raw_sha256": "586577E25A91CD3D7FA1A32C25F0DE9B4522B8F1843E65CDB979B1836A4E2DBA",
+      "target_text": "아, 정말 두 권이 나란히 놓여 있었죠.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00035",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00036",
+      "source_text": "ああ、もう知っていたのかい。^nあの本にはふたつの結末があるからね。",
+      "source_raw_sha256": "C3FE0ED65619DAEE489816AC0FBBF477766A7BBCFA7E52D9EC312C3C5A6C48E2",
+      "target_text": "아, 벌써 알고 있었구나.^n그 책에는 결말이 두 가지 있거든.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00037",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00038",
+      "source_text": "比較的有名なハッピーエンドしか知らない人は、^n本来の結末であるバットエンドを知ったとき、^nけっこうショックを受けるらしいね。",
+      "source_raw_sha256": "2F73A6CB40A19E018AACE105830BC7191B9A9B08240ED07DF8583E1FA49E9D70",
+      "target_text": "비교적 유명한 해피 엔딩만 아는 사람은,^n본래 결말인 배드 엔딩을 알게 됐을 때,^n제법 충격을 받는 모양이야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00039",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00040",
+      "source_text": "　──で、「ハナアルキ」の話が滑ったところで今度は、^n「全ての図書館に通じていて、どこの図書館とも|繋[つな]がっていない」^n「八に八を倍した角を持つ書庫」の話なんだけど。",
+      "source_raw_sha256": "AA7A5BA68C9B6455EDBC96EAFB82C3C0C509BAA749DCD74E6B46CA8F47AA7D3F",
+      "target_text": "　──그래서 『하나아루키』 이야기가 먹히지 않았으니 이번에는,^n『모든 도서관으로 통하면서도 어느 도서관과도 이어지지 않은』^n『여덟에 여덟을 곱한 수만큼 모서리가 있는 서고』 이야기인데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00041",
+      "source_text": "僕がなにかを口にする前に、^nイケノさんはさらりと話題を変えてしまう。",
+      "source_raw_sha256": "5BEBCF07C33BAC4BEB06D2FB80B426683A920927202EB93A80D9E46057FFB5C8",
+      "target_text": "내가 무언가 입에 올리기도 전에,^n이케노 씨는 아무렇지도 않게 화제를 바꿔 버린다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00042",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00043",
+      "source_text": "なんですか、^nその意味ありそうでまたどうでもよさげな話はいったい。",
+      "source_raw_sha256": "5DAA771246F5DAFF1372C6378F34EC7AFEE772E37DCB5D08AC527D0DD7762821",
+      "target_text": "뭐예요,^n의미가 있을 듯하면서 또 아무래도 좋을 듯한 그 이야기는 대체.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00044",
+      "source_text": "結局「白鳥の湖」に関する話なんて、^n僕の興味を惹きつけておくための|撒[ま]き|餌[え]でしかなかった、^nと言わんばかりに、わずか二言三言で流された。",
+      "source_raw_sha256": "3C2DD2356C6B2FE7474CA39AF318849DADF1ACB3A8F6CF99A06300368E276D82",
+      "target_text": "결국 『백조의 호수』 이야기는^n내 흥미를 붙들어 두기 위한 밑밥에 불과했다는 듯,^n고작 두세 마디로 흘려보냈다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00045",
+      "source_text": "他の業務はどうなっているんだろうと|不審[ふしん]になるくらい無駄話を、^n延々と淡々と続けたイケノさんはお医者様としては多分失格。",
+      "source_raw_sha256": "C228B1BE6CB308F769B3AB3AF7510FDBAE17C4CDC7574DAD27B929FFD35DEDCE",
+      "target_text": "다른 업무는 어쩌고 있나 의심스러울 만큼 쓸데없는 이야기를,^n끝없이 담담하게 이어 간 이케노 씨는 의사로서는 아마 실격이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00046",
+      "source_text": "それに肘鉄を食らわせもせず、ただ付き合い続けた僕も、^n患者としてはどちらかというと|怠惰[たいだ]な部類だったろう。",
+      "source_raw_sha256": "BE1257CC1F56413D9D800D7AE529CEE4509662480B67B306E4AF5D97F79DE0F4",
+      "target_text": "그 잡담을 제지하지도 않고 그저 끝까지 어울려 준 나도,^n환자로서는 어느 쪽이냐 하면 게으른 부류였겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1411.gsc::slot/00047",
+      "source_text": "なお今日のよもやま話、全てが、^n何やらの百科事典の「ハ行」の丸々引き写しであった、^nと僕が気づいたのは「ヘ段」まで聞き終わった後であり──",
+      "source_raw_sha256": "26DD8290FF8E654155F03BC0AD02910C34B262AB1D365254AE443D2359244A3C",
+      "target_text": "참고로 오늘의 잡담은 전부,^n어떤 백과사전의 일본어 『하』행을 통째로 베껴 옮긴 것이었고,^n내가 그 사실을 깨달은 건 『헤』단까지 다 들은 뒤였으니──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ],
+  "post_review_repairs": [
+    {
+      "id": "dialogue_layout_overflow_repair_v1",
+      "completed_utc": "2026-08-13T22:45:21.860410Z",
+      "slots": [
+        22
+      ],
+      "reason": "prevent Malie four-line auto-wrap text-format error; 3 lines and <=992 units"
+    }
+  ]
+}

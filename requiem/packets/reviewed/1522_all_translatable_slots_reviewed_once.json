@@ -1,0 +1,1700 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1522_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    164
+  ],
+  "new_review_change_count": 7,
+  "new_review_changes": [
+    {
+      "slot": 12,
+      "before": "딱 하나 싫은 일이 있다면……,^n내가 이렇게 된 뒤로 어째서인지 잠들 때마다 반드시,^n어린 시절의 꿈을 꾸게 되었다는 것이다.",
+      "after": "딱 하나 싫은 일이 있다면……,^n내가 이렇게 된 뒤로 어째서인지 잠들 때마다 반드시,^n어린아이의 꿈을 꾸게 되었다는 것이다."
+    },
+    {
+      "slot": 51,
+      "before": "이케노 씨가 여전히 내 손을 잡아 이끄는데도,^n그의 존재가 정말 그곳에 있는 것처럼 느껴지지 않는 것은,^n그가 『이야기』 속 인물이 아니기 때문일까.",
+      "after": "이케노 씨가 여전히 내 손을 잡아 이끄는데도,^n그의 존재가 정말 그곳에 있는 것처럼 느껴지지 않는 것은,^n그가 『이야기』의 등장인물이 아니기 때문일까."
+    },
+    {
+      "slot": 57,
+      "before": "그리고 너는 슬픔에 눈물 흘리고 고통에 흐느껴 울어야…… 하는데.^n너는 왜 울고 있지 않지?",
+      "after": "그리고 너는 슬픔에 눈물 흘리고 고통에 흐느껴 울어야…… 할 텐데.^n너는 왜 울고 있지 않지?"
+    },
+    {
+      "slot": 86,
+      "before": "그걸로 괜찮아요, 당신.^n이제 과거에 다 흘리지 못한 눈물 때문에 괴로워하지 않아도 돼요.",
+      "after": "그래도 괜찮아요, 당신.^n이제 과거에 다 흘리지 못한 눈물 때문에 괴로워하지 않아도 돼요."
+    },
+    {
+      "slot": 103,
+      "before": "……있잖아요, 당신. 울지 못하는 일을 슬퍼하는 왕자님이라면,^n저 역시 『라푼젤』로서 실격이에요.",
+      "after": "……있잖아요, 당신. 울지 못하는 자신을 한탄하는 왕자님이라면,^n저 역시 『라푼젤』로서 실격이에요."
+    },
+    {
+      "slot": 137,
+      "before": "　후후…… 저, 제대로,^n『라푼젤』이었나요…….",
+      "after": "　후후…… 저, 제대로,^n『라푼젤』 역할을 해냈나요……."
+    },
+    {
+      "slot": 150,
+      "before": "맹세하며 나를 바치는 말에 라푼젤의,^n눈썹이 축 처지는 모습이 가슴을 찌를 만큼 슬퍼 보였다.",
+      "after": "나를 바치겠다는 맹세의 말에 라푼젤의,^n눈썹이 축 처지는 모습이 가슴을 찌를 만큼 슬퍼 보였다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    165,
+    222
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00001",
+      "source_text": "──薄ぼんやりとはしているけれど、^n光の加減くらいは、今の僕にもどうやらわかる。^nこれは部屋の蛍光灯の光で、だから今は夜の時間帯だ。",
+      "source_raw_sha256": "5E542DD5721C45DE85A28011726458EABDDB8E53BB4DD37BB4D95EE785AAA3ED",
+      "target_text": "──희미하기는 하지만,^n빛의 세기 정도는 지금의 나도 어떻게든 알 수 있다.^n이건 방의 형광등 불빛이니 지금은 밤이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00002",
+      "source_text": "……目が見えなくなった瞬間のことを、^n僕はよく覚えていない。",
+      "source_raw_sha256": "0A9C51596D9611C3EE5C0986FD0FC86ABFCDF304289D18E2C91F3331AE144745",
+      "target_text": "……눈이 보이지 않게 된 순간을,^n나는 잘 기억하지 못한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00003",
+      "source_text": "ラプンツェルの部屋の窓から落ち、^n何か、硬くあると同時に弾力に満ちたものに抱き止められた。^n黒いイバラの蔓。僕を守ってくれたんだと思う。",
+      "source_raw_sha256": "D6752D5171929DFEE845A11ECF472363E7DEB71188C0CDF632B132DE98EDB2F3",
+      "target_text": "라푼젤의 방 창문에서 떨어져,^n단단하면서도 탄력이 넘치는 무언가에 안겼다.^n검은 가시덩굴. 나를 지켜 준 것 같다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00004",
+      "source_text": "けれど、僕を助けるためには、^nこの目の光、奪わざるをえなかった──そんな気がした。",
+      "source_raw_sha256": "241EB989184FD0943E988BC475B3A212CBADB00AFFCE3572F27C5E13008AC044",
+      "target_text": "하지만 나를 구하려면,^n이 눈의 빛을 빼앗을 수밖에 없었던── 그런 느낌이 들었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00005",
+      "source_text": "優しさと暖かさ。^n同時に無慈悲な法則と、それに縛られてしまう事への嘆き。^nそれら|相反[あいはん]するもので成り立った存在に感じられた。",
+      "source_raw_sha256": "13C87EEB4A80E8456879DFC595B6BCE01676047850802D32FB52714173C9A3A6",
+      "target_text": "상냥함과 따스함.^n그와 동시에 무자비한 법칙과 거기에 얽매인다는 사실을 슬퍼하는 마음.^n그런 서로 모순되는 것들로 이루어진 존재처럼 느껴졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00006",
+      "source_text": "それからは暗がりに閉ざされた僕のまわりで、^n世界は慌ただしく過ぎていった。^nばたばたと検査されたり治療？　されたり色々だ。",
+      "source_raw_sha256": "39A2CE407695DB8096E5083C216CFAE21AB31892BDBDFBFCFFACFBE634466550",
+      "target_text": "그 뒤로 어둠에 갇힌 내 주위에서,^n세상은 분주하게 흘러갔다.^n허둥지둥 검사를 받고 치료?도 받는 등 여러 일이 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00007",
+      "source_text": "……正直言うと、この施設とお医者様たちが、^nそういう真っ当な治療とか病院らしいことができるのが、^nちょっと意外でさえあったけれどそれは秘密っていうことで。",
+      "source_raw_sha256": "B841DD719AC0CF354761396D3DB2B387756A4820D4C396C0387D5DBB5FA54539",
+      "target_text": "……솔직히 말하면 이 시설과 의사 선생님들이,^n그런 제대로 된 치료나 병원다운 일을 할 수 있다는 사실이,^n조금 의외이기도 했지만 그건 비밀로 하자.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00008",
+      "source_text": "ただ、そんな検査をされるまでもなく、^n勝手に確信したことがあった。^n僕の目には、そういう検査で判明するような傷とかはない。",
+      "source_raw_sha256": "BBC80B2AC5D7C59593D3327DA2D21DADDB23AE9C54FC15CDB408DC23F806E26C",
+      "target_text": "하지만 그런 검사를 받을 필요도 없이,^n멋대로 확신한 것이 있었다.^n내 눈에는 그런 검사로 밝혀질 만한 상처가 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00009",
+      "source_text": "僕が見えなくなったのは多分──^nこれもまた「|お伽話症候群[フェアリーテイル・シンドローム]」の、ひとつの症例なんだろう。",
+      "source_raw_sha256": "B0EF4EB6EB26182F767E9869E88927C29427DD62FFC619771640F2CC7D062E47",
+      "target_text": "내가 보지 못하게 된 것은 아마──^n이것도 『동화 증후군』의 한 증상일 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00010",
+      "source_text": "　だとすればここのお医者様たちにとっては専門分野だろうに、^n「損傷もないのに視力だけが忽然と失われた現象」として、^n　的外れに困惑している状況なのが、僕にも伝わってくる。",
+      "source_raw_sha256": "EE237839B3A52AD5260A94FD8B5479DF13C9F3BC1FCAACE187072A25AC9C53FF",
+      "target_text": "　그렇다면 이곳 의사 선생님들에게는 전문 분야일 텐데,^n『손상도 없는데 시력만 홀연히 사라진 현상』이라며,^n　엉뚱하게 당황하고 있다는 사실이 내게도 전해졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00011",
+      "source_text": "なんというか「ご苦労さん」だなって思う。^nそんな風に他人ごとに思えてしまうくらい、^n失明してからの毎日は、僕にとっては穏やかな凪だった。",
+      "source_raw_sha256": "B20A2FD44F2AF2CECE8892DE8617914C77280E751C762A7DC481175CD1AE6D29",
+      "target_text": "뭐랄까, 『수고가 많네』 하는 생각이 든다.^n그렇게 남의 일처럼 느껴질 정도로,^n실명한 뒤의 나날은 내게 잔잔한 바다 같았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00012",
+      "source_text": "ただひとつ|厭[いや]なことがあるとすれば……、^n僕がこうなって以来どういうわけか、眠りにつく時は必ず、^nコドモの夢を見るようになった事だ。",
+      "source_raw_sha256": "84CD38A38B87DCEF5519192B0C08350116570CC0E37C191D77D0912DC24B514E",
+      "target_text": "딱 하나 싫은 일이 있다면……,^n내가 이렇게 된 뒤로 어째서인지 잠들 때마다 반드시,^n어린아이의 꿈을 꾸게 되었다는 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00013",
+      "source_text": "手出ししようもないほど硬質なガラスの壁の前に立ち尽くし、^n１枚を隔てたところにある暖かな団欒を見つめている。",
+      "source_raw_sha256": "750342E45DF5DC70ACCE63279746F350407E76B8403F96A6B748B4770B48C373",
+      "target_text": "손댈 수도 없을 만큼 단단한 유리벽 앞에 우두커니 서서,^n유리 한 장 너머에 있는 따뜻한 단란함을 바라본다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00014",
+      "source_text": "何かを|諦[あきら]め、|擦[す]り切れ、^n泣くことさえ忘れてしまったコドモの、夢。",
+      "source_raw_sha256": "7B6410129EAE698F81684625DF152B18057C5C5022128294E1C76D65BD1C6547",
+      "target_text": "무언가를 포기하고 닳아 버려,^n우는 법마저 잊어버린 아이의 꿈.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00015",
+      "source_text": "その子の後ろ姿を見つめながら、^n僕は必死に|訴[うった]えかけているのだけれど声にならない。^n言葉は届かず、砂粒よりむなしく|零[こぼ]れ落ちていくだけ。",
+      "source_raw_sha256": "838034CE5F5A7C88045A9CBA1894D0FAC1691228AB5A3257BA5A0379B67102AE",
+      "target_text": "그 아이의 뒷모습을 바라보면서,^n나는 필사적으로 호소하지만 목소리가 나오지 않는다.^n말은 닿지 않고 모래알보다 허무하게 흘러내릴 뿐이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00016",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00017",
+      "source_text": "（泣きなよ。大声をあげて泣きなよ。^n　そうしなければ、誰もきみのことをわかってくれない。^n　泣いていいんだよ）",
+      "source_raw_sha256": "61D76EAFAF91CE549AB806A1ECBEDD04567E93F97D71850F9B5F18E746579C6E",
+      "target_text": "(울어. 큰 소리로 울어.^n　그러지 않으면 아무도 너를 알아주지 않아.^n　울어도 괜찮아)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00018",
+      "source_text": "届かない言葉。何度も必死にその子に呼びかける、息苦しい夢。^nそんな夢を見せられるから、^n断然起きている間の方が心穏やかだった。",
+      "source_raw_sha256": "D529C00F61D417197A4A551819CFD3DE2411412D1D4C1768209B131AAA01F1CA",
+      "target_text": "닿지 않는 말. 몇 번이고 필사적으로 그 아이를 부르는 숨 막히는 꿈.^n그런 꿈을 꾸게 되니,^n차라리 깨어 있는 동안이 훨씬 마음 편했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00019",
+      "source_text": "ラプンツェルが、そばにいてくれるから。",
+      "source_raw_sha256": "DF99EDF187C76AD4A2CAC74745DCEE9FB67FE741A54685AB948DC137ECF63E6C",
+      "target_text": "라푼젤이 곁에 있어 주니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00020",
+      "source_text": "不安はまるでないわけじゃないけど、^nずっと付き添って、歌を歌ったり本を読み聞かせたりしてくれる、^nラプンツェルの気配がとても愛おしく、幸福感の方がまさった。",
+      "source_raw_sha256": "D1D2F41D0DDE1E1A84C2F1A3218B878AECBD2AF2B01E0C71D51A49D453EC4DCA",
+      "target_text": "불안이 전혀 없는 것은 아니지만,^n계속 곁을 지키며 노래하거나 책을 읽어 주는,^n라푼젤의 기척이 너무도 사랑스러워 행복감이 더 컸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00021",
+      "source_text": "それにどういうわけか、この失明は一時的なものであって、^n必ず治るって確信があった。",
+      "source_raw_sha256": "EE06E8DA3EB544D6505B79B6CF1255198F7DD26A8458141AA79E941CD4FE6F89",
+      "target_text": "게다가 어째서인지 이 실명은 일시적인 것이며,^n반드시 나으리라는 확신이 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00022",
+      "source_text": "そうやってラプンツェルに優しく甲斐甲斐しく、^nお世話をしてもらって、居心地良く暖かな、^n大きな卵の中で時を過ごすような日が、何日続いたろう。",
+      "source_raw_sha256": "1A49F3C878AD315C4600959E7A32C27E10182E9DEDC0A41D9C31F3132C18E729",
+      "target_text": "그렇게 라푼젤에게 다정하고 살뜰하게,^n보살핌을 받으며 편안하고 따뜻한,^n커다란 알 속에서 시간을 보내는 듯한 날이 며칠이나 이어졌을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00023",
+      "source_text": "そんな日々の中の、ある日の事。^n手を取られ、ベッドから立ち上がらされた。",
+      "source_raw_sha256": "D3EB82BF4A2F537107FB5B7FFC5ABBA30E4BE32CC2941FEAE26CB740A3F1E44A",
+      "target_text": "그런 나날 가운데 어느 날.^n손을 잡힌 채 침대에서 일으켜졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00024",
+      "source_text": "これまでも、僕の足が|萎[な]えてしまわないよう軽い運動のため、^nラプンツェルは僕を部屋の中をぐるぐる歩かせたことがある。^n僕の歩調に合わせ、ずっと手を握っててくれたから、怖くなかった。",
+      "source_raw_sha256": "F36CE5B5BD5F5B38A489D19EF98811F9B2BD65BA27DEC493BB446F9966BCB9B2",
+      "target_text": "전에도 내 다리가 약해지지 않도록 가볍게 운동한다며,^n라푼젤이 나를 방 안에서 빙빙 걷게 한 적이 있다.^n내 걸음에 맞춰 계속 손을 잡아 줬기에 무섭지 않았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00025",
+      "source_text": "だから今も、同じようなつもりなのかなって思ったけれど、^n僕のそばに寄り添う気配はふたつあって、^n少し不安に駆られた。",
+      "source_raw_sha256": "1A2C1584969E6E5730DBEF8ADB3E27812D4C4780D933684FED32F9CAE30FAD22",
+      "target_text": "그래서 지금도 같은 일인가 했지만,^n내 곁에 붙어 있는 기척이 둘이라서,^n조금 불안해졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00026",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00027",
+      "source_text": "……ラプンツェル……だよね？",
+      "source_raw_sha256": "7FE50BD94340E9CECEAD967974B18B436F9E2A4516F085DD94AD82445699FEF2",
+      "target_text": "……라푼젤…… 맞지?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00028",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00029",
+      "source_text": "………………しぃー…………っ。",
+      "source_raw_sha256": "D821BDB935C18F9403F1F84CE2CE4BECFBF3F2ADE4F9F1000DC3105D88E5E3ED",
+      "target_text": "………………쉿………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00030",
+      "source_text": "　あの、指を唇に当てて^n「静かにしてて」の合図だろう、これは。",
+      "source_raw_sha256": "2453FC6E1E97DEA673718665E8F33CCFA328F36898913354745B22D785557BE2",
+      "target_text": "　그, 손가락을 입술에 대고^n『조용히 해』라고 보내는 신호겠지, 이건.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00031",
+      "source_text": "気配や歩幅あたりで、ひとりは言うに及ばず、^nもうひとりが誰なのかも見当がついて呼びかけてみたのだけれど、",
+      "source_raw_sha256": "3401964C8A39DD683A043DC4E18B62E824AC884DE6B6E5F649261EB7C6594DE8",
+      "target_text": "기척과 걸음폭을 보면 한 명은 말할 것도 없고,^n다른 한 명이 누군지도 짐작이 가서 불러 봤지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00032",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00033",
+      "source_text": "……イケノさん？",
+      "source_raw_sha256": "94CB0FD0C17C43B647E5EBBDDBCDB574579DD4CD4C45AC8ABDFDEAB392E2E3EF",
+      "target_text": "……이케노 씨?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00034",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00035",
+      "source_text": "………………しぃー…………っ。",
+      "source_raw_sha256": "D821BDB935C18F9403F1F84CE2CE4BECFBF3F2ADE4F9F1000DC3105D88E5E3ED",
+      "target_text": "………………쉿………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00036",
+      "source_text": "それでも、帰ってくるのは「お静かに」のサインばかり。^nそんなに物音を殺して、僕をどこに連れて行こうっていうのか。^nラプンツェルがいるから、ひどいことにならないとは思うけど。",
+      "source_raw_sha256": "08A29043E54A630E23C78263F2DA38A8FF66B55F1867ADF61E1056DA0A11041F",
+      "target_text": "그래도 돌아오는 건 『조용히』라는 신호뿐.^n그렇게 숨죽여 나를 어디로 데려가려는 걸까.^n라푼젤이 있으니 험한 일은 생기지 않을 것 같지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00037",
+      "source_text": "手を引かれるうちに、気配のひとつが消えていることに気がついた。^nいなくなったのはこれは──ラプンツェルの方じゃないか。",
+      "source_raw_sha256": "6281496C9EF50C2AD08A959F249578E073FD4C6A96FDF43CA6E4A2470B773F04",
+      "target_text": "손에 이끌려 가다가 기척 하나가 사라졌음을 깨달았다.^n없어진 건── 라푼젤 쪽이 아닌가.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00038",
+      "source_text": "どこへ行ってしまったのだろう。^nにわかに心細さがつのりゆく。^n耐えようとするのだけれど耐えきれない。",
+      "source_raw_sha256": "4A9DF48B3F6BA7FC20C12386D06927FC11CC9E15551D040339722A4A7B564238",
+      "target_text": "어디로 가 버린 걸까.^n갑자기 불안한 마음이 커진다.^n견디려 해도 견딜 수 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00039",
+      "source_text": "心の中で不安が、嵐の前の黒雲より物凄く広がっていく。^n絶望の荒野を独りさまようみたいな|寂寥[せきりょう]に、僕は責め苛まれる。",
+      "source_raw_sha256": "EBE2F772B405078F69F317763AEC15A5AC96B52B43B1AC25CF97A27D6B7A39A6",
+      "target_text": "마음속에서 불안이 폭풍 전의 먹구름보다 무섭게 퍼져 간다.^n절망의 황야를 홀로 헤매는 듯한 적막감에 나는 시달린다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00040",
+      "source_text": "変だ、これ、変だよ。^nこの心の中の不安と|寂[さび]しさ、いくらなんでも突然すぎて、^nまるで心が何かの発作を起こしたみたい。",
+      "source_raw_sha256": "7A994DED83D527BE44BFC1BB3AF3A48D775FD729CA5CFF3E65A23AFFFDD896EA",
+      "target_text": "이상해, 이건 이상해.^n마음속 불안과 외로움이 아무리 그래도 너무 갑작스러워서,^n마치 마음이 무슨 발작이라도 일으킨 것 같다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00041",
+      "source_text": "──あるいは、僕の中で生まれたんじゃなく、^n外から注ぎ込まれたような。^nそれくらい突発的で激烈な、暗く|軋[きし]るような感情の奔流だった。",
+      "source_raw_sha256": "E08A6B6F21BAE29D8CE0EC88229C6C7655C6732B81246754AAF575D15C34D5A1",
+      "target_text": "──혹은 내 안에서 생긴 것이 아니라,^n밖에서 쏟아부어진 듯하다.^n그만큼 돌발적이고 격렬하며 어둡게 삐걱거리는 감정의 격류였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00042",
+      "source_text": "奇怪な情動の嵐に苦しみ、足取りを鈍らせる僕の手を、^n宥めるように、けれど立ち止まることだけは許さず、^nなおもイケノさんは引っ張っていく。",
+      "source_raw_sha256": "777D1E8F47DEF0D5EF193D0DC925C975887E091AC459EA25FBFA7FADC9BA92CD",
+      "target_text": "기괴한 감정의 폭풍에 괴로워하며 걸음이 느려진 내 손을,^n달래듯 잡으면서도 멈추는 것만은 허락하지 않고,^n이케노 씨는 계속 끌고 간다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00043",
+      "source_text": "頬に当たる空気の感触、光の具合は多分外、なんだろうけど。^n……なんだろう、このうすら寒く、^n心が|萎[な]えて|萎[しぼ]んでいくような雰囲気は。",
+      "source_raw_sha256": "DD8991E27753EC8F35F4E26403F4A3A2E680798F5943B68FD2CE221C02BF676D",
+      "target_text": "뺨에 닿는 공기의 감촉과 빛의 상태를 보면 아마 밖인 것 같은데.^n……뭘까, 이 으스스하고,^n마음이 시들어 쪼그라드는 듯한 분위기는.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00044",
+      "source_text": "戸惑う僕にイケノさんは言った。",
+      "source_raw_sha256": "F719EDB78C42F9F77ECBE4CDB9CB990F2CE0831E4A39A282C75BD8D490E46454",
+      "target_text": "당황하는 내게 이케노 씨가 말했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00045",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00046",
+      "source_text": "そう、君は独り荒野を|彷徨[さまよ]わなくてはいけない。^n彼女と、また|相[あ]い|逢[あ]うために。",
+      "source_raw_sha256": "CB7E772632565EC61225EC4A3DC56BB22E937378B0DD9B6CCA9DCFC3164EC99E",
+      "target_text": "그래, 너는 홀로 황야를 헤매야 해.^n그녀와 다시 만나기 위해서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00047",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00048",
+      "source_text": "（独り──荒野を──）",
+      "source_raw_sha256": "42861EEA18883F6E39FF17FD32FD1B0A7CF98F875BB13DC24ED2F591AA21F620",
+      "target_text": "(홀로── 황야를──)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00049",
+      "source_text": "見えないまぶたの裏側に^n乾いた風に|撫[な]でられる荒れ果てた大地がさあっと広がっていく。",
+      "source_raw_sha256": "59C3CE17960A84A18AA6EDC068EC653A845DD3DA753A3FFA62DF5CDD03A57323",
+      "target_text": "보이지 않는 눈꺼풀 뒤편에,^n마른 바람이 쓰다듬는 황폐한 대지가 순식간에 펼쳐진다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00050",
+      "source_text": "ふたりの秘密の|逢瀬[おうせ]をゴーテルばあさんに知られてしまい、^n光とそしてラプンツェルを失った王子が、^n失意と絶望の涙を流して、さまよい歩く場所──荒野だ。",
+      "source_raw_sha256": "6905C6A1E9C09F50D64058C92A56FEA99455FBB95D6DD90213982624C907BF79",
+      "target_text": "둘만의 은밀한 만남을 고델 할머니에게 들키고,^n빛과 라푼젤을 잃은 왕자가,^n실의와 절망의 눈물을 흘리며 헤매는 곳── 황야다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00051",
+      "source_text": "イケノさんがいまだ手を引いてくれているにもかかわらず、^n彼の存在が本当にそこにあるもののように感じられないのは、^n彼が「物語」の人物じゃないからだろうか。",
+      "source_raw_sha256": "ECDC4E7368926E8AF731B2DD885BED2DF50556925035E6348CF89308BAF714D9",
+      "target_text": "이케노 씨가 여전히 내 손을 잡아 이끄는데도,^n그의 존재가 정말 그곳에 있는 것처럼 느껴지지 않는 것은,^n그가 『이야기』의 등장인물이 아니기 때문일까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00052",
+      "source_text": "僕の身の内に|湧[わ]き上がった^n心臓がよじれて千切れるほどの|寂[さび]しさは、^n荒野を|彷徨[さまよ]う盲目の王子として感じているものなのだろうか。",
+      "source_raw_sha256": "D61288F5E1E692847B3AB08E31B146F4EEE465F2D0DBA4F016C904E4EC38A531",
+      "target_text": "내 몸속에서 솟아난,^n심장이 비틀려 뜯어질 만큼의 외로움은,^n황야를 헤매는 눈먼 왕자로서 느끼는 것일까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00053",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00054",
+      "source_text": "（そうなのかもしれない。^n　……でも、だとしたら、どうして）",
+      "source_raw_sha256": "AA1DA78E47D9F11CA1A2B424CD721CFAF3F0AB4A4BEAC4E89F1264EE307F7FF1",
+      "target_text": "(그럴지도 몰라.^n　……하지만 그렇다면 어째서)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00055",
+      "source_text": "みじめな哀しい気持ちで押し潰されそうなのに、^nいっそ胸が壊れてあふれだしてしまえば少しは楽になるのに、^n──僕の目に、涙はなかった。",
+      "source_raw_sha256": "5705A6CEFAB826EA7486CFF1BF5FAC3AF787E011FE04E12C318F72424E29376B",
+      "target_text": "비참하고 슬픈 기분에 짓눌릴 것 같은데,^n차라리 가슴이 터져 넘쳐흐르면 조금은 편해질 텐데,^n──내 눈에는 눈물이 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00056",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00057",
+      "source_text": "そして君は、哀しみに涙し苦しみに咽び泣く……はずなんだけど。^n君はどうして泣いていないんだい？",
+      "source_raw_sha256": "E7CAF9398C92F3167BB4198F7CEFDA7509405227ED6E3D36666CAAB52E88E3CE",
+      "target_text": "그리고 너는 슬픔에 눈물 흘리고 고통에 흐느껴 울어야…… 할 텐데.^n너는 왜 울고 있지 않지?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00058",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00059",
+      "source_text": "彼女と離れ離れになった王子様は、|煩悶[はんもん]の涙に荒野を独り往く。^n……はずなんだけど……。",
+      "source_raw_sha256": "C3CBB74A5E0A5B2A19A32D98A0840CDBFC20321996E41A7D0FA4DB54954EB453",
+      "target_text": "그녀와 헤어진 왕자님은 번민의 눈물을 흘리며 황야를 홀로 걷지.^n……그래야 하는데…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00060",
+      "source_text": "彼の声に困惑が入り混じる。^nそんなの僕のほうこそ訊きたい事だ。^nどうして僕には、涙のひと粒も許されていない。",
+      "source_raw_sha256": "EACB11DFC9DE7B01AB005D72DBE64A440CDF7B5180784E1FEE8F2B4EAFC23979",
+      "target_text": "그의 목소리에 당혹감이 섞인다.^n그건 오히려 내가 묻고 싶은 일이다.^n왜 내게는 눈물 한 방울조차 허락되지 않는가.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00061",
+      "source_text": "苦しい、悲しい、切ない、つらい。^nこれじゃまるであの子と同じじゃないか──夢の中のあの子と。",
+      "source_raw_sha256": "552701DFD94E2A23B7208623E952CD9B2E46BB15C997690456549EF624880955",
+      "target_text": "괴롭고, 슬프고, 애달프고, 힘들다.^n이래서는 꿈속의 그 아이와 똑같지 않은가──.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00062",
+      "source_text": "|擦[す]り切れて、泣くことさえ忘れてしまったあの子と。^n哀しみに裂かれそうなのに、涙を|零[こぼ]せないでいる僕と。",
+      "source_raw_sha256": "9F40278E4C9966B6B4D453373C8CB2B4D5CF2CA1CB13DBBCBB261E2D85189D19",
+      "target_text": "닳아 버려 우는 법마저 잊은 그 아이와.^n슬픔에 찢어질 듯하면서도 눈물을 흘리지 못하는 나와.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00063",
+      "source_text": "そうやって、ひどく長く歩いたような気がする。^nまだ病棟にいるはずなのに、^n数年も、誰とも出会わず歩いたような気さえする。",
+      "source_raw_sha256": "CBFB0F581EFBBE2503DFCA368EC0D7534F6F1BE2F1883F82413F0AB27FAAABCA",
+      "target_text": "그렇게 아주 오랫동안 걸은 듯하다.^n아직 병동에 있을 텐데도,^n몇 년 동안 누구도 만나지 못한 채 걸은 기분마저 든다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00064",
+      "source_text": "長かったのか、短かったのか、時間の感覚は失われていた。",
+      "source_raw_sha256": "CBF3E785AFF9E4E348B35A851E491EC23AFD7B28677029C21BADE1ADA7923A5D",
+      "target_text": "길었는지 짧았는지, 시간 감각을 잃고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00065",
+      "source_text": "でも僕の中では、^n季節が何度も巡るくらいの時間が確かに過ぎていた。",
+      "source_raw_sha256": "A08E82D4C8F7B2DDA69C10C1E0B90527A86DD6BD06EB05E3282A33BA0746892C",
+      "target_text": "하지만 내 안에서는,^n계절이 몇 번이나 돌 만큼의 시간이 분명히 흘렀다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00066",
+      "source_text": "だから、イケノさんが足を止めた時も、^nその意味が一瞬わからなかった。^nこの辛苦に満ち満ちた道行きがようやく終わったのだ、と。",
+      "source_raw_sha256": "B9AD6C69CA7CA8480ABF36B823B3751C5B5DC46455571910D241EC36122C57CE",
+      "target_text": "그래서 이케노 씨가 걸음을 멈췄을 때도,^n그 의미를 잠시 이해하지 못했다.^n고통으로 가득한 이 여정이 마침내 끝났다는 사실을.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00067",
+      "source_text": "「荒野」の果てに行き着いた先は、何かの建物らしかった。^n　壁に触ってみれば、荒れた手触りで、^n　なんとなく小さな……小屋くらいの建物じゃないかって気がする。",
+      "source_raw_sha256": "AC50B0B3FDE620DA8A46B641DE1B3901B505111F4B47C5F1CBD3F3747D1B159A",
+      "target_text": "『황야』의 끝에 다다른 곳에는 어떤 건물이 있는 듯했다.^n　벽을 만져 보니 거친 감촉이 나고,^n　왠지 작은…… 오두막 정도의 건물인 것 같다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00068",
+      "source_text": "ラプンツェルと王子は「寒く|寂[さび]しい場所」「荒れ地」で、^n再会したというけど、ここがその場所なのだろうか。",
+      "source_raw_sha256": "AC2E17D60F6D19EB24CE13D499112034754FE8697728F7F5DD579260E0349BD5",
+      "target_text": "라푼젤과 왕자는 『춥고 쓸쓸한 곳』, 『황야』에서,^n다시 만났다고 하는데 여기가 그곳일까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00069",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00070",
+      "source_text": "　涙で盲目の瞳を濡らし、荒野に独り惑うのが、^n「ラプンツェル」の王子様だ。^n　涙の|一滴[いってき]もない君は……どうなるのかな。",
+      "source_raw_sha256": "8D59B5E8540DDB63B9C108D5F12A48675434100AB840300999F89C6FE4E01885",
+      "target_text": "　눈물로 보이지 않는 눈을 적시며 황야를 홀로 헤매는 것이,^n『라푼젤』의 왕자님이야.^n　눈물 한 방울 없는 너는…… 어떻게 되려나.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00071",
+      "source_text": "僕は小屋？　の中に軽く押し出され、^nイケノさんが背後で去っていく気配が伝わった。^nけれど僕はひとりじゃなかった。",
+      "source_raw_sha256": "87247C55B13480124B6239A0498224D68AC5E043841695F0B66FD34085A155EF",
+      "target_text": "나는 오두막? 안으로 가볍게 떠밀렸고,^n이케노 씨가 등 뒤에서 떠나가는 기척이 느껴졌다.^n하지만 나는 혼자가 아니었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00072",
+      "source_text": "なんとなく居心地のいいその小屋は、^n物柔らかで暖かく、覚えのある気配に満たされていた。^n暗く、|寂[さび]しい場所の中にあるにしてはずいぶんと人めかしい。",
+      "source_raw_sha256": "B0616E2C0BF616AAC98459A784BF911AAD437AF05EB634D26F25704B6DDB0575",
+      "target_text": "어쩐지 편안한 그 오두막은,^n부드럽고 따뜻하며 익숙한 기척으로 가득했다.^n어둡고 쓸쓸한 곳에 있는 것치고는 무척 사람 냄새가 난다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00073",
+      "source_text": "視界は変わらず闇の中にあるのに、^nお母さんのお腹の中にいるみたいに、心が安らぐ。",
+      "source_raw_sha256": "B544987755FAC951185C02D3A6F6E7D134485EEE41B4DC56BF4F397D0B57F530",
+      "target_text": "시야는 여전히 어둠 속인데도,^n엄마의 배 속에 있는 것처럼 마음이 편안해진다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00074",
+      "source_text": "体の中で膨れ上がっていた、^n涙の圧もすうっと引いていくみたいで、^nふう、と胸が嘘みたいに楽になった。",
+      "source_raw_sha256": "B714293894155A6C52C4923F25981F37CDE129EE8DFC1771170F953CDAF31A83",
+      "target_text": "몸속에서 부풀어 오르던,^n눈물의 압력도 스르르 빠지는 듯해,^n후, 하고 가슴이 거짓말처럼 편안해졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00075",
+      "source_text": "さっきまでの苦しい隙間風じゃない、^n|安堵[あんど]の息を吐く僕のそばに、^nそっと身を添わせてくれる人がある。",
+      "source_raw_sha256": "DD24AEEAD6EFCE22DBFA7588E559FD5150D8ABF17032A56646269D2589416ADB",
+      "target_text": "조금 전까지의 괴로운 한숨이 아니라,^n안도의 숨을 내쉬는 내 곁에,^n살며시 몸을 붙여 주는 사람이 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00076",
+      "source_text": "この優しい闇が、寄り集まって人の形をとったみたいだったけど、^n馴染みのある匂い、柔らかさだ。",
+      "source_raw_sha256": "A5EDBC1D7FE15C5B209FEC70E18CD81A10AE1119F7011D95645FFD8D6FC66225",
+      "target_text": "이 상냥한 어둠이 모여 사람의 모습을 이룬 듯했지만,^n익숙한 냄새와 부드러움이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00077",
+      "source_text": "この優しい感触──ラプンツェル。彼女の他にない。^nああ、ラプンツェル。^n荒野の果てにまた会えた人。",
+      "source_raw_sha256": "6D6F00EB040A2B3C254E078A52F84C1F16430C6837BB13C54A2C993AA893082F",
+      "target_text": "이 상냥한 감촉── 라푼젤. 그녀 말고는 없다.^n아아, 라푼젤.^n황야 끝에서 다시 만난 사람.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00078",
+      "source_text": "だというのに、僕は涙のひとつも|零[こぼ]していない。",
+      "source_raw_sha256": "8583F5DB8B447FB76674269E5D8F7BCD718D1AAB639DBC31001BD068A71A5742",
+      "target_text": "그런데도 나는 눈물 한 방울 흘리지 않는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00079",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00080",
+      "source_text": "ラプンツェル……なんだか変なんだ。^nさっきまでの僕は、涙を流したいのに、|一滴[ひとしずく]も出てこないで。^nそれが苦しくてたまらない。体がはちきれそうになってた。",
+      "source_raw_sha256": "4E323FD49FC2897E1A5269BDD5A5046B4EE04E6612071266CC74BCA3B0F6C463",
+      "target_text": "라푼젤…… 뭔가 이상해.^n조금 전까지 나는 울고 싶은데 눈물이 한 방울도 나오지 않았어.^n그게 너무 괴로워서 견딜 수 없었어. 몸이 터질 것 같았어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00081",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00082",
+      "source_text": "なのに、君がこうして|迎[むか]えてくれたとたんに、^nふっと楽になったんだ。^n僕はひどく現金なのかもしれない。",
+      "source_raw_sha256": "4A6138AF793DB157F3B622B6FF5908AC52AEC9280128C1A00B58185164D724F2",
+      "target_text": "그런데 네가 이렇게 맞아 준 순간,^n갑자기 편해졌어.^n내가 너무 간사한 사람인지도 모르겠어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00083",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00084",
+      "source_text": "この「荒れた」「|寂[さび]しい」「暗い」場所で。^n涙のひとつもなく、きみの安らぎに甘えるばかりで。^nこんな僕は……王子様失格なんじゃないかな。",
+      "source_raw_sha256": "707E87FC91272AA066C004F27193192247FF5AB5B7C6EC731E62B53454879982",
+      "target_text": "이 『황폐하고』, 『쓸쓸하고』, 『어두운』 곳에서.^n눈물 한 방울 없이 네가 주는 평안에 기대기만 하고.^n이런 나는…… 왕자님 실격 아닐까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00085",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00086",
+      "source_text": "いいじゃないですか、それで。あなた。^nもう、過去の、流しきれなかった涙に苦しまなくっても。",
+      "source_raw_sha256": "4DD5E1123BBF5A7854197767690AF6A9828AF84DCC1493A098D4CB9A1286A618",
+      "target_text": "그래도 괜찮아요, 당신.^n이제 과거에 다 흘리지 못한 눈물 때문에 괴로워하지 않아도 돼요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00087",
+      "source_text": "するり、はらりと、^n目を|覆[おお]っていた包帯が解かれ、取り去られていた。",
+      "source_raw_sha256": "3B15365CFC18774DF9449D3A0825F5CA4C45540F7FDCEBF2F80FFBFF128641F4",
+      "target_text": "스르륵, 사락,^n눈을 덮고 있던 붕대가 풀려 벗겨졌습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00088",
+      "source_text": "見えなくてもわかる。^nラプンツェルが、目の包帯を解いて、^n頭をかき抱き、頬を寄せてきて。",
+      "source_raw_sha256": "CAD9DF85667FB8DAB0CAEE2400747DF5D62D48949FFF762BFFCA9BDE2E86D877",
+      "target_text": "보이지 않아도 알 수 있다.^n라푼젤이 눈의 붕대를 풀고,^n머리를 끌어안아 뺨을 맞댔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00089",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00090",
+      "source_text": "わたくしは、あなたの夢に聞きました。^n過去のあなたは、そうやって泣かない子だと思われていたのね。^nでも、本当は違う。",
+      "source_raw_sha256": "C72AC44800BBE1B48C0F1B72B6D9B028C630365206920A945B22956D62C4B8A4",
+      "target_text": "저는 당신의 꿈에서 들었어요.^n과거의 당신은 그렇게 울지 않는 아이라고 여겨졌군요.^n하지만 사실은 달라요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00091",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00092",
+      "source_text": "誰も知ろうとしなかったの。^nあなたが泣くこともできないくらい、疲れきって|擦[す]り減って、^nあきらめてしまったのだって。",
+      "source_raw_sha256": "AEFE2774D86596629CD880393AEC978675D89C900A3C5815D14268EC5D2908D9",
+      "target_text": "아무도 알려고 하지 않았어요.^n당신이 울 수도 없을 만큼 지치고 닳아,^n포기해 버렸다는 사실을.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00093",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00094",
+      "source_text": "誰も知ろうとしなかった。^n優しくって、哀しいあなたのことを。",
+      "source_raw_sha256": "F70B695823B7C77AB9E34B169FB3C49F8DFF53613E18250BEA483FC6EC4768DE",
+      "target_text": "아무도 알려고 하지 않았어요.^n상냥하고 슬픈 당신을.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00095",
+      "source_text": "寄せられた頬から、とろとろと伝わってくるのは、涙。",
+      "source_raw_sha256": "69EB0D8D84F090F679FF00EF8121A0A214ACC6F343DC22801E17D8AE49E052E7",
+      "target_text": "맞댄 뺨을 타고 따스하게 전해지는 것은 눈물.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00096",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00097",
+      "source_text": "ね、あなた。過去に涙を流しきれず、悔やむなら。^nそれがなおも重荷となるのなら。",
+      "source_raw_sha256": "3BA62A8DBDFD3F9DC9338D37BA5AEB923BB4E157CEC1F08DBA7A1484F9BA2A2E",
+      "target_text": "있잖아요, 당신. 과거에 눈물을 다 흘리지 못한 일을 후회한다면.^n그것이 지금도 짐이 된다면.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00098",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00099",
+      "source_text": "その涙、わたくしに預けて下さいませ。^nわたくしが、あなたの代わりに泣きます。",
+      "source_raw_sha256": "604CB39AE31B51BBE552771D8904F40CA9221D7C18471C33CDAE245EC3550820",
+      "target_text": "그 눈물을 제게 맡겨 주세요.^n제가 당신 대신 울겠습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00100",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00101",
+      "source_text": "優しいあなた。^nわたくしに塔の外と、愛を教えてくれたあなた。",
+      "source_raw_sha256": "A40B4ECBC7C3B482EFE2AB01EF73CFD1A26CF09809FAA236CAC63681247CEF0F",
+      "target_text": "상냥한 당신.^n제게 탑 밖의 세상과 사랑을 가르쳐 준 당신.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00102",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00103",
+      "source_text": "……ねえあなた。あなたが泣けないことを嘆く王子様なら、^nわたくしだって「ラプンツェル」として失格なんだわ。",
+      "source_raw_sha256": "3D25FE2468519B85F558577D56D23C751B01A3FBD5EA9C54F891A5BA62886684",
+      "target_text": "……있잖아요, 당신. 울지 못하는 자신을 한탄하는 왕자님이라면,^n저 역시 『라푼젤』로서 실격이에요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00104",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00105",
+      "source_text": "わたくしは、きっといっぱいの罪を背負った女なんです。^n許されない身でありながらも、なおも|卑[いや]しく強欲で。",
+      "source_raw_sha256": "B047ADF2A49270CA2B66916FD1542E516AABC478783FD8F2244FACAAC9F9955B",
+      "target_text": "저는 분명 수많은 죄를 짊어진 여자예요.^n용서받지 못할 몸이면서도 여전히 비천하고 탐욕스러워서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00106",
+      "source_text": "なおも涙。^n自分がつみびとなのだと、|卑[いや]しいのだと告げる彼女から、^nさらに──涙。",
+      "source_raw_sha256": "1D36B735AEAC16EF4B445ED69ECF8160FAD398F21066CC27B7C5AC6B763A73EB",
+      "target_text": "계속 흐르는 눈물.^n스스로 죄인이고 비천하다고 말하는 그녀에게서,^n다시── 눈물이.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00107",
+      "source_text": "ただただ温かくて、優しい涙が──僕の|瞼[まぶた]に落ちて。",
+      "source_raw_sha256": "139627F380608E60DE38357D37045B258CA5A619D200FDFFBFD9EA3A762D57A3",
+      "target_text": "그저 따뜻하고 상냥한 눈물이── 내 눈꺼풀에 떨어졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00108",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00109",
+      "source_text": "それでも、ただ想う。あなたの目に、また光を、と。",
+      "source_raw_sha256": "5E5BA7FC993AAE876B1EA09473B9E4BA8BBC7A5A4435B851517E99EF573186A5",
+      "target_text": "그래도 오직 바랍니다. 당신의 눈에 다시 빛이 깃들기를.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00110",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00111",
+      "source_text": "そして抱きしめたい。^nあなたの中の、泣けなかったその子を抱きしめたいの。",
+      "source_raw_sha256": "529892EB661F4D06F93E8FC7C2A89C84CB517198F9ECD40AEB738EC86C140EBB",
+      "target_text": "그리고 안아 주고 싶어요.^n당신 안의, 울지 못했던 그 아이를 안아 주고 싶습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00112",
+      "source_text": "彼女の涙があたたかい雨のように降る。^n涙の雨にいざなわれ、僕の記憶がうずく。^n誰かが自分のために泣いてくれた。",
+      "source_raw_sha256": "316AD7E3045421281973FD4BFC2A6336C2F3873B604DEA8A1CC61C5E9A95B134",
+      "target_text": "그녀의 눈물이 따뜻한 비처럼 내린다.^n눈물의 비에 이끌려 내 기억이 욱신거린다.^n누군가가 나를 위해 울어 준 적이 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00113",
+      "source_text": "その時は苦しいほどに抱きしめられて、涙の雨を受けた。",
+      "source_raw_sha256": "530044415C0C7E77220916B6182198753C3F17BA066AA5FE81A8511F88681398",
+      "target_text": "그때는 아플 만큼 꽉 안긴 채 눈물의 비를 맞았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00114",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00115",
+      "source_text": "（その時、僕は確かに救われていたのだろう。^n　自分が涙を流せなくとも、自分のために泣いてくれる人がいる。^n　その涙に僕は、救われていたんだ）",
+      "source_raw_sha256": "884024451295C7A149ACB308C0F7CBF64E975AF1293D4CD3B5052B855FED2B7D",
+      "target_text": "(그때 나는 분명 구원받았던 거야.^n　내가 눈물을 흘리지 못해도 나를 위해 울어 주는 사람이 있다.^n　그 눈물이 나를 구원했어)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00116",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00117",
+      "source_text": "（そして、今も。^n　僕の眼を閉ざしていた暗闇を、^n　あたたかく溶かし、光もたらしてくれる人がいる）",
+      "source_raw_sha256": "01B219D7BAC12F2D003AA6F27D1196CBFB1287AC62DD48C01CD87F0983977D53",
+      "target_text": "(그리고 지금도.^n　내 눈을 가로막던 어둠을,^n　따뜻하게 녹여 빛을 가져다주는 사람이 있어)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00118",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00119",
+      "source_text": "きみの涙はあたたかくて優しいね、ラプンツェル。",
+      "source_raw_sha256": "B14CA7E6B1EA9F86A927ADA63A27D03894CBD7055ADD4FA13483F8F091556998",
+      "target_text": "네 눈물은 따뜻하고 상냥하구나, 라푼젤.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00120",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00121",
+      "source_text": "柔らかくてきらきらして、^n春の天気雨にお陽様を透かしたみたいだ。",
+      "source_raw_sha256": "B335C157AEDED36FE392DFBBBDFD4D86E1E923E92F4821916B8F2C13E3A66C92",
+      "target_text": "부드럽고 반짝거려서,^n봄날 여우비 사이로 햇살이 비치는 것 같아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00122",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00123",
+      "source_text": "あなた──？",
+      "source_raw_sha256": "45285013722E275B838F54A7DA2009A35D279041D0873486AB8CA9028C07A670",
+      "target_text": "당신──?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00124",
+      "source_text": "いつか僕の目が見えるようになったら、^n一番先に見たいと願っていた景色が、顔がすぐ前にあった。",
+      "source_raw_sha256": "01C848815BA17EC48FBFF1F3FA44786F83E25CA2D30CC2382258F2CED4F1719D",
+      "target_text": "언젠가 다시 눈이 보이게 되면,^n가장 먼저 보고 싶다고 바랐던 풍경과 얼굴이 바로 앞에 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00125",
+      "source_text": "その顔を目の当たりにした時、^n自分がどれだけ、また彼女をこの目で見つめたいと願っていたのか、^n胸を切なく締めつけられるくらいの歓びに思い知る。",
+      "source_raw_sha256": "490CAB3E05467F0CACB7533B32E27D24AC7F9D4321025490493B5779173FC444",
+      "target_text": "그 얼굴을 직접 마주한 순간,^n내가 얼마나 그녀를 다시 이 눈으로 바라보길 원했는지,^n가슴이 애달프게 조일 만큼의 기쁨으로 깨달았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00126",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00127",
+      "source_text": "見えてらっしゃるの……？",
+      "source_raw_sha256": "6339C3A75CD4F3B4AA0A9E0955BAFC257F752B3EC00C8B975659B774AB00D125",
+      "target_text": "보이시는…… 건가요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00128",
+      "source_text": "何度か|瞬[まばた]きを繰り返せば、^nその度に目の中に残っていた暗がりは消えていって、^nラプンツェルの顔が鮮やかに、はっきりと。",
+      "source_raw_sha256": "8BCC26BB3CF20B6E2D1DED33E1242AF4CAB000574BF533371132AC1A72608E80",
+      "target_text": "몇 번 눈을 깜빡일 때마다,^n눈 속에 남아 있던 어둠이 사라지고,^n라푼젤의 얼굴이 선명하고 또렷해졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00129",
+      "source_text": "小屋の中の|灯[あか]りは弱く、色合いはくすんでいるのに、^nこんなにも世界は明るい、こんなにも色がある、^nそしてきみはこんなにも綺麗で、見ているだけで嬉しくなるくらい。",
+      "source_raw_sha256": "ADFC1992984F17139513E20AD3AB285B674CEFFC990FEDCF362121E617398A88",
+      "target_text": "오두막 안의 불빛은 약하고 색채도 흐린데,^n세상은 이렇게나 밝고 이렇게나 많은 색을 지녔으며,^n너는 바라보기만 해도 기쁠 만큼 아름다웠다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00130",
+      "source_text": "きょとんと驚いたような顔だけど、^nそんな表情も、今の僕にははっとするほどに鮮烈で、^n心がどうしようもなく奪われてしまうほど。",
+      "source_raw_sha256": "2DFCB718FF8A505CAB68CC75D2588A8776BA90818CE5F6577DF06299DAD55E15",
+      "target_text": "어리둥절해 놀란 얼굴이지만,^n그런 표정도 지금의 내게는 숨이 멎을 만큼 선명해서,^n마음을 속수무책으로 빼앗길 정도였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00131",
+      "source_text": "唇も、頬の輪郭も、鼻の筋も、|眉[まゆ]の線も何もかも。^n何よりその目が、どんな珠玉にまさって美しい。",
+      "source_raw_sha256": "9C558B59AD75A928AC26AFBD61C3D3BF5C87B5F9E65DE5B589BC1CDCB0D3C6E5",
+      "target_text": "입술도, 뺨의 윤곽도, 콧날도, 눈썹의 선도 전부.^n무엇보다 그 눈이 어떤 보석보다 아름답다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00132",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00133",
+      "source_text": "ああ。きみの目が、^n濡れてきらきらしているのが、わかる……。",
+      "source_raw_sha256": "E494590AEC0C7335A8455867133E78EF73498972193E6F000CA667BB3B49130B",
+      "target_text": "응. 네 눈이,^n젖어서 반짝이는 게 보여…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00134",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00135",
+      "source_text": "……びっくりしたよ、目がまた見えるようになって、^nきみがこんなに、くっきりしてる。",
+      "source_raw_sha256": "0E0B810C9996C63F55C823280F849FBDD6642DD82BF540D844A39F7C86C54434",
+      "target_text": "……놀랐어. 다시 눈이 보이게 되니,^n네 모습이 이렇게나 또렷해.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00136",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00137",
+      "source_text": "　ふふ……ちゃんと、^n「ラプンツェル」、できてましたか、わたくし……。",
+      "source_raw_sha256": "2E97394434F757C57DB320F916150D3F48809F08B5C4598446C454D76C185468",
+      "target_text": "　후후…… 저, 제대로,^n『라푼젤』 역할을 해냈나요…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00138",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00139",
+      "source_text": "言うまでもないよ。^nこうして僕の目がまた見えるようになったのが、^n何よりの|証拠[しょうこ]じゃないか。",
+      "source_raw_sha256": "D191B2288EB0626CD9DE7C9480DEC79DD984BDA6B7AC076651C7E4F4F4777145",
+      "target_text": "말할 것도 없어.^n이렇게 내 눈이 다시 보이게 된 것이,^n무엇보다 확실한 증거잖아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00140",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00141",
+      "source_text": "きみがラプンツェルとしてあるなら、^n僕はきみの、きみだけのための王子だ。",
+      "source_raw_sha256": "3A3318EB037FB642E8F6FD10CF0818E041D6A298AC8481A40263F4C8AD7BFF58",
+      "target_text": "네가 라푼젤로 존재한다면,^n나는 너만을 위한 왕자야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00142",
+      "source_text": "物語が僕たちを守ってくれる、^n僕はそう確信したし、^nラプンツェルはもっと前からそうだったんだろう。",
+      "source_raw_sha256": "399DD186627A1F544E455F41A560687DCA5F462E7A9320B2E39F1D9D440AFEFA",
+      "target_text": "이야기가 우리를 지켜 줄 것이다.^n나는 그렇게 확신했고,^n라푼젤은 훨씬 전부터 그랬던 것 같다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00143",
+      "source_text": "だからあの果てしない寂寥に満ちた、荒野の道程を僕に歩かせた。^nそして僕を、この暗く|寂[さび]しい場所に佇む小屋で|迎[むか]えた。^n僕の目に光を取り戻すために。",
+      "source_raw_sha256": "3C8378034188A2ED89AE6E28163A153B1B8193B84F3B1C1D94BF291538C4A7FF",
+      "target_text": "그래서 끝없는 적막으로 가득한 황야의 길을 걷게 했다.^n그리고 어둡고 쓸쓸한 곳에 선 오두막에서 나를 맞았다.^n내 눈에 빛을 되찾아 주려고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00144",
+      "source_text": "それなら僕も、物語通りに振る舞おう。^n彼女の、「ラプンツェル」の「王子様」として。^nでも──物語だろうとなかろうと、僕の気持ちはもう決まっている。",
+      "source_raw_sha256": "9DBC9BC0FEE38C04DB8787E41FEA63CB5AF4CC54F5558B23A3B91F5718D2523B",
+      "target_text": "그렇다면 나도 이야기대로 행동하자.^n그녀의 『라푼젤』의 『왕자님』으로서.^n하지만── 이야기든 아니든 내 마음은 이미 정해졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00145",
+      "source_text": "ラプンツェルに微笑む。^n僕の、全ての愛を|籠[こ]めて。",
+      "source_raw_sha256": "BCB840AD86F82B6CB6AF32D3F38282B968F0E0A3E3AF88F2BE49E692FD42B9AE",
+      "target_text": "라푼젤에게 미소 짓는다.^n나의 모든 사랑을 담아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00146",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00147",
+      "source_text": "そう僕は在ろう。王子様として在ろう。^nううん、きみが僕を王子様にしてくれたんだ。",
+      "source_raw_sha256": "CA4D8972F8216B09066ACDE8E54184002F745402E7492F4CB80B63BE73BDD8EC",
+      "target_text": "나는 그렇게 살겠어. 왕자님으로 살겠어.^n아니, 네가 나를 왕자님으로 만들어 줬어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00148",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00149",
+      "source_text": "たとえつみびとだとしても、^nきみは僕のために泣いてくれたひと。^n放しやしない、絶対に。",
+      "source_raw_sha256": "4FD2F86688DE50F30C97AB9F5D99ABD8542C5BB37F85D9421D3D9E26C9E966F2",
+      "target_text": "설령 죄인이라 해도,^n너는 나를 위해 울어 준 사람.^n놓지 않을 거야, 절대로.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00150",
+      "source_text": "|誓[ちか]い、僕を捧げる言葉にラプンツェルの、^n|眉[まゆ]がきゅうと下がったのが、と胸が突かれるほど哀しげだった。",
+      "source_raw_sha256": "F6D2147974B25EE546F0DFBF94AA0A97DE77CA1C3E5E7DE3939DEAAE608C6377",
+      "target_text": "나를 바치겠다는 맹세의 말에 라푼젤의,^n눈썹이 축 처지는 모습이 가슴을 찌를 만큼 슬퍼 보였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00151",
+      "source_text": "目じりにたちまち|湧[わ]き上がったのは新たな涙、^n前に増す|夥[おびただ]しさ。",
+      "source_raw_sha256": "623E0CF2800E2D3736BB7460B87F6763F897D80D54C714FDF187836E914A8D69",
+      "target_text": "눈가에 순식간에 솟은 것은 새로운 눈물,^n전보다 훨씬 많은 눈물.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00152",
+      "source_text": "泣く……え？　なんで、どうして──？^n僕は最後で何かを誤った？　致命的な間違いを。なにか。",
+      "source_raw_sha256": "CD01BC05BBEA9F9266C8F717A22062D61D9EEC469BB6F9DCF6C6416479AC972F",
+      "target_text": "울어…… 어? 왜, 어째서──?^n내가 마지막에 뭔가 잘못했나? 치명적인 실수를. 무언가를.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00153",
+      "source_text": "もう取り返せない──！？ ラプンツェル──^nその唇が何とも晴れやかにほころび、頬は涙に|潤[うるお]い優しく、^nなんて嬉しそうな、幸せそうな、笑う顔だよ……？",
+      "source_raw_sha256": "9DBD3CB17815C7E9E5C49A8FDA76F741B3E8EF830FE8EF2268A12D369738792A",
+      "target_text": "이제 돌이킬 수 없어──!? 라푼젤──^n그 입술이 맑게 피어나고 뺨은 눈물에 젖어 다정한데,^n어쩌면 그렇게 기쁘고 행복하게 웃는 얼굴일까……?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00154",
+      "source_text": "ラプンツェルはとめどない涙で、華やかに笑っていたんだ。",
+      "source_raw_sha256": "CCC985AD62DDB3D110CF84A3B9B24C10BEBD0BE8EEB99084B9CE9390052C57A5",
+      "target_text": "라푼젤은 멈추지 않는 눈물을 흘리며 환하게 웃고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00155",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00156",
+      "source_text": "あ、あれ。うれしいのに……わたく、し、^n変、涙、もっとあふれて……っ。",
+      "source_raw_sha256": "C396EE05054DC209EE5BEC0CC7FE3DAF529CA46D30853816D0DC337C9FEDF5A4",
+      "target_text": "어, 어라. 기쁜데…… 저, 자꾸,^n이상하게 눈물이 더 넘쳐서…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00157",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00158",
+      "source_text": "きっと、変な顔になってる……。^nや、やだ、急に|恥[は]ずかし……。",
+      "source_raw_sha256": "221471A2C8B1F0A06DCE83CF1467D9FD6E3AB70482A58EA01C50C5F75675F9C7",
+      "target_text": "분명 이상한 얼굴이 됐을 거예요…….^n시, 싫어, 갑자기 부끄러워서…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00159",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00160",
+      "source_text": "──もう。見ないでくださいまし。^nこうしてしまうんだから！",
+      "source_raw_sha256": "D049298D00EF0AF77542CDDC1D94918245DF05BC7E20FD3F267DA295DD700B62",
+      "target_text": "──정말. 보지 마세요.^n이렇게 해 버릴 테니까요!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00161",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00162",
+      "source_text": "わ、ちょっ、そんな強く抱きつかれたら───っ。",
+      "source_raw_sha256": "E486C19EAAC3426D6C75EABBC6A099A9D6E473B4516925A529AC57FF8BDE6386",
+      "target_text": "으앗, 잠깐, 그렇게 세게 안기면───.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00163",
+      "source_text": "柔らかであたたかい雪崩のようなもので、^n抱き返すだけで精いっぱい。",
+      "source_raw_sha256": "2E1A5620CDDDCFC3DD8AE6986466A8BB1B36E55EB95A53804F607347A83527F3",
+      "target_text": "부드럽고 따뜻한 눈사태 같은 것이 밀려와,^n마주 안는 것만으로도 벅찼다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1522.gsc::slot/00164",
+      "source_text": "感極まった抱擁に押し倒されて、^n頬に首筋に胸元、ところを問わず彼女の頬が歓喜にすり寄せられる。^nしみこむ涙の温かさは、素敵に心地よかった。",
+      "source_raw_sha256": "E7F3D0EFEC8463C9255AB33A10260EF244DFEF7EE7E4753C0AFDD01DD3917DB5",
+      "target_text": "감격에 찬 포옹에 밀려 넘어지고,^n뺨과 목덜미와 가슴팍 가리지 않고 그녀가 기쁨에 겨워 뺨을 비빈다.^n스며드는 눈물의 온기는 황홀할 만큼 편안했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

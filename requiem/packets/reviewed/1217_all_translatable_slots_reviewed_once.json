@@ -1,0 +1,2173 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1217_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API; deterministic post-review control-spacing normalization",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    205
+  ],
+  "new_review_change_count": 13,
+  "new_review_changes": [
+    {
+      "slot": 27,
+      "before": "어머, 당신. 안녕하세요.^n그동안 어떻게 지내셨나요?",
+      "after": "어머, 당신. 안녕하신가요.^n그동안 어떻게 지내셨나요?"
+    },
+    {
+      "slot": 28,
+      "before": "앨리스는 치맛자락을 잡고 몸을 낮췄다.^n이 인사도 정말 오랜만에 보는 느낌이다.",
+      "after": "앨리스는 치맛자락을 잡고 몸을 낮췄다.^n이런 인사도 정말 오랜만에 보는 느낌이다."
+    },
+    {
+      "slot": 59,
+      "before": "친구라는 기분을 북돋우려고 누군가를 따돌리는 일은^n아이들의 세계에서는 흔하지만(어른들의 세계에서도?),^n당하는 쪽의 비참한 기분은 이루 말할 수 없다.",
+      "after": "친구라는 유대감을 높이려고 누군가를 따돌리는 일은^n아이들의 세계에서는 흔하지만(어른들의 세계에서도?),^n당하는 쪽의 비참한 기분은 이루 말할 수 없다."
+    },
+    {
+      "slot": 70,
+      "before": "앨리스는 그런 내 안색을 살피며^n횡설수설 말을 이었다.",
+      "after": "앨리스는 그런 내 안색을 살피며^n앞뒤가 맞지 않게 말을 이었다."
+    },
+    {
+      "slot": 84,
+      "before": "아아, 맞다. 이러면 안 되지.^n어서 가지 않으면 안 돼, 자네. 목이 날아가 버릴 거야.",
+      "after": "아아, 맞다. 이러면 안 되지.^n어서 가지 않으면 안 돼, 자네. 목이 잘리고 말 거야."
+    },
+    {
+      "slot": 88,
+      "before": "하지만 나이도 지긋한 아저씨가 필사적으로^n앨리스의 망상에 장단을 맞추는 모습이 안쓰러워,^n나는 일단 그 자리를 떠나기로 마음먹었다.",
+      "after": "하지만 나이도 지긋한 아저씨가 필사적으로^n앨리스의 망상에 장단을 맞추는 모습이 딱해,^n나는 일단 그 자리를 떠나기로 마음먹었다."
+    },
+    {
+      "slot": 104,
+      "before": "──바, 반갑습니다. 공작부인이에요.",
+      "after": "──바, 반갑습니다. 공작부인입니다."
+    },
+    {
+      "slot": 127,
+      "before": "기가 막힐 만큼 걱정 없는 미소로 이케노 씨는 속뜻을 감춘다.",
+      "after": "너무나도 근심 없는 미소로 이케노 씨는 속뜻을 감춘다."
+    },
+    {
+      "slot": 142,
+      "before": "굳이 말하면 어두운 아이가 많았어.^n속마음을 들키지 않으려고, 여러 일에 속지 않으려고,^n늘 긴장하고 있는 듯한 아이.",
+      "after": "굳이 말하면 어두운 아이가 많았어.^n속마음을 간파당하지 않고 여러 일에 속지 않으려고,^n늘 긴장하고 있는 듯한 아이."
+    },
+    {
+      "slot": 154,
+      "before": "──있잖아, 나나시.^n원작 『이상한 나라의 앨리스』가^n어떤 식으로 만들어졌는지 아니?",
+      "after": "──있잖아, 나나시.^n원작 『이상한 나라의 앨리스』가^n어떻게 만들어졌는지 아니?"
+    },
+    {
+      "slot": 185,
+      "before": "비밀이 늘고 심술궂어졌다는 사실은^n절절히 느끼고 있지만,^n분명 그런 뜻은 아니겠지.",
+      "after": "비밀이 늘고 다들 심술궂어졌다는 사실은^n절절히 느끼고 있지만,^n분명 그런 뜻은 아니겠지."
+    },
+    {
+      "slot": 188,
+      "before": "두루뭉술한 말에 속아 답답한 마음을 품은 채^n정원에서 돌아오는 길.",
+      "after": "연막에 휘말린 듯 답답한 마음을 품은 채^n정원에서 돌아오는 길."
+    },
+    {
+      "slot": 202,
+      "before": "그녀는 왠지 이런 속셈 있는 축제에는^n끼지 않을 것 같은 이미지가 있었으니까.",
+      "after": "그녀는 왠지 이런 속내를 감춘 축제에는^n끼지 않을 것 같은 이미지가 있었으니까."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    206,
+    263
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00001",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00002",
+      "source_text": "ええ、どうしても、どうしてもなの。お願いよ！",
+      "source_raw_sha256": "B3E7CB0C207165C8CF8E29FAD6773F2CB90CA4AE4C46C74CBB654427EF4BB242",
+      "target_text": "네, 아무래도, 꼭 그래야 해요. 부탁이에요!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00003",
+      "source_text": "庭園を訪れたらアリスの声が聞こえた。",
+      "source_raw_sha256": "C044505590C95F2D9535A2BB004701308A15E0C5B12F3DDACB54D39DE6B6106D",
+      "target_text": "정원에 찾아가자 앨리스의 목소리가 들렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00004",
+      "source_text": "僕は、彼女のこんな調子の声を聞くのは^nずいぶんと久しぶりだな、と思いながら近づいた。",
+      "source_raw_sha256": "D7D4A0D89020ED78306B680D6ABC873F5E1DF894B25A9E417EE2091802EDF8A7",
+      "target_text": "나는 그녀의 이런 목소리를 듣는 것이^n참 오랜만이라는 생각을 하며 다가갔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00005",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00006",
+      "source_text": "しかし、そう簡単にはいかないよ。^nここはおじさんの庭園というわけじゃないからね。",
+      "source_raw_sha256": "DC38E11112CCB5A07C596DE434E7DFF05AB2DE8FF830719F57C8BCB32EA1CDB2",
+      "target_text": "하지만 그렇게 간단한 일은 아니란다.^n여기가 아저씨 개인 정원은 아니니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00007",
+      "source_text": "アリスの真剣な声に応えて、^nおじさんの困ったような声が聞こえた。",
+      "source_raw_sha256": "3F34A8C6C080196919BDFCEF0D858058CA9BF4E3AF45D9140EA576D81F5D1EBF",
+      "target_text": "앨리스의 진지한 목소리에 답하듯,^n아저씨의 곤란해하는 목소리가 들렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00008",
+      "source_text": "でもアリスは一歩も引かない。^n両手を「お願い」のかたちに組んで、^nかかとが浮くくらい前のめりになって、相手の顔を覗き込む。",
+      "source_raw_sha256": "D454009C3D322D4E56A5063D24D604D22C61BF3477EED040BF1F7D285FA0306E",
+      "target_text": "하지만 앨리스는 한 발짝도 물러서지 않는다.^n두 손을 『부탁』하는 모양으로 맞잡고,^n뒤꿈치가 들릴 만큼 몸을 내밀어 상대의 얼굴을 들여다본다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00009",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00010",
+      "source_text": "無理を言って申し訳ないわ。でも、お願い。^nあたしの計算によれば、こうすることで^n成功率はぐんと違うはずなのよ。",
+      "source_raw_sha256": "EAD1C5725E46374A6112AE84276AA16B392EEEB8594B8AE0C2BA216AD570C3FA",
+      "target_text": "무리한 부탁을 해서 미안해요. 그래도 부탁드려요.^n제 계산에 따르면 이렇게 해야^n성공률이 크게 달라질 거예요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00011",
+      "source_text": "どうやら、またアリスは清掃夫のおじさんに^n無理難題をふっかけているようだ。",
+      "source_raw_sha256": "6E7D0E5D3C5EF60B8CB025C85A0095E16EC2EAFD0CD74036C572C3DFE3418DC8",
+      "target_text": "아무래도 앨리스가 또 청소부 아저씨에게^n무리한 요구를 하고 있는 듯하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00012",
+      "source_text": "僕は、白薔薇を赤いペンキで塗りつぶすよう命じていた^nいつかのアリスを思い出した。",
+      "source_raw_sha256": "67186BB873681A6EED50F55D6ECAFF4381AB049F304268CC1217AF647099AE3F",
+      "target_text": "나는 흰 장미를 붉은 페인트로 덮어 칠하라고 명령하던^n언젠가의 앨리스를 떠올렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00013",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00014",
+      "source_text": "しかしねぇ、そんなことをしたら木がかわいそうじゃないか。",
+      "source_raw_sha256": "1186B92B0EDC25607D9920425352E2AB0B61FC56C9706C6927713AF14DB7AF5D",
+      "target_text": "하지만 말이야, 그런 짓을 하면 나무가 불쌍하잖니.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00015",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00016",
+      "source_text": "あんなところに生えている方が悪いのよ。^n",
+      "source_raw_sha256": "BCD489D0036F84FF48D810B19D8F08DBAC113C47E1F3E53AC73F8138479B867D",
+      "target_text": "그런 곳에 자란 나무가 잘못한 거예요.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00017",
+      "source_text": "少しの間だけ、さよならしてもらうしかないわ。",
+      "source_raw_sha256": "7AE99B28A700D1FE44092C0D78D4A6584DFC083575B0C2AE60C87E5C14A88BD9",
+      "target_text": "잠시만 작별해 달라고 할 수밖에 없어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00018",
+      "source_text": "よくわからないけれど、^nアリスがわがままを言ってることだけはわかった。",
+      "source_raw_sha256": "BA8C3646743ED2B7CC0E8AABAE091742DEEB69DC5CFAE4180F8752297AE3A1B8",
+      "target_text": "무슨 말인지는 잘 모르겠지만,^n앨리스가 억지를 부리고 있다는 사실만은 알았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00019",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00020",
+      "source_text": "（それじゃまるで、アリスじゃなくて^n　ハートの女王だよ）",
+      "source_raw_sha256": "48223942BC1C78E434241A28B8DC55CDC66188AD370D25FCE9872FF39AD658D3",
+      "target_text": "(그러면 앨리스가 아니라^n하트 여왕 같잖아)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00021",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00022",
+      "source_text": "なにをしているの、アリス。",
+      "source_raw_sha256": "E4480BE2D53B02FA2E13D17926522D7003652DF1BBA73499B91D2A028A562E76",
+      "target_text": "뭘 하고 있는 거야, 앨리스?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00023",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00024",
+      "source_text": "ひゃ……──！",
+      "source_raw_sha256": "FF90E19BD4AD8C14F79827C65039AE13681E877565BB51A54E7128ED32F5B3B3",
+      "target_text": "히익……──!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00025",
+      "source_text": "声をかけると、アリスは電撃に打たれたように硬直してから^nそろそろと僕を振り向いた。",
+      "source_raw_sha256": "051F0740C73CEEFC3D9C905B28405AD4F962EC5DD83D75690F3D806988F6E336",
+      "target_text": "말을 걸자 앨리스는 감전이라도 된 듯 굳었다가^n천천히 나를 돌아보았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00026",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00027",
+      "source_text": "あら、あなた、ごきげんよう。^nその後いかがお過ごしかしら。",
+      "source_raw_sha256": "8B48124F9A9936B3F175F61C6FB8119B253BEFCC3B2E04445337D11740AD49A8",
+      "target_text": "어머, 당신. 안녕하신가요.^n그동안 어떻게 지내셨나요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00028",
+      "source_text": "アリスはスカートの|裾[すそ]をつまんで身体を沈めた。^nこのお|辞儀[じぎ]も、ずいぶんと久しぶりに見る気がする。",
+      "source_raw_sha256": "27EA0EA57D9960DDC38FDDCE448233E0FA711EF70AED99818E96BB182D3A22CA",
+      "target_text": "앨리스는 치맛자락을 잡고 몸을 낮췄다.^n이런 인사도 정말 오랜만에 보는 느낌이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00029",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00030",
+      "source_text": "特になにも……。^nそれより、なにを話していたの？^nあんまりおじさんを困らせたらだめだよ。",
+      "source_raw_sha256": "55C2183D30A4BDFA3361D68526C9B570E4B0545F31457A46FCAD51303EED5D5E",
+      "target_text": "딱히 아무것도…….^n그보다 무슨 이야기를 하고 있었어?^n아저씨를 너무 곤란하게 하면 안 돼.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00031",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00032",
+      "source_text": "え、ええ……えっと。その、なんでもないのよ。^nちょっと今日の空模様について。^nそれから今日の株価について……。",
+      "source_raw_sha256": "106F2A56BEBEC110909F87FDCB29BBCCBA8A58DA39B1A98A3BA222D111F38A98",
+      "target_text": "네, 네…… 그게, 아무것도 아니에요.^n오늘 날씨 이야기를 조금 했어요.^n그리고 오늘 주가 이야기도…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00033",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00034",
+      "source_text": "株！？",
+      "source_raw_sha256": "B268FBD0DC035DB764DA2DE4BEBEE9D53ECB442CFFB2B35BE2AED18D9B1B73AD",
+      "target_text": "주가!?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00035",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00036",
+      "source_text": "（|誤魔化[ごまか]し方が|露骨[ろこつ]すぎるよ……）",
+      "source_raw_sha256": "F3EBF16DBF3A50EA8484C5D8AD4C49ED899DD19A863DF077648B3D70B95F57CA",
+      "target_text": "(얼버무리는 방식이 너무 뻔하잖아……)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00037",
+      "source_text": "例によって、ちぐはぐな言い分だ。^n言ってみたかったことを深く考えずに口にしたような──^nだって、アリスに株の何かがわかるとは思えない。",
+      "source_raw_sha256": "925E621ABF88A8F42581469DBADEC07DB7B67D41204B90ECF7163EF89BECB0ED",
+      "target_text": "여느 때처럼 앞뒤가 맞지 않는 주장이다.^n한번 말해 보고 싶었던 걸 깊이 생각하지 않고 꺼낸 듯한──^n앨리스가 주식에 관해 무언가 알 리 없으니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00038",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00039",
+      "source_text": "あ、あなたには関係ないわ。^nだって、記憶がないのに株に手は出せないでしょう。^nだから、か、株のことはいいの。やめましょう。",
+      "source_raw_sha256": "E0A0064D99F09AEC67B9B8576948DE12538A3EC197015DEA5FFBBF43A76F9634",
+      "target_text": "다, 당신과는 상관없는 일이에요.^n기억도 없는데 주식에 손을 댈 수는 없잖아요.^n그러니까 주, 주식 이야기는 됐어요. 그만하죠.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00040",
+      "source_text": "案の定、アリスは僕が何かを言う前から^n話題を引っ込めようとあたふたしている。",
+      "source_raw_sha256": "835CDB3D52646BA4D62D0D639BDE6D311E58A948DD901485483A4392E727059D",
+      "target_text": "예상대로 앨리스는 내가 무슨 말을 하기도 전에^n화제를 거두려 허둥대고 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00041",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00042",
+      "source_text": "あのさ、最近なんだかバタバタしているみたいだけど、^nいったいなにをしようとしているの？",
+      "source_raw_sha256": "63C927908FF886BF3CAD6310C44DA92453C7AF25EA9C93BC7FC229A9EAD6891B",
+      "target_text": "있잖아, 요즘 어쩐지 바쁘게 다니는 것 같은데,^n대체 뭘 하려는 거야?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00043",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00044",
+      "source_text": "べ、別に、なにもしようとはしていないわ。^nちょっと、その……この庭園の模様替えについて^n提案していただけよ。",
+      "source_raw_sha256": "E3401DAC27A41BD525C7364C25769B04C5D4D947A0E821AA19415B325DC8F319",
+      "target_text": "벼, 별로 아무것도 하려는 게 아니에요.^n잠깐, 그게…… 이 정원의 배치 변경을^n제안드렸을 뿐이에요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00045",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00046",
+      "source_text": "模様替え？",
+      "source_raw_sha256": "91B0B2F368D175C5812664E42CEF6EE5E016CE84F5B1DB9E04805CB63D6A7308",
+      "target_text": "배치 변경?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00047",
+      "source_text": "僕はアリスから隣のおじさんへと視線を移した。",
+      "source_raw_sha256": "7F1DC78EFBD23516929F54E766C3AC079ABF897E6DE64B1FD89361EC457A1093",
+      "target_text": "나는 앨리스에서 옆에 선 아저씨로 시선을 옮겼다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00048",
+      "source_text": "そもそも僕が首を突っ込んだのは、^n困っているだろうおじさんの助け船のつもりだった。",
+      "source_raw_sha256": "A885BE01D437E55862DBCA7C542041BABDEBCA57FD849F0A1019631C2AEF60D8",
+      "target_text": "애초에 내가 끼어든 것은^n곤란해하고 있을 아저씨를 도와줄 생각에서였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00049",
+      "source_text": "だからおじさんがぎくりと身をこわばらせ、^nアリスなみの|露骨[ろこつ]さで目を|逸[そ]らしたのには驚かされた。",
+      "source_raw_sha256": "6289F785D8B16E8874DB101DDA3A301172A59B6EBCAE81BF9BEE7D4ED74F16A1",
+      "target_text": "그래서 아저씨가 움찔 몸을 굳히고,^n앨리스만큼이나 뻔하게 눈을 피한 데에는 놀랐다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00050",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00051",
+      "source_text": "い、いや、本当に、なんでもないんだよ。^nそうだね、まさに庭園の模様替えの提案をしてもらっただけで……。",
+      "source_raw_sha256": "8E51F1ADEAD1B156FC530CF483F5C15636B3CD0EC856604C05912DD5762309F8",
+      "target_text": "아, 아니, 정말 아무것도 아니란다.^n그래, 말 그대로 정원 배치 변경을 제안받았을 뿐이고…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00052",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00053",
+      "source_text": "……！^n",
+      "source_raw_sha256": "431CB8E66BE71A4F808709B7BE7CAD7091DAB37FEE60F0F19BB42D3263FB1563",
+      "target_text": "……!^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00054",
+      "source_text": "ええ、ええ、そうよ。",
+      "source_raw_sha256": "8F56BEEA01BA03A18B9B0841832E4B19B62C9F6F3ADE2706F23D4E35095EB7CC",
+      "target_text": "네, 네, 그래요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00055",
+      "source_text": "ほら、こうおっしゃっているでしょう。^n別になにも、あなたに関係あることは話していないの。",
+      "source_raw_sha256": "ECD353684ED42E92604919776F339E5786D0278270B2737EFE131E3DD2BA647D",
+      "target_text": "보세요, 이렇게 말씀하시잖아요.^n당신과 관련된 이야기는 아무것도 하지 않았어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00056",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00057",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00058",
+      "source_text": "僕はなんだか悲しい気分になった。",
+      "source_raw_sha256": "49496F094043F98B299B2C255E25EF7860A1AE2AD88B978687A95475600B5291",
+      "target_text": "나는 어쩐지 슬픈 기분이 들었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00059",
+      "source_text": "友達気分を高めるために誰かをのけ者にする、というのは^nコドモの世界ではよくあることだけど（オトナの世界でも？）、^nされたほうのみじめな気分といったらない。",
+      "source_raw_sha256": "C9C3617125A357C443E53D072604A12B2F8ADDC8165A25226205DB0914163F26",
+      "target_text": "친구라는 유대감을 높이려고 누군가를 따돌리는 일은^n아이들의 세계에서는 흔하지만(어른들의 세계에서도?),^n당하는 쪽의 비참한 기분은 이루 말할 수 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00060",
+      "source_text": "ましてや、こんな裏表のないアリスと^nいかにも|素朴[そぼく]で正直そうなおじさんが、^n目と目で通じあって僕を突き放すだなんて。",
+      "source_raw_sha256": "BA066262C03BB3821591DD5BC31F306BB05123FC6B550CB94F16E14DDD2BFACD",
+      "target_text": "더구나 이렇게 속과 겉이 다르지 않은 앨리스와^n딱 보기에도 소박하고 정직해 보이는 아저씨가,^n눈빛을 주고받으며 나를 밀어내다니.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00061",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00062",
+      "source_text": "そう……。^n僕には関係ないんだ……。",
+      "source_raw_sha256": "A859CDFD2C1FE297C6BE7BC9510055E46AF8372BF3FAD818B9B31B1C94432B2B",
+      "target_text": "그래…….^n나와는 상관없는 일이구나…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00063",
+      "source_text": "久々に会えたと思ったら、こんな扱いだなんて。",
+      "source_raw_sha256": "3CB4F46FF6830C77DC445ECFCB4748118604BF5D56FFEFA74E2EB3BCD778535E",
+      "target_text": "오랜만에 만났다고 생각했는데 이런 취급이라니.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00064",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00065",
+      "source_text": "（アリスは本当に僕のことが好きなんだろうか？）",
+      "source_raw_sha256": "0BFCCBFC654E9601C48027226734EC5B1B254F49DF76C9EC6A94714315433CE3",
+      "target_text": "(앨리스는 정말 나를 좋아하는 걸까?)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00066",
+      "source_text": "勢いで考えが|恥[は]ずかしい方向に飛んでしまう。",
+      "source_raw_sha256": "461F16BCB49A4717D94EB0B425653CEFC18E27C465822921A49F59DB04E6E7C5",
+      "target_text": "기세를 타고 생각이 부끄러운 방향으로 날아가 버린다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00067",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00068",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00069",
+      "source_text": "沈んだ気分とおかしな連想で、^n僕の顔は奇妙にゆがんでいたに違いない。",
+      "source_raw_sha256": "761F89DAC33F21E47F6601628CB65F4AED9EA2C1FE54AC42188FA9892D804534",
+      "target_text": "가라앉은 기분과 이상한 연상 때문에^n내 얼굴은 기묘하게 일그러져 있었을 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00070",
+      "source_text": "アリスはそんな僕の顔色を|窺[うかが]って、^nしどろもどろに言葉を継いだ。",
+      "source_raw_sha256": "4F073C10D02EBA9D8813E9DABBFCE20DE3D5B1204C0A0BA29B3C8600A175D7B6",
+      "target_text": "앨리스는 그런 내 안색을 살피며^n앞뒤가 맞지 않게 말을 이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00071",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00072",
+      "source_text": "あ、ああ、あの、あのね、違うのよ。^nその……",
+      "source_raw_sha256": "983808BA0D4B7FC210FE1576890CD8D6B818288D3B978CAE13DD0012F4F801D1",
+      "target_text": "아, 아아, 그게, 있잖아요. 그런 게 아니에요.^n그……",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00073",
+      "source_text": "ああ、そうだわ。^n公爵夫人があなたのことを呼んでいたわ。",
+      "source_raw_sha256": "8137BC0B5130E8FAF865DEA6D81E772416F05F357ED29BAD049A6728E98BFC93",
+      "target_text": "아아, 맞아요.^n공작부인이 당신을 찾고 있었어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00074",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00075",
+      "source_text": "は……？　公爵夫人？",
+      "source_raw_sha256": "20C2D607CB14A932A4D5CDDE486C4259F9991313AC72021C5766A06BF768B194",
+      "target_text": "뭐……? 공작부인?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00076",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00077",
+      "source_text": "え、ええ、そうだわ。^nあそこの生け垣の角を曲がったあたりにいらっしゃるわ。^nもういらっしゃらないかもしれないけれど。",
+      "source_raw_sha256": "905947DBB7208C47EFB36383F87DDC81BE49ADCDE2A7F8DE6A55386D6AFBF954",
+      "target_text": "네, 네, 맞아요.^n저기 울타리 모퉁이를 돈 근처에 계세요.^n이미 가셨을지도 모르지만요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00078",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00079",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00080",
+      "source_text": "要するに、アリスは僕をこの場から追い払いたいのだ。^n",
+      "source_raw_sha256": "A144605CF080CC9E27156E0FCB631F7273F99810769FE5C38553DD5AD6DC2F53",
+      "target_text": "요컨대 앨리스는 나를 이 자리에서 내쫓고 싶은 것이다.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00081",
+      "source_text": "──いよいよ本格的に悲しくなってきた。",
+      "source_raw_sha256": "750206D47E8342B0D5CACE8C5CDA39EB25FE0D4FC7A27CAD945142C5D6BFC437",
+      "target_text": "──이제는 본격적으로 슬퍼지기 시작했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00082",
+      "source_text": "救いを求めておじさんを見ても、^n重々しく、しかしどこまでも白々しい顔でうなずいて、",
+      "source_raw_sha256": "0D8E625C2FCB8FBEEB4A9CA61E9609EF56C5DEF239D1FD093FA9AE1AFDF7ACD9",
+      "target_text": "도움을 구하려 아저씨를 보아도,^n근엄하지만 한없이 시치미를 떼는 얼굴로 고개를 끄덕이고는,",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00083",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00084",
+      "source_text": "ああ、そうだった、これはいけない。^n早くいかないとだめだよ君、首をはねられてしまうよ。",
+      "source_raw_sha256": "BC6C4CFE2C4546B149D5D26F1C7192E5A4F01ADD59DF4BF439D7B0E13DA88729",
+      "target_text": "아아, 맞다. 이러면 안 되지.^n어서 가지 않으면 안 돼, 자네. 목이 잘리고 말 거야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00085",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00086",
+      "source_text": "（それはハートの女王様だよ……！）",
+      "source_raw_sha256": "504ED8D9596A45E00C875C0A32B08089CC2164A970A7EB5A06723732382339E8",
+      "target_text": "(그건 하트 여왕이잖아요……!)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00087",
+      "source_text": "どうやらおじさんはアリスと通じあいながらも、^nワンダーランドへの知識は薄いらしい。",
+      "source_raw_sha256": "BC6F609E22C6FAC7BBC8D0F84D5D1E8EDF9C04313D2F777B700C979661AD3C53",
+      "target_text": "아무래도 아저씨는 앨리스와 뜻이 통하면서도,^n원더랜드에 관한 지식은 부족한 듯하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00088",
+      "source_text": "でも、いい年をしたおじさんが必死に^nアリスの妄言に話を合わせている様子が哀れで、^n僕はとにかくその場を去ろうと決心した。",
+      "source_raw_sha256": "295DA87637D595BD6DC9FCB5DA4974F0467CEC3DA79ED4391B6549DAA9B4F548",
+      "target_text": "하지만 나이도 지긋한 아저씨가 필사적으로^n앨리스의 망상에 장단을 맞추는 모습이 딱해,^n나는 일단 그 자리를 떠나기로 마음먹었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00089",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00090",
+      "source_text": "（なんなんだろうなぁ……）",
+      "source_raw_sha256": "9BF0516B76CD3805D338F505AE3B6D9735E7E5EC8EFBA7508BA7A789331E2ED3",
+      "target_text": "(대체 뭐지……)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00091",
+      "source_text": "僕はふたりに背を向け、とぼとぼと歩み去った。^n一応、アリスの示した通り生け垣の角を曲がる。",
+      "source_raw_sha256": "0A4BD30907C4D090030E60A084370E42468BA1BB059F91D7A8DC07EEA2B57AE0",
+      "target_text": "나는 두 사람에게 등을 돌리고 터덜터덜 걸어갔다.^n일단 앨리스가 가리킨 대로 울타리 모퉁이를 돈다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00092",
+      "source_text": "　どうせ、「公爵夫人」とやらは最初からいないわけで、^n「僕があまりに遅いから待ちきれずに去ってしまった」^n　ことになるんだろうけど。",
+      "source_raw_sha256": "0E0AE32027FBBAA8EEBFD704C15A0A0C5F575650F8A796128B8150098867E4CC",
+      "target_text": " 어차피 『공작부인』이라는 사람은 애초에 없고,^n『내가 너무 늦어서 기다리지 못하고 떠나 버렸다』는^n이야기가 되겠지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00093",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00094",
+      "source_text": "おや、どうしたのナナシくん、こんなところで。",
+      "source_raw_sha256": "8A9293099E7D92D33062C3B91E17E41CFB0F1D0D8EE2B8FDF29492547A488E47",
+      "target_text": "어라, 무슨 일이니, 나나시. 이런 곳에서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00095",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00096",
+      "source_text": "あれ、イケノさん。",
+      "source_raw_sha256": "0135474967CB05489968EEEE5CB7E24B4B59030EA308379032474EFCB3CEA6BA",
+      "target_text": "어라, 이케노 씨.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00097",
+      "source_text": "無人の光景を想像していたけれど、^nそこにはなにやら脚立をかついだイケノさんがいた。",
+      "source_raw_sha256": "73EC3D438AA4FC254E328E8715CDC83E4719D69A1488EF88742BB9E3043F9849",
+      "target_text": "아무도 없는 풍경을 상상했지만,^n그곳에는 어쩐 일인지 사다리를 짊어진 이케노 씨가 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00098",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00099",
+      "source_text": "ああ、なんかそこでアリスたちに会ったんですけど、^n追い払われたんです……。^nここで公爵夫人が待っているとかなんとかで。",
+      "source_raw_sha256": "A0B400D4F8BDBC50E515924E3575D458323D3AA084CA7FBB06DB69A6460DC2B5",
+      "target_text": "아, 저기서 앨리스 일행을 만났는데요,^n쫓겨났어요…….^n여기서 공작부인이 기다린다나 뭐라나.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00100",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00101",
+      "source_text": "あ、ああ、そうなんだ。",
+      "source_raw_sha256": "5A9233362F8252DABC43FEBBB2D78162527ED3221A84BEBEC32561275041E9A9",
+      "target_text": "아, 아아, 그랬구나.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00102",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00103",
+      "source_text": "う、ええと、その……。^n",
+      "source_raw_sha256": "73C2F90212708C7211730D0909F2A4F245D6CD16F23163F673E4D34920FCC413",
+      "target_text": "으, 그러니까, 그게…….^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00104",
+      "source_text": "──ど、どうも、公爵夫人です。",
+      "source_raw_sha256": "627B56865839DB18E47C93B2440B53FF2F834AED7939E9862C8796849692AB1F",
+      "target_text": "──바, 반갑습니다. 공작부인입니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00105",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00106",
+      "source_text": "いや、あの……無理しなくていいので。",
+      "source_raw_sha256": "189C7F3A39FA4E73BD0AEDF4C6D9FAE2D258608308323A972A3B5699362DA665",
+      "target_text": "아니, 저기…… 무리하지 않으셔도 돼요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00107",
+      "source_text": "おそらくアリスの作り話に調子を合わせるため、^nイケノさんはぎこちなく女の人の声色を真似てみせる。",
+      "source_raw_sha256": "B370611606DD82BA35ED813933BA0F4BB0A1BCBC4C2ABD9C7A359CE3D0C2DD03",
+      "target_text": "아마 앨리스의 지어낸 이야기에 맞장구치려고,^n이케노 씨는 어색하게 여자 목소리를 흉내 냈다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00108",
+      "source_text": "この取り|繕[つくろ]う空気──^nイケノさんも、アリスのたくらみに力を貸しているんだろうか。",
+      "source_raw_sha256": "7472739DF2772E35929A543CAFCFD4B81EA092582FB7AF0841874FB0B863DC52",
+      "target_text": "이 둘러대는 분위기──^n이케노 씨도 앨리스의 계략을 돕고 있는 걸까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00109",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00110",
+      "source_text": "──まったく、みんなどうしたんですか。^n秘密にしておきたいことがあるのはわかりますけど、^n|誤魔化[ごまか]し方が下手すぎて……。",
+      "source_raw_sha256": "607745AFB8D1EC485EF3923DDA6C6800C24A545E655FDEF411657CDC0D05E987",
+      "target_text": "──정말 다들 왜 이러세요.^n비밀로 해 두고 싶은 일이 있다는 건 알겠지만,^n얼버무리는 솜씨가 너무 서툴러서…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00111",
+      "source_text": "僕は深々とため息をつく。",
+      "source_raw_sha256": "1D3982B7E5F38CEDFF59621F3FB61111E90459DF57C064424CCC11AE0CC4EC21",
+      "target_text": "나는 깊이 한숨을 쉰다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00112",
+      "source_text": "本当にその通りだ。^nもう少しうまくやってくれたら^nここまで悲しい気持ちにならずにすんだのに。",
+      "source_raw_sha256": "4C0613D304C4B46E5DD4AB638CBCF6E3931D043851AA106B76F42EC1E8277ACC",
+      "target_text": "정말 그 말 그대로다.^n조금만 더 능숙하게 해 주었더라면^n이렇게까지 슬퍼지지는 않았을 텐데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00113",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00114",
+      "source_text": "……ごめんね。",
+      "source_raw_sha256": "908F7057EA98832180F86291A59FD767BD39CC5ACCED7DABEF5CAAA4871519F2",
+      "target_text": "……미안해.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00115",
+      "source_text": "イケノさんは心から申し訳なさそうに^nあいている方の手で頭を|掻[か]いた。",
+      "source_raw_sha256": "00A56E4137AB9D5EC660B80C47F97CFD1AC7059DCBEC277620D90807C172E23B",
+      "target_text": "이케노 씨는 진심으로 미안한 듯^n비어 있는 손으로 머리를 긁었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00116",
+      "source_text": "もう片方の手に握られている脚立も、もしかしたら^nアリスの要請で運んできたところなのかもしれない。",
+      "source_raw_sha256": "E59F391787A7394D1AA249B2F60CDD3CCC3391665A0420ACF535A1F0DFF51204",
+      "target_text": "다른 손에 든 사다리도 어쩌면^n앨리스의 요청으로 옮겨 오던 중일지 모른다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00117",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00118",
+      "source_text": "でも、まあ、悪意がないことだけは信じてほしい。^n僕はいま、いつもの仕事をしている時よりよっぽど楽しいよ。",
+      "source_raw_sha256": "2320B1733D2D3851B7116140C753D81ACCB72C62A0BF0EFDECB78F5E65C89094",
+      "target_text": "하지만 뭐, 악의는 없다는 것만은 믿어 줬으면 해.^n나는 지금 평소 일을 할 때보다 훨씬 즐거워.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00119",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00120",
+      "source_text": "（そんなにも楽しいことから弾かれている僕の立場は……）",
+      "source_raw_sha256": "56AAE54A432F3CEC23DA7A98C9C6788D5654E9EB3C8A3DEF3EF6187D426607A5",
+      "target_text": "(그토록 즐거운 일에서 내쳐진 내 처지는……)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00121",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00122",
+      "source_text": "そんな顔をしないで、楽しみにしていてよ。^nアリスくんはね、魔法をかける準備をしているんだ。",
+      "source_raw_sha256": "B00558A5D6267ABE60E1B5A058BB691AB669DC506CFECDECF7905CF3E5A18897",
+      "target_text": "그런 표정 짓지 말고 기대해 줘.^n앨리스는 말이야, 마법을 걸 준비를 하고 있거든.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00123",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00124",
+      "source_text": "魔法……？",
+      "source_raw_sha256": "EFFC760446285AE9F8304EAD868DC1A9BFE21E0F0B173221D8E2DD0808B1FDFB",
+      "target_text": "마법……?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00125",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00126",
+      "source_text": "うん、魔法。",
+      "source_raw_sha256": "ACF8E159E002A71E721743F066044A0EE100ADA0F0E5AEC2139AB9B9D53DCA0F",
+      "target_text": "그래, 마법.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00127",
+      "source_text": "あきれるほど|屈託[くったく]のない笑顔で、イケノさんは真意を隠す。",
+      "source_raw_sha256": "3FEC998C032970947DCC719A55D98F55A1E1F3322CCA05FFE63D0BB4DE3A65C3",
+      "target_text": "너무나도 근심 없는 미소로 이케노 씨는 속뜻을 감춘다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00128",
+      "source_text": "まさか、本当の魔法だなんて思ったわけではないけど。^nそんな思わせぶりなことを言われたら、^nどうしたって|惹[ひ]かれてしまう。",
+      "source_raw_sha256": "5D9E05B75656ED82443AE40F0F592CEEE056722380A93C22DAD658ED0D9878EE",
+      "target_text": "설마 진짜 마법이라고 생각한 건 아니지만,^n그렇게 의미심장한 말을 들으면^n아무래도 마음이 끌리고 만다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00129",
+      "source_text": "けれどイケノさんは深く説明する気はないようだ。",
+      "source_raw_sha256": "8FEFB03F64E00A08C4F478AFDC2B96691E9814FB7A72B3E3ADE22D3C43E56239",
+      "target_text": "하지만 이케노 씨는 자세히 설명할 생각이 없는 듯하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00130",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00131",
+      "source_text": "──アリスくんは、あの子は……面白い子だね。",
+      "source_raw_sha256": "37399E71A2DF1C1AFFC35FD3217E5C85447433C13A2039FCEB94961CEE51C385",
+      "target_text": "──앨리스는, 그 아이는…… 재미있는 아이네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00132",
+      "source_text": "話題を勝手にとばして、しみじみとため息。^n僕は「あの子」に込められたニュアンスが気にかかった。",
+      "source_raw_sha256": "EC386A84F81BA885AA27AF93CD8CCF2C0D13CF74C21530D0F4074068F5872C6B",
+      "target_text": "마음대로 화제를 건너뛰고는 감회 깊게 한숨을 쉰다.^n나는 『그 아이』라는 표현에 담긴 뉘앙스가 마음에 걸렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00133",
+      "source_text": "「アリス」と言ってから、「あの子」と言いなおしたのは、^n「アリス」の仮面の下の「本来の彼女」を^n　正確に示したかったからなんだろう。",
+      "source_raw_sha256": "EF9F9DC0680390CAF45FAE97DCCB43731F1CB3149F672A4AB0E22320D4F3CA9B",
+      "target_text": "『앨리스』라고 했다가 『그 아이』로 고쳐 말한 것은,^n『앨리스』의 가면 아래 있는 『본래의 그녀』를^n정확히 가리키고 싶었기 때문일 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00134",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00135",
+      "source_text": "僕は、今までたくさんの「アリス」と出会ったけどね。^nなんというか、彼女は違う。^n一番アリスらしくないのに、一番アリスらしい気がする。",
+      "source_raw_sha256": "D9F5897DD96759541664F7E45D18AC04E47F0A8BE97E58CD7BFD2B58C0C76094",
+      "target_text": "나는 지금까지 수많은 『앨리스』를 만났지만 말이야.^n뭐랄까, 그녀는 달라.^n가장 앨리스답지 않으면서 가장 앨리스다운 것 같아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00136",
+      "source_text": "真正面から矛盾した言い回しは、^nそれこそあのアリスがよく口にするような。",
+      "source_raw_sha256": "2115EE8B5D7A2485AC4E1F7B78FD4C1A80A9BABE1ABFE5E35B26876CDAC4DB82",
+      "target_text": "정면으로 모순되는 표현은^n바로 그 앨리스가 흔히 입에 담을 법하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00137",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00138",
+      "source_text": "今までの「アリス」って、どんな子たちだったんですか？",
+      "source_raw_sha256": "DDC06B176A552023358763B295AD4976BC64DD6E1BB09ADD68AD6AD5D70F0F23",
+      "target_text": "지금까지의 『앨리스』는 어떤 아이들이었나요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00139",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00140",
+      "source_text": "それこそ人それぞれだけど。^n自分を守るために「アリス」を選ぶ子は、たいがい、^n皮肉屋だったり、生意気だったり、理屈っぽかったり──",
+      "source_raw_sha256": "8534D62E72725C861EA40277AE01D090F3541D9A0C6ABA377D792BB59C96F099",
+      "target_text": "사람마다 제각각이지만.^n자신을 지키기 위해 『앨리스』를 택한 아이는 대개^n빈정거리거나, 건방지거나, 따지기를 좋아하거나──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00141",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00142",
+      "source_text": "どちらかといえば、暗い子が多かったな。^n考えていることを覚られないよう、いろんなことに|騙[だま]されないよう、^nいつも気を張っているような子。",
+      "source_raw_sha256": "D62B8674469C0A4D77E530245387C40D0584563EAE5077686FDAFBA1EE3E2282",
+      "target_text": "굳이 말하면 어두운 아이가 많았어.^n속마음을 간파당하지 않고 여러 일에 속지 않으려고,^n늘 긴장하고 있는 듯한 아이.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00143",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00144",
+      "source_text": "あの「アリス」とは、かなり違いますね。",
+      "source_raw_sha256": "9E63B002267BE7FB025B93CCA0081A5ABF06154098B4D5A5EA1CC27796FA8C0C",
+      "target_text": "저 『앨리스』와는 상당히 다르네요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00145",
+      "source_text": "僕の知る「アリス」は、^n少なくとも表向きは明るくて無邪気だ。",
+      "source_raw_sha256": "F8A5605C4606A390BF9FB92653B2E4E6D91EB67284FBF53F8A339910FCD829BC",
+      "target_text": "내가 아는 『앨리스』는^n적어도 겉으로는 밝고 천진난만하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00146",
+      "source_text": "思っていることは不必要にだだ|漏[も]れだし、^n|騙[だま]されることすら楽しんでしまいそう。",
+      "source_raw_sha256": "015BCAE9DE1F18B58E94847157CA44CADEE0EE71C43E2235FB8A8BD9730F12D7",
+      "target_text": "생각하는 것이 필요 이상으로 줄줄 새어 나오고,^n속는 일조차 즐겨 버릴 것 같다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00147",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00148",
+      "source_text": "そうだね、「聖書」をマニュアルと|捉[とら]えるのなら^nあの「アリス」はかなり|逸脱[いつだつ]していると思う。",
+      "source_raw_sha256": "C7748A910FDAC5E93C8C38BF234A52D91034C7ABFDB7950D20F8D578C0411F79",
+      "target_text": "그렇지. 『성서』를 설명서로 본다면^n저 『앨리스』는 상당히 벗어나 있다고 생각해.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00149",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00150",
+      "source_text": "他の「アリス」たちが知ったら、^nこんなのアリスじゃないって|憤慨[ふんがい]するかもしれないね。",
+      "source_raw_sha256": "31381DE115530802AD89DF24A99940613DA554552D0E882636FDB4AE0724053A",
+      "target_text": "다른 『앨리스』들이 알게 되면,^n이런 건 앨리스가 아니라고 분개할지도 모르지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00151",
+      "source_text": "　でも、さっきイケノさんは^n「アリスらしくないけど、アリスらしい」と言っていた。^n　後半の|根拠[こんきょ]はなんだろう。",
+      "source_raw_sha256": "9F64B811306ECE4CA5D62CD4AAD07E2F6B117B31A7F7F0B22EC7FFAA65381AAE",
+      "target_text": " 하지만 조금 전 이케노 씨는^n『앨리스답지 않지만 앨리스답다』고 말했다.^n뒷부분의 근거는 무엇일까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00152",
+      "source_text": "僕の表情から何かを読みとったのか、^nイケノさんはしばらく考えた後、問いかけてきた。",
+      "source_raw_sha256": "9379E0F48707D0C7EECD24F9EB8DFE83309FE1D1F96ECF1D57D4AE53B679C819",
+      "target_text": "내 표정에서 무언가를 읽은 건지,^n이케노 씨는 잠시 생각한 뒤 물어 왔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00153",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00154",
+      "source_text": "──ねぇ、ナナシくん。^n原作の「不思議の国のアリス」が^nどんなふうに作られたかは知っている？",
+      "source_raw_sha256": "6C60660328E65C724EE385AE8206FC153713136522C88D9162D6027426E7D607",
+      "target_text": "──있잖아, 나나시.^n원작 『이상한 나라의 앨리스』가^n어떻게 만들어졌는지 아니?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00155",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00156",
+      "source_text": "確か、即興で語られたんでしたっけ。",
+      "source_raw_sha256": "72BD992140B7AFACAECB2EC53BC62CF16E9A738954B7EC0760893B6F5E99EB24",
+      "target_text": "분명 즉흥적으로 들려준 이야기였죠?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00157",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00158",
+      "source_text": "そう。数学者のドジスンが、リデル家の三姉妹と^nピクニックした黄金の昼下がり。^n末娘のアリスを主人公にした冒険物語をその場で語ったんだ。",
+      "source_raw_sha256": "2FF97D0C6F45F424DFC07D93910B6A162D0D0BFC1E04AE5AFFCF5631617F0F11",
+      "target_text": "그래. 수학자 도지슨이 리델가의 세 자매와^n소풍을 갔던 황금빛 오후.^n막내딸 앨리스를 주인공으로 삼은 모험담을 그 자리에서 들려주었지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00159",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00160",
+      "source_text": "その物語は、アリスのお願いによってまず手作りの本になり、^n友人夫婦の勧めによって刊行されることとなった。^n──それはともかく。",
+      "source_raw_sha256": "CFF17168B8F4821157D6D5FD9586505D54D8E6771FA0525911AB11F65627F281",
+      "target_text": "그 이야기는 앨리스의 부탁으로 먼저 손으로 만든 책이 되었고,^n친구 부부의 권유로 출간되었어.^n──그건 그렇고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00161",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00162",
+      "source_text": "　今までの「アリス」たちは、^n「不思議の国のアリス」という物語、１冊の本の中の^n　アリスというキャラクターになりきっていた。",
+      "source_raw_sha256": "6D2B19DEA53D55619A6F2E5E52016DA90EF6439A615B06C3192C409B0E9A3F52",
+      "target_text": " 지금까지의 『앨리스』들은^n『이상한 나라의 앨리스』라는 이야기, 한 권의 책 속에 나오는^n앨리스라는 인물이 되어 있었어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass",
+      "post_review_correction": "deterministic ASCII spacing normalization around Malie ^n control token"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00163",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00164",
+      "source_text": "けれど、今ここにいるあの「アリス」くんは、^nそもそもの聞き手であった^nアリス・リデルの立場にいるんじゃないか。",
+      "source_raw_sha256": "9956E8B3E9B3E5B47118A0A0F6EC759A95DA4E82D0D3252B94C847042B0C2617",
+      "target_text": "하지만 지금 여기 있는 저 『앨리스』는^n애초에 이야기를 들었던^n앨리스 리델의 입장에 있는 게 아닐까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00165",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00166",
+      "source_text": "すでにあるキャラクターのふりをするのではなくて、^n語られる物語に口を出して、やりたいことをやって、^n好きなように作り替えていく──",
+      "source_raw_sha256": "8CC54EBA0EAF17F3FBE6FFA8D95705F9B37C1C32D00F88688FB3C132DD57E39C",
+      "target_text": "이미 존재하는 인물인 척하는 것이 아니라,^n들려오는 이야기에 끼어들고, 하고 싶은 일을 하며,^n마음대로 이야기를 바꾸어 가는──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00167",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00168",
+      "source_text": "そんな自由なエネルギーを感じるんだよ。",
+      "source_raw_sha256": "1F99F3781F8B2F52807C4A8B84D63E30AC06525CD1320D784F23580BE3A6D3D9",
+      "target_text": "그런 자유로운 에너지가 느껴져.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00169",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00170",
+      "source_text": "誰もがなりえた、どんな女の子の心の奥底にもいる、^n大人に話をねだる子供としての「アリス」……。",
+      "source_raw_sha256": "E125BF1E5237DB893F08EAA6567DA0E689101AFDCCF48D1538AD6CAB158CAF63",
+      "target_text": "누구나 될 수 있었고, 어떤 여자아이의 마음 깊은 곳에도 있는,^n어른에게 이야기를 졸라 대는 아이로서의 『앨리스』…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00171",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00172",
+      "source_text": "なるほど……。",
+      "source_raw_sha256": "54AE836647E5F1F3B3A1B72BE9CABC0C83B299FA9A7D56CBE0AC71A2C7523204",
+      "target_text": "그렇군요…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00173",
+      "source_text": "合点がいった、といえるほど強い納得ではないけれど、^n奇妙に説得力がある気がして、僕はうなずいた。",
+      "source_raw_sha256": "3390BF44860EB5BC1E1507E125F6C07B4AD9038DBE4052F5A1F17878D99920CE",
+      "target_text": "확실히 알겠다고 할 만큼 강하게 납득한 건 아니지만,^n묘하게 설득력이 느껴져 나는 고개를 끄덕였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00174",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00175",
+      "source_text": "だから、彼女は魔法を使えるんだ。",
+      "source_raw_sha256": "7E3C73FD55B684BC6B5E0FEADF7DD48AEBC17C51D4302DE9AE72FD17299D1023",
+      "target_text": "그러니까 그녀는 마법을 쓸 수 있는 거야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00176",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00177",
+      "source_text": "魔法……。",
+      "source_raw_sha256": "797FF35EE2CEE6997752365F75F3AC4D80EFAD5F23690D07E53AF02878EBD068",
+      "target_text": "마법…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00178",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00179",
+      "source_text": "──この「楽園」はアリスくんの魔法によって^n本物の楽園になりつつある。",
+      "source_raw_sha256": "D71A341A438925E64BE46388C82298AAF62A1106F5505D137E3586FE53143744",
+      "target_text": "──이 『낙원』은 앨리스의 마법으로^n진짜 낙원이 되어 가고 있어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00180",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00181",
+      "source_text": "この数日で、すっかりこの「楽園」は様変わりした。^n君にはそれがわかったかな。",
+      "source_raw_sha256": "8C52A47B725872974EE139A5A7E0907864C8BDCAA4D9C0DF671BB65E22ED12C9",
+      "target_text": "이 며칠 사이 이 『낙원』은 완전히 달라졌어.^n너는 그 사실을 알아차렸니?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00182",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00183",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00184",
+      "source_text": "僕は黙って首を横に振った。",
+      "source_raw_sha256": "F3C2A78C62510DE1E7CF8F94FAFC0719033B9B989B6CE0C9770CB57522C4C58B",
+      "target_text": "나는 말없이 고개를 가로저었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00185",
+      "source_text": "なんだか秘密が増えて意地悪くなったというのは^nひしひしと感じているけど、^nきっとそういうことじゃないんだろう。",
+      "source_raw_sha256": "59574185FF6D7EDCE058127CE136E27180D48661ECA0C9E14A11D160161C6FC8",
+      "target_text": "비밀이 늘고 다들 심술궂어졌다는 사실은^n절절히 느끼고 있지만,^n분명 그런 뜻은 아니겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00186",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00187",
+      "source_text": "（魔法、ね……）",
+      "source_raw_sha256": "3CE1FF8FFF7A7BE9514C1AB54C7D257A2046579C228EAA6A97B0E7F6D984813E",
+      "target_text": "(마법이라……)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00188",
+      "source_text": "煙に巻かれてもやもやとした胸を抱えたまま^n庭園から戻る途中。",
+      "source_raw_sha256": "133F8BF3179FC8AD496E9EF16717DB739E3BF934B6DBCC5509D48FFD8CFF58E4",
+      "target_text": "연막에 휘말린 듯 답답한 마음을 품은 채^n정원에서 돌아오는 길.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00189",
+      "source_text": "オデットたちの部屋の戸口に立った^nラプンツェルとグレーテルが^n中から現れたオディールから何かを受け取っているのを見た。",
+      "source_raw_sha256": "53667C4BD2ED610D011A22BF53EB6C6118631978CF7FB125345B84B3001AA934",
+      "target_text": "오데트 일행의 방 문간에 선^n라푼젤과 그레텔이^n안에서 나온 오딜에게 무언가를 받는 모습을 보았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00190",
+      "source_text": "あれは、布だろうか。^nオデットたちの部屋の中央にあった「湖」を為していた^n色とりどりの布。",
+      "source_raw_sha256": "AFFD82877899729352A3DB7FF6197997430E8221290D32FE79FD033CFC51576B",
+      "target_text": "저건 천일까.^n오데트 일행의 방 한가운데 있던 『호수』를 이루던^n형형색색의 천.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00191",
+      "source_text": "何事か話していたグレーテルとラプンツェルは、^n遠くの僕に気づくとあからさまに表情を変え、^nぱたぱたと足早に去っていた。",
+      "source_raw_sha256": "4F6BE462C603A4BEDE133F5BAF41FD8095F455C06F1E75593E4BCE40344B9EB9",
+      "target_text": "무언가 이야기하던 그레텔과 라푼젤은^n멀리 있는 나를 알아차리자 노골적으로 표정을 바꾸고,^n종종걸음으로 서둘러 떠났다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00192",
+      "source_text": "戸口に残されたオディールが興味なさげに僕を|一瞥[いちべつ]して、^nぱたん、とドアを閉める。",
+      "source_raw_sha256": "B2A1CA582B8A111ECD74D5E133A3F11964A434FC97E0098B0712697BCA1AE490",
+      "target_text": "문간에 남은 오딜이 관심 없다는 듯 나를 힐끗 보고는,^n탁, 문을 닫는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00193",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00194",
+      "source_text": "（なんだかなぁ……）",
+      "source_raw_sha256": "003244CCB879D18BE5EB4202456E719293D1FE9D6B224EE2D24FE88B40D99A5D",
+      "target_text": "(대체 뭐람……)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00195",
+      "source_text": "今までのやりとりから、^n皆がアリス主催のサプライズを計画しているということは^nうっすらと見当がつく。",
+      "source_raw_sha256": "FFEFF36A1FDCB2B41A24B7C1B4F4A57BD328A0B21E1A89E99E7C36D242A82F3F",
+      "target_text": "지금까지의 대화로 보아,^n모두가 앨리스 주최의 깜짝 행사를 계획 중이라는 사실은^n어렴풋이 짐작할 수 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00196",
+      "source_text": "おそらく|主賓[しゅひん]は僕で、^nきっと悪意より善意に満ちたものなんだろうとも思う。",
+      "source_raw_sha256": "0AB1260FD333C44D7C6D304FBA311B9CB2817D700C8880EEF85A028AB531CF45",
+      "target_text": "아마 주빈은 나이고,^n분명 악의보다 선의로 가득한 행사일 것이라고도 생각한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00197",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00198",
+      "source_text": "（でも、なんていうか、なんていうか……）",
+      "source_raw_sha256": "3BD4DD861DAB99D3CC6A112F95CD60E84A7D2EED973C39A515299349CE649BC9",
+      "target_text": "(하지만 뭐랄까, 뭐랄까……)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00199",
+      "source_text": "この胸にぽっかりと空いた穴は、^n種明かしの時にうまく埋まるものなんだろうか。",
+      "source_raw_sha256": "31F9EBE87A854C5CD9DEC9963850D5E133C70D120D3FA13B80201DB06D3BDA87",
+      "target_text": "이 가슴에 뻥 뚫린 구멍은^n진상이 밝혀질 때 제대로 메워질까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00200",
+      "source_text": "そんな、不安ばかりが膨らんでいく。",
+      "source_raw_sha256": "86719926267ED54871999A6AEE060E8537E82B7AB2065A7D7915DB2DBFDCF58F",
+      "target_text": "그런 불안만 자꾸 커진다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00201",
+      "source_text": "僕はゲルダの部屋を訪れた。",
+      "source_raw_sha256": "D75E1E6CC1EDF6241735F109B03DF22DD8E9238C685D92DF4BF451E92656E15C",
+      "target_text": "나는 게르다의 방을 찾아갔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00202",
+      "source_text": "彼女は、なんとなくこういう裏のあるお祭りには^n加わらないようなイメージがあったから。",
+      "source_raw_sha256": "D836DF0E5D8E8ACC81B741140AB2D5F8DC3CFFC636578598F612CE35D12EC572",
+      "target_text": "그녀는 왠지 이런 속내를 감춘 축제에는^n끼지 않을 것 같은 이미지가 있었으니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00203",
+      "source_text": "いつもと変わらない、なんてことのない会話をしたくて。",
+      "source_raw_sha256": "D61A58229FC7488BE357E15344FEA359B21320AF1612A9C219E53878F7BE7966",
+      "target_text": "평소와 다름없는 별것 아닌 이야기를 하고 싶어서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00204",
+      "source_text": "けれど、ノックをしようとした時に、気づいた。",
+      "source_raw_sha256": "BB3F8FFB5C4AA5C948F4F31F003D95E5605CDC397E301D1C446332B7A69B9473",
+      "target_text": "하지만 노크하려던 순간 알아차렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1217.gsc::slot/00205",
+      "source_text": "ドアにかけられた「Ｇｅｒｄａ」のプレートが^n消えていることに。",
+      "source_raw_sha256": "9175CB2AA573502803DD00065367F68D726E25D3CEEC96533D056645BE66CD6B",
+      "target_text": "문에 걸려 있던 『Gerda』 명패가^n사라져 있었다는 것을.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ],
+  "post_review_corrections": [
+    {
+      "type": "Malie control-token ASCII spacing normalization",
+      "method": "removed only ASCII space/tab immediately adjacent to ^n; no wording change",
+      "applied_utc": "2026-08-13T10:52:25.755958Z",
+      "changes": [
+        {
+          "slot": 20,
+          "before": "(그러면 앨리스가 아니라^n 하트 여왕 같잖아)",
+          "after": "(그러면 앨리스가 아니라^n하트 여왕 같잖아)"
+        },
+        {
+          "slot": 92,
+          "before": " 어차피 『공작부인』이라는 사람은 애초에 없고,^n『내가 너무 늦어서 기다리지 못하고 떠나 버렸다』는^n 이야기가 되겠지만.",
+          "after": " 어차피 『공작부인』이라는 사람은 애초에 없고,^n『내가 너무 늦어서 기다리지 못하고 떠나 버렸다』는^n이야기가 되겠지만."
+        },
+        {
+          "slot": 151,
+          "before": " 하지만 조금 전 이케노 씨는^n『앨리스답지 않지만 앨리스답다』고 말했다.^n 뒷부분의 근거는 무엇일까.",
+          "after": " 하지만 조금 전 이케노 씨는^n『앨리스답지 않지만 앨리스답다』고 말했다.^n뒷부분의 근거는 무엇일까."
+        },
+        {
+          "slot": 162,
+          "before": " 지금까지의 『앨리스』들은^n『이상한 나라의 앨리스』라는 이야기, 한 권의 책 속에 나오는^n 앨리스라는 인물이 되어 있었어.",
+          "after": " 지금까지의 『앨리스』들은^n『이상한 나라의 앨리스』라는 이야기, 한 권의 책 속에 나오는^n앨리스라는 인물이 되어 있었어."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1509_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    27
+  ],
+  "new_review_change_count": 3,
+  "new_review_changes": [
+    {
+      "slot": 7,
+      "before": "게다가 오늘은 유난히 마음이 자꾸 다른 곳으로 향해서,^n처음부터 진찰에는 정신이 팔려 있었다.^n문진을 했는지조차 기억나지 않을 지경이다.",
+      "after": "게다가 오늘은 유난히 마음이 자꾸 다른 곳으로 향해서,^n처음부터 진찰에는 도무지 마음이 붙지 않았다.^n문진을 했는지조차 기억나지 않을 지경이다."
+    },
+    {
+      "slot": 21,
+      "before": "의사 선생님의 부름에 문득 정신이 돌아온다.^n평소에는 아무리 말해도 손에 잡히지 않는 이야기뿐이지만,^n지금은 정신을 차릴 계기가 되어 고마웠다.",
+      "after": "의사 선생님의 부름에 문득 정신이 돌아온다.^n평소에는 허공에 주먹질하듯 맥 빠지는 이야기뿐이지만,^n지금은 정신을 차릴 계기가 되어 고마웠다."
+    },
+    {
+      "slot": 27,
+      "before": "얼마나 장황한지, 도무지 흥미가 생기지 않아 귀에 들어오지 않는지,^n모든 것이 『지루함』이라는 두 글자로 압축되어,^n방금 품었던 고마운 마음도 순식간에 흩어져 사라졌다.",
+      "after": "얼마나 장황한지, 도무지 흥미가 생기지 않아 귀에 들어오지 않는지,^n모든 것이 『지루함』 한마디로 압축되어,^n방금 품었던 고마운 마음도 순식간에 흩어져 사라졌다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    28,
+    85
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00001",
+      "source_text": "──この「診察」という、日ごとのお医者様とのやり取りにあたり、^n僕の中の緊張や心の構えといったものが失せていったのは、^nはてどのあたりだったか。",
+      "source_raw_sha256": "AF58F241F9C241DA66DC0D14C34DEC16BD4D8BD2BFECE00571B49D82C00EE8F0",
+      "target_text": "──매일 의사 선생님과 주고받는 이 『진찰』에서,^n내 안의 긴장이나 마음의 준비 같은 것이 사라진 건,^n과연 언제쯤부터였을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00002",
+      "source_text": "診察の時間のうち、^n僕にそれらしい質問を投げかけてくるのが、大体２割くらい。",
+      "source_raw_sha256": "6630AC78F561EC803748A33B72972075D8D06778F5D87B2CD8028F3D3E4BA9C5",
+      "target_text": "진찰 시간 중에,^n내게 그럴듯한 질문을 던지는 시간은 대략 20퍼센트쯤이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00003",
+      "source_text": "それだって、真面目に受け答えしても流されぼやかされ、^n結局僕の病状がどうなっているのか|曖昧[あいまい]なままの、^n例のあの「これが何に見える？」式の質問ばかり。",
+      "source_raw_sha256": "D2C729D0704694ABF7EFD08379FB853A20005B180BC0868078D084094CBECF9C",
+      "target_text": "그마저도 진지하게 대답하면 흘려듣거나 얼버무리고,^n결국 내 병세가 어떤지 모호한 채 끝나는,^n늘 하던 『이게 무엇으로 보이니?』 같은 질문뿐이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00004",
+      "source_text": "……まあ、僕の「物語」が何なのか相変わらずあいまいだし、^n以前の記憶に関してもぼやけたまま。^n病状は悪化や快方、どちらにも|傾[かたむ]いてないんだろう。",
+      "source_raw_sha256": "A0B08119ED333C8620A83D5EF94FFA120F477892668263B693CB0833D1A1AB45",
+      "target_text": "……뭐, 내 『이야기』가 무엇인지는 여전히 모호하고,^n예전 기억도 흐릿한 그대로다.^n병세는 악화되지도 호전되지도 않은 것이겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00005",
+      "source_text": "それで診察中のお話の残り８割が、^nどうでもいいような日常のお話で、よく話が保つと思う。^nこれはこれで味のないビニールを|噛[か]まされている気分になってくる。",
+      "source_raw_sha256": "11DC77981575BD1BCF0390E9C7F7D4B3990B51C909916E8817C6549324C5E1FD",
+      "target_text": "그러고 나면 진찰 중 나머지 80퍼센트는^n별것도 아닌 일상 이야기인데, 용케도 대화가 이어진다.^n이건 이것대로 아무 맛도 없는 비닐을 씹는 기분이 든다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00006",
+      "source_text": "「診察」に興味を無くすのは、我ながら仕方ないだろう。",
+      "source_raw_sha256": "7077D2EC13AD9273FDED51F34042BA929E175AD2F8B2B75FAD71BF890E154ABE",
+      "target_text": "『진찰』에 흥미를 잃는 것도 나로서는 어쩔 수 없으리라.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00007",
+      "source_text": "それに今日は殊に、僕の心はそっちへそっちへと|逸[そ]れて、^n診察の事など始めから気もそぞろ。^n問診があったのかどうかも憶えていない有り様だ。",
+      "source_raw_sha256": "EF7C84F70D3583C75B9D1A44C34E1B62EA2DCCCA0B6AB35EF3E8C8ECBC198865",
+      "target_text": "게다가 오늘은 유난히 마음이 자꾸 다른 곳으로 향해서,^n처음부터 진찰에는 도무지 마음이 붙지 않았다.^n문진을 했는지조차 기억나지 않을 지경이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00008",
+      "source_text": "ラプンツェルは、どうしているだろう。",
+      "source_raw_sha256": "82B1F09574E4325B6E27E2BE25B660943142FC30EB5B28E23899C42129B4B597",
+      "target_text": "라푼젤은 어떻게 지내고 있을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00009",
+      "source_text": "自分がラプンツェルにしでかしてしまったあれは、^n病棟中を引きずり回してしまったあれは、^nはたして彼女自身にとってはどんな意味を持つのか。",
+      "source_raw_sha256": "ED9674674B78E3FBDF7B1D34E9CB7655D35FC634732D45013CE9E7B59756F0B2",
+      "target_text": "내가 라푼젤에게 저지른 그 일은,^n병동 전체를 끌고 돌아다닌 그 일은,^n과연 그녀 자신에게 어떤 의미였을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00010",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00011",
+      "source_text": "（それこそ彼女の「物語」を打ち壊してしまうくらいの、^n　野蛮なことだったかもしれない……）",
+      "source_raw_sha256": "BE107A94606F163536DC1FEB8FE26BD0E0C71373F317B073D9BD28763B9DE116",
+      "target_text": "(어쩌면 그녀의 『이야기』를 무너뜨릴 만큼,^n　야만적인 짓이었을지도 몰라……)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00012",
+      "source_text": "　糸束を捨てる事は「ラプンツェル」として筋を違える事だろう。^n　けれどそれは、彼女が、ラプンツェルが、^n「塔の中」に在り続けていたいと願ったことに始まっていたなら。",
+      "source_raw_sha256": "AFC69ABBC5249B449724205688F8C6A890A3676122B0A9CE704048E9EF6AAAF0",
+      "target_text": "실 뭉치를 버리는 건 『라푼젤』의 줄거리에서 벗어나는^n일이겠지. 하지만 그것이 그녀가, 라푼젤이, 『탑^n안』에 계속 머물고 싶다고 바란 데서 시작된 일이라면.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료; post-review dialogue layout overflow repair v1",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00013",
+      "source_text": "「ラプンツェル」では、^n　絹糸の束のことが「ゴーテルおばあさま」に発覚したことで、^n　ラプンツェルは塔から追放される。",
+      "source_raw_sha256": "6027ED6B063B3D69FFFC95E295304EB29EEE2FA49BD688C8506D8AD59030B9B8",
+      "target_text": "『라푼젤』에서는,^n　명주실 뭉치가 『고델 할머님』에게 들키면서,^n　라푼젤은 탑에서 쫓겨난다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00014",
+      "source_text": "つまりラプンツェルは、言い換えれば、^n閉じてはいたけれど、安穏としていた世界を失うともいえる訳で。",
+      "source_raw_sha256": "8805C0BB107FD28B6553F0E36FBADCBE95EA325DBD791874BCCC8AD720B99918",
+      "target_text": "그러니까 달리 말하면 라푼젤은,^n닫혀 있기는 해도 평온했던 세상을 잃는 셈이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00015",
+      "source_text": "彼女はそれを恐れているんだろうか。",
+      "source_raw_sha256": "8EA83AF73823A4BFCDE23C9DA1C40A09E645A5A4C94AA292147CB80F607C0598",
+      "target_text": "그녀는 그것을 두려워하는 걸까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00016",
+      "source_text": "でもラプンツェルは、その|艱難辛苦[かんなんしんく]を潜り抜けてこそ、^nやっと本当の幸せを|掴[つか]めるのだし……。",
+      "source_raw_sha256": "9D9E07AEAA0E73E69E2FAD50BF609696F26AAEEB492AAEC5248C8DEE7EBB4935",
+      "target_text": "하지만 라푼젤은 그 온갖 고난을 헤쳐 나가야만,^n마침내 진정한 행복을 붙잡을 수 있고…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00017",
+      "source_text": "　でもここのみんなは「物語」を演じようとしているだけの、^n「|お伽話症候群[フェアリーテイル・シンドローム]」の患者なわけで、正真の物語中の人物じゃない。",
+      "source_raw_sha256": "6FF3DB90A35F06514A63967C4823D3CF88252BC83C0B2F1F778E1B99F2C752E7",
+      "target_text": "　하지만 이곳의 모두는 『이야기』를 연기하려 할 뿐인,^n『동화 증후군』 환자이지 진짜 이야기 속 인물이 아니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00018",
+      "source_text": "でもラプンツェルはその中に留まろうと──^nいけない、考えの堂々巡りに嵌った。^nこれじゃそのうち自分の尻尾を追いかける仔犬みたいに目を回す。",
+      "source_raw_sha256": "CAD8B6E9D9AE45DC34FC98B6662B50CDB0CDB6297A191D1CA5B8BA2F5A939369",
+      "target_text": "하지만 라푼젤은 그 안에 머물려고──^n안 돼, 생각이 빙빙 돌기 시작했다.^n이러다가는 자기 꼬리를 쫓는 강아지처럼 눈이 돌겠다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00019",
+      "source_text": "医者",
+      "source_raw_sha256": "1285809FCD66C2F753A0A086F75DD97DED40DD9BB52FBB18B57107E1BC64FB29",
+      "target_text": "의사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00020",
+      "source_text": "どうしたのかね？",
+      "source_raw_sha256": "E4251DFB6D64CA205CE3ACE81E91479E34BE9B7EAE175DE766C649C50A96A883",
+      "target_text": "무슨 일인가?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00021",
+      "source_text": "お医者様の呼びかけに、ふわ、と我に返る。^nいつもは暖簾に腕押しの話ばかりだけど、^n今は正気付くきっかけになって有難い。",
+      "source_raw_sha256": "920209434B011691102C4C7B0B1A36342DDD2045EFACA86838A548693099B29B",
+      "target_text": "의사 선생님의 부름에 문득 정신이 돌아온다.^n평소에는 허공에 주먹질하듯 맥 빠지는 이야기뿐이지만,^n지금은 정신을 차릴 계기가 되어 고마웠다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00022",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00023",
+      "source_text": "いえ、なんでもないです。",
+      "source_raw_sha256": "76B5EB6EF4012C89575043237FD1DC0D0F4B34B199A5A52E3C0A9C70DD1359EC",
+      "target_text": "아뇨, 아무것도 아니에요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00024",
+      "source_text": "医者",
+      "source_raw_sha256": "1285809FCD66C2F753A0A086F75DD97DED40DD9BB52FBB18B57107E1BC64FB29",
+      "target_text": "의사",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00025",
+      "source_text": "そうか。まあ何でもないならそれはそれで。^nで、さっきまで何を話していたかな……。^nああ、私の時計についてだった。",
+      "source_raw_sha256": "6A157DE059E6370C94B8B4E56F224460AE49DAE3B58B5D4AE5FEFA6ACEE8EE34",
+      "target_text": "그런가. 뭐, 아무 일도 아니라면 됐지.^n그래, 아까까지 무슨 이야기를 하고 있었더라…….^n아, 내 시계 이야기였군.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00026",
+      "source_text": "　そしてさっきまで続けていた、^n（続けてたらしい。聞き流していたからわからない）^n　腕時計の自慢話が再開される。",
+      "source_raw_sha256": "CACE629F5F2BE4719034E6693959B296D2AF75565BC0C0FC0A16C9F7484025A4",
+      "target_text": "　그리고 아까까지 이어 오던,^n(이어 왔던 모양이다. 흘려들어서 모르겠다)^n　손목시계 자랑이 다시 시작된다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1509.gsc::slot/00027",
+      "source_text": "その冗長なこと、まったくもって興味が持てず耳に入ってこないこと、^n退屈の２文字に集約されて、^n先ほど抱いた感謝の気持ちも、たちまちに散り失せていった。",
+      "source_raw_sha256": "BB6851882297A0665430D7BA5904EA64748CA07A13734C66E66C84A972026A64",
+      "target_text": "얼마나 장황한지, 도무지 흥미가 생기지 않아 귀에^n들어오지 않는지, 모든 것이 『지루함』 한마디로 압축되어,^n방금 품었던 고마운 마음도 순식간에 흩어져 사라졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료; post-review dialogue layout overflow repair v1",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ],
+  "post_review_repairs": [
+    {
+      "id": "dialogue_layout_overflow_repair_v1",
+      "completed_utc": "2026-08-13T22:45:22.498312Z",
+      "slots": [
+        12,
+        27
+      ],
+      "reason": "prevent Malie four-line auto-wrap text-format error; 3 lines and <=992 units"
+    }
+  ]
+}

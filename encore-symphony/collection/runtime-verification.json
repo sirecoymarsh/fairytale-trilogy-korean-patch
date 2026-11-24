@@ -1,0 +1,60 @@
+{
+ "completed": "2026-11-22T21:59:48+00:00",
+ "launcher": "Y:\\GAME\\Fairytale Collection\\페어리테일 통합판.exe",
+ "source_archives": {
+  "Requiem": "8331eaf3a986ce33121b6943c88f3c232635906bca7e9c657e26bcfad0304eec",
+  "Encore": "537aa72c3224df74d6e99038ee0a2ed027fc3f80b95c6a5b4505fc1b8b3d2785",
+  "Symphony": "3c8498f99ec45c7228b4357d59073b724f5ace4f39845aa2d688516bf1a388f8"
+ },
+ "source_dir": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection",
+ "door_verification": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\release-doors.json",
+ "catalog_check": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\release-check.json",
+ "native_player_check": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\media-state.txt",
+ "images": [
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\01-main.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\02-doors.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\release-Requiem.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\release-Encore.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\release-Symphony.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\07-music.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\final-native-replay.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\11-Requiem-load-fixed.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\12-Encore-settings.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\13-Encore-episodes.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\final-credits-staff.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\installed-encore-opening-1.png",
+  "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\integrated\\installed-encore-opening-2.png"
+ ],
+ "runtime": {
+  "본편 진입": "최종 실행 파일로 세 작품을 시작하고 첫 한국어 대사, 작품 종료 및 공통 메인 복귀를 확인했다. 별도 검증 세이브로 시험했다.",
+  "회상 및 옵션": "앙코르 원작 회상 목록, 닫기 후 통합 감상실 복귀, 에피소드 선택, 옵션 모두 해방의 통합 CG 0/24 → 24/24 반영을 확인했다. 레퀴엠의 계속은 원작 불러오기 화면을 열었다.",
+  "음악 및 CG": "원본 곡의 재생 시간 진행, CG 기본 휠 확대와 화면 맞춤 복귀를 확인했다. CG와 음원은 설치된 카탈로그와 대조했다.",
+  "영상": "Y:의 배포 실행 파일에서 앙코르 오프닝을 열어 서로 다른 자막 영상 프레임 두 장을 캡처하고 감상실 복귀를 확인했다. 심포니는 원작 엔진의 한글 제작진 카드까지 확인했다.",
+  "세이브": "배포본은 기존 한국어판 세이브를 독립 파일로 복사했다. 옵션 및 게임 실행 검증은 분리된 세이브에서 했다.",
+  "범위": "첫 대사와 메뉴 경로를 확인했다. 장편 시나리오의 완주나 모든 엔딩 영상 전체 재생 검사는 포함하지 않았다."
+ },
+ "installed_entry_bytes": 4568,
+ "references": [
+  "https://api.playnite.link/docs/manual/library/games/gameActions.html",
+  "https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.processstartinfo.workingdirectory",
+  "https://www.liar.co.jp/fairy_symphony/"
+ ],
+ "gallery_music_repair": {
+  "completed_utc": "2026-11-22T23:06:55+00:00",
+  "assets_updated": 8,
+  "removed_empty_pages": 19426,
+  "fully_decoded_and_checked": 11,
+  "player_start_middle_and_end": 11,
+  "gerda_continuous_seconds": 98.482,
+  "filter_switch_continued": true,
+  "asset_directory": "Y:\\GAME\\Fairytale Collection\\Library\\media",
+  "evidence": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\music-test",
+  "source_note": "The game Vorbis ACM files multiplex an empty padding stream (serial 0xffffffff). The original Vorbis pages, sequence, PCM sample count and stable catalog IDs were preserved; no codec conversion. The original installed window class and catalog were used with isolated saves and output metering.",
+  "references": [
+   "https://www.xiph.org/ogg/doc/framing.html",
+   "https://raw.githubusercontent.com/xiph/ogg/master/src/framing.c",
+   "https://raw.githubusercontent.com/xiph/ogg/master/COPYING"
+  ]
+ },
+ "portability_check": "Y:\\AI\\Codex\\projects\\fairytale-symphony-encore-ko\\collection\\qa\\portability-20261124\\result.json"
+}

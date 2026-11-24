@@ -1,0 +1,695 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1410_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    56
+  ],
+  "new_review_change_count": 22,
+  "new_review_changes": [
+    {
+      "slot": 1,
+      "before": "병동 통로의 긴 복도, 그 한가운데 있는 게시판.",
+      "after": "병동 통로의 긴 복도, 그 길목에 있는 게시판."
+    },
+    {
+      "slot": 2,
+      "before": "먼지에 절어 언제부터 붙어 있었는지도 모를 청소 예정표라든가,^n얄미울 만큼 건강해 보이는 얼굴로 생활 습관병 예방을 호소하는 포스터라든가,^n그런 것뿐이라 딱히 새로운 소식은 없다.",
+      "after": "먼지에 누렇게 바래 언제부터 붙어 있었는지도 모를 청소 예정표라든가,^n얄미울 만큼 건강해 보이는 얼굴로 생활 습관병 예방을 호소하는 포스터라든가,^n그런 것뿐이라 딱히 새로운 소식은 없다."
+    },
+    {
+      "slot": 4,
+      "before": "……같은 게 아니었다.^n병동 환자 모두가 한데 모여 손에 든 종잇조각과 비교해 보는,^n게시판의 벽보는 정말 그런 행사를 알리는 모양이다.",
+      "after": "……같은 게 아니었다.^n병동 환자 모두가 한데 모여 손에 든 종잇조각과 대조해 보는,^n게시판의 안내문은 정말 그런 행사를 알리는 모양이다."
+    },
+    {
+      "slot": 10,
+      "before": "앨리스가 존재하지도 않는 햇님에게 자랑하듯,^n양손에 하나씩 높이 치켜든 것은,^n구슬과 깃털 장식이 달리고 금빛 테두리를 두른, 과연 봉투와 초대장이었다.",
+      "after": "앨리스가 존재하지도 않는 햇님에게 자랑하듯,^n양손에 하나씩 높이 치켜든 것은,^n구슬과 깃털 장식이 달리고 금빛 테두리를 두른, 말 그대로 봉투와 초대장이었다."
+    },
+    {
+      "slot": 11,
+      "before": "체셔 고양이가 물고 있었는데,^n싱글벙글 웃는 그대로라 이 사이로 떨어뜨렸다고, 앨리스가 말했다.",
+      "after": "체셔 고양이가 물고 있었는데,^n싱글벙글 웃는 그대로라 이 사이로 빠졌다고, 앨리스가 말했다."
+    },
+    {
+      "slot": 13,
+      "before": "다만 각자 자기 이야기에 잠기고 탐닉하는 것 말고는,^n평온한 무풍이라기보다 정체돼 있는 이 병동의 일상에,^n조금 별다른 맛을 더해 줄 행사인 것도 분명했다.",
+      "after": "다만 각자 자기 이야기에 잠기고 탐닉하는 것 말고는,^n고요하다기보다 정체돼 있는 이 병동의 일상에,^n조금 별다른 맛을 더해 줄 행사인 것도 분명했다."
+    },
+    {
+      "slot": 14,
+      "before": "댄스 파티라고 한다.^n오락실을 행사장으로 삼아 열리는 파티의^n대강은 모든 환자에게 돌린 초대장으로 알리고, 상세 내용은 게시판에.",
+      "after": "댄스 파티라고 한다.^n오락실을 행사장으로 삼아 열리는 파티의^n대강은 환자 전원에게 배부된 초대장에, 자세한 내용은 게시판에."
+    },
+    {
+      "slot": 16,
+      "before": "(어라, 내 쪽에는 왔던가?)",
+      "after": "(어라, 나한테도 왔던가?)"
+    },
+    {
+      "slot": 17,
+      "before": "아무튼. 오락실인가…… 당구대 같은 것도 있지만,^n그래도 다른 곳보다 훨씬 넓고 카펫도 고급인 방이다.^n주크박스도 있었으니 댄스 모임에는 제격이겠지.",
+      "after": "아무튼. 오락실인가…… 당구대 같은 것도 있지만,^n그래도 다른 곳보다 훨씬 넓고 카펫도 고급인 방이다.^n주크박스도 있었으니 댄스 파티에는 제격이겠지."
+    },
+    {
+      "slot": 21,
+      "before": "봉인에 밀랍을 찍어 두어서 그렇겠지.^n상당히 아름답고 정교하네.",
+      "after": "봉인에 밀랍 도장이 찍혀 있어서겠지.^n상당히 아름답고 정교하네."
+    },
+    {
+      "slot": 23,
+      "before": "밀랍, 이라는 건?",
+      "after": "밀랍, 그게 뭐야?"
+    },
+    {
+      "slot": 29,
+      "before": "들뜬 모두의 무리에 들어가려다 끝내 들어가지 못한 그가,^n작은 목소리로 무언가 중얼거리지만, 뭐 됐어.",
+      "after": "들뜬 모두의 무리에 끼려다 끝내 끼지 못한 그가,^n작은 목소리로 무언가 중얼거리지만, 뭐 됐어."
+    },
+    {
+      "slot": 31,
+      "before": "저는 할머님께서 허락해 주시지 않을 것 같지만,^n여러분은 즐겁게 다녀오세요.",
+      "after": "저는 할머님께서 허락하지 않으실 듯하지만,^n여러분은 즐겁게 다녀오세요."
+    },
+    {
+      "slot": 32,
+      "before": "　그녀는 강 건너편에서 도시의 활기를 바라보는 듯한 표정으로 말했다.^n『탑』 안에 갇히는 데 완전히 익숙해진,^n　평온한 체념의 경지인 걸까.",
+      "after": "　그녀는 강 건너편에서 도시의 활기를 바라보는 듯한 표정이었다.^n『탑』 안에 갇히는 데 완전히 익숙해진,^n　평온한 체념의 경지인 걸까."
+    },
+    {
+      "slot": 34,
+      "before": "지금 옷으로는 춤출 수 없어요.^n좀 더 제대로 된 드레스가 아니면…….^n그래요, 초대장에 맞춰 깃털을 달아요──다 같이!",
+      "after": "지금 옷차림으로는 춤출 수 없어요.^n좀 더 제대로 된 드레스가 아니면…….^n그래요, 초대장에 맞춰 깃털을 달아요──다 같이!"
+    },
+    {
+      "slot": 36,
+      "before": "저, 저도!?^n그, 나는 사양해도 될까…….",
+      "after": "나, 나도!?^n그, 나는 사양해도 될까……."
+    },
+    {
+      "slot": 38,
+      "before": "……참고로 기획안을 낸 것도 놀랍게도,^n바로 나야~…….",
+      "after": "……참고로 기획을 세운 사람도 놀랍게도,^n바로 나야~……."
+    },
+    {
+      "slot": 39,
+      "before": "아까부터 작은 소리로 소곤소곤,^n이 사람은 내세우고 싶은 건지 살며시 묻어 두고 싶은 건지,^n도무지 분명하지 않다.",
+      "after": "아까부터 작은 소리로 소곤소곤,^n이 사람은 알리고 싶은 건지 살며시 묻어 두고 싶은 건지,^n도무지 분명하지 않다."
+    },
+    {
+      "slot": 45,
+      "before": "그래요, 왠지 정말 그런 것 같아졌어요. 연습해요…… 다 같이!",
+      "after": "네, 왠지 정말 그랬던 것 같은 기분이 드네요. 연습해요…… 다 같이!"
+    },
+    {
+      "slot": 47,
+      "before": "그러니까 나는 사양하겠다니까…….",
+      "after": "그러니까 나는 빠지게 해 달라니까……."
+    },
+    {
+      "slot": 49,
+      "before": "……음악을 고른 것도 나인데.^n분위기 있는 곡도 화려한 곡도,^n제대로 준비해 뒀어~…….",
+      "after": "……음악 선곡도 내가 했는데 말이야.^n분위기 있는 곡도 화려한 곡도,^n제대로 갖춰 뒀어~……."
+    },
+    {
+      "slot": 51,
+      "before": "모두 가운데서는 그녀의 차림이 댄스 파티에 가장 잘 어울릴 듯한,^n왠지 그런 생각이 든다.",
+      "after": "다들 가운데 그녀의 차림이 댄스 파티에 가장 잘 어울릴 것 같은,^n그런 기분이 든다, 왠지."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    57,
+    114
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00001",
+      "source_text": "病棟通路の長い廊下、の途中の掲示板。",
+      "source_raw_sha256": "6B5E4DA158C1E2E77E673B3029BE425DF28DBD03C30D37724128DA0AC24102D0",
+      "target_text": "병동 통로의 긴 복도, 그 길목에 있는 게시판.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00002",
+      "source_text": "|埃[ほこり]に焼け、どれくらい前から貼ってあるのかって清掃予定表とか、^n嫌味なほど健康そうな顔で生活習慣病予防を|訴[うった]えるポスターとか、^nそんなのばかり、目新しい報せはとりたてない。",
+      "source_raw_sha256": "F07C4B69703C738E78CEC7547D8C69310CF806E737B6F9934089386062994636",
+      "target_text": "먼지에 누렇게 바래 언제부터 붙어 있었는지도 모를 청소 예정표라든가,^n얄미울 만큼 건강해 보이는 얼굴로 생활 습관병 예방을 호소하는 포스터라든가,^n그런 것뿐이라 딱히 새로운 소식은 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00003",
+      "source_text": "だから目を留めたり立ち止まったりする人は少ないのに、^n今日はその前が妙にざわついて、^nお楽しみ会の入場待ちとかしてるみたい。",
+      "source_raw_sha256": "45CC19CC4768027E7B9A771BE25521B719F5BD46FD37A2EC3FEA14F810BB2B5F",
+      "target_text": "그래서 눈길을 주거나 걸음을 멈추는 사람은 드문데,^n오늘은 그 앞이 묘하게 술렁여서,^n무슨 놀이 행사 입장이라도 기다리는 것 같다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00004",
+      "source_text": "……みたい、じゃなかった。^n病棟の患者の皆が|揃[そろ]って、手元の紙片と見比べている、^n掲示板の貼り紙は、実際そういった催しの報せなのらしい。",
+      "source_raw_sha256": "55F2084C8F70ED4D0BCBD8DEABD4BA7EB0E23F836471D152936215A498FFEBAF",
+      "target_text": "……같은 게 아니었다.^n병동 환자 모두가 한데 모여 손에 든 종잇조각과 대조해 보는,^n게시판의 안내문은 정말 그런 행사를 알리는 모양이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00005",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00006",
+      "source_text": "起きたら、枕元に、置いてあって、これ。^nくわしいことは、掲示板でって……！",
+      "source_raw_sha256": "541D972955ED2AF3E72A7978152A0A458B09C14963B34D56B0A6C872ACE9C049",
+      "target_text": "일어나 보니까, 머리맡에, 놓여 있었어, 이게.^n자세한 건, 게시판에서 보라고……!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00007",
+      "source_text": "その時のびっくりがよほどのものだったみたいで、^n栗色の髪の彼女は、櫛もろくに入れてないぼさぼさ頭のまま、^n僕に貴重な賞品でも見せるように、そっと差し出し見せてくれた。",
+      "source_raw_sha256": "8A353F1BBB70578E55F6ADBA728908C308CC5C866DEBCDB1974FFC13560188CE",
+      "target_text": "그때 놀란 게 꽤 컸나 보다.^n밤색 머리의 그녀는 빗질도 제대로 안 한 헝클어진 머리 그대로,^n내게 귀한 상품이라도 보여 주듯 살며시 내밀었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00008",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00009",
+      "source_text": "|黄金蟲[こがねむし]の|繭[まゆ]の中から取り出された珠と、^n蜜で貼りつけられた羽毛とで飾られた、^nあたしたちのためだけの黄金の招待状よ！",
+      "source_raw_sha256": "DBADD1EB1B5C234EA94A504E6B451822F3F0139432BF90B522678389633459D9",
+      "target_text": "황금풍뎅이의 고치 속에서 꺼낸 구슬과,^n꿀로 붙인 깃털로 장식한,^n우리만을 위한 황금 초대장이에요!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00010",
+      "source_text": "アリスがありもしないお陽様に見せびらかすように、^n高々とそれぞれ両手に|翳[かざ]したのは、^nビーズと羽根飾りのついた、金色の縁の、なるほど封筒と招待状。",
+      "source_raw_sha256": "26243194714A12C5CA6F456265820D823CAC2EBDFA52627EECBECBD2CD8E519D",
+      "target_text": "앨리스가 존재하지도 않는 햇님에게 자랑하듯,^n양손에 하나씩 높이 치켜든 것은,^n구슬과 깃털 장식이 달리고 금빛 테두리를 두른, 말 그대로 봉투와 초대장이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00011",
+      "source_text": "チェシャ猫がくわえていたのだけれど、^nにやにや笑いのままだったから歯の隙間から落ちたのだ、とアリス。",
+      "source_raw_sha256": "09FC3AC6E300FE805C24C5F80644B5D9430F9BD2B922CDFAFB6D611EF85B7F49",
+      "target_text": "체셔 고양이가 물고 있었는데,^n싱글벙글 웃는 그대로라 이 사이로 빠졌다고, 앨리스가 말했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00012",
+      "source_text": "アリスがそれで、グレーテルは寝ている間で、^n他のみんなも似たような経緯で届けられたとかで、^n聞くだけだと何やら不安だ。",
+      "source_raw_sha256": "6B1F167329F8196F57EEEA7EABEE8668EFC9D67B964DE607DD5CAC763B241EA9",
+      "target_text": "앨리스 것은 그런 식으로, 그레텔 것은 자는 동안,^n다른 이들도 비슷한 경위로 배달받았다니,^n듣기만 해도 어쩐지 불안하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00013",
+      "source_text": "ただ、それぞれがそれぞれの物語に浸り、耽る以外には、^n穏やかな凪、というよりは停滞しているこの病棟の毎日に、^nちょっと変わった味わいをつけてくれる催しなのも、また確かで。",
+      "source_raw_sha256": "BD1782F928337F61757C1CD2D740D1A924CE88CAEE4B86D28E4008D856A87389",
+      "target_text": "다만 각자 자기 이야기에 잠기고 탐닉하는 것 말고는,^n고요하다기보다 정체돼 있는 이 병동의 일상에,^n조금 별다른 맛을 더해 줄 행사인 것도 분명했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00014",
+      "source_text": "ダンスパーティーなのだ、という。^n娯楽室を会場として催されるパーティーの、^n大まかな知らせは患者全員に配られた招待状にて。詳細は掲示板。",
+      "source_raw_sha256": "3F05FE2FCBCE00232683A89668B98C643A7C778E72556DC46FC8F1540795A79D",
+      "target_text": "댄스 파티라고 한다.^n오락실을 행사장으로 삼아 열리는 파티의^n대강은 환자 전원에게 배부된 초대장에, 자세한 내용은 게시판에.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00015",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00016",
+      "source_text": "（あれ、僕のところには来てたっけか？）",
+      "source_raw_sha256": "E00DF4AAA5F6EFDF7E9122C658438FD7777CECF678813F7F63250A27684CB4EF",
+      "target_text": "(어라, 나한테도 왔던가?)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00017",
+      "source_text": "ともかく。娯楽室か……ビリヤードの台とか置いてあるけど、^nそれでも他よりずっと広く、|絨毯[じゅうたん]も上等な部屋だ。^nジュークボックスもあったし、ダンスの会にはうってつけだろう。",
+      "source_raw_sha256": "F47F83BED2385EAE5E749A00CE068A7EE224CB153D3583F950E3297B49931E3B",
+      "target_text": "아무튼. 오락실인가…… 당구대 같은 것도 있지만,^n그래도 다른 곳보다 훨씬 넓고 카펫도 고급인 방이다.^n주크박스도 있었으니 댄스 파티에는 제격이겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00018",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00019",
+      "source_text": "この招待状も、お菓子で出来てるのかな。^nなんか、良い匂いがするの。",
+      "source_raw_sha256": "E2F3C7F4E4ED80BC29D2BF71B3157AA52136F0B907EBC46C786CC59BE90105CD",
+      "target_text": "이 초대장도 과자로 만든 걸까.^n왠지 좋은 냄새가 나.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00020",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00021",
+      "source_text": "封印に、|蜜蝋[みつろう]が押してあるからでしょうね。^nずいぶんと綺麗で|緻密[ちみつ]だわ。",
+      "source_raw_sha256": "2123CCE2A1A2DEAFDCF21A546D4D3F81A783CA53E901BF8FADE36F8D18DA9C75",
+      "target_text": "봉인에 밀랍 도장이 찍혀 있어서겠지.^n상당히 아름답고 정교하네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00022",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00023",
+      "source_text": "みつろう、って？",
+      "source_raw_sha256": "18F5F6D9E2B0AF1FCFF741CB6CA67F601E91FF4D6F336DE50C1E68D320EC7021",
+      "target_text": "밀랍, 그게 뭐야?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00024",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00025",
+      "source_text": "蜂の巣の、材料から作った、|糊[のり]みたいなものなの。^n熱して、溶かして使うのよ。^nだから、蜂蜜みたいな匂い。",
+      "source_raw_sha256": "B62002542FF3E30910ECA0916C16E5DDD895C47CF09F75A5D1E75CDD814F7DC6",
+      "target_text": "벌집 재료로 만든 풀 같은 거야.^n데워서 녹여 쓰는 거지.^n그래서 꿀 같은 냄새가 나.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00026",
+      "source_text": "グレーテルはすんすんと匂いを吸い込み、^nゲルダは細工物でも鑑定するように|封緘[ふうかん]を確かめている。^nふたりとも、彼女たちらしい反応、というべきかな。",
+      "source_raw_sha256": "CDD88F71BE60569B88019A36E573615078525ABE30F4FC6F663169DE181E7A9D",
+      "target_text": "그레텔은 킁킁 냄새를 들이마시고,^n게르다는 세공품이라도 감정하듯 봉인을 살피고 있다.^n둘 다 참 그들다운 반응이라고 해야 하나.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00027",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00028",
+      "source_text": "……それ、僕が作ったんだよ～……。",
+      "source_raw_sha256": "2907DFE6C1947F697A34BEA357C2A75198302229D16CCEBF1BAABC43667D202A",
+      "target_text": "……그거, 내가 만든 건데~…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00029",
+      "source_text": "浮かれるみんなの輪の中に、入ろうとして入りきれない彼が、^n小声で何事か|囁[ささや]いているけど、まあいいや。",
+      "source_raw_sha256": "AE85EC8C058B8ACD6F6AE9D20046E8E04FCD08F4291E27BD747C79651627020F",
+      "target_text": "들뜬 모두의 무리에 끼려다 끝내 끼지 못한 그가,^n작은 목소리로 무언가 중얼거리지만, 뭐 됐어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00030",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00031",
+      "source_text": "わたくしはおばあさまが許してくださらないと思うのだけど、^nみんなは楽しんできて下さいましね。",
+      "source_raw_sha256": "86FFAE2D0B917651E91C85D47DFC043A6BEFD14BF9A6633A6377BA45BA9B4423",
+      "target_text": "저는 할머님께서 허락하지 않으실 듯하지만,^n여러분은 즐겁게 다녀오세요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00032",
+      "source_text": "　と彼女は、都市の賑やかさを川の向こう岸から眺める面差しで。^n「塔」の中に閉じこめられることに慣れきった、^n　穏やかな|諦[あきら]めの境地、なのだろうか。",
+      "source_raw_sha256": "422B9639EBF43C02500799FC5D204AC879F41DDA4160D27738194300F14B92FC",
+      "target_text": "　그녀는 강 건너편에서 도시의 활기를 바라보는 듯한 표정이었다.^n『탑』 안에 갇히는 데 완전히 익숙해진,^n　평온한 체념의 경지인 걸까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00033",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00034",
+      "source_text": "今のお服じゃ、|踊[おど]れないわ。^nもっとちゃんとしたドレスじゃないと……。^nそうね、招待状に合わせて、羽根を生やしましょう──みんなで！",
+      "source_raw_sha256": "42D6C10C690CB45CCEBB871DFE8AE717B16ABE58758B2AA40F8B27C1F37A26FB",
+      "target_text": "지금 옷차림으로는 춤출 수 없어요.^n좀 더 제대로 된 드레스가 아니면…….^n그래요, 초대장에 맞춰 깃털을 달아요──다 같이!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00035",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00036",
+      "source_text": "わ、私も！？^nあの、|遠慮[えんりょ]させてもらっていいかしら……。",
+      "source_raw_sha256": "0BF5D31E5DBC134263CA54C7C17E82E73E2D04B8DC6973961F67D7F77D346D63",
+      "target_text": "나, 나도!?^n그, 나는 사양해도 될까…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00037",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00038",
+      "source_text": "……ちなみに、企画立案もなんと、^nこの僕だよ～……。",
+      "source_raw_sha256": "87BF41EE4F300487B6C843BA484C81110BD67CCD2C0C5B04D72A7521ACFA2B2A",
+      "target_text": "……참고로 기획을 세운 사람도 놀랍게도,^n바로 나야~…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00039",
+      "source_text": "さっきから小声でこしょこしょと、^nこの人は|訴[うった]えたいんだかそっと伏しておきたいんだか、^nどうにもはっきりしない。",
+      "source_raw_sha256": "E0B9925995C52B77569FDC9BAF4DC94E7CB59A4FCB9119B68835CF7348560317",
+      "target_text": "아까부터 작은 소리로 소곤소곤,^n이 사람은 알리고 싶은 건지 살며시 묻어 두고 싶은 건지,^n도무지 분명하지 않다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00040",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00041",
+      "source_text": "わたし、ダンスなんてよく知らない。^nどうしようかな……。",
+      "source_raw_sha256": "C896EC0BCE555C03092E547D8FD4191DB3BF62724CAFF3D12EB6BE92A0DE18BE",
+      "target_text": "나, 춤 같은 건 잘 몰라.^n어떡하지…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00042",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00043",
+      "source_text": "そこでダンスにかけてはこのあたしの出番よ。^nハートの女王に教えてもらった……ような気がする。^n前にちょっと鳴らしたもの……のような気がする。",
+      "source_raw_sha256": "E9365B84877D6389CB69036E9B0B241464268006E954114D5BE078E32582027A",
+      "target_text": "그럴 때 춤이라면 바로 내가 나설 차례예요.^n하트 여왕에게 배웠던…… 것 같아요.^n예전에 제법 이름을 날렸던…… 것 같기도 하고요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00044",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00045",
+      "source_text": "うん、なんかそんな気がしてきた。練習よ……みんなで！",
+      "source_raw_sha256": "04CF8C9694E51079A895C983B1385F65C39D190CAC2C37FE9796F074CB4293B6",
+      "target_text": "네, 왠지 정말 그랬던 것 같은 기분이 드네요. 연습해요…… 다 같이!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00046",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00047",
+      "source_text": "だから私は|遠慮[えんりょ]させて下さい、てば……。",
+      "source_raw_sha256": "D606632AAC635BEF001118058F4BCF0E30882B5BE08B1B9160A6E3DEFC503A94",
+      "target_text": "그러니까 나는 빠지게 해 달라니까…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00048",
+      "source_text": "イケノ",
+      "source_raw_sha256": "92C809E9187A7974F07D5D0C48B21F3B995A046545D76998B5615854DDBE7203",
+      "target_text": "이케노",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00049",
+      "source_text": "……ミュージックチョイスも、僕なんだけどさ。^nムーディなのも派手目なのも、^nちゃんとフォローしてあるよ～……。",
+      "source_raw_sha256": "9D48E41B019103BD9BCAE2021E6C2A58AB4BFD3FBA0B03E2C18B42AB871172BB",
+      "target_text": "……음악 선곡도 내가 했는데 말이야.^n분위기 있는 곡도 화려한 곡도,^n제대로 갖춰 뒀어~…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00050",
+      "source_text": "……それぞれがそれぞれに、招待状とパーティの予感に浮かれる中、^nオデットはどういうふうに反応してるのか。",
+      "source_raw_sha256": "507A8AB4E4E2144D15BA72FE0C1A09FE3666E4BEC18B4F3947E5C0BE46A38243",
+      "target_text": "……각자 초대장과 파티의 예감에 들떠 있는 가운데,^n오데트는 어떤 반응을 보이고 있을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00051",
+      "source_text": "みんなの中では、彼女の装いが一番ダンスパーティに似合いそうな、^nそんな気がする、何となく。",
+      "source_raw_sha256": "6619F634F29C12CD82EF5074A2D8ACFD7116C2E36953E34F4161A7D57F044F53",
+      "target_text": "다들 가운데 그녀의 차림이 댄스 파티에 가장 잘 어울릴 것 같은,^n그런 기분이 든다, 왠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00052",
+      "source_text": "と廊下の端から端まで見渡しても探しても、^n彼女の姿だけこの場にないのが少し残念だった。^n考えてみれば、昼間だから当たり前といえば当たり前なんだけど。",
+      "source_raw_sha256": "58C54299EA8DFB883E0474669D4FA63A12488582B34E90284785A7DAA9E83C11",
+      "target_text": "복도 끝에서 끝까지 둘러보고 찾아봐도,^n그녀만 이 자리에 보이지 않아 조금 아쉬웠다.^n생각해 보면 낮이니 당연하다면 당연하지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00053",
+      "source_text": "まあ、まだ知らないようなら、^n後で知らせてあげればいいか……。",
+      "source_raw_sha256": "58B4B7936C7DE4CC0DC4A382C3311357853CE637ED1089498FE3C575759F2898",
+      "target_text": "뭐, 아직 모르는 것 같으면,^n나중에 알려 주면 되겠지…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00054",
+      "source_text": "　ところでこの催し、^n「病棟の患者は全員出席して下さい」^n　なんだけど、僕も出るべきなんだろうか。",
+      "source_raw_sha256": "872418D73C936E981B34403441C10FB935F5065F99F27307270B781B6BB2DA6E",
+      "target_text": "　그런데 이 행사는,^n『병동 환자는 전원 참석해 주세요』^n　라고 적혀 있는데, 나도 나가야 하는 걸까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00055",
+      "source_text": "いきなり出て、|踊[おど]れ、って言われるのは、^n無理やり巣穴から引っ張り出され、^n日にさらされる生き物みたいな気持ちになる。",
+      "source_raw_sha256": "EE09ED6448BF2BDC95934E4809675A04635E3F0222CA8209A8E65F8D4C8FA9BA",
+      "target_text": "느닷없이 나가서 춤추라는 말을 들으면,^n억지로 굴에서 끌려 나와,^n햇빛 아래 드러난 생물 같은 기분이 든다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1410.gsc::slot/00056",
+      "source_text": "これ、ちょっと……いや、相当に|気後[きおく]れするんだけど……。",
+      "source_raw_sha256": "0986476B9F96599E5AEC0C63C22D87B256482C25ADDC4D6D4E3B7702DDEC6502",
+      "target_text": "이거, 조금…… 아니, 상당히 주눅 드는데…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

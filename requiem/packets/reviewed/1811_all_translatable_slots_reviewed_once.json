@@ -1,0 +1,575 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1811_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    48
+  ],
+  "new_review_change_count": 14,
+  "new_review_changes": [
+    {
+      "slot": 4,
+      "before": "맛있나요?",
+      "after": "맛있어요?"
+    },
+    {
+      "slot": 8,
+      "before": "후후. 아직 많이 있어요.^n잔뜩 드세요.",
+      "after": "후후. 아직 많이 있어요.^n많이 드세요."
+    },
+    {
+      "slot": 10,
+      "before": "와아, 굉장해!^n전부 맛있어 보여……뭐부터 먹지…….",
+      "after": "와아, 굉장해!^n전부 맛있어 보여……어느 것부터 먹지……."
+    },
+    {
+      "slot": 14,
+      "before": "네, 괜찮아요.^n제게는 너무 달기도 하고, 게다가…….",
+      "after": "네, 괜찮아요.^n제게는 너무 달고, 게다가……."
+    },
+    {
+      "slot": 18,
+      "before": "저, 그게.^n저는 배에 살이 제법 잘 붙는 편이에요.^n그래서…….",
+      "after": "저, 그게.^n저는 배에 살이 꽤 잘 붙는 편이에요.^n그래서……."
+    },
+    {
+      "slot": 20,
+      "before": "뭐어!?^n라푼젤 씨는 아무리 먹어도,^n가슴만 커질 것 같았는데…….",
+      "after": "뭐어!?^n라푼젤 씨는 아무리 먹어도,^n가슴만 커질 줄 알았는데……."
+    },
+    {
+      "slot": 22,
+      "before": "그렇게 편리한 살은 없어요.^n이 가슴도 원래부터 전부 가슴이었던 건 아니고요.",
+      "after": "그렇게 편리한 살은 없어요.^n이 가슴도 원래부터 전부 가슴이었던 건 아니거든요."
+    },
+    {
+      "slot": 24,
+      "before": "저, 이렇게……이렇게……,^n배와 겨드랑이의 살에게 가슴에 살라고 타일러서,^n억지로 가슴으로 만들고 있어요.",
+      "after": "저, 이렇게……이렇게……,^n배와 옆구리의 살에게 가슴에 살라고 타일러서,^n억지로 가슴으로 만들고 있어요."
+    },
+    {
+      "slot": 28,
+      "before": "그레텔도 조금만 더 자라면,^n분명 이렇게 될 거예요.",
+      "after": "그레텔도 조금 더 자라면,^n분명 이렇게 될 거예요."
+    },
+    {
+      "slot": 30,
+      "before": "그럴까.^n나는 아무리 먹어도 몸이 달라지지 않아서…….",
+      "after": "그럴까.^n나는 아무리 먹어도 몸이 변하지 않아서……."
+    },
+    {
+      "slot": 34,
+      "before": "맞다, 라푼젤 씨.^n우선 잔뜩 먹어서 배에 살을 붙이고,^n그걸 가슴으로 옮기는 거야.",
+      "after": "맞다, 라푼젤 씨.^n먼저 잔뜩 먹어서 배에 살을 붙이고,^n그걸 가슴으로 옮기는 거야."
+    },
+    {
+      "slot": 36,
+      "before": "그러면 가슴은 커지고 배는 홀쭉해져.^n좋은 생각 같지 않아!?",
+      "after": "그러면 가슴은 커지고 배는 쏙 들어가.^n좋은 생각 같지 않아!?"
+    },
+    {
+      "slot": 40,
+      "before": "그렇지?^n그러니까 라푼젤 씨도 같이 먹자.^n혼자 먹는 것보다 역시 함께 먹고 싶어서…….",
+      "after": "그렇지?^n그러니까 라푼젤 씨도 같이 먹자.^n혼자 먹는 것보다 역시 함께 먹고 싶단 생각이 들어서……."
+    },
+    {
+      "slot": 44,
+      "before": "아아, 그런 말씀을 들으면…….^n저는 원래 참을성이 별로 없거든요.^n내일의 배를 걱정하느라 오늘의 행복을 놓치다니, 그럴 수는.",
+      "after": "아아, 그런 말씀을 들으면…….^n저는 원래 참을성이 별로 없거든요.^n내일의 배를 걱정하느라 오늘의 행복을 놓치다니, 그럴 순 없죠."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    49,
+    106
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00001",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00002",
+      "source_text": "もぐもぐもぐもぐもぐもぐ……ごくん！^nはむはむはむはむはむはむはむはむ……んぐんぐっ。",
+      "source_raw_sha256": "5E335FF2B93EFABEB0990D7DF4C676B3EF8142281B1BCCDC2BFF7D210FEB3DE8",
+      "target_text": "우물우물우물우물우물우물……꿀꺽!^n냠냠냠냠냠냠냠냠……우물우물.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00003",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00004",
+      "source_text": "美味しい？",
+      "source_raw_sha256": "6D7C78653C22DE55E72F09691F3C999FF1306F39903E0CBD9601DD3A4B7580C0",
+      "target_text": "맛있어요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00005",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00006",
+      "source_text": "うん、とっても！^n──むぐむぐむぐむぐむぐむぐむぐ……ぷぁぁ。",
+      "source_raw_sha256": "AB509B41B47A474C1ED672EB58D4CDB9147EA37B0D46E00D886889CD50D19EC3",
+      "target_text": "응, 아주 맛있어!^n──우물우물우물우물우물우물우물……푸하아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00007",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00008",
+      "source_text": "ふふ。まだまだあるのよ。^nたくさん食べてね。",
+      "source_raw_sha256": "27F5AF55DDEDC683BFB5FD1A028C6234C3603166CB4A9960555039EE40A735A4",
+      "target_text": "후후. 아직 많이 있어요.^n많이 드세요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00009",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00010",
+      "source_text": "わあ、すごい！^nどれもおいしそう……どれから食べよう……。",
+      "source_raw_sha256": "14E3FC753FCD46D293F49E8A6CDA7E90E03566CD11FE1D4C7E0C04852C365EC2",
+      "target_text": "와아, 굉장해!^n전부 맛있어 보여……어느 것부터 먹지…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00011",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00012",
+      "source_text": "あの、ラプンツェルさんは食べないの？",
+      "source_raw_sha256": "5397F8AA6D48F92ED5FFA940F11DEF76D7616E5C18096E6BE91A98385A3F6F2A",
+      "target_text": "저기, 라푼젤 씨는 안 먹어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00013",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00014",
+      "source_text": "ええ、いいのよ。^nわたくしには甘すぎるし、それに……。",
+      "source_raw_sha256": "CE28F807782DE1862040D31E44A1685BD431557DC15CACD4A4BA6E01C92BCEF1",
+      "target_text": "네, 괜찮아요.^n제게는 너무 달고, 게다가…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00015",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00016",
+      "source_text": "それに？",
+      "source_raw_sha256": "EEEB7CACAE031263F7638AE3BEF01E3B5DAE6C95D031172B53A8E4012B72F968",
+      "target_text": "게다가?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00017",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00018",
+      "source_text": "その、あの。^nわたくし、わりとおなかにお肉がつきやすいの。^nだから……。",
+      "source_raw_sha256": "96B45AE9070A8C7D258B088DA6FECD4A22321B9ACE2407CE9EFAD8C5EE810CCC",
+      "target_text": "저, 그게.^n저는 배에 살이 꽤 잘 붙는 편이에요.^n그래서…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00019",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00020",
+      "source_text": "ええっ！？^nラプンツェルさんはどれだけ食べても、^nお胸が大きくなるだけ、って気がしてた……。",
+      "source_raw_sha256": "5A21053BCD0870124DAC606F689D4CD1029E9FF6478003DDAD24F0151C812EB1",
+      "target_text": "뭐어!?^n라푼젤 씨는 아무리 먹어도,^n가슴만 커질 줄 알았는데…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00021",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00022",
+      "source_text": "そんな都合のいいお肉はないのよ。^nこの胸だって、もともとすべてが胸というわけではなくてね。",
+      "source_raw_sha256": "376061B42B4AE0440A8FF04A164BC7AABE769D32D7A558DA718905373D4F796A",
+      "target_text": "그렇게 편리한 살은 없어요.^n이 가슴도 원래부터 전부 가슴이었던 건 아니거든요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00023",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00024",
+      "source_text": "その、こうやって……こうやって……、^nお腹や脇に、胸に住みなさいって言い聞かせて、^n無理やり胸にしているのよ。",
+      "source_raw_sha256": "8A01FCD95FD65A84464FE09463E664F155BA39975E5B9E45E56970483BF288B8",
+      "target_text": "저, 이렇게……이렇게……,^n배와 옆구리의 살에게 가슴에 살라고 타일러서,^n억지로 가슴으로 만들고 있어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00025",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00026",
+      "source_text": "そうなんだ……。^nでもラプンツェルさんの大きいお胸、|羨[うらや]ましい。",
+      "source_raw_sha256": "1EDD6151A1EE898B1761B1DC1464EC2CD769A3FF32CADD7D880DBC98ADCDE4C1",
+      "target_text": "그렇구나…….^n그래도 라푼젤 씨의 큰 가슴, 부러워.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00027",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00028",
+      "source_text": "グレーテルももう少し大きくなれば、^nきっとこうなるわ。",
+      "source_raw_sha256": "54F9D144D0AAC8C8802A00D735BDB8F246CE39D65CC7C1BC0EA7134AB1C6578C",
+      "target_text": "그레텔도 조금 더 자라면,^n분명 이렇게 될 거예요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00029",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00030",
+      "source_text": "そうかなぁ。^nわたし、いくら食べても身体が変わらないから……。",
+      "source_raw_sha256": "E36BD573FCFE3D4C6B20F40CACC2EB6C9F9796179D6505473091E903A1B6542B",
+      "target_text": "그럴까.^n나는 아무리 먹어도 몸이 변하지 않아서…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00031",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00032",
+      "source_text": "ああ、それはそれで|羨[うらや]ましいわ。",
+      "source_raw_sha256": "4B893D2B11D94E70C823DCB33028B1BE3124822A099FBD1F8A132C615855C64C",
+      "target_text": "아아, 그건 그것대로 부럽네요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00033",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00034",
+      "source_text": "そうだ、ラプンツェルさん。^nまずいっぱい食べてお腹にお肉をつけて、^nそれをお胸に移動させるの。",
+      "source_raw_sha256": "32DFE56483915A3F849527E7C74F205C0E0C475F75DF27E6D27BD3FF7E7736B5",
+      "target_text": "맞다, 라푼젤 씨.^n먼저 잔뜩 먹어서 배에 살을 붙이고,^n그걸 가슴으로 옮기는 거야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00035",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00036",
+      "source_text": "そうすれば、お胸が大きくなって、お腹はスッキリ。^nいい考えだと思わない！？",
+      "source_raw_sha256": "8FC3D1DA3A8D6A0AA41911EDAEA627E860956522ECC9C994DE49E754D8C17760",
+      "target_text": "그러면 가슴은 커지고 배는 쏙 들어가.^n좋은 생각 같지 않아!?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00037",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00038",
+      "source_text": "ふふ、いいわね、それは。",
+      "source_raw_sha256": "1CD60788036197F4BD1A8B302B2ABE96DD162F1B7F595B06DEEBD5ED9B62AFE7",
+      "target_text": "후후, 그거 좋네요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00039",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00040",
+      "source_text": "いいでしょう？^nだから、ラプンツェルさんも一緒に食べよう。^nひとりで食べるより、やっぱり一緒に食べたいなって……。",
+      "source_raw_sha256": "5B6862DCDBBBBED8685F4933CF1DA319D5464F86CE87637414CF103A59E01320",
+      "target_text": "그렇지?^n그러니까 라푼젤 씨도 같이 먹자.^n혼자 먹는 것보다 역시 함께 먹고 싶단 생각이 들어서…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00041",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00042",
+      "source_text": "だめかな……？",
+      "source_raw_sha256": "DFC6F2BEE8FFE7B6D85A3141062755CC448C425EAA7D98617F156204C63D66B5",
+      "target_text": "안 될까……?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00043",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00044",
+      "source_text": "ああ、そんなことを言われてしまったら……。^nわたくし、もともと|堪[こら]え性がありませんもの。^n明日のお腹のことを考えて、今日の幸せを逃すなんて、そんな。",
+      "source_raw_sha256": "B7F7AA8481890A6333200BFF3C83BA5C82AA5BEE8FF74184E6D742A5BE13001E",
+      "target_text": "아아, 그런 말씀을 들으면…….^n저는 원래 참을성이 별로 없거든요.^n내일의 배를 걱정하느라 오늘의 행복을 놓치다니, 그럴 순 없죠.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00045",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00046",
+      "source_text": "「明日からがんばる」──^n　この呪文に勇気を得て。^n　──いただきます。",
+      "source_raw_sha256": "92DAB2D7EC655FB22CAAD1AAEC1C8A23A694E6E4F45FCB2B7AAAFD158BC8D18D",
+      "target_text": "『내일부터 열심히 하자』──^n　이 주문에서 용기를 얻어.^n　──잘 먹겠습니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00047",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1811.gsc::slot/00048",
+      "source_text": "いただきます！！",
+      "source_raw_sha256": "6A3DD3B7E8B7686B54B3E8BCB22301D515EB8C26CD2087C96EE0C62969A92559",
+      "target_text": "잘 먹겠습니다!!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

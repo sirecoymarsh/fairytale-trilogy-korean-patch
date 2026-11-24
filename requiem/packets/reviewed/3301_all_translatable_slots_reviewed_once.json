@@ -1,0 +1,200 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "3301_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    28,
+    42
+  ],
+  "new_review_change_count": 5,
+  "new_review_changes": [
+    {
+      "slot": 28,
+      "before": "앨리스와의 추억을 돌아보겠습니까?",
+      "after": "앨리스와의 추억을 되짚어 보겠습니까?"
+    },
+    {
+      "slot": 31,
+      "before": "그레텔과의 추억을 돌아보겠습니까?",
+      "after": "그레텔과의 추억을 되짚어 보겠습니까?"
+    },
+    {
+      "slot": 34,
+      "before": "오데트와 오딜의 추억을 돌아보겠습니까?",
+      "after": "오데트와 오딜의 추억을 되짚어 보겠습니까?"
+    },
+    {
+      "slot": 37,
+      "before": "라푼젤과의 추억을 돌아보겠습니까?",
+      "after": "라푼젤과의 추억을 되짚어 보겠습니까?"
+    },
+    {
+      "slot": 40,
+      "before": "게르다와의 추억을 돌아보겠습니까?",
+      "after": "게르다와의 추억을 되짚어 보겠습니까?"
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    1,
+    26
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00028",
+      "source_text": "アリスとの思い出を辿りますか？",
+      "source_raw_sha256": "131B2D67B402B8C14C39B561C529E9DCBE027EB6E541EBC360E9944E82D4021B",
+      "target_text": "앨리스와의 추억을 되짚어 보겠습니까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00029",
+      "source_text": "はい",
+      "source_raw_sha256": "F8AC19F830979CBD635D4315B9791D2B666B9DF7C7D37AAE180AB20C49630A3A",
+      "target_text": "예",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00030",
+      "source_text": "いいえ",
+      "source_raw_sha256": "93C28C10CAD7E4252CE3AC531C73BD2A53663FF85B53EB7E1CEAD863A9CDF150",
+      "target_text": "아니요",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00031",
+      "source_text": "グレーテルとの思い出を辿りますか？",
+      "source_raw_sha256": "6A7CB2A16AC85AE6F8013A5DF98473CD13AD7FF8641021785629C3D2780EDAEC",
+      "target_text": "그레텔과의 추억을 되짚어 보겠습니까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00032",
+      "source_text": "はい",
+      "source_raw_sha256": "F8AC19F830979CBD635D4315B9791D2B666B9DF7C7D37AAE180AB20C49630A3A",
+      "target_text": "예",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00033",
+      "source_text": "いいえ",
+      "source_raw_sha256": "93C28C10CAD7E4252CE3AC531C73BD2A53663FF85B53EB7E1CEAD863A9CDF150",
+      "target_text": "아니요",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00034",
+      "source_text": "オデット、オディールの思い出を辿りますか？",
+      "source_raw_sha256": "5B8821D1D9C46FB33ADE91BC5FC81E09064235E9CC72AB38A1FC527F93F409DE",
+      "target_text": "오데트와 오딜의 추억을 되짚어 보겠습니까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00035",
+      "source_text": "はい",
+      "source_raw_sha256": "F8AC19F830979CBD635D4315B9791D2B666B9DF7C7D37AAE180AB20C49630A3A",
+      "target_text": "예",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00036",
+      "source_text": "いいえ",
+      "source_raw_sha256": "93C28C10CAD7E4252CE3AC531C73BD2A53663FF85B53EB7E1CEAD863A9CDF150",
+      "target_text": "아니요",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00037",
+      "source_text": "ラプンツェルとの思い出を辿りますか？",
+      "source_raw_sha256": "A240B5E23B8A2FDA7A22B9F987C6601EE7EEFBD1AA714B5FE1A79C5B023D83D4",
+      "target_text": "라푼젤과의 추억을 되짚어 보겠습니까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00038",
+      "source_text": "はい",
+      "source_raw_sha256": "F8AC19F830979CBD635D4315B9791D2B666B9DF7C7D37AAE180AB20C49630A3A",
+      "target_text": "예",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00039",
+      "source_text": "いいえ",
+      "source_raw_sha256": "93C28C10CAD7E4252CE3AC531C73BD2A53663FF85B53EB7E1CEAD863A9CDF150",
+      "target_text": "아니요",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00040",
+      "source_text": "ゲルダとの思い出を辿りますか？",
+      "source_raw_sha256": "30B684F6E0A96E99BEE93CA3C321273933A86ED8B214E14DFE38AE9079EEAC3B",
+      "target_text": "게르다와의 추억을 되짚어 보겠습니까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00041",
+      "source_text": "はい",
+      "source_raw_sha256": "F8AC19F830979CBD635D4315B9791D2B666B9DF7C7D37AAE180AB20C49630A3A",
+      "target_text": "예",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::3301.gsc::slot/00042",
+      "source_text": "いいえ",
+      "source_raw_sha256": "93C28C10CAD7E4252CE3AC531C73BD2A53663FF85B53EB7E1CEAD863A9CDF150",
+      "target_text": "아니요",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

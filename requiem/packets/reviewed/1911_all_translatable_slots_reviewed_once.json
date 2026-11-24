@@ -1,0 +1,595 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1911_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    51
+  ],
+  "new_review_change_count": 12,
+  "new_review_changes": [
+    {
+      "slot": 2,
+      "before": "저, 저기. 라푼젤.",
+      "after": "저, 저기. 라푼젤 씨."
+    },
+    {
+      "slot": 4,
+      "before": "무슨 일이신가요, 그레텔.",
+      "after": "무슨 일이신가요, 그레텔?"
+    },
+    {
+      "slot": 11,
+      "before": "그런데……갑자기 왜 그러시나요?",
+      "after": "그런데……그게 왜 궁금하신가요?"
+    },
+    {
+      "slot": 12,
+      "before": "질문의 뜻을 알아듣지 못해,^n라푼젤은 작은 친구에게 되물었다.",
+      "after": "질문의 뜻을 알아듣지 못한 채,^n라푼젤은 작은 친구에게 되물었다."
+    },
+    {
+      "slot": 17,
+      "before": "어머, 그게 무엇인가요?",
+      "after": "어머, 그게 무엇일까요?"
+    },
+    {
+      "slot": 20,
+      "before": "과자로 만든 집!",
+      "after": "과자 집!"
+    },
+    {
+      "slot": 26,
+      "before": "하지만 지붕도 벽도 전부 과자로 만든 집이라면,^n내가 배부를 때까지 먹어도 없어지지 않을 것 같아.",
+      "after": "하지만 지붕도 벽도 전부 과자로 만든 집이라면,^n내가 배부를 때까지 먹어도 사라지지 않을 것 같아."
+    },
+    {
+      "slot": 32,
+      "before": "하지만, 네. 그렇군요.^n어서 과자로 만든 집을 먹을 수 있으면 좋겠네요.",
+      "after": "하지만, 네. 그렇군요.^n어서 과자 집을 먹을 수 있으면 좋겠네요."
+    },
+    {
+      "slot": 36,
+      "before": "하지만 그레텔.^n좋은 일이 하나 더 있지 않나요?",
+      "after": "하지만 그레텔.^n좋은 일이 하나 더 있잖아요?"
+    },
+    {
+      "slot": 41,
+      "before": "상냥한 오빠와 마음을 고친 아버지와 함께,^n행복하게 살 수 있는 날이 올 거예요.",
+      "after": "상냥한 오빠와 마음을 고친 아버지와 함께,^n행복하게 살 날이 올 거예요."
+    },
+    {
+      "slot": 44,
+      "before": "과자로 만든 집의 존재는 확신할 수 있는 그레텔이지만,^n그 결말에 도달할 수 있을지에는,^n아직 자신도 실감도 없는 듯했다.",
+      "after": "과자 집의 존재는 확신할 수 있는 그레텔이지만,^n그 결말에 도달할 수 있을지에는,^n아직 자신도 실감도 없는 듯했다."
+    },
+    {
+      "slot": 50,
+      "before": "그것이 그레텔의 『성서』가 가리키는 『행복한 결말』이다.^n과자로 만든 집이 그녀에게 안겨야 할 것은 포만감이 아니라,^n그보다 더 큰 행복이라고.",
+      "after": "그것이 그레텔의 『성서』가 가리키는 『행복한 결말』이다.^n과자 집이 그녀에게 안겨야 할 것은 포만감이 아니라,^n그보다 더 큰 행복이라고."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    52,
+    109
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00001",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00002",
+      "source_text": "あ、あの。ラプンツェルさん。",
+      "source_raw_sha256": "4DF16417C3CE2778A308DD18BFC9D77A810FBA92077CB5534427131FD5840047",
+      "target_text": "저, 저기. 라푼젤 씨.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00003",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00004",
+      "source_text": "なあに、グレーテル。",
+      "source_raw_sha256": "E20ADE3D3543FA8518F65527AFC0B7F65E1911C237879D3937E1291986F5D32F",
+      "target_text": "무슨 일이신가요, 그레텔?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00005",
+      "source_text": "まるで優しいお姉さんかお母さんのような口調で、^nラプンツェルはグレーテルの問いかけに応じた。",
+      "source_raw_sha256": "DD7DC5BABB648D6B83240AA4D423026C0FDB64FE3F66C16E27DF054B4C3E6560",
+      "target_text": "마치 다정한 언니나 어머니 같은 말투로,^n라푼젤은 그레텔의 물음에 답했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00006",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00007",
+      "source_text": "「聖書」に書いてあることって、^nこれから本当に起きることなの？",
+      "source_raw_sha256": "908683D09A8A71DDC4D24C04AF3052316A36F8878BDE28352B87B5DC54CC7C66",
+      "target_text": "『성서』에 적힌 일은,^n앞으로 정말 일어날 일이야?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00008",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00009",
+      "source_text": "ええ、そうよ。^nだってそれが「聖書」なんですもの。",
+      "source_raw_sha256": "E01E460D8B37835F129CAAF81B0DC3D28852319453869B24662654739A4E7405",
+      "target_text": "네, 그래요.^n그게 바로 『성서』니까요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00010",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00011",
+      "source_text": "でも……それがどうしたの？",
+      "source_raw_sha256": "615120E7935441F0F7F56CE19C68595565CFD7C5A6443ECB411A86C14015C3D4",
+      "target_text": "그런데……그게 왜 궁금하신가요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00012",
+      "source_text": "質問の意図が呑み込めず、^nラプンツェルは小さな友人に訊き返した。",
+      "source_raw_sha256": "E7D0FC559D9EFA67EE8B3C5B2006DB8C5D26FACDFC7DB43B7CD7F1AA519D1CB9",
+      "target_text": "질문의 뜻을 알아듣지 못한 채,^n라푼젤은 작은 친구에게 되물었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00013",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00014",
+      "source_text": "う、うん……わたし、「聖書」の中のお話、^n怖いことや哀しいことが多くてあまり好きじゃないけど……。^n",
+      "source_raw_sha256": "19AA7D843AF97E63440C5E0A0D0FE12C6ECCCA09D11F3747F5A22826B0B21FDC",
+      "target_text": "으, 응……나는 『성서』 속 이야기에,^n무서운 일이나 슬픈 일이 많아서 별로 좋아하지 않지만…….^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00015",
+      "source_text": "いっこだけ、楽しみにしてることがあるんだ。",
+      "source_raw_sha256": "23D28E390B5DA8D4D3435FA2B66427731F541E8D1FCFD5F6E06AFA2B8DDE19A5",
+      "target_text": "딱 하나, 기대하는 게 있어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00016",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00017",
+      "source_text": "あら、なにかしら？",
+      "source_raw_sha256": "3766E8DAD9845A420B341CC5F20C256446FDBA71AED1118F831A8C4540E56A46",
+      "target_text": "어머, 그게 무엇일까요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00018",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00019",
+      "source_text": "うん、それはね、",
+      "source_raw_sha256": "642C5CB152A7A53130BB1979DFCD8B268F6570F45B54DBF3F37272BD0D4D5920",
+      "target_text": "응, 그건 말이지,",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00020",
+      "source_text": "お菓子の家！",
+      "source_raw_sha256": "7147F0156536C5C75BF2EE5181F9F17C291578B968381BD2DE837BB302E21A5A",
+      "target_text": "과자 집!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00021",
+      "source_text": "グレーテルがぱあっと顔全体を輝かせて笑った。^n夏の日のひまわりのようだとラプンツェルは思った。",
+      "source_raw_sha256": "34733BC3B4BFA1C3453308057A0EE5861503EA348873475A4DB3A4674932BB5D",
+      "target_text": "그레텔은 얼굴 가득 환하게 빛내며 웃었다.^n여름날의 해바라기 같다고 라푼젤은 생각했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00022",
+      "source_text": "塔で生まれ育った（はずの）彼女は、^nひまわりの花なんて見たことはないけれど。^n今の彼女のような|眩[まぶ]しさを|湛[たた]えた花なのだろう。",
+      "source_raw_sha256": "3C9D8CBA3F302C1A9A473A3BD76BC4C301559AB9598DB18C5268A7152EB85AB3",
+      "target_text": "탑에서 태어나 자랐을 터인 그녀는,^n해바라기라는 꽃을 본 적도 없었지만.^n분명 지금의 그레텔처럼 눈부신 빛을 머금은 꽃이리라.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00023",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00024",
+      "source_text": "わたし、いつもいつも、^n食べても食べてもお腹いっぱいにならなくて。",
+      "source_raw_sha256": "FF310EE0F25B0026F13925C5BC329C17A730463C2AEB20A9761FA6F863D39BD9",
+      "target_text": "나는 언제나,^n먹어도 먹어도 배가 부르지 않아서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00025",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00026",
+      "source_text": "でも、きっと屋根も壁もぜんぶお菓子でできてる家なら、^nわたしがお腹いっぱいまで食べてもなくならないと思うの。",
+      "source_raw_sha256": "117C07BD81345EEFB8C3F3FCB47080036A01FB3F22DF50E308456340C5FD4F80",
+      "target_text": "하지만 지붕도 벽도 전부 과자로 만든 집이라면,^n내가 배부를 때까지 먹어도 사라지지 않을 것 같아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00027",
+      "source_text": "自らの底なしのお腹に失望して^n一瞬しゅんとしたグレーテルだが、^n次の瞬間には希望の輝きを|纏[まと]いつつ力説した。",
+      "source_raw_sha256": "9F0FE75135093B8190955F45E7CAC348B0CDB44F79DD83D9DEA77D18E163266C",
+      "target_text": "끝을 모르는 자기 배에 실망해^n잠깐 풀이 죽었던 그레텔이지만,^n다음 순간에는 희망의 빛을 두르고 힘주어 말했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00028",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00029",
+      "source_text": "あらあら。^nグレーテルってば、本当に食いしん坊さんなのね。",
+      "source_raw_sha256": "2D51C42AF1E77D2253EF542FEA171DCC366A822DD301A9D5B949008A296AC8A1",
+      "target_text": "어머나.^n그레텔은 정말 먹보시네요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00030",
+      "source_text": "その健気で|素朴[そぼく]なグレーテルの願望が、^nラプンツェルには微笑ましく思えてならなかった。^n自然と口の端に笑みがほころんだ。",
+      "source_raw_sha256": "B2BF412C3485ACC520AA8957FED45054DDEECDC6C2ED6F501737E1C26B4EB8B5",
+      "target_text": "그레텔의 기특하고 소박한 소망이,^n라푼젤에게는 한없이 흐뭇하게 느껴졌다.^n저절로 입가에 미소가 피어났다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00031",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00032",
+      "source_text": "でも、ええ、そうね。^n早くお菓子の家を食べられるといいわね。",
+      "source_raw_sha256": "2C82AECD2A680776068AD2C3F56B5835527AD2E978E633A463424ED9A79E1B1E",
+      "target_text": "하지만, 네. 그렇군요.^n어서 과자 집을 먹을 수 있으면 좋겠네요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00033",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00034",
+      "source_text": "うん！",
+      "source_raw_sha256": "493025AF04BA1E92639471DB915472AE26E4F2F5496B764638D5B08F2BFBF245",
+      "target_text": "응!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00035",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00036",
+      "source_text": "でも、グレーテル。^nいいことなら、もうひとつあるでしょう？",
+      "source_raw_sha256": "EA084DF2E180028DA78545E5EA83BB0E7BD729AF2CEE5041DB4F101F31B95A86",
+      "target_text": "하지만 그레텔.^n좋은 일이 하나 더 있잖아요?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00037",
+      "source_text": "もっと大事なことを思い出させるように、^nグレーテルに説いて聞かせるように^n優しく耳元で|囁[ささ]いた。",
+      "source_raw_sha256": "8DA0F61BC18489F0C570795C5D63E9D977603B6BE818F20B8CFE381B29E641F0",
+      "target_text": "더 중요한 일을 떠올리게 하려는 듯,^n그레텔에게 차근차근 일러 주듯,^n귓가에 다정히 속삭였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00038",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00039",
+      "source_text": "えっ……？",
+      "source_raw_sha256": "69E48ECDAF51199F41B253B5FC7C0C3ED4B1E0D81F70612C32E534B3308D8A49",
+      "target_text": "어……?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00040",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00041",
+      "source_text": "優しいお兄ちゃんと、改心したお父さんと一緒に、^n幸せに暮らせる日がくるわ。",
+      "source_raw_sha256": "92A88B0B958E69BA98A8A65D599AC1E0887D2DA4F0E297916A337ECAF089CFB7",
+      "target_text": "상냥한 오빠와 마음을 고친 아버지와 함께,^n행복하게 살 날이 올 거예요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00042",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00043",
+      "source_text": "で、でも……。^nお兄ちゃんは……。",
+      "source_raw_sha256": "A0C1EE2511594A9F43EDA5D4DE57E275A5DC1DE57DC98027C7EADF45D59BC98D",
+      "target_text": "하, 하지만…….^n오빠는…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00044",
+      "source_text": "お菓子の家の存在は確信できるグレーテルだが、^nその結末へと到達できるかどうかには、^n自信も実感もまだ|湧[わ]いていないかのようだった。",
+      "source_raw_sha256": "E29DE87105D81AF11DFEB21048F8E62D159C288E6B1FE2349025726916F9813C",
+      "target_text": "과자 집의 존재는 확신할 수 있는 그레텔이지만,^n그 결말에 도달할 수 있을지에는,^n아직 자신도 실감도 없는 듯했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00045",
+      "source_text": "恐らくは、彼女の物語を動かすべき「兄」の存在が^n決定的に欠けているからなのだろう。",
+      "source_raw_sha256": "01CF518A2A1D20AB47193F8B6EA15F4750003FF8C5DA22013B8C69467A18C466",
+      "target_text": "아마 그녀의 이야기를 움직여야 할 『오빠』라는 존재가^n결정적으로 빠져 있기 때문이리라.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00046",
+      "source_text": "口ごもり、いつも通りの内気な少女に戻ってしまう。",
+      "source_raw_sha256": "650E9394B689CE4080B3D57A68638E05E9B3A8AB3BAF381F393180FB709FA3FF",
+      "target_text": "말끝을 흐리며, 평소의 수줍은 소녀로 돌아가 버린다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00047",
+      "source_text": "けれどラプンツェルは確信する様に微笑んでみせた。",
+      "source_raw_sha256": "B339FEED4F564314A871CC281AED458462AF5CE4D5F43009E9B75FD804E81AA3",
+      "target_text": "하지만 라푼젤은 확신하듯 미소 지어 보였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00048",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00049",
+      "source_text": "だいじょうぶ。^nあなたはきっと、最後には幸せになれる。^nだって、「聖書」にそう書いてあるんですもの。",
+      "source_raw_sha256": "02BBE6287DE01E76478B0D9AE9A8383E481E832194E852F6D1DE954D0FD8B5B7",
+      "target_text": "괜찮아요.^n그레텔은 분명 마지막에는 행복해질 거예요.^n『성서』에 그렇게 적혀 있으니까요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00050",
+      "source_text": "それがグレーテルの「聖書」の示す「幸せな結末」なのだ。^nお菓子の家が彼女にもたらすべきは、満腹などではなく、^nもっと大きな幸せなのだ、と。",
+      "source_raw_sha256": "8AA8BFEEFC98C62D251B71DA66DD3F79AF17B75477BDA1AC3562ADF22A7F765F",
+      "target_text": "그것이 그레텔의 『성서』가 가리키는 『행복한 결말』이다.^n과자 집이 그녀에게 안겨야 할 것은 포만감이 아니라,^n그보다 더 큰 행복이라고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1911.gsc::slot/00051",
+      "source_text": "少女たちは「聖書」を唯一にして最大の希望として、^nこの「楽園」での生活を送っているのであった──",
+      "source_raw_sha256": "B6AD4A40D6814CE368CE840F96032EB57974C0EDE24163133DFCFF89C48B34E6",
+      "target_text": "소녀들은 『성서』를 유일하고도 가장 큰 희망으로 삼아,^n이 『낙원』에서 살아가고 있었다──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "3300_slots_00001_00003_draft",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 0,
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::3300.gsc::slot/00001",
+      "source_text": "僕は「白い部屋」に戻ってきた。",
+      "source_raw_sha256": "4837164F0FFC587D488A02BC61947B1957A7307F3D83235DAB65E601BAEADE98",
+      "target_text": "나는 『하얀 방』으로 돌아왔다.",
+      "translator": "Codex internal model draft",
+      "review_status": "draft_pending_single_review",
+      "notes": "초벌 번역; 정확히 1회 검수 대기"
+    },
+    {
+      "uid": "scr.xfl::3300.gsc::slot/00002",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model draft",
+      "review_status": "draft_pending_single_review",
+      "notes": "초벌 번역; 정확히 1회 검수 대기"
+    },
+    {
+      "uid": "scr.xfl::3300.gsc::slot/00003",
+      "source_text": "スケッチブックを読もうか？^nそれとも他の所を廻ろうか？",
+      "source_raw_sha256": "FCF14B55552462963FDA5D63991050054FFD5F2FA50EE6EDB8A03D3BB1B3A4A7",
+      "target_text": "스케치북을 읽을까?^n아니면 다른 곳을 돌아다닐까?",
+      "translator": "Codex internal model draft",
+      "review_status": "draft_pending_single_review",
+      "notes": "초벌 번역; 정확히 1회 검수 대기"
+    }
+  ]
+}

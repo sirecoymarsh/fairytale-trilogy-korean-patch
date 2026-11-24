@@ -1,0 +1,990 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1727_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    91
+  ],
+  "new_review_change_count": 11,
+  "new_review_changes": [
+    {
+      "slot": 1,
+      "before": "──성공했다고 해도 좋을 것이다.^n게르다는 욱신거리는 팔을 문지르며 자신을 다독였다.",
+      "after": "──성공했다고 봐도 좋을 것이다.^n게르다는 욱신거리는 팔을 문지르며 자신을 다독였다."
+    },
+    {
+      "slot": 6,
+      "before": "하지만 팔에 목이 졸려 반쯤 정신을 잃었고,^n너무나 허무하게 상자를 뒤집어쓰고 말았다.^n이제 틀렸을지도 모른다고, 흐려지는 의식 속에서 생각했다.",
+      "after": "하지만 팔로 목이 졸려 반쯤 정신을 잃었고,^n너무나 허무하게 상자를 뒤집어쓰고 말았다.^n이제 틀렸을지도 모른다고, 흐려지는 의식 속에서 생각했다."
+    },
+    {
+      "slot": 24,
+      "before": "잘못 볼 리 없다.^n이 『낙원』에서 유일하게 게르다의 이야기에 귀 기울여 주었다.^n게르다의 마음과 몸이 괜찮은지 걱정해 준──아군.",
+      "after": "잘못 볼 리 없다.^n이 『낙원』에서 유일하게 게르다의 이야기에 귀 기울여 주었다.^n게르다의 몸과 마음이 무사한지 염려해 준──아군."
+    },
+    {
+      "slot": 28,
+      "before": "다른 모습의 그를 만난 적이 있는 듯한 기분이 들었다.",
+      "after": "다른 형태의 그를 만난 적이 있는 듯한 기분이 들었다."
+    },
+    {
+      "slot": 37,
+      "before": "소년의 자조 섞인 쓴웃음이^n차가운 대기 속에 하얗게 떠오르던 모습을 기억한다.",
+      "after": "소년이 자조 섞인 쓴웃음과 함께 내쉰 숨이^n차가운 대기 속에 하얗게 떠오르던 모습을 기억한다."
+    },
+    {
+      "slot": 46,
+      "before": "당신은…… 당신은, 그래요, 분명^n피터 팬이라는 이야기를 좋아한다고 했어요.^n피터를 동경하기도 했죠.",
+      "after": "당신은…… 당신은, 그래요. 분명^n피터 팬이라는 이야기를 좋아한다고 했어요.^n피터를 동경하기도 했죠."
+    },
+    {
+      "slot": 51,
+      "before": "그가 만약 『피터』가 되어 버린 것이라면,^n인격이 크게 망가졌다는 것 이상으로,^n그의 가장 소중한 존엄을 빼앗겼다는 뜻이다.",
+      "after": "그가 만약 『피터』가 되어 버린 것이라면,^n인격이 크게 뒤틀렸다는 것 이상으로,^n그의 가장 소중한 존엄을 빼앗겼다는 뜻이다."
+    },
+    {
+      "slot": 62,
+      "before": "이것은 본래의 『그』가 내는 목소리일까.^n아직 자신의 목소리가 그에게 닿는 걸까.",
+      "after": "이것이 본래의 『그』가 내는 목소리일까.^n아직 자신의 목소리가 그에게 닿는 걸까."
+    },
+    {
+      "slot": 70,
+      "before": "피터는 나무 상자를^n부츠 바닥으로 거칠게 걷어차며 소리쳤다.",
+      "after": "피터는 나무 상자를^n부츠 밑창으로 세차게 걷어차 흩뜨리며 소리쳤다."
+    },
+    {
+      "slot": 81,
+      "before": "난 웬디가 아니야!^n난 있는 그대로의 당신을 위해 여기 있는 거야.^n진짜 당신을 구하려고 이곳에 왔다고……!",
+      "after": "난 웬디가 아니야!^n난 본래의 당신을 위해 여기 있어.^n진짜 당신을 구하려고 이곳에 왔다고……!"
+    },
+    {
+      "slot": 85,
+      "before": "아픔을 견디는 듯한 얼굴로 우두커니 선 모습은,^n게르다의 탄식을 정면에서 가슴으로 받아 내는 듯했다.",
+      "after": "아픔을 견디는 듯한 얼굴로 우두커니 선 그 모습은,^n게르다의 탄식을 정면에서 가슴으로 받아 내는 듯했다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    92,
+    149
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00001",
+      "source_text": "──うまくいった、といっていいと思う。^nゲルダは痛む腕をさすりながら自らをねぎらった。",
+      "source_raw_sha256": "383B9785DB65F164B4B20A13B749D6E693FEAC4960BB9F7E56473678C5246AF9",
+      "target_text": "──성공했다고 봐도 좋을 것이다.^n게르다는 욱신거리는 팔을 문지르며 자신을 다독였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00002",
+      "source_text": "教会から連れ戻され、自室のベッドの|傍[そば]に^n見憶えのある|禍々[まがまが]しい機械を発見したとき、^nゲルダは崩れ落ちそうになるほどの絶望を覚えた。",
+      "source_raw_sha256": "381D7077F5D07AEC90929B615EBD887B8C9E5C392C562DBA7BCFABE0F5DD8DA8",
+      "target_text": "교회에서 도로 끌려온 뒤, 자기 방 침대 곁에서^n낯익고 불길한 기계를 발견했을 때,^n게르다는 무너져 내릴 듯한 절망을 느꼈다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00003",
+      "source_text": "カレイドスコープ・モニター──あの洗脳装置が^nどれだけ|卑怯[ひきょう]で残酷な術式を施すかは、^n一度目の体験からいやというほど思い知っていた。",
+      "source_raw_sha256": "FD4C9237FE876BE88CFC1BB7C1C9B3C5A3AF808B73B7BA5BEDE71FED184596F8",
+      "target_text": "칼레이도스코프 모니터──그 세뇌 장치가^n얼마나 비겁하고 잔혹한 술식을 가하는지는,^n첫 경험으로 지긋지긋할 만큼 알고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00004",
+      "source_text": "３日間の|昏倒[こんとう]のうちに、ようやく「本当の過去」の輪郭が^nぼんやりと見えてきた気がしていたのに、^nそのかすかな手がかりが再び失われてしまう。",
+      "source_raw_sha256": "CC7862E5FCB58ECF59F56798E4C1E78812D9229197B6C015461173408B02F710",
+      "target_text": "사흘 동안 혼절한 끝에 겨우 『진짜 과거』의 윤곽이^n어렴풋이 보이기 시작한 것 같았는데,^n그 희미한 단서를 다시 잃고 만다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00005",
+      "source_text": "いくら警戒したところで頭の中は守りようがない。^n機械にかけられたらおしまいだ──と恐慌に陥ったゲルダは、^n全身を使って無茶苦茶に暴れ、逃亡を図った。",
+      "source_raw_sha256": "3643DA0651093E3B340D62BE018EC14A45884BEC35206185AF3C7C775A25C268",
+      "target_text": "아무리 경계해도 머릿속은 지킬 방법이 없다.^n기계에 걸리면 끝장이다──공황에 빠진 게르다는^n온몸으로 마구 날뛰며 도망치려 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00006",
+      "source_text": "しかし、腕で首を|絞[し]めあげられて半失神状態にさせられ、^nあっけなく箱を|被[かぶ]せられてしまう。^nもうだめかもしれない、と|混濁[こんだく]する意識で思った。",
+      "source_raw_sha256": "9E81B535EBFAFD792A97D8CC243FBF7F8028462FAFDB71C4FA3C7964D33203B5",
+      "target_text": "하지만 팔로 목이 졸려 반쯤 정신을 잃었고,^n너무나 허무하게 상자를 뒤집어쓰고 말았다.^n이제 틀렸을지도 모른다고, 흐려지는 의식 속에서 생각했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00007",
+      "source_text": "ゲルダにできることは、^n意志の力をもって押しつけられる情報を|拒[こば]むこと。",
+      "source_raw_sha256": "E0FCDCE5B2E3E715AF47DDEC4F5868219AF812D35163914289B1E182DE4E71BE",
+      "target_text": "게르다가 할 수 있는 일은,^n의지의 힘으로 강제로 주입되는 정보를 거부하는 것.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00008",
+      "source_text": "そして、片手の爪を自らの腕に強く食い込ませ、^n痛みによって遠のきかける自我をたぐり寄せること。",
+      "source_raw_sha256": "46503A8615A79A442C7A69FA6DB7D5F1A27FC23E62D664C77891007438BBEB67",
+      "target_text": "그리고 한 손의 손톱을 자기 팔에 깊이 박아,^n통증으로 멀어지려는 자아를 붙잡아 끌어오는 것.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00009",
+      "source_text": "──そんな、おまじないめいた|稚拙[ちせつ]な抵抗が^n功を奏するとは思っていなかった。^nただ単に、それくらいしかできることがなかっただけ。",
+      "source_raw_sha256": "7845D73D3663AC4C4D3BEE7F859EB008D3FCDBC978F846C63D185B710F190309",
+      "target_text": "──그런 주문 같은 서투른 저항이^n효과를 발휘하리라고는 생각하지 않았다.^n그저 그것 말고는 할 수 있는 일이 없었을 뿐.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00010",
+      "source_text": "　それでも、|不愉快[ふゆかい]な時間が終わって目を開けた時、^n　ゲルダははっきりと憶えていた。^n「自分は『雪の女王』のゲルダではない」と。",
+      "source_raw_sha256": "0244D30DE752821FA4E7D1C2212DBBA61C06181E00FB378086B788B1FDE34B4E",
+      "target_text": "그래도 불쾌한 시간이 끝나고 눈을 떴을 때,^n게르다는 똑똑히 기억하고 있었다.^n『나는 「눈의 여왕」의 게르다가 아니다』라고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00011",
+      "source_text": "催眠術は、それを信じない者、^n精神的な協力をしない者にはかからないという。^nそれと同じようなことなのだろうか。",
+      "source_raw_sha256": "2C76864285AF1AA1540F7DC81D3E04F201EE974554B0FB202562547AC10B9205",
+      "target_text": "최면술은 그것을 믿지 않는 사람,^n정신적으로 협력하지 않는 사람에게는 통하지 않는다고 한다.^n그와 비슷한 일이었을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00012",
+      "source_text": "あるいは機械の調子が悪かったとか、^n施術者がなにかへまをしたとか、^n──いや、どうだっていい。",
+      "source_raw_sha256": "EA95A1D835C25BD28DA15C07CAA5E5603C38FD1398D65479F17A5CF846817AA9",
+      "target_text": "아니면 기계 상태가 나빴다거나,^n시술자가 무언가 실수했다거나,^n──아니, 아무래도 좋다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00013",
+      "source_text": "ゲルダは暖炉の|傍[そば]の木箱に腰をかけ、^n守りきった希望の光である^n自らのおぼろげな記憶に目をこらした。",
+      "source_raw_sha256": "C4D35837F7B7E7572DF72DABF46828A0205EA867F8B5B4917BCB9BE053D977A7",
+      "target_text": "게르다는 난로 곁의 나무 상자에 걸터앉아,^n끝까지 지켜 낸 희망의 빛인^n자신의 희미한 기억을 뚫어지게 바라보았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00014",
+      "source_text": "カメラのピント合わせのように映像が揺らぎ、^n|目眩[めまい]を覚える──",
+      "source_raw_sha256": "5AD8F89A64BB4D361137671696B86618C84ED0B8A8728E17863445EFDF07A5B0",
+      "target_text": "카메라의 초점을 맞추듯 영상이 흔들리고,^n어지럼증이 느껴진다──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00015",
+      "source_text": "それでもゆっくりと時間をかければ、^nぼんやりと|曖昧[あいまい]な輪郭が鮮明になって、^n鮮やかな記憶を取り戻せるという予感がした。",
+      "source_raw_sha256": "79D121523F3EB07C0DDA9308150E8F3BAF11B819372A95F40477DDED6127AAA9",
+      "target_text": "그래도 천천히 시간을 들이면,^n흐릿하고 모호한 윤곽이 선명해져^n생생한 기억을 되찾을 수 있으리라는 예감이 들었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00016",
+      "source_text": "有意義な|静寂[せいじゃく]が唐突に破られたのは、その瞬間だ。",
+      "source_raw_sha256": "FF2AC0787F0DD144A3D5C212CF683D5260B1F32BEEA3A9F23F0EA83F2DF9BCDF",
+      "target_text": "의미 있는 정적이 갑작스레 깨진 것은 바로 그 순간이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00017",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00018",
+      "source_text": "変わった部屋だな。^nあったかいのに冷たい。",
+      "source_raw_sha256": "F3F4631DDDCB5C05389939D6C547FAA1E2D9CC95557FA0ACBDAC2BBFBD7DF81A",
+      "target_text": "별난 방이네.^n따뜻한데도 차가워.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00019",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00020",
+      "source_text": "ノックもしないなんて、|不躾[ぶしつけ]な方ね。^nどなた？",
+      "source_raw_sha256": "C20DE0D06A31ED40C4820270A64514AA37857C720147BF559E8725A9EEF086FD",
+      "target_text": "노크도 하지 않다니, 무례한 분이네요.^n누구시죠?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00021",
+      "source_text": "思考を中断されたゲルダが尖った声をあげる。^n鋭い警戒のまなざしで、戸口の人物をにらみつけたが──",
+      "source_raw_sha256": "CE342D1E1A5B64F5BA67C63134AC6EC0568312A4FE454193C5E736DCE40FA6B7",
+      "target_text": "생각이 끊긴 게르다가 날카로운 목소리를 냈다.^n매서운 경계의 눈길로 문간에 선 사람을 노려보았지만──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00022",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00023",
+      "source_text": "…………！？^nあ、あなたは、──あの子よね？^nあの名無しの……。",
+      "source_raw_sha256": "4A2F096C262B21AE10B90DED74261D8D5F11845D1C2E715F10014F31D2AED3D1",
+      "target_text": "…………!?^n다, 당신은──그 아이 맞죠?^n그 이름 없는…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00024",
+      "source_text": "見間違えるはずはない。^nこの「楽園」で唯一ゲルダの話に耳を|傾[かたむ]けてくれた。^nゲルダの心と体の健やかさについて案じてくれた──味方。",
+      "source_raw_sha256": "FEA9C20529BFD5D00BC1DB3D2A93E4E2D7B1472DFF34E797BAE357F0B4558383",
+      "target_text": "잘못 볼 리 없다.^n이 『낙원』에서 유일하게 게르다의 이야기에 귀 기울여 주었다.^n게르다의 몸과 마음이 무사한지 염려해 준──아군.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00025",
+      "source_text": "だから、そんな彼が日を追うごとに聡明さを失い、^n亡霊めいた|虚[うつ]ろな目つきで不明瞭な言葉を|呻[うめ]くようになっていった、^nその変化が恐ろしく、悲しく、絶望的な損失のように思えていた。",
+      "source_raw_sha256": "BDFEF595F5321CBE8BE2CF632487511C0ED618B8F575F402C3B264E673E40A76",
+      "target_text": "그래서 그런 그가 날이 갈수록 총명함을 잃고,^n망령처럼 텅 빈 눈으로 불분명한 말을 신음하듯 내뱉게 된^n그 변화가 무섭고 슬프며 절망적인 상실처럼 느껴졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00026",
+      "source_text": "今目の前に立っているのは、間違いなくあの彼だ。^n黒の少女によって「もしもの世界」に閉じこめられたおかげで^nかなり正常な精神状態を取り戻したと記憶していたが──",
+      "source_raw_sha256": "CB4E2C1E06B38833E34499F0C754FE4CBE7DDBFECC94E0104244C03709859A40",
+      "target_text": "지금 눈앞에 서 있는 사람은 틀림없이 그였다.^n검은 소녀 때문에 『만약의 세계』에 갇힌 덕분에^n상당히 정상적인 정신 상태를 되찾았다고 기억했지만──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00027",
+      "source_text": "──それにしても、様子がおかしい。^n服装や表情が大きく違う、それもある。^nだがそれだけではなく。",
+      "source_raw_sha256": "4F804443FFBDD6A793F1458CCA7A51839F68F21E341B9D2F31D82FF1ED889F28",
+      "target_text": "──그렇다 해도 상태가 이상하다.^n옷차림과 표정이 크게 달라진 탓도 있다.^n하지만 그것만이 아니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00028",
+      "source_text": "別の形で彼に会ったことがあるような、そんな気がしたのだ。",
+      "source_raw_sha256": "78433B18652C2A21CD75CEAF7368FFE1372113DA9647052452F15264CB5599AB",
+      "target_text": "다른 형태의 그를 만난 적이 있는 듯한 기분이 들었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00029",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00030",
+      "source_text": "馬鹿だな。^n名前なんて、忘れたってまたつけりゃいい。^nオレはピーターだ。あんたは？",
+      "source_raw_sha256": "4BAEC79BA3BE31A8943C8321F792E338F8F906E1EF9D45872A83BCF906785F93",
+      "target_text": "바보네.^n이름 따윈 잊어버려도 다시 붙이면 돼.^n난 피터야. 넌?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00031",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00032",
+      "source_text": "ピーター……？^nピーターパン？^n──どうして。まさか……。",
+      "source_raw_sha256": "4B259520E05AF674833283494AECFA54825E23569EAF75DDB715DE9C76214054",
+      "target_text": "피터……?^n피터 팬?^n──어째서. 설마…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00033",
+      "source_text": "そのキーワードがゲルダの記憶を急速に|蘇[よみがえ]らせていく。",
+      "source_raw_sha256": "B4A44FC7FE05FEE6641F3741A17136F97E268AB9219646F17FB3A0DE72F4B3A2",
+      "target_text": "그 핵심 단어가 게르다의 기억을 빠르게 되살린다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00034",
+      "source_text": "『──ピーターパンは、小さいころによく読んでいたよ。^n　あのころは、兄さんと一緒に』",
+      "source_raw_sha256": "4DA38F582285176CFCB1A41F6AAC91D74F0237FF6F0B7A8084BDC49A7E733E0D",
+      "target_text": "『──피터 팬은 어릴 때 자주 읽었어.^n그때는 형과 함께』",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00035",
+      "source_text": "『僕はピーターという英雄の物語として読んだ。^n　兄さんはきっと、自分の分身が活躍する冒険物語として^n　|憧[あこが]れと|羨望[せんぼう]を抱きながら読んでいたんじゃないかな』",
+      "source_raw_sha256": "373B78FEB3749834F7E423B95D185F4EE18F6BB25BF1DF0A2BA1D9D59B220998",
+      "target_text": "『나는 피터라는 영웅의 이야기로 읽었어.^n형은 분명 자기 분신이 활약하는 모험 이야기로 여기며^n동경과 선망을 품고 읽었겠지』",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00036",
+      "source_text": "そんな声が脳裏に|蘇[よみがえ]った。^n──「楽園」に来るずっと前に交わした会話だ。",
+      "source_raw_sha256": "8C183BC425B55114CB4AC2985A9B9DDCB8A497570B3DC20D9EC68B08D94498AE",
+      "target_text": "그런 목소리가 뇌리에 되살아났다.^n──『낙원』에 오기 훨씬 전에 나눈 대화다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00037",
+      "source_text": "少年の|自嘲[じちょう]めいた苦笑が、^n冷たい大気に白く浮かび上がったのを憶えている。",
+      "source_raw_sha256": "B50399B98A8BF207ED00A2D075D1AD3526F026D878D462F4EA91EF04071D3223",
+      "target_text": "소년이 자조 섞인 쓴웃음과 함께 내쉰 숨이^n차가운 대기 속에 하얗게 떠오르던 모습을 기억한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00038",
+      "source_text": "つまり、あの少年は……。^nあの名無しの少年の、このピーターの正体は……。",
+      "source_raw_sha256": "A5564DA9F6048CE5A08CE1688D7494A3EF0110FD2EDE1E5C195D1DC56DB0A230",
+      "target_text": "그렇다면 그 소년은…….^n그 이름 없는 소년, 이 피터의 정체는…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00039",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00040",
+      "source_text": "──オレはあんたを知ってる。^nあんた、ウェンディだよな？",
+      "source_raw_sha256": "E92DCFC217F1A9E91EFD0ADC94C44222225B15C9462D3E99AB364A6211CE92A4",
+      "target_text": "──난 널 알아.^n너, 웬디지?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00041",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00042",
+      "source_text": "ウェンディ……！？^n……誰がよ！^n私はゲルダでもウェンディでもない！",
+      "source_raw_sha256": "A308D95B639C6221F7A1150F8007753EC954EF30C8A19C59AFE308EEB12CA6F5",
+      "target_text": "웬디……!?^n……누가 웬디라는 거야!^n난 게르다도 웬디도 아니야!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00043",
+      "source_text": "ゲルダは、頭を押さえて何度も首を振った。",
+      "source_raw_sha256": "928D642DD25CA4AD8BEFBD27022699CA58406CEC23D4551272512162A62BE4EC",
+      "target_text": "게르다는 머리를 감싸 쥐고 몇 번이나 고개를 저었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00044",
+      "source_text": "──まさか、信じたくない。^n──こんなことになるなんて。^n──ある意味では最悪だ。",
+      "source_raw_sha256": "DA97BF9FB58549988C1A48CB400D43669E1DAA0D695204FA4D0DF21CD5AE9046",
+      "target_text": "──설마, 믿고 싶지 않다.^n──이런 일이 벌어지다니.^n──어떤 의미에서는 최악이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00045",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00046",
+      "source_text": "あなたは……あなたは、そうね、確かに、^nピーターパンという物語が好きだと言っていた。^nピーターにも|憧[あこが]れていた。",
+      "source_raw_sha256": "3E0CF3AA093F952C4CFC585F12E54EFBE289E7A8E8E143681C0EF18719F5187E",
+      "target_text": "당신은…… 당신은, 그래요. 분명^n피터 팬이라는 이야기를 좋아한다고 했어요.^n피터를 동경하기도 했죠.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00047",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00048",
+      "source_text": "でも、こうも言っていたわ。^n自分はピーターにはなれない。^n身近に生まれながらのピーターがいるからって……。",
+      "source_raw_sha256": "A02C55613D7D65842380FA2F3508A5A3D8A033559917F764B00C712443D19697",
+      "target_text": "하지만 이런 말도 했어요.^n자신은 피터가 될 수 없다고.^n가까이에 타고난 피터가 있으니까…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00049",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00050",
+      "source_text": "ええ、そう……。^nあれは確か、あなたの双子のお兄さんよ。",
+      "source_raw_sha256": "2DB3A4FB605818CB9C0F39E19498D4727914A56C8154CD524E13DCEB3D6CBCB3",
+      "target_text": "그래요, 맞아…….^n그건 분명 당신의 쌍둥이 형이에요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00051",
+      "source_text": "彼がもし「ピーター」になってしまっていたとしたら、^n人格を大きく狂わされたという以上に、^n彼の最も大切な尊厳を奪われたということになる。",
+      "source_raw_sha256": "1E324AF021C597506AEA096DAD97FB6A06D159CE1DF78F94EEF8C73D441BC555",
+      "target_text": "그가 만약 『피터』가 되어 버린 것이라면,^n인격이 크게 뒤틀렸다는 것 이상으로,^n그의 가장 소중한 존엄을 빼앗겼다는 뜻이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00052",
+      "source_text": "決して、大げさな表現ではなく。",
+      "source_raw_sha256": "42C8956BFA834C3DD235CC2736F666459C54F7500BC0A7BE154F9628F0443E09",
+      "target_text": "결코 과장된 표현이 아니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00053",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00054",
+      "source_text": "……なにを言っているんだ？",
+      "source_raw_sha256": "5FFA1A8D26C5453FA91FAD4BAAE0137AEFEDD61B43CA0BA3AD27E24BA910BE3E",
+      "target_text": "……무슨 소리를 하는 거야?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00055",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00056",
+      "source_text": "あなたは永遠の子供であろうとするお兄さんのために、^nずっと早く、無理をして、大人にならなければならなかった。",
+      "source_raw_sha256": "8579C8097365CDFDE3A8DBB8AEAD870171EF486F1C81345EDF538E5D89F430A9",
+      "target_text": "당신은 영원한 아이로 남으려는 형을 위해,^n훨씬 일찍, 무리해서 어른이 되어야만 했어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00057",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00058",
+      "source_text": "いつか私に話してくれたことがあったわね。^nピーターには|憧[あこが]れるけれど、自分には到底なれない。^n僕はあんな風には振る舞えない、って。",
+      "source_raw_sha256": "E2B6FB3E58897D52BD0AA735EBA97AA07A0CDFE784A63BA1ACD9B170749EEC53",
+      "target_text": "언젠가 제게 이야기해 준 적이 있죠.^n피터를 동경하지만 자신은 도저히 그렇게 될 수 없다.^n나는 그런 식으로 행동할 수 없다고.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00059",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00060",
+      "source_text": "──ッ、おかしなことを言うな！",
+      "source_raw_sha256": "AB2FA07CB799DAF585ED5C83F072C9F7F869C66548104378401BCA592F14B51A",
+      "target_text": "──윽, 이상한 소리 하지 마!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00061",
+      "source_text": "退屈そうに聞いていたピーターが、^n突然大きな声をあげた。",
+      "source_raw_sha256": "3C9626EF07AAEF8875898C2028986A44B37897CA6B2E2F05EBCC001CC34B65CE",
+      "target_text": "지루하다는 듯 듣고 있던 피터가^n갑자기 큰 소리를 질렀다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00062",
+      "source_text": "これは本来の「彼」の声なのだろうか。^nまだ自分の声は届くのだろうか。",
+      "source_raw_sha256": "2246DAA13ED3B284C7776E005A8F5B7E85D1B055178EB63E056A5139FEFCF01C",
+      "target_text": "이것이 본래의 『그』가 내는 목소리일까.^n아직 자신의 목소리가 그에게 닿는 걸까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00063",
+      "source_text": "彼の心臓を打ち抜くつもりで、^nゲルダもまた声に強い意志を込めた。",
+      "source_raw_sha256": "B355C7F16AC94BED6A1CADA30500985C5BDC3D15984286A7F120E397014FF9FF",
+      "target_text": "그의 심장을 꿰뚫겠다는 마음으로,^n게르다 역시 목소리에 강한 의지를 실었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00064",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00065",
+      "source_text": "お兄さんのようには決してなりたくないと思う一方で、^n心の底には|憧[あこが]れがあったのね。^nあんなふうに、気ままに思うように生きたいと──",
+      "source_raw_sha256": "CDC6CB8375A72E8079579B134B04FF69A10938ADA8A315D16CDB0FC064B95519",
+      "target_text": "형처럼은 절대 되고 싶지 않다고 생각하면서도,^n마음속 깊은 곳에는 동경이 있었던 거예요.^n그렇게 마음 내키는 대로 자유롭게 살고 싶다고──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00066",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00067",
+      "source_text": "黙れ！　黙れよウェンディ！^nオレの影を|縫[ぬ]いつけた針と糸とで、^nあんたの口を縫い合わせればいい！",
+      "source_raw_sha256": "A322C3CE61FAC2E7EC1AA2491D00FB20B0FA6C07577540DEEBD65CC75B8F501A",
+      "target_text": "닥쳐! 닥치라고, 웬디!^n내 그림자를 꿰맨 바늘과 실로^n네 입을 꿰매 버리면 되겠네!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00068",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00069",
+      "source_text": "僕は、ずっと前からこの僕だ！^n他の何者でもあるものか！",
+      "source_raw_sha256": "E4B8516AD21F38EF7EB371E6F20EFBACDF499EFA6993093EB7E1CE692A5A851E",
+      "target_text": "나는 아주 오래전부터 줄곧 나였어!^n다른 누구일 리가 없잖아!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00070",
+      "source_text": "ピーターは木箱を^nブーツの底で激しく蹴り散らしながら怒鳴った。",
+      "source_raw_sha256": "7A8FDB96789024866E419E16A6C2E805D943F3EB5E402A58918FD7D8D5759707",
+      "target_text": "피터는 나무 상자를^n부츠 밑창으로 세차게 걷어차 흩뜨리며 소리쳤다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00071",
+      "source_text": "気に食わないことに対してかんしゃくを起こして、^n耳に痛い言葉が聞こえないように大声を出して、^n全身の|苛立[いらだ]ちを発散させるために暴れ回る。",
+      "source_raw_sha256": "3CC186602CA9ED35CF7526BDD81CF60E4404642AFEBA6D83FD4D14F2A74D8770",
+      "target_text": "마음에 들지 않는 일에 떼를 쓰고,^n듣기 괴로운 말이 들리지 않도록 큰 소리를 내며,^n온몸의 짜증을 풀기 위해 날뛴다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00072",
+      "source_text": "純粋でひたむきで無邪気で|奔放[ほんぽう]で素直で──^n本能を|剥[む]き|出[だ]しにした、動物じみた少年。",
+      "source_raw_sha256": "DCDE953A694BA539F22C175EBD951A5EDC123ED2C1E2C6408898D9C6D21B2AB1",
+      "target_text": "순수하고 한결같고 천진하며 자유분방하고 솔직한──^n본능을 있는 그대로 드러낸 짐승 같은 소년.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00073",
+      "source_text": "その姿が、ゲルダにとってはどうしようもなく悲しかった。",
+      "source_raw_sha256": "037EC0ED4DCB59A9E0E37424AC1B7DE3169B40BDE322F713B9E964DBCBB42BD6",
+      "target_text": "그 모습이 게르다에게는 견딜 수 없이 슬펐다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00074",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00075",
+      "source_text": "オレは、オレは──あんたにそんなことを言ってほしくて^nここに連れてきたんじゃないんだ。^nどうしてわからないんだ、ウェンディ！",
+      "source_raw_sha256": "47779A99630424B03A7E150526482217935601E2110D4D89E9FD6E25502CFBEA",
+      "target_text": "난, 난──네게 그런 말을 들으려고^n여기로 데려온 게 아니야.^n왜 모르는 거야, 웬디!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00076",
+      "source_text": "少年の声に横っ面を張られたように、^nゲルダは顔を背けた。",
+      "source_raw_sha256": "5856D68CC5B10DC1DECF8B637996B8BD96FA541B8A0791046B517C7422A37A01",
+      "target_text": "소년의 목소리에 뺨이라도 맞은 듯,^n게르다는 얼굴을 돌렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00077",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00078",
+      "source_text": "……っ。^n──出ていって。",
+      "source_raw_sha256": "2B005637174B73236C6D9086F1BAD97E8161CFE7ED6FD0C929266B10A4D99CF4",
+      "target_text": "……윽.^n──나가 줘.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00079",
+      "source_text": "今はただ、こうなってしまった彼を見たくない。",
+      "source_raw_sha256": "F0DA367341393927B5A44CB2B0273D73539EDE1D04C29D7F79941BED11699600",
+      "target_text": "지금은 그저 이렇게 변해 버린 그를 보고 싶지 않다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00080",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00081",
+      "source_text": "私はウェンディじゃない！^n私は、ありのままのあなたのためにいるの。^n本当のあなたを救うためにここに来たの……！",
+      "source_raw_sha256": "0B0C1D570BEF126C5729558B74C26C233EEE0562EA8AB69BD4BB8FCE37DBF7DE",
+      "target_text": "난 웬디가 아니야!^n난 본래의 당신을 위해 여기 있어.^n진짜 당신을 구하려고 이곳에 왔다고……!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00082",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00083",
+      "source_text": "出ていって！　出ていってよ！",
+      "source_raw_sha256": "9F2D63583674A5D74B08DF0CA6187037B4E3B6B9D3CFDFBC9A91E5E1AF0E782E",
+      "target_text": "나가! 나가라고!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00084",
+      "source_text": "手ひどい感情的な言葉を投げつけたのに、^nピーターは怒らなかった。",
+      "source_raw_sha256": "968D5DE27EFF6D4F1BFD4C344B88E25E45C59398507484D26408D366BAFBBEA4",
+      "target_text": "몹시 모진 감정적인 말을 내던졌지만,^n피터는 화내지 않았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00085",
+      "source_text": "痛みをこらえるような顔をして立ちつくすその姿は、^nゲルダの嘆きを真正面から胸板で受け止めているようだった。",
+      "source_raw_sha256": "B3373B0E6D3168ED97575F8CC3AEA36B455EF0689E2937EA913BB444C00EB622",
+      "target_text": "아픔을 견디는 듯한 얼굴로 우두커니 선 그 모습은,^n게르다의 탄식을 정면에서 가슴으로 받아 내는 듯했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00086",
+      "source_text": "ゲルダはそんな彼の腕をつかみ、^n戸口の外に押しだしてドアを閉めた。",
+      "source_raw_sha256": "AC11DF3DBD9A55054A864E5FA2F9E5C4DBA3B1F018A34C6D76BA8924F5CEE9E4",
+      "target_text": "게르다는 그런 그의 팔을 붙잡아,^n문밖으로 밀어내고 문을 닫았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00087",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00088",
+      "source_text": "──ッ、うぅ、く……っ。^nどう、して……どうしてっ……！",
+      "source_raw_sha256": "ED31CBC6C9A35D0034E60959CFD20CB5C40CA94CD84795F05029505D5964A9AA",
+      "target_text": "──윽, 으으, 크…….^n왜, 어째서…… 어째서……!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00089",
+      "source_text": "ゲルダは|静寂[せいじゃく]を取り戻した部屋の中でひとり、^n声を殺して慟哭した。",
+      "source_raw_sha256": "49033C879D7BF263E5ED8294643B0A0ECF85E542F75AA6F9AA61923946CA0B3C",
+      "target_text": "게르다는 정적을 되찾은 방 안에서 홀로,^n소리를 죽인 채 통곡했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00090",
+      "source_text": "──君の探している「カイ」は、すでに死んでいるんだよ。",
+      "source_raw_sha256": "6EAD0566DAFAA1472FDB05E30F9FC30335DBB9F57FD7F9197DDFD3AAABCB189C",
+      "target_text": "──네가 찾고 있는 『카이』는 이미 죽었어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1727.gsc::slot/00091",
+      "source_text": "カレイドスコープ・モニターの世界で|囁[ささや]かれた^n薄気味悪い暗示の声が、ゲルダの脳裏に|蘇[よみがえ]る──",
+      "source_raw_sha256": "AD9540A8FA2521F6D4E00E8D8A0482D0B8CD82FF089DA187D08903554DC2D987",
+      "target_text": "칼레이도스코프 모니터의 세계에서 속삭이던^n섬뜩한 암시의 목소리가 게르다의 뇌리에 되살아난다──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1126_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    21
+  ],
+  "new_review_change_count": 8,
+  "new_review_changes": [
+    {
+      "slot": 1,
+      "before": "어젯밤과는 다른 쪽으로 발길을 돌려 정원을 산책했다.",
+      "after": "어젯밤과는 다른 방향으로 발길을 돌려 정원을 산책했다."
+    },
+    {
+      "slot": 6,
+      "before": "라푼젤이 사는 탑──^n꼭대기 층 창문에서 늘어뜨린 두 가닥의 머리카락을 꽉 붙잡고,^n탑의 벽을 오르는 사람이 있다.",
+      "after": "라푼젤이 사는 탑──^n최상층 창문에서 늘어뜨린 두 갈래의 머리카락을 꽉 붙잡고,^n탑의 벽을 오르는 사람이 있다."
+    },
+    {
+      "slot": 10,
+      "before": "그 사람은 대놓고 다리를 떨면서도,^n어떻게든 벽을 끝까지 올라갔다.^n라푼젤의 방 창문으로 굴러 들어가더니 사라졌다.",
+      "after": "그 사람은 누가 봐도 알 만큼 다리를 떨면서도,^n어떻게든 벽을 끝까지 올라갔다.^n라푼젤의 방 창문으로 굴러 들어가더니 사라졌다."
+    },
+    {
+      "slot": 11,
+      "before": "얼굴은 보이지 않았지만,^n의사 선생님들과 비슷한 또래의 남자였던 것 같다.",
+      "after": "얼굴은 보이지 않았지만,^n의사 선생님들과 비슷한 나이대의 남자였던 것 같다."
+    },
+    {
+      "slot": 15,
+      "before": "밤에 창문으로 찾아오는 사람을 왕자님이라고 믿는 라푼젤은,^n그러니까 방금 굴러 들어간 남자도──",
+      "after": "밤에 창문으로 찾아오는 사람을 왕자님이라고 믿는 라푼젤은,^n그러니까 방금 굴러 들어간 남자도──"
+    },
+    {
+      "slot": 17,
+      "before": "(──그만두자)",
+      "after": "(──그만 생각하자)"
+    },
+    {
+      "slot": 20,
+      "before": "하지만 필사적인 모습으로 창문에 매달려 굴러 들어가던^n꼴사납게 버둥거리던 엉덩이와 다리라는 우스꽝스러운 광경은,^n좀처럼 머릿속에서 지워지지 않을 것 같았다.",
+      "after": "하지만 필사적으로 창문에 매달린 채 굴러 들어가던^n꼴사납게 버둥거리는 엉덩이와 다리라는 우스꽝스러운 광경은,^n좀처럼 머릿속에서 지워질 것 같지 않았다."
+    },
+    {
+      "slot": 21,
+      "before": "나에게 밀쳐져 슬픈 듯 눈을 크게 떴던^n어젯밤 라푼젤의 표정도──",
+      "after": "나에게 밀쳐지고 슬픈 듯 눈을 크게 뜨던^n어젯밤 라푼젤의 표정도──"
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    22,
+    79
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00001",
+      "source_text": "僕は昨晩とは違う方角に足を向けて、庭園を散策した。",
+      "source_raw_sha256": "BEAF554C0D78CA2C7795247AE46D9C819BC3E4E15FB4D20C83E8299816E7A36D",
+      "target_text": "어젯밤과는 다른 방향으로 발길을 돌려 정원을 산책했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00002",
+      "source_text": "今日もお月さまのきれいな、いい夜だ。^n色とりどりの植物と様々な景色を持つ庭園はどこまでも広く、^n全体を知るにはまだまだ時間がかかりそうだった。",
+      "source_raw_sha256": "9C86C85306ED96EB6608B4449CCE35DA6ADC1AFAC3C2532A2BBDFB6BCD2AA2A8",
+      "target_text": "오늘도 달이 아름다운 좋은 밤이다.^n형형색색의 식물과 다양한 풍경을 지닌 정원은 끝없이 넓어서,^n전체를 파악하려면 아직 한참은 걸릴 듯했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00003",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00004",
+      "source_text": "（ん？）",
+      "source_raw_sha256": "BF6DA0E67CB3DBFA33035AEBD3F72E8507CA655F202AB0EB0CDC6D46194F70B9",
+      "target_text": "(응?)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00005",
+      "source_text": "病棟に戻ってきた時、僕は奇妙な光景を目にした。",
+      "source_raw_sha256": "699ADC2ED376F74FF4376EA8A6C59034F3C7BAC31DC2CAA4FA337408C4924DA1",
+      "target_text": "병동으로 돌아왔을 때, 나는 기묘한 광경을 목격했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00006",
+      "source_text": "ラプンツェルの住む塔──^n最上階の窓から垂らされた２本の髪の毛を握りしめ、^n塔の壁を上っている人がいる。",
+      "source_raw_sha256": "BF881C18BA36A9696A5A3AC075D51C77D89E4533D9D5BE770273E09F11BA429E",
+      "target_text": "라푼젤이 사는 탑──^n최상층 창문에서 늘어뜨린 두 갈래의 머리카락을 꽉 붙잡고,^n탑의 벽을 오르는 사람이 있다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00007",
+      "source_text": "昨日の僕のように。",
+      "source_raw_sha256": "B7EB496308FFFA267281BDFD9FF0DAA2F94A62C8F841B8951FC303AE98DA110A",
+      "target_text": "어제의 나처럼.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00008",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00009",
+      "source_text": "あ……！",
+      "source_raw_sha256": "2010C9C42721C8184B0BDEDC1CC11AF6343246BC76F47B30030A6F71C955968A",
+      "target_text": "아……!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00010",
+      "source_text": "その人はあからさまに足を震わせながらも、^nなんとか壁を上りきる。^nラプンツェルの部屋の窓から転がり込んで、消えた。",
+      "source_raw_sha256": "C9B93F7B61EB025FE768657B3800CE74D081E6BE48F96548DF7316EAB5248AE0",
+      "target_text": "그 사람은 누가 봐도 알 만큼 다리를 떨면서도,^n어떻게든 벽을 끝까지 올라갔다.^n라푼젤의 방 창문으로 굴러 들어가더니 사라졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00011",
+      "source_text": "顔は見えなかったけれど、^nお医者様たちに近い年齢の男の人だったと思う。",
+      "source_raw_sha256": "27B0D895761203AFD42AE64E9301637FE335839226811AC37EDA109E1B0C3882",
+      "target_text": "얼굴은 보이지 않았지만,^n의사 선생님들과 비슷한 나이대의 남자였던 것 같다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00012",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00013",
+      "source_text": "（……あれって）",
+      "source_raw_sha256": "1BF6CC4885088D385A000F5F13977279519EB0C75C7B18356AC21F51F96509E2",
+      "target_text": "(……저건)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00014",
+      "source_text": "昨晩、僕の胸にすがってきたラプンツェルの重みと、^n熱い吐息を思い出す。",
+      "source_raw_sha256": "603F9E31EEC1D179748A52EDE7A4F0F5B7E07728DF6B0C5FC05D7BA53F7BF500",
+      "target_text": "어젯밤 내 가슴에 매달렸던 라푼젤의 무게와,^n뜨거운 숨결을 떠올린다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00015",
+      "source_text": "夜に窓から来るものを王子様だと思いこむラプンツェルは、^nつまり、今転がり込んでいった男性のことも──",
+      "source_raw_sha256": "A479B2A175CB2589FE3C0CC9C98CCBDD50FCCED4FED61D3F66085BE9EAADEF08",
+      "target_text": "밤에 창문으로 찾아오는 사람을 왕자님이라고 믿는 라푼젤은,^n그러니까 방금 굴러 들어간 남자도──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00016",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00017",
+      "source_text": "（──やめよう）",
+      "source_raw_sha256": "27B5963F38189DFA627B465E1A92A5842CC619E8A57E0FD120897373A6C21E65",
+      "target_text": "(──그만 생각하자)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00018",
+      "source_text": "僕は強く頭を振って、^n腕や胸に残る感触を忘れようとした。",
+      "source_raw_sha256": "54CAD53508DF53EA7FBAC5B6E3E0882F42903DB9D86C3CF80133A37DEC3E7130",
+      "target_text": "나는 세차게 고개를 저으며,^n팔과 가슴에 남은 감촉을 잊으려 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00019",
+      "source_text": "僕が関わることじゃない。^n僕はなにも見ていない。",
+      "source_raw_sha256": "D234D40E87A237A524D7C584380AECEDEE034DF0AED7A965A2218A10CAD08705",
+      "target_text": "내가 관여할 일이 아니다.^n나는 아무것도 보지 못했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00020",
+      "source_text": "けれど、必死な様子で窓にすがって転がり込んでいった^n無様にばたつくお尻や足といったおかしな光景は、^nなかなか僕の中から消えてくれそうになかった。",
+      "source_raw_sha256": "0DFA0976C4BB3FD80813F385028322B4C9B837E77334304B94A05C348A8199B6",
+      "target_text": "하지만 필사적으로 창문에 매달린 채 굴러 들어가던^n꼴사납게 버둥거리는 엉덩이와 다리라는 우스꽝스러운 광경은,^n좀처럼 머릿속에서 지워질 것 같지 않았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1126.gsc::slot/00021",
+      "source_text": "僕に突き飛ばされ、悲しそうに目を見張った^n昨晩のラプンツェルの表情も──",
+      "source_raw_sha256": "81BA665E9AF5DFD42E362714FD4F2CA55B9C01FF52D0FF3089FC34399047ED12",
+      "target_text": "나에게 밀쳐지고 슬픈 듯 눈을 크게 뜨던^n어젯밤 라푼젤의 표정도──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

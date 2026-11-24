@@ -1,0 +1,720 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1218_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    67
+  ],
+  "new_review_change_count": 5,
+  "new_review_changes": [
+    {
+      "slot": 2,
+      "before": "산들바람을 타고 나무 사이를 달려, 활짝 핀 꽃을 축복하고,^n붉은 페인트투성이 흰 장미를 어루만지며 흘러간다.",
+      "after": "산들바람을 타고 나무 사이를 달려, 활짝 핀 꽃을 축복하고,^n붉은 페인트투성이 흰 장미를 달래며 흘러간다."
+    },
+    {
+      "slot": 13,
+      "before": "잠든 앨리스의 뺨이 부우 하고 부풀고,^n항의 같은 말을 웅얼웅얼 중얼거리는 모습을 보고,^n라푼젤은 살며시 미소 지었다.",
+      "after": "잠든 앨리스의 뺨이 부우 하고 부풀고,^n항의 같은 말을 웅얼웅얼 중얼거리는 모습을 보고,^n라푼젤은 조용히 미소 지었다."
+    },
+    {
+      "slot": 23,
+      "before": "갑자기 방에 나타나 꼭 손을 잡더니^n세차게 끌고 걷기 시작한 앨리스 때문에,^n라푼젤은 몹시 당황했다.",
+      "after": "갑자기 방에 나타나 꼭 손을 잡더니^n힘차게 끌고 걷기 시작한 앨리스 때문에,^n라푼젤은 몹시 당황했다."
+    },
+    {
+      "slot": 51,
+      "before": "앨리스는 흔들리는 눈길을 라푼젤에게 둔 채,^n헤실 하고 뺨을 풀었다.",
+      "after": "앨리스는 흔들리는 눈길을 라푼젤에게 둔 채,^n헤실거리며 뺨을 풀었다."
+    },
+    {
+      "slot": 67,
+      "before": "이번에는 확실히,^n앨리스가 다시 깨어날 때까지 끊이지 않게 이어 가겠다고,^n남몰래 다짐하면서.",
+      "after": "이번에는 반드시,^n앨리스가 다시 깨어날 때까지 끊이지 않게 이어 가겠다고,^n남몰래 다짐하면서."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    68,
+    125
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00001",
+      "source_text": "昼下がりの庭園に、美しい穏やかな声が響いている。",
+      "source_raw_sha256": "AEFAB110EDDBEB07F995B9B94A943D3ABB793AFA9D9E605BECFC54E3D828074E",
+      "target_text": "늦은 오후의 정원에 아름답고 온화한 목소리가 울려 퍼진다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00002",
+      "source_text": "そよ風に乗って木立を駆け抜け、咲き誇る花を祝福し、^n赤ペンキまみれの白薔薇を|慰撫[いぶ]して、流れていく。",
+      "source_raw_sha256": "3CEF9588CE7EFA108D7D3C86A5D0C02926EC14A1BCB2FA63A8395087DB09B107",
+      "target_text": "산들바람을 타고 나무 사이를 달려, 활짝 핀 꽃을 축복하고,^n붉은 페인트투성이 흰 장미를 달래며 흘러간다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00003",
+      "source_text": "その声は、大きな木の下で肩を寄せ合うふたりのうち、^n年長の少女の唇から|紡[つむ]がれていた。",
+      "source_raw_sha256": "FB89B8F1653FA1C20AB4B5714124D8516AF95FB84E583825650CD1496F4FC4E6",
+      "target_text": "그 목소리는 큰 나무 아래에서 어깨를 맞댄 두 사람 중,^n나이가 더 많은 소녀의 입술에서 흘러나오고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00004",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00005",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00006",
+      "source_text": "ページをめくりかけた手を止めて、^nラプンツェルはそっとアリスの様子を|窺[うかが]った。",
+      "source_raw_sha256": "E88A25B5C37C9D51CA9BB64FFFF52F2EB7265A52581DE58FAA028920387618FC",
+      "target_text": "페이지를 넘기려던 손을 멈추고,^n라푼젤은 살며시 앨리스의 상태를 살폈다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00007",
+      "source_text": "おそらく、行きつ戻りつしていた眠りの国に^n今度こそ旅立ってしまったのだろう。",
+      "source_raw_sha256": "F38171B3F49A82CA85644D1DB2317001CAB3C74C64C3DE204B84EBAFA79FF31C",
+      "target_text": "아마도 오가기를 반복하던 잠의 나라로^n이번에야말로 떠나 버린 것이리라.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00008",
+      "source_text": "もし起きていたら、ラプンツェルが語りを止めたことに^n頬を膨らませて抗議するはずだ。",
+      "source_raw_sha256": "344C2C900794A1C3BCFB817D318AC9B69E63769A60AEBFDB1B7CD6430CAF35CC",
+      "target_text": "깨어 있었다면 라푼젤이 이야기를 멈춘 데 대해^n뺨을 부풀리며 항의했을 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00009",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00010",
+      "source_text": "すぅ、すぅ……。^nんん……うにゅう……。",
+      "source_raw_sha256": "5D5F95ECF0803F5A65B49B7754D87E6F4EADA8C583477AB483477B3F4CEAB6CD",
+      "target_text": "새근, 새근…….^n으응…… 우뉴…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00011",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00012",
+      "source_text": "あら……。",
+      "source_raw_sha256": "3A270D98B53807CC65E046D65A5762FA0458DC28EC204B0BFDFAE539CC4654DA",
+      "target_text": "어머…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00013",
+      "source_text": "眠るアリスの頬がぷうと膨れ上がり、^n抗議らしきものをむにゃむにゃと|呟[つぶや]いたのを見て、^nラプンツェルはそっと微笑した。",
+      "source_raw_sha256": "ED93524EF8E10BB1299E6E46CB96A3E7CC33C167CC9A03F70A1905539FB87AA6",
+      "target_text": "잠든 앨리스의 뺨이 부우 하고 부풀고,^n항의 같은 말을 웅얼웅얼 중얼거리는 모습을 보고,^n라푼젤은 조용히 미소 지었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00014",
+      "source_text": "どうやらアリスは、眠りの国への道をたどりながらも^n物語の続きをお願いするつもりらしい。",
+      "source_raw_sha256": "6604385917DF3BC16A839089AA2E1F8EF4D82EC02AEF63CBB6651A9C03781792",
+      "target_text": "아무래도 앨리스는 잠의 나라로 가는 길을 따라가면서도^n이야기를 계속해 달라고 조를 생각인 듯하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00015",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00016",
+      "source_text": "すぅ……すぅぅ……。",
+      "source_raw_sha256": "ABFD749FA3137418BCB7E78124104BF499F37A115AAED092439B9E52DC1AB4C9",
+      "target_text": "새근…… 새그은…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00017",
+      "source_text": "穏やかな寝息を聞くうちに、ラプンツェルもまた^n昼下がりならではのけだるい眠気を感じていた。",
+      "source_raw_sha256": "27FD408F7A1C1F9610354217A0D4534E13CF84992EE25DA6585D6E677F2EA66B",
+      "target_text": "고요한 숨소리를 듣는 동안 라푼젤 또한^n늦은 오후 특유의 나른한 졸음을 느끼고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00018",
+      "source_text": "大きな木の豊かな葉群が作る青々しい木陰。^n微風はすがすがしい緑の匂いを含み、^n|木漏[こも]れ|日[び]は気まぐれにきらめく。",
+      "source_raw_sha256": "34D5E30878E5A6D9E3D2B60318E6CB4AEC043D781568E2B6C7D019BC1F5AB39F",
+      "target_text": "큰 나무의 무성한 잎이 만든 푸른 그늘.^n산들바람에는 상쾌한 초록빛 향기가 배어 있고,^n나뭇잎 사이 햇살은 변덕스럽게 반짝인다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00019",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00020",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00021",
+      "source_text": "眠るアリスにせがまれながらも、^nラプンツェルがページをめくろうとしないのは、^nいっそ自分も午睡に身を任せたい思いに駆られたからだ。",
+      "source_raw_sha256": "D13C57590198D0BCCE96B2A684215266AA6303A9AD6B62CEF23099E1D63F8661",
+      "target_text": "잠든 앨리스가 조르고 있는데도^n라푼젤이 페이지를 넘기려 하지 않은 것은,^n차라리 자신도 낮잠에 몸을 맡기고 싶어졌기 때문이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00022",
+      "source_text": "──ほんの少し前のこと。",
+      "source_raw_sha256": "B288379A5F09A5085C997A12E068DE5D8298C7C14BD85B9B14E00E35B7AC1714",
+      "target_text": "──바로 조금 전의 일.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00023",
+      "source_text": "突然部屋に現れて、ぎゅっと手を握ったかと思うと^nぐいぐいと引っ張って歩きだしたアリスに対し、^nラプンツェルは大いに慌てたものだ。",
+      "source_raw_sha256": "058080DCEAF9F827B1844665B0680EC2C8CC8531ED6C8E109C1D69776856F735",
+      "target_text": "갑자기 방에 나타나 꼭 손을 잡더니^n힘차게 끌고 걷기 시작한 앨리스 때문에,^n라푼젤은 몹시 당황했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00024",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00025",
+      "source_text": "だめ、だめよアリス。^nここから出たら、おばあさまになんて言われるか……。",
+      "source_raw_sha256": "0A07872A074E21FA046BF3F6F99F26A4E5EF55A53E0E614376F07FF959EF1A10",
+      "target_text": "안 돼, 안 돼요, 앨리스.^n여기서 나가면 할머님께 무슨 말을 들을지…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00026",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00027",
+      "source_text": "おばあさまに|咎[とが]められたら、あたしがなんとかするわ。^n",
+      "source_raw_sha256": "5F8C32D3D0148D7AD29BAB79AAF97AC0737580DA68C488EB3623BCDE4C4B09AD",
+      "target_text": "할머님께 꾸중을 들으면 제가 어떻게든 할게요.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00028",
+      "source_text": "いくらでもやりようはあるんだから。",
+      "source_raw_sha256": "9F8E4CA2FC7C2B6C81479F5B72913F23623A0C80178DC88CCDF669BDAEB886B5",
+      "target_text": "방법은 얼마든지 있으니까요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00029",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00030",
+      "source_text": "アリスったら……！",
+      "source_raw_sha256": "92414B0BF18140BC361D057987DAB0FDDED894B2139AA4B09F476123060696C3",
+      "target_text": "앨리스도 참……!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00031",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00032",
+      "source_text": "あたしは外がいいの。^nラプンツェルは庭園の木陰であたしに本を読むのよ。",
+      "source_raw_sha256": "F1A8942F56E93A713BDFA97FDFB890FC59B0868D04BA158458CC77E9C98F9664",
+      "target_text": "저는 밖이 좋아요.^n라푼젤은 정원 나무 그늘에서 제게 책을 읽어 주는 거예요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00033",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00034",
+      "source_text": "ラプンツェルだって、窓からあんなにこちらを見つめて……。^n連れ出してほしい、って顔に書いてあったわ。",
+      "source_raw_sha256": "3303DE8CBED092BE74A5A726CF0E5423995349F785D5CB78927BFAC739EB513F",
+      "target_text": "라푼젤도 창문에서 이쪽을 그렇게 바라봤잖아요…….^n데리고 나가 달라고 얼굴에 쓰여 있었어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00035",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00036",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00037",
+      "source_text": "やはり、昼下がり、窓から庭園を一望した時に^n庭園のアリスと目があったのは気のせいではなかったのだ。",
+      "source_raw_sha256": "4C3E2D066203435697EF936B7D0F57E0E01CFC783C1A16ACC77CFB60EC79683D",
+      "target_text": "역시 늦은 오후 창문에서 정원을 한눈에 바라보았을 때^n정원에 있던 앨리스와 눈이 마주친 것은 기분 탓이 아니었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00038",
+      "source_text": "どうしてあんな遠くから、表情だっておぼろだろうに^nラプンツェルの退屈と不満を見抜くことができたのだろう。",
+      "source_raw_sha256": "D047975A46446F8678AA234DF51D6AF7143D3244951E4F2A17694F27DFA8100C",
+      "target_text": "그렇게 멀리 떨어져 표정도 희미했을 텐데,^n어떻게 라푼젤의 지루함과 불만을 알아차렸을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00039",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00040",
+      "source_text": "……ん、んん……んぅ……。",
+      "source_raw_sha256": "4D0AF21DD63CDF1644959ED4C7A9F886D63E7905792E3469C30BF981A5DEAF76",
+      "target_text": "……응, 으응…… 으…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00041",
+      "source_text": "ふと、アリスが身じろいだ。",
+      "source_raw_sha256": "0C4E84E0EE66AF31470DC533D9DF312241077509227E6EC83E05AECCAA216A95",
+      "target_text": "문득 앨리스가 몸을 뒤척였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00042",
+      "source_text": "どうあっても寝物語を続けてほしい、という^n意思表示だろうか──",
+      "source_raw_sha256": "681254AECD81AD1C3D0AB9D9CC523E5CFDC14FFA5DF35D6A01453D7F14FCE6AC",
+      "target_text": "무슨 일이 있어도 잠들기 전 이야기를 계속 듣고 싶다는^n의사 표시일까──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00043",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00044",
+      "source_text": "んん……？　ん……？^n──あ……。あれ……？",
+      "source_raw_sha256": "D61CCA8F81D528F4876594C5478FEDE5FAC6080B24AA5837E3C67D63CD4D5230",
+      "target_text": "으응……? 응……?^n──아…… 어라……?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00045",
+      "source_text": "アリスはうっすらと目を開けた。",
+      "source_raw_sha256": "0C2186E0CCDD2912E3A5A4834C17B99B0A0F12DA706558EC6197B277376C6695",
+      "target_text": "앨리스는 희미하게 눈을 떴다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00046",
+      "source_text": "とろんとした瞳の表面にラプンツェルを映し、^nぱちぱちとまばたきを繰り返したが、^n眠気の曇りはなかなかとれないようだ。",
+      "source_raw_sha256": "5EC7C43BE79EBFCB84BF5A0CDF506F7EED45D6972170D0B32F0A97D0A533092E",
+      "target_text": "풀어진 눈동자 표면에 라푼젤을 비추고,^n눈을 연달아 깜빡였지만,^n졸음의 흐림은 좀처럼 가시지 않는 모양이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00047",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00048",
+      "source_text": "どうしたの、アリス。",
+      "source_raw_sha256": "B1A7DB5BCC2A52387B83AC02006B53800A2582B3AD44129753FE7AFC02344F8B",
+      "target_text": "왜 그래요, 앨리스?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00049",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00050",
+      "source_text": "………………。",
+      "source_raw_sha256": "6EC763B0F0941B3359F61B3F4928AE6B40657240D39A269A1C34FE6BA980D868",
+      "target_text": "……………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00051",
+      "source_text": "アリスはゆらゆらと揺れるまなざしをラプンツェルに|据[す]えたまま、^nふにゃ、と頬を緩めた。",
+      "source_raw_sha256": "F31943FBEEFAA0D87729334A94B2BDF7FD1B3ABE0C175D5148A961282A99CF81",
+      "target_text": "앨리스는 흔들리는 눈길을 라푼젤에게 둔 채,^n헤실거리며 뺨을 풀었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00052",
+      "source_text": "子供のように柔らかい、幸せそうな笑顔だった。",
+      "source_raw_sha256": "4C829517F465A56D80429D46F4E21C5E7A75E29703864FD87541679654B02731",
+      "target_text": "아이처럼 부드럽고 행복해 보이는 미소였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00053",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00054",
+      "source_text": "あぁ……お姉ちゃん、生きてたんだ。^nよかったぁ……。",
+      "source_raw_sha256": "FAD627633EB30338F1B6ABF1095E93163103661B380DF58F047F2FF57E1E7FE3",
+      "target_text": "아아…… 언니, 살아 있었구나.^n다행이다…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00055",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00056",
+      "source_text": "あたしね、ずっと、悪い夢を見ていたの……。",
+      "source_raw_sha256": "CE8863DA8B1EB50D13D03989112C60CE40FFAEC4015CF450235707FD6F843F56",
+      "target_text": "저 말이에요, 계속 나쁜 꿈을 꾸고 있었어요…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00057",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00058",
+      "source_text": "…………。",
+      "source_raw_sha256": "0A0A39A23D968038B6135EB7825A35667F28EF942D728F4925E6018672732E6B",
+      "target_text": "………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00059",
+      "source_text": "ラプンツェルは、なにも言えなかった。",
+      "source_raw_sha256": "FE71E8462980937A76EC9377819F55405066E28C8F5D77D270E9635791561F32",
+      "target_text": "라푼젤은 아무 말도 할 수 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00060",
+      "source_text": "本当にアリスの姉だったらよかったのに。^nただそれだけを強く強く思うだけだった。",
+      "source_raw_sha256": "4088FEB970BDB67E14C576D2DF3A3D1FC7DB2BF5E6F73C64BDC184FB7E51B13F",
+      "target_text": "정말 앨리스의 언니였다면 좋았을 텐데.^n오직 그 생각만을 간절하고 또 간절하게 할 뿐이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00061",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00062",
+      "source_text": "おね……ちゃ……ん……。^n…………………………。",
+      "source_raw_sha256": "B48A202279F7E8113B637E71D31B69BD4B22409C5D0A7889A40CC25E88970435",
+      "target_text": "언…… 니…….^n………………………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00063",
+      "source_text": "アリスは再び眠りについたようだ。^n穏やかな規則正しい寝息が聞こえる。",
+      "source_raw_sha256": "0A7702B5EF4AFDDD6478BD437DF6AFCB82007F74046322A46B16B9AB5791A6EC",
+      "target_text": "앨리스는 다시 잠든 듯하다.^n고요하고 규칙적인 숨소리가 들린다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00064",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00065",
+      "source_text": "──ラプンツェルは、始めは大変びっくりしました。^n大きくなってからというもの、魔女以外の人と会うのはこれが初めてだったからです。",
+      "source_raw_sha256": "6E9A6C9CCAE1DEC3172753D7468D0FD0347FC2868081E0642D172ED83F615A56",
+      "target_text": "──라푼젤은 처음에는 무척 놀랐습니다.^n자란 뒤로 마녀 말고 다른 사람을 만난 것은 이번이 처음이었기 때문입니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00066",
+      "source_text": "ラプンツェルは物語の先へと進んだ。",
+      "source_raw_sha256": "004B9F97DC1463FA5C91502A0581B046D6AC22796E06FD2D6266B739640D233F",
+      "target_text": "라푼젤은 이야기의 다음 대목으로 나아갔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1218.gsc::slot/00067",
+      "source_text": "今度はしっかりと、^nアリスが再び目覚めるまで途切れずに|紡[つむ]ごうと、^nひそかに|誓[ちか]いながら。",
+      "source_raw_sha256": "50D96C074C889563B9A26972F38F7B3AD8D021205FAE9C4247E05A137A70A9FD",
+      "target_text": "이번에는 반드시,^n앨리스가 다시 깨어날 때까지 끊이지 않게 이어 가겠다고,^n남몰래 다짐하면서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

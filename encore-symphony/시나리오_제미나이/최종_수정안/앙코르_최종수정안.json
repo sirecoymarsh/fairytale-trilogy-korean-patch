@@ -1,0 +1,4804 @@
+{
+  "schema": "fairytale.final_scenario_proposals.v1",
+  "work": "Encore",
+  "title": "앙코르",
+  "review_date": "2026-11-19",
+  "reviewer_model": "Codex internal",
+  "translator_model_for_new_wording": "Codex internal",
+  "submission_translator_model": "Orchestrator (Carbon) + Gemini 4 Hydrogen (High)",
+  "mode": "수정 제안",
+  "applied_to_game": false,
+  "inputs": {
+    "source_archive": {
+      "project_relative_path": "original/Encore/Files/scr.xfl",
+      "sha256": "d9c0656dd49f67dd8c3c72e545439f826c985c4a808bb0eff6c1702f323b2f40"
+    },
+    "submitted_scenario": {
+      "project_relative_path": "시나리오_제미나이/번역완성/앙코르/앙코르_번역통합.json",
+      "sha256": "8c5c58b4b795922104fc89a979618f739ca1d22eb097897280d17e6c303aa590"
+    },
+    "codex_review": {
+      "project_relative_path": "시나리오_제미나이/Codex_검수/수정제안.json",
+      "sha256": "78345e18c4ca7c114e748cad78c7fedf23ae0c1e26015bd05afcd11694bf1189"
+    },
+    "gemini_review": {
+      "project_relative_path": "시나리오_제미나이/제미나이_독립검수/수정제안.json",
+      "sha256": "0ee77bc32e1694aeb255799ba506fb6765a755ace79d9d975e25aa8f8d184938"
+    }
+  },
+  "counts": {
+    "reviewed": 71,
+    "reviewed_refined": 22,
+    "reviewed_new": 34,
+    "reviewed_withdrawn_loans": 15,
+    "reviewed_changes": 71,
+    "reviewed_kept": 0,
+    "previous_consensus": 38,
+    "total_changes": 109
+  },
+  "proposals": [
+    {
+      "id": "E1101-00020",
+      "uid": "scr.xfl::1101.gsc::slot/00020",
+      "work": "Encore",
+      "packet": "E001",
+      "scene": 1101,
+      "slot": 20,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "325c5a6b07ae054df9fd1a6b3e6f6cfd685212336e5f536c7babdd150e9df3e0",
+      "source_ja": "「ドロシー」は自らの胸の上に手を置いて、^n　服の表面をぎゅっと握りしめた。",
+      "submitted_ko": "「도로시」는 자신의 가슴 위에 손을 얹고^n옷자락을 꽉 움켜쥐었다.",
+      "proposed_ko": "「도로시」는 가슴에 손을 얹고^n그대로 옷감을 꽉 움켜쥐었다.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "다음 행은 아픈 부위를 몸이 기억한다고 설명한다. 손이 가슴에서 옷자락으로 옮겨 가는 동작을 없앴다.",
+      "context_ids": [
+        "E1101-00017",
+        "E1101-00019",
+        "E1101-00021",
+        "E1101-00023"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "「도로시」는 자신의 가슴 위에 손을 얹고^n그곳의 옷감을 꽉 움켜쥐었다."
+    },
+    {
+      "id": "E1101-00064",
+      "uid": "scr.xfl::1101.gsc::slot/00064",
+      "work": "Encore",
+      "packet": "E001",
+      "scene": 1101,
+      "slot": 64,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "68cf0d839f90d5a7cadb849d574175b7bca123edab1123544960ae87ee5d0bcf",
+      "source_ja": "どこにも行く必要なんてないと気づくことだ。^n君が本当は何者で、どこにいてなにをしていた人物か。",
+      "submitted_ko": "어디에도 갈 필요가 없다는 걸 깨닫는 거야.^n네가 진짜로 누구인지, 어디에 있고 무엇을 하던 사람인지.",
+      "proposed_ko": "어디에도 갈 필요가 없다는 걸 깨닫는 거야.^n네가 진짜로 누구인지, 어디서 무엇을 하던 사람인지.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "입원 전에 어디서 무엇을 했던 사람인지 묻는다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1101-00126",
+      "uid": "scr.xfl::1101.gsc::slot/00126",
+      "work": "Encore",
+      "packet": "E001",
+      "scene": 1101,
+      "slot": 126,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "7321d524725fb47ab432f101b354b1a1e2e3c0220e74d1a68c17c9545de272af",
+      "source_ja": "（ここは病院で、彼女たちは患者だ。^n　患者を餌付けしてどうする。^n　こんなところには二度と来たくない、と思わせるべきなのに）",
+      "submitted_ko": "（여기는 병원이고, 애들은 환자야.^n　환자한테 먹이를 줘서 어쩌자는 거지.^n　이런 곳엔 두 번 다시 오기 싫다, 싶게 만들어야 할 텐데）",
+      "proposed_ko": "（여기는 병원이고, 애들은 환자야.^n　환자를 먹을 걸로 길들여서 어쩌자는 거지.^n　이런 곳엔 두 번 다시 오기 싫다, 싶게 만들어야 할 텐데）",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "餌付け는 먹이를 주어 따르게 하는 일이다. 바로 다음에 병원으로 돌아오고 싶지 않게 해야 한다는 이케노의 생각이 나온다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1102-00152",
+      "uid": "scr.xfl::1102.gsc::slot/00152",
+      "work": "Encore",
+      "packet": "E002",
+      "scene": 1102,
+      "slot": 152,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "7b028b3ba7601cd0c3c0b8abad9df3c711982e622471f3eab8c8ca4bff70037f",
+      "source_ja": "もしかしたら自分がドロシーではなくて、^n幼いころから入退院を繰り返してきた病弱な娘であることを、^n思い出しかけているのかもしれない。",
+      "submitted_ko": "어쩌면 자신이 도로시가 아니라^n어릴 적부터 입퇴원을 반복해 온 병약한 딸임을^n떠올리려 하고 있는지도 모른다.",
+      "proposed_ko": "어쩌면 자신이 도로시가 아니라^n어릴 적부터 입퇴원을 반복해 온 병약한 소녀임을^n떠올리려 하고 있는지도 모른다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "지금 떠올리려는 것은 부모와의 관계가 아니라 병약했던 자기 정체다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1102-00216",
+      "uid": "scr.xfl::1102.gsc::slot/00216",
+      "work": "Encore",
+      "packet": "E003",
+      "scene": 1102,
+      "slot": 216,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "9f7d8e3b5b1589cd0c3f0e3c8d942d1a9751b49245b4be32a8d97972f6038ca6",
+      "source_ja": "「今はまだ、ライオンのなりそこないだけどね……」",
+      "submitted_ko": "「지금은 아직 사자 흉내쟁이일 뿐이지만……」",
+      "proposed_ko": "「지금은 아직 반쪽짜리 사자일 뿐이지만……」",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "용기를 얻기 전인 사자 퍼핏이 스스로를 낮춘다. 「なりそこない」는 사자를 흉내 내는 사람이라는 뜻이 아니다.",
+      "context_ids": [
+        "E1102-00213",
+        "E1102-00214",
+        "E1102-00217",
+        "E1102-00218"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "「지금은 아직 변변찮은 사자일 뿐이지만……」",
+      "gemini_review_proposal": "「지금은 아직 반쪽짜리 사자일 뿐이지만……」"
+    },
+    {
+      "id": "E1104-00020",
+      "uid": "scr.xfl::1104.gsc::slot/00020",
+      "work": "Encore",
+      "packet": "E005",
+      "scene": 1104,
+      "slot": 20,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "d34a926f9c98ae122a89288c3e88e3b8067eb0922f672eea7e12c705b9008755",
+      "source_ja": "彼女の頭の中が食欲に支配されていくのが、^n傍目にもはっきりと見て取れた。",
+      "submitted_ko": "그녀의 머릿속이 식욕에 지배되어 가는 것이^n곁눈질로도 똑똑히 보였다.",
+      "proposed_ko": "그녀의 머릿속이 식욕에 지배되어 가는 것이^n옆에서 보기에도 똑똑히 보였다.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "앞 행에서 케이크를 보며 그레텔의 표정이 풀린다. 「傍目にも」는 곁에서 보는 사람에게도 식욕이 드러난다는 뜻이다.",
+      "context_ids": [
+        "E1104-00018",
+        "E1104-00019",
+        "E1104-00021",
+        "E1104-00023"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "그녀의 머릿속이 식욕에 지배되어 가는 것이^n옆에서 보는 사람 눈에도 훤했다.",
+      "gemini_review_proposal": "그녀의 머릿속이 식욕에 지배되어 가는 것이^n옆에서 보기에도 똑똑히 보였다."
+    },
+    {
+      "id": "E1104-00048",
+      "uid": "scr.xfl::1104.gsc::slot/00048",
+      "work": "Encore",
+      "packet": "E005",
+      "scene": 1104,
+      "slot": 48,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "9d41882eed35506207309028d80e0013bd9b180c91780ff97b1c02caea6bae44",
+      "source_ja": "誰かが乗りうつったような声で語りながら、^n腕だけは機械のように正確にケーキを仕上げていくアリス。",
+      "submitted_ko": "누군가에게 씌인 듯한 목소리로 이야기하면서도^n팔만큼은 기계처럼 정확하게 케이크를 완성해 나가는 앨리스.",
+      "proposed_ko": "누군가에게 씐 듯한 목소리로 이야기하면서도^n팔만큼은 기계처럼 정확하게 케이크를 완성해 나가는 앨리스.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "동사 ‘씌다’의 관형형은 ‘씐’이다. 같은 표기가 나온 두 작품의 다른 행도 함께 바로잡는다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1104-00050",
+      "uid": "scr.xfl::1104.gsc::slot/00050",
+      "work": "Encore",
+      "packet": "E005",
+      "scene": 1104,
+      "slot": 50,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "c62e2ee6cb6d547413f7a9dfed634cd66e10a6e99d3cddbaa1d4c2453b07ec30",
+      "source_ja": "ケーキはクリームを塗るために回転するから、^n同じ場所で口を動かしていれば勝手に口の中に飛び込んでくるのだ。^n横着だが、効率のいい片づけ方といえた。",
+      "submitted_ko": "케이크는 크림을 바르느라 회전하므로^n제자리에서 입만 벌리고 있으면 저절로 입안으로 들어온다.^n게으르지만 효율적인 처리 방식이라 할 수 있었다.",
+      "proposed_ko": "케이크는 크림을 바르느라 회전하므로^n제자리에서 입만 오물거리고 있으면 저절로 입안으로 들어온다.^n게으르지만 효율적인 처리 방식이라 할 수 있었다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "회전하는 케이크를 한 자리에서 계속 먹고 있다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1104-00052",
+      "uid": "scr.xfl::1104.gsc::slot/00052",
+      "work": "Encore",
+      "packet": "E005",
+      "scene": 1104,
+      "slot": 52,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "アリス",
+      "source_sha256": "6eaa105af1d113dca56092e59707064a3cd040d3b8dbd59216b20e0e0293eb13",
+      "source_ja": "ああ、あんなに座りにくそうなブッシュ・ド・ノエルは^n見たことがないわ。^n困った子だこと……。",
+      "submitted_ko": "아아, 저렇게나 자리 잡기 힘들어 보이는 부쉬 드 노엘은^n본 적이 없네.^n못 말리는 아이라니까…….",
+      "proposed_ko": "아아, 저렇게 앉기 불편해 보이는 부쉬 드 노엘은^n본 적이 없네.^n못 말리는 아이라니까…….",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "그레텔이 먹어 치운 통나무 모양 케이크를 두고 앉을 자리를 논하는 앨리스의 농담이다. 「座りにくい」의 동작을 살렸다.",
+      "context_ids": [
+        "E1104-00049",
+        "E1104-00050",
+        "E1104-00054",
+        "E1104-00056"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 316,
+        "original_member": "voice.xfl/0316.wav",
+        "source_sha256": "f9913d40174eb59c56e11d7732e70f01f8ad536ebdd4e2f2f5b4e4b225e82bfb",
+        "decoded_seconds": 2.939
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "아아, 그렇게나 걸터앉기 힘들어 보이는 부쉬 드 노엘은^n본 적이 없네.^n못 말리는 아이라니까……."
+    },
+    {
+      "id": "E1104-00076",
+      "uid": "scr.xfl::1104.gsc::slot/00076",
+      "work": "Encore",
+      "packet": "E005",
+      "scene": 1104,
+      "slot": 76,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ドロシー",
+      "source_sha256": "c50a0d2228aedd0b95e7f7cf4c29edf3aab64291f4d7aea3c5bd2b4de68b7069",
+      "source_ja": "そうだよ、もう結構遊んだでしょ。^nいい加減覚えてよ。",
+      "submitted_ko": "맞아, 벌써 꽤 같이 놀았잖아.^n적당히 좀 기억해 줘.",
+      "proposed_ko": "맞아, 벌써 꽤 같이 놀았잖아.^n이젠 좀 기억해 줘.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이미 여러 번 함께 놀았다고 투덜댄다. 기억하는 정도를 적당히 하라는 뜻이 아니다.",
+      "context_ids": [],
+      "linked_id": null,
+      "voice": {
+        "id": 326,
+        "original_member": "voice.xfl/0326.wav",
+        "source_sha256": "2a03b2e7a152b30d5b8da36e1f2161fcbc43a20fc2da5e3995204e2e19be4759",
+        "decoded_seconds": 1.952
+      }
+    },
+    {
+      "id": "E1105-00017",
+      "uid": "scr.xfl::1105.gsc::slot/00017",
+      "work": "Encore",
+      "packet": "E006",
+      "scene": 1105,
+      "slot": 17,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "b280729313ee4a5ec49f4d2893e662795d3e5fd21f50a8799ece6b980469a3a8",
+      "source_ja": "ここからでは、チラチラとしかその姿は窺えないけれど、^n彼の髪も肌も服も、^n神々しいほどに美しいエメラルド色に染まっている。",
+      "submitted_ko": "여기서는 언뜻언뜻 그 모습밖에 보이지 않지만,^n그의 머리도 피부도 옷도^n신성할 정도로 아름다운 에메랄드빛으로 물들어 있다.",
+      "proposed_ko": "여기서는 그 모습이 언뜻언뜻 보일 뿐이지만,^n그의 머리도 피부도 옷도^n신성할 정도로 아름다운 에메랄드빛으로 물들어 있다.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "열린 문 너머에서 의사를 부분적으로만 볼 수 있다. 「しか」가 제한하는 것은 보이는 대상의 종류가 아니라 보이는 정도다.",
+      "context_ids": [
+        "E1105-00015",
+        "E1105-00016",
+        "E1105-00019",
+        "E1105-00021"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "여기서는 그 모습이 언뜻언뜻 보일 뿐이지만,^n그의 머리도 피부도 옷도^n신성할 정도로 아름다운 에메랄드빛으로 물들어 있다."
+    },
+    {
+      "id": "E1105-00107",
+      "uid": "scr.xfl::1105.gsc::slot/00107",
+      "work": "Encore",
+      "packet": "E006",
+      "scene": 1105,
+      "slot": 107,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "92f7abce768231a1c2ddf1d9f0d16d78c96ed027ef63e7080007fdb9567fedd2",
+      "source_ja": "おもらしを我慢しすぎたせいで、^n溜まったもので身体が破裂してしまったかと思った。^nそれほどの衝撃だった。",
+      "submitted_ko": "실수를 참다못한 탓에^n고여 있던 것으로 몸이 터져 버린 줄 알았다.^n그토록 격렬한 충격이었다.",
+      "proposed_ko": "오줌을 너무 오래 참은 탓에^n고여 있던 것으로 몸이 터져 버린 줄 알았다.^n그토록 격렬한 충격이었다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "오래 참아 쌓인 것이 몸을 터뜨리는 느낌이라고 비유한다. 뒤에서 실제로 오줌을 싸지는 않았다고 확인한다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1105-00141",
+      "uid": "scr.xfl::1105.gsc::slot/00141",
+      "work": "Encore",
+      "packet": "E006",
+      "scene": 1105,
+      "slot": 141,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "ae05ce712df16d184109822cf06cb455676b6609c7ea5ba62c84b06469fe1b04",
+      "source_ja": "ドロシーは物陰で服をまとい、^n約束した待ち合わせ場所に向けて駆けだした。",
+      "submitted_ko": "도로시는 그늘진 곳에서 옷을 걸치고^n약속한 만남의 장소를 향해 달려 나갔다.",
+      "proposed_ko": "도로시는 남의 눈을 피해 옷을 걸치고^n약속한 만남의 장소를 향해 달려 나갔다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "옷을 걸치는 장소의 특징은 몸을 가릴 수 있다는 것이다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1106-00040",
+      "uid": "scr.xfl::1106.gsc::slot/00040",
+      "work": "Encore",
+      "packet": "E007",
+      "scene": 1106,
+      "slot": 40,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "2d4bd1a1c1cf68b7eeec2dbfea11d1701cc8bd5c94b682d1142c9d273d5f2f95",
+      "source_ja": "あとは本来の旅の同行者たちの意見次第、と横目で窺うと、^nなにやら寄り集まって相談していた３人も^nちょうどこちらを見やったところだった。",
+      "submitted_ko": "나머지는 본래 여행 동행자들의 의견에 달렸다 싶어 곁눈질하자,^n어쩐지 모여 앉아 상의하던 세 사람도^n마침 이쪽을 바라본 참이었다.",
+      "proposed_ko": "이제 원래 일행들의 뜻에 달렸다 싶어 곁눈질하자,^n한데 모여 뭔가를 의논하던 셋도^n마침 이쪽을 바라보는 참이었다.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "세 일행이 의논한 내용이 불분명하다. 「なにやら」를 의논에 걸고, 원문에 없는 앉은 자세를 덧붙이지 않았다.",
+      "context_ids": [
+        "E1106-00038",
+        "E1106-00039",
+        "E1106-00041",
+        "E1106-00043"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "나머지는 본래 여행 동행자들의 의견에 달렸다 싶어 곁눈질하자,^n무언가 한데 모여 상의하던 세 사람도^n마침 이쪽을 바라본 참이었다."
+    },
+    {
+      "id": "E1106-00077",
+      "uid": "scr.xfl::1106.gsc::slot/00077",
+      "work": "Encore",
+      "packet": "E007",
+      "scene": 1106,
+      "slot": 77,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "aaa8bb146ce8c971dc384c599c59281ede32382f177db10c9de72435252c27ab",
+      "source_ja": "　その存在を忘れていたわけではない。^n　ただ、いつかのオデットの言い分ではないけれど^n「いるけど、いない」という表現がしっくりくる。",
+      "submitted_ko": "그 존재를 잊고 있던 것은 아니다.^n다만 언젠가 오데트가 한 말은 아니지만^n「있지만, 없는 것」이라는 표현이 꼭 들어맞는다.",
+      "proposed_ko": "그 존재를 잊고 있던 것은 아니다.^n다만 전에 오데트가 했던 말처럼^n「있지만, 없는 것」이라는 표현이 꼭 들어맞는다.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "토토가 있으면서도 없는 듯한 상황에 오데트가 전에 한 말을 빌려 온다. 그 말을 한 적이 없다는 부정으로 읽으면 인용 관계가 뒤집힌다.",
+      "context_ids": [
+        "E1106-00075",
+        "E1106-00076",
+        "E1106-00078",
+        "E1106-00079"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "그 존재를 잊고 있던 것은 아니다.^n다만 전에 오데트가 했던 말처럼^n「있지만, 없는 것」이라는 표현이 꼭 들어맞는다.",
+      "gemini_review_proposal": "그 존재를 잊고 있던 것은 아니다.^n다만 언젠가 오데트가 한 말마따나^n「있지만, 없는 것」이라는 표현이 꼭 들어맞는다."
+    },
+    {
+      "id": "E1107-00104",
+      "uid": "scr.xfl::1107.gsc::slot/00104",
+      "work": "Encore",
+      "packet": "E008",
+      "scene": 1107,
+      "slot": 104,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "c9be25c5e19da17e6aa59af7ac2dd71acc47fa64344adcc58b4aa219f3950155",
+      "source_ja": "まるで、突然舞台の上で^nスポットライトを浴びせられた黒子のようだとイケノは思った。",
+      "submitted_ko": "마치 무대 위에서 갑자기^n스포트라이트를 받은 검은 옷의 조역 같다고 이케노는 생각했다.",
+      "proposed_ko": "마치 무대 위에서 갑자기 스포트라이트를 받은^n검은 옷의 무대 보조원 같다고 이케노는 생각했다.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "곧바로 이케노에게 보여 줄 재주가 없다는 독백이 이어진다. 「黒子」는 무대에 올랐어도 관객에게 보이지 않는 검은 옷의 보조원이다.",
+      "context_ids": [
+        "E1107-00101",
+        "E1107-00103",
+        "E1107-00105",
+        "E1107-00106"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "갑자기 무대 위에서 스포트라이트를 받은^n검은 옷의 무대 보조원 같다고 이케노는 생각했다.",
+      "gemini_review_proposal": "마치 무대 위에서 갑자기 스포트라이트를 받은^n검은 옷의 무대 보조원 같다고 이케노는 생각했다."
+    },
+    {
+      "id": "E1107-00152",
+      "uid": "scr.xfl::1107.gsc::slot/00152",
+      "work": "Encore",
+      "packet": "E009",
+      "scene": 1107,
+      "slot": 152,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "33df0d120840b5f0b2d753276cfd23d47e220c5da9048eb8956e33aea503d3ba",
+      "source_ja": "笑いをこらえるように口元を引きつらせながら物語を読みあげ、^n無様な「作家ごっこ」だとため息をついた父の言葉に対し、^nイケノは──理解と共感を覚えてしまったのだ。",
+      "submitted_ko": "웃음을 참듯 입가를 실룩이며 이야기를 읽어 내려가고,^n추잡한 「작가 놀이」라며 한숨을 쉰 아버지의 말에 대해^n이케노는──이해와 공감을 느끼고 말았던 것이다.",
+      "proposed_ko": "웃음을 참듯 입가를 실룩이며 이야기를 읽어 내려가고,^n꼴사나운 「작가 놀이」라며 한숨을 쉰 아버지의 말에 대해^n이케노는──이해와 공감을 느끼고 말았던 것이다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "아버지가 비웃는 것은 아들의 서툰 작가 흉내다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1107-00227",
+      "uid": "scr.xfl::1107.gsc::slot/00227",
+      "work": "Encore",
+      "packet": "E009",
+      "scene": 1107,
+      "slot": 227,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "7563ee668c2c7252b3ef18cdda4662ef8bfa6efbcf15f81a07f0ab2a5c647360",
+      "source_ja": "旅に同行するとはいっても、あくまでもこの物語のヒロインは君だ。^n僕は必ず君の願いを叶えてみせるよ。",
+      "submitted_ko": "여행에 동행한다곤 해도, 어디까지나 이 이야기의 주인공은 너야.^n내가 반드시 네 소원을 이루어 줄게.",
+      "proposed_ko": "여행에 동행한다곤 해도, 어디까지나 이 이야기의 히로인은 너야.^n내가 반드시 네 소원을 이루어 줄게.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이케노가 도로시에게 이야기의 배역을 일깨우며 「ヒロイン」이라고 부른다. 히로인이라는 호칭을 복원했다.",
+      "context_ids": [
+        "E1107-00224",
+        "E1107-00225",
+        "E1107-00228",
+        "E1107-00230"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "여행에 동행한다곤 해도, 어디까지나 이 이야기의 히로인은 너야.^n내가 반드시 네 소원을 이루어 줄게.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1108-00161",
+      "uid": "scr.xfl::1108.gsc::slot/00161",
+      "work": "Encore",
+      "packet": "E011",
+      "scene": 1108,
+      "slot": 161,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ドロシー",
+      "source_sha256": "5afb074025663bc76c5ed62e5421c9f482ab2d2a5b9fff2e110d84eaa6426cfa",
+      "source_ja": "なに、してんのかしらね、私たち……。",
+      "submitted_ko": "우리, 뭐 하고 있었던 걸까…….",
+      "proposed_ko": "우리, 지금 뭘 하고 있는 걸까…….",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "현재의 처지를 돌아보는 말이다. 바로 뒤 앨리스가 과거의 일을 잊고 묻는 대사와 구별된다.",
+      "context_ids": [],
+      "linked_id": null,
+      "voice": {
+        "id": 743,
+        "original_member": "voice.xfl/0743.wav",
+        "source_sha256": "b9aacf5d8d5eb682d668ef98847bfdfbdd07eee817c483f8dad5f0be5afb11d5",
+        "decoded_seconds": 0.431
+      }
+    },
+    {
+      "id": "E1108-00265",
+      "uid": "scr.xfl::1108.gsc::slot/00265",
+      "work": "Encore",
+      "packet": "E011",
+      "scene": 1108,
+      "slot": 265,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "アリス",
+      "source_sha256": "9a4c9112c14b5f4a60299f1ba13e3c6fc002a730a5bda31ee64c5fa3d4b4727d",
+      "source_ja": "あなたが旅に出た理由は、あなたの心が知っているのよ。^nあなたが目指したものは、あなたの欲しいもの。^nこのイコールは揺るがない。",
+      "submitted_ko": "네가 여행을 떠난 이유는 네 마음이 알고 있어.^n네가 향했던 곳은 네가 원하는 것.^n이 등식은 흔들리지 않아.",
+      "proposed_ko": "네가 여행을 떠난 이유는 네 마음이 알고 있어.^n네가 목표로 삼은 것과 네가 원하는 것.^n그 둘은 이퀄이야. 그건 변하지 않아.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "바로 앞의 두 계산식과 뒤의 등호를 잇는 앨리스의 말이다. 「もの」는 목표물까지 포함하고, 수학을 빗댄 외래어 「イコール」를 살렸다.",
+      "context_ids": [
+        "E1108-00261",
+        "E1108-00263",
+        "E1108-00266",
+        "E1108-00267"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 783,
+        "original_member": "voice.xfl/0783.wav",
+        "source_sha256": "9a4222198bf25ee1014f78899d91be21dddb161a08ec63c489bc5871d7c618a8",
+        "decoded_seconds": 2.445
+      },
+      "previous_codex_proposal": "네가 여행을 떠난 이유는 네 마음이 알고 있어.^n네가 추구했던 건 네가 원하는 것.^n이 등식은 흔들리지 않아.",
+      "gemini_review_proposal": "네가 여행을 떠난 이유는 네 마음이 알고 있어.^n네가 목표로 삼은 것은 네가 원하는 것.^n이 등식은 흔들리지 않아."
+    },
+    {
+      "id": "E1108-00280",
+      "uid": "scr.xfl::1108.gsc::slot/00280",
+      "work": "Encore",
+      "packet": "E011",
+      "scene": 1108,
+      "slot": 280,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "3a2df18f3d02b229b7d6c0598de3cf6ace20784ae340ab284a83a14c44a7c00e",
+      "source_ja": "おともたちの口を借りて放たれるそれらは、^n戒めというには言葉が深すぎ、思いこみというには冷徹すぎて、^nまるで彼自身への呪いのように感じられたから。",
+      "submitted_ko": "동행들의 입을 빌려 내뱉어지는 그 말들은^n경계라기엔 말이 너무 깊고, 착각이라기엔 너무 냉철해서,^n마치 그 자신에게 거는 저주처럼 느껴졌기 때문이다.",
+      "proposed_ko": "동행들의 입을 빌려 나온 그 말들은^n스스로를 타이르기엔 너무 깊고, 착각이라기엔 너무 냉철해서,^n마치 그 자신에게 거는 저주처럼 느껴졌기 때문이다.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "머리도 마음도 용기도 없다고 퍼핏을 통해 되뇌는 이케노를 도로시가 바라본다. 「戒め」는 자신을 경계하는 말이며, 반성하는 행위로 바꾸지 않았다.",
+      "context_ids": [
+        "E1108-00278",
+        "E1108-00279",
+        "E1108-00281",
+        "E1108-00282"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "동행들의 입을 빌려 내뱉어지는 그 말들은^n자성이라기엔 말이 너무 깊고, 착각이라기엔 너무 냉철해서,^n마치 그 자신에게 거는 저주처럼 느껴졌기 때문이다."
+    },
+    {
+      "id": "E1109-00149",
+      "uid": "scr.xfl::1109.gsc::slot/00149",
+      "work": "Encore",
+      "packet": "E013",
+      "scene": 1109,
+      "slot": 149,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "cdadde7e70f2c086cf4e4ee96fa0bc21c0fb203efc17a4bf610d5d2301a1333d",
+      "source_ja": "（──いいんだ。^n　とにかく、今は元気になってもらわないと）",
+      "submitted_ko": "（──괜찮아.^n　어쨌든 지금은 기운을 차려야지）",
+      "proposed_ko": "（──괜찮아.^n　어쨌든 지금은 도로시가 기운을 차리는 게 먼저야）",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "아파서 숨쉬기도 힘든 도로시를 보고 이케노가 속으로 하는 말이다. 「元気になってもらわないと」에서 회복해야 할 사람을 밝혔다.",
+      "context_ids": [
+        "E1109-00146",
+        "E1109-00147",
+        "E1109-00150",
+        "E1109-00151"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "（──괜찮아.^n　어쨌든 지금은 몸부터 나아 줘야 하니까）"
+    },
+    {
+      "id": "E1109-00206",
+      "uid": "scr.xfl::1109.gsc::slot/00206",
+      "work": "Encore",
+      "packet": "E013",
+      "scene": 1109,
+      "slot": 206,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "2837ade18dc13da746cd47213eb147198804e44119097f10ceae72d751f1ffc2",
+      "source_ja": "僕は君になんかちっともふさわしくない。^nだから──君を愛していいのかどうかわからないけど。",
+      "submitted_ko": "나는 너 같은 아이에게 조금도 어울리지 않아.^n그래서──너를 사랑해도 될지 모르겠지만.",
+      "proposed_ko": "나는 너에게 조금도 걸맞지 않아.^n그래서──너를 사랑해도 될지 모르겠지만.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "고백 직전 이케노가 자신을 낮춘다. 「君になんか」에 한국어의 ‘너 같은 아이’가 주는 상대 비하를 붙이지 않았다.",
+      "context_ids": [
+        "E1109-00203",
+        "E1109-00204",
+        "E1109-00208",
+        "E1109-00210"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "나는 너에게 조금도 걸맞지 않아.^n그래서──너를 사랑해도 될지 모르겠지만."
+    },
+    {
+      "id": "E1112-00068",
+      "uid": "scr.xfl::1112.gsc::slot/00068",
+      "work": "Encore",
+      "packet": "E015",
+      "scene": 1112,
+      "slot": 68,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "db22ca9bb954d735853e1199de2bd53e654d80c5d491b8f55f70d1c8014aba95",
+      "source_ja": "そして、その願いはこのラストシーンにつながります。^n叔父さん、叔母さんにあたたかく迎えられて、^n帰ってきてよかった、と伝える──",
+      "submitted_ko": "그리고 그 바람은 이 마지막 장면으로 이어집니다.^n이모부와 이모의 따뜻한 환영을 받으며,^n돌아와서 다행이라고 전하는──",
+      "proposed_ko": "그리고 그 바람은 이 라스트 신으로 이어집니다.^n이모부와 이모의 따뜻한 환영을 받으며,^n돌아와서 다행이라고 전하는──",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이케노가 도로시의 귀향을 책의 결말과 연결하며 쓰는 「ラストシーン」이다. 이어지는 71행과 같은 ‘라스트 신’으로 옮겼다.",
+      "context_ids": [
+        "E1112-00064",
+        "E1112-00066",
+        "E1112-00069",
+        "E1112-00071"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "그리고 그 바람은 이 라스트 신으로 이어집니다.^n이모부와 이모의 따뜻한 환영을 받으며,^n돌아와서 다행이라고 전하는──",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1112-00071",
+      "uid": "scr.xfl::1112.gsc::slot/00071",
+      "work": "Encore",
+      "packet": "E015",
+      "scene": 1112,
+      "slot": 71,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "d77a559d8a1c126f85ec422f1e68813c1cfee0b439ebd35f5addf24b1391fc0f",
+      "source_ja": "彼女を「ドロシー」にしてしまったもの、^nオズの世界に捕らえて帰さないものは、^nこのラストシーンへの期待と不安だと、僕はそう考えています。",
+      "submitted_ko": "그 아이를 「도로시」로 만들어 버린 것,^n오즈의 세계에 가두고 돌려보내지 않는 것은^n이 마지막 장면에 대한 기대와 불안이라고 저는 생각합니다.",
+      "proposed_ko": "그 아이를 「도로시」로 만들어 버린 것,^n오즈의 세계에 가두고 돌려보내지 않는 것은^n이 라스트 신에 대한 기대와 불안이라고 저는 생각합니다.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "68행에서 지목한 바로 그 장면에 대한 기대와 두려움을 설명한다. 같은 화자가 반복하는 외래어를 맞췄다.",
+      "context_ids": [
+        "E1112-00068",
+        "E1112-00069",
+        "E1112-00073",
+        "E1112-00075"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "그 아이를 「도로시」로 만들어 버린 것,^n오즈의 세계에 가두고 돌려보내지 않는 것은^n이 라스트 신에 대한 기대와 불안이라고 저는 생각합니다.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1112-00081",
+      "uid": "scr.xfl::1112.gsc::slot/00081",
+      "work": "Encore",
+      "packet": "E015",
+      "scene": 1112,
+      "slot": 81,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "325821151df32dc701f6b094f5df660d66f819fdad6cefd51716d99ca26819c8",
+      "source_ja": "「帰る場所」──^n　そのキーワードがイケノの胸に染みた。",
+      "submitted_ko": "「돌아올 곳」──^n그 열쇳말이 이케노의 가슴에 스며들었다.",
+      "proposed_ko": "「돌아올 곳」──^n그 키워드가 이케노의 가슴에 스며들었다.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이모부가 한 「帰る場所」를 받아 서술자가 「キーワード」라고 명명한다. 작품의 다른 ‘키워드’와 표기를 맞췄다.",
+      "context_ids": [
+        "E1112-00078",
+        "E1112-00080",
+        "E1112-00083",
+        "E1112-00085"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "「돌아올 곳」──^n그 키워드가 이케노의 가슴에 스며들었다.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1113-00092",
+      "uid": "scr.xfl::1113.gsc::slot/00092",
+      "work": "Encore",
+      "packet": "E016",
+      "scene": 1113,
+      "slot": 92,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "1f2080f138539851ecff1d079a836eb812ad09f2ba662661277980c034544b7b",
+      "source_ja": "渦を巻く色彩の狭間に、少女はふたつの世界を見た。^n男に強姦されようとしているただの少女と。^nエメラルドの国でオズ様に会っているドロシーと。",
+      "submitted_ko": "소용돌이치는 색채 틈에서 소녀는 두 세계를 보았다.^n남자에게 겁탈당하려는 평범한 소녀와.^n에메랄드 나라에서 오즈 님을 만나는 도로시와.",
+      "proposed_ko": "소용돌이치는 색채 틈에서 소녀는 두 세계를 보았다.^n남자에게 겁탈당하기 직전인 평범한 소녀와.^n에메랄드 나라에서 오즈 님을 만나는 도로시와.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "소녀가 두 현실을 동시에 보는 순간이다. 수동형과 임박을 분명히 해, 소녀 자신이 그 일을 하려는 듯한 해석을 막았다.",
+      "context_ids": [
+        "E1113-00090",
+        "E1113-00091",
+        "E1113-00093",
+        "E1113-00094"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "소용돌이치는 색채 틈에서 소녀는 두 세계를 보았다.^n남자에게 겁탈당할 위기에 놓인 평범한 소녀와.^n에메랄드 나라에서 오즈 님을 만나는 도로시와.",
+      "gemini_review_proposal": "소용돌이치는 색채 틈에서 소녀는 두 세계를 보았다.^n남자에게 겁탈당하기 직전인 평범한 소녀와.^n에메랄드 나라에서 오즈 님을 만나는 도로시와."
+    },
+    {
+      "id": "E1113-00099",
+      "uid": "scr.xfl::1113.gsc::slot/00099",
+      "work": "Encore",
+      "packet": "E016",
+      "scene": 1113,
+      "slot": 99,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ドロシー",
+      "source_sha256": "644b21d5e0ae75bd971afd78d5b4365c133e0b54f850588c05a47224a903a09a",
+      "source_ja": "（い、た……痛い、痛いよ……。^n　身体が裂けちゃうよ……。^n　熱い、苦しい、気持ち悪い）",
+      "submitted_ko": "（아, 아파…… 아파, 아파요…….^n　몸이 찢어져 버려…….^n　뜨거워, 괴로워, 기분 나빠）",
+      "proposed_ko": "（아, 아파…… 아파, 아파…….^n　몸이 찢어져 버려…….^n　뜨거워, 괴로워, 기분 나빠）",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "괄호 속에서 도로시가 느끼는 고통을 반복한다. 존댓말이나 누군가를 설득하는 어투를 붙이지 않고 끊어지는 독백을 살렸다.",
+      "context_ids": [
+        "E1113-00096",
+        "E1113-00097",
+        "E1113-00100",
+        "E1113-00101"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 1112,
+        "original_member": "voice.xfl/1112.wav",
+        "source_sha256": "c9b7b7c95976eb173dcf74d6993965693848ee53bc3d6aa3ee2622591833a4fa",
+        "decoded_seconds": 1.453
+      },
+      "previous_codex_proposal": "（아, 아파…… 아파, 아파…….^n　몸이 찢어져 버려…….^n　뜨거워, 괴로워, 기분 나빠）",
+      "gemini_review_proposal": "（아, 아파…… 아파, 아프단 말이야…….^n　몸이 찢어져 버려…….^n　뜨거워, 괴로워, 기분 나빠）"
+    },
+    {
+      "id": "E1113-00154",
+      "uid": "scr.xfl::1113.gsc::slot/00154",
+      "work": "Encore",
+      "packet": "E016",
+      "scene": 1113,
+      "slot": 154,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "1ee0f33e3779d40de85218a29a359b2caa0ca252214ab42f99879bfdfed6fc97",
+      "source_ja": "そのように変えられてしまったことが厭わしくて厭わしくて、^n",
+      "submitted_ko": "그렇게 변해 버린 것이 지독하게 혐오스러워서,^n",
+      "proposed_ko": "남의 손에 그렇게 바뀌어 버린 것이 지독하게 혐오스러워서,^n",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "원문은 피해자가 타인에 의해 바뀌었다는 피동이다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1116-00052",
+      "uid": "scr.xfl::1116.gsc::slot/00052",
+      "work": "Encore",
+      "packet": "E018",
+      "scene": 1116,
+      "slot": 52,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "e3128f1de591caf0a57a5b65e272ee4c5c6bc5867874891bb59c8e0b24b0d000",
+      "source_ja": "元々薄汚れていたパペットたちは、^n最近酷使しているせいで、^nかなりボロボロになってしまっている。",
+      "submitted_ko": "원래부터 거무스름하던 퍼핏들은^n최근 혹사당한 탓에^n꽤 너덜너덜해져 있다.",
+      "proposed_ko": "원래부터 때가 타 있던 퍼핏들은^n최근 혹사당한 탓에^n꽤 너덜너덜해져 있다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "薄汚れていた는 오염을 뜻한다. 최근에 혹사해서 너덜너덜해졌다는 설명으로 이어진다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1116-00117",
+      "uid": "scr.xfl::1116.gsc::slot/00117",
+      "work": "Encore",
+      "packet": "E018",
+      "scene": 1116,
+      "slot": 117,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "610c3543b099cdb11642138d4d9a3faa672dc2b1a6e784db94bd85609d34a7c3",
+      "source_ja": "「聖書」のラストシーン通り、^n　優しく出迎えられることを心の底では望んでいる。",
+      "submitted_ko": "「성경」의 마지막 장면처럼^n　다정하게 맞이받기를 마음속 깊은 곳에서는 바라고 있다.",
+      "proposed_ko": "「성경」의 라스트 신처럼^n　자기를 다정하게 맞아 주길 마음속 깊이 바라고 있다.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "앞선 독백에서 이모와 이모부가 귀향을 기다린다고 한다. 반복어 ‘라스트 신’을 살리고 ‘맞이받다’의 부자연스러운 피동을 풀었다.",
+      "context_ids": [
+        "E1116-00114",
+        "E1116-00116",
+        "E1116-00118",
+        "E1116-00120"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "「성경」의 라스트 신처럼^n　다정하게 맞이받기를 마음속 깊은 곳에서는 바라고 있다.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1117-00040",
+      "uid": "scr.xfl::1117.gsc::slot/00040",
+      "work": "Encore",
+      "packet": "E019",
+      "scene": 1117,
+      "slot": 40,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "b21c26e71dcd5b03516a614dbd30b4cdfb10f76eb67ef55e6aa87175999cf2dd",
+      "source_ja": "彼女自ら「ドロシー」と同一化することを望んだはずなのに、^nこの時ばかりは見知らぬ他人について^n聞かれたようなそっけなさだった。",
+      "submitted_ko": "스스로 「도로시」와 동일시되기를 바랐을 텐데도^n이때만큼은 낯선 남에 대해^n질문받은 것처럼 무뚝뚝했다.",
+      "proposed_ko": "스스로 「도로시」와 하나가 되기를 바랐을 텐데도^n이때만큼은 낯선 남에 대해^n질문받은 것처럼 무뚝뚝했다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "소녀 자신이 동화 속 인물과 하나 되기를 원했다. 남이 둘을 동일시해 주기 바란다는 뜻으로 읽히던 부분이다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1117-00044",
+      "uid": "scr.xfl::1117.gsc::slot/00044",
+      "work": "Encore",
+      "packet": "E019",
+      "scene": 1117,
+      "slot": 44,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "11f182ad3f7862539b0a25b9c81e278505daaa0aeb142c8186f136c6c239cbbb",
+      "source_ja": "それじゃあ、次の質問。^n君の「聖書」のラストシーン。",
+      "submitted_ko": "그럼 다음 질문.^n네 「성경」의 마지막 장면이야.",
+      "proposed_ko": "그럼 다음 질문.^n네 「성경」의 라스트 신이야.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이케노가 책을 펴서 도로시에게 결말을 읽어 주는 문답이다. 앞 장면부터 이어지는 ‘라스트 신’을 유지했다.",
+      "context_ids": [
+        "E1117-00040",
+        "E1117-00042",
+        "E1117-00045",
+        "E1117-00046"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "그럼 다음 질문.^n네 「성경」의 라스트 신이야.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1117-00050",
+      "uid": "scr.xfl::1117.gsc::slot/00050",
+      "work": "Encore",
+      "packet": "E019",
+      "scene": 1117,
+      "slot": 50,
+      "branch": "",
+      "kind": "이어쓰기",
+      "speaker_ja": "イケノ",
+      "source_sha256": "88e84fdc58aff54e0d2baca4e27e3dfd294b6349c1526badc3d28d2adacf95a1",
+      "source_ja": "　──物語は、ドロシーのこの台詞で終わる。",
+      "submitted_ko": "　──이야기는 도로시의 이 대사로 끝난다.",
+      "proposed_ko": "　──이야기는 도로시의 이 대사로 끝나지.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "49행의 인용이 끝나고 같은 대사 창에서 이케노가 도로시에게 풀이한다. 설명하는 구어 어미를 썼다.",
+      "context_ids": [
+        "E1117-00047",
+        "E1117-00049",
+        "E1117-00052",
+        "E1117-00054"
+      ],
+      "linked_id": "E1117-00049",
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "　──이야기는 도로시의 이 대사로 끝나지."
+    },
+    {
+      "id": "E1117-00065",
+      "uid": "scr.xfl::1117.gsc::slot/00065",
+      "work": "Encore",
+      "packet": "E019",
+      "scene": 1117,
+      "slot": 65,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "イケノ",
+      "source_sha256": "56edb097c7800a0f706a14bcbf90370df109950bc120b17767e9c01898cffede",
+      "source_ja": "この「ドロシー」と君とはどう違うんだろう。^n君がもしカンザスに帰ったとして、^nこのラストシーンはどう書き変わるのかな？",
+      "submitted_ko": "이 「도로시」와 너는 어떻게 다른 걸까.^n네가 만약 캔자스로 돌아간다면^n이 마지막 장면은 어떻게 바뀔까?",
+      "proposed_ko": "이 「도로시」와 너는 어떻게 다른 걸까.^n네가 만약 캔자스로 돌아간다면^n이 라스트 신은 어떻게 바뀔까?",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이케노는 같은 결말이 도로시 본인에게는 어떻게 달라질지 묻는다. 44행과 같은 용어를 썼다.",
+      "context_ids": [
+        "E1117-00062",
+        "E1117-00063",
+        "E1117-00067",
+        "E1117-00069"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "이 「도로시」와 너는 어떻게 다른 걸까.^n네가 만약 캔자스로 돌아간다면^n이 라스트 신은 어떻게 바뀔까?",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1117-00077",
+      "uid": "scr.xfl::1117.gsc::slot/00077",
+      "work": "Encore",
+      "packet": "E019",
+      "scene": 1117,
+      "slot": 77,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "896f2769703d81f5088944e02beb43c587066556ec54431568adc0b2d3c7b760",
+      "source_ja": "ドロシーは、駆け寄ってきたエムおばさんの^nキスや抱擁におびえたように身震いした。^n表情も固くこわばっている。",
+      "submitted_ko": "도로시는 달려온 엠 이모의^n입맞춤과 포옹에 겁먹은 듯 몸을 떨었다.^n표정도 딱딱하게 굳어 있다.",
+      "proposed_ko": "도로시는 달려온 엠 이모의^n키스와 포옹에 겁먹은 듯 몸을 떨었다.^n표정도 딱딱하게 굳어 있다.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "상상 속 귀향을 떠올리는 장면이다. 제출문의 ‘겁먹은 듯’이 이미 「ように」를 살리고 있어 보존하고 「キス」의 어휘만 복원했다.",
+      "context_ids": [
+        "E1117-00074",
+        "E1117-00076",
+        "E1117-00079",
+        "E1117-00081"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "도로시는 마치 달려온 엠 이모의^n입맞춤과 포옹에 겁먹기라도 한 듯 몸을 떨었다.^n표정도 딱딱하게 굳어 있다."
+    },
+    {
+      "id": "E1117-00106",
+      "uid": "scr.xfl::1117.gsc::slot/00106",
+      "work": "Encore",
+      "packet": "E019",
+      "scene": 1117,
+      "slot": 106,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "7e6067898a93b794fdd5b90e7e3cebbffc41f30d9e8b5e986546bb71d78dea11",
+      "source_ja": "激昂するドロシーの指に強い力が宿って、写真がよれる。^n握りつぶしてしまう前にと、イケノは写真を取り返した。",
+      "submitted_ko": "격앙된 도로시의 손가락에 강한 힘이 들어가며 사진이 구겨진다.^n구겨 버리기 전에 이케노는 사진을 도로 가져왔다.",
+      "proposed_ko": "격앙된 도로시의 손가락에 강한 힘이 들어가며 사진이 구겨진다.^n아예 손안에서 뭉개 버리기 전에 이케노는 사진을 도로 가져왔다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "첫 문장의 사진이 약간 구겨지는 단계와 다음의 握りつぶす를 구별한다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1117-00112",
+      "uid": "scr.xfl::1117.gsc::slot/00112",
+      "work": "Encore",
+      "packet": "E019",
+      "scene": 1117,
+      "slot": 112,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "1fdd261beaa549147afa5dba9b410add8f7c05f29d44c5e3d526d50aea781201",
+      "source_ja": "あえてジョークめかした言葉を選ぶが、^n不用意な現実との邂逅に衝撃を受けたのは明らかだった。",
+      "submitted_ko": "애써 농담 같은 말을 골랐지만,^n준비 없이 마주한 현실에 충격을 받은 것은 분명했다.",
+      "proposed_ko": "애써 조크처럼 들릴 말을 골랐지만,^n준비 없이 마주한 현실에 충격을 받은 것은 분명했다.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "도로시는 충격을 받은 뒤에도 일부러 우스갯소리처럼 말한다. 「ジョークめかした」에 담긴 조크라는 어휘와 꾸민 말투를 함께 살렸다.",
+      "context_ids": [
+        "E1117-00109",
+        "E1117-00111",
+        "E1117-00114",
+        "E1117-00115"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "애써 조크처럼 들릴 말을 골랐지만,^n준비 없이 마주한 현실에 충격을 받은 것은 분명했다.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1117-00164",
+      "uid": "scr.xfl::1117.gsc::slot/00164",
+      "work": "Encore",
+      "packet": "E019",
+      "scene": 1117,
+      "slot": 164,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ドロシー",
+      "source_sha256": "bc55d4fdc5367c3f04de1c7a6760f0f6e32f5375dfb34e6453b82c0d14be3488",
+      "source_ja": "……ただのイケノは、好きよ。",
+      "submitted_ko": "……그냥 이케노는 좋아.",
+      "proposed_ko": "……난 ‘그저 이케노’가 좋아.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이케노의 「ただの僕」에 도로시가 「ただのイケノ」로 화답한다. ‘그저’를 되받고 고백의 짧은 호흡을 살렸다.",
+      "context_ids": [
+        "E1117-00161",
+        "E1117-00162",
+        "E1117-00166",
+        "E1117-00168",
+        "E1117-00159"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 1423,
+        "original_member": "voice.xfl/1423.wav",
+        "source_sha256": "c1b2add8d7f0a16b0762b8c12c264b5adea606722b074b1a16d1b52773156657",
+        "decoded_seconds": 1.447
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "……‘그저 이케노’는, 좋아."
+    },
+    {
+      "id": "E1118-00031",
+      "uid": "scr.xfl::1118.gsc::slot/00031",
+      "work": "Encore",
+      "packet": "E020",
+      "scene": 1118,
+      "slot": 31,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "ce611719d40cfa5f2aeaef930c3806b1edfe97bd25cc45cabf3e3ca361c86f3b",
+      "source_ja": "イケノが口にしていたキーワードを胸の中でもてあそぶ。^n彼の真剣な瞳を思い浮かべ、優しい声を反芻する。",
+      "submitted_ko": "이케노가 입에 올렸던 열쇠 말들을 가슴속에서 굴려 본다.^n그의 진지한 눈동자를 떠올리고, 다정한 목소리를 되새긴다.",
+      "proposed_ko": "이케노가 입에 올렸던 키워드를 가슴속에서 굴려 본다.^n그의 진지한 눈동자를 떠올리고, 다정한 목소리를 되새긴다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "キーワード는 심포니 S1018-00024에서도 ‘키워드’로 옮긴다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1118-00044",
+      "uid": "scr.xfl::1118.gsc::slot/00044",
+      "work": "Encore",
+      "packet": "E020",
+      "scene": 1118,
+      "slot": 44,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ドロシー",
+      "source_sha256": "f10c94a5020f2ba0e8e9da10163812934a92bce2506d1e9c3f23bb3c48a1ccfb",
+      "source_ja": "（そうしたら、もっとあのひとが近くなる。^n　本当の、ありのままの、私の心で、^n　あのひとの心に寄り添える……）",
+      "submitted_ko": "（그러면 그 사람이 더 가까워질 거야.^n　진정한, 있는 그대로의 내 마음으로^n　그 사람의 마음에 기댈 수 있어……）",
+      "proposed_ko": "（그러면 그 사람이 더 가까워질 거야.^n　진정한, 있는 그대로의 내 마음으로^n　그 사람 곁에서 마음을 함께할 수 있어……）",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "도로시는 상대에게 기대고 싶어 하는 것이 아니라 그의 마음에 가까이 다가가 함께하고 싶어 한다.",
+      "context_ids": [],
+      "linked_id": null,
+      "voice": {
+        "id": 1505,
+        "original_member": "voice.xfl/1505.wav",
+        "source_sha256": "bac9d6afae545b4c16fd2892d5063e73fb6a401dcd9d8ae26c92dfeb6892a965",
+        "decoded_seconds": 1.447
+      }
+    },
+    {
+      "id": "E1118-00094",
+      "uid": "scr.xfl::1118.gsc::slot/00094",
+      "work": "Encore",
+      "packet": "E020",
+      "scene": 1118,
+      "slot": 94,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "ab0ec7b4bea6b846646d5daebcb7dfe92240ace147b2d3f1294158e37c59503e",
+      "source_ja": "「リビングニーズトクヤクよ。^n　ヨメイセンコク半年以内で^n　生きてるうちに下ろせるホケンね」",
+      "submitted_ko": "「리빙 니즈 특약이에요.^n　여명 선고 6개월 이내에^n　살아 있는 동안 타 낼 수 있는 보험이죠」",
+      "proposed_ko": "「리빙 니즈 특약이에요.^n　남은 수명이 6개월 이내라는 진단을 받으면^n　살아 있는 동안 타 낼 수 있는 보험이죠」",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "6개월 이내인 것은 보험금을 청구할 기한이 아니라 진단받은 남은 수명이다. 보험이 살아 있을 때 지급된다는 설명을 유지했다.",
+      "context_ids": [
+        "E1118-00092",
+        "E1118-00093",
+        "E1118-00095",
+        "E1118-00096"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "「리빙 니즈 특약이에요.^n　남은 수명이 6개월 이내라는 진단을 받으면^n　살아 있는 동안 타 낼 수 있는 보험이죠」",
+      "gemini_review_proposal": "「리빙 니즈 특약이에요.^n　여명 6개월 이내 선고를 받으면^n　살아 있는 동안 타 낼 수 있는 보험이죠」"
+    },
+    {
+      "id": "E1118-00121",
+      "uid": "scr.xfl::1118.gsc::slot/00121",
+      "work": "Encore",
+      "packet": "E020",
+      "scene": 1118,
+      "slot": 121,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "68b61621a2fd59b2ab5a506279ad999835321aad8dfeca28f5a5f8f021190351",
+      "source_ja": "少女は熱に浮かされながら、ベッドの上で身体を起こした。",
+      "submitted_ko": "소녀는 열기에 들뜬 채 침대 위에서 몸을 일으켰다.",
+      "proposed_ko": "소녀는 열에 시달리며 침대 위에서 몸을 일으켰다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "소녀가 앓으며 침대에서 몸을 일으키는 장면이다. 흥분 대신 발열을 드러낸다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1118-00122",
+      "uid": "scr.xfl::1118.gsc::slot/00122",
+      "work": "Encore",
+      "packet": "E020",
+      "scene": 1118,
+      "slot": 122,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "f37c62ccff2397c8842afd70289bba7669197c7cdac57074f7871bc6444dd424",
+      "source_ja": "　買い与えられたブランド物のかばんではなく、^n　なんとか廃棄をまぬがれたポシェットを取り出し、^n「自分のもの」といえる数少ないアイテムを詰めこんだ。",
+      "submitted_ko": "　사 준 명품 가방이 아니라^n　어찌어찌 폐기를 면한 작은 손가방을 꺼내^n「내 것」이라 할 수 있는 몇 안 되는 물건들을 욱여넣었다.",
+      "proposed_ko": "　사 준 브랜드 가방 대신^n　용케 버려지지 않고 남은 포셰트를 꺼내^n「내 것」이라 할 수 있는 몇 안 되는 아이템을 욱여넣었다.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "선물 받은 ブランド物와 스스로 챙기는 ポシェット가 대비된다. 이어지는 アイテム까지 원문의 소지품 어휘를 살렸다.",
+      "context_ids": [
+        "E1118-00120",
+        "E1118-00121",
+        "E1118-00124",
+        "E1118-00125"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "　사 준 명품 가방이 아니라^n　어찌어찌 폐기를 면한 포셰트를 꺼내^n「내 것」이라 할 수 있는 몇 안 되는 물건들을 욱여넣었다.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1118-00171",
+      "uid": "scr.xfl::1118.gsc::slot/00171",
+      "work": "Encore",
+      "packet": "E020",
+      "scene": 1118,
+      "slot": 171,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "b03541c239449c75d5e796091ba1e19cb153239afa0c5b9a6f0ad96d70c07fa6",
+      "source_ja": "またひとつ、天地を切り裂くような雷が鳴った。",
+      "submitted_ko": "또 한 번 천지를 가를 듯한 번개가 쳤다.",
+      "proposed_ko": "또 한 번 천지를 가를 듯 천둥이 울렸다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "바로 다음 행은 방금 들은 소리가 괴물의 포효였을지도 모른다고 한다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1120-00017",
+      "uid": "scr.xfl::1120.gsc::slot/00017",
+      "work": "Encore",
+      "packet": "E022",
+      "scene": 1120,
+      "slot": 17,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "02f4b99b0747fce19a23d5e9b2b72f273ef33983ca9953fcae99b5b52fb58e7f",
+      "source_ja": "最後に出会った彼女は青くこわばった顔をして、^n突き飛ばしたアリスを見つめながら^nぎこちなく唇を震わせていたから。",
+      "submitted_ko": "마지막으로 만났을 때 그녀는 파랗게 굳은 얼굴로^n떠밀어 넘어뜨린 앨리스를 바라보며^n어색하게 입술을 떨고 있었으니까.",
+      "proposed_ko": "마지막으로 만났을 때 그녀는 파랗게 굳은 얼굴로^n힘껏 밀쳤던 앨리스를 바라보며^n어색하게 입술을 떨고 있었으니까.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "E1114-00080에서 앨리스는 비틀거리지만 벽을 짚고 버틴다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1121-00033",
+      "uid": "scr.xfl::1121.gsc::slot/00033",
+      "work": "Encore",
+      "packet": "E023",
+      "scene": 1121,
+      "slot": 33,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ラプンツェル",
+      "source_sha256": "8b7f9f24f0df5aa82cc2b952c1ae99fa9cff9c0889cd30d6960e4d6100b0fac5",
+      "source_ja": "まあ！^n本当に見事な虹ですわね。^n大地の底まで、丸く繋がっていそうな。",
+      "submitted_ko": "어머나!^n정말 멋진 무지개네요.^n땅끝까지 둥글게 이어질 것만 같아요.",
+      "proposed_ko": "어머나!^n정말 멋진 무지개네요.^n땅 밑까지 둥글게 이어질 것만 같아요.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "라푼젤은 무지개가 땅 아래까지 둥글게 한 바퀴 이어지는 모습을 상상한다.",
+      "context_ids": [],
+      "linked_id": null,
+      "voice": {
+        "id": 1811,
+        "original_member": "voice.xfl/1811.wav",
+        "source_sha256": "224b7c6f83f895096babc8af67e1c3c3175531db0fe2251b08a9d66cd644eb67",
+        "decoded_seconds": 1.441
+      }
+    },
+    {
+      "id": "E1121-00094",
+      "uid": "scr.xfl::1121.gsc::slot/00094",
+      "work": "Encore",
+      "packet": "E023",
+      "scene": 1121,
+      "slot": 94,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "904c3e6adea16fa959f3c8cfd19a0c9531eb4068dcd582e5c8f39ad1e971c362",
+      "source_ja": "珍しく詩的な表現まで思い浮かんで、^nもしかしたら自分は柄にもなく浮かれているのかもしれない、と^nゲルダは苦笑した。",
+      "submitted_ko": "드물게 시적인 표현까지 떠올라^n어쩌면 내가 주제넘게 들떠 있는 건지도 모른다며^n게르다는 쓴웃음을 지었다.",
+      "proposed_ko": "드물게 시적인 표현까지 떠올라^n어쩌면 내가 나답지 않게 들떠 있는 건지도 모른다며^n게르다는 쓴웃음을 지었다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "시적인 표현을 쓰는 일이 게르다의 평소 성격에 어울리지 않는다는 독백이다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1121-00114",
+      "uid": "scr.xfl::1121.gsc::slot/00114",
+      "work": "Encore",
+      "packet": "E023",
+      "scene": 1121,
+      "slot": 114,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "オディール",
+      "source_sha256": "83cb2804e0492d69c936b8533e7677c33ee70575890b5c4b5c9d120dd616acd3",
+      "source_ja": "なんでそうなるの。^nそれこそ、あいつに構っている暇なんてないわよ。",
+      "submitted_ko": "어떻게 하면 그런 결론이 나.^n그러니까 더더욱 저런 애 신경 쓸 틈이 없다고.",
+      "proposed_ko": "그게 왜 그렇게 돼?^n그럴 때야말로 걔한테 신경 쓸 틈 같은 건 없다고.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "‘오데트가 백조가 된 동안은 한가하지 않냐’는 앨리스에게 오딜이 되받는다. 「それこそ」의 강조를 바로 앞의 상황에 걸었다.",
+      "context_ids": [
+        "E1121-00110",
+        "E1121-00112",
+        "E1121-00116",
+        "E1121-00118"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 1838,
+        "original_member": "voice.xfl/1838.wav",
+        "source_sha256": "645f4ff165fc64cfa6735cac0c19cf7bbce8a65370628aa6286a0c137c1ee62d",
+        "decoded_seconds": 1.949
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "어떻게 하면 그런 결론이 나.^n그 애한테야말로 신경 쓸 틈 따위 없다고."
+    },
+    {
+      "id": "E1121-00297",
+      "uid": "scr.xfl::1121.gsc::slot/00297",
+      "work": "Encore",
+      "packet": "E024",
+      "scene": 1121,
+      "slot": 297,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "9fcacf2fee41ecfd202324fba56c339242b7e50b1ee457d4a6f3c100e27f5395",
+      "source_ja": "これはむしろ、退院していく患者たちの肩から振り落とされた、^n用なしの「シンデレラ」や「スノーホワイト」たちのために^n設けられたのではないか。",
+      "submitted_ko": "이것은 차라리 퇴원해 가는 환자들의 어깨에서 떨어져 나간^n쓸모없는 「신데렐라」나 「백설공주」들을 위해^n마련된 것이 아닐까.",
+      "proposed_ko": "이것은 차라리 퇴원해 가는 환자들의 어깨에서 떨어져 나간^n쓸모없는 「신데렐라」나 「스노우 화이트」들을 위해^n마련된 것이 아닐까.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "같은 묘지를 보는 심포니 S1003-00132의 이름을 따른다. 심포니 S1005-00011의 白雪姫는 ‘백설공주’로 구별한다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1121-00312",
+      "uid": "scr.xfl::1121.gsc::slot/00312",
+      "work": "Encore",
+      "packet": "E024",
+      "scene": 1121,
+      "slot": 312,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "63fcf7ad154c9a074ca05ff9e4773fe01fa28295b7d77d4aaef1d0b00997bb4d",
+      "source_ja": "だとすれば、不用意に声をかけたのは^n彼と「誰か」との対話に水を差す、無粋な行為だったかもしれない。",
+      "submitted_ko": "그렇다면 섣불리 말을 건 것은^n그와 「누군가」의 대화에 찬물을 끼얹은 무례한 짓이었으리라.",
+      "proposed_ko": "그렇다면 섣불리 말을 건 건 그와 「누군가」의 대화에^n찬물을 끼얹는 눈치 없는 짓이었을지도 모른다.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "게르다는 묘 앞의 이케노가 누군가에게 말을 걸고 있었는지도 추측한다. 무례를 단정하는 대신 그 순간을 방해했을 가능성과 「無粋」를 살렸다.",
+      "context_ids": [
+        "E1121-00310",
+        "E1121-00311",
+        "E1121-00313",
+        "E1121-00315"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "그렇다면 섣불리 말을 건 것은 그와 「누군가」의 대화에^n찬물을 끼얹은 무례한 짓이었을지도 모른다."
+    },
+    {
+      "id": "E1121-00394",
+      "uid": "scr.xfl::1121.gsc::slot/00394",
+      "work": "Encore",
+      "packet": "E024",
+      "scene": 1121,
+      "slot": 394,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "b326d76248f60a32971f9d9f85073959339782959f9dab4da40fc4a1169bfa4e",
+      "source_ja": "立ち上がり、無言のまま彼らに背を向けて歩きだす。^nこみあげてきたものを逃がさないよう、強く唇を噛みしめる。",
+      "submitted_ko": "일어서서 말없이 그들에게 등을 돌리고 걷기 시작한다.^n북받쳐 오르는 것을 놓치지 않으려 세게 입술을 깨문다.",
+      "proposed_ko": "일어서서 말없이 그들에게 등을 돌리고 걷기 시작한다.^n북받치는 감정이 새어 나오지 않게 세게 입술을 깨문다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이어지는 395~396행에서 아이들에게 눈물을 보일 수 없다고 생각한다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1201-00019",
+      "uid": "scr.xfl::1201.gsc::slot/00019",
+      "work": "Encore",
+      "packet": "E025",
+      "scene": 1201,
+      "slot": 19,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "a586bc6cd0934e3b70571ebcdacf3bca93f837698ce9cb3c77f33af06fae17ec",
+      "source_ja": "自分が消えてしまったのなら、^nどうして自分が消えてしまったと思えるのだろう。",
+      "submitted_ko": "스스로 사라져 버렸다면^n어떻게 자신이 사라졌다고 생각할 수 있는 걸까.",
+      "proposed_ko": "자신이 사라져 버렸다면^n어떻게 자신이 사라졌다고 생각할 수 있는 걸까.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "오데트는 자신이 사라졌다면 생각하는 자신이 왜 남았는지 자문한다. 스스로 사라지기로 했다는 의지를 덧붙이지 않았다.",
+      "context_ids": [
+        "E1201-00016",
+        "E1201-00018",
+        "E1201-00021",
+        "E1201-00023"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "자신이 사라져 버렸다면^n어떻게 자신이 사라졌다고 생각할 수 있는 걸까."
+    },
+    {
+      "id": "E1201-00061",
+      "uid": "scr.xfl::1201.gsc::slot/00061",
+      "work": "Encore",
+      "packet": "E025",
+      "scene": 1201,
+      "slot": 61,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "05b0ee1d75400963a7c24e27ffbd34dedd80198104dd0b2c1a09fc7bc529b4dc",
+      "source_ja": "おそらく、オデットにとっては耐えがたいものだったのだろう。^nテレビのスイッチを切るように遮断してしまったのだから。",
+      "submitted_ko": "아마 오데트에게는 견디기 힘든 것이었으리라.^n텔레비전 스위치를 끄듯이 차단해 버렸을 테니까.",
+      "proposed_ko": "아마 오데트에게는 견디기 힘든 것이었으리라.^n텔레비전 스위치를 끄듯이 차단해 버렸으니까.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "차단했다는 사실이 ‘견디기 어려웠으리라’고 보는 이유다. 원문은 첫 문장에만 추측을 둔다.",
+      "context_ids": [
+        "E1201-00059",
+        "E1201-00060",
+        "E1201-00062",
+        "E1201-00063"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "아마 오데트에게는 견디기 힘든 것이었으리라.^n텔레비전 스위치를 끄듯이 차단해 버렸으니까."
+    },
+    {
+      "id": "E1201-00129",
+      "uid": "scr.xfl::1201.gsc::slot/00129",
+      "work": "Encore",
+      "packet": "E025",
+      "scene": 1201,
+      "slot": 129,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "8d9448cd6b6d0e64d6166bab02d8cda77a47d71179d508bad7dfc1c559316336",
+      "source_ja": "そうして少年の手によって導かれ、^n顔を洗ってもらい、髪をとかされ、^n朝ご飯をひとくちひとくち、親鳥が雛にするように運ばれる。",
+      "submitted_ko": "그렇게 소년의 손에 이끌려^n세수도 하고 머리도 빗으며^n아침밥을 한 입 한 입, 어미 새가 새끼에게 주듯 건네받는다.",
+      "proposed_ko": "그렇게 소년의 손에 이끌려 간다.^n소년은 얼굴을 씻겨 주고 머리를 빗겨 주고,^n어미 새가 새끼에게 먹이듯 아침밥을 한 입 한 입 먹여 준다.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "눈이 보이지 않는 오데트가 돌봄을 받는다. 세수와 빗질, 밥을 먹여 주는 동작의 주체를 소년으로 통일했다.",
+      "context_ids": [
+        "E1201-00127",
+        "E1201-00128",
+        "E1201-00130",
+        "E1201-00131"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "그렇게 소년의 손길에 몸을 맡긴다.^n소년은 얼굴을 씻겨 주고 머리를 빗겨 주고,^n어미 새가 새끼에게 먹이듯 아침밥을 한 입 한 입 먹여 준다.",
+      "gemini_review_proposal": "그렇게 소년의 손에 이끌려^n세수와 머리 빗질을 받고^n아침밥을 한 입 한 입, 어미 새가 새끼에게 주듯 건네받는다."
+    },
+    {
+      "id": "E1203-00015",
+      "uid": "scr.xfl::1203.gsc::slot/00015",
+      "work": "Encore",
+      "packet": "E026",
+      "scene": 1203,
+      "slot": 15,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ドクター",
+      "source_sha256": "d24b9f33a11da0d49949478ae24afe7986cceb5cd5496828aca69babf65dcc97",
+      "source_ja": "いやあ……まさか目が見えなくなってしまうなんてなあ。^nおかげさまで、カレイドスコープモニターの「治療」も^nしばらくは使えないね。",
+      "submitted_ko": "허허…… 설마 눈이 안 보이게 되어 버릴 줄이야.^n덕분에 카레이도스코프 모니터를 이용한 「치료」도^n당분간은 못 쓰겠네.",
+      "proposed_ko": "허허…… 설마 눈이 안 보이게 되어 버릴 줄이야.^n덕분에 칼레이도스코프 모니터를 이용한 「치료」도^n당분간은 못 쓰겠네.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "닥터가 말하는 치료 장치 カレイドスコープモニター다. 같은 장치를 줄여 부르는 70행과 ‘칼레이도스코프’ 표기를 맞췄다.",
+      "context_ids": [
+        "E1203-00011",
+        "E1203-00013",
+        "E1203-00017",
+        "E1203-00019"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "허허…… 설마 눈이 안 보이게 되어 버릴 줄이야.^n덕분에 칼레이도스코프 모니터를 이용한 「치료」도^n당분간은 못 쓰겠네."
+    },
+    {
+      "id": "E1203-00030",
+      "uid": "scr.xfl::1203.gsc::slot/00030",
+      "work": "Encore",
+      "packet": "E026",
+      "scene": 1203,
+      "slot": 30,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ドクター",
+      "source_sha256": "da3b85834ddd739471c56ef1bd81252494483fb24c801d273f5c1dc230c45baf",
+      "source_ja": "ふうん、そういうものか。^n双子の妹──子供の頃からいたぶりつづけてきた^nエキスパートが言うんだから、間違いはないだろうな。",
+      "submitted_ko": "흐음, 그런 건가.^n쌍둥이 동생──어린 시절부터 줄곧 괴롭혀 온^n전문가가 하는 말이니 틀림없겠지.",
+      "proposed_ko": "흐음, 그런 건가.^n쌍둥이 동생──어릴 적부터 제 언니를 괴롭혀 온^n엑스퍼트가 하는 말이니 틀림없겠지.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "닥터가 동생 오딜에게 붙인 짓궂은 칭호다. 누가 누구를 괴롭혔는지 밝히고, 다음 대사에서 되받는 ‘엑스퍼트’를 복원했다.",
+      "context_ids": [
+        "E1203-00026",
+        "E1203-00028",
+        "E1203-00032",
+        "E1203-00034"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "흐음, 그런 건가.^n쌍둥이 동생──어린 시절부터 줄곧 괴롭혀 온^n엑스퍼트가 하는 말이니 틀림없겠지.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1203-00032",
+      "uid": "scr.xfl::1203.gsc::slot/00032",
+      "work": "Encore",
+      "packet": "E026",
+      "scene": 1203,
+      "slot": 32,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "オディール",
+      "source_sha256": "416fef8d37d25a160be09c880d04e26031fb21586046bbf359a430719ea31037",
+      "source_ja": "エキスパート……ええ、まあ、それでいいわ。^n実際、あの馬鹿のおつむの中はなんだってお見通しよ。",
+      "submitted_ko": "전문가…… 뭐, 그래, 그렇게 해 두지.^n실제로 저 바보의 머릿속은 뭐든지 훤히 다 보이니까.",
+      "proposed_ko": "엑스퍼트…… 뭐, 그래, 그렇게 해 두지.^n실제로 저 바보의 머릿속은 뭐든지 훤히 다 보이니까.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "오딜이 닥터의 마지막 단어 「エキスパート」를 그대로 입에 올린다. 30행과 동일한 표기로 받아쳤다.",
+      "context_ids": [
+        "E1203-00028",
+        "E1203-00030",
+        "E1203-00034",
+        "E1203-00036"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 10208,
+        "original_member": "voice.xfl/1.xfl/0208.wav",
+        "source_sha256": "2fc42a91e3c2382c23dd960d468ba9a166a9caa79e1e5be613783c9a43fa70ee",
+        "decoded_seconds": 1.949
+      },
+      "previous_codex_proposal": "엑스퍼트…… 뭐, 그래, 그렇게 해 두지.^n실제로 저 바보의 머릿속은 뭐든지 훤히 다 보이니까.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1203-00070",
+      "uid": "scr.xfl::1203.gsc::slot/00070",
+      "work": "Encore",
+      "packet": "E026",
+      "scene": 1203,
+      "slot": 70,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ドクター",
+      "source_sha256": "81d492a02236ddda7a20fc568f45a5aa01755c75ba2d156a1116ce9f1509bbca",
+      "source_ja": "まあね、きっとすぐに治るよ。^nそうしたら今度こそ、カレイドスコープで一発だから。^n──だからさあ、オディールくん。",
+      "submitted_ko": "뭐, 분명 금방 나을 거야.^n그러면 이번에야말로 카레이도스코프로 한 방이니까.^n──그러니까 말이야, 오딜 양.",
+      "proposed_ko": "뭐, 분명 금방 나을 거야.^n그러면 이번에야말로 칼레이도스코프로 한 방이니까.^n──그러니까 말이야, 오딜 양.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "닥터가 15행의 모니터를 줄여 부른다. 기기 이름은 맞추고 「一発」의 가벼운 말투는 유지했다.",
+      "context_ids": [
+        "E1203-00066",
+        "E1203-00068",
+        "E1203-00071",
+        "E1203-00073"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "뭐, 분명 금방 나을 거야.^n그러면 이번에야말로 칼레이도스코프로 한 방이니까.^n──그러니까 말이야, 오딜 양."
+    },
+    {
+      "id": "E1204-00008",
+      "uid": "scr.xfl::1204.gsc::slot/00008",
+      "work": "Encore",
+      "packet": "E026",
+      "scene": 1204,
+      "slot": 8,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "オディール",
+      "source_sha256": "fd87f1feb342864a3e304f607ab2bc18344e7a5a087235dbdf36bb8556fee095",
+      "source_ja": "やってもらっている分際で注文つけないで。^n泡を乗せてやったんだから、あとは自分で洗いなさいよ。",
+      "submitted_ko": "해 주는 처지에 잔소리하지 마.^n거품 올려 줬으니까 나머지는 네가 알아서 씻어.",
+      "proposed_ko": "내가 씻겨 주고 있는데 이래라저래라 하지 마.^n거품 올려 줬으니까 나머지는 네가 알아서 씻어.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "오딜이 언니의 머리를 씻기고, 아프다는 오데트에게 쏘아붙이는 대사다. 씻기는 사람과 씻김을 받는 사람을 바로잡았다.",
+      "context_ids": [
+        "E1204-00005",
+        "E1204-00006",
+        "E1204-00010",
+        "E1204-00011"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 10302,
+        "original_member": "voice.xfl/1.xfl/0302.wav",
+        "source_sha256": "885da9e37f8e021f05ec76aa3097c5832a5d07e87b7e928797696ec031e30317",
+        "decoded_seconds": 0.437
+      },
+      "previous_codex_proposal": "남이 씻겨 주는데 이래라저래라 하지 마.^n거품 올려 줬으니까 나머지는 네가 알아서 씻어.",
+      "gemini_review_proposal": "도움받는 처지에 잔소리하지 마.^n거품 올려 줬으니까 나머지는 네가 알아서 씻어."
+    },
+    {
+      "id": "E1204-00058",
+      "uid": "scr.xfl::1204.gsc::slot/00058",
+      "work": "Encore",
+      "packet": "E026",
+      "scene": 1204,
+      "slot": 58,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "73dc0f6b23c97ff6a92a264f4ba8c001ba33fc77246c63318773de385d51d193",
+      "source_ja": "冗談めかした口調だった。^n実際、オディールにとってはジョークだったのだろう。^nしかしオデットにとっては無慈悲な宣告でしかない。",
+      "submitted_ko": "농담조의 말투였다.^n실제로 오딜에게는 농담이었을 것이다.^n하지만 오데트에게는 무자비한 선고나 다름없었다.",
+      "proposed_ko": "농담조의 말투였다.^n실제로 오딜에게는 조크였을 것이다.^n하지만 오데트에게는 무자비한 선고나 다름없었다.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "같은 문단의 첫 문장은 「冗談」, 다음 문장은 「ジョーク」다. ‘농담조’와 ‘조크’를 나란히 두어 오딜과 오데트가 한마디를 다르게 받아들이는 장면을 살렸다.",
+      "context_ids": [
+        "E1204-00055",
+        "E1204-00057",
+        "E1204-00059",
+        "E1204-00061"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "농담조의 말투였다.^n실제로 오딜에게는 조크였을 것이다.^n하지만 오데트에게는 무자비한 선고나 다름없었다.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1205-00034",
+      "uid": "scr.xfl::1205.gsc::slot/00034",
+      "work": "Encore",
+      "packet": "E027",
+      "scene": 1205,
+      "slot": 34,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "オディール",
+      "source_sha256": "ec7acfe17bae7b868a0cf6c73bd9ea792dd42547364d0b006ed0a41df5c362ec",
+      "source_ja": "……よく滑る口ね。^n",
+      "submitted_ko": "……입만 잘 노는구나.^n",
+      "proposed_ko": "……입도 참 가볍네.^n",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "오데트가 엿들을 수 있는 곳에서 닥터가 입을 잘못 놀린 뒤다. 35행에서 바로 밖으로 불러내는 흐름에 맞춰 ‘입이 가볍다’로 옮겼다.",
+      "context_ids": [
+        "E1205-00030",
+        "E1205-00032",
+        "E1205-00035",
+        "E1205-00037"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 10407,
+        "original_member": "voice.xfl/1.xfl/0407.wav",
+        "source_sha256": "32deef19fce744b82afe61e5cbe1127e5b7da9f9865e014a1a3b4db84cf12a31",
+        "decoded_seconds": 1.94
+      },
+      "previous_codex_proposal": "……입도 참 가볍네.^n",
+      "gemini_review_proposal": "……참 입도 가볍구나.^n"
+    },
+    {
+      "id": "E1205-00035",
+      "uid": "scr.xfl::1205.gsc::slot/00035",
+      "work": "Encore",
+      "packet": "E027",
+      "scene": 1205,
+      "slot": 35,
+      "branch": "",
+      "kind": "이어쓰기",
+      "speaker_ja": "オディール",
+      "source_sha256": "8c43bf66417d44c28edf75719b0256215e29bab029da05b67cfd1772ef1f1484",
+      "source_ja": "お外で話しましょう。",
+      "submitted_ko": "밖에서 이야기할까요.",
+      "proposed_ko": "밖에서 얘기하죠.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "닥터에게 「よく滑る口ね」라고 쏘아붙인 다음 「お外で話しましょう」라고 정중하게 청한다. 같은 대사 창에서도 두 어미의 차이가 난다.",
+      "context_ids": [
+        "E1205-00032",
+        "E1205-00034",
+        "E1205-00037",
+        "E1205-00039"
+      ],
+      "linked_id": "E1205-00034",
+      "voice": {
+        "id": 10407,
+        "original_member": "voice.xfl/1.xfl/0407.wav",
+        "source_sha256": "32deef19fce744b82afe61e5cbe1127e5b7da9f9865e014a1a3b4db84cf12a31",
+        "decoded_seconds": 1.94
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "밖에서 이야기할까."
+    },
+    {
+      "id": "E1206-00145",
+      "uid": "scr.xfl::1206.gsc::slot/00145",
+      "work": "Encore",
+      "packet": "E028",
+      "scene": 1206,
+      "slot": 145,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "bbd30bbd10eae42bde3306cff1ec349ee4098688cfce2181ed10e01b88fdbb17",
+      "source_ja": "けれど、自らの頭をかき抱く少年のぬくもりと、^n穏やかに見守っていたはずの彼が漏らした、切羽詰まった声が、^nオデットを昂らせた、高く高く浮き上がらせた。",
+      "submitted_ko": "하지만 제 머리를 끌어안은 소년의 온기와^n온화하게 지켜보고 있었을 그가 흘린 절박한 목소리가^n오데트를 고양시켰다, 높고 또 높게 떠오르게 했다.",
+      "proposed_ko": "하지만 오데트의 머리를 끌어안은 소년의 온기와^n온화하게 지켜보는 줄 알았던 그가 흘린 절박한 목소리가^n오데트를 들뜨게 했다. 높이, 더 높이 떠오르게 했다.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "소년이 끌어안는 것은 오데트의 머리다. 이어지는 날개의 이미지에 맞춰 감정이 들뜨는 것과 몸이 떠오르는 서술을 이었다.",
+      "context_ids": [
+        "E1206-00142",
+        "E1206-00144",
+        "E1206-00146",
+        "E1206-00148"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "하지만 자신의 머리를 끌어안아 주는 소년의 온기와^n온화하게 지켜보고 있었을 그가 흘린 절박한 목소리가^n오데트를 고양시켰다, 높고 또 높게 떠오르게 했다."
+    },
+    {
+      "id": "E1301-00011",
+      "uid": "scr.xfl::1301.gsc::slot/00011",
+      "work": "Encore",
+      "packet": "E030",
+      "scene": 1301,
+      "slot": 11,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "98b03558d8341dbf6d7d67dec935b2c1277f7b528f8b49eaed18b87f045cd8d3",
+      "source_ja": "彼女もまた「ラプンツェル」という役柄を得た役者で、^n窓の外を物憂げに見つめるのも、深いため息をついてみせるのも、^n無意識のなせる演技ということなのだろう。",
+      "submitted_ko": "그녀 역시 「라푼젤」이라는 배역을 맡은 배우로서,^n창밖을 시름없이 바라보는 것도, 깊은 한숨을 내쉬는 것도,^n무의식이 빚어낸 연기라는 것이리라.",
+      "proposed_ko": "그녀 역시 「라푼젤」이라는 배역을 맡은 배우로서,^n시름에 잠겨 창밖을 바라보는 것도, 깊은 한숨을 내쉬는 것도,^n무의식이 빚어낸 연기라는 것이리라.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "창밖을 보는 모습과 깊은 한숨을 나란히 놓았다. 「物憂げ」가 드러내는 수심을 25행과 일치시켰다.",
+      "context_ids": [
+        "E1301-00009",
+        "E1301-00010",
+        "E1301-00013",
+        "E1301-00015"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "그녀 역시 「라푼젤」이라는 배역을 맡은 배우로서,^n창밖을 시름겹게 바라보는 것도, 깊은 한숨을 내쉬는 것도,^n무의식이 빚어낸 연기라는 것이리라."
+    },
+    {
+      "id": "E1301-00025",
+      "uid": "scr.xfl::1301.gsc::slot/00025",
+      "work": "Encore",
+      "packet": "E030",
+      "scene": 1301,
+      "slot": 25,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "ef5944fa7d18225d896269c6b10b538975b948464366f94d02fba440ebd08e8b",
+      "source_ja": "その感覚はわかるかもしれない。^n私にもこの光景は微動だにしない絵のように見えていたから。^n寂しげにたたずんで、物憂げに窓の外を見つめるラプンツェルごと。",
+      "submitted_ko": "그 감각은 알 것 같기도 하다.^n나에게도 이 광경은 미동도 않는 그림처럼 보였으니까.^n외로이 서서 시름없이 창밖을 내다보는 라푼젤까지 통째로.",
+      "proposed_ko": "그 감각은 알 것 같기도 하다.^n나에게도 이 광경은 미동도 않는 그림처럼 보였으니까.^n외로이 서서 시름에 잠겨 창밖을 내다보는 라푼젤까지 통째로.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "풍경뿐 아니라 그 앞의 외로운 라푼젤까지 그림으로 보인다. 11행에서 되풀이하는 창가의 수심을 살렸다.",
+      "context_ids": [
+        "E1301-00023",
+        "E1301-00024",
+        "E1301-00027",
+        "E1301-00029"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "그 감각은 알 것 같기도 하다.^n나에게도 이 광경은 미동도 않는 그림처럼 보였으니까.^n외로이 서서 시름겹게 창밖을 내다보는 라푼젤까지 통째로."
+    },
+    {
+      "id": "E1301-00030",
+      "uid": "scr.xfl::1301.gsc::slot/00030",
+      "work": "Encore",
+      "packet": "E030",
+      "scene": 1301,
+      "slot": 30,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "fd5a665f311df09b3e410b2de4db7c7510d4c9a1970742538b65ca53b34d5867",
+      "source_ja": "ラプンツェルは物憂げに微笑む。^n本当に、絵のように美しい少女だ。",
+      "submitted_ko": "라푼젤은 시름없이 미소 짓는다.^n정말로 그림처럼 아름다운 소녀다.",
+      "proposed_ko": "라푼젤은 시름 어린 미소를 짓는다.^n정말로 그림처럼 아름다운 소녀다.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "날씨가 바뀌는 그림이라는 의사의 말에 웃는 순간에도 「物憂げ」가 반복된다. 미소와 수심이 공존하도록 했다.",
+      "context_ids": [
+        "E1301-00027",
+        "E1301-00029",
+        "E1301-00032",
+        "E1301-00033"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "라푼젤은 시름겹게 미소 짓는다.^n정말로 그림처럼 아름다운 소녀다."
+    },
+    {
+      "id": "E1301-00038",
+      "uid": "scr.xfl::1301.gsc::slot/00038",
+      "work": "Encore",
+      "packet": "E030",
+      "scene": 1301,
+      "slot": 38,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "b7164353dd1382bfd085acc3876a9e1f282141a44465ce83cbf1716272bbcf27",
+      "source_ja": "ゴーテルおばあさまとは、彼女の物語において、^nラプンツェルをこの塔に住まわせ──というか^n閉じこめている、養い親の魔女のことだ。",
+      "submitted_ko": "고텔 할머님이란, 그녀의 이야기 속에서^n라푼젤을 이 탑에 살게 한── 아니, 사실상^n가두어 둔 양부모 마녀를 뜻한다.",
+      "proposed_ko": "고텔 할머님이란, 그녀의 이야기 속에서^n라푼젤을 이 탑에 살게 한── 아니, 사실상^n가두어 둔 마녀, 곧 라푼젤의 양어머니다.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "고텔 할머님 한 사람을 가리키는 「養い親の魔女」다. 두 부모로도 읽히는 표현을 걷어 내고 마녀와 양어머니가 동일 인물임을 밝혔다.",
+      "context_ids": [
+        "E1301-00035",
+        "E1301-00037",
+        "E1301-00039",
+        "E1301-00040"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "고텔 할머님이란, 그녀의 이야기 속에서^n라푼젤을 이 탑에 살게 한── 아니, 사실상^n가두어 둔 마녀, 곧 라푼젤의 양어머니다.",
+      "gemini_review_proposal": "고텔 할머님이란, 그녀의 이야기 속에서^n라푼젤을 이 탑에 살게 한── 아니, 사실상^n가두어 둔 양어머니 마녀를 뜻한다."
+    },
+    {
+      "id": "E1302-00022",
+      "uid": "scr.xfl::1302.gsc::slot/00022",
+      "work": "Encore",
+      "packet": "E030",
+      "scene": 1302,
+      "slot": 22,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "f85edc9c82a26c7d5e7daf0a81b3b7776e864956575b8a26456594f06ebb1fad",
+      "source_ja": "彼は「おばあさま」と呼ぶたびに、^n冷たいまなざしでラプンツェルを突き刺し、^n固い声で否定する。",
+      "submitted_ko": "그는 「할머님」이라고 부를 때마다^n차가운 시선으로 라푼젤을 꿰뚫어 보고는^n딱딱한 목소리로 부정한다.",
+      "proposed_ko": "그는 「할머님」이라고 부를 때마다^n라푼젤을 찌를 듯 차갑게 쏘아보고는^n딱딱한 목소리로 부정한다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "원문은 날 선 눈길을 찌르는 동작에 빗댔다. 속내를 읽어 냈다는 대목이 아니다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1303-00078",
+      "uid": "scr.xfl::1303.gsc::slot/00078",
+      "work": "Encore",
+      "packet": "E031",
+      "scene": 1303,
+      "slot": 78,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "池野",
+      "source_sha256": "d757c0cfdc39df93e8c2d963ad3df737f81732de74f9a1db417d3d656475ab48",
+      "source_ja": "子供の頃、こういう遊びが好きだったからね。^nヒーローのソフビ人形や女の子向けの着せかえ人形から、^n海苔の缶やらヤカンやら、何でもしゃべらせたものさ。",
+      "submitted_ko": "어릴 때 이런 놀이를 좋아했거든.^n영웅 소프비 인형이나 여자애들 옷 갈아입히기 인형부터^n김 통이나 주전자까지, 뭐든 말을 시키곤 했지.",
+      "proposed_ko": "어릴 때 이런 놀이를 좋아했거든.^n히어로 소프비 인형이나 여자애들 옷 갈아입히기 인형부터^n김 통이나 주전자까지, 뭐든 말을 시키곤 했지.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이케노가 어릴 때 목소리를 붙여 놀던 완구를 열거한다. 「ヒーローのソフビ人形」의 완구 장르와 재질을 ‘히어로 소프비 인형’으로 살렸다.",
+      "context_ids": [
+        "E1303-00074",
+        "E1303-00076",
+        "E1303-00079",
+        "E1303-00080"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "어릴 때 이런 놀이를 좋아했거든.^n히어로 소프비 인형이나 여자애들 옷 갈아입히기 인형부터^n김 통이나 주전자까지, 뭐든 말을 시키곤 했지.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1304-00034",
+      "uid": "scr.xfl::1304.gsc::slot/00034",
+      "work": "Encore",
+      "packet": "E032",
+      "scene": 1304,
+      "slot": 34,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "abed8bfdbebb54ab963385a68497ab733a56bfc7d6f6242a89a56180139701d0",
+      "source_ja": "名乗ってはみたものの照れくささで声が震え、^n辺りには逃げ出したくなるほど間抜けな空気が漂った。",
+      "submitted_ko": "대놓고 이름을 대기는 했으나 쑥스러움에 목소리가 떨려,^n주변에는 도망치고 싶을 만큼 얼빠진 공기가 감돌았다.",
+      "proposed_ko": "왕자라고 나서기는 했으나 쑥스러움에 목소리가 떨려,^n주변에는 도망치고 싶을 만큼 얼빠진 공기가 감돌았다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "직전 33행에서 실제로 밝힌 것은 자신의 이름이 아니라 역할인 ‘왕자’다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1304-00095",
+      "uid": "scr.xfl::1304.gsc::slot/00095",
+      "work": "Encore",
+      "packet": "E032",
+      "scene": 1304,
+      "slot": 95,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "a3e506c375577a0bcebfaa5f0a290089dd75d08706fbf101f6a3c036db9d854e",
+      "source_ja": "ラプンツェルは、私が口にしたキーワードを^n口の中で噛みしめ、反芻して、^n不思議な味わいを確かめている様子だった。",
+      "submitted_ko": "라푼젤은 내가 꺼낸 핵심어를^n입속으로 곱씹고 되새기며^n신비로운 맛을 음미하는 듯했다.",
+      "proposed_ko": "라푼젤은 내가 꺼낸 키워드를^n입속으로 곱씹고 되새기며^n신비로운 맛을 음미하는 듯했다.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "92~94행의 명주실과 사다리를 라푼젤이 입 안에서 곱씹는다. 서술자가 붙인 「キーワード」와 맛보는 비유를 함께 유지했다.",
+      "context_ids": [
+        "E1304-00092",
+        "E1304-00094",
+        "E1304-00097",
+        "E1304-00099"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "라푼젤은 내가 꺼낸 키워드를^n입속으로 곱씹고 되새기며^n신비로운 맛을 음미하는 듯했다.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1306-00009",
+      "uid": "scr.xfl::1306.gsc::slot/00009",
+      "work": "Encore",
+      "packet": "E033",
+      "scene": 1306,
+      "slot": 9,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "3092e92d8ad22ddf55a7d62e140c48cc2879bcf3aa811dacf6297d7a057ff518",
+      "source_ja": "ヘアアレンジの動画は三つ編みができることを前提としたもの^nばかりだったし、ゆっくりと解説しているものを見ても^n手元との連携がうまくいかずに脳がこんがらかりそうだった。",
+      "submitted_ko": "머리 손질 영상은 세 갈래 땋기를 할 줄 안다는 전제의 것들^n뿐이었고, 천천히 설명해 주는 영상을 보더라도^n손놀림이 따라가지 못해 머리가 뒤죽박죽될 지경이었다.",
+      "proposed_ko": "헤어스타일링 영상은 세 갈래 땋기를 할 줄 안다고^n전제한 것뿐이었고, 천천히 설명해 주는 영상을 보더라도^n손놀림이 따라가지 못해 머리가 뒤죽박죽될 지경이었다.",
+      "decision": "수정",
+      "review_scope": "외래어",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "의사가 명주실을 세 갈래로 땋으려고 찾아본 것은 머리를 연출하는 방법을 가르치는 영상이다. 한국어에서도 쓰는 ‘헤어스타일링’으로 옮겼다.",
+      "context_ids": [
+        "E1306-00007",
+        "E1306-00008",
+        "E1306-00010",
+        "E1306-00012"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "헤어스타일링 영상은 세 갈래 땋기를 할 줄 안다고^n전제한 것뿐이었고, 천천히 설명해 주는 영상을 보더라도^n손놀림이 따라가지 못해 머리가 뒤죽박죽될 지경이었다.",
+      "gemini_review_proposal": null
+    },
+    {
+      "id": "E1306-00010",
+      "uid": "scr.xfl::1306.gsc::slot/00010",
+      "work": "Encore",
+      "packet": "E033",
+      "scene": 1306,
+      "slot": 10,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "7807dbcea1e46b673816d1e856ed38091c16c9619bb05a1aff74cebfcc758830",
+      "source_ja": "だから──あれだけ苦労したのに、出来ばえはあまりよくない。^n何度も試すうちによれてしまったし、^nさんざん手汗も染みているだろうし……。",
+      "submitted_ko": "그래서── 그토록 고생했는데도 완성도는 영 좋지 않다.^n몇 번이나 다시 해 보는 통에 꼬이고 뭉쳤을 뿐더러,^n손땀도 잔뜩 배어 있을 테고…….",
+      "proposed_ko": "그래서── 그토록 고생했는데도 완성도는 영 좋지 않다.^n몇 번이나 다시 해 보는 통에 꼬이고 뭉쳤을뿐더러,^n손땀도 잔뜩 배어 있을 테고…….",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "앞말에 붙는 연결 어미 ‘-을뿐더러’다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1306-00030",
+      "uid": "scr.xfl::1306.gsc::slot/00030",
+      "work": "Encore",
+      "packet": "E033",
+      "scene": 1306,
+      "slot": 30,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "93e84f5c9db46ec178e350d7af5084661ece0ccf1d4427dcad115515c7381bbb",
+      "source_ja": "ラプンツェルはハッと息を呑んだ。^n誰にも見せないようにしていた闇に、^n無遠慮に触れられた驚きと痛みで。",
+      "submitted_ko": "라푼젤은 헉 하고 숨을 삼켰다.^n누구에게도 들키지 않으려 감추어 둔 어둠을^n스스럼없이 건드려진 놀라움과 아픔 때문에.",
+      "proposed_ko": "라푼젤은 헉 하고 숨을 삼켰다.^n아무에게도 보이지 않으려 감춰 둔 어둠을 누군가 불쑥 건드리니,^n놀랍고도 아팠다.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "의사가 바깥 세계의 무엇이 두려운지 묻자 라푼젤이 움찔한다. 건드리는 쪽과 놀라고 아파하는 쪽이 뒤섞인 피동문을 풀었다.",
+      "context_ids": [
+        "E1306-00027",
+        "E1306-00029",
+        "E1306-00032",
+        "E1306-00034"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "라푼젤은 헉 하고 숨을 삼켰다.^n누구에게도 들키지 않으려 감추어 둔 어둠을^n상대가 거리낌 없이 건드리자 놀랍고도 아팠다.",
+      "gemini_review_proposal": "라푼젤은 헉 하고 숨을 삼켰다.^n누구에게도 들키지 않으려 감추어 둔 어둠이^n거리낌 없이 건드려진 놀라움과 아픔 때문에."
+    },
+    {
+      "id": "E1306-00038",
+      "uid": "scr.xfl::1306.gsc::slot/00038",
+      "work": "Encore",
+      "packet": "E033",
+      "scene": 1306,
+      "slot": 38,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "若い医者",
+      "source_sha256": "a1306109dcfa6559077fa6443015c74d6c0ead579f89759e285dadbeebc9c5f0",
+      "source_ja": "私は──本当は、君の物語を阻まねばならない立場だ。^nでも、君と接するうちに、^nそんなことはどうでもよくなってしまった。",
+      "submitted_ko": "나는── 사실, 네 이야기를 막아야만 하는 입장이야.^n하지만 너와 지내는 사이에^n그런 건 아무래도 좋아져 버렸어.",
+      "proposed_ko": "나는── 사실, 네 이야기를 막아야만 하는 입장이야.^n하지만 너와 지내다 보니^n이젠 그런 건 아무래도 상관없어.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "의사가 왕자 역할을 벗고 속마음을 털어놓는다. 「どうでもよくなった」는 의무가 더는 중요하지 않다는 말이다.",
+      "context_ids": [
+        "E1306-00035",
+        "E1306-00036",
+        "E1306-00040",
+        "E1306-00041"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "나는── 사실, 네 이야기를 막아야만 하는 입장이야.^n하지만 너와 지내는 사이에^n그런 건 아무래도 상관없어져 버렸어."
+    },
+    {
+      "id": "E1307-00028",
+      "uid": "scr.xfl::1307.gsc::slot/00028",
+      "work": "Encore",
+      "packet": "E033",
+      "scene": 1307,
+      "slot": 28,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ラプンツェル",
+      "source_sha256": "07b5a5d4f7145a205690a268636628636ae24cf98bbb3d416aed10a128a5f8ec",
+      "source_ja": "（そしてこちらは、その……。^n　ああ、もったいない）",
+      "submitted_ko": "（그리고 이쪽은, 그게…….^n　아아, 딱하기도 해라）",
+      "proposed_ko": "（그리고 이쪽은, 그게…….^n　아아, 아깝기도 해라）",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "뒤의 서술은 누더기와 주운 듯한 신발이 소녀에게 너무 어울리고 만다는 인상이다. 라푼젤이 「もったいない」로 느낀 아까움을 살렸다.",
+      "context_ids": [
+        "E1307-00024",
+        "E1307-00026",
+        "E1307-00029",
+        "E1307-00030"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 11609,
+        "original_member": "voice.xfl/1.xfl/1609.wav",
+        "source_sha256": "faf0376c0a007aa5b92e07a479b0c97ba41977489978672dfbd1db04bcc7d67c",
+        "decoded_seconds": 1.935
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "（그리고 이쪽은, 그게…….^n　아아, 아깝기도 해라）"
+    },
+    {
+      "id": "E1309-00036",
+      "uid": "scr.xfl::1309.gsc::slot/00036",
+      "work": "Encore",
+      "packet": "E034",
+      "scene": 1309,
+      "slot": 36,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "1466bffd5889927a48bfd6686759e3755d9628e59d7be885f345b72e2437a82e",
+      "source_ja": "それが、やおらラプンツェルの肉をえぐりながら動きだす。^n内壁をこすりながらゾッとするほど奥まで侵入して、^n勢いまかせに腹の奥を小突く。",
+      "submitted_ko": "그것이 불쑥 라푼젤의 살을 파헤치며^n움직인다. 내벽을 스치며 소름 끼치도록^n깊숙이 파고들어 기세 좋게 뱃속을 찌른다.",
+      "proposed_ko": "그것이 서서히 라푼젤의 살을 파헤치며^n움직인다. 내벽을 스치며 소름 끼치도록^n깊숙이 파고들어 기세 좋게 뱃속을 찌른다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "やおら는 동작을 천천히 시작하는 부사다. 이후의 거센 동작과 첫 움직임이 구분된다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1309-00039",
+      "uid": "scr.xfl::1309.gsc::slot/00039",
+      "work": "Encore",
+      "packet": "E034",
+      "scene": 1309,
+      "slot": 39,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "36adaa5b7d73fd9623a07aa7b13710f002038549268b45b53896486b369ee1ce",
+      "source_ja": "ひときわ強く揺さぶられた瞬間、^nごり、と腹の底から音さえ聞こえた気がして、^nラプンツェルの視界が白く染まった。",
+      "submitted_ko": "유난히 강하게 흔들린 순간,^n배 밑바닥에서 소리까지 울린 듯한 기분에^n라푼젤의 시야가 하얗게 물들었다.",
+      "proposed_ko": "유난히 강하게 흔들린 순간,^n배 밑바닥에서 우득 하는 소리까지 울린 듯한 기분에^n라푼젤의 시야가 하얗게 물들었다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "ごり、と는 막연한 소리보다 구체적이다. 바로 다음의 시야가 하얘지는 반응을 일으킨 소리의 질감을 살린다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1309-00047",
+      "uid": "scr.xfl::1309.gsc::slot/00047",
+      "work": "Encore",
+      "packet": "E034",
+      "scene": 1309,
+      "slot": 47,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "e25a9b2f8686507f98deab921cf76a50826949a63c5f9f41890ef670517999ea",
+      "source_ja": "激しい突き上げに身体が揺れる。^n芯から熱い潤いがじん、じん、と広がっていく。^nラプンツェルの「女」が目覚めさせられていく。",
+      "submitted_ko": "거센 쳐올림에 몸이 흔들린다.^n속부터 뜨거운 윤기가 징하게 퍼져 간다.^n라푼젤 안의 「여자」가 깨어나고 있다.",
+      "proposed_ko": "거센 쳐올림에 몸이 흔들린다.^n속부터 뜨거운 윤기가 징하게 퍼져 간다.^n라푼젤 안의 「여자」가 제 뜻과 달리 깨어난다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "目覚めさせられていく의 사역피동이 빠졌다. 55~57행에서 인물이 의지와 몸의 반응이 어긋난다고 말한다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1309-00056",
+      "uid": "scr.xfl::1309.gsc::slot/00056",
+      "work": "Encore",
+      "packet": "E034",
+      "scene": 1309,
+      "slot": 56,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "c924168632befc63e7952f2fb9f26223f369d60816417d937dafada1447401f8",
+      "source_ja": "いやだ、やめてほしい、逃げ出したい──^n心からそう思っているのに、思えば思うほど、^n秘裂は涎を垂らして肉棒をくわえ、ズルリとしゃぶりたてる。",
+      "submitted_ko": "싫어, 그만둬 줘, 도망치고 싶어──^n진심으로 그렇게 바라는데 생각할수록^n비열이 군침을 흘리며 육봉을 빨아댄다.",
+      "proposed_ko": "싫어, 그만둬 줘, 도망치고 싶어──^n진심으로 그렇게 바라는데 생각할수록^n은밀한 곳이 군침을 흘리며 육봉을 빨아댄다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "秘裂는 신체 부위를 에둘러 가리킨다. 한국어 ‘비열’은 그 부위를 나타내지 않는다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1309-00061",
+      "uid": "scr.xfl::1309.gsc::slot/00061",
+      "work": "Encore",
+      "packet": "E034",
+      "scene": 1309,
+      "slot": 61,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ラプンツェル",
+      "source_sha256": "5c9f3d02f1ae0c15154879f3cc298bcfa70d9a9c64e42ae310b637911beba1be",
+      "source_ja": "（だ、め……っ。こんなの、だめ……！^n　わ、わたし……わたし、は……。^n　外に……外の世界に……あの人と……みんな、と……）",
+      "submitted_ko": "（안, 돼…… 읏. 이런 건, 안 돼……!^n　나, 나는…… 나는…….^n　밖에…… 바깥세상에…… 그 사람과…… 다들……）",
+      "proposed_ko": "（안, 돼…… 읏. 이런 건, 안 돼……!^n　나, 나는…… 나는…….^n　밖에…… 바깥세상에…… 그 사람과…… 모두와……）",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "みんな、と에서 두 번째 と도 동행을 뜻한다. 1307장에서 세 아이의 다음 모험에 함께하고 싶다고 한 소원을 되짚는다.",
+      "context_ids": [],
+      "linked_id": null,
+      "voice": {
+        "id": 11812,
+        "original_member": "voice.xfl/1.xfl/1812.wav",
+        "source_sha256": "b14a82253bd7685e0d31cb9e0fc02de25f9f595e419aa24cfc937c462d174cb1",
+        "decoded_seconds": 0.942
+      }
+    },
+    {
+      "id": "E1309-00099",
+      "uid": "scr.xfl::1309.gsc::slot/00099",
+      "work": "Encore",
+      "packet": "E034",
+      "scene": 1309,
+      "slot": 99,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "70a4abb2343d8d18b3cb5e773e74b8883ef83370bc9a8fd19c00bb41a978d99a",
+      "source_ja": "乳房が千切れんばかりに揺れ、秘裂から白く泡立った体液が滴る。^nひと呼吸ごとに獣のような喘ぎが乗って、^nここにはもう品位も優雅もあったものではない。",
+      "submitted_ko": "가슴이 찢어질 듯 흔들리고 비열에서^n희게 거품 인 체액이 떨어진다. 숨결마다^n짐승 같은 신음이 실려 기품도 우아함도 없다.",
+      "proposed_ko": "가슴이 찢어질 듯 흔들리고 은밀한 곳에서^n희게 거품 인 체액이 떨어진다. 숨결마다^n짐승 같은 신음이 실려 기품도 우아함도 없다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "같은 장면 56행의 秘裂와 같은 신체 부위다. 두 행의 대상이 이어지게 한다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1310-00057",
+      "uid": "scr.xfl::1310.gsc::slot/00057",
+      "work": "Encore",
+      "packet": "E034",
+      "scene": 1310,
+      "slot": 57,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "85bab1c3623d13c54e78dc19be62136d917944c8eee4ce27286ac5ca102740b4",
+      "source_ja": "薄汚れた糸束を、本物の髪として、自らに取り込むように。",
+      "submitted_ko": "거무튀튀한 실 다발을 진짜 머리카락 삼아 자신에게 거두어들이듯.",
+      "proposed_ko": "때가 탄 실 다발을 진짜 머리카락 삼아 자신에게 거두어들이듯.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "거듭 만져 때가 묻은 명주실을 머리에 땋아 넣는다. 「薄汚れた」는 색이 검다는 뜻이 아니고, 소중한 실을 비하하는 말도 아니다.",
+      "context_ids": [
+        "E1310-00055",
+        "E1310-00056",
+        "E1310-00059",
+        "E1310-00060"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "때가 탄 실 다발을 진짜 머리카락 삼아 자신에게 거두어들이듯.",
+      "gemini_review_proposal": "꼬질꼬질한 실 다발을 진짜 머리카락 삼아 자신에게 거두어들이듯."
+    },
+    {
+      "id": "E1311-00020",
+      "uid": "scr.xfl::1311.gsc::slot/00020",
+      "work": "Encore",
+      "packet": "E035",
+      "scene": 1311,
+      "slot": 20,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "d8018237fe9e2bcaad2a9a4c518b55825bf30ebc88bd7142d82f2fdc7ef3027c",
+      "source_ja": "同僚の声を振りきって、私は走行厳禁の廊下を駆け抜けた。^n今まで真面目な勤務態度を買われていた身だが、^n今日を限りに木っ端みじんになるだろう。",
+      "submitted_ko": "동료의 목소리를 뿌리치고, 나는 주행 엄금인 복도를 내달렸다.^n지금껏 성실한 근무 태도로 인정받던 몸이지만^n오늘부로 산산조각이 나겠지.",
+      "proposed_ko": "동료의 목소리를 뿌리치고 뛰면 안 되는 복도를 내달렸다.^n지금껏 성실하다고 인정받았는데,^n그 평판도 오늘로 산산조각 나겠지.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "의사가 금지된 복도에서 뛰어 깨지는 것은 그의 성실하다는 평판이다. 행동 규칙과 비유의 대상을 명확히 했다.",
+      "context_ids": [
+        "E1311-00018",
+        "E1311-00019",
+        "E1311-00021",
+        "E1311-00022"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "동료의 목소리를 뿌리치고 뛰면 안 되는 복도를 내달렸다.^n지금껏 성실하다고 인정받았는데,^n그 평판도 오늘로 산산조각 나겠지.",
+      "gemini_review_proposal": "동료의 목소리를 뿌리치고, 나는 뛰기 엄금인 복도를 내달렸다.^n지금껏 성실한 근무 태도로 인정받던 몸이지만^n그 평판도 오늘부로 산산조각이 나겠지."
+    },
+    {
+      "id": "E1401-00021",
+      "uid": "scr.xfl::1401.gsc::slot/00021",
+      "work": "Encore",
+      "packet": "E036",
+      "scene": 1401,
+      "slot": 21,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "d3b4bdac0767897a3e087b01d876e6027776964f0421ece32339ec4244bc42c8",
+      "source_ja": "そして、白いミルクに一滴の青い絵の具が落ちたように、^n吹雪は彼女の周囲をぐるぐると舞い踊り、^n渦巻きながら溶かしこんでいきました──",
+      "submitted_ko": "그리고 흰 우유에 파란 물감 한 방울이 떨어지듯,^n눈보라는 그녀 주위를 빙글빙글 춤추며 휘돌았고,^n소용돌이치며 녹여 내렸습니다──",
+      "proposed_ko": "그리고 흰 밀크에 파란 물감 한 방울이 떨어지듯,^n눈보라는 그녀 주위를 빙글빙글 춤추며 휘돌았고,^n소용돌이치며 그녀를 제 안에 녹여 갔습니다──",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "게르다 주위를 감싸는 눈보라가 그녀를 자기 안에 녹인다. 녹아내린 대상으로 오해될 수 있는 서술을 바로잡고 「ミルク」의 어휘를 살렸다.",
+      "context_ids": [
+        "E1401-00019",
+        "E1401-00020"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "그리고 흰 우유에 파란 물감 한 방울이 떨어지듯,^n눈보라는 그녀 주위를 빙글빙글 춤추며 휘돌았고,^n소용돌이치며 그녀를 제 안에 녹여 갔습니다──",
+      "gemini_review_proposal": "그리고 흰 우유에 파란 물감 한 방울이 떨어지듯,^n눈보라는 그녀 주위를 빙글빙글 춤추며 휘돌았고,^n소용돌이치며 그 속으로 녹여 들였습니다──"
+    },
+    {
+      "id": "E1403-00028",
+      "uid": "scr.xfl::1403.gsc::slot/00028",
+      "work": "Encore",
+      "packet": "E036",
+      "scene": 1403,
+      "slot": 28,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "f7baef0bef9eff65af87e12a49e0793c4ac1e2968480b5a0f31c4190691bfd6e",
+      "source_ja": "焦った声とともに腕を強く捕まれて、^nゲルダはカイの元に引き戻されました。^nいったい、なにをそんなに慌てているのでしょう。",
+      "submitted_ko": "다급한 목소리와 함께 팔을 세게 붙잡혀^n게르다는 카이 쪽으로 도로 끌려갔습니다.^n대체 무엇을 그리 당황하고 있는 걸까요.",
+      "proposed_ko": "다급한 목소리와 함께 팔을 세게 붙잡혀^n게르다는 카이 쪽으로 도로 끌려갔습니다.^n대체 무엇 때문에 그리 당황하고 있는 걸까요.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "당황한 사람은 게르다의 팔을 잡아당긴 카이다. 이유를 묻는 자리인 만큼 ‘무엇 때문에’로 조사를 바로잡았다.",
+      "context_ids": [
+        "E1403-00025",
+        "E1403-00027",
+        "E1403-00030",
+        "E1403-00031"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "다급한 목소리와 함께 팔을 세게 붙잡혀^n게르다는 카이 쪽으로 도로 끌려갔습니다.^n대체 무엇 때문에 저리 당황한 걸까요.",
+      "gemini_review_proposal": "다급한 목소리와 함께 팔을 세게 붙잡혀^n게르다는 카이 쪽으로 도로 끌려갔습니다.^n대체 무엇 때문에 그리 당황하고 있는 걸까요."
+    },
+    {
+      "id": "E1403-00050",
+      "uid": "scr.xfl::1403.gsc::slot/00050",
+      "work": "Encore",
+      "packet": "E036",
+      "scene": 1403,
+      "slot": 50,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "8c9bfd44431405534814c4c4ea59ff25d5b47ade73a69a9baddc92160b37191c",
+      "source_ja": "だからゲルダはなにも考えずにカイに従おうと、^nしっかりとうなずきました。",
+      "submitted_ko": "그러니 게르다는 아무 생각 없이 카이를 따르자며^n힘차게 고개를 끄덕였습니다.",
+      "proposed_ko": "그러니 게르다는 더 생각하지 않고 카이를 따르겠다는 뜻으로^n힘차게 고개를 끄덕였습니다.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "무엇 하나 이치에 맞지 않는 상황에서 게르다 혼자 결심한다. 누군가에게 함께 따르자고 청하는 의미를 없앴다.",
+      "context_ids": [
+        "E1403-00048",
+        "E1403-00049",
+        "E1403-00052",
+        "E1403-00053"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "그러니 게르다는 딴생각 없이 카이를 따르기로 마음먹고^n힘차게 고개를 끄덕였습니다.",
+      "gemini_review_proposal": "그러니 게르다는 아무 생각 없이 카이를 따르기로 하고^n힘차게 고개를 끄덕였습니다."
+    },
+    {
+      "id": "E1405-00022",
+      "uid": "scr.xfl::1405.gsc::slot/00022",
+      "work": "Encore",
+      "packet": "E037",
+      "scene": 1405,
+      "slot": 22,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "d3472560735c9513ab154a6b4845a3f5bcf88ba1de7ad1af719d543c584267b0",
+      "source_ja": "足の付け根、大事な大事な奥の部分から突き抜けた、^n何かの警告めいたあの痛み──",
+      "submitted_ko": "다리 사이, 소중하고 소중한 깊은 곳을 꿰뚫었던,^n무언가의 경고 같던 그 통증──",
+      "proposed_ko": "다리 사이, 소중하고 소중한 깊은 곳에서 뻗쳐 왔던,^n무언가의 경고 같던 그 통증──",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "통증이 비롯된 위치를 から로 짚는다. 원인은 뒤의 기억과 이어진다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1405-00034",
+      "uid": "scr.xfl::1405.gsc::slot/00034",
+      "work": "Encore",
+      "packet": "E037",
+      "scene": 1405,
+      "slot": 34,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "f0ec06f5e4380511e72751f59959a544792cc572c20c90696edc2ae7fb511619",
+      "source_ja": "他愛ない言葉遊びと、カイの無邪気な笑顔。^n今ゲルダが住むこの部屋には、それがあります。",
+      "submitted_ko": "실없는 말장난과 카이의 천진난만한 미소.^n지금 게르다가 머무는 이 방에는 그것이 있습니다.",
+      "proposed_ko": "소소한 말놀이와 카이의 천진난만한 미소.^n지금 게르다가 머무는 이 방에는 그것이 있습니다.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "게르다가 답하고 카이가 맞혔다며 좋아하는 놀이를 가리킨다. 방 안의 소박한 행복을 열거하는 동화체에 맞춰 ‘소소한 말놀이’로 옮겼다.",
+      "context_ids": [
+        "E1405-00031",
+        "E1405-00033",
+        "E1405-00035",
+        "E1405-00036"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "소소한 말놀이와 카이의 천진난만한 미소.^n지금 게르다가 머무는 이 방에는 그것이 있습니다."
+    },
+    {
+      "id": "E1405-00036",
+      "uid": "scr.xfl::1405.gsc::slot/00036",
+      "work": "Encore",
+      "packet": "E037",
+      "scene": 1405,
+      "slot": 36,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "754786be2f8e2b88f085778b9195039b89e2f0650afbbe15ee391f3d75e043da",
+      "source_ja": "──カイと、ずっと一緒にいたい。^n──永遠に──",
+      "submitted_ko": "──카이와, 계속 함께 있고 싶습니다.^n──영원히──",
+      "proposed_ko": "──카이와, 계속 함께 있고 싶다.^n──영원히──",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "35행이 ‘게르다가 전에 바란 대로’라고 끝난 뒤 그 소원을 직접 들려준다. 동화 서술자의 존댓말에서 게르다 자신의 속말로 바뀐다.",
+      "context_ids": [
+        "E1405-00034",
+        "E1405-00035",
+        "E1405-00038",
+        "E1405-00040"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "──카이와, 계속 함께 있고 싶다.^n──영원히──"
+    },
+    {
+      "id": "E1406-00011",
+      "uid": "scr.xfl::1406.gsc::slot/00011",
+      "work": "Encore",
+      "packet": "E037",
+      "scene": 1406,
+      "slot": 11,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ゲルダ",
+      "source_sha256": "56e8972051d4964939c2ca3659e081a18b8157900392185a6a3ed86f803444f8",
+      "source_ja": "ううん、いいの。私が勝手にしたことよ。^nどうしても、あなたにまた会いたかったの。^nそれだけだったの……。",
+      "submitted_ko": "아니야, 괜찮아. 내가 제멋대로 한 일인걸.^n아무리 해도 너를 다시 만나고 싶었어.^n그것뿐이었어…….",
+      "proposed_ko": "아니야, 괜찮아. 내가 제멋대로 한 일인걸.^n어떻게든 너를 다시 만나고 싶었어.^n그것뿐이었어…….",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "どうしても는 여기서 다시 만나고 싶다는 강한 바람을 나타낸다.",
+      "context_ids": [],
+      "linked_id": null,
+      "voice": {
+        "id": 12501,
+        "original_member": "voice.xfl/1.xfl/2501.wav",
+        "source_sha256": "8fa2025fb54a0686ccea88fc5f05858350d304c712773b2286f6763177a2d8c2",
+        "decoded_seconds": 0.954
+      }
+    },
+    {
+      "id": "E1406-00013",
+      "uid": "scr.xfl::1406.gsc::slot/00013",
+      "work": "Encore",
+      "packet": "E037",
+      "scene": 1406,
+      "slot": 13,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "62968d23c624422343bc9ec7c40d46a8aa2c46eba63ada5a8270a4f3034e1ba1",
+      "source_ja": "カイを探す旅の途中で、一度、心を壊されました。",
+      "submitted_ko": "카이를 찾아 나선 여행 도중, 한 번 마음이 부서지고 말았습니다.",
+      "proposed_ko": "카이를 찾던 길에 한 번은 누군가 그 마음을 부숴 놓았습니다.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "12행의 ‘게르다는──’을 이어, 다음 행에서 여럿이 소녀를 인형처럼 휘둘렀다고 한다. 「壊された」의 외부 가해와 동화체를 유지했다.",
+      "context_ids": [
+        "E1406-00011",
+        "E1406-00012",
+        "E1406-00014",
+        "E1406-00015"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "카이를 찾던 길에 한 번은 누군가 그 마음을 부숴 놓았습니다.",
+      "gemini_review_proposal": "카이를 찾아 나선 길에, 한 번 누군가에게 마음이 부서졌습니다."
+    },
+    {
+      "id": "E1406-00076",
+      "uid": "scr.xfl::1406.gsc::slot/00076",
+      "work": "Encore",
+      "packet": "E037",
+      "scene": 1406,
+      "slot": 76,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ゲルダ",
+      "source_sha256": "2b4f43f96ed7f4abcd4b2b87fb0faa6ff24d4ebcb2e9cbef284a2dc42fcfe031",
+      "source_ja": "いいえ、充分よ。^n少し甘やかされすぎたような気さえするわ。^n──私は、また歩き出せる。",
+      "submitted_ko": "아니야, 충분해.^n조금 너무 응석을 부린 것 같은 기분마저 들어.^n──나는, 다시 걸어 나갈 수 있어.",
+      "proposed_ko": "아니야, 충분해.^n네가 내 응석을 너무 받아 준 것 같을 정도야.^n──나는, 다시 걸어 나갈 수 있어.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "자신은 아무것도 못 했다는 카이에게 게르다가 답한다. 카이가 응석을 받아 준 것이므로 게르다가 스스로 떼를 썼다는 의미를 걷어 냈다.",
+      "context_ids": [
+        "E1406-00073",
+        "E1406-00074",
+        "E1406-00078",
+        "E1406-00079"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 12510,
+        "original_member": "voice.xfl/1.xfl/2510.wav",
+        "source_sha256": "fbb7f8bcf97b3cfd9ee03861057d210de845c7f1dbc30ee9e1fd8c15c2ce331a",
+        "decoded_seconds": 1.432
+      },
+      "previous_codex_proposal": "아니야, 충분해.^n네가 내 응석을 너무 받아 준 것 같을 정도야.^n──나는, 다시 걸어 나갈 수 있어.",
+      "gemini_review_proposal": "아니야, 충분해.^n조금 과할 만큼 보살핌받은 것 같은 기분마저 들어.^n──나는, 다시 걸어 나갈 수 있어."
+    },
+    {
+      "id": "E1406-00083",
+      "uid": "scr.xfl::1406.gsc::slot/00083",
+      "work": "Encore",
+      "packet": "E037",
+      "scene": 1406,
+      "slot": 83,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ゲルダ",
+      "source_sha256": "a6c1c37c5d8994e3e12f49a75a5e215d72456687c74a7722ff43b60fb937a37e",
+      "source_ja": "でも、ずっとこのままではいられないもの。^n幸せな夢を見続けているうちに破滅なんて、笑えないわ。^n私には耐えられない。",
+      "submitted_ko": "하지만 계속 이대로 있을 수는 없는걸.^n행복한 꿈을 꾸다가 파멸하는 건 웃을 수 없어.^n나는 견딜 수 없어.",
+      "proposed_ko": "하지만 계속 이대로 있을 수는 없는걸.^n행복한 꿈을 꾸다가 파멸한다니, 웃음도 안 나와.^n나는 견딜 수 없어.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "꿈을 꾸는 동안 모두 파멸해 버린다면 웃어넘길 수 없다는 게르다의 반응이다. 어색했던 ‘파멸하는 건 웃을 수 없어’를 고쳤다.",
+      "context_ids": [
+        "E1406-00080",
+        "E1406-00081",
+        "E1406-00085",
+        "E1406-00087"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 12511,
+        "original_member": "voice.xfl/1.xfl/2511.wav",
+        "source_sha256": "dd2e587bc601f6c594caa02a9204ee00d3e4ce7906ace85c5730ae12bac6cb34",
+        "decoded_seconds": 0.948
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "하지만 계속 이대로 있을 수는 없는걸.^n행복한 꿈을 꾸다가 파멸한다니, 웃음도 안 나와.^n나는 견딜 수 없어."
+    },
+    {
+      "id": "E1406-00100",
+      "uid": "scr.xfl::1406.gsc::slot/00100",
+      "work": "Encore",
+      "packet": "E037",
+      "scene": 1406,
+      "slot": 100,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ゲルダ",
+      "source_sha256": "128cc80dbc8153787adc932df171c118c74ae9ca8ff76330002f6c0e153abd73",
+      "source_ja": "（い、今のは……。^n　気をきかせた、とか、そういう……）",
+      "submitted_ko": "（바, 방금 그건…….^n　눈치를 봐 준 거라든가, 그런……）",
+      "proposed_ko": "（바, 방금 그건…….^n　우릴 배려해서 자리를 비켜 준 거라든가, 그런……）",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "창밖의 누군가가 얼굴을 돌리고 떠난 직후다. 「気をきかせた」의 구체적인 배려를 살리고 게르다의 추측과 말줄임을 유지했다.",
+      "context_ids": [
+        "E1406-00097",
+        "E1406-00098",
+        "E1406-00102",
+        "E1406-00104"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 12514,
+        "original_member": "voice.xfl/1.xfl/2514.wav",
+        "source_sha256": "010f233a5fefc2fa1870a487c675568926d80542ff7e3d94fa91ff1b92a0a03f",
+        "decoded_seconds": 0.942
+      },
+      "previous_codex_proposal": "（바, 방금 그건…….^n　우릴 배려해서 자리를 비켜 준 거라든가, 그런……）",
+      "gemini_review_proposal": "（바, 방금 그건…….^n　눈치껏 배려해 준 거라든가, 그런……）"
+    },
+    {
+      "id": "E1407-00003",
+      "uid": "scr.xfl::1407.gsc::slot/00003",
+      "work": "Encore",
+      "packet": "E038",
+      "scene": 1407,
+      "slot": 3,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "171e3462de890af3607d50ad2a9ec445dbe83bc10a111f0f1a8bcc07e627db17",
+      "source_ja": "カイの声はすっかり上ずっていました。^n振り向くまでもなく、^n赤薔薇よりも真っ赤に染まった頬が見えるようでした。",
+      "submitted_ko": "카이의 목소리는 완전히 떨리고 있었습니다.^n뒤돌아보지 않아도,^n붉은 장미보다 더 새빨갛게 물든 뺨이 보이는 듯했습니다.",
+      "proposed_ko": "카이의 목소리는 한껏 높아져 있었습니다.^n뒤돌아보지 않아도,^n붉은 장미보다 더 새빨갛게 물든 뺨이 보이는 듯했습니다.",
+      "decision": "수정",
+      "review_scope": "재작성",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "카이는 얼굴이 장밋빛으로 달아올라 말을 더듬는다. 「上ずる」는 긴장으로 음이 올라가는 현상이라서 목이 갈라졌다는 소리를 더하지 않았다.",
+      "context_ids": [
+        "E1407-00002",
+        "E1407-00004",
+        "E1407-00005"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": "카이의 목소리는 한껏 높아져 있었습니다.^n뒤돌아보지 않아도,^n붉은 장미보다 더 새빨갛게 물든 뺨이 보이는 듯했습니다.",
+      "gemini_review_proposal": "카이의 목소리는 잔뜩 들떠 갈라져 있었습니다.^n뒤돌아보지 않아도,^n붉은 장미보다 더 새빨갛게 물든 뺨이 보이는 듯했습니다."
+    },
+    {
+      "id": "E1407-00031",
+      "uid": "scr.xfl::1407.gsc::slot/00031",
+      "work": "Encore",
+      "packet": "E038",
+      "scene": 1407,
+      "slot": 31,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "084ff2c1c3d6597aefec231d88757b43f71ebd5b2c7be134d95e5f68dc427e29",
+      "source_ja": "悪夢の中で何度も何度も汚らしいものを押しこまれ、^n臭いものをぶちまけられ、そのたびに吐きそうになりながら^nいっそ殺してほしいと願った、あれと同じ行為のはずでした。",
+      "submitted_ko": "악몽 속에서 몇 번이고 더러운 것을 밀어 넣어지고,^n역겨운 것을 쏟아 부어져, 그때마다 토할 것 같으면서도^n차라리 죽여 달라고 빌었던, 그와 똑같은 행위였을 터입니다.",
+      "proposed_ko": "악몽 속에서 몇 번이고 누군가가 더러운 것을 밀어 넣고,^n고약한 냄새가 나는 것을 쏟아부을 때마다 토할 것 같으면서도^n차라리 죽여 달라고 빌었던, 그와 똑같은 행위였을 터입니다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "‘것을 밀어 넣어지고/것을 쏟아 부어져’가 목적격과 피동을 겹쳐 피해 경험의 문장 연결을 끊는다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1408-00001",
+      "uid": "scr.xfl::1408.gsc::slot/00001",
+      "work": "Encore",
+      "packet": "E038",
+      "scene": 1408,
+      "slot": 1,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "914e9d364a27cdb8ddebc119b7af9a31cdee1a55c0bb9d24778462d355b84653",
+      "source_ja": "それから、何があったのか──^n詳しいところは思い出せません。",
+      "submitted_ko": "그 뒤로 무슨 일이 있었는지──^n자세한 곳까지는 기억나지 않습니다.",
+      "proposed_ko": "그 뒤로 무슨 일이 있었는지──^n자세히는 기억나지 않습니다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "그 뒤에 무슨 일이 있었는지의 세부다. 장소를 기억하려는 대목이 아니다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1408-00018",
+      "uid": "scr.xfl::1408.gsc::slot/00018",
+      "work": "Encore",
+      "packet": "E038",
+      "scene": 1408,
+      "slot": 18,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "f95b3121772228b8277fe3bd8f1b39c0eb98f44dfb3258559d5e6a1eab209207",
+      "source_ja": "すべての扉を開けきって答えにたどりつくことが^n幸せとは限りません。",
+      "submitted_ko": "모든 문을 다 열고 답에 다다르는 것만이^n행복인 것은 아닙니다.",
+      "proposed_ko": "모든 문을 다 열고 답을 얻는다고 해서^n반드시 행복한 건 아닙니다.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "원문은 답을 찾아도 행복하리라는 보장이 없다고 한다. ‘그 방법만이 행복은 아니다’와 결론이 다르다.",
+      "context_ids": [],
+      "linked_id": null
+    },
+    {
+      "id": "E1408-00021",
+      "uid": "scr.xfl::1408.gsc::slot/00021",
+      "work": "Encore",
+      "packet": "E038",
+      "scene": 1408,
+      "slot": 21,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "？？？",
+      "source_sha256": "4fc7d4ad9dfe074e6cae663ec6afe56828cd5872c059b0206ca3505c910a436a",
+      "source_ja": "……ええ、いいのよ。みっともなくなんかない。^nあなたは強い。あなたの強さは美しい。^nそんなあなたがたまに弱さを見せたって、私は笑わない。",
+      "submitted_ko": "……응, 괜찮아. 부끄러울 것 하나 없어.^n당신은 강해. 당신의 강함은 아름다워.^n그런 당신이 가끔 약한 모습을 보인대도 나는 비웃지 않아.",
+      "proposed_ko": "……응, 괜찮아. 부끄러울 것 하나 없어.^n넌 강해. 네 강함은 아름다워.^n그런 네가 가끔 약한 모습을 보인대도 나는 비웃지 않아.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "게르다를 안고 다독이는 목소리다. 35행의 ‘착한 아이’와 송별 인사까지 이어지는 친근한 반말을 살렸다.",
+      "context_ids": [
+        "E1408-00018",
+        "E1408-00019",
+        "E1408-00022",
+        "E1408-00024",
+        "E1408-00035"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 12704,
+        "original_member": "voice.xfl/1.xfl/2704.wav",
+        "source_sha256": "0288d13c2ab4832c2f88b029507dc4e2b496ca468db6b06f877f2e7eb2268c3c",
+        "decoded_seconds": 0.431
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "……응, 괜찮아. 부끄러울 것 하나 없어.^n너는 강해. 너의 강함은 아름다워.^n그런 네가 가끔 약한 모습을 보인대도 나는 비웃지 않아."
+    },
+    {
+      "id": "E1408-00037",
+      "uid": "scr.xfl::1408.gsc::slot/00037",
+      "work": "Encore",
+      "packet": "E038",
+      "scene": 1408,
+      "slot": 37,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "？？？",
+      "source_sha256": "ebd5e28368ebbf0527e6725f676c27420e7490ab5a3d6fba6c2ab245c0c4a80e",
+      "source_ja": "あなたならきっと大丈夫。^n彼を救い出せる。彼と、もう一度会える。^n現実の世界でね。",
+      "submitted_ko": "당신이라면 분명 괜찮아.^n그 사람을 구해 낼 수 있어. 그 사람과 다시 만날 수 있어.^n현실 세계에서 말이야.",
+      "proposed_ko": "너라면 분명 괜찮아.^n그 사람을 구해 낼 수 있어. 그 사람과 다시 만날 수 있어.^n현실 세계에서 말이야.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "같은 이가 ‘착한 아이’라며 다독이던 게르다에게 현실에서 카이를 만날 수 있다고 말한다. 친근한 호칭을 유지했다.",
+      "context_ids": [
+        "E1408-00033",
+        "E1408-00035",
+        "E1408-00039",
+        "E1408-00041"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 12711,
+        "original_member": "voice.xfl/1.xfl/2711.wav",
+        "source_sha256": "0ed9f507d7a91f54241781686adbfa0433ac685b6fb38de80d265ea30682da2f",
+        "decoded_seconds": 0.434
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "너라면 분명 괜찮아.^n그 사람을 구해 낼 수 있어. 그 사람과 다시 만날 수 있어.^n현실 세계에서 말이야."
+    },
+    {
+      "id": "E1408-00039",
+      "uid": "scr.xfl::1408.gsc::slot/00039",
+      "work": "Encore",
+      "packet": "E038",
+      "scene": 1408,
+      "slot": 39,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "？？？",
+      "source_sha256": "244c99c40ebdd94fbb27fd197cff209b9903b4522fddaea8ae71bb38a2b9c2d7",
+      "source_ja": "彼もそれを待っているわ。^nあの部屋で過ごして、あなたが感じた通り。^n彼はあなたを愛している。あなたの幸せを望んでいる……。",
+      "submitted_ko": "그 사람도 그걸 기다리고 있어.^n그 방에서 지내며 당신이 느낀 그대로야.^n그 사람은 당신을 사랑해. 당신의 행복을 바라고 있어…….",
+      "proposed_ko": "그 사람도 그걸 기다리고 있어.^n그 방에서 지내며 네가 느낀 그대로야.^n그 사람은 널 사랑해. 네 행복을 바라고 있어…….",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "37행과 같은 청자다. 게르다를 부르는 ‘너’와 카이를 가리키는 ‘그 사람’이 한눈에 구분되게 했다.",
+      "context_ids": [
+        "E1408-00035",
+        "E1408-00037",
+        "E1408-00041",
+        "E1408-00042"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 12712,
+        "original_member": "voice.xfl/1.xfl/2712.wav",
+        "source_sha256": "6c40377c95a4ba85213d215e5b66a8f50f6c9337f2ce17aaafae4f3462e165af",
+        "decoded_seconds": 0.936
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "그 사람도 그걸 기다리고 있어.^n그 방에서 지내며 네가 느낀 그대로야.^n그 사람은 너를 사랑해. 너의 행복을 바라고 있어……."
+    },
+    {
+      "id": "E1408-00048",
+      "uid": "scr.xfl::1408.gsc::slot/00048",
+      "work": "Encore",
+      "packet": "E038",
+      "scene": 1408,
+      "slot": 48,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "？？？",
+      "source_sha256": "fc70aeec49b71c1fe41459fe08494f22286c8f55554009c6b77bca59ccd604bf",
+      "source_ja": "──いってらっしゃい、ゲルダ。^n願わくば、もう、あなたの心が壊れるような悪夢が^n繰り返されませんように……。",
+      "submitted_ko": "──잘 다녀와, 게르다.^n부디, 더는 당신의 마음이 부서지는 그런 악몽이^n반복되지 않기를…….",
+      "proposed_ko": "──잘 다녀와, 게르다.^n부디, 더는 네 마음이 부서지는 그런 악몽이^n되풀이되지 않기를…….",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "같은 화자가 게르다의 이름을 부르며 보내는 인사다. 앞선 위로와 같은 말투 및 마음이 부서지는 이미지를 유지했다.",
+      "context_ids": [
+        "E1408-00044",
+        "E1408-00046",
+        "E1408-00049",
+        "E1408-00050"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 12715,
+        "original_member": "voice.xfl/1.xfl/2715.wav",
+        "source_sha256": "6559c678bb16852134efd12c916bde7636d0cd2d6fd0bd82b483ff0ecd2dad8e",
+        "decoded_seconds": 0.936
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "──잘 다녀와, 게르다.^n부디, 더는 너의 마음이 부서지는 그런 악몽이^n반복되지 않기를……."
+    },
+    {
+      "id": "E1501-00005",
+      "uid": "scr.xfl::1501.gsc::slot/00005",
+      "work": "Encore",
+      "packet": "E039",
+      "scene": 1501,
+      "slot": 5,
+      "branch": "",
+      "kind": "무표기",
+      "speaker_ja": "",
+      "source_sha256": "5d79fc7ccf9b77491f02efad420f6c4403f742c143c6c7df0e4e3972f0c7da5c",
+      "source_ja": "だって、もう「僕」にとっては^n時間なんてどうでもよくなっていたし、^nしばらくの間は自分が何者だったかも思い出せないくらいだったし。",
+      "submitted_ko": "그도 그럴 것이 이제 「나」에게는^n시간 따위 아무래도 좋게 되어 버렸고,^n한동안은 내가 누구였는지조차 기억나지 않을 정도였으며,",
+      "proposed_ko": "그도 그럴 것이 이제 「나」에게는^n시간 따위 더는 중요하지 않았고,^n한동안은 내가 누구였는지조차 기억나지 않을 정도였고,",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "이번 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "숲에 온 뒤 이전의 시간이 의미를 잃었다. 이유를 늘어놓는 「し…し」가 다음 행의 마지막 이유로 이어지도록 했다.",
+      "context_ids": [
+        "E1501-00003",
+        "E1501-00004",
+        "E1501-00006",
+        "E1501-00008"
+      ],
+      "linked_id": null,
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "그도 그럴 것이 이제 「나」에게는^n시간 따위 아무 상관 없어져 버렸고,^n한동안은 내가 누구였는지조차 기억나지 않을 정도였으며,"
+    },
+    {
+      "id": "E1501-00022",
+      "uid": "scr.xfl::1501.gsc::slot/00022",
+      "work": "Encore",
+      "packet": "E039",
+      "scene": 1501,
+      "slot": 22,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "グレーテル",
+      "source_sha256": "142278fc5f1e898d06e0877e831efd7208d4a384f8c058e3f71c8a6790c28717",
+      "source_ja": "ドロシーがずっと待ってたのって、このひとなんだぁ。^nなんだか……なつかしい、気がするなぁ。",
+      "submitted_ko": "도로시가 줄곧 기다리던 게 이 애구나아.^n어쩐지…… 그리운 기분이 들어어.",
+      "proposed_ko": "도로시가 줄곧 기다리던 게 이 사람이구나아.^n어쩐지…… 그리운 기분이 들어어.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "그레텔은 도로시가 기다리던 이를 「このひと」라 부른다. 나이를 정하는 ‘이 애’를 덜고 늘이는 어미는 유지했다.",
+      "context_ids": [
+        "E1501-00018",
+        "E1501-00020",
+        "E1501-00024",
+        "E1501-00026"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 13005,
+        "original_member": "voice.xfl/1.xfl/3005.wav",
+        "source_sha256": "abc617bad148a4d18d52c3aed83fbd79f3d1891aa20f8e31e149e882d6a9dfe6",
+        "decoded_seconds": 1.438
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "도로시가 줄곧 기다리던 게 이 사람이구나아.^n어쩐지…… 그리운 기분이 들어어."
+    },
+    {
+      "id": "E1501-00026",
+      "uid": "scr.xfl::1501.gsc::slot/00026",
+      "work": "Encore",
+      "packet": "E039",
+      "scene": 1501,
+      "slot": 26,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ドロシー",
+      "source_sha256": "ce1447799802cfc1e2dc8cf7ab0038035a1ab54d17d395edef70f92b58b62dbd",
+      "source_ja": "本当に長かったわ。^n待ちくたびれちゃった。",
+      "submitted_ko": "정말 오래 걸렸어.^n기다리다 지칠 뻔했잖아.",
+      "proposed_ko": "정말 오래 걸렸어.^n기다리다 지쳐 버렸잖아.",
+      "decision": "수정",
+      "review_scope": "기존 합의",
+      "wording_origin": "기존 Codex 문안",
+      "translator_model": "Codex internal",
+      "reason": "이미 오래 기다려 지쳤다고 도로시가 투정을 부린다.",
+      "context_ids": [],
+      "linked_id": null,
+      "voice": {
+        "id": 13007,
+        "original_member": "voice.xfl/1.xfl/3007.wav",
+        "source_sha256": "6f579b6924c71bae8da4ba912a5ad7dea2f889e918d8a0733409dff3661a5bc5",
+        "decoded_seconds": 0.431
+      }
+    },
+    {
+      "id": "E1501-00079",
+      "uid": "scr.xfl::1501.gsc::slot/00079",
+      "work": "Encore",
+      "packet": "E039",
+      "scene": 1501,
+      "slot": 79,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "グレーテル",
+      "source_sha256": "556e9bd8b905770bbda61ceec694e0c5d17fb02920567573f45e4a757133cd99",
+      "source_ja": "結局、カモさんにはならなかったね。",
+      "submitted_ko": "결국, 오리는 안 됐네.",
+      "proposed_ko": "결국, 오리 씨는 안 됐네.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "여럿이 가능한 배역을 늘어놓는 가운데 그레텔만 오리에 「さん」을 붙인다. 동물을 사람처럼 부르는 말투를 보존했다.",
+      "context_ids": [
+        "E1501-00075",
+        "E1501-00077",
+        "E1501-00081",
+        "E1501-00083"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 13024,
+        "original_member": "voice.xfl/1.xfl/3024.wav",
+        "source_sha256": "4c3171f9fd7ef85c3d5ebe329f0137f6f8dbf3534039c4a2d529cfe8b3122458",
+        "decoded_seconds": 0.948
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "결국, 오리 씨는 안 됐네."
+    },
+    {
+      "id": "E1501-00081",
+      "uid": "scr.xfl::1501.gsc::slot/00081",
+      "work": "Encore",
+      "packet": "E039",
+      "scene": 1501,
+      "slot": 81,
+      "branch": "",
+      "kind": "발화",
+      "speaker_ja": "ラプンツェル",
+      "source_sha256": "c35816fbc55d55a8af0be0648aacdc7fd89afa474e959c7069192285b2f68bdf",
+      "source_ja": "なんでもできるひとだけど、^n王子様だけはだめなのよね。",
+      "submitted_ko": "뭐든 다 할 수 있는 애지만,^n왕자님만은 안 된단 말이지.",
+      "proposed_ko": "뭐든 다 할 수 있는 사람이지만,^n왕자님만은 안 된단 말이지.",
+      "decision": "수정",
+      "review_scope": "신규",
+      "wording_origin": "제미나이 독립검수 문안",
+      "translator_model": "Gemini (독립검수본에 세부 모델 미기록)",
+      "reason": "라푼젤 역시 배역을 맡을 수 있는 이를 「ひと」라고 지칭한다. 나이를 덧붙이지 않고 왕자님만은 안 된다는 농담을 살렸다.",
+      "context_ids": [
+        "E1501-00077",
+        "E1501-00079",
+        "E1501-00083",
+        "E1501-00085"
+      ],
+      "linked_id": null,
+      "voice": {
+        "id": 13025,
+        "original_member": "voice.xfl/1.xfl/3025.wav",
+        "source_sha256": "13cec17a008f2888daff8d26b1edd59e35d4558833b27b7728322cf3cc678ecb",
+        "decoded_seconds": 1.949
+      },
+      "previous_codex_proposal": null,
+      "gemini_review_proposal": "뭐든 다 할 수 있는 사람이지만,^n왕자님만은 안 된단 말이지."
+    }
+  ],
+  "keep_submission": [],
+  "source_context": [
+    {
+      "id": "E1101-00017",
+      "speaker_ja": "",
+      "source_ja": "それは彼女の旅が今日も始まらないという事実を示していた。^n健常人の日常においては微熱で済む数値でも、^n彼女の場合は安静と経過観察が必要となる。",
+      "source_sha256": "3b245011998ba65ffdd1f739ce8333aa72bd5c9b3a9ec5cd2b1d3231ecba8cd4"
+    },
+    {
+      "id": "E1101-00019",
+      "speaker_ja": "ドロシー",
+      "source_ja": "……ああ、今日もまたお出かけできないのね。",
+      "source_sha256": "e21a7913064e29aa7b08519b4f2b10f4e6a136642728817fa8b2e19f76aa85a0"
+    },
+    {
+      "id": "E1101-00021",
+      "speaker_ja": "",
+      "source_ja": "別人になりきったつもりでいても、^n自分の体調不良の原因がどの部位にあるのかは^n無意識的に憶えているのだろう。",
+      "source_sha256": "46842483da9ec6368d1eda30adeb1ebd22cb1df813960ce9eef68ae180865d22"
+    },
+    {
+      "id": "E1101-00023",
+      "speaker_ja": "ドロシー",
+      "source_ja": "私、いつになったら旅立てるのかな。^n毎日毎日寝込んでばかりで。^nどうしてこんなに身体が重いのかしら。",
+      "source_sha256": "0b0b9340ebdf0674e809bf214c57a06b3cafa775d0b561245256019f7175b530"
+    },
+    {
+      "id": "E1102-00213",
+      "speaker_ja": "",
+      "source_ja": "３体目、最後のおともはライオンだ。^n臆病に生まれついてしまった百獣の王は、^n見た目にふさわしい「勇気」を求めて旅の仲間に加わる。",
+      "source_sha256": "582837fdacfef3ad11c78d516e61735b6fb3940cc21aee97a136b58c01cdf367"
+    },
+    {
+      "id": "E1102-00214",
+      "speaker_ja": "",
+      "source_ja": "だから、強靱な身体や獰猛な顔つきから発せられる、^n優しい声のギャップをねらって演出した。",
+      "source_sha256": "4d13efb7c5025040bd05587ebd20efb72034d0fe3af35aceda7aeaaefdc9cddd"
+    },
+    {
+      "id": "E1102-00217",
+      "speaker_ja": "",
+      "source_ja": "パペットを操って、顔をくしゃくしゃにゆがめてみる。",
+      "source_sha256": "071fca5de1897585204e4d27b50392706f464ca36d25b5111d29f4d2fc1dc0f4"
+    },
+    {
+      "id": "E1102-00218",
+      "speaker_ja": "",
+      "source_ja": "すると「ドロシー」は気の毒そうに眉根を寄せながらも、^n笑いを抑えきれないという表情でくすりと笑った。",
+      "source_sha256": "759b6e24bb76fffe51bb0e53d67e26a7e286d03c044e9f38ab869e936f166371"
+    },
+    {
+      "id": "E1104-00018",
+      "speaker_ja": "グレーテル",
+      "source_ja": "こ、交換すると、わたし、^nお菓子いっぱい作って食べ放題？^nで、でも……いやぁ、怖い。",
+      "source_sha256": "442aa9f41cdc02b0d43d4e810c7e11a6106e5bacdc0f5bc6b09c6b461fad23df"
+    },
+    {
+      "id": "E1104-00019",
+      "speaker_ja": "",
+      "source_ja": "陶酔と怯えを行き来していたグレーテルの表情が、^n目の前で仕上がっていくケーキに見とれるうちにとろけていく。",
+      "source_sha256": "dc1ad52f89e2a87877443f3e97673cef2cd5f4adc8b2e5b4658a379cba25e58c"
+    },
+    {
+      "id": "E1104-00021",
+      "speaker_ja": "",
+      "source_ja": "きっと、このお菓子はグレーテルがねだって^nアリスに作らせたものなのだろう。^n体も気も人一倍小さいグレーテルだが、胃袋は誰よりも大きいのだ。",
+      "source_sha256": "435f04eb95b9c62dc5e0a421b84b2f0ca2fc193815456332075f8004541f5271"
+    },
+    {
+      "id": "E1104-00023",
+      "speaker_ja": "グレーテル",
+      "source_ja": "あ、アリスちゃん、匂いが……匂いがもう……。^nま、まだ食べちゃだめ？",
+      "source_sha256": "88d3b67f10e861cbe79b82ec14e472911ba567159386da1df7ebcb4e245305a4"
+    },
+    {
+      "id": "E1104-00049",
+      "speaker_ja": "",
+      "source_ja": "その横ではグレーテルが大口を開けて、^nアリスが完成させるそばからケーキをたいらげていく。",
+      "source_sha256": "2d6d286e2778d5dd3e8d945262a2ebd31cf176e164a480b25fa2bf42550ff338"
+    },
+    {
+      "id": "E1104-00050",
+      "speaker_ja": "",
+      "source_ja": "ケーキはクリームを塗るために回転するから、^n同じ場所で口を動かしていれば勝手に口の中に飛び込んでくるのだ。^n横着だが、効率のいい片づけ方といえた。",
+      "source_sha256": "c62e2ee6cb6d547413f7a9dfed634cd66e10a6e99d3cddbaa1d4c2453b07ec30"
+    },
+    {
+      "id": "E1104-00054",
+      "speaker_ja": "アリス",
+      "source_ja": "そのくせ、サラダは食べやしない。^n身体に悪いものばかり好きなのね。^n──あらら？",
+      "source_sha256": "448fce00e168e3dbf959e8a4c3ed351118552512f02f876c49cf69951308fb71"
+    },
+    {
+      "id": "E1104-00056",
+      "speaker_ja": "グレーテル",
+      "source_ja": "はむはむはむはむ……はっ！？",
+      "source_sha256": "feb0b62b67651b30b8957a79a2dd63a5c17fdddbff02dcef007d850231368659"
+    },
+    {
+      "id": "E1105-00015",
+      "speaker_ja": "",
+      "source_ja": "開きっぱなしの奥のドアの向こうから、声をかけられた。^nカチャカチャと物音がして、何かを準備しているらしい。",
+      "source_sha256": "dfa30344cd0b789460c1eee54e454624a4b9079ce6d425c13e306624734dd213"
+    },
+    {
+      "id": "E1105-00016",
+      "speaker_ja": "",
+      "source_ja": "──何故か、憂鬱がもう一段階つのった。^nあのひとはエメラルドの国にお住まいのお医者様で、^n気が重くなることなんて何ひとつないはずなのに。",
+      "source_sha256": "3ac9e41581e1ad2c3442b79345672b98b0f600e80f01daf857acdc71f652bda6"
+    },
+    {
+      "id": "E1105-00019",
+      "speaker_ja": "医者",
+      "source_ja": "先に椅子に座っててね。",
+      "source_sha256": "3aaec0340e536eea0ea1d8c4a685422208b992989cd0b897f4568fddc95aa9a6"
+    },
+    {
+      "id": "E1105-00021",
+      "speaker_ja": "ドロシー",
+      "source_ja": "あ、はい……。",
+      "source_sha256": "08cbf0234f073e86d6fd919178e56c7706f6b3eadea7dd45afda248ee54119a7"
+    },
+    {
+      "id": "E1106-00038",
+      "speaker_ja": "アリス",
+      "source_ja": "昨日焼いたお菓子、たくさんもってきたの。^nあたしはピクニックがティーパーティになっても、^nいっこうにかまわないわよ。",
+      "source_sha256": "dd3d4613adb8c13e9ee3e4f0dc2ef583d8dcbd7e2471eae2428a040d1ae5ba07"
+    },
+    {
+      "id": "E1106-00039",
+      "speaker_ja": "",
+      "source_ja": "アリスが持参したバスケットを掲げてみせる。^n実に魅惑的な提案だ。",
+      "source_sha256": "1530452033687f5f8a994176a5c37aa63738cabb7378719713b294b431091290"
+    },
+    {
+      "id": "E1106-00041",
+      "speaker_ja": "",
+      "source_ja": "わらの目、ブリキの目、獣の目。^n本来意思なんて読み取れないはずの彼らのまなざしが、^nまんざらでもなさそうにバスケットを見つめている──気がする。",
+      "source_sha256": "ece751e068e3d7c67a10a2e714c674242d4c3454aac2dc6b1ca9d8c8242fa1e8"
+    },
+    {
+      "id": "E1106-00043",
+      "speaker_ja": "きこり",
+      "source_ja": "「新しい旅の仲間が増える、ということですか？」",
+      "source_sha256": "18c7b62359b3fd03a3d475a57f21ccdf3565ec8c719a5b2fa032787aaf73cd19"
+    },
+    {
+      "id": "E1106-00075",
+      "speaker_ja": "ドロシー",
+      "source_ja": "あ……「トト」。",
+      "source_sha256": "19e96200fa42497b6f790848f877a41f174206808000500f6c580723a89b9084"
+    },
+    {
+      "id": "E1106-00076",
+      "speaker_ja": "",
+      "source_ja": "「オズの魔法使い」において^n　ドロシーとともに竜巻に飛ばされ、^n　旅の道連れになった飼い犬、トト。",
+      "source_sha256": "f260e3043a22ce7dd45cfd39932c4f30aa6ab067ac591ee42ebad5e72a334b05"
+    },
+    {
+      "id": "E1106-00078",
+      "speaker_ja": "",
+      "source_ja": "何にしても、トトが旅に加わってくれるのはいいことだ、^nままならないつじつまがまたひとつ合うことだ──と^nドロシーは期待に目を輝かせてグレーテルを見た。",
+      "source_sha256": "c22c96798e026a7ff0b9d1377dcaf7513bcd0882664962de7dcc096ae085068d"
+    },
+    {
+      "id": "E1106-00079",
+      "speaker_ja": "",
+      "source_ja": "しかしグレーテルが重たげにおろしたのは、^n黒い毛並みをしているものの、犬ではなく……。",
+      "source_sha256": "bfec171c0d73ec040e1a9e1966ee525159722d0acc5929b21629228d88bc9d8a"
+    },
+    {
+      "id": "E1107-00101",
+      "speaker_ja": "イケノ",
+      "source_ja": "えっと……その……。",
+      "source_sha256": "463ba3375943b832998aa2e3402aa1f63dee06374d567cae2048b39eb45b5863"
+    },
+    {
+      "id": "E1107-00103",
+      "speaker_ja": "ドロシー",
+      "source_ja": "…………。",
+      "source_sha256": "0a0a39a23d968038b6135eb7825a35667f28ef942d728f4925e6018672732e6b"
+    },
+    {
+      "id": "E1107-00105",
+      "speaker_ja": "",
+      "source_ja": "何の心の準備もしていない。^nスポットを当てられたところで、何の芸も持っていない。^nただ途方に暮れて立ちつくすだけ。",
+      "source_sha256": "1dbcecd68cbfba9293570f419ac98ff15000e0cdffd83bff3aeb29ba0a5363a7"
+    },
+    {
+      "id": "E1107-00106",
+      "speaker_ja": "",
+      "source_ja": "──ドロシーには自分がどんなふうに見えていたのだろうか。^n──いつから見えていたのか。^n──どうして問いかけようと思ったのか。",
+      "source_sha256": "727f23db2082cb2c2fcf5f9ee7a967e5dfdf06caa9d336a1bc38a3954a0c744b"
+    },
+    {
+      "id": "E1107-00224",
+      "speaker_ja": "イケノ",
+      "source_ja": "（……ついてないな。^n　天気予報では一日中快晴だったのに）",
+      "source_sha256": "203f4cbe911cd9f7c3697ff7bb3c7e996a003ebd57e426b3aa634dc520ee9465"
+    },
+    {
+      "id": "E1107-00225",
+      "speaker_ja": "",
+      "source_ja": "イケノは「旅」のお開きを心に決めて立ち上がった。^n同じく空模様を眺めて戸惑っているドロシーに、^n先ほど言いかけたことの続きを囁いた。",
+      "source_sha256": "fc4e09149b81127a9fba5a32ee47acab88a7fc567f59381199d1a16420ee3695"
+    },
+    {
+      "id": "E1107-00228",
+      "speaker_ja": "",
+      "source_ja": "再び、ドロシーの光のこぼれるような笑顔を見られると思った。^n──しかし。",
+      "source_sha256": "17bc8eff949ab727c30de96c1ae4734c26279ccc4064caacad1a488f1fbf7d81"
+    },
+    {
+      "id": "E1107-00230",
+      "speaker_ja": "ドロシー",
+      "source_ja": "うん……。……私の、願い。",
+      "source_sha256": "692aacbb73702ad7dab7d3036a540b91b83f7f6285af843fa720e4d807260870"
+    },
+    {
+      "id": "E1108-00261",
+      "speaker_ja": "",
+      "source_ja": "アリスの手が優しく、ドロシーの手を握る。",
+      "source_sha256": "c89b7b70e754dec18baecb1bfb171bb27c1b34d710be9295e3ad6a4cde42347e"
+    },
+    {
+      "id": "E1108-00263",
+      "speaker_ja": "アリス",
+      "source_ja": "ともに正しいふたつの計算式に、^n|むじゅん[・・・・]が生まれてしまうなんて、よくある話よ。^nきっと、あなたも、聖書も、どっちも正しいの。",
+      "source_sha256": "12b55a54970e021bc1f7e4832f367d7090a82118fa29d74903f2a2cf88001ef9"
+    },
+    {
+      "id": "E1108-00266",
+      "speaker_ja": "",
+      "source_ja": "黒い猫と黒い犬を等号で結んだ少女の、奇妙な言い分だ。^nしかしドロシーは納得し、深くうなずいた。",
+      "source_sha256": "72df74341f3af4bd89b8d3972124ff4c73517bf20f44dfbaba8027b6947da961"
+    },
+    {
+      "id": "E1108-00267",
+      "speaker_ja": "",
+      "source_ja": "本当は、「聖書」とドロシー自身に生じている矛盾の正体には^nとうに気づいていた。^nただ、認めて口に出すのが怖かっただけだ。",
+      "source_sha256": "e120d33912791eb4a7ea64cff35c5224d9af7b77bcb6ddfebe3c13b108b178ec"
+    },
+    {
+      "id": "E1108-00278",
+      "speaker_ja": "",
+      "source_ja": "賑やかに話しかけてくるおともたちの後ろに身を隠した、^n悲しげな灰色の、窮屈そうな影。",
+      "source_sha256": "5cb183e095fa6bf80ed366723d130b7087ea39f6e780acd49255dc4251dffe67"
+    },
+    {
+      "id": "E1108-00279",
+      "speaker_ja": "",
+      "source_ja": "頭がない、心がない、勇気がない──^n繰り返し語る声の裏に|彼[・]を感じて、^nいてもたってもいられなくなったのだ。",
+      "source_sha256": "e06648c89a1f223eba9998c0791ba3753416e74e3a6ea313fbffc5b700b1f3ba"
+    },
+    {
+      "id": "E1108-00281",
+      "speaker_ja": "",
+      "source_ja": "──こっちにおいでよ。^n──いっしょに、どこまでも行きましょう。",
+      "source_sha256": "e1bb0ca280c0133ffe2c240fe375e79f50c11c5ed775a3a9f116e4ad77343531"
+    },
+    {
+      "id": "E1108-00282",
+      "speaker_ja": "",
+      "source_ja": "そう語りかけて手を取りたくなったのだ。^nオディールに言わせれば、やっぱりお節介かもしれないけれど。",
+      "source_sha256": "534df2cfc3016cae50a5cbdf75403ae195ffb72b2b8ea2785c51baf8f8baaa00"
+    },
+    {
+      "id": "E1109-00146",
+      "speaker_ja": "",
+      "source_ja": "ドロシーは無言だ。^n弱々しい肺を必死に動かして^n聞くだけで苦しそうな呼吸を繰り返している。",
+      "source_sha256": "2dbd8d0dd06190339441e2c00e7dcbaf7d93c96d540601b98183e8737406b67c"
+    },
+    {
+      "id": "E1109-00147",
+      "speaker_ja": "",
+      "source_ja": "　浮かない顔に見えるのは気のせいだろうか。^n「虹のかけら」の時は、涙を流すほど喜んでくれたのに。",
+      "source_sha256": "4c5ce792efc52d320e50c79a8d14d215ca5cf5b6b75d6852f84e22d04682bc94"
+    },
+    {
+      "id": "E1109-00150",
+      "speaker_ja": "",
+      "source_ja": "イケノはさすがに物寂しさを覚えたものの、顔には出さず、^nねぎらいの言葉をかけて去ろうとした。",
+      "source_sha256": "44279ab3c6445a383840934020cfff5d048b45869bd017cb8bcc859fdb1e0a15"
+    },
+    {
+      "id": "E1109-00151",
+      "speaker_ja": "",
+      "source_ja": "それを、か細い声が呼び止める。",
+      "source_sha256": "6713d8f620f13f3c85eb6c2a7bc136c6939b7758887492e006d1feba47a9e1a6"
+    },
+    {
+      "id": "E1109-00203",
+      "speaker_ja": "",
+      "source_ja": "──こんな愛情が世の中にあったのか。^n",
+      "source_sha256": "098992477eb1ebdbef9fe0ca4e7436e294f91b4ab6a4ebe40c24fbfc9b505f1f"
+    },
+    {
+      "id": "E1109-00204",
+      "speaker_ja": "",
+      "source_ja": "──こんな気持ちが自分の中に芽生えるなんて。",
+      "source_sha256": "844b35c136d17c64cc0a1920ef60597e549d3cd45f12cbad551a7087cb3f2933"
+    },
+    {
+      "id": "E1109-00208",
+      "speaker_ja": "イケノ",
+      "source_ja": "世界で誰かひとりでも許してくれるのなら、^nきっとすぐにでも愛してしまう。",
+      "source_sha256": "12f5859200d1c02686407219c9b7ec8e8cbcb1ed93f17a1321c6bbe49a138db1"
+    },
+    {
+      "id": "E1109-00210",
+      "speaker_ja": "ドロシー",
+      "source_ja": "許すわ。",
+      "source_sha256": "00fed1ce11be4dc502dbbbd81298da54958d34f380520c006de5fa2fa92afe96"
+    },
+    {
+      "id": "E1112-00064",
+      "speaker_ja": "イケノ",
+      "source_ja": "けれど、きっとそれだけではありません。",
+      "source_sha256": "2d3ace284d6a82e6b38791212444f48b38dc1972a71a2fc788ba899787465565"
+    },
+    {
+      "id": "E1112-00066",
+      "speaker_ja": "イケノ",
+      "source_ja": "「ドロシー」は作中でずっと「カンザスに帰りたい」と^n　願いつづけています。^n　それは彼女自身の願いであるはずです。",
+      "source_sha256": "b0f2b9ead43aaa166e22b0c8f4737234203fffab649557a7c0f3e19447ff99ac"
+    },
+    {
+      "id": "E1112-00068",
+      "speaker_ja": "イケノ",
+      "source_ja": "そして、その願いはこのラストシーンにつながります。^n叔父さん、叔母さんにあたたかく迎えられて、^n帰ってきてよかった、と伝える──",
+      "source_sha256": "db22ca9bb954d735853e1199de2bd53e654d80c5d491b8f55f70d1c8014aba95"
+    },
+    {
+      "id": "E1112-00069",
+      "speaker_ja": "",
+      "source_ja": "喉がひきつる音が聞こえた。^nドロシーの叔母の赤い瞳から、ついに涙の筋がこぼれだしたのだ。",
+      "source_sha256": "1abefc1e5fb2952249095c1d29b8d37c1bbe2f3b195451d794a7ee68519505a0"
+    },
+    {
+      "id": "E1112-00071",
+      "speaker_ja": "イケノ",
+      "source_ja": "彼女を「ドロシー」にしてしまったもの、^nオズの世界に捕らえて帰さないものは、^nこのラストシーンへの期待と不安だと、僕はそう考えています。",
+      "source_sha256": "d77a559d8a1c126f85ec422f1e68813c1cfee0b439ebd35f5addf24b1391fc0f"
+    },
+    {
+      "id": "E1112-00073",
+      "speaker_ja": "イケノ",
+      "source_ja": "だから、お願いです。",
+      "source_sha256": "c86048f9d5f46c7565fc71326b19317f69bf28975e1bfe13fc17da90f3013e65"
+    },
+    {
+      "id": "E1112-00075",
+      "speaker_ja": "イケノ",
+      "source_ja": "どうかドロシーの物語を、この通りに完結させてください。^n長い旅を終えた彼女を、あたたかく迎えてやってください。",
+      "source_sha256": "4013b67b6e94fc9104060c7c618f0a4b8c3a6249e27650062f63fee53d0244aa"
+    },
+    {
+      "id": "E1112-00078",
+      "speaker_ja": "ドロシーの叔母",
+      "source_ja": "ええ、私はもうずっと前から、最初から、そのつもりです。",
+      "source_sha256": "dfe4edc36866a195e7e1f28579d4d7bfa097be0cda30f77d2e8381049565806b"
+    },
+    {
+      "id": "E1112-00080",
+      "speaker_ja": "ドロシーの叔父",
+      "source_ja": "そうですよ。^n私たちはドロシーの本物のお父さんお母さんじゃないが、^n帰る場所ではありたいって、心からそう思っています。",
+      "source_sha256": "9315c9335ff158990edc42170869141668f2fa920f94413042b5e2b9c72ca180"
+    },
+    {
+      "id": "E1112-00083",
+      "speaker_ja": "イケノ",
+      "source_ja": "（……よかった。^n　この人たちなら、きっと大丈夫だ）",
+      "source_sha256": "3d0584f3253349dfa524735ff426ac5bef84237de337b7ff3a713c76cefdfcc6"
+    },
+    {
+      "id": "E1112-00085",
+      "speaker_ja": "イケノ",
+      "source_ja": "（大丈夫だよ、ドロシー。^n　君はきっとカンザスに帰れる）",
+      "source_sha256": "6459d29666e6cd67608606c02f31dafb08e30cd642d557a0b624fab5db6f872f"
+    },
+    {
+      "id": "E1113-00090",
+      "speaker_ja": "",
+      "source_ja": "皮肉なことに、思い浮かべた人物の顔が^nドロシーをよりいっそう深い逃避へと誘った。",
+      "source_sha256": "4578f9031c5eee65e79cdc0afe5981b792f892514b0662529a31e34adc2c74ad"
+    },
+    {
+      "id": "E1113-00091",
+      "speaker_ja": "",
+      "source_ja": "視界が歪む。^n奪われたはずのエメラルドの揺らめきが戻ってくる。^nどこもかしこも、澄みきった宝石の輝きでいっぱいだ。",
+      "source_sha256": "3428fa17501020794bbb93f9e750db0f36df5a9e393b23f43b87b97e506c8be5"
+    },
+    {
+      "id": "E1113-00093",
+      "speaker_ja": "",
+      "source_ja": "少女は一方を拒絶し、もう一方を信じようとした。^nそのささやかな心の防備を嘲笑うように──",
+      "source_sha256": "683b5a1f720e5685a882e057a3a76f191109fc364fe60353fe219154840d86fc"
+    },
+    {
+      "id": "E1113-00094",
+      "speaker_ja": "",
+      "source_ja": "──圧倒的な苦しみが彼女を引き裂いた。",
+      "source_sha256": "b77fb3535e902c1cc74cddc7c189dfd7522b78b21f3801aa3e1be9f120d96b3f"
+    },
+    {
+      "id": "E1113-00096",
+      "speaker_ja": "ドロシー",
+      "source_ja": "あ、ッ、う……ぐ……うぁああああっ……！",
+      "source_sha256": "3e574e3f98ab6b339007a23450cc4095be5eceef229a7f2a0695f2957f598580"
+    },
+    {
+      "id": "E1113-00097",
+      "speaker_ja": "",
+      "source_ja": "股間に生じた違和感が熱に変わり、痛みに変わり、^n腹の奥まで無遠慮に押し入ってくる──",
+      "source_sha256": "c680772c895cb4c0d0ac42785424a212c4d59f89cb49859effa080170523fc8f"
+    },
+    {
+      "id": "E1113-00100",
+      "speaker_ja": "",
+      "source_ja": "こじ開けられたばかりの傷口に、何かが染みる。^n大気に冷やされながら尻のほうまで伝っていく。",
+      "source_sha256": "32a9365c5eb5bd49c3229579700267024d846babf8726e6f8e4db7445e3e42af"
+    },
+    {
+      "id": "E1113-00101",
+      "speaker_ja": "",
+      "source_ja": "かすかな匂いから、血だ、とはっきりわかってしまった。^n残酷な臭気は他のどの刺激よりも強く、^nドロシーのさらされている暴力を実感させた。",
+      "source_sha256": "2e27f0d74ca7fd65f0ccf9b976966d34620fe4609874c11a42d12c7b5427ab33"
+    },
+    {
+      "id": "E1116-00114",
+      "speaker_ja": "イケノ",
+      "source_ja": "（でも無意識下では、^n　ドロシーはちゃんと気づいていたんじゃないだろうか）",
+      "source_sha256": "70f8eb36fe17f216494717911922991ffc0b69d40efd38de4d60860bc26d6748"
+    },
+    {
+      "id": "E1116-00116",
+      "speaker_ja": "イケノ",
+      "source_ja": "（叔父さんと叔母さんは、^n　ドロシーの帰りを待ちわびている。^n　彼女には帰る場所があると）",
+      "source_sha256": "0d45a66bb10d0022a997417ebcd024d2bc2acb67697cf40aeb31c77f49541f43"
+    },
+    {
+      "id": "E1116-00118",
+      "speaker_ja": "",
+      "source_ja": "けれど一方で、不信感も強いのだろう。^n身体の弱い自分を、養い親は受け入れてくれるのか。^n迷惑だと思われないか、疎んじられないか──",
+      "source_sha256": "28a8905292d685d040eb1b0da0e6fc22d47a7951d1949c9ece30c533b493759a"
+    },
+    {
+      "id": "E1116-00120",
+      "speaker_ja": "イケノ",
+      "source_ja": "（大丈夫だよ、ドロシー。^n　君の居場所はちゃんとある）",
+      "source_sha256": "950a9cb59a665a7182163085e3a07d352d0a60940f2e082584855d07dfacf2cf"
+    },
+    {
+      "id": "E1117-00040",
+      "speaker_ja": "",
+      "source_ja": "彼女自ら「ドロシー」と同一化することを望んだはずなのに、^nこの時ばかりは見知らぬ他人について^n聞かれたようなそっけなさだった。",
+      "source_sha256": "b21c26e71dcd5b03516a614dbd30b4cdfb10f76eb67ef55e6aa87175999cf2dd"
+    },
+    {
+      "id": "E1117-00042",
+      "speaker_ja": "イケノ",
+      "source_ja": "君自身のことなのにわからない。^n……そういうこともあるだろうね。",
+      "source_sha256": "691b50ae4afc689b7457b7ceed8482f9f01c64fd4d7a77b915f0405249f75711"
+    },
+    {
+      "id": "E1117-00045",
+      "speaker_ja": "",
+      "source_ja": "イケノは自前の「オズの魔法使い」を取りだし、開いた。^nドロシーはその手元をチラリと窺い、目をつむる。",
+      "source_sha256": "a6ce9ac9c42477ce3a6338ed10e683e3465b3b133cd09d90123fae990ea3446e"
+    },
+    {
+      "id": "E1117-00046",
+      "speaker_ja": "",
+      "source_ja": "「『ああ、ドロシー、いとしい子！』^n　おばさんは少女を抱きしめて顔中にキスをしました。^n　『いったい全体、どこに行っていたんだね』」",
+      "source_sha256": "56ffe1a3bdfb1c5c54a95e9bc22f0d299e1f25afa63e48f05d027ea6d7ef7288"
+    },
+    {
+      "id": "E1117-00047",
+      "speaker_ja": "",
+      "source_ja": "「ドロシーは答えました。^n『オズの国よ。トトもいるわ。^n　ああエムおばさん！　おうちに帰れてほんとうによかった！』」 ",
+      "source_sha256": "91c535c3b9fc37ff7d769f602feb2efc1ec942a501181312b9de7720015a3332"
+    },
+    {
+      "id": "E1117-00049",
+      "speaker_ja": "イケノ",
+      "source_ja": "「私、ずっと帰ってきたかったの！」^n",
+      "source_sha256": "c0954efabe6794a48a75584d7dfde7487dfaae76162d61201d98f679b71c6298"
+    },
+    {
+      "id": "E1117-00052",
+      "speaker_ja": "イケノ",
+      "source_ja": "ドロシーはどうしてこんなことを言ったんだろう。",
+      "source_sha256": "b94d93a61ebf1b6939b41973c04b35919e96bbb8e1e15de008bb72e73af2cbb6"
+    },
+    {
+      "id": "E1117-00054",
+      "speaker_ja": "ドロシー",
+      "source_ja": "それは……本音なんだと思うわ。^nドロシーはずっと帰ってきたかったの。",
+      "source_sha256": "15913c3c7d844c02c81ec7227531a6a49e86f780257b7758618d99ab4cda90ae"
+    },
+    {
+      "id": "E1117-00062",
+      "speaker_ja": "ドロシー",
+      "source_ja": "…………。",
+      "source_sha256": "0a0a39a23d968038b6135eb7825a35667f28ef942d728f4925e6018672732e6b"
+    },
+    {
+      "id": "E1117-00063",
+      "speaker_ja": "",
+      "source_ja": "ドロシーは複雑な顔をしている。^n自分のことのはずなのに、自分のたどる運命とは思えない。^nそんな印象だ。",
+      "source_sha256": "c166fa311c16901327d02d1b71b21701713cdadcf98be73ca8c281b18ef71301"
+    },
+    {
+      "id": "E1117-00067",
+      "speaker_ja": "ドロシー",
+      "source_ja": "……私が……カンザスに帰って……。",
+      "source_sha256": "2e799b2819be4279b014187b3295a6cbb8e1e171ce639d2e2253b15267025d56"
+    },
+    {
+      "id": "E1117-00069",
+      "speaker_ja": "ドロシー",
+      "source_ja": "灰色の大草原に、灰色の家……。^n古びて灰色にくすんでしまったおじさん、おばさん……。",
+      "source_sha256": "83a3554950323cf97a803088a1158852d12a239e7871f734a4aa7e44df066429"
+    },
+    {
+      "id": "E1117-00074",
+      "speaker_ja": "イケノ",
+      "source_ja": "そう思うかい？",
+      "source_sha256": "d64e8d7f065d2513c1ad2cc2ddb1638a52d8c96d8714b5debc9f73eb808b1be1"
+    },
+    {
+      "id": "E1117-00076",
+      "speaker_ja": "ドロシー",
+      "source_ja": "よく思い出せないけど……そんな気がするの。",
+      "source_sha256": "d299ef4bf09cbdcdb53f29c157d499d7a6473117c78f458003d5bf2e2f31b0b9"
+    },
+    {
+      "id": "E1117-00079",
+      "speaker_ja": "イケノ",
+      "source_ja": "……君はおじさんとおばさんに心を許していない。^nそういうことだよね。",
+      "source_sha256": "0ebdcac82c3c7323b41593db484ab2501b8d7752c04309df8c22b513f01ed68c"
+    },
+    {
+      "id": "E1117-00081",
+      "speaker_ja": "ドロシー",
+      "source_ja": "……、うん……。",
+      "source_sha256": "93491107c3cd6b047f4d392c1d601a6eae244026058cc3128701d09dafeef8db"
+    },
+    {
+      "id": "E1117-00109",
+      "speaker_ja": "",
+      "source_ja": "ドロシーは目の前に広げられた「過去」から^nなんとか現在に帰ってこれたようだ。^nびっしりと汗の浮いた額に手をあて、大きなため息をついた。",
+      "source_sha256": "629e7e661fad019b53da6b36dcadbd6958ba1912345da1d6c39962965553e0a8"
+    },
+    {
+      "id": "E1117-00111",
+      "speaker_ja": "ドロシー",
+      "source_ja": "頭の中を、ハンバーグの種をこねるみたいに^n不意にかきまわされた気分……。",
+      "source_sha256": "b0ec407b1f369f6c9db9db319a402da5d3aaa78f8cbdcb7a0f2685d5d7f79274"
+    },
+    {
+      "id": "E1117-00114",
+      "speaker_ja": "ドロシー",
+      "source_ja": "わざわざ会いに行ったって……。^nどうしてよ。どうしてそこまでするの。",
+      "source_sha256": "f090076e1bf61b9c7d2e8cd0b6701032355814eb91fc4935a0c293aa68e75194"
+    },
+    {
+      "id": "E1117-00115",
+      "speaker_ja": "",
+      "source_ja": "イケノを見すえたまなざしは尖りきっている。^nほとんど「敵」を見るような目だ。",
+      "source_sha256": "0765397b7b767f2b163adc0d6df678d7f44bed60eb658e6036fc76c6cdf821f2"
+    },
+    {
+      "id": "E1117-00159",
+      "speaker_ja": "イケノ",
+      "source_ja": "……今日は医者としてきた、なんて、かっこつけたけど。^nただの僕として、人間として、だったね。",
+      "source_sha256": "1ba339a7656fabf40916e9a87c961d42c38efabaea843af86a8933a957ce9e71"
+    },
+    {
+      "id": "E1117-00161",
+      "speaker_ja": "",
+      "source_ja": "しかしドロシーは、^n朝露のようなきらめきを帯びた瞳で^nまっすぐにイケノを見つめた。",
+      "source_sha256": "a3dc924c139a3e58f90cdc9679774112b9c20b7d84f78fb93f6561b658f669c9"
+    },
+    {
+      "id": "E1117-00162",
+      "speaker_ja": "",
+      "source_ja": "透きとおったひたむきな光で捕らえて、^n何かの間違いだとか、不安定な年ごろゆえの錯覚だとか、^nそんな誤魔化しを決して許さない。",
+      "source_sha256": "a558ab0d57d600e3d76dc64640d85c3ec267a7a93e8f0c9b3638a8fcbda5e02f"
+    },
+    {
+      "id": "E1117-00166",
+      "speaker_ja": "ドロシー",
+      "source_ja": "好き。",
+      "source_sha256": "02d75d30b69580be21a0ac6e31fc5fd2f98e1d0ffaaff9b767c76dbb27814122"
+    },
+    {
+      "id": "E1117-00168",
+      "speaker_ja": "イケノ",
+      "source_ja": "……！",
+      "source_sha256": "1a8e369e83aad9740790d4f7808856d5e3967efeeec267023e41e843c8936e62"
+    },
+    {
+      "id": "E1118-00092",
+      "speaker_ja": "",
+      "source_ja": "「月々こんだけ払ってるってのに……。^n　まあ、あんな病人じゃそんなもんだな」",
+      "source_sha256": "154b4212fb3650971bf67d447f4969e82c3231a76e4309124f55645fed867851"
+    },
+    {
+      "id": "E1118-00093",
+      "speaker_ja": "",
+      "source_ja": "「というか、なんであんななのにシボウホケンつけてたんだ。^n　死んだ時に使った分を取り返そうってことか？」",
+      "source_sha256": "c7900757c053f5da89ed3816345ff27e5f9cf7703d44abbb56269d926b4a34f8"
+    },
+    {
+      "id": "E1118-00095",
+      "speaker_ja": "",
+      "source_ja": "「うわ、そんなのついてたのか……。^n　よかった下りなくて」",
+      "source_sha256": "ea8da94e5a745399ea31d64be049afeb4e1600457c00e40bbd5851fe9bf82557"
+    },
+    {
+      "id": "E1118-00096",
+      "speaker_ja": "",
+      "source_ja": "「ええ、まだそっくり残ってるわよ」",
+      "source_sha256": "8f9a6640907297ad9b4a9d69bdff6224f4734d5ed61d6b0b15d5c246d0e38edb"
+    },
+    {
+      "id": "E1118-00120",
+      "speaker_ja": "",
+      "source_ja": "だから、その夜に聞こえてきた会話は^nふたりがはじめて出した「ぼろ」と言えた。",
+      "source_sha256": "c36c5cc5bd85713c62d1f9002d8c30b6f84170b61ae17be4a0d4936589b3d61d"
+    },
+    {
+      "id": "E1118-00121",
+      "speaker_ja": "",
+      "source_ja": "少女は熱に浮かされながら、ベッドの上で身体を起こした。",
+      "source_sha256": "68b61621a2fd59b2ab5a506279ad999835321aad8dfeca28f5a5f8f021190351"
+    },
+    {
+      "id": "E1118-00124",
+      "speaker_ja": "ドロシー",
+      "source_ja": "……逃げなきゃ……！",
+      "source_sha256": "8d845e13f56368f3278b5eb40dfb71a5065421d31c7b2a6142ffa464037c53f9"
+    },
+    {
+      "id": "E1118-00125",
+      "speaker_ja": "",
+      "source_ja": "──奇妙に楽しかったのを憶えている。",
+      "source_sha256": "11c771d173145256f738be5d565a6a06d600ff748211bf3815f3f8378d4bf140"
+    },
+    {
+      "id": "E1121-00110",
+      "speaker_ja": "オディール",
+      "source_ja": "もう少しもう少しって、そうやっていつまで歩かせるのよ。^nあたし、あんたたちと違って暇じゃないの。",
+      "source_sha256": "ade5ed5825c188ba4a800f2c7d0f581b115b8b13a2ff1727a0803d59a11935be"
+    },
+    {
+      "id": "E1121-00112",
+      "speaker_ja": "アリス",
+      "source_ja": "ええ、オデットが白鳥になっている間は暇なんじゃないの？",
+      "source_sha256": "8eb56f3234bc5a4d26d86e04d2bb6e357e9a11ccd09b1fc54c64a95179da2706"
+    },
+    {
+      "id": "E1121-00116",
+      "speaker_ja": "グレーテル",
+      "source_ja": "オディールさんの趣味って、^nオデットさんで遊ぶことなんじゃ……？",
+      "source_sha256": "9b9203a92d1a09595ac7d1bf2c3f02fce117b21a7a9e688ae6f49b887ed16efb"
+    },
+    {
+      "id": "E1121-00118",
+      "speaker_ja": "オディール",
+      "source_ja": "とっくに遊びあきてるわよ。^nおきあがりこぼしのほうがまだ面白いわよ。^n転がしたらすぐ起きてくるんだから。",
+      "source_sha256": "034c738627f9c2893a10069da5126ab9421bdcf663c8700a939202ef4791d2ba"
+    },
+    {
+      "id": "E1121-00310",
+      "speaker_ja": "",
+      "source_ja": "はじめてここにたどりついた時と同じ眺めだ。^n彼は、その時も同じ墓を参っていた気がする。",
+      "source_sha256": "6fb0e6f0f021dcbabde5e2fc338c5b3990efd928e3f51c2cd2e3b3e45b02816f"
+    },
+    {
+      "id": "E1121-00311",
+      "speaker_ja": "",
+      "source_ja": "小さな花束を置いて、目を閉じて、^nそのなかに眠る人に語りかけているのだろうか。",
+      "source_sha256": "4e668d9403d5107045a4f5de72df723b6d0f5fe62a7c3fd990eff4fa9b2e8129"
+    },
+    {
+      "id": "E1121-00313",
+      "speaker_ja": "",
+      "source_ja": "けれど、ゲルダの呼びかけに振り向いたイケノは^n特に気分を害した様子もなく、人懐っこい笑みを浮かべた。",
+      "source_sha256": "56a04734325c79305574a8e8d18996c666fcd6cde0037535e3dfd2403eeeeab5"
+    },
+    {
+      "id": "E1121-00315",
+      "speaker_ja": "イケノ",
+      "source_ja": "……やあ。また会ったね。",
+      "source_sha256": "a29fec99cd3da778b9ab4476daf821e72ad642f64908d6870a2b13b782c70699"
+    },
+    {
+      "id": "E1201-00016",
+      "speaker_ja": "",
+      "source_ja": "一気にそこまで考えが吹っ飛んでしまう。",
+      "source_sha256": "f8dff094ef2723d6f880ca5e6c53e4e0b64cec1df19c172530ec685652669518"
+    },
+    {
+      "id": "E1201-00018",
+      "speaker_ja": "オデット",
+      "source_ja": "──あ……え？　でも……。",
+      "source_sha256": "154ebaf8b8f7474f9ec6c5a52c8c2f17eef22e03c08dfcd28a192e89dc99f28d"
+    },
+    {
+      "id": "E1201-00021",
+      "speaker_ja": "オデット",
+      "source_ja": "ええ、変よね。それはおかしいわ。^nだとすると、ええと、ええと……。",
+      "source_sha256": "2f73c9967fcebafd2e3b5c35e48a4050d461ac2ab040c1b73bb6ff1fb10f8da5"
+    },
+    {
+      "id": "E1201-00023",
+      "speaker_ja": "少年",
+      "source_ja": "どうしたの、オデット。きょろきょろして。",
+      "source_sha256": "f97be2aec7a48a7aea553512419a7c8738a726d3c270ee60665a66d4ce8d2208"
+    },
+    {
+      "id": "E1201-00059",
+      "speaker_ja": "",
+      "source_ja": "眠りにつくごとに追体験しているように、^n最初に色とりどりの、^nとても物言いたげな夢を見たことは憶えている。",
+      "source_sha256": "f6b5256af99fbd8ed984154ad0164803904e9a4bd51055899925dad868e4d764"
+    },
+    {
+      "id": "E1201-00060",
+      "speaker_ja": "",
+      "source_ja": "目や耳どころか^n鼻の穴や毛穴からも侵入してくるような^n押しつけがましい、はた迷惑な夢だった。",
+      "source_sha256": "5e070fc658b62acfa4b961a41c43366477516b9a7274502fb379769a28b0238f"
+    },
+    {
+      "id": "E1201-00062",
+      "speaker_ja": "",
+      "source_ja": "シンインセイの失明。^n──つまり、心がいやになって、目のスイッチを消してしまった。",
+      "source_sha256": "a9d014ff484e61908c14427fc619c7d8257bde5a209cf7da5231a80339b1183b"
+    },
+    {
+      "id": "E1201-00063",
+      "speaker_ja": "",
+      "source_ja": "彼女を診た「お医者様」が^nオデットに聞かせた見立てによれば、そういうことだった。",
+      "source_sha256": "b1868949620cd18d4fdaf6b453dcbea0fcb398a4a6dd07e40766d6c0a8735367"
+    },
+    {
+      "id": "E1201-00127",
+      "speaker_ja": "",
+      "source_ja": "そうしておろおろと無明をさまよっていると、^nいつの間にか現れた少年が手をとり、^nおかしそうに笑うのだ。",
+      "source_sha256": "a606374aca3add742b20578742ac39e7c02aa64d2f263c05642e00e59c4ea9f7"
+    },
+    {
+      "id": "E1201-00128",
+      "speaker_ja": "",
+      "source_ja": "──どうしたの、オデット。^n──また、夢に溺れたような顔をしているね。",
+      "source_sha256": "29b752148725c27ce13c7e72a19d2feeafba8768dcdd3e760565fa086724dd93"
+    },
+    {
+      "id": "E1201-00130",
+      "speaker_ja": "",
+      "source_ja": "幸せだった。^n生まれてからいままでこんなに満たされたことはない、と^n思えるほどに、毎日胸がいっぱいになった。",
+      "source_sha256": "f9b5606c9d8e1f77e08920d3a9eeda31f4774c5be3b8eb9ef6f1ffd00506348b"
+    },
+    {
+      "id": "E1201-00131",
+      "speaker_ja": "",
+      "source_ja": "少年にはそれだけの迷惑をかけているわけで、^n喜びばかりを見いだすことは後ろめたかったけれど、^nどうしても心は躍ってしまう。",
+      "source_sha256": "b0dd3940ff1cad414d191795f4458d82d31e86d3c5426462b30249b7447adde0"
+    },
+    {
+      "id": "E1203-00011",
+      "speaker_ja": "ドクター",
+      "source_ja": "どうかね、オデットの様子は。",
+      "source_sha256": "d2e8f7f80154f0f3b97a0f9a550dbf742d5cc162e30cec10471f5d7a2035e231"
+    },
+    {
+      "id": "E1203-00013",
+      "speaker_ja": "オディール",
+      "source_ja": "相変わらずよ。^n見たいものから目を背けて、ひとりお花畑でお姫様ごっこ。^nおめでたい頭だこと。",
+      "source_sha256": "de86d228eb87bef87cd925c95395c9aded2111ab8490887218c241cf0d2875a3"
+    },
+    {
+      "id": "E1203-00017",
+      "speaker_ja": "ドクター",
+      "source_ja": "よっぽど、過去の真実に触れられるのがつらいんだろうなあ。^n本当に、きみの言うとおりだよ。お花畑のお姫様。",
+      "source_sha256": "a193384df4c7d53c3e493dcf4d8c22867f13e270650c05f3e915043004329455"
+    },
+    {
+      "id": "E1203-00019",
+      "speaker_ja": "オディール",
+      "source_ja": "…………。",
+      "source_sha256": "0a0a39a23d968038b6135eb7825a35667f28ef942d728f4925e6018672732e6b"
+    },
+    {
+      "id": "E1203-00026",
+      "speaker_ja": "",
+      "source_ja": "オディールはこのドクターをはじめとする何人かを籠絡し、^n言葉巧みにオデットへの施術内容を操っていたのだ。",
+      "source_sha256": "fb8e3eb54ba613eb87e1d7ee7ca9e472b48f4abbcdbef32afa8b7495d132b5fe"
+    },
+    {
+      "id": "E1203-00028",
+      "speaker_ja": "オディール",
+      "source_ja": "あの馬鹿には、１番単純な手こそよく効くのよ。^n過去のつらいできごとを、繰り返し繰り返し吹きこむの。^nそうすれば、耐えきれずに勝手に壊れるわ。",
+      "source_sha256": "bd3bee8006fd0ec9885c136ad7da32ac723118c45664c2c5290c5eba590bf805"
+    },
+    {
+      "id": "E1203-00030",
+      "speaker_ja": "ドクター",
+      "source_ja": "ふうん、そういうものか。^n双子の妹──子供の頃からいたぶりつづけてきた^nエキスパートが言うんだから、間違いはないだろうな。",
+      "source_sha256": "da3b85834ddd739471c56ef1bd81252494483fb24c801d273f5c1dc230c45baf"
+    },
+    {
+      "id": "E1203-00032",
+      "speaker_ja": "オディール",
+      "source_ja": "エキスパート……ええ、まあ、それでいいわ。^n実際、あの馬鹿のおつむの中はなんだってお見通しよ。",
+      "source_sha256": "416fef8d37d25a160be09c880d04e26031fb21586046bbf359a430719ea31037"
+    },
+    {
+      "id": "E1203-00034",
+      "speaker_ja": "ドクター",
+      "source_ja": "はは、そりゃあいい。^nそれで、「つらいできごと」ってのはどれにしようかね。",
+      "source_sha256": "e3692f7216faad9c44fe73d540c1b230f9f423c067e2205c2ece59791219fa89"
+    },
+    {
+      "id": "E1203-00036",
+      "speaker_ja": "ドクター",
+      "source_ja": "仮面夫婦のご両親が作られた、冷たい家庭の記憶かね。^nそれとも幼い頃のオデットが変質者に襲われた時の、^n貞操こそ守られたものの、全身汁まみれになった記憶かね。",
+      "source_sha256": "60f293bcd8437b6fc0915faa8fc36420a38b466f4ab92d6cf79f977a2ba3d39b"
+    },
+    {
+      "id": "E1203-00066",
+      "speaker_ja": "",
+      "source_ja": "オディールの崇拝する、オデットの「気高さ」が^n計画の邪魔をしたわけだ。^n皮肉な図式といえる。",
+      "source_sha256": "66d85e1a85ef4d01aa3aded210182519af4ff51a25cd93027e97e421d31b58a4"
+    },
+    {
+      "id": "E1203-00068",
+      "speaker_ja": "オディール",
+      "source_ja": "（まったく、変なところで頑固なんだから。^n　黙ってあたしに従っていればいいのに……）",
+      "source_sha256": "12bd79a4c9400768493daee9609ee762eede02b1883ee0a59943c3f6913d3313"
+    },
+    {
+      "id": "E1203-00071",
+      "speaker_ja": "",
+      "source_ja": "肥りすぎた蛇のように伸びて^n肩を抱こうとした医者の腕を、^nオディールはするりと受け流した。",
+      "source_sha256": "88329a0a6c702fc75c74c6455ab1662a43a5cf0e7abfe63b2d4e023a89344a17"
+    },
+    {
+      "id": "E1203-00073",
+      "speaker_ja": "オディール",
+      "source_ja": "だぁめ。すぐに治るんでしょ？^nそれならそのときまで、もうしばらくおあずけよ。",
+      "source_sha256": "36e82f62bded4ddcf6153eda7756bf7dcf9b3d72ef698ae4be18ed6684ac756c"
+    },
+    {
+      "id": "E1204-00005",
+      "speaker_ja": "オデット",
+      "source_ja": "い、痛いわ、オディール。^nもう少しだけ優しくして……。",
+      "source_sha256": "c5aeca826c4be027f5a902d0597dbb608e29693db0337c7a88b97940775d2663"
+    },
+    {
+      "id": "E1204-00006",
+      "speaker_ja": "",
+      "source_ja": "濡れそぼった金の髪を乱雑にかきまわされて、^nオデットが声を詰まらせた。",
+      "source_sha256": "99fe6a327b20bc9b0f05f68b1212f1621701556d234c2d78ec48cc31aef3a222"
+    },
+    {
+      "id": "E1204-00010",
+      "speaker_ja": "オデット",
+      "source_ja": "う、うん……",
+      "source_sha256": "96dfe6268b5c6bde080eccbcd6d9a6b3bf267f42aadfabd689fd8e5f103e7c2c"
+    },
+    {
+      "id": "E1204-00011",
+      "speaker_ja": "オデット",
+      "source_ja": "ひゃう！^nえ、あ？　な、なに……。",
+      "source_sha256": "2c206de62fdc66fb3a8d4ea6fa799a1695205fa25406a4b71ff81115a6ed0403"
+    },
+    {
+      "id": "E1204-00055",
+      "speaker_ja": "オディール",
+      "source_ja": "会うのは別にいいわ。^nでも、とっちゃうわよ。あんたから。",
+      "source_sha256": "362c766780e3b970fad756ced6e8396e3cf78283df373cd47709cfe55ee79706"
+    },
+    {
+      "id": "E1204-00057",
+      "speaker_ja": "オデット",
+      "source_ja": "ぇ……え？",
+      "source_sha256": "3cb56edafc1cbdc03fa6a3da85afaf43de1f57014c32a13d9bd31db5e77c9d49"
+    },
+    {
+      "id": "E1204-00059",
+      "speaker_ja": "",
+      "source_ja": "とられる──心変わりされる──去っていってしまう──^n何故かやたらに生々しいイメージに打ちのめされて、^n全身から血の気が引いていった。",
+      "source_sha256": "9a6b8fe4997cdbf2a8d06e9b7bc6966aa89932b52b2c4e36cf8fc5e2fc4b9d88"
+    },
+    {
+      "id": "E1204-00061",
+      "speaker_ja": "オデット",
+      "source_ja": "だ、だめ！^n",
+      "source_sha256": "bda6e43cb4b7a651dfa4837f858c0723d6cac56bf8da7ec544aa85095a57eba8"
+    },
+    {
+      "id": "E1205-00030",
+      "speaker_ja": "",
+      "source_ja": "そんな痛ましいひな鳥のようなオデットを^n目線で指しながら、^nオディールは小声の中に凄みを効かせた。",
+      "source_sha256": "065507d2ab2427ba20788ede24799b25d7d8f7e8c3078af14b9afcafd04fe26f"
+    },
+    {
+      "id": "E1205-00032",
+      "speaker_ja": "ドクター",
+      "source_ja": "わ、わ、悪かった。^nた……確かに、計画を外れたことだったかもしれん。",
+      "source_sha256": "62c0ed22adbcadcf390d7c0066f3bf6ae8121f349a854cf16b601a7b1bbc0c3d"
+    },
+    {
+      "id": "E1205-00034",
+      "speaker_ja": "オディール",
+      "source_ja": "……よく滑る口ね。^n",
+      "source_sha256": "ec7acfe17bae7b868a0cf6c73bd9ea792dd42547364d0b006ed0a41df5c362ec"
+    },
+    {
+      "id": "E1205-00035",
+      "speaker_ja": "オディール",
+      "source_ja": "お外で話しましょう。",
+      "source_sha256": "8c43bf66417d44c28edf75719b0256215e29bab029da05b67cfd1772ef1f1484"
+    },
+    {
+      "id": "E1205-00037",
+      "speaker_ja": "オデット",
+      "source_ja": "お医者様……ドクター？^n誰か、他にもいらっしゃるの。",
+      "source_sha256": "a99862d4fbd21a59bd463435ed8b8ef4879eea4d4c4ee548a06a05b2af257dd9"
+    },
+    {
+      "id": "E1205-00039",
+      "speaker_ja": "オデット",
+      "source_ja": "どうしたのかしら、わたし……。^n……っ、急に、お熱が……。",
+      "source_sha256": "4b7a8f3d6e17645447ea8d330f9618d8741cbce252c5674728f7c93f5d60aa78"
+    },
+    {
+      "id": "E1206-00142",
+      "speaker_ja": "",
+      "source_ja": "少年の導きがなければ、^nオデットは|それ[・・]を墜落だと感じたかもしれない。",
+      "source_sha256": "7f5a243bf86b0399c02a845178c55c8618da2b7e0e5af29972b00b56a811fad9"
+    },
+    {
+      "id": "E1206-00144",
+      "speaker_ja": "少年",
+      "source_ja": "……オデット……！",
+      "source_sha256": "50f34c34bd4f636b197fe35fd1a910b82af4924d130a444c35f227e7dbc913ac"
+    },
+    {
+      "id": "E1206-00146",
+      "speaker_ja": "",
+      "source_ja": "白い翼に光を受けながら、伸び伸びと、どこまでも高く──",
+      "source_sha256": "6766d6ab750837138597bdbcc91f52db8d4b983ada18648a7314ab4e00177477"
+    },
+    {
+      "id": "E1206-00148",
+      "speaker_ja": "オデット",
+      "source_ja": "ふ、ぁ……ぁあ──────ッッッ！",
+      "source_sha256": "aa2bd456ec54a210321f2f95bf2df3d4406dc2da7df522dce86484e9e462def5"
+    },
+    {
+      "id": "E1301-00009",
+      "speaker_ja": "",
+      "source_ja": "いや、それはある意味真実かもしれない。",
+      "source_sha256": "096087bc6901150511f771b2000b8b320797fb881db0dd10de74588971e91dd2"
+    },
+    {
+      "id": "E1301-00010",
+      "speaker_ja": "",
+      "source_ja": "　この「楽園」は自らをお伽話の登場人物だと思いこむ^n「|お伽話症候群[フェアリーテイル・シンドローム]」に罹った患者の入院病棟だ。",
+      "source_sha256": "ec51d0e287fa9dd7219f8e307eedd36b93441f19a6c8fe1dbb947d80ca5dba16"
+    },
+    {
+      "id": "E1301-00013",
+      "speaker_ja": "若い医者",
+      "source_ja": "何も？　いいや、そんなことはないよ。",
+      "source_sha256": "dfbdab8681d949b7dc9f8435fadf6066d883bfce32a1bd4d83a9ac3f87c94d42"
+    },
+    {
+      "id": "E1301-00015",
+      "speaker_ja": "若い医者",
+      "source_ja": "実にいい天気じゃないか。^n青い空に白い雲。^n庭園の緑、花の七色、どこまでも続く煉瓦の道。",
+      "source_sha256": "fe98bd0fda410743d8fb429837452427f1772ac2c2fe4c78dcdecb14e6391898"
+    },
+    {
+      "id": "E1301-00023",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "絵ですの。わたくしにとっては。",
+      "source_sha256": "bb496cbecfb83932f8aa96a7ff8b5e8bdfef25d28cde3332a610a999ec2e8683"
+    },
+    {
+      "id": "E1301-00024",
+      "speaker_ja": "",
+      "source_ja": "それは、「かわり映えのない、停滞した世界」^nということなのだろうか。",
+      "source_sha256": "55bd8bf7d23011659bc3e624f6f20352da651a9c0565d5c7484566eb66ea85b2"
+    },
+    {
+      "id": "E1301-00027",
+      "speaker_ja": "若い医者",
+      "source_ja": "時間と共に天候や陽の向きが変わる絵だね。",
+      "source_sha256": "b62418a34625dcd8e04d6e3e57ed5956a3eaab0221ace66bc0fdea0602bd57b8"
+    },
+    {
+      "id": "E1301-00029",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "ええ、不思議な絵ですこと。",
+      "source_sha256": "a438b774c76c18a4f8c32427cf4e50349c1afb15270c673825fef9865f08bf74"
+    },
+    {
+      "id": "E1301-00032",
+      "speaker_ja": "若い医者",
+      "source_ja": "その絵の中に、君自らが飛びこんでみる気はない？^n薔薇のアーチを抜けて、煉瓦の道をたどっていくんだ。^n散歩にはいい季節だよ。",
+      "source_sha256": "9943b3945c7de5321bea08a69d6434c3d010bb7d9224e0951aaba3c40e03c6c6"
+    },
+    {
+      "id": "E1301-00033",
+      "speaker_ja": "",
+      "source_ja": "陽の光の下で適度な運動を、という医者の端くれらしい提案に対し、^nラプンツェルは怪訝そうに眉をひそめた。",
+      "source_sha256": "45ef36d3e2e86572a02892e2154002a9e6421761fa39625dbe21ffc4ee75cff4"
+    },
+    {
+      "id": "E1301-00035",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "……おたわむれを。^nわたくしを試していらっしゃるの？",
+      "source_sha256": "683117a547d30caf2ee4220f465d5e42e14c3b4ad1645bac8d707908bcb84241"
+    },
+    {
+      "id": "E1301-00037",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "わたくしをこの塔に置いて、^nどこにも行かないように言いつけたのは^nあなた……おばあさまではありませんか。",
+      "source_sha256": "55ca4d054f7579b943fc7b0150289a91450880a017c0dc60ef29928ba0a6c86c"
+    },
+    {
+      "id": "E1301-00039",
+      "speaker_ja": "",
+      "source_ja": "ラプンツェルと、やがて彼女のもとを訪れる「王子様」との^nラブストーリーにおいては、^n逢瀬を阻み、引き裂いて放逐してしまう「悪役」である。",
+      "source_sha256": "37a832ebac4acc7cb46d299a015d6fa2b74887a4e01147ac4b79bbdc1db6f25b"
+    },
+    {
+      "id": "E1301-00040",
+      "speaker_ja": "",
+      "source_ja": "　ラプンツェルは、昼にこの塔を訪れる存在をことごとく^n「おばあさま」だと認識しているのだ。^n　この私のことも。",
+      "source_sha256": "8baef8c5a46709573877d2dc54794d8ed4ae59635a4072c476c0dac9f47d04c9"
+    },
+    {
+      "id": "E1303-00074",
+      "speaker_ja": "",
+      "source_ja": "池野くんはパペット（というには欠損が多い代物だったが）を^n構えて３種の声色を披露してくれた。^nなかなか見事だ。",
+      "source_sha256": "7110caf8c92b88f2dea52472d95c1d83770f43122f2ed3c2992100496eb19726"
+    },
+    {
+      "id": "E1303-00076",
+      "speaker_ja": "若い医者",
+      "source_ja": "すごいな、そういう役者になれそうだ。",
+      "source_sha256": "d67e8488f80f6e59dcbf444995abf0e78a508e612c93dbefee30e50d048f5a16"
+    },
+    {
+      "id": "E1303-00079",
+      "speaker_ja": "",
+      "source_ja": "それはきっとどんな子供でもする遊びだ。^n大人になるまであの感覚を覚えていて、人前で披露できるくらいに^n技術が身についているのは、やはり才能ではないだろうか。",
+      "source_sha256": "a915f47a343f6caad5157c281bbac0e38f066823e638efee3f6a233b297437dc"
+    },
+    {
+      "id": "E1303-00080",
+      "speaker_ja": "",
+      "source_ja": "と、感心に感心を重ねている私の前で、^n池野くんはふと目を細めた。",
+      "source_sha256": "c7c9cc4c887a404ce263ae091b2f592c9f3f574d1d05f096d9e298b8acfb9ed6"
+    },
+    {
+      "id": "E1304-00092",
+      "speaker_ja": "若い医者",
+      "source_ja": "そうしたら、いつかそれをよりあわせてはしごを作ろう。^nそれできみはここから抜け出せる。",
+      "source_sha256": "3333faf0037fd706e80cdbe6e58d109634e107db20e86253d1d4418419ea1ae3"
+    },
+    {
+      "id": "E1304-00094",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "え……？^n絹糸……はしご……。",
+      "source_sha256": "4ab8b8aaee0c67b976878bf6517c41e28be7a563d23bdd96b8be4e4f4eaa9c76"
+    },
+    {
+      "id": "E1304-00097",
+      "speaker_ja": "若い医者",
+      "source_ja": "それに、無理に出ていく必要はないんだ。^n不安なら最初は、月夜の散歩を楽しもう。^nそう、「おばあさま」にバレないようにね。",
+      "source_sha256": "741777dd5fa792ab006981a8e811500a09b17ac7c14a937da980ad4cea81a4fe"
+    },
+    {
+      "id": "E1304-00099",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "…………。",
+      "source_sha256": "0a0a39a23d968038b6135eb7825a35667f28ef942d728f4925e6018672732e6b"
+    },
+    {
+      "id": "E1306-00007",
+      "speaker_ja": "",
+      "source_ja": "私は手にしていたのものを彼女に差し出した。",
+      "source_sha256": "fe89187d10527ee2b5d0271d9d3b20aa6f0ed2c5e3ae588bbcba7218997fc60e"
+    },
+    {
+      "id": "E1306-00008",
+      "speaker_ja": "",
+      "source_ja": "手芸用の絹糸を束で購入し、そのままでは扱いづらいだろうと^n絵本の挿絵で見た通りの三つ編みに編んでみた。^n実のところ、三つ編みなんて初めて挑んだので難儀した。",
+      "source_sha256": "b662706d12091b8de9ceb40fa64103d298da4c8857ab995ab3eb6f8f5710677c"
+    },
+    {
+      "id": "E1306-00010",
+      "speaker_ja": "",
+      "source_ja": "だから──あれだけ苦労したのに、出来ばえはあまりよくない。^n何度も試すうちによれてしまったし、^nさんざん手汗も染みているだろうし……。",
+      "source_sha256": "7807dbcea1e46b673816d1e856ed38091c16c9619bb05a1aff74cebfcc758830"
+    },
+    {
+      "id": "E1306-00012",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "…………。",
+      "source_sha256": "0a0a39a23d968038b6135eb7825a35667f28ef942d728f4925e6018672732e6b"
+    },
+    {
+      "id": "E1306-00027",
+      "speaker_ja": "若い医者",
+      "source_ja": "はしごができるまで、長い時間がかかる。^nその間にゆっくり見つめればいい。^n君が、外の世界の何を恐れているのか。",
+      "source_sha256": "fc260ad314673246850cfa2ebd1a9cb304a4ff3af2b653f0c97bc406dd636154"
+    },
+    {
+      "id": "E1306-00029",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "……！",
+      "source_sha256": "1a8e369e83aad9740790d4f7808856d5e3967efeeec267023e41e843c8936e62"
+    },
+    {
+      "id": "E1306-00032",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "どうして……。^nどうしてそんなに、嬉しいことをおっしゃってくれるのです……？",
+      "source_sha256": "2f7fb363117989cee6f5928ea8377d52fe0fba3ec58b32eaa5338585b60247c3"
+    },
+    {
+      "id": "E1306-00034",
+      "speaker_ja": "若い医者",
+      "source_ja": "その……なんというか、放っておけなかったんだ。^n窓の外を見る君が、あまりに寂しそうだったから。",
+      "source_sha256": "5f61a246508cf9c03a34e1aeff6ee60ab007baf3ea915a60a6af11d7ef83a166"
+    },
+    {
+      "id": "E1306-00035",
+      "speaker_ja": "",
+      "source_ja": "しどろもどろにしゃべりだして、^nこれは「王子様」でも何でもない、^n私自身の本音なのだと気づいた。",
+      "source_sha256": "7eec76a1bb824c20be89898df6fcf9334d4a2f6ca1204c8347a8a14848fb1c2d"
+    },
+    {
+      "id": "E1306-00036",
+      "speaker_ja": "",
+      "source_ja": "まずいとは思ったが、滑りだした口は止まらない。",
+      "source_sha256": "f048f67f34ad9a4d40a4d0eeffe54592ebb2da9dbd909aff0726c65ebe042f78"
+    },
+    {
+      "id": "E1306-00040",
+      "speaker_ja": "若い医者",
+      "source_ja": "君はきっと、幸せになったことがないんだと思う。^n私は、君にそんな運命を与えた何者かが憎くて……。^nつまり、その……。",
+      "source_sha256": "6b39800fc03e64175e6ed83f8780141a0686f9f594e47491d5b121a0e6cd5ca5"
+    },
+    {
+      "id": "E1306-00041",
+      "speaker_ja": "",
+      "source_ja": "──なんということだ。",
+      "source_sha256": "6d787a7bdede7c21a45279a6603adda6bd86f4105335c2f6d619ab597a341eab"
+    },
+    {
+      "id": "E1307-00024",
+      "speaker_ja": "グレーテル",
+      "source_ja": "ゆ、幽霊じゃない……？^nおんなのひと……？",
+      "source_sha256": "d8143d3fb96581736be5e855820ae01d1d7a43575c01ba70743595ff5e2c09aa"
+    },
+    {
+      "id": "E1307-00026",
+      "speaker_ja": "ドロシー",
+      "source_ja": "グレーテルも、ほら、言ったとおりじゃない。^n透けてもいないし消えもしない、生身の女の人よって。",
+      "source_sha256": "324c8e3f6a47c8d15b0e07d959ba2b8c4d0c0859898e065b4ec10aabff9d24ac"
+    },
+    {
+      "id": "E1307-00029",
+      "speaker_ja": "",
+      "source_ja": "ぼろぼろのつぎはぎだらけの服と、^nぶかぶかの拾ってきたような靴をまとった小さな女の子。",
+      "source_sha256": "0f98491c494c88d9f076da5272ce9790042b8d4f8f25dec14c8361082f88fe2c"
+    },
+    {
+      "id": "E1307-00030",
+      "speaker_ja": "",
+      "source_ja": "いかにも薄幸そうな外見だが、最も哀れなのは、^nその服装が彼女のしぐさや表情に^nあつらえたように似合ってしまっているということだった。",
+      "source_sha256": "01e31283cef7898f3b9cf1f4cf581cc71f13c5563560565cc13bd70b7cc83234"
+    },
+    {
+      "id": "E1310-00055",
+      "speaker_ja": "",
+      "source_ja": "ラプンツェルは、自らの手が勝手に動くのを見た。",
+      "source_sha256": "81d02b3f02152f6550b6816ed9c0d54dc9d2d256505982ecbfd8078b4175cee8"
+    },
+    {
+      "id": "E1310-00056",
+      "speaker_ja": "",
+      "source_ja": "長い三つ編みの半ばまでを解き、^n最初の絹糸の束を編み込んでいく。",
+      "source_sha256": "af79d57d521974f1ca8b9518f4b4cd83f56d1c7275c8732f621099488faa6c2d"
+    },
+    {
+      "id": "E1310-00059",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "……あぁ……。",
+      "source_sha256": "8354f79c7e920cce52a0241640c5371127bfabc04d1fc67e585accffd9dc541e"
+    },
+    {
+      "id": "E1310-00060",
+      "speaker_ja": "",
+      "source_ja": "なぜか幸せなため息が漏れた。",
+      "source_sha256": "5c876c274ed26779cd3d9a7073c16f0afa9a32acba9f101afc2b2ef38d7424fa"
+    },
+    {
+      "id": "E1311-00018",
+      "speaker_ja": "",
+      "source_ja": "──そうだ、ラプンツェルは！？",
+      "source_sha256": "2f75f9d3a52e9a71a2e2e8430266e4bda6c88e4dff6634cb6cf428613cf99d8d"
+    },
+    {
+      "id": "E1311-00019",
+      "speaker_ja": "",
+      "source_ja": "「は？　なんだよ、ブツブツ言って。^n　……おい、どこにいくんだよ！？」",
+      "source_sha256": "04be2c476f809a8a4c240f1f5fcffc0e54670767a6f4d5078c6153b9d9054efd"
+    },
+    {
+      "id": "E1311-00021",
+      "speaker_ja": "",
+      "source_ja": "だが、人にはこうして後先考えずに突っ走らねばならない瞬間が^nあるものなのかもしれない。",
+      "source_sha256": "960da440f978dfd117501918abbdfa9592b3bdab402af0257900aa36f493461f"
+    },
+    {
+      "id": "E1311-00022",
+      "speaker_ja": "",
+      "source_ja": "私という職員のかわりはいても、^n彼女の王子様はひとりしかいない。",
+      "source_sha256": "87e49005140ce27944846dbcb8d81def78bd570e66ecf3cf8b4249fa78600df3"
+    },
+    {
+      "id": "E1401-00019",
+      "speaker_ja": "",
+      "source_ja": "この場合、ごめんなさい、は、^nさようなら、とほとんど同じことではないかと、^nそんなふうに思ったからです。",
+      "source_sha256": "5509c1a8bf3070ac9c6e309c29a993a0770dda5a9ddb0842ae4246339b8dff68"
+    },
+    {
+      "id": "E1401-00020",
+      "speaker_ja": "",
+      "source_ja": "だからゲルダは口を強く結んだまま突っ伏しました。",
+      "source_sha256": "2240f5600e4682e3d28e960175ccbf8ee908ccedafdf12fbc86568be12b27131"
+    },
+    {
+      "id": "E1403-00025",
+      "speaker_ja": "カイ",
+      "source_ja": "ま、──待って。",
+      "source_sha256": "34b6c26da47cc37c929bee9914b2cca360e6f1b1fd8f22026ffbec660e5aa384"
+    },
+    {
+      "id": "E1403-00027",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "きゃ……！^nカ、カイ？",
+      "source_sha256": "9fb147a57cc36f07d4f937adb95442e4b2e4cf26a7a24adc03cc94ad80567c55"
+    },
+    {
+      "id": "E1403-00030",
+      "speaker_ja": "カイ",
+      "source_ja": "しっ。静かに。",
+      "source_sha256": "4faa377160d1a5ff429dbb786b6b90b5390a4327b2422acfbb20b0671215e669"
+    },
+    {
+      "id": "E1403-00031",
+      "speaker_ja": "",
+      "source_ja": "トン、トン……。",
+      "source_sha256": "7e0951451d1cca09820679d528d8cd51078445be09a790f5113865de9e6d29a8"
+    },
+    {
+      "id": "E1403-00048",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "ええ……。わかったわ。",
+      "source_sha256": "cbccf4b976916101119b94905b1073d4902f8a8eb42ea100fd33401a93fc20f4"
+    },
+    {
+      "id": "E1403-00049",
+      "speaker_ja": "",
+      "source_ja": "理屈に合わないのは、これに限ったことではありません。^n最初からなにもかもがおかしいのです。",
+      "source_sha256": "232369e452944f83ae05595600d85e1f8585343595129c626008cd264432766f"
+    },
+    {
+      "id": "E1403-00052",
+      "speaker_ja": "カイ",
+      "source_ja": "…………。",
+      "source_sha256": "0a0a39a23d968038b6135eb7825a35667f28ef942d728f4925e6018672732e6b"
+    },
+    {
+      "id": "E1403-00053",
+      "speaker_ja": "",
+      "source_ja": "カイはホッと息を吐いて穏やかに微笑みました。",
+      "source_sha256": "044e581c40ccb29c127ecbcc9c6e45181510fe1c8294500bd72b241007d2bf70"
+    },
+    {
+      "id": "E1405-00031",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "　あら……冴えてるわね。^n「はい」",
+      "source_sha256": "7ebba8ee030933dff1dbf8efdef7b35585e7e4a0d1af1dd1d4d33f8c690edfb0"
+    },
+    {
+      "id": "E1405-00033",
+      "speaker_ja": "カイ",
+      "source_ja": "やった、当たった！",
+      "source_sha256": "1c584f7198aabe201b4d83f81c398fcb7e85c66ba562d45b94771ae2f2a52d9b"
+    },
+    {
+      "id": "E1405-00034",
+      "speaker_ja": "",
+      "source_ja": "他愛ない言葉遊びと、カイの無邪気な笑顔。^n今ゲルダが住むこの部屋には、それがあります。",
+      "source_sha256": "f0ec06f5e4380511e72751f59959a544792cc572c20c90696edc2ae7fb511619"
+    },
+    {
+      "id": "E1405-00035",
+      "speaker_ja": "",
+      "source_ja": "暖炉の炎、揺り椅子、木箱、バラの鉢植え、ゲルダとカイ──^nなんて満ち足りた世界なのでしょう。^nそう、かつてゲルダが願ったとおりです。",
+      "source_sha256": "19e4fd7ba3693dae008982b3871651736084582e5be61c78c70a5a93bdb1f4cd"
+    },
+    {
+      "id": "E1405-00036",
+      "speaker_ja": "",
+      "source_ja": "──カイと、ずっと一緒にいたい。^n──永遠に──",
+      "source_sha256": "754786be2f8e2b88f085778b9195039b89e2f0650afbbe15ee391f3d75e043da"
+    },
+    {
+      "id": "E1405-00038",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "……っ！",
+      "source_sha256": "68a79cacc4554c0a016ff75fdeabb5fea9d3276e6aca0ce826c061e4b45d8740"
+    },
+    {
+      "id": "E1405-00040",
+      "speaker_ja": "カイ",
+      "source_ja": "──！",
+      "source_sha256": "69c6ad1bb9523d32ef47f53a648ef37b4787820999318dcb2169af862a0ebc31"
+    },
+    {
+      "id": "E1406-00011",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "ううん、いいの。私が勝手にしたことよ。^nどうしても、あなたにまた会いたかったの。^nそれだけだったの……。",
+      "source_sha256": "56e8972051d4964939c2ca3659e081a18b8157900392185a6a3ed86f803444f8"
+    },
+    {
+      "id": "E1406-00012",
+      "speaker_ja": "",
+      "source_ja": "ゲルダは──",
+      "source_sha256": "cf00173c239bb6d4fdf8338fa1245b6705de493d6b6157849653553370f5fd4e"
+    },
+    {
+      "id": "E1406-00014",
+      "speaker_ja": "",
+      "source_ja": "少し意志が強いだけの、傷つきやすい心を持った普通の女の子を、^n人形のようにみんなで振り回したらどうなるか、^nという実験につきあわされたような仕打ちでした。",
+      "source_sha256": "2886e11824ef141937973e8aa4f4e4717a21f0aa2fece2b9f7bfedd2e809eed2"
+    },
+    {
+      "id": "E1406-00015",
+      "speaker_ja": "",
+      "source_ja": "ゲルダが傷つくこと、怯えること、苦しむことは、^n美味しいお肉にお酒を添えるようなものでした。",
+      "source_sha256": "f95f4fda2d363daaff653f78746dd72d90e9f060417f59b5f4dcf04cbc8721ee"
+    },
+    {
+      "id": "E1406-00073",
+      "speaker_ja": "カイ",
+      "source_ja": "僕は、なにもできていないよ。^nだって本当はもっと、僕は、きみに、もっと……！",
+      "source_sha256": "a375481c99250c6275cf7a824eabb9fe65ddd8e0c18fc94ba83bededfd4e7b73"
+    },
+    {
+      "id": "E1406-00074",
+      "speaker_ja": "",
+      "source_ja": "カイは大きすぎる気持ちに喉が耐えきれないのか、^n声を詰まらせながらきれぎれに呟いています。",
+      "source_sha256": "b5317c0f09787ff5b98cbb6e093dce1efe6fdadd8dcb87515ddd5504dfbf2000"
+    },
+    {
+      "id": "E1406-00078",
+      "speaker_ja": "カイ",
+      "source_ja": "ゲルダ、でも……！",
+      "source_sha256": "affd8bcb54a7c13f7d76b4ea524ff7aaf7e68fbddf8fa6eab5e3293ed3033bd5"
+    },
+    {
+      "id": "E1406-00079",
+      "speaker_ja": "",
+      "source_ja": "カイは激しく首を振ります。^n依然として窓の外は吹雪。切りつけるような風の音です。",
+      "source_sha256": "58d9faf29ee9ee6e1a2b4e1d24b35fa910c3a77393032636f3f19cdc26d8fa72"
+    },
+    {
+      "id": "E1406-00080",
+      "speaker_ja": "",
+      "source_ja": "この中に再びゲルダを送りだすなんて、^n彼にとっては耐えがたいことでしょう。",
+      "source_sha256": "22fa062cbe06a8f0ddba1c5761875e26df900cf1b6d67f64ad6fcfdc4d64298e"
+    },
+    {
+      "id": "E1406-00081",
+      "speaker_ja": "",
+      "source_ja": "ゲルダだって、怖くないわけはありません。^nまたあんな目に遭ったら、^n今度こそ心が砕けてしまうかもしれません。",
+      "source_sha256": "ac08ea4056e01d2876c8ec056926ec4ec76c771da60f60fe0fb29b0afb9450d7"
+    },
+    {
+      "id": "E1406-00085",
+      "speaker_ja": "カイ",
+      "source_ja": "ゲルダ……。",
+      "source_sha256": "4b99c7c58e21a7c95b074e8ed36bb8b58c2f0fa984d6e866c575d651a3b98ab8"
+    },
+    {
+      "id": "E1406-00087",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "ただ、その……。",
+      "source_sha256": "0fd5ad79c0989bd60d963e1006be323a844fe203cecd1acf20f7e07d6beb45ab"
+    },
+    {
+      "id": "E1406-00097",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "（あ……）",
+      "source_sha256": "464c18c1f1714c924d4c26ae902be6a67d3e93ae329e6e5ebcd2b81ecd2dd17f"
+    },
+    {
+      "id": "E1406-00098",
+      "speaker_ja": "",
+      "source_ja": "そこでゲルダは、窓の外から覗いていた「誰か」が^nスッと顔を背けて立ち去る気配に気づきました。",
+      "source_sha256": "6ef7547e5675aca128174af9f09d767efedf4ada0c4f6ec35a5a5edcee5bab8b"
+    },
+    {
+      "id": "E1406-00102",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "（──ッ。^n　も、もう、あとのことは知らない！^n　したいようにするわ！）",
+      "source_sha256": "add3b2ef434a50363a3fbe35353333170fd13bff1953c6353a857f25791ae841"
+    },
+    {
+      "id": "E1406-00104",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "あのね、カイ、ひとつ聞きたいんだけど。^nあなたさっき、「きっと忘れてしまう」って言ったわよね？",
+      "source_sha256": "f65940adefcc5c04337631706a3d6008d13988a9e67618a299fc3387aa334b7f"
+    },
+    {
+      "id": "E1407-00002",
+      "speaker_ja": "カイ",
+      "source_ja": "あ、あ、あ、あの……ゲルダ。^n本当に、いいの？",
+      "source_sha256": "713662fc25bb1dfaaa776241f5b95427250fc8a04b97446937abcfd024dbcbd0"
+    },
+    {
+      "id": "E1407-00004",
+      "speaker_ja": "",
+      "source_ja": "ゲルダも負けず劣らずの、^n暖炉の火に炙られすぎてしまったような顔色です。",
+      "source_sha256": "46093139b6a256ea94215a6b3cf087bd599892e20440a524b2be1bb893069632"
+    },
+    {
+      "id": "E1407-00005",
+      "speaker_ja": "",
+      "source_ja": "壁に手を当て、腕をつっかえ棒にして^n剥きだしのお尻をカイに向かって突きだす、なんて。^nいつもなら頼まれてもやらない、はしたない体勢です。",
+      "source_sha256": "5e84decee435d02c6c9441c2888ef35e4161a95e0ad8f10efc3d1e91a1ba479b"
+    },
+    {
+      "id": "E1408-00018",
+      "speaker_ja": "",
+      "source_ja": "すべての扉を開けきって答えにたどりつくことが^n幸せとは限りません。",
+      "source_sha256": "f95b3121772228b8277fe3bd8f1b39c0eb98f44dfb3258559d5e6a1eab209207"
+    },
+    {
+      "id": "E1408-00019",
+      "speaker_ja": "",
+      "source_ja": "謎は謎のまま、すべてが曖昧なまま、^n夢とうつつの合間に憩うことが何よりの救いである──^nゲルダにだって、そんな気分のときはあるのです。",
+      "source_sha256": "18527983e561718c0e627de6b60df3c5d5d6f93718dc6513201bf02e81ee974d"
+    },
+    {
+      "id": "E1408-00022",
+      "speaker_ja": "",
+      "source_ja": "ゲルダを抱えた誰かは優しくそう言いました。^nだからゲルダは安心して、^n大粒の涙をあとからあとからこぼれさせました。",
+      "source_sha256": "d719ed3c8e4ec6ef536fd248c253304daea1d12d852100ba7e365c5b917ee9f4"
+    },
+    {
+      "id": "E1408-00024",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "怖い……もういや……カイといっしょにいたい……。^nもうあんな目に遭うのは……カイ……。",
+      "source_sha256": "b3aaba5ad42feacf1352eee09a7fad97549e67159add2038205ea50e3b22546b"
+    },
+    {
+      "id": "E1408-00033",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "ごめんなさい。──もう大丈夫。",
+      "source_sha256": "5fdd40d7c93ccb3303842acd1504d5f5701d45237152206da7fa297d8f719276"
+    },
+    {
+      "id": "E1408-00035",
+      "speaker_ja": "？？？",
+      "source_ja": "そう。本当にいい子ね。",
+      "source_sha256": "2c57d7876ed936cddcb2d63223a11a3527058b0502d04e494153ff8582583c3a"
+    },
+    {
+      "id": "E1408-00037",
+      "speaker_ja": "？？？",
+      "source_ja": "あなたならきっと大丈夫。^n彼を救い出せる。彼と、もう一度会える。^n現実の世界でね。",
+      "source_sha256": "ebd5e28368ebbf0527e6725f676c27420e7490ab5a3d6fba6c2ab245c0c4a80e"
+    },
+    {
+      "id": "E1408-00039",
+      "speaker_ja": "？？？",
+      "source_ja": "彼もそれを待っているわ。^nあの部屋で過ごして、あなたが感じた通り。^n彼はあなたを愛している。あなたの幸せを望んでいる……。",
+      "source_sha256": "244c99c40ebdd94fbb27fd197cff209b9903b4522fddaea8ae71bb38a2b9c2d7"
+    },
+    {
+      "id": "E1408-00041",
+      "speaker_ja": "？？？",
+      "source_ja": "ねえ、好きな人ともう一度会えるの。^n好きなひとに好きだって自分の声で告げられるの。^nそれは、とても幸せなことなのよ。",
+      "source_sha256": "b6c92d7cedcc078cc7e4f3e1ba327d02af9df247d70efb93b61f630da8335422"
+    },
+    {
+      "id": "E1408-00042",
+      "speaker_ja": "",
+      "source_ja": "淡々と言い聞かせるその声が、^nほんの少し寂しそうだったのは、気のせいでしょうか。",
+      "source_sha256": "b7df0dba6e584fb7cf2d7fdf33217a0258cd081f1b89d436378a475b0dba68c4"
+    },
+    {
+      "id": "E1408-00044",
+      "speaker_ja": "",
+      "source_ja": "ゲルダは涙を拭いて、熱い頬をぴしゃりと叩きます。^n縮こまっていた手足をしゃんと伸ばす準備をします。",
+      "source_sha256": "a93c663777c31de57bf228fb1ae89827246f243cd4b0ae8f601d7cef7d635378"
+    },
+    {
+      "id": "E1408-00046",
+      "speaker_ja": "ゲルダ",
+      "source_ja": "ええ、ええ。そうね。^n……だから私は戦えるの。カイ……。",
+      "source_sha256": "08095c8c667ec1758ffb54811d15036b52f89d10cd0d891c25ba028154cb718a"
+    },
+    {
+      "id": "E1408-00049",
+      "speaker_ja": "",
+      "source_ja": "そうしてゲルダは旅立ちました。^n次の夢──「もしもの物語」へ。",
+      "source_sha256": "59aa2e776a36b19253f8dfede787fe3636940319696435432b7471de5a9b2e01"
+    },
+    {
+      "id": "E1408-00050",
+      "speaker_ja": "",
+      "source_ja": "彼女はもう、決してくじけることはないでしょう。",
+      "source_sha256": "28ec9d0d0e38d59b19e31d2149998281b7de282bfd18ac1f1f897b717f2de1c1"
+    },
+    {
+      "id": "E1501-00003",
+      "speaker_ja": "",
+      "source_ja": "あれだけの時間が経ったのに未だに忘れられないんだな、とか、^n自分なりに戦い抜いたけどあの子は戻ってこないんだな、とか、^nもう一度あの子に会いたいな、とか。",
+      "source_sha256": "364360d640896de5284e1a8906878a497f01834463e6f390db441ca58b8c5e19"
+    },
+    {
+      "id": "E1501-00004",
+      "speaker_ja": "",
+      "source_ja": "けれど、僕が「僕」として^nキラキラ輝く森の中に放り出された時には、^nそのどれもが溶けたお菓子のように意味を失っていた。",
+      "source_sha256": "160fb88d12902ec97375d57833a6c714dbd065b3b16b21d0ab7b1c3eb10ff2bf"
+    },
+    {
+      "id": "E1501-00006",
+      "speaker_ja": "",
+      "source_ja": "なんといっても、ずっと会いたかったあの子が^nもう目の前に立っていたから。",
+      "source_sha256": "1d4a523f497d54f7027de6608eca342e645937ed1ea3eb1184af08861e11def1"
+    },
+    {
+      "id": "E1501-00008",
+      "speaker_ja": "ドロシー",
+      "source_ja": "あー！　やっときた！",
+      "source_sha256": "a42cd4e02ddafc0840b2c031ab54a429b6a3c8167c38140d0f0c8f84cccf87d0"
+    },
+    {
+      "id": "E1501-00018",
+      "speaker_ja": "アリス",
+      "source_ja": "ここは、ここよ。^nあなたは、あなたよ。",
+      "source_sha256": "ff54abae8189e4e0d7936c60153cfabedd46b25e51dd6a67a0890a8e3dc50d90"
+    },
+    {
+      "id": "E1501-00020",
+      "speaker_ja": "アリス",
+      "source_ja": "はじめまして、ごきげんよう。^nそして、ようこそ！",
+      "source_sha256": "32384b54b695e03599b4b3f476f913682e92e64b2fdb784a16c2dc4c1f917cac"
+    },
+    {
+      "id": "E1501-00024",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "よかったわね、ドロシー。^n毎日毎日、そわそわして待っていたものね。",
+      "source_sha256": "c46ad85784a891194b81c59a8c5c4769ea074ef81d51f7d16afbb00c360fe197"
+    },
+    {
+      "id": "E1501-00026",
+      "speaker_ja": "ドロシー",
+      "source_ja": "本当に長かったわ。^n待ちくたびれちゃった。",
+      "source_sha256": "ce1447799802cfc1e2dc8cf7ab0038035a1ab54d17d395edef70f92b58b62dbd"
+    },
+    {
+      "id": "E1501-00075",
+      "speaker_ja": "？？？",
+      "source_ja": "かかしとか、きこりとか、ライオンとか。",
+      "source_sha256": "dcdcef0a6f1bf70103976cf3f615d7144c901711a66791eeede6c91e6b8179fd"
+    },
+    {
+      "id": "E1501-00077",
+      "speaker_ja": "アリス",
+      "source_ja": "ドードー鳥とか、芋虫とか。",
+      "source_sha256": "8a42f41e04ed41f769864c7bcf385522394dca34044c5e789c85d798c6dadacc"
+    },
+    {
+      "id": "E1501-00079",
+      "speaker_ja": "グレーテル",
+      "source_ja": "結局、カモさんにはならなかったね。",
+      "source_sha256": "556e9bd8b905770bbda61ceec694e0c5d17fb02920567573f45e4a757133cd99"
+    },
+    {
+      "id": "E1501-00081",
+      "speaker_ja": "ラプンツェル",
+      "source_ja": "なんでもできるひとだけど、^n王子様だけはだめなのよね。",
+      "source_sha256": "c35816fbc55d55a8af0be0648aacdc7fd89afa474e959c7069192285b2f68bdf"
+    },
+    {
+      "id": "E1501-00083",
+      "speaker_ja": "オディール",
+      "source_ja": "いいじゃない、そんなこと、どうでも。^nあたしひまじゃないの。",
+      "source_sha256": "31af73ed4a09365607941c8c50b47c5b11f6cfcbe038c969f6cfd187778a61d8"
+    },
+    {
+      "id": "E1501-00085",
+      "speaker_ja": "オディール",
+      "source_ja": "どうしてもってのなら、シンイリって呼んであげる。",
+      "source_sha256": "8246e5539fd1d1384e141b47a4595c0444f028aa361a4e1d0c1406117d439bfc"
+    }
+  ],
+  "validation": {
+    "roundtrip_scenes": [
+      1101,
+      1102,
+      1104,
+      1105,
+      1106,
+      1107,
+      1108,
+      1109,
+      1112,
+      1113,
+      1116,
+      1117,
+      1118,
+      1120,
+      1121,
+      1201,
+      1203,
+      1204,
+      1205,
+      1206,
+      1301,
+      1302,
+      1303,
+      1304,
+      1306,
+      1307,
+      1309,
+      1310,
+      1311,
+      1401,
+      1403,
+      1405,
+      1406,
+      1407,
+      1408,
+      1501
+    ],
+    "unchanged_command_bytes_and_trailing": true,
+    "strict_cp949": true,
+    "protected_controls_and_ruby_pass": true,
+    "baseline_and_original_slot_hashes_checked": true,
+    "layout_static_limit": 992,
+    "maximum_static_width": 976,
+    "max_lines": 3,
+    "linked_dialogue_windows_checked": [
+      [
+        [
+          "E1113-00154",
+          "E1113-00155"
+        ],
+        [
+          896,
+          656
+        ]
+      ],
+      [
+        [
+          "E1117-00049",
+          "E1117-00050"
+        ],
+        [
+          464,
+          656
+        ]
+      ],
+      [
+        [
+          "E1205-00034",
+          "E1205-00035"
+        ],
+        [
+          304,
+          256
+        ]
+      ]
+    ],
+    "voice_members_decoded": 26,
+    "scope_voice_members_decoded": 19,
+    "voice_check": "원본 음성 경로 및 디코딩 확인",
+    "in_game_verification": false
+  },
+  "wording_source_note": "각 행의 translator_model은 최종 문구를 처음 작성한 쪽이다. 새 문안과 이번 언어 판정은 Codex internal이 담당했다."
+}

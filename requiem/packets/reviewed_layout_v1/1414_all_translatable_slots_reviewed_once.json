@@ -1,0 +1,2006 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1414_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    190
+  ],
+  "new_review_change_count": 14,
+  "new_review_changes": [
+    {
+      "slot": 17,
+      "before": "아, 그것도 이유를 알 것 같네.",
+      "after": "아, 그 이유도 알 것 같네."
+    },
+    {
+      "slot": 21,
+      "before": "　너는 아직 『이름』을 되찾지 못했잖아.^n　진짜 이름도, 『성서』 쪽 이름도.^n『이름』이 없는 녀석한테 무슨 초대장이 오겠어.",
+      "after": "　너는 아직 『이름』을 되찾지 못했잖아.^n　진짜 이름도, 『성서』 속 이름도.^n『이름』이 없는 녀석한테 무슨 초대장이 오겠어."
+    },
+    {
+      "slot": 28,
+      "before": "내가 그 숫자에 들어가는지 안 들어가는지,^n어쩐지 애매해서,^n내 참석 여부도 똑같이 아직 애매해.",
+      "after": "내가 그 수에 포함되는지 아닌지,^n어쩐지 애매해서,^n내 참석 여부도 똑같이 아직 애매해."
+    },
+    {
+      "slot": 52,
+      "before": "──아, 그래. 그것도 그렇네, 당연하지.^n……그 녀석, 꼭 가고 싶다는데.^n뭐, 왕자님이 갈 생각이라니까.",
+      "after": "──아, 그래. 그것도 그렇네, 당연하지.^n……그 녀석, 꼭 가고 싶대.^n뭐, 왕자님이 갈 생각이라니까."
+    },
+    {
+      "slot": 63,
+      "before": "왈츠라도 추면 상대 발이랑 네 발을 마구 밟겠지.^n넘어지기 전에 지팡이라도 가져가는 게 좋겠네.^n목발이 어울리겠어, 너는. 비쩍 말라서.",
+      "after": "왈츠라도 추면 상대 발이랑 네 발을 마구 밟겠지.^n넘어지지 않게 지팡이라도 가져가는 게 좋겠네.^n목발이 어울리겠어, 너는. 비쩍 말라서."
+    },
+    {
+      "slot": 70,
+      "before": "　지금 이야기하는 상대가 누군지는 아시나요~?^n　저는 당신 짝 같은 사람이 아니랍니다~?^n『여보, 할멈』 같은 소리라도 하면 곤란하거든?",
+      "after": "　지금 이야기하는 상대가 누군지는 아시나요~?^n　나는 네 짝 같은 사람 아니거든요~?^n『여보, 할멈』 같은 소리라도 하면 곤란하니까?"
+    },
+    {
+      "slot": 80,
+      "before": "움찔, 오딜의 어깨가 떨린 것은^n기분 탓이었을까.",
+      "after": "움찔하고 오딜의 어깨가 떨린 것은^n기분 탓이었을까."
+    },
+    {
+      "slot": 103,
+      "before": "나는 무의식중에,^n저 안에 오데트가 없으리라고 예감하는 걸까.",
+      "after": "나는 무의식중에,^n저 안에 오데트가 없다고 예감하는 걸까."
+    },
+    {
+      "slot": 108,
+      "before": "무슨 속셈이 있든 오딜이 당황하리라 짐작했는데,^n바람에 흘러가는 깃털처럼 순순히 양보해 버려,^n벽에 대고 말한 꼴이 된 내 기세는 갈 곳을 잃는다.",
+      "after": "무슨 속셈이 있든 오딜이 당황하리라 짐작했는데,^n바람에 흘러가는 깃털처럼 순순히 양보해 버려,^n허공을 친 꼴이 된 내 기세는 갈 곳을 잃는다."
+    },
+    {
+      "slot": 144,
+      "before": "어쩐지 그걸 알면서도 나는.^n이제 와서 오딜의 무엇에 마음이 흔들렸다는 걸까.^n토라진 기분이었지만 그녀가 시키는 대로 곁에 앉았다.",
+      "after": "어쩐지 그걸 알면서도 나는.^n이제 와서 오딜의 무엇에 마음을 빼앗겼단 말인가.^n토라진 기분이었지만 그녀가 시키는 대로 곁에 앉았다."
+    },
+    {
+      "slot": 145,
+      "before": "조금 거칠게 옆자리에 앉았지만 내가 할 말은 없다.^n그대로 한동안 말없이 서로 바라본다.^n총과 꽃을 동시에 내밀어진 듯한 묘한 기분이다.",
+      "after": "조금 거칠게 옆자리에 앉았지만 내가 할 말은 없다.^n그대로 한동안 말없이 서로 바라본다.^n총과 꽃을 동시에 내민 듯한 묘한 기분이다."
+    },
+    {
+      "slot": 150,
+      "before": "나를 조금도 위협하지 않는 온화한 몸짓과 움직임은,^n이럴 때만큼은 오딜을 쌍둥이의 다른 한쪽──^n그 다정하고 온화한 오데트와 닮아 보이게 했다.",
+      "after": "나를 조금도 위협하지 않는 온화한 몸짓과 움직임은,^n이럴 때만큼은 오딜을 쌍둥이의 다른 한쪽──^n그 다정하고 온화한 오데트와 닮은 존재로 보이게 했다."
+    },
+    {
+      "slot": 176,
+      "before": "오딜의 손을 가볍게 밀자,^n떠내려가는 조각배처럼 저항하며 손톱을 세우지도 않고,^n내게서 살며시 멀어져 감촉만을 감상처럼 남긴다.",
+      "after": "오딜의 손을 가볍게 밀자,^n떠내려가는 조각배처럼 저항하며 손톱을 세우지도 않고,^n내게서 살며시 멀어져 감촉만을 감상적인 여운처럼 남긴다."
+    },
+    {
+      "slot": 182,
+      "before": "하지만 이 사람은^n동정이나 연민 같은 마음이 들려 해도,^n평소 행실이 어떻게든 방해한다.",
+      "after": "하지만 이 사람은^n동정이나 연민 같은 마음이 들려 해도,^n평소 행실이 어떻게든 가로막는다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    191,
+    248
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00001",
+      "source_text": "当たり前のことだけれど、オデットの姿はなかった。",
+      "source_raw_sha256": "8CB1810BBCD7064BF261E57D14D7A64511EDCD61476E784ADAE38787EFA1F93A",
+      "target_text": "당연한 일이지만 오데트의 모습은 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00002",
+      "source_text": "木に寄りかかっているオディールは、^nノックもなしに入ってきた僕を|咎[とが]めもせず──むしろ^n気付いてやる価値などないとでも言いたげに、何の反応も見せない。",
+      "source_raw_sha256": "AE613C04A43F3AE4926C077944A22A3362F5AEBBC12F4BFDB987EC3B2D2CA39E",
+      "target_text": "나무에 기대선 오딜은,^n노크도 없이 들어온 나를 나무라기는커녕──오히려^n알아봐 줄 가치조차 없다는 듯 아무 반응도 보이지 않는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00003",
+      "source_text": "彼女が気だるげに眺めているのは、例のパーティの招待状だ。",
+      "source_raw_sha256": "DC00E93503B8B33F069C19C7E2480E01BED8E378878BF67A6F1E9B16A9B839D4",
+      "target_text": "그녀가 나른하게 바라보는 것은 그 파티의 초대장이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00004",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00005",
+      "source_text": "あ、それ……。",
+      "source_raw_sha256": "5934D73F1AFF0240B3BDCC13DC0D0295757CCF9EB96B8835A4FCB57D3105E5FF",
+      "target_text": "아, 그거…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00006",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00007",
+      "source_text": "話があるのは構やしないけど、^nしばらく待っててよ。^nこれをどうしたもんか考えてるの、今。",
+      "source_raw_sha256": "39CC8F2B62FE545606346A5A59865842A22A0356D024E9364896A54A76C88FF6",
+      "target_text": "할 말이 있는 건 상관없지만,^n잠깐 기다려 줘.^n이걸 어떻게 할지 지금 생각 중이니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00008",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00009",
+      "source_text": "……きみのところにも届いてたんだ、その招待状。",
+      "source_raw_sha256": "6CE9EEE55C56884290A04E526896D11D351DAF59F616E4A740654AB298D864BA",
+      "target_text": "……네 쪽에도 왔구나, 그 초대장.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00010",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00011",
+      "source_text": "　そりゃそうでしょ、^n「病棟の患者は全員出席しろ」とか言ってるくらいだもの。",
+      "source_raw_sha256": "DD6FF54A58D30C5E17155529FB008890BC01312EA6CA3D6A92EDE8AF3719C2C3",
+      "target_text": "　그야 그렇겠지.^n『병동 환자는 전원 참석하라』고 할 정도잖아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00012",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00013",
+      "source_text": "まあそうなんだけど。^nでも僕のところには、なんでかそれ、来てないんだよね……。",
+      "source_raw_sha256": "72F6BCC50A7C23E72F683E885AE53C513CD81E6A076A64A526E0A08699C0C832",
+      "target_text": "뭐, 그렇기는 한데.^n그런데 내 쪽에는 왜인지 그게 안 왔거든…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00014",
+      "source_text": "つい愚痴めいてこぼしてしまう。",
+      "source_raw_sha256": "71328ACA23BF24F3676902B078D90492B6A4AB2519B0F7F4F828E8B9952C2EE3",
+      "target_text": "나도 모르게 푸념하듯 흘리고 말았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00015",
+      "source_text": "するとオディールはやっと招待状から顔をあげて、僕を見た。",
+      "source_raw_sha256": "2A5211818E7403BDB1A2BE662A804D1602FA266C8984969042A36EA3AC4E05D1",
+      "target_text": "그러자 오딜은 그제야 초대장에서 얼굴을 들고 나를 봤다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00016",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00017",
+      "source_text": "ああ、なんかそれもわかるわ、理由。",
+      "source_raw_sha256": "28574049C2DC5D0719667DB039809408DC7BB4EFDE8AB285DE77CBF3183700F6",
+      "target_text": "아, 그 이유도 알 것 같네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00018",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00019",
+      "source_text": "どうして？",
+      "source_raw_sha256": "4D028803F978EBE40CF0DC4E55F0C5640A3411B3FBD64D387848BBFAA9A483EE",
+      "target_text": "왜?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00020",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00021",
+      "source_text": "　だってあんた、まだ「名前」を取り戻してないじゃない。^n　ほんとのも、「聖書」のほうのも。^n「名前」がない奴のところになんか、届くもんか。",
+      "source_raw_sha256": "D9FBBF9C02589D27E78C5E42CF46128550C111DB0B9EA7C242071C8BE7AFBF9C",
+      "target_text": "　너는 아직 『이름』을 되찾지 못했잖아.^n　진짜 이름도, 『성서』 속 이름도.^n『이름』이 없는 녀석한테 무슨 초대장이 오겠어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00022",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00023",
+      "source_text": "え……あの、そういうものなの？",
+      "source_raw_sha256": "15AE95BC3B5F5D65CEC22A942E0E57A6CF578493902AD7B13F10551AC8F891D1",
+      "target_text": "어…… 그, 원래 그런 거야?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00024",
+      "source_text": "オディールはさも当然のように言い放ったけれど、^n今ひとつ納得がいかない……。",
+      "source_raw_sha256": "EE4E00F9EE7FC7A7AE9EA3B81A3FC4086A40D686779F4ABE0A07AE99586ABE0F",
+      "target_text": "오딜은 너무도 당연하다는 듯 잘라 말했지만,^n도무지 납득이 가지 않는다…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00025",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00026",
+      "source_text": "そういうもの。とにかくここじゃ、そういうことになってるから。^nそれで？　あんたはどうすんの？^n招待状はなくっても、患者全員出席なんだし？",
+      "source_raw_sha256": "C160E1DE39F6EF4D75093408870BF91DCADA98E8E522BF19CF55BBA7F200819C",
+      "target_text": "그런 거야. 아무튼 여기서는 그렇게 되어 있으니까.^n그래서?　너는 어떻게 할 건데?^n초대장은 없어도 환자는 전원 참석이라며?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00027",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00028",
+      "source_text": "僕がその数に入っているのかいないのか、^nなんだかあやふやなんで、^n僕の出欠も同じ、まだあやふやなまま。",
+      "source_raw_sha256": "CA9417380A9971265DC47B5789A3E2F7E998A1A885FF4D957EBB37414901D671",
+      "target_text": "내가 그 수에 포함되는지 아닌지,^n어쩐지 애매해서,^n내 참석 여부도 똑같이 아직 애매해.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00029",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00030",
+      "source_text": "はん、あいっ変わらず愚図だこと。^nもう今夜だってのに、まだ「どうしよう？」って。",
+      "source_raw_sha256": "6DFE969968FD7B347D8EE6B4ACE2B306F770FB9B02EB835AF2641CE12D5D9F10",
+      "target_text": "흥, 여전한 굼벵이네.^n벌써 오늘 밤인데 아직도 『어쩌지?』라니.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00031",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00032",
+      "source_text": "楽しいことってはね、^nそういう愚図がいないところで進むもんなんだから、^nあんたどっちにしろ乗り遅れるわ、そうに決まった。",
+      "source_raw_sha256": "03EEC3DD162CFD3C9B5F240A65D7D97EC7E0A42384D5615D11977B98F4532A0E",
+      "target_text": "즐거운 일이라는 건 말이야,^n그런 굼벵이가 없는 데서 흘러가는 법이거든.^n너는 어차피 놓칠 거야. 틀림없어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00033",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00034",
+      "source_text": "……。^n……きみは？",
+      "source_raw_sha256": "7250ED9BFF9754D6A01F88E71A66505400EFA967E68E596F02A75564E40B8C75",
+      "target_text": "…….^n……너는?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00035",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00036",
+      "source_text": "あたしは行かないわよ、かったるい。",
+      "source_raw_sha256": "963B377FBD627FCB9887B090216777F8374CE3AE775E130EE59BDA1E09E5F253",
+      "target_text": "나는 안 가. 귀찮아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00037",
+      "source_text": "無関心に流したオディールへ、",
+      "source_raw_sha256": "E68ACD6C9E5320C711D2CE19795C8E9BFAA548013E4DCA5793D0F50CEC4F5D57",
+      "target_text": "무심하게 흘려넘긴 오딜에게,",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00038",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00039",
+      "source_text": "──じゃあ、オデットは？",
+      "source_raw_sha256": "34526135A159FF305066BF7B4FB11CAC15FC9F32D97DCBD95112FDDC579F76FC",
+      "target_text": "──그럼 오데트는?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00040",
+      "source_text": "訊ねてみればオディールは、^n白鳥のオブジェに向き直ってぞんざいに声を投げつけた。",
+      "source_raw_sha256": "D9CCABF13E0C7152B48258A790E8C66E36127963765CCFB9F053DF18E4906239",
+      "target_text": "물어보자 오딜은^n백조 장식물을 향해 거칠게 말을 던졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00041",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00042",
+      "source_text": "さぁあんたどうする？^n行く気なの、それとも？",
+      "source_raw_sha256": "04EE2A597576F71F87CB5A6D26F6B09022EA50038E3049385BF717E2AB997160",
+      "target_text": "자, 너는 어떻게 할래?^n갈 생각이야, 아니면?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00043",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00044",
+      "source_text": "こっちの王子様は、お出でになるみたいだけど──",
+      "source_raw_sha256": "572AF0E5E90638AEC45192ACC574FFF6FD52CED113AACF98D2B981E582770428",
+      "target_text": "이쪽 왕자님은 납실 모양인데──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00045",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00046",
+      "source_text": "え、僕、行くことになったの！？",
+      "source_raw_sha256": "4134EB2FA8193078BC887DD15D6F0857DC30BB576A11102343E0620E0665DA9D",
+      "target_text": "뭐, 나 가기로 한 거야!?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00047",
+      "source_text": "勝手に決められて泡を食う僕に、^nオディールは目線も合わせないまま肩をすくめる。",
+      "source_raw_sha256": "4742001858DF79325C1048C1BA9DC5BF3925DF013E04852E2D446CF6CBB257C7",
+      "target_text": "멋대로 결정당해 허둥대는 나를 향해,^n오딜은 눈도 마주치지 않은 채 어깨를 으쓱한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00048",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00049",
+      "source_text": "どうせあんたは、くよくよ迷ったまんまだって。^nそれをあたしが決めてあげたんだから、^nむしろ感謝くらいはしてほしいところ。",
+      "source_raw_sha256": "9307E02CCA3338BB5564C4DB4776D34ED6BDDF94C1A8833F7CB6358CA411B118",
+      "target_text": "어차피 너는 계속 끙끙거리며 고민만 할 테니까.^n그걸 내가 대신 정해 줬으니,^n오히려 고맙다는 말 정도는 듣고 싶은데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00050",
+      "source_text": "好き勝手な言い分で僕をいなして、^nまるでオブジェから返答があるみたいに、^n耳を|傾[かたむ]けるように小首を傾げてる。",
+      "source_raw_sha256": "8CBC7F1B693A07ED3C32389BD126D9A825147E59B7C6C2A133532D47345DFBD0",
+      "target_text": "제멋대로인 말로 나를 받아넘기고,^n마치 장식물이 대답이라도 하는 듯,^n귀를 기울이듯 고개를 살짝 기울인다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00051",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00052",
+      "source_text": "──ああ、そう。それもそっか、当たり前だ。^n……あいつ、是非行きたい、だってさ。^nま、王子様が行く気だもんね。",
+      "source_raw_sha256": "0A9B5901A72A5E5A3380905146461B2B4D0DBC443169BE07029FD2375ACF69D8",
+      "target_text": "──아, 그래. 그것도 그렇네, 당연하지.^n……그 녀석, 꼭 가고 싶대.^n뭐, 왕자님이 갈 생각이라니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00053",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00054",
+      "source_text": "ほらあげる、あたしの招待状も。^nせいぜいあたしの分まで、楽しんでくるといい。",
+      "source_raw_sha256": "46E960180102C5B10A14CCB7C7DEDF0D51F9282EAB538EE17D5935794F2CBE50",
+      "target_text": "자, 줄게. 내 초대장도.^n기껏해야 내 몫까지 즐기고 오든가.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00055",
+      "source_text": "と、手首のスナップだけで招待状を宙に放った。",
+      "source_raw_sha256": "4A6F61C4290D6AB2467C5477E42292984BCE4238887294AE5FFA5FEB25657235",
+      "target_text": "그러고는 손목을 탁 튕겨 초대장을 허공에 던졌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00056",
+      "source_text": "くるくると手裏剣みたいに回転しながら、^n招待状は冠つきの白鳥のオデットにヒットする。",
+      "source_raw_sha256": "FBC31701C8920A5FC400DD5CEA43703A2014493130A1945C7C2A4A240E521237",
+      "target_text": "빙글빙글 표창처럼 회전하며,^n초대장은 왕관 쓴 백조 오데트에게 명중한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00057",
+      "source_text": "……上手、といえばそうなんだけど、^nなんでそうやっていちいち、^nあのオブジェをいたぶらないと気が済まないんだろう……。",
+      "source_raw_sha256": "25200AE575A50756CC851B8375EA3940F2E0135717CD082843BA74B8BA1F95C5",
+      "target_text": "……솜씨가 좋다고 하면 그렇지만,^n왜 저렇게 하나하나^n그 장식물을 괴롭혀야 직성이 풀리는 걸까…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00058",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00059",
+      "source_text": "僕が行くとか、きみが勝手に決めたくせに……。^nほんと僕、行って締め出されたりとかしないんだろうか。",
+      "source_raw_sha256": "0C412E2FCD1A87A294E1FD75FF1D82E9C43D8340D77B6132DCD3DEAD5B7AF930",
+      "target_text": "내가 간다고 멋대로 정한 건 너잖아…….^n정말 내가 갔다가 문전박대당하는 건 아니겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00060",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00061",
+      "source_text": "あんたが心配するとこ、そこじゃないでしょ。^nあんた、そんなとろくさくて、ちゃんと|踊[おど]れるんだか。",
+      "source_raw_sha256": "8D9C88B84DF163CCC83A7B3A8F03986A25608ED4083B58CB71D76FBC18F5C1B1",
+      "target_text": "네가 걱정할 건 그게 아니잖아.^n너, 그렇게 굼떠서 제대로 춤이나 추겠어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00062",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00063",
+      "source_text": "ワルツあたりでも、相手と自分の足、踏みまくったりしてさ。^n転ばない先の杖とか、持ってったほうがいいわね。^n松葉杖とか似合いそうよ、あんた。ひょろひょろして。",
+      "source_raw_sha256": "919E863C2018B92ED1624207B51DF146304C19DB0243EABD00056DB92A3F5F52",
+      "target_text": "왈츠라도 추면 상대 발이랑 네 발을 마구 밟겠지.^n넘어지지 않게 지팡이라도 가져가는 게 좋겠네.^n목발이 어울리겠어, 너는. 비쩍 말라서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00064",
+      "source_text": "酷い言われようだ、けど、確かに──",
+      "source_raw_sha256": "070D3296263DDE9B5A66FD2A2C8C23A9612A2972DE1F2BDB2B4EB891EAA5A3C9",
+      "target_text": "심한 소리지만, 확실히──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00065",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00066",
+      "source_text": "……ダンスのこと、なんか忘れてた……。^nパーティーって言葉ばっかに気を取られて。",
+      "source_raw_sha256": "4D7D93775693FD66FD5BDE7A930BD7289A46F6872DD9C455EA2FED378E79ABE8",
+      "target_text": "……춤 생각을 깜빡했어…….^n파티라는 말에만 온통 정신이 팔려서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00067",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00068",
+      "source_text": "|呆[あっき]れた……。^nあんたってば、もう記憶喪失とかそんなんじゃなく、^n痴呆症とかそんな類よ。",
+      "source_raw_sha256": "87A138D08FA382E6096018C7EE30CF9925D156E1D55D272A2AF296CEB8434D8F",
+      "target_text": "기가 막혀…….^n너는 이제 기억 상실 같은 게 아니라,^n치매 같은 부류라니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00069",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00070",
+      "source_text": "　今話してる相手が誰か、わかってますかー？^n　あたしはあんたの連れ合いとかじゃないですよー？^n「婆さんや」とか言い出されても困るからね？",
+      "source_raw_sha256": "5E33F4E7A927DC570EB124902FC7E0D7B7BC508ADC7A8D65DF61B8EA314834D7",
+      "target_text": "　지금 이야기하는 상대가 누군지는 아시나요~?^n　나는 네 짝 같은 사람 아니거든요~?^n『여보, 할멈』 같은 소리라도 하면 곤란하니까?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00071",
+      "source_text": "語尾を尻上がりにするのが完全にこっちを小馬鹿にしている。^n彼女への反感がかっと沸き立って、^n僕はまんまと大声を出してしまう。",
+      "source_raw_sha256": "C3119B367840B2FD9BDF5AC8592DAA7E99543AEAFC377CA88E946156063AE934",
+      "target_text": "말끝을 치켜올리는 것이 완전히 나를 바보 취급하고 있다.^n그녀를 향한 반감이 확 치솟아,^n나는 보기 좋게 큰소리를 내고 만다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00072",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00073",
+      "source_text": "わかってるとも！^nきみは！　「オディール」で！^nきみの双子の「オデット」がいて！",
+      "source_raw_sha256": "4D9206385E4204737D70D5E3082085292B8F60031178BB55757040CE0ACC9067",
+      "target_text": "알고말고!^n너는!　『오딜』이고!^n네 쌍둥이 『오데트』가 있고!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00074",
+      "source_text": "──ああ、いけない。^nオディールはこういう余裕のない反応が大好きなんだ。^n彼女の思うつぼになんか、なってたまるか。",
+      "source_raw_sha256": "F7DAAA34F0760C84A0CEA7357F5B54C2002A4FAB28861B1677690E8154396E29",
+      "target_text": "──아, 안 돼.^n오딜은 이런 여유 없는 반응을 아주 좋아한다.^n그녀가 바라는 대로 놀아날 수는 없지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00075",
+      "source_text": "僕は必死で頭を働かせた。",
+      "source_raw_sha256": "C164927FF6C04CDD51E3B07061C18AC24DF38C00CB41EC373EC7FF55F71F5382",
+      "target_text": "나는 필사적으로 머리를 굴렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00076",
+      "source_text": "何かないか。^nオディールがあわてふためいて無様に取りつくろうような、^n僕が一気に優位に立てるような話題。",
+      "source_raw_sha256": "83A8D6167440539A1EF036827F30C34D9811082BE785893A294EDAA5454E32AB",
+      "target_text": "뭐 없을까.^n오딜이 허둥지둥 꼴사납게 둘러대게 할,^n내가 단숨에 우위를 차지할 만한 화제.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00077",
+      "source_text": "思えば、そうして彼女の反応を基準に考えていること自体が^n充分に不利で、どこまでもオディールの手の上なのだろうけど──^n……とにかく、僕はひとつ思いついた。",
+      "source_raw_sha256": "83C4C2A23B95C237D40EC3F5D2091C0C37A83D4AD1E4F3D2DE7DB48E56973250",
+      "target_text": "생각해 보면 그렇게 그녀의 반응을 기준으로 궁리하는 것부터가^n이미 충분히 불리하고 끝없이 오딜의 손바닥 위겠지만──^n……아무튼 한 가지가 떠올랐다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00078",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00079",
+      "source_text": "それで、そのオデットはどこ？",
+      "source_raw_sha256": "2B3FE5D225A8459F2EAB3C9B00D838AAD0519316F72E3B355570F65CF2295A4F",
+      "target_text": "그래서, 그 오데트는 어디 있어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00080",
+      "source_text": "ピク、とオディールの肩が震えたのは^n気のせいだっただろうか。",
+      "source_raw_sha256": "FA889A4E7CD710E3E34D8800DBBDE7F8E0E273C8FFD107C95BAA35CAD1AEB2C7",
+      "target_text": "움찔하고 오딜의 어깨가 떨린 것은^n기분 탓이었을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00081",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00082",
+      "source_text": "前から不思議だったんだ。^n昼の間、オデットがどこにいるのかって。",
+      "source_raw_sha256": "8FEAF391986A66A4FA5CD910117811B8A927ED18B345789826A5484EA61A2CC6",
+      "target_text": "전부터 이상했어.^n낮 동안 오데트가 어디 있는지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00083",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00084",
+      "source_text": "彼女はこの時間もあの鳥かごの中にいるんじゃないの？",
+      "source_raw_sha256": "1B1C87D1ABDAC5D36A75C00144C32D251167C95AE45D1A25B946041B016AFA54",
+      "target_text": "그녀는 이 시간에도 저 새장 안에 있는 것 아니야?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00085",
+      "source_text": "彼女との間をつめて、問う。",
+      "source_raw_sha256": "31D4A7863D3B7EC645BDEC7CE16371615DC6579CC4B25B18A1ED1875917D4684",
+      "target_text": "그녀와의 거리를 좁히며 묻는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00086",
+      "source_text": "オデットの手紙を──",
+      "source_raw_sha256": "6E88C17F837E81588FC426E26A3AFFF43793551FBE1CB0D8293F9FB5CF0BEB3F",
+      "target_text": "오데트의 편지를──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00087",
+      "source_text": "読んだ。",
+      "source_raw_sha256": "FFB7010127246663AE774DB3AC223453A47AE843D7CFA5B7B508EBDD18D290EC",
+      "target_text": "읽었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00088",
+      "source_text": "読んでいない。",
+      "source_raw_sha256": "45FD453F0F1291B906B1062610536B4B134840F6696BD5C1C43FF662E95001C4",
+      "target_text": "읽지 않았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00089",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00090",
+      "source_text": "（もし、あの手紙の通り、^n　オデットが閉じ込められているとしたら……）",
+      "source_raw_sha256": "519768DAA12EBCD1F69A511BADEA0FE88DEA0D59079A56A8A1C4EB483C0B8280",
+      "target_text": "(만약 그 편지에 적힌 대로,^n　오데트가 갇혀 있다면…….)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00091",
+      "source_text": "さすがのオディールも動揺して、^n僕の行動を止めようとするんじゃないだろうか。",
+      "source_raw_sha256": "6BB6DD79D0E15E6BC9F021201E07147AFE391A84AC55CC7C528643F0C5F35D09",
+      "target_text": "아무리 오딜이라도 동요해서,^n내 행동을 막으려 들지 않을까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00092",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00093",
+      "source_text": "（オデット──^n　もしそこにいるのなら、何か合図をして……！）",
+      "source_raw_sha256": "83B61B2C37CCED0E85C28DE5261D6E0A54CBECDF85982A3B412CE601F0E6409E",
+      "target_text": "(오데트──^n　만약 거기 있다면 무슨 신호라도 보내 줘……!)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00094",
+      "source_text": "さっきから鳥かごの中に届くように声を張り上げているけれど、^n何も反応はない。",
+      "source_raw_sha256": "55F0C42D1A32A263ADAAD9A87B504864DC8E831A7597E5563B73DC323777820E",
+      "target_text": "아까부터 새장 안까지 들리도록 목소리를 높이지만,^n아무 반응도 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00095",
+      "source_text": "「白鳥の湖」のオデットとして、^n　白鳥に変わる呪いを実現させるため、^n　昼間は目覚めないほどに深い眠りに落ちているんだろうか。",
+      "source_raw_sha256": "6E6F79166DC9E05B0B9D54F4F4C9A2EB8F5670D07603F8C2FA854390B08F965E",
+      "target_text": "『백조의 호수』의 오데트로서^n백조로 변하는 저주를 실현하기 위해,^n낮에는 깨어나지 못할 만큼 깊이 잠들어 있는 걸까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00096",
+      "source_text": "それとも、声をあげるとか、|檻[おり]を揺さぶるとか、^nそんなことさえできないくらいに拘束されている？",
+      "source_raw_sha256": "4F7CD3F7F0D835A39145E080156DC0DA44480CED04C4F580A2D9AAEE39B7BE64",
+      "target_text": "아니면 목소리를 내거나 새장을 흔드는 것조차^n할 수 없을 만큼 속박되어 있나?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00097",
+      "source_text": "あるいは──",
+      "source_raw_sha256": "A82ACBA81E1AF153F011A134CE48CB62F30FAB1D68B23F63EA9E0818BA5A7C08",
+      "target_text": "혹은──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00098",
+      "source_text": "どうしてこんな問いかけがオディールを動揺させると思ったのか、^n僕自身にもよくわからない。",
+      "source_raw_sha256": "BD6C65B288AED5A0A92E790D6B6A2451CCEDE7324326FEA9584069611738851E",
+      "target_text": "왜 이런 질문이 오딜을 동요시킬 거라 생각했는지,^n나 자신도 잘 모르겠다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00099",
+      "source_text": "ただ、あの鳥かごの中を見たい、^n鳥かごの中にいるオデットを見て安心したい、^nそんな気持ちが僕を突き動かしていた。",
+      "source_raw_sha256": "01E01E8D2B194970968335715141534FB80FE914BE29AE2578F7AB587DFB968B",
+      "target_text": "그저 저 새장 안을 보고 싶다.^n새장 안에 있는 오데트를 보고 안심하고 싶다.^n그런 마음이 나를 움직였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00100",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00101",
+      "source_text": "（──安心？）",
+      "source_raw_sha256": "8B1FAE44EE9431670FFE05E6921647AE731C01E80957C0147FA61CF0065ACAC9",
+      "target_text": "(──안심?)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00102",
+      "source_text": "僕は僕自身の思考に戸惑った。",
+      "source_raw_sha256": "5292853C496EFD57856081A667B859CE52D2C58AB9FA36BAA3DEEEB0B0BCE1CF",
+      "target_text": "나는 내 생각에 당황했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00103",
+      "source_text": "僕は、無意識のうちに、^nあの中にオデットが|いない[・・・]と予感しているのだろうか。",
+      "source_raw_sha256": "DA489DEC4D51162F3176244FE88F56A50E13284FAA3D833563A11AB4AAE012A4",
+      "target_text": "나는 무의식중에,^n저 안에 오데트가 없다고 예감하는 걸까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00104",
+      "source_text": "一体どうして。^n無意識の僕は、いったい何に感づいているのだろう。",
+      "source_raw_sha256": "3B552406C7F206039C539D69E9108816A27873092BB489EA60915B0381FD0461",
+      "target_text": "대체 왜.^n무의식의 나는 대체 무엇을 눈치채고 있는 걸까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00105",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00106",
+      "source_text": "──そう思うなら、どうぞ、見てもいい。^nあたしは別に邪魔とかしない。",
+      "source_raw_sha256": "4302C5344FCBE224BED1130DE283B17E8BB334A53A81EDFCD6AE1ACA24BE4CBC",
+      "target_text": "──그렇게 생각한다면 마음대로 봐도 돼.^n나는 딱히 방해하지 않을 테니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00107",
+      "source_text": "考えに沈んでいた僕は、^nオディールの静かな声にハッと我に返った。",
+      "source_raw_sha256": "830A4BB0E4D30EE7DA6DEEAF4D8ADE7A8DC57E5D52ED4FFC5FFED1EA04F92D0D",
+      "target_text": "생각에 잠겨 있던 나는^n오딜의 조용한 목소리에 퍼뜩 정신을 차렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00108",
+      "source_text": "どんな裏があるにせよ、オディールは|狼狽[ろうばい]すると踏んでいたのに、^n風に流される羽毛みたいにあっさりと譲ってしまって、^n|暖簾[のれん]に腕押しもいいところで、僕の意気ごみは行き場を見失う。",
+      "source_raw_sha256": "7EED84D4B9971946CCC2F31CE9A586180FDD21A1704D3EB697BD29CDDDF2EEC7",
+      "target_text": "무슨 속셈이 있든 오딜이 당황하리라 짐작했는데,^n바람에 흘러가는 깃털처럼 순순히 양보해 버려,^n허공을 친 꼴이 된 내 기세는 갈 곳을 잃는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00109",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00110",
+      "source_text": "そのかわり覚えておいて。^nそれはあんたが思う以上に罪深い行いだって。",
+      "source_raw_sha256": "34FCF61C36502024C012B262798299C935AAEFF2F0DF5AF2C02511F88CAF2B79",
+      "target_text": "대신 기억해 둬.^n그건 네가 생각하는 것보다 훨씬 죄 많은 짓이라는 걸.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00111",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00112",
+      "source_text": "|儚[はかな]いお伽話の世界で生きている人間が、^nどれだけたやすく壊れるものか、その目に焼きつけるといいわ。",
+      "source_raw_sha256": "B4DCD864EE10931B8D601D545B7676F2C563B9C343418141A7719D4786C3BE24",
+      "target_text": "덧없는 동화의 세계에서 살아가는 인간이^n얼마나 쉽게 망가지는지 네 눈에 새겨 두는 게 좋을 거야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00113",
+      "source_text": "……僕の好きにさせる風でいて、こんな念を押してくるのが、^nうさぎを見送ったふりで、^n後をつけてくるキツネみたいな底意地の悪さがあった。",
+      "source_raw_sha256": "E7BABBF53C332216A786F61FB09563BA56AE035E58FC8932C8171203A64E5E78",
+      "target_text": "……내 마음대로 하게 내버려 두는 듯하면서 이런^n다짐을 받는 모습에는, 토끼를 보내 주는 척하며^n뒤를 밟는 여우 같은 심술궂은 속내가 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료; post-review dialogue layout overflow repair v1",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00114",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00115",
+      "source_text": "壊れる……誰が？　オデットが……？",
+      "source_raw_sha256": "A5E1F70AB36C5F650C73A17864900ECDEBD20C2585258B3CB02EBF3161E94EE5",
+      "target_text": "망가진다니…… 누가?　오데트가……?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00116",
+      "source_text": "そんなことを後から言われたら、迷うのが当然じゃないか。",
+      "source_raw_sha256": "2865A107A745A674C537D30C24BE283C42564998526AA4C7B0E5D34BBC0E00BA",
+      "target_text": "그런 말을 뒤늦게 들으면 망설이는 게 당연하잖아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00117",
+      "source_text": "鳥かごの中を確かめるのか確かめないのか。^n単純な選択肢が、だからこそ岩みたいな重さで肩にのしかかった。",
+      "source_raw_sha256": "493272496EF4A78D96285242F8631FB62709EE32CBD3AA5E093E79CE0246B3E7",
+      "target_text": "새장 안을 확인할 것인가, 하지 않을 것인가.^n단순한 선택지가 그렇기에 바위 같은 무게로 어깨를 짓누른다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00118",
+      "source_text": "散々に迷った挙句に僕は──",
+      "source_raw_sha256": "DBE49E530E0B757D91C132F7B6390FD53A3580BB3FD5D9FF21394388E5DDBDD6",
+      "target_text": "한참을 망설인 끝에 나는──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00119",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00120",
+      "source_text": "……見ないよ。^n君がそこまで言うんなら……。",
+      "source_raw_sha256": "C4C6CD3DC1D6B2299FE55D6E537DE7B16BFD49F3E6C03D5CFF9A66CF4138ACDF",
+      "target_text": "……안 볼게.^n네가 그렇게까지 말한다면…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00121",
+      "source_text": "結局僕は、オディールには|敵[かな]わないのだろう。^n彼女相手に何かしようと試してみても、^nその度に彼女の思惑通りに迷い、出鼻をくじかれてしまう。",
+      "source_raw_sha256": "3BF860D24B3AB47BBB005A31A166E8C114EDE73463146B8F956DEA27191060CA",
+      "target_text": "결국 나는 오딜을 당해 내지 못하는 걸까.^n그녀를 상대로 무언가 해 보려 해도,^n그때마다 그녀의 의도대로 망설이고 기선을 제압당한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00122",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00123",
+      "source_text": "……ええ。そうしておくのが賢いやり方だわ。^nあんた、まだあいつを壊したくないんでしょう。",
+      "source_raw_sha256": "6FBB3E46AB44164A815722311723B7F7141ED550E03C3DE35AA7EAF2B76202D2",
+      "target_text": "……그래. 그렇게 하는 게 현명한 방법이야.^n너는 아직 그 녀석을 망가뜨리고 싶지 않잖아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00124",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00125",
+      "source_text": "まだ、とか……僕は最初から最後まで、^n彼女を壊すつもりなんかないよ。^nただ──",
+      "source_raw_sha256": "C2CBE2F21E6358965A065E9F041C2BCDFA8348C5985F1457A5A87D932D60D33D",
+      "target_text": "아직이라니…… 나는 처음부터 끝까지^n그녀를 망가뜨릴 생각 따위 없어.^n그저──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00126",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00127",
+      "source_text": "色々わからないことが多すぎて、^nそれでやり方を間違ってしまうかもしれない。^n僕は、それが怖い。",
+      "source_raw_sha256": "94D448650872078E50DB2A632C976C7DB57A908A65DE26E6385541594504C780",
+      "target_text": "모르는 게 너무 많아서,^n그 때문에 방법을 잘못 고를지도 몰라.^n나는 그게 무서워.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00128",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00129",
+      "source_text": "……こんな風に迷ったりすること自体が、^nきみが言う「ぐずぐずしてる」ってことなんだろ。^nでも、僕は、彼女のことで間違うわけにはいかないから……。",
+      "source_raw_sha256": "F16A063A3A5677275F8E2D05EBAE833485BD0EE5499021A4E84A4DE2B53D637B",
+      "target_text": "……이렇게 망설이는 것 자체가,^n네가 말하는 『굼뜨다』는 거겠지.^n하지만 나는 그녀의 일에서 실수할 수 없으니까…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00130",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00131",
+      "source_text": "……お邪魔したね。それじゃ。",
+      "source_raw_sha256": "CFF9FD50C07429E9F1E723808FA28E93855200FEDB02AD41E847F33DE4FC2809",
+      "target_text": "……방해했네. 그럼 이만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00132",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00133",
+      "source_text": "……オデットには、^n僕、パーティにはできる限り行くようにするからって、^n伝えておいて。",
+      "source_raw_sha256": "9E9C730A9A2A080887E6B553AB1E89D47624EF393D0D79A53686D57C0A6E53F1",
+      "target_text": "……오데트에게,^n나는 가능한 한 파티에 가도록 하겠다고,^n전해 줘.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00134",
+      "source_text": "靴の中に冷たい砂をいっぱい流し込まれたみたいに、^n足が重くて踏み出すのも|億劫[おっくう]だけど、彼女の|傍[そば]にはいたくない。^n僕をいたたまれなくしたのも、足を止めたのも、同じ彼女だった。",
+      "source_raw_sha256": "B5AABAA86D51FAC967FC87246527FF9CFA0D0E98D57189D46E4588E691026657",
+      "target_text": "신발 안에 차가운 모래를 가득 부은 듯^n발이 무겁고 내딛기도 귀찮지만 그녀 곁에는 있고 싶지 않다.^n나를 견딜 수 없게 만든 것도 발을 멈춘 것도 같은 그녀였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00135",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00136",
+      "source_text": "待って。",
+      "source_raw_sha256": "BBB199B5F5A50F31759768BF38DFBE0D86C675ED4C8A37382941B3BBA1E0BF83",
+      "target_text": "기다려.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00137",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00138",
+      "source_text": "待って。あたしの話を聞いて。^nさっきはあんたの話を聞いたんだから、今度はあたしの番。^nだから、行かないで。",
+      "source_raw_sha256": "D95F991A35BCF384F1EEFD54AD93AACE0F9C8245E6877A76D7F38C148596392A",
+      "target_text": "기다려. 내 말도 들어 줘.^n아까는 내가 네 말을 들었으니 이번에는 내 차례야.^n그러니까 가지 마.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00139",
+      "source_text": "普段のオディールなら、力づくでも僕を捕まえただろうに、^n今はなぜかそれをしてこない。^n呼びかけてきただけだった、けど。",
+      "source_raw_sha256": "6427B9C06D144F98C11A3E178E6268D7EA6106102C6298841BFC893930B9F925",
+      "target_text": "평소의 오딜이라면 힘으로라도 나를 붙잡았을 텐데,^n지금은 왜인지 그러지 않는다.^n그저 불렀을 뿐이지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00140",
+      "source_text": "ずるいよ、なんで君がそんな声を出すのさ。^n無視するのが、すがりつく人を蹴飛ばして行くようなひどい奴だ、^nって思わせるような、そんな差し迫って聞こえる声で。",
+      "source_raw_sha256": "DCB163C01853C25084421C69594367A3A6E684570FA7B0C2D6DE5CC638EBF3C5",
+      "target_text": "비겁해, 왜 네가 그런 목소리를 내는 거야.^n외면하면 매달리는 사람을 걷어차고 가는 몹쓸 놈이라고^n생각하게 만드는, 그렇게 절박하게 들리는 목소리로.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00141",
+      "source_text": "胸を突かれる心地がして、つい振り返れば、^nオディールはいやに生真面目な顔つきで無言で|頷[うなず]いて、^n彼女が腰おろした隣の、布のうねりを軽く叩いていた。",
+      "source_raw_sha256": "7EF8EDA7D6184C37A1A74964C847B329213A08CA4628989F696368E685A510B2",
+      "target_text": "가슴을 찔린 듯해 나도 모르게 돌아보자,^n오딜은 유난히 진지한 얼굴로 말없이 고개를 끄덕이고,^n자신이 앉은 자리 옆의 굽이치는 천을 가볍게 두드렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00142",
+      "source_text": "……ここに座って、と言いたいみたいだけど……。",
+      "source_raw_sha256": "2504ED36C855B02089007FE22757DAE3113EA5033680AEE5353F3A6098192D62",
+      "target_text": "……여기에 앉으라는 것 같은데…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00143",
+      "source_text": "ああ、これって北風と太陽のお話だ。^n強引に前に出れば僕は逃げ出そうとするに違いないから、^n今度はじっとして僕が折れるのを待っている。",
+      "source_raw_sha256": "8C490E7FE41127E01CC6BC410CAA067D19E82079415E1AA7207841DFA54A1368",
+      "target_text": "아, 이건 북풍과 태양 이야기다.^n억지로 밀어붙이면 내가 달아나려 할 게 뻔하니,^n이번에는 가만히 있으면서 내가 굽히길 기다린다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00144",
+      "source_text": "なんとなくそれがわかるのに、僕は。^n今さらオディールに何をほだされたって言うんだろう。^nふて腐れた気分ではあったけど、彼女の言うままに、隣に。",
+      "source_raw_sha256": "94828E44324B3D446F33A13C1D726351A30CF34E2A3E9DE06E5608F9F180910D",
+      "target_text": "어쩐지 그걸 알면서도 나는.^n이제 와서 오딜의 무엇에 마음을 빼앗겼단 말인가.^n토라진 기분이었지만 그녀가 시키는 대로 곁에 앉았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00145",
+      "source_text": "少し乱暴に隣に座って、けれど僕から言いたいことなんてない。^nそのまま、しばし無言で見つめ合う。^n銃と花とを同時に差し出されているような、どうにも変な感じだ。",
+      "source_raw_sha256": "071BA14CDD7136C50340063983739E9297B6975587F5005ADB5F61E6BCB81E52",
+      "target_text": "조금 거칠게 옆자리에 앉았지만 내가 할 말은 없다.^n그대로 한동안 말없이 서로 바라본다.^n총과 꽃을 동시에 내민 듯한 묘한 기분이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00146",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00147",
+      "source_text": "あのさ……。",
+      "source_raw_sha256": "FF552EDF582153B766E06D09077C89F0059324DDE3DC3FF615CC76BE168674DC",
+      "target_text": "있잖아…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00148",
+      "source_text": "先に口火を切ったのはオディールで、|囁[ささや]きかけながら、^nそっと両のてのひらを、広げてみせた。^nそのままゆっくりと手を差し上げる。",
+      "source_raw_sha256": "6F639CC0E940A9841C21D9FDD512AA6522E44A4F0BD31890D051E4FCB5C00146",
+      "target_text": "먼저 입을 연 것은 오딜이었다. 속삭이면서,^n살며시 두 손바닥을 펼쳐 보였다.^n그대로 천천히 손을 들어 올린다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00149",
+      "source_text": "前みたいに、視界の外から不意に飛び込んできて、^n|虚[きょ]を突くような動きじゃない。^n力任せにするのでもない。",
+      "source_raw_sha256": "2930D8B939807E5B7ADAD79F395BD1CAEDDF05FFDEE3553D99319915561D27F2",
+      "target_text": "전처럼 시야 밖에서 갑자기 뛰어들어,^n허를 찌르는 움직임이 아니다.^n힘으로 밀어붙이는 것도 아니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00150",
+      "source_text": "僕をけして|脅[おど]かさない、穏やかな仕草と動き方で、^nこんな時だけでもオディールを、双子の片割れに──^nあの優しく温和なオデットと似通ったものに見せた。",
+      "source_raw_sha256": "21E3A83C97837FB0FA3853A888EF8759B7C390998103805CB96FA8AE5E2981D2",
+      "target_text": "나를 조금도 위협하지 않는 온화한 몸짓과 움직임은,^n이럴 때만큼은 오딜을 쌍둥이의 다른 한쪽──^n그 다정하고 온화한 오데트와 닮은 존재로 보이게 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00151",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00152",
+      "source_text": "痛くも、怖くもしない。^n今はからかう気もないから……。",
+      "source_raw_sha256": "D6044701F08C35B766BB6F09ECAB4AF0EB607CAE56A07EBF7B9F746DABA37C16",
+      "target_text": "아프지도 무섭지도 않아.^n지금은 놀릴 생각도 없으니까…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00153",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00154",
+      "source_text": "……っ。",
+      "source_raw_sha256": "8819266007285AEF0DAEB5B42BFC3A13B356A8C5F8842DFC0A50898A009933AD",
+      "target_text": "……읏.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00155",
+      "source_text": "ゆっくりと、まるで星の巡りみたいに時間をかけて、^nオディールの両手が僕の頬を包みこむ。^n顔も間近に迫って、覗きこむ|緋色[ひいろ]の瞳が視界を占領する。",
+      "source_raw_sha256": "FE65A98319E1A4653BD5EC0C71755E2F92B87D7B31DB81DB63269EB8EB1F613E",
+      "target_text": "천천히, 마치 별이 운행하듯 오랜 시간을 들여,^n오딜의 두 손이 내 뺨을 감싼다. 얼굴도 가까이^n다가와 들여다보는 진홍빛 눈동자가 시야를 차지한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료; post-review dialogue layout overflow repair v1",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00156",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00157",
+      "source_text": "（すこし……ひんやりする。^n　でもこの手、ちょっと気持ちいい……かも。^n　違う、そうじゃない、近い、顔、なんでこんなに）",
+      "source_raw_sha256": "553B70BACB8ED5C9E0BA6D7B175AB1E4BF2D5E4C20BCB61EF180FAFC8E57BF4C",
+      "target_text": "(조금…… 서늘해.^n　그런데 이 손, 조금 기분 좋을지도…….^n　아니, 그게 아니라, 가까워, 얼굴이, 왜 이렇게.)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00158",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00159",
+      "source_text": "ねえ、あいつはさ、^nあんたが思っているようなやつじゃないわ。",
+      "source_raw_sha256": "7C6A3BE73A22AE981DB7617B2125476878D5C959696F2AC86772FF7CB0C21F37",
+      "target_text": "있잖아, 그 녀석은,^n네가 생각하는 것 같은 애가 아니야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00160",
+      "source_text": "いつにない静かなやり方で、僕との|間境[まざかい]を越えたっていうのに、^n言い出した言葉に、うろたえ浮ついていた体が硬くなる。^nどういう道筋をたどろうとやっぱりそれなんだ。",
+      "source_raw_sha256": "2CC6412083F66ACC27427EA44C246C131CB51D2054AE5446539A5B8A82E30481",
+      "target_text": "평소와 달리 조용한 방식으로 나와의 경계를 넘어왔는데,^n그녀가 꺼낸 말에 허둥대며 들떠 있던 몸이 굳는다.^n어떤 길을 거쳐도 결국 그 말이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00161",
+      "source_text": "オデットを|誹[そし]り、|貶[おとし]める言葉なんだ。",
+      "source_raw_sha256": "44416ED2AA8716E0C37C96D7650B9F046684CCCD97E6E6A35F34BE17B18FD726",
+      "target_text": "오데트를 비방하고 깎아내리는 말이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00162",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00163",
+      "source_text": "まんまと|誑[たぶら]かされて捨てられたやつ、あたしは山ほど見てる。^nどうしてかしら、これはたぶんあたしの気まぐれだけど……。",
+      "source_raw_sha256": "7D9FF1CF52F4623DD50207200E442204EDC6180B3CC7BCFDB8C0423B8BF28405",
+      "target_text": "감쪽같이 홀린 끝에 버림받은 녀석을 나는 산더미처럼 봤어.^n왜일까, 이건 아마 내 변덕이겠지만…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00164",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00165",
+      "source_text": "あんたにはそうなってほしくない……て、そう思う。",
+      "source_raw_sha256": "0BCFA36387BC23ED914BD70532AE9388591BAAE83A1FBB587A078738DC8217E9",
+      "target_text": "너는 그렇게 되지 않았으면…… 하고 생각해.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00166",
+      "source_text": "ちょっと気を持たせたふりで、^n言うことは同じなんだってわかれば腹立たしい。",
+      "source_raw_sha256": "028E93C72C9104FACC4D354617DA8C609503396590EE35CAFD892F9DE8368033",
+      "target_text": "괜히 기대하게 하는 척하면서,^n결국 하는 말은 똑같다는 걸 깨닫자 화가 난다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00167",
+      "source_text": "彼女の眼を|睨[にら]み返せば、揺れていた。^n花びらの散った水面が、風に吹かれて乱れるみたいだった。^nそれぐらい沢山の感情と、複雑な|葛藤[かっとう]とを思わせた。",
+      "source_raw_sha256": "E0C9F7A1D83299D12A94446B2BD22E6B050C3D99C5224E51471CB263F5D7111F",
+      "target_text": "그녀의 눈을 노려보니 흔들리고 있었다.^n꽃잎이 흩어진 수면이 바람에 어지러워지는 것 같았다.^n그만큼 수많은 감정과 복잡한 갈등을 떠올리게 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00168",
+      "source_text": "気弱さ、迷い、戸惑い、そんなものを混ぜ合わせた顔を、^nこのひとがして見せるなんて。",
+      "source_raw_sha256": "7C9253FE1A02DE6CD753D4B14F764A39415F88869C1A71ED13DBDBECBFFD9338",
+      "target_text": "나약함, 망설임, 당혹감, 그런 것들이 뒤섞인 얼굴을^n이 사람이 내보이다니.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00169",
+      "source_text": "意外さで、|頑[かたく]なにとがる気持ちがいくらかは収まるけど、^nそれでも僕は許せそうもない。^n|赦[ゆる]したらいけないんだと思う。",
+      "source_raw_sha256": "2559F807BBA8E2CD83B6FFEC74C74E7F14FFA5572990BCB195D8DF3778D54078",
+      "target_text": "뜻밖이라 완고하게 날 선 마음이 조금은 누그러지지만,^n그래도 나는 용서할 수 없을 것 같다.^n용서해서는 안 된다고 생각한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00170",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00171",
+      "source_text": "正直に言うと、僕だってオデットのこと、^n全部が全部わかってるなんて言えない。",
+      "source_raw_sha256": "D1B58A0ECB35C95147305DFBEA18FF8A83CAFAAB15697B4C6400E945274D785B",
+      "target_text": "솔직히 말하면 나도 오데트에 대해,^n모든 걸 다 안다고는 할 수 없어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00172",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00173",
+      "source_text": "でも、オデットのことがわからないのと同じくらい、^nきみのことを信じられそうにない。",
+      "source_raw_sha256": "D780B1812AF275D5D9785C6D52DBEF2CF3CE4AF36113330EB7FB7D89488A8634",
+      "target_text": "하지만 오데트를 모르는 만큼이나,^n너도 믿을 수 있을 것 같지 않아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00174",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00175",
+      "source_text": "ただ、今の話は憶えてはおくよ。^nうん、気をつける。^n君が言うみたいにならないように。",
+      "source_raw_sha256": "00E7AD4970213A26F6471C91BFF303BB9F115739039A5A6147ED7D27698832E4",
+      "target_text": "다만 지금 이야기는 기억해 둘게.^n그래, 조심할게.^n네 말처럼 되지 않도록.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00176",
+      "source_text": "オディールの手を軽く押せば、^n流される笹船のようなもので、|抗[あらが]って爪を立ててくることもなく、^n僕からそっと離れていって、感触だけを感傷のように残す。",
+      "source_raw_sha256": "835DA420E0F1A3682D8E0DB847CA8CD055E9D582C12356C9C7BD6EA7AC524DBB",
+      "target_text": "오딜의 손을 가볍게 밀자,^n떠내려가는 조각배처럼 저항하며 손톱을 세우지도 않고,^n내게서 살며시 멀어져 감촉만을 감상적인 여운처럼 남긴다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00177",
+      "source_text": "間近だった顔が遠ざかり、うなだれる。^n濃い赤の眼光が隠れる、髪の毛が垂れて|被[かぶ]さる。",
+      "source_raw_sha256": "7952443D83C47FA4197B7877E16C239CB23906F1A95B815C79E318AFDE8A194E",
+      "target_text": "코앞에 있던 얼굴이 멀어지며 고개를 떨군다.^n짙은 붉은 눈빛은 늘어진 머리카락에 덮여 숨는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00178",
+      "source_text": "それまで彼女の生気と意気地を示して、^n|踊[おど]るようだった金の髪も、腰をなくしてしおたれたかのよう。^n大風に折られた花を見たような、落胆の風情ではあった。",
+      "source_raw_sha256": "D2CFB9D3B791FC303A7DF71FC8DBF026430D8F937E411FC017A2C33ED83B52C2",
+      "target_text": "그때까지 그녀의 생기와 기개를 드러내며^n춤추는 듯했던 금빛 머리카락도 힘을 잃고 시든 듯하다.^n강풍에 꺾인 꽃을 보는 듯한 낙담한 모습이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00179",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00180",
+      "source_text": "……結局は、それか……。^nいつも、そう。誰もが、そう。^nどうしてみんなそうなのよ……。",
+      "source_raw_sha256": "4ED819665F3799DA6FAC5EB16C0E4A65D1BC984FE6F0EE190E80DE58C2843CA1",
+      "target_text": "……결국 또 그거구나…….^n언제나 그래. 누구나 그래.^n왜 다들 그런 거야…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00181",
+      "source_text": "深い水の底からぽつぽつ|湧[わ]いた泡のような、^nそこはかと哀れ匂わせる声音だった。",
+      "source_raw_sha256": "80B8BCB5A8DBB486450FFEA2240B8A4DCAEFFE9965355195F28D9195A8D8D0BF",
+      "target_text": "깊은 물밑에서 하나둘 솟아난 거품 같은,^n은근한 애처로움을 풍기는 목소리였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00182",
+      "source_text": "けど、このひとの場合、^n同情とか|憐憫[れんびん]といった気持ちを、^n普段の行いがどうしても邪魔をする。",
+      "source_raw_sha256": "D60BDD58ED09261E9C05CABA449E9EE5E821E5AF99457DEE73022CCC3FA351E6",
+      "target_text": "하지만 이 사람은^n동정이나 연민 같은 마음이 들려 해도,^n평소 행실이 어떻게든 가로막는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00183",
+      "source_text": "このまま|傍[そば]にいて、^nオディールの愚痴めいた言葉に付き合うのは気が|滅入[めい]る。",
+      "source_raw_sha256": "67D0BC36D63A0EBB85ECDCC951AB8C803B5A25555774C8F9656AEDE82D69329C",
+      "target_text": "이대로 곁에 있으면서^n오딜의 푸념 같은 말을 들어 주기는 울적하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00184",
+      "source_text": "彼女を置いて立ち上がる。^n目的は何も果たせなかったけれど、^n部屋に来た時からは、いくらか心は鎮まった。",
+      "source_raw_sha256": "73FFC7A8564E7C92D1955F677525E6B2B1C1722E83F2A1A63DE10033BCA44BC9",
+      "target_text": "그녀를 두고 일어선다.^n목적은 아무것도 이루지 못했지만,^n방에 왔을 때보다 마음은 조금 가라앉았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00185",
+      "source_text": "今度こそ、と部屋を出ていこうとする僕に。",
+      "source_raw_sha256": "3E460601AC273CFE47F2B8CDFB974D5B93B4C19E0677640553D0752FA085E883",
+      "target_text": "이번에야말로 방을 나가려는 나에게.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00186",
+      "source_text": "オディール",
+      "source_raw_sha256": "9A32E06D50E7B4A1663EEA46065CE26A49748CCE0A4311A9776A8E9114F5FDBC",
+      "target_text": "오딜",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00187",
+      "source_text": "やっぱり……あたしもダンスパーティ、行こうかな。",
+      "source_raw_sha256": "A0DC0A3AFADA8F3E0108F19B45B55BC01A051B92DFD785AAC2022C4B4138CF84",
+      "target_text": "역시…… 나도 댄스 파티에 갈까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00188",
+      "source_text": "独り言めかして。わざと聞えよがしに。^nオディールのそんな声を、背中に聞いたけれど。^n僕は振り返ることをしなかった。",
+      "source_raw_sha256": "8B30E71FACFABEE01FFC274988CED225C9DB9751952B9F3134D4CD2F47777E47",
+      "target_text": "혼잣말처럼, 일부러 들으라는 듯이.^n그런 오딜의 목소리를 등 뒤로 들었지만,^n나는 돌아보지 않았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00189",
+      "source_text": "……正直に言えば、^nもし、ちょっとでも振り返ってしまったなら、^n足が止まりそうだったから。",
+      "source_raw_sha256": "EBCFA69275196DA68B5908DD47329EC712FA80AA09A0280972D22243689AD41C",
+      "target_text": "……솔직히 말하면,^n조금이라도 돌아봤다면,^n발이 멈출 것 같았으니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1414.gsc::slot/00190",
+      "source_text": "力なくうなだれたオディールの、^n肩口の線とか手首の|寂[さび]しさが、どこかしら──^nオデットと重なってしまって、離れられなくなりそうで。",
+      "source_raw_sha256": "43A2DFFDAF442E9A423D44EED9A20BD0F0D34209998036C56B10B683C540A7EA",
+      "target_text": "힘없이 고개를 떨군 오딜의^n어깨선이나 손목의 쓸쓸함이 어딘가──^n오데트와 겹쳐 보여 떠나지 못할 것 같아서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ],
+  "post_review_repairs": [
+    {
+      "id": "dialogue_layout_overflow_repair_v1",
+      "completed_utc": "2026-08-13T22:45:21.941796Z",
+      "slots": [
+        113,
+        155
+      ],
+      "reason": "prevent Malie four-line auto-wrap text-format error; 3 lines and <=992 units"
+    }
+  ]
+}

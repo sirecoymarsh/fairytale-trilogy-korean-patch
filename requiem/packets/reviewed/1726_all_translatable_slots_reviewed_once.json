@@ -1,0 +1,760 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1726_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    69
+  ],
+  "new_review_change_count": 9,
+  "new_review_changes": [
+    {
+      "slot": 9,
+      "before": "관둬. 그렇게 촌스러운 게 아니야.^n난 피터야.",
+      "after": "관둬. 그렇게 고리타분한 게 아니야.^n난 피터야."
+    },
+    {
+      "slot": 16,
+      "before": "저기…… 피터?^n저는 할머니 말고 다른 분을 만나서는^n안 돼요.",
+      "after": "저기…… 피터?^n저는 할머니 말고 다른 분을 만나서는^n안 된답니다."
+    },
+    {
+      "slot": 18,
+      "before": "당신이 여기 있는 걸 들키면 저는 분명 혼날 거예요.",
+      "after": "당신이 여기 있는 걸 들키면 저는 분명 혼이 날 거예요."
+    },
+    {
+      "slot": 23,
+      "before": "　죄책감에 눈을 내리깔았다.^n　고델 할머니의 당부 이전에 자신이^n『나쁜 짓』을 하고 있다는 사실은 알고 있었다.",
+      "after": "　죄책감에 눈을 내리깔았다.^n　고델 할머니의 당부를 떠나서 자신이^n『나쁜 짓』을 하고 있다는 사실은 알고 있었다."
+    },
+    {
+      "slot": 34,
+      "before": "『왕자님』도 아닌 사람에게 어째서 이토록^n　마음을 열 수 있으리라고 생각했는지,^n　라푼젤 자신도 알지 못했다.",
+      "after": "『왕자님』도 아닌 사람에게 어째서 이토록^n　마음을 놓아도 된다고 여겼는지,^n　라푼젤 자신도 알지 못했다."
+    },
+    {
+      "slot": 51,
+      "before": "너, 어른들 말에 길들여졌구나.^n어른들은 늘 엉터리 말로 우리를 옭아매니까.",
+      "after": "너, 어른들한테 단단히 길들여졌구나.^n어른들은 늘 엉터리 말로 우리를 옭아매니까."
+    },
+    {
+      "slot": 57,
+      "before": "아이들만 사는 섬, 네버랜드야.^n너도 아이라면 알고 있잖아.",
+      "after": "아이들만의 섬, 네버랜드야.^n너도 아이라면 알고 있잖아."
+    },
+    {
+      "slot": 67,
+      "before": "하마터면 잊을 뻔했네요.^n하지만 이제 괜찮아요.^n망각의 안개가 걷히고 제 앞에 나타났어요.",
+      "after": "큰일 날 뻔했어요.^n하지만 이제 괜찮아요.^n망각의 안개가 걷히고 제 앞에 나타났어요."
+    },
+    {
+      "slot": 69,
+      "before": "네, 상상 속에서는 몇 번이나 여행을 떠났답니다.^n고마워요. 떠올리게 해 주어서.",
+      "after": "네, 상상 속에서는 몇 번이나 여행을 떠났답니다.^n고마워요. 기억나게 해 주어서."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    70,
+    127
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00001",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00002",
+      "source_text": "ティンクの粉さえありゃ、^nこんなロープ必要ねぇんだけどな……。",
+      "source_raw_sha256": "DFE7112EF9A35E11D76F025B5E88571ABD611788AB9184F82C97385C1BB3ABB5",
+      "target_text": "팅크의 가루만 있으면,^n이런 밧줄은 필요 없을 텐데…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00003",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00004",
+      "source_text": "──っと。^nここはなんだい、高い、筒みたいな建物だな。^n物見櫓か？",
+      "source_raw_sha256": "F2CDE57C977B688FD18E49CFE85BDBF8EF910D5947215F3313B263D90AECED69",
+      "target_text": "──영차.^n여긴 뭐야, 높고 원통처럼 생긴 건물이네.^n망루인가?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00005",
+      "source_text": "「王子様」が忍んでくるにしてはまだ早すぎる時間だ。^n　ラプンツェルは、軽快な身のこなしで窓辺に立った人影に^n　首を|傾[かし]げる。",
+      "source_raw_sha256": "8AE8A5AAD429C3E790C7C30B9225B7BCECB901DF98AE3D5410175B50CF350F23",
+      "target_text": "『왕자님』이 몰래 찾아오기에는 아직 너무 이른 시간이었다.^n　라푼젤은 날렵하게 창가에 선 사람의 모습에^n　고개를 갸웃했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00006",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00007",
+      "source_text": "王子、様……？^nまさか、こんな早い時間にいらっしゃるなんて……。",
+      "source_raw_sha256": "99C75291526DB762F0E4E18E03A496704291F74FE412297E89C49B497501C4E9",
+      "target_text": "왕자, 님……?^n설마 이렇게 이른 시간에 오실 줄은…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00008",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00009",
+      "source_text": "よせよ。そんな辛気くさいもんじゃねぇ。^nオレはピーターだ。",
+      "source_raw_sha256": "6A0765396784A1FFE422316E1264A187CFDA73254BEB81D2931B46FD6F0DA8C9",
+      "target_text": "관둬. 그렇게 고리타분한 게 아니야.^n난 피터야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00010",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00011",
+      "source_text": "ピーター……。",
+      "source_raw_sha256": "DE842DE60E9D7118074CFC07CB44769018EB38665C989A313D19E38CE13E2E19",
+      "target_text": "피터…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00012",
+      "source_text": "誰なのかはわかった。^nが、何者なのかがわからない。",
+      "source_raw_sha256": "9D069A92997E00DB1C59EB24FEC8C35339C860262909B8B2159165DD02A72A86",
+      "target_text": "누구인지는 알았다.^n하지만 어떤 사람인지는 알 수 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00013",
+      "source_text": "　ゴーテルばあさんでも、王子様でもない。^n「ピーター」なんて人物が、突然、何の予告もなく、^n　この部屋に現れるわけはないのだ。",
+      "source_raw_sha256": "930C58EA3A482A467C6EB7903632E0B28C35E346B01D080958EF035A28BFECEF",
+      "target_text": "　고델 할머니도, 왕자님도 아니었다.^n『피터』라는 사람이 아무런 예고도 없이 갑자기^n　이 방에 나타날 리는 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00014",
+      "source_text": "──前にもこんなことがあった気がする。^nそんな思いを振り払いながら、^nラプンツェルはとにかく|闖入者[ちんにゅうしゃ]の退場を願うことにした。",
+      "source_raw_sha256": "EC4929400F1FD1C4AC8F3CFD19157157185626C97AE7FA2074F413D88112506D",
+      "target_text": "──전에도 이런 일이 있었던 듯한 기분이 들었다.^n그런 생각을 떨쳐 내며,^n라푼젤은 우선 침입자가 물러나 주기를 바라기로 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00015",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00016",
+      "source_text": "あの……ピーター？^nわたくし、おばあさま以外の方と出会うわけには^nいきませんの。",
+      "source_raw_sha256": "21D23922EEBEFFFE8A2089564C8FCA979C51615441402AB487B9743B5B818FF8",
+      "target_text": "저기…… 피터?^n저는 할머니 말고 다른 분을 만나서는^n안 된답니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00017",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00018",
+      "source_text": "あなたの姿を見られたら、わたくしきっと怒られますわ。",
+      "source_raw_sha256": "75451C5BDC1A9488665BFD9DA841B8EA758CEC46D5837744F25F705F02A921F2",
+      "target_text": "당신이 여기 있는 걸 들키면 저는 분명 혼이 날 거예요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00019",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00020",
+      "source_text": "じゃあ、あんなロープみたいな髪垂らさなきゃいいのに。^n登りたくなるだろ、あれは。",
+      "source_raw_sha256": "9EB11274F7E5273FCC39EF57B8D37995D3B18BD6A65E49E6468AE6DBEAB78A21",
+      "target_text": "그럼 저런 밧줄 같은 머리를 늘어뜨리지 말았어야지.^n저걸 보면 올라오고 싶어지잖아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00021",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00022",
+      "source_text": "──それは。",
+      "source_raw_sha256": "0F89E60160DD49A506964DD8E2A0AB1B5D8754030D59F184FC1582A68BB7411F",
+      "target_text": "──그건.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00023",
+      "source_text": "　後ろめたさに目を伏せる。^n　自分が、ゴーテルばあさんの言いつけ以前に^n「よくないこと」をしていることはわかっているのだ。",
+      "source_raw_sha256": "7E2B30E7448B816EBCBD66C04885B9C2EAEC391FA5FA181029B71BDB62EBC4E6",
+      "target_text": "　죄책감에 눈을 내리깔았다.^n　고델 할머니의 당부를 떠나서 자신이^n『나쁜 짓』을 하고 있다는 사실은 알고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00024",
+      "source_text": "　ただ、いまさら|拒[こば]むには^n「王子」との|逢瀬[おうせ]は甘すぎた。幸せすぎた。",
+      "source_raw_sha256": "37FB2C9F35EAEA09D898489FB5EE92675DBCDDFC8565CB82C5220C09723E0D56",
+      "target_text": "　하지만 이제 와 거부하기에는^n『왕자』와의 밀회가 너무 달콤했다. 너무 행복했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00025",
+      "source_text": "──何故か、薄暗い予感をもかき立てられる^n不安定な幸せではあるけれど。",
+      "source_raw_sha256": "0C9E668A60B8C984E721E0BA1DF0C9942BD59BC9E7EA06061001BDB86CA1A4BE",
+      "target_text": "──어째서인지 어두운 예감까지 불러일으키는^n불안정한 행복이기는 했지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00026",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00027",
+      "source_text": "──あんた、オトナぶっているけど、コドモの匂いがする。^nもったいねぇ。",
+      "source_raw_sha256": "A63A9B68F81450BAEA92E819CD23A5AC09435C99212FB834C691F2BED6F5E555",
+      "target_text": "──너, 어른인 척하지만 아이 냄새가 나.^n아깝네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00028",
+      "source_text": "少年の物言いに、ラプンツェルはと胸を突かれる心地がした。",
+      "source_raw_sha256": "188EE5CDC23C576DF4CE4929EF98F73B9EB5C6A3230EAC5789751C3CADE47571",
+      "target_text": "소년의 말에 라푼젤은 가슴을 찔린 듯했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00029",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00030",
+      "source_text": "…………。^n実際その通りでしょうとも。",
+      "source_raw_sha256": "9E3D0C637A2A728F4B25168526CD407130214192BB47E3FDF3137E0FBBAC5D50",
+      "target_text": "………….^n실제로도 그렇겠지요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00031",
+      "source_text": "ラプンツェルはするすると髪をあげながら|呟[つぶや]いた。",
+      "source_raw_sha256": "F7F9567FC2619E3A6308797F346CDC41E09F3B70491A71B18930CCE1C1C553E3",
+      "target_text": "라푼젤은 머리카락을 살살 쓸어 올리며 중얼거렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00032",
+      "source_text": "──今日はもういい。^n──この風変わりな客人に会えたのも、何かの縁だ。",
+      "source_raw_sha256": "552779DF127710E4949EA6453AA29AB84EDE862A93B72AE9E84A067CF1BBE560",
+      "target_text": "──오늘은 이제 됐다.^n──이 별난 손님을 만난 것도 무언가의 인연이리라.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00033",
+      "source_text": "ラプンツェルは、少年に自らの境遇を打ち明けた。",
+      "source_raw_sha256": "AE7D10DE8ED06A8DB1EEAE6410E3E91494C2CAF0981713D7D0FC7D9176A5280C",
+      "target_text": "라푼젤은 소년에게 자신의 처지를 털어놓았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00034",
+      "source_text": "「王子様」でもない人に、どうしてここまで^n　気を許そうと思えたのか。^n　ラプンツェル自身にもわからない。",
+      "source_raw_sha256": "41F7E3658B5F96F3562D5ED91B340D995FD7E2F5232DA049D23BB990E80ED192",
+      "target_text": "『왕자님』도 아닌 사람에게 어째서 이토록^n　마음을 놓아도 된다고 여겼는지,^n　라푼젤 자신도 알지 못했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00035",
+      "source_text": "どうして、「わかってほしい」と思ったのか……。^n──今夜、彼とは初めて出会ったはずなのに。",
+      "source_raw_sha256": "23098D5458F5D15909B5726B8699A04577F30071462A4B8829A1AADFD835B9C2",
+      "target_text": "어째서 『알아주기를』 바랐는지…….^n──오늘 밤 처음 만난 사람일 텐데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00036",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00037",
+      "source_text": "閉じこめられてる、か。^n変わった趣味のおばあさまだな。^nオレは、鳥かごの中の鳥を見ているだけでも震えがくるってのに。",
+      "source_raw_sha256": "BFF2F9DAE5516CB81E8CA739C6C6C57D49ACD22E9009AD0D76AB6D39F31DFB9C",
+      "target_text": "갇혀 있다고?^n취향 참 이상한 할머니네.^n난 새장 속 새를 보기만 해도 몸서리가 나는데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00038",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00039",
+      "source_text": "なあ、よくわかんねぇけど、^nそんなもの出ていけばいいじゃねぇか。",
+      "source_raw_sha256": "EA0219EF8A4C1DCA4C2EF07F5CBB707E7C35991DC8265081BDE62073593AE83E",
+      "target_text": "있잖아, 잘은 모르겠지만,^n그런 곳은 그냥 나오면 되잖아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00040",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00041",
+      "source_text": "でも、わたくしは……ひとりでは……。",
+      "source_raw_sha256": "8705E6C78CBE316DA131C72EACFECB35EE273977E51765021E2BBFF8A55BF8F7",
+      "target_text": "하지만 저는…… 혼자서는…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00042",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00043",
+      "source_text": "「王子様」の力なんかいるか？^n　どうにでもなるだろ、そんなの。",
+      "source_raw_sha256": "08FB23F3D4612A27AD99FEDB5CA1D954E4316572852936249AE3805A7F20FF0E",
+      "target_text": "『왕자님』의 힘 같은 게 필요해?^n　어떻게든 되잖아, 그런 건.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00044",
+      "source_text": "ラプンツェルは言葉をなくして唇を|噛[か]んだ。",
+      "source_raw_sha256": "040D474F03FC6983939D4E99FDFC2DD8C881C35BEEF08D5AD8613BC629D56A69",
+      "target_text": "라푼젤은 말문이 막혀 입술을 깨물었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00045",
+      "source_text": "この、どこまでも行けそうな草の妖精のような彼にしてみれば、^nラプンツェルは戸口の開いた鳥かごの宿り木に^n愚かに、みじめに、留まりつづける鳥なのだろう。",
+      "source_raw_sha256": "351D58309C8C3F455320C10DBAA35EE59DDCCB28C8844AD9EAF5FA4E1AD58503",
+      "target_text": "어디까지고 갈 수 있을 듯한 풀의 요정 같은 그가 보기에는,^n라푼젤은 문이 열린 새장 속 횃대에^n어리석고 비참하게 계속 머무는 새일 것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00046",
+      "source_text": "「どうにでもなる」^n　少年があっさりと口にしたこの言葉が、^n　ラプンツェルにとってはどれだけ遠いものであるか。",
+      "source_raw_sha256": "1AC2294137FE58CB7B93601BBE8BB3C7483A2188C2686DB3455E9E436AA42A90",
+      "target_text": "『어떻게든 된다』^n　소년이 너무나 쉽게 내뱉은 이 말이,^n　라푼젤에게는 얼마나 먼 이야기인지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00047",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00048",
+      "source_text": "──ははん、そうか。",
+      "source_raw_sha256": "99AC697A40067D18B3C61CAC0EE1F770694659C16016DC0AD77132A8F42E6B16",
+      "target_text": "──하하, 그렇군.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00049",
+      "source_text": "震える指先を握りしめる彼女の、^n絵画のように血の気の引いた横顔を見つめながら、^nピーターはひとり|頷[うなず]く。",
+      "source_raw_sha256": "D8BA77577C3D7A97897062012EEB7092C6FFA8EC0FFC5FDF99B960EC72FFAF3B",
+      "target_text": "떨리는 손끝을 움켜쥔 그녀의,^n그림처럼 핏기가 가신 옆얼굴을 바라보며,^n피터는 혼자 고개를 끄덕였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00050",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00051",
+      "source_text": "あんた、オトナに言い含められてるんだな。^nオトナはいつもデタラメでオレたちを縛るからな。",
+      "source_raw_sha256": "5C02731BB43A783D3FCEC41D49E829D2A96646B486B81BD39C28F1DE068F9D7E",
+      "target_text": "너, 어른들한테 단단히 길들여졌구나.^n어른들은 늘 엉터리 말로 우리를 옭아매니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00052",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00053",
+      "source_text": "まあ、今からここは本来の姿を取り戻す。^nあんたにとっても住みやすくなるだろう。",
+      "source_raw_sha256": "CE47F227D0A50B65C0EE4FB684461DD3521682F424633568BC1C37FA0B66D9F0",
+      "target_text": "뭐, 지금부터 이곳은 본래 모습을 되찾을 거야.^n너한테도 살기 좋아지겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00054",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00055",
+      "source_text": "本来の姿……？",
+      "source_raw_sha256": "569E4B25C7FD245FFCA47A0298C74A0740582F9069E1C652DEEB2E0EDD7ED0E3",
+      "target_text": "본래 모습……?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00056",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00057",
+      "source_text": "コドモだけの島、ネバーランドさ。^nあんたもコドモなら知っているだろう。",
+      "source_raw_sha256": "337D961E4D4BB96D54514844AA2B4AC268E824504E4D77D1A5154A75260B9697",
+      "target_text": "아이들만의 섬, 네버랜드야.^n너도 아이라면 알고 있잖아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00058",
+      "source_text": "ピーター",
+      "source_raw_sha256": "44DA467FB5599430EF631E758DA2F5FFC0797ACD91C4823917E9BE4C228BFBD1",
+      "target_text": "피터",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00059",
+      "source_text": "忘れかけてしまっているかもしれないが、^nいまならまだ思い出せるはずだ。",
+      "source_raw_sha256": "62C26DEC4BBA7E692D36B4C496DD43639A43DDD1FD607F03B316F45D4344ACFB",
+      "target_text": "거의 잊어버렸을지도 모르지만,^n지금이라면 아직 떠올릴 수 있을 거야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00060",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00061",
+      "source_text": "……………………。",
+      "source_raw_sha256": "6BA2B0F0BEC4A224280F778B78B9E7B50B8B0C9ED1A698F2B180FFDCEC451B56",
+      "target_text": "…………………….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00062",
+      "source_text": "──ネバーランド。^n──子供だけの島。",
+      "source_raw_sha256": "280F9DA023963A0CD38073D0DB2E24FFDB137552659E342E217390EF302764E3",
+      "target_text": "──네버랜드.^n──아이들만 사는 섬.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00063",
+      "source_text": "昔、読んだことがある。^nその姿を想像したこともある。^nときめきをもって、|憧[あこが]れたことも。",
+      "source_raw_sha256": "197A31678C6EB1B564359DDE6FF2EAA31D9551B76002CB8553A425B3114E075D",
+      "target_text": "옛날에 읽은 적이 있었다.^n그 모습을 상상해 본 적도 있었다.^n가슴 설레며 동경한 적도.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00064",
+      "source_text": "あれはまだ彼女が「白い部屋」に幽閉される前のこと──^nあのときはとめどもない想像や|憧[あこが]れといったものが、^nどれだけ大切か知らなかったのだ。",
+      "source_raw_sha256": "B14E2026161E44DA0DBCE42257A6269403A774D6F5E766445C87391E87F7006B",
+      "target_text": "그건 아직 그녀가 『하얀 방』에 갇히기 전의 일──^n그때는 끝없는 상상과 동경이라는 것이,^n얼마나 소중한지 알지 못했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00065",
+      "source_text": "失われて、失われたまま生きて、^n今、少年の言葉でようやく思い出せた。",
+      "source_raw_sha256": "644A7ABDC389EA757D78B52D1EF856AD062964DA3F2E62646E3A7068D7991A73",
+      "target_text": "잃어버린 채, 잃어버린 것을 안고 살아오다가,^n이제야 소년의 말로 떠올릴 수 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00066",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00067",
+      "source_text": "危ういところでしたわ。^nでも、大丈夫。^n今、|忘却[ぼうきゃく]の霧が晴れて、現れましたわ。",
+      "source_raw_sha256": "E141CD6C3D53E22F8C60C2CB45AB63B29A56E1D318A1B89FBC70AB851AEDC78F",
+      "target_text": "큰일 날 뻔했어요.^n하지만 이제 괜찮아요.^n망각의 안개가 걷히고 제 앞에 나타났어요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00068",
+      "source_text": "ラプンツェル",
+      "source_raw_sha256": "A7D1022630570BF73137A5F00E89638087B618CE5FBC41C301A483A64D1158E5",
+      "target_text": "라푼젤",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1726.gsc::slot/00069",
+      "source_text": "ええ、想像の中では何度も旅立ちましたもの。^nありがとう。思い出させてくれて。",
+      "source_raw_sha256": "D0D95A7EFCD883849307525F0EA36D0169BB5997FECC701C0B7B39DEF9B8654C",
+      "target_text": "네, 상상 속에서는 몇 번이나 여행을 떠났답니다.^n고마워요. 기억나게 해 주어서.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "Initial translation plus exactly one review; syntax, style, terminology, and control-code checks complete",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; media-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'"><title>페어리테일 통합판</title><link rel="stylesheet" href="castle.css"></head><body><main id="stage">
+<section class="art" id="title" aria-label="공통 메인"></section>
+<section class="art" id="doors" hidden aria-label="작품 선택"></section>
+<section class="folio" id="book" hidden><div class="paper"><header><div><div class="wordmark">페어리테일</div><h1 id="heading">감상실</h1></div><button id="back" class="cloth">← 뒤로</button></header><div id="body"></div></div></section>
+<section id="viewer" hidden aria-label="CG 크게 보기"><div id="imagebox" tabindex="0"><img id="picture" alt="선택한 CG" draggable="false"></div><div class="viewerbar"><button id="vClose">← 감상실</button><span id="caption"></span><button id="prev" aria-label="이전 그림">이전</button><button id="next" aria-label="다음 그림">다음</button><button id="fit">화면에 맞춤</button></div></section>
+<div id="notice" role="status" aria-live="polite" hidden></div></main><script src="castle.js"></script></body></html>

@@ -1,0 +1,500 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1709_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    43
+  ],
+  "new_review_change_count": 9,
+  "new_review_changes": [
+    {
+      "slot": 5,
+      "before": "상자 모양 기계를 뒤집어쓴 소녀의 팔다리.^n전위 예술 작품 같은 그 팔이 격렬하게 경련했다.",
+      "after": "상자 모양 기계를 뒤집어쓴 소녀의 몸.^n전위 예술 작품 같은 그 팔이 격렬하게 경련했다."
+    },
+    {
+      "slot": 11,
+      "before": "피가 배어날 만큼 깊이 파고든 채,^n그대로 천천히 움직이자,^n뒤에는 새빨간 지렁이 같은 부어오른 자국이 남았다.",
+      "after": "피가 배어날 만큼 깊이 파고든 채,^n그대로 천천히 움직이자,^n뒤에는 새빨간 지렁이 모양의 부어오른 자국이 남았다."
+    },
+    {
+      "slot": 13,
+      "before": "그러니까…… 움직여.^n부탁이야, 내 손, 내 발.^n이 기계를 벗기고 그 사람에게 가는 거야……!",
+      "after": "그러니까…… 움직여.^n부탁이야, 내 손, 내 발.^n이 기계를 벗어 던지고 그 사람에게 가는 거야……!"
+    },
+    {
+      "slot": 14,
+      "before": "머릿속으로 밀려드는 세뇌의 격류를 밀어내려고,^n피부를 마구 할퀴고 입술을 세게 깨물며 소리치고 몸부림쳤다──",
+      "after": "머릿속으로 밀려드는 세뇌의 격류를 밀어내려고,^n피부를 닥치는 대로 할퀴고 입술을 세게 깨물며 소리치고 몸부림쳤다──"
+    },
+    {
+      "slot": 18,
+      "before": "조금만 어긋나도 정밀한 기기에는 계측 오류가 된다.^n모든 계기가 기록을 포기했고, 그리고──",
+      "after": "조금만 어긋나도 정밀한 기기에는 계측 오류가 된다.^n온갖 계기가 기록을 포기했고, 그리고──"
+    },
+    {
+      "slot": 23,
+      "before": "네 번째로 건네받은 『게르다』를 펼치자,^n새하얀 페이지가 눈에 들어왔다.",
+      "after": "네 번째로 건네받은 책 『게르다』를 펼치자,^n새하얀 페이지가 눈에 들어왔다."
+    },
+    {
+      "slot": 24,
+      "before": "아무리 넘기고 또 넘겨도 글자 한 조각조차 보이지 않았다.",
+      "after": "아무리 넘기고 또 넘겨도 글자 한 조각조차 찾을 수 없었다."
+    },
+    {
+      "slot": 31,
+      "before": "나나 라푼젤과는 대조적이라는^n자조는 목소리가 되기 전에 억누르고,^n나는 설산처럼 새하얀 지면 너머로 게르다를 떠올렸다.",
+      "after": "나나 라푼젤과는 대조적이라는^n자조는 목소리가 되기 전에 억누르고,^n나는 설산처럼 새하얀 책장 너머로 게르다를 떠올렸다."
+    },
+    {
+      "slot": 35,
+      "before": "　다시 마음을 다잡는 내게,^n『여동생』이 건넨 책은 지금까지와 다른 분위기였고,^n　본 기억이 있었다.",
+      "after": "　다시 마음을 다잡는 내게,^n『여동생』이 건넨 책은 지금까지와 분위기가 달랐고,^n　낯이 익었다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    44,
+    101
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00001",
+      "source_text": "７つのカレイドスコープ・モニターのうち、^nすでに３つが停止した。",
+      "source_raw_sha256": "EF012DA203CAAAC009FB07049AC02B9476FCDAF51B798297C444F74AD94BB915",
+      "target_text": "일곱 대의 칼레이도스코프 모니터 중,^n이미 세 대가 정지했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00002",
+      "source_text": "そして残りの４つのうちのひとつ、^n暖炉のぬくもりと極寒の吹雪の合間に位置する機械は、^n頻発するエラーに悲鳴のような|唸[うな]りをあげていた。",
+      "source_raw_sha256": "BDC513D1BAF9F77805966B840E4B3703B61380F154E771F74F262EFCEAFDE9BC",
+      "target_text": "그리고 남은 네 대 중 하나,^n벽난로의 온기와 혹한의 눈보라 사이에 있는 기계는,^n빈번한 오류 때문에 비명 같은 신음을 토해 내고 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00003",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00004",
+      "source_text": "……ッ、う……。",
+      "source_raw_sha256": "99AE197986A0E03314684CEB56A436547E9C175E27E7AE09E0E8496916D2249C",
+      "target_text": "……윽, 으…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00005",
+      "source_text": "箱型の機械を|被[かぶ]せられた少女の|肢体[したい]。^n前衛オブジェのようなその腕が、激しく|痙攣[けいれん]する。",
+      "source_raw_sha256": "C71908F4F489B2297481C380B9217762A2A8B55B688AF784ACA2698263CF17A1",
+      "target_text": "상자 모양 기계를 뒤집어쓴 소녀의 몸.^n전위 예술 작품 같은 그 팔이 격렬하게 경련했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00006",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00007",
+      "source_text": "わたし、私、は……。^n──ゲルダであってもなくても、どっちでもいい。",
+      "source_raw_sha256": "C9942C3613565F0ACC28C71AAF6850A80FFBA9E89FC876455DA960A7A48C94FC",
+      "target_text": "나, 나는…….^n──게르다이든 아니든 어느 쪽이든 상관없어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00008",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00009",
+      "source_text": "大事なのは、「あの人を捜している」──それだけ。^nあの人を見つけ出せるのなら、あの人を救い出せるのなら、^n私なんて、どうなってもかまわない。",
+      "source_raw_sha256": "A8B74661DA98B12C993DF9E8950FF9D4F4E8A2C392180C3A878D966ADA857C70",
+      "target_text": "중요한 건 『그 사람을 찾고 있다』는 것── 그것뿐이야.^n그 사람을 찾아낼 수 있다면, 그 사람을 구해 낼 수 있다면,^n나 따위는 어떻게 되어도 상관없어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00010",
+      "source_text": "震える手が、自らのもう一方の腕を|掴[つか]む。^n|猛禽類[もうきんるい]の|鉤爪[かぎづめ]のように、^n五指を曲げて爪を|容赦[ようしゃ]なく皮膚に食い込ませる。",
+      "source_raw_sha256": "D3A22E0E4B3B902C73C961BE3CE422116262949458632CB04B5B2E59CB771FE1",
+      "target_text": "떨리는 손이 자신의 반대편 팔을 붙잡았다.^n맹금류의 갈고리 발톱처럼,^n다섯 손가락을 굽혀 손톱을 가차 없이 피부에 박았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00011",
+      "source_text": "血が|滲[にじ]むほどに深々とえぐって、^nそのままゆっくりと移動すれば、^nあとには真っ赤なみみず|腫[ば]れが残された。",
+      "source_raw_sha256": "BCF791B02875C3BD91D0138EF203F3841A46515C0A4FC75275F461AC3CC20FD9",
+      "target_text": "피가 배어날 만큼 깊이 파고든 채,^n그대로 천천히 움직이자,^n뒤에는 새빨간 지렁이 모양의 부어오른 자국이 남았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00012",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00013",
+      "source_text": "だから……動いて。^nお願い、私の手、私の足。^nこの機械を外して、彼のもとへ行くの……！",
+      "source_raw_sha256": "BD55CE00DF9BFA88E1A4345BC09606788EFF228F5401BEC06DD6EE5323B07FC5",
+      "target_text": "그러니까…… 움직여.^n부탁이야, 내 손, 내 발.^n이 기계를 벗어 던지고 그 사람에게 가는 거야……!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00014",
+      "source_text": "頭の中に押し入る洗脳の|奔流[ほんりゅう]を押し戻すため、^n肌をむちゃくちゃに引っかき、唇を強く|噛[か]み、叫び、暴れ──",
+      "source_raw_sha256": "ED2CA404772EF630C1A20444F7DA3468C6A17699E84E508F0C3D45F1DD9ABC2A",
+      "target_text": "머릿속으로 밀려드는 세뇌의 격류를 밀어내려고,^n피부를 닥치는 대로 할퀴고 입술을 세게 깨물며 소리치고 몸부림쳤다──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00015",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00016",
+      "source_text": "ううぅぅぅぅぅ……！^n──ッ、うぁああああああああああ！",
+      "source_raw_sha256": "BB992D6BCD90FE6D56EFDEDEEBEE78D97CC977BB245A2CE49C7524EA63D56917",
+      "target_text": "으으으으으……!^n──윽, 으아아아아아아아아아!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00017",
+      "source_text": "少女の必死の抵抗が、^nやがて偶然に|被[かぶ]せられたモニターの位置をずらした。",
+      "source_raw_sha256": "2B0C18E3517B226E087D578D0BA47B540D0D1118D422B93E6C0C2E24B7813AAE",
+      "target_text": "소녀의 필사적인 저항이,^n마침내 우연히 머리에 씌워진 모니터의 위치를 어긋나게 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00018",
+      "source_text": "少しのずれでも|繊細[せんさい]な機器には計測エラーとなる。^nあらゆる計器が記録をあきらめ、そして──",
+      "source_raw_sha256": "53598FB73BB4E74A27FEB51C75992754967398D636BEB88B49538658A31270F5",
+      "target_text": "조금만 어긋나도 정밀한 기기에는 계측 오류가 된다.^n온갖 계기가 기록을 포기했고, 그리고──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00019",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00020",
+      "source_text": "次はゲルダか……",
+      "source_raw_sha256": "CBC6274213954F6785BB75AA8809FE42F10B6F1817DD600AD24B506D74A8B76E",
+      "target_text": "다음은 게르다인가…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00021",
+      "source_text": "あれ？",
+      "source_raw_sha256": "0404D292BE7EB2415492A0231DC3790ED33AA35E5B838D83B74859FDD83991AF",
+      "target_text": "어라?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00022",
+      "source_text": "『どうしたの、お兄ちゃん』",
+      "source_raw_sha256": "7073FCAA612378AFFFE23BEDEE311D7A81B872BF64D40D4F6199A4A32C92E35F",
+      "target_text": "『왜 그래, 오빠?』",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00023",
+      "source_text": "４冊目に差し出された「ゲルダ」を開いたところ、^n真っ白なページが目に飛び込んできた。",
+      "source_raw_sha256": "C573B8A42FAD9D3B015A6C8337BC3A77F7CC3A46F9F8A663AB51AF1DF2ECD3E9",
+      "target_text": "네 번째로 건네받은 책 『게르다』를 펼치자,^n새하얀 페이지가 눈에 들어왔다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00024",
+      "source_text": "めくってもめくっても、文字のひとかけらも見あたらない。",
+      "source_raw_sha256": "DD457C278EA530F0AD75A94BF20DAF14A87CAED1044365921598A84E8088CAF6",
+      "target_text": "아무리 넘기고 또 넘겨도 글자 한 조각조차 찾을 수 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00025",
+      "source_text": "戸惑っていると、姿を消していた黒の少女が再び現れた。",
+      "source_raw_sha256": "D29D18231C33568CC949B632BBE3C41225A728FE86427BA18E85106DE9AB193E",
+      "target_text": "당황하고 있자 모습을 감췄던 검은 소녀가 다시 나타났다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00026",
+      "source_text": "黒の少女",
+      "source_raw_sha256": "FAA0AB89AFF5D0919A5C211E42DF5ABF1C1EC582F6401FC43FDD6B254D438DDE",
+      "target_text": "검은 소녀",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00027",
+      "source_text": "ゲルダは自分で呪縛を解いて、機械を壊したみたい。^nあんなことができるなんて……強い子ね。",
+      "source_raw_sha256": "86EFE887EDE2DB50A4ECB8990467502C73C37A504AA0FDDBE04AE54A519C12C1",
+      "target_text": "게르다는 스스로 속박을 풀고 기계를 부순 모양이야.^n그런 일을 해내다니…… 강한 아이네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00028",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00029",
+      "source_text": "えっ……ゲルダが。",
+      "source_raw_sha256": "3FE47444ECAD65691BF54DF9A13D615FBAAC4E61235BA6689230076838CD7DD0",
+      "target_text": "뭐…… 게르다가.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00030",
+      "source_text": "とても彼女らしいと思う。^nゲルダはこの「楽園」にきてから^nずっと彼女を|覆[おお]い隠そうとする物語を跳ねのけてきた。",
+      "source_raw_sha256": "AEAD5754071A138C8C1B4A16CBFD2778A5A59BEF57DF23FAA497D16B6F654BBB",
+      "target_text": "참으로 그녀답다고 생각했다.^n게르다는 이 『낙원』에 온 뒤로,^n줄곧 자신을 뒤덮어 감추려는 이야기를 밀쳐 냈다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00031",
+      "source_text": "僕やラプンツェルとは対照的だ、^nなんて|自虐[じぎゃく]は声になる前に封じて、^n僕は雪山のように白い紙面の向こうにゲルダを思った。",
+      "source_raw_sha256": "F55BF71C8FF96E303DEB0A714D5B055FE508F85656BB28A35EB5186FA27E8AB6",
+      "target_text": "나나 라푼젤과는 대조적이라는^n자조는 목소리가 되기 전에 억누르고,^n나는 설산처럼 새하얀 책장 너머로 게르다를 떠올렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00032",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00033",
+      "source_text": "ゲルダ……大丈夫かな。^n無茶をしていないといいけれど。",
+      "source_raw_sha256": "20216A02FC04D64B0E3E06C608909B2DD253BD60BEE9A6913F5B776F13FAF2D8",
+      "target_text": "게르다…… 괜찮을까.^n무리하고 있지 않으면 좋겠는데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00034",
+      "source_text": "と、案じてはみたものの、^n向こうにしてみればこっちのほうが心配だろう。^n依然として、|囚[とら]われているのは僕のほうだ。",
+      "source_raw_sha256": "AC457354709241B7A2948406273727618C244387E0F2FE15825C86D2E9772855",
+      "target_text": "그렇게 걱정해 보았지만,^n그녀 입장에서는 오히려 이쪽이 걱정스러울 것이다.^n여전히 붙잡혀 있는 것은 나니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00035",
+      "source_text": "　気を引き締めなおす僕に、^n「妹」が渡してきた本はそれまでのものと異なる雰囲気で、^n　見覚えがあった。",
+      "source_raw_sha256": "A27E687C5D87FE3015DF15D374FAC7F08635F81F03CF3BBAD8AAA5956BE0994C",
+      "target_text": "　다시 마음을 다잡는 내게,^n『여동생』이 건넨 책은 지금까지와 분위기가 달랐고,^n　낯이 익었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00036",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00037",
+      "source_text": "これは……オディールの？",
+      "source_raw_sha256": "5DFC43A9BC0BAF545EC4026F8FAEC5652827F0BE4A4012FEA38483D31F6E6ADB",
+      "target_text": "이건…… 오딜의?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00038",
+      "source_text": "そうだ、これはオディールが常に|携[たずさ]えていた^n彼女の「聖書」だ。",
+      "source_raw_sha256": "E28C46C3B51AA5ED2DC675E8B7B73CDFA9550F53377ABF88D44B1A8293B2C9AE",
+      "target_text": "그래, 이것은 오딜이 늘 지니고 다니던^n그녀의 『성서』다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00039",
+      "source_text": "当然、表紙に刻まれているタイトルは「白鳥の湖」だ。",
+      "source_raw_sha256": "9B82CF9B8E447C89447DF597ECA8A61432B3813F31BCAE2565C12A37B11BB675",
+      "target_text": "당연히 표지에 새겨진 제목은 『백조의 호수』였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00040",
+      "source_text": "しかし開いたページにに記されていたのは──",
+      "source_raw_sha256": "E1AA002B71D725136AEB2A91939978ADB108DE3495CCD043CFD761EBF452D4FE",
+      "target_text": "하지만 펼친 페이지에 적혀 있던 것은──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00041",
+      "source_text": "|呆然[ぼうぜん]とする僕の|傍[かたわ]らで、^n黒の少女は少し耳を澄ませるような気配を見せた後、^nぽつりとこう|呟[つぶや]いた。",
+      "source_raw_sha256": "F6D4F6A365C170631F5E30AD49F2EF0AB2CA8D3B329794CC7BB17E5462BB8B8C",
+      "target_text": "망연해진 내 곁에서,^n검은 소녀는 잠시 귀를 기울이는 듯한 기색을 보인 뒤,^n작게 이렇게 중얼거렸다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00042",
+      "source_text": "黒の少女",
+      "source_raw_sha256": "FAA0AB89AFF5D0919A5C211E42DF5ABF1C1EC582F6401FC43FDD6B254D438DDE",
+      "target_text": "검은 소녀",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1709.gsc::slot/00043",
+      "source_text": "……どうやら、あのふたりは、^nあのふたりだけで解決するみたいね。^n今、やりあっているところよ。",
+      "source_raw_sha256": "715B939C924A8946B95F6FB14B69171108329DB85BB334C7F03DA43C6E00BCDC",
+      "target_text": "……아무래도 그 두 사람은,^n둘만의 힘으로 해결할 모양이네.^n지금 맞붙고 있어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

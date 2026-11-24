@@ -1,0 +1,120 @@
+{
+ "install": "Y:\\GAME\\Fairytale Collection",
+ "launcher_sha256": "ed3ed53850978af86c698b65956d7a4194b4604054a902073ceb0caaee0232fc",
+ "works": {
+  "Requiem": {
+   "entries": {
+    "replay": {
+     "members": 302,
+     "changed": [
+      "0000.gsc"
+     ]
+    },
+    "story": {
+     "members": 302,
+     "changed": [
+      "0000.gsc"
+     ]
+    }
+   },
+   "native_archive_sha256": "8331eaf3a986ce33121b6943c88f3c232635906bca7e9c657e26bcfad0304eec",
+   "independent_save_files": [
+    {
+     "name": "FRsave.dat",
+     "initial_bytes_match": true
+    },
+    {
+     "name": "FRsave01.dat",
+     "initial_bytes_match": true
+    },
+    {
+     "name": "FRsave01.wcg",
+     "initial_bytes_match": true
+    }
+   ],
+   "cg_groups": 63,
+   "cg_variants": 219,
+   "native_music_slots": 10,
+   "gallery_mpeg": [
+    "0001.mpg",
+    "0011.mpg",
+    "0012.mpg",
+    "0013.mpg"
+   ],
+   "native_credits": false
+  },
+  "Encore": {
+   "entries": {
+    "replay": {
+     "members": 75,
+     "changed": [
+      "0000.gsc"
+     ]
+    },
+    "story": {
+     "members": 75,
+     "changed": [
+      "0000.gsc"
+     ]
+    }
+   },
+   "native_archive_sha256": "537aa72c3224df74d6e99038ee0a2ed027fc3f80b95c6a5b4505fc1b8b3d2785",
+   "independent_save_files": [
+    {
+     "name": "FAsave.dat",
+     "initial_bytes_match": true
+    }
+   ],
+   "cg_groups": 24,
+   "cg_variants": 94,
+   "native_music_slots": 11,
+   "gallery_mpeg": [
+    "0001.mpg",
+    "0011.mpg",
+    "0012.mpg"
+   ],
+   "native_credits": false
+  },
+  "Symphony": {
+   "entries": {
+    "credits": {
+     "members": 51,
+     "changed": [
+      "0000.gsc"
+     ]
+    },
+    "replay": {
+     "members": 51,
+     "changed": [
+      "0000.gsc"
+     ]
+    },
+    "story": {
+     "members": 51,
+     "changed": [
+      "0000.gsc"
+     ]
+    }
+   },
+   "native_archive_sha256": "3c8498f99ec45c7228b4357d59073b724f5ace4f39845aa2d688516bf1a388f8",
+   "independent_save_files": [
+    {
+     "name": "FSsave.dat",
+     "initial_bytes_match": true
+    }
+   ],
+   "cg_groups": 12,
+   "cg_variants": 46,
+   "native_music_slots": 11,
+   "gallery_mpeg": [],
+   "native_credits": true
+  }
+ },
+ "unique_full_size_cg": 346,
+ "unique_music": 11,
+ "references": [
+  "https://api.playnite.link/docs/manual/library/games/gameActions.html",
+  "https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.processstartinfo.workingdirectory",
+  "https://www.liar.co.jp/fairy_symphony/"
+ ]
+}

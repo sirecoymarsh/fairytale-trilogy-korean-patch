@@ -1,0 +1,100 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1137_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    6
+  ],
+  "new_review_change_count": 3,
+  "new_review_changes": [
+    {
+      "slot": 2,
+      "before": "(……아무도 없나.)",
+      "after": "(……없는 건가.)"
+    },
+    {
+      "slot": 3,
+      "before": "몇 번이고 노크해도^n방 안은 쥐죽은 듯 조용해 아무 반응도 없다.",
+      "after": "몇 번이고 노크해도^n방 안은 쥐죽은 듯 조용하고 아무 반응도 없다."
+    },
+    {
+      "slot": 5,
+      "before": "자고 있다면 깨우는 건 미안하다.",
+      "after": "자고 있다면 깨우기 미안하다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    7,
+    64
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1137.gsc::slot/00001",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1137.gsc::slot/00002",
+      "source_text": "（……いないのかな）",
+      "source_raw_sha256": "ADC2E63D1F72B9868C5E23A2B4C6C5543B948557F0C6796D91638380447F122D",
+      "target_text": "(……없는 건가.)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1137.gsc::slot/00003",
+      "source_text": "ノックを繰り返しても^n部屋の中は静まり返って、何の反応もない。",
+      "source_raw_sha256": "74AD2831890EE545489354579405C94C1D5D7D14C2E1B79FEF41F425412330B3",
+      "target_text": "몇 번이고 노크해도^n방 안은 쥐죽은 듯 조용하고 아무 반응도 없다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1137.gsc::slot/00004",
+      "source_text": "いないのか、あるいは眠っているのか。",
+      "source_raw_sha256": "CB8A5935BA5777636D8571E6557CBAB9F7D91154A1A64E1B938A42ED6F162F97",
+      "target_text": "없는 건지, 아니면 자는 건지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1137.gsc::slot/00005",
+      "source_text": "眠っているとしたら起こすのはかわいそうだ。",
+      "source_raw_sha256": "FF863BEE373B47C8FB7A259FCFE3C270BD3EEED00F9491D6DD1D0531A37631FE",
+      "target_text": "자고 있다면 깨우기 미안하다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1137.gsc::slot/00006",
+      "source_text": "僕は別の場所に行くことにした。",
+      "source_raw_sha256": "70FB731582686DD3A578212FAC11E2D9B74F7181DA99A68D7E6D40D065A48C2C",
+      "target_text": "나는 다른 곳으로 가기로 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

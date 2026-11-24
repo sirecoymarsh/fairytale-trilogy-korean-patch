@@ -1,0 +1,935 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1901_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    84
+  ],
+  "new_review_change_count": 14,
+  "new_review_changes": [
+    {
+      "slot": 9,
+      "before": "오늘 요리는 스스로도 잘됐다고 생각하던 참이라,^n직원은 고개를 갸웃했다.",
+      "after": "오늘 요리는 자신이 봐도 잘됐다고 생각하던 참이라,^n직원은 고개를 갸웃했다."
+    },
+    {
+      "slot": 23,
+      "before": "어떻게 봐야 그게 바다거북인지 뭔지로 보이는지,^n그로서는 도무지 이해할 수 없었다.",
+      "after": "어떻게 봐야 바다거북인가 뭔가로 보인다는 건지,^n그로서는 도무지 이해할 수 없었다."
+    },
+    {
+      "slot": 25,
+      "before": "애초에 바다거북은 요리에 쓸 수도 없어.^n물론 옛날엔 세계 곳곳에서 먹었다고는 하지만.^n원래 고급 식재료인 데다 지금은 포획 금지라 구할 수도 없지.",
+      "after": "애초에 바다거북은 요리에 쓸 수도 없어.^n물론 옛날엔 세계 곳곳에서 먹었다고는 하지만.^n원래 고급 식재료인 데다 지금은 포획이 금지돼 구할 수도 없지."
+    },
+    {
+      "slot": 26,
+      "before": "직원은 어린아이에게 타이르듯 차근차근 설명했지만,^n앨리스에게 그런 이치가 통할 리 없었다.",
+      "after": "직원은 알아듣기 쉽게 차근차근 설명했지만,^n앨리스에게 그런 이치가 통할 리 없었다."
+    },
+    {
+      "slot": 31,
+      "before": "완전히 곤란해진 직원은 고개를 저을 수밖에 없었다.^n시설 환자들이 공상벽 심한 아이들뿐인 건 알고 있었지만,^n이런 식으로 항의를 받기는 그도 처음이었다.",
+      "after": "완전히 곤란해진 직원은 고개를 저을 수밖에 없었다.^n이 시설 환자들이 공상벽 심한 아이들뿐인 건 알고 있었지만,^n이런 식으로 항의를 받기는 그도 처음이었다."
+    },
+    {
+      "slot": 43,
+      "before": "뭐 어쨌든, 이미 수프가 돼 버렸다면,^n먹어 주지 않는 것도 가짜 바다거북 씨에게 미안하고,^n분명 벌을 받을 거야.",
+      "after": "뭐 어쨌든, 이미 수프가 돼 버렸다면,^n먹어 주지 않으면 가짜 바다거북 씨에게도 미안하고,^n분명 벌을 받을 거야."
+    },
+    {
+      "slot": 50,
+      "before": "주여, 가짜 바다거북 씨의 영혼을^n하늘로 거두어 주소서, 아멘.",
+      "after": "주여, 가짜 바다거북 씨의 영혼을^n하늘로 불러 주소서, 아멘."
+    },
+    {
+      "slot": 61,
+      "before": "아아, 슬프지만 맛있는 맛이야.^n자꾸 먹고 싶어질 것 같아.^n",
+      "after": "아아, 슬프지만 맛있는 맛이야.^n중독될 것 같아.^n"
+    },
+    {
+      "slot": 64,
+      "before": "어?　그래, 남았는데.^n그렇게 불평하더니 한 그릇 더 먹겠다고?",
+      "after": "어?　그래, 남았는데.^n그렇게 불평하더니 더 달라는 거냐?"
+    },
+    {
+      "slot": 65,
+      "before": "직원은 어이없다는 얼굴을 하면서도,^n그녀의 접시에 포토푀를 한 번 더 퍼 주었다.",
+      "after": "직원은 어이없다는 얼굴을 하면서도,^n그녀의 접시에 포토푀를 한 그릇 더 떠 주었다."
+    },
+    {
+      "slot": 67,
+      "before": "아는 사이로서 하늘에 오르는 마지막까지^n배웅해 줘야 하거든.^n",
+      "after": "아는 사이니까 하늘에 오르는 마지막 순간까지^n배웅해 줘야 하거든.^n"
+    },
+    {
+      "slot": 68,
+      "before": "뱃속으로 지켜본다는 것도 좀 이상하지만.",
+      "after": "뱃속에서 마지막을 지켜본다는 것도 좀 이상하지만."
+    },
+    {
+      "slot": 75,
+      "before": "처음에는 쓴 약을 씹은 듯한 표정이던 직원도,^n그녀가 먹는 모습을 보니 싫지만은 않았던 모양이다.^n입가에 옅은 미소가 번져 있었다.",
+      "after": "처음에는 쓴 약을 씹은 듯한 표정이던 직원도,^n그녀가 먹는 모습을 보니 기분이 나쁘지만은 않았던 모양이다.^n입꼬리가 살짝 올라가 있었다."
+    },
+    {
+      "slot": 78,
+      "before": "했는데.^n아, 앨리스?",
+      "after": "그런데.^n아, 앨리스?"
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    85,
+    142
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00001",
+      "source_text": "それは昼食時間のこと。",
+      "source_raw_sha256": "4B6E4824C41C26B8A1569242CEA9754A3AE487D7DB2E93324E052B2ECA1C0D6B",
+      "target_text": "그건 점심시간의 일이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00002",
+      "source_text": "アリスは何を思ってか、ひとりキッチンを訪れた。^nその手には昼食で配膳されたスープ皿が握られている。",
+      "source_raw_sha256": "CA5446BDF84404BCE42465BD09E728FAEDF54702765B6B6F082D0425C6F52F43",
+      "target_text": "무슨 생각이었는지 앨리스는 혼자 주방을 찾았다.^n그 손에는 점심으로 배식된 수프 접시가 들려 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00003",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00004",
+      "source_text": "ねぇ、今日のご飯はあなたが作ったの？",
+      "source_raw_sha256": "FED24CD510BF83AD662F500E7CA5D4A2F8A60F9B980835465624EE78646239BA",
+      "target_text": "저기, 오늘 밥은 당신이 만든 거야?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00005",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00006",
+      "source_text": "ああ、そうだけど。^nおいしかったかい？",
+      "source_raw_sha256": "32E043B45635868390A89822B6D5747BF512A1A044061FA5541E3E11471FD098",
+      "target_text": "그래, 그런데.^n맛있었니?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00007",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00008",
+      "source_text": "スープ以外は美味しくいただいたわ。",
+      "source_raw_sha256": "AA69F7BC6E2CDA037B3900AC686986A915DE132AB5C1C0572A58700F0D4DFAAE",
+      "target_text": "수프 말고는 맛있게 잘 먹었어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00009",
+      "source_text": "今日の料理は我ながら上出来と考えていただけに、^n職員は首を|傾[かし]げた。",
+      "source_raw_sha256": "87C58C0134F4E6D6494AFE80784AE387754D424A80352C9CAEF3682974CBA830",
+      "target_text": "오늘 요리는 자신이 봐도 잘됐다고 생각하던 참이라,^n직원은 고개를 갸웃했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00010",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00011",
+      "source_text": "おや？　味付けがおかしかったかい？^nそれとも、何か食べられない物でも入っていたかな？",
+      "source_raw_sha256": "0EDFD493E4A4F29B2EDAC2C19ACBAA5DBCB32319C156B91D4C9EDDF99E1DA8A4",
+      "target_text": "왜?　간이 이상했니?^n아니면 못 먹는 거라도 들어 있었나?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00012",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00013",
+      "source_text": "ニセウミガメのスープでしょ？^nひと目ですぐわかったわ。",
+      "source_raw_sha256": "E732AD7ED1EC5F61CFAE56777E97429BE23CD0674593B9EC21E819F941742DB6",
+      "target_text": "가짜 바다거북 수프잖아?^n한눈에 바로 알았어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00014",
+      "source_text": "アリスは唇を尖らせ、^n手にしたスープ皿を職員に突き出した。",
+      "source_raw_sha256": "1C9622DE09C6DB7F8B23D8B6E1CC0D52E95DBE26FA91C8DF11151C7178340529",
+      "target_text": "앨리스는 입술을 삐죽 내밀고,^n손에 든 수프 접시를 직원 앞으로 내밀었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00015",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00016",
+      "source_text": "えっ？　なんだって？",
+      "source_raw_sha256": "BC4C066721B55347329F66B14DFA5D2FF3C32B289758D1986CADD4FF47CB4775",
+      "target_text": "뭐?　뭐라고?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00017",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00018",
+      "source_text": "だから、ニセウミガメよ。^nスープに使ったんでしょう？^nあなたたちって酷い人たちね。",
+      "source_raw_sha256": "4CDDA77817AF44809D17661AC0F041E7DACF89EAFA587D2AD1E2922B9920C3FE",
+      "target_text": "그러니까 가짜 바다거북 말이야.^n수프에 썼잖아?^n당신들 정말 너무하네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00019",
+      "source_text": "彼は耳を疑い、眼をぱちくりとしばたかせた。^nそれは今日、彼が作った料理だった。",
+      "source_raw_sha256": "FCFBB19BAE7BE93D8B496DFABF95AECAC3D9070C2C687CAA8A4BE8F72EC72B4D",
+      "target_text": "그는 자기 귀를 의심하며 눈을 끔뻑였다.^n그건 오늘 그가 만든 요리였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00020",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00021",
+      "source_text": "いや、それはただの、^nソーセージとベーコン入りのポトフだよ？",
+      "source_raw_sha256": "8E800F54E965F865A872B589934CE8D0F481BE90FC101A00A4C403816F0829C1",
+      "target_text": "아니, 그건 그냥,^n소시지와 베이컨을 넣은 포토푀인데?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00022",
+      "source_text": "ざく切りのキャベツと半切りの人参とじゃがいも、^nベーコンとソーセージが琥珀色のスープに浮かんでいる。",
+      "source_raw_sha256": "CB6BCEAED940DBB89CC7B30BC6ABE66C37B68AABF9AF270883CD338B2118034D",
+      "target_text": "큼직하게 썬 양배추와 반으로 자른 당근과 감자,^n베이컨과 소시지가 호박빛 수프에 떠 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00023",
+      "source_text": "何をどう取るとウミガメとやらに見えるのか、^n彼にはさっぱり理解できなかった。",
+      "source_raw_sha256": "94E2A05643C5BCA2D3A807F4C7A7A4FD92692E901DC13FF9D12E6A06B04DC1E3",
+      "target_text": "어떻게 봐야 바다거북인가 뭔가로 보인다는 건지,^n그로서는 도무지 이해할 수 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00024",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00025",
+      "source_text": "だいいち、ウミガメなんて料理に使えないよ。^nそりゃ確かに昔は世界中で食べられてたらしいがね。^n元々高級品だし、今じゃ禁漁で手にも入らないさ。",
+      "source_raw_sha256": "73CD35B2B6A45A516B8CCF0CC5AFF71F936B856E9164EBC6221FCA71CC717025",
+      "target_text": "애초에 바다거북은 요리에 쓸 수도 없어.^n물론 옛날엔 세계 곳곳에서 먹었다고는 하지만.^n원래 고급 식재료인 데다 지금은 포획이 금지돼 구할 수도 없지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00026",
+      "source_text": "職員は|噛[か]んで含めるように説明するが、^nアリスにはそんな理屈が通じるはずもない。",
+      "source_raw_sha256": "4605CCFFD4BD4A3A37CA6F6531D7B48F340BF10D958D454C9ACA7F2596B53617",
+      "target_text": "직원은 알아듣기 쉽게 차근차근 설명했지만,^n앨리스에게 그런 이치가 통할 리 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00027",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00028",
+      "source_text": "ウミガメじゃなくて、ニセウミガメよ。^nもう、あなた、人のお話はちゃんと聞くものよ？",
+      "source_raw_sha256": "C3010FDFB8D28525A4A501B76F6421B7014F5071DCB002ACF47A2B039969FEBC",
+      "target_text": "바다거북이 아니라 가짜 바다거북이야.^n정말, 당신. 남의 이야기는 똑바로 들어야지?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00029",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00030",
+      "source_text": "いや、聞いてるけどね。^nもう何を言ってるんだか意味がわからないよ。",
+      "source_raw_sha256": "3C37822040DAEE394F0205C09859A85ACA3029705E4F115A7B3C8B49D77E2A98",
+      "target_text": "아니, 듣고는 있는데.^n대체 무슨 소린지 전혀 모르겠어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00031",
+      "source_text": "ほとほと困った職員は、首を振る事しかできなかった。^n施設の患者は空想癖の強い子ばかりだと承知はしていたが、^nこんな風に抗議されるのは、彼も初めてのことだった。",
+      "source_raw_sha256": "FCF7F05B1143D4E868DCB4B1B147B42DAC2945E553A17CB487D5266F821C64A5",
+      "target_text": "완전히 곤란해진 직원은 고개를 저을 수밖에 없었다.^n이 시설 환자들이 공상벽 심한 아이들뿐인 건 알고 있었지만,^n이런 식으로 항의를 받기는 그도 처음이었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00032",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00033",
+      "source_text": "もう、お話にならないわ。",
+      "source_raw_sha256": "9EC94587670E0998260624B3F600ED39D7BD7DD90E07193E94039DF61F764504",
+      "target_text": "정말, 말이 안 통하네.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00034",
+      "source_text": "話が通じないと|諦[あきら]めたアリスは、^n近くのテーブルにスープ皿を置き、^nそれにしみじみと語りかけ始めた。",
+      "source_raw_sha256": "E9299F84F600B1700257E5F3E94DE2470985DA9F6B3127AF77CA021BE292B4C0",
+      "target_text": "말이 통하지 않는다고 포기한 앨리스는,^n근처 탁자에 수프 접시를 내려놓고,^n그것을 향해 애달프게 말을 걸기 시작했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00035",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00036",
+      "source_text": "ああ、可哀想なニセウミガメさん。^nどうしてこんなことになっちゃったの？",
+      "source_raw_sha256": "6CBEA1B2B7C5262452FCEE5E30F5194382CBA9FD75BFA3D801A62959F48F1E9B",
+      "target_text": "아아, 불쌍한 가짜 바다거북 씨.^n어쩌다 이렇게 돼 버린 거야?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00037",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00038",
+      "source_text": "ソーセージとベーコンにされるだなんて^nきっと苦しかったわね。",
+      "source_raw_sha256": "AB81F85CA10703E70038675EA6B77F90418BC5BA8353E7B98333DB2BAC8CA35F",
+      "target_text": "소시지와 베이컨이 되다니,^n분명 많이 괴로웠겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00039",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00040",
+      "source_text": "ああでも、ひょっとすると|溺死[・・]の授業を^n頑張り過ぎちゃったのかしらね……。",
+      "source_raw_sha256": "B1B57CCF908FB8196A564B0172AC937316EF68DE549A695D0011D4A7D7BD6E05",
+      "target_text": "아아, 하지만 혹시 『익사』 수업을^n너무 열심히 받아서 그런 걸까…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00041",
+      "source_text": "スープにぶつぶつと話しかけながら、^nひとり納得したようにアリスはうなずいた。",
+      "source_raw_sha256": "F0131CF344E96A865820FA17D298AEA821173E0F4FC79B9779398DDB50C0415B",
+      "target_text": "수프를 향해 중얼중얼 말을 걸면서,^n혼자 납득한 듯 앨리스는 고개를 끄덕였다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00042",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00043",
+      "source_text": "まぁともかく、もうスープになっちゃったなら、^n食べてあげなきゃニセウミガメさんにも悪いし、^nきっと罰があたっちゃうわ。",
+      "source_raw_sha256": "7F549BEA6130AB6DC01FD5F928F55C85B77750A936610372E7D71FAD982ADA6C",
+      "target_text": "뭐 어쨌든, 이미 수프가 돼 버렸다면,^n먹어 주지 않으면 가짜 바다거북 씨에게도 미안하고,^n분명 벌을 받을 거야.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00044",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00045",
+      "source_text": "だってあたし、インゲルみたいに^n食べ物は粗末にしたりしないのよ。",
+      "source_raw_sha256": "5AE7D6B91BFB4D820B1487919CF71E899838FC5E7CACF41E8EB74DB664D9D2A7",
+      "target_text": "왜냐하면 난 잉게르처럼^n음식을 함부로 대하지 않거든.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00046",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00047",
+      "source_text": "それではいただきます……^n",
+      "source_raw_sha256": "8F75D0B2076E85A72513951AA5EEBF478608807C421E67CA32B73A9942A5DBFC",
+      "target_text": "그럼 잘 먹겠습니다……^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00048",
+      "source_text": "いいえ、こういう時こそアーメンって^nお祈りした方がふさわしいかしら？",
+      "source_raw_sha256": "05B1679BC00D5F9F60429B7E402C2056DB6EB8B0DFB4592F5F24EFB3C1AFD81C",
+      "target_text": "아니, 이럴 때야말로 아멘 하고^n기도하는 편이 어울리려나?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00049",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00050",
+      "source_text": "主よ、ニセウミガメさんの魂を^n天へ召したまえ、アーメン。",
+      "source_raw_sha256": "8A2F55195F7E2C0E9AAE7165E17DD5AB64F233CBD40548AED684E5A58462F08D",
+      "target_text": "주여, 가짜 바다거북 씨의 영혼을^n하늘로 불러 주소서, 아멘.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00051",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00052",
+      "source_text": "ずずず……",
+      "source_raw_sha256": "E657173BFC7240CA6BA89F60933510F6832180F323FF27A61C8802BE7651B44B",
+      "target_text": "후루룩……",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00053",
+      "source_text": "あら？　あらら？",
+      "source_raw_sha256": "998C0E8CE1CD0E018E3ED80C7271AE9BB14854A8F8E80451DFD198C67AAD1A98",
+      "target_text": "어라?　어라라?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00054",
+      "source_text": "お祈りの十字を切ってから^nスープを口に運んだアリスの顔が、^nぱあぁっと明るく輝いた。",
+      "source_raw_sha256": "43DF5E19EE4620CC45924A5F39B3B2AFD9E73BE52391A03A688325DCA0782E3A",
+      "target_text": "기도하며 성호를 그은 뒤^n수프를 입으로 가져간 앨리스의 얼굴이,^n환하게 빛났다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00055",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00056",
+      "source_text": "思ったよりおいしいじゃない。^nかわいそうなのにおいしいだなんて。^nそんなこともあるのね。",
+      "source_raw_sha256": "C31B85D19857D982E756E185DEEC5FFED806AA3E7DB5A234572F51379BC4679E",
+      "target_text": "생각보다 맛있잖아.^n불쌍한데도 맛있다니.^n그런 일도 있는 거구나.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00057",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00058",
+      "source_text": "塩味の加減がとってもちょうどいいわ。^nきっとニセウミガメさんの涙の味ね。^nだっていつも泣いてたもの。",
+      "source_raw_sha256": "11C33412FDCD2650C8919542E880FDAA8C9EEBF2B2F45B6510F6604CEE3FBA72",
+      "target_text": "소금 간이 정말 딱 좋아.^n분명 가짜 바다거북 씨가 흘린 눈물 맛일 거야.^n언제나 울고 있었으니까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00059",
+      "source_text": "あれこれ言いながらも、^nアリスは持参したスープを^n|瞬[またた]く間に平らげてしまった。",
+      "source_raw_sha256": "DFBF34DFD5AF9F6B5136BF757E7CFE58F901B0C6F1E307005F3FE3A6F73B578F",
+      "target_text": "이런저런 말을 하면서도,^n앨리스는 가져온 수프를^n눈 깜짝할 사이에 깨끗이 비웠다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00060",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00061",
+      "source_text": "ああ、哀しいけどおいしい味だわ。^n|癖[くせ]になっちゃいそう。^n",
+      "source_raw_sha256": "078868171DB12B069F49C3B64154ABADA2155C9EB3B4E8F4CF019813595AC8E0",
+      "target_text": "아아, 슬프지만 맛있는 맛이야.^n중독될 것 같아.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00062",
+      "source_text": "ねぇあなた、まだこのスープ残ってるの？",
+      "source_raw_sha256": "02AB78CF0CEED5302385AF0CCA388432AD5D91CA4150CDBBDD43B513C25A873B",
+      "target_text": "저기 당신, 이 수프 아직 남았어?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00063",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00064",
+      "source_text": "あ？　ああ、残ってるけどね。^nあれだけ文句言っておかわりかい？",
+      "source_raw_sha256": "9D8B61B8C803EDB579607E7A42528ECFB4A5E1C79A1151716EF119EF1E8B5BDD",
+      "target_text": "어?　그래, 남았는데.^n그렇게 불평하더니 더 달라는 거냐?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00065",
+      "source_text": "職員は|呆[あき]れた顔をしながらも、^n彼女の皿にポトフのお代わりをよそってあげた。",
+      "source_raw_sha256": "0874DA569D25657FCA56D1891862A00FC33D42BB43ED2D21063F1CEF537DAD77",
+      "target_text": "직원은 어이없다는 얼굴을 하면서도,^n그녀의 접시에 포토푀를 한 그릇 더 떠 주었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00066",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00067",
+      "source_text": "知り合いとしては天に昇る最後まで^n見送ってあげないといけないの。^n",
+      "source_raw_sha256": "5FAA990E69BC554B381C61C063EA5796C5A44283F050BEF6846BE9119427E5AB",
+      "target_text": "아는 사이니까 하늘에 오르는 마지막 순간까지^n배웅해 줘야 하거든.^n",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00068",
+      "source_text": "お腹で見届けるってのもなんか変だけど。",
+      "source_raw_sha256": "55B55DB785A251CE44F8E92A68425C2BDEA177FB67B52852F40D5B5BB82C1C8D",
+      "target_text": "뱃속에서 마지막을 지켜본다는 것도 좀 이상하지만.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00069",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00070",
+      "source_text": "ああ、どうしましょう。^nとってもかわいそおいしいわ。^nあたしの方が天に昇っちゃいそう。",
+      "source_raw_sha256": "7F3842CCBA57BF128E0ACCFCF5927700DF411ACE977813524057F11B6B1659E7",
+      "target_text": "아아, 어떡하지.^n너무 불쌍한데 맛있어.^n내가 먼저 하늘로 올라가 버릴 것 같아.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00071",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00072",
+      "source_text": "うーん、さすがにもう食べられないわ……。",
+      "source_raw_sha256": "7D02B82A409DFAF50CD6B8CF2D5332560295F5F55A091B52CFCAEEADCAD2B2B0",
+      "target_text": "으음, 역시 이제 더는 못 먹겠어…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00073",
+      "source_text": "職員",
+      "source_raw_sha256": "A25AF2E1BA962C6FA3A7775820C13167D6ED6E03ADB4A6F920C25C5436AAFB8D",
+      "target_text": "직원",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00074",
+      "source_text": "「もう食べられない」って、^n　鍋の中はもうすっからかんだよ。",
+      "source_raw_sha256": "B853D1FD39C58B84865F1F5B5EA2529EBA87C7B542170331F39313219DFBDB1D",
+      "target_text": "『이제 더는 못 먹겠다』니,^n　냄비 안은 벌써 텅 비었어.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00075",
+      "source_text": "はじめは苦虫を|噛[か]みつぶした顔だった職員も、^n彼女の食べっぷりに悪い気はしなかったようだ。^n口の端が少しにやけていた。",
+      "source_raw_sha256": "BF6DDD5BB538352A2C7D84ABAE93D55208D30F7698A13FF680BC2D0191228A36",
+      "target_text": "처음에는 쓴 약을 씹은 듯한 표정이던 직원도,^n그녀가 먹는 모습을 보니 기분이 나쁘지만은 않았던 모양이다.^n입꼬리가 살짝 올라가 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00076",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00077",
+      "source_text": "うう、もうお腹減っちゃった……。^nなにか残り物残ってないかな──",
+      "source_raw_sha256": "EFF749A4EA657C8153B7EC524553EECEB2A5F586C3553CE766A8C9DC0BC66A77",
+      "target_text": "으으, 벌써 배고파졌어…….^n뭔가 남은 음식 없으려나──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00078",
+      "source_text": "って。^nあ、アリスちゃん？",
+      "source_raw_sha256": "81E2F564AFC0C21189A0ED0AA6F446D89CEAFBA7415B38375D162B8AFF7AC093",
+      "target_text": "그런데.^n아, 앨리스?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00079",
+      "source_text": "アリス",
+      "source_raw_sha256": "3FC13A62286D75D204D547042279E5A94241319D14D585FA6F4057DFB77CFEAC",
+      "target_text": "앨리스",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00080",
+      "source_text": "ああ、遅かったわね、グレーテル。^nもう美味しいお葬式は終わっちゃったわよ？",
+      "source_raw_sha256": "9B2D21CFC1F497908F44732854E4DC0742CB1DF8FF967FB0821271493410352A",
+      "target_text": "아아, 늦었네, 그레텔.^n맛있는 장례식은 벌써 끝나 버렸는걸?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00081",
+      "source_text": "グレーテル",
+      "source_raw_sha256": "0D03C736A9281620601DA4D5F22F2770D5A257C7C331A95EC31CE3668615C438",
+      "target_text": "그레텔",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00082",
+      "source_text": "ア、アリスちゃんだけずるい！！",
+      "source_raw_sha256": "65C0905DF19562EBA60866C643087A02ABBA618263697ACB09B25EB5B34E2576",
+      "target_text": "애, 앨리스만 치사해!!",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00083",
+      "source_text": "お腹をすかせたグレーテルが^nお昼の残り物を|漁[あさ]りに来た時は時すでに遅し。",
+      "source_raw_sha256": "6A223784CEBB0ADBD36EDC9C591CB84A92C71E3A31774E37CD9029EB9AFB95FE",
+      "target_text": "배가 고픈 그레텔이^n점심때 남은 음식을 뒤지러 왔을 때는 이미 늦었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1901.gsc::slot/00084",
+      "source_text": "鍋の残りをアリスが平らげてしまったせいで、^nグレーテルは今日は余り物にありつけませんでしたとさ。",
+      "source_raw_sha256": "45F8EF1AF1B1170FF094F64562E523026ABFD71A0CF465315BB75C0BAAAB3F30",
+      "target_text": "냄비에 남은 것까지 앨리스가 깨끗이 비워 버린 탓에,^n그레텔은 오늘 남은 음식 한입도 얻지 못했답니다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 정확히 1회 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

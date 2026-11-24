@@ -1,0 +1,290 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1305_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    23
+  ],
+  "new_review_change_count": 7,
+  "new_review_changes": [
+    {
+      "slot": 4,
+      "before": "무언가를 조용히, 하지만 강하게 호소하는 그 한마디에,^n나는 가슴이 꽉 조이는 듯한^n애달픈 기분을 느끼지 않을 수 없었다.",
+      "after": "무언가를 조용히, 하지만 강하게 호소해 오는 그 한마디에,^n나는 가슴이 꽉 조이는 듯한^n애달픈 기분을 느끼지 않을 수 없었다."
+    },
+    {
+      "slot": 7,
+      "before": "미소 속에 비친 쓸쓸한 모습이 마음에 걸렸다.^n왠지 자기 자신은 포기해 버린 듯한──^n그런 느낌마저 든다.",
+      "after": "미소 속에 비친 쓸쓸한 기색이 마음에 걸렸다.^n왠지 자기 자신은 포기해 버린 듯한──^n그런 느낌마저 든다."
+    },
+    {
+      "slot": 10,
+      "before": "(이상한 생각은 그만하자, 나)",
+      "after": "(이상한 생각은 그만하자)"
+    },
+    {
+      "slot": 14,
+      "before": "떨쳐 냈다고 생각한 불길한 기척은^n아무래도 잠 속까지 나를 따라온 모양이다.",
+      "after": "떨쳐 냈다고 생각한 불길한 기운은^n아무래도 잠 속까지 나를 따라온 모양이다."
+    },
+    {
+      "slot": 16,
+      "before": "(그만둬, 그 아이에게만은 손대지 마!)",
+      "after": "(그만둬, 그녀에게만은 손대지 마!)"
+    },
+    {
+      "slot": 20,
+      "before": "그 아이만은 더러운 일과 괴로운 일에서 멀리하고 싶었다.",
+      "after": "그녀만은 더러운 일이나 괴로운 일에서 멀리하게 해 주고 싶었다."
+    },
+    {
+      "slot": 23,
+      "before": "무력감에 짓눌려,^n내 마음은 깊고 깊은 어둠 밑바닥으로 떨어져 간다──",
+      "after": "무력감에 짓눌려,^n내 마음은 깊고 깊은 어둠 밑바닥으로 추락해 간다──"
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    24,
+    81
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00001",
+      "source_text": "自分の部屋に戻った僕は、^n寝台にごろりと寝そべり、眠ろうとした。",
+      "source_raw_sha256": "6D366EA20D85DD82A93ABE7E801BCE5BBBB1E0094311DD6D7032D056BEBFBB63",
+      "target_text": "내 방으로 돌아온 나는^n침대에 벌렁 드러누워 잠들려 했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00002",
+      "source_text": "『守ってあげてね』",
+      "source_raw_sha256": "F6BABC70869432D685832848F7DC4219C041544F49A048F3914F627BC61CB455",
+      "target_text": "『지켜 줘』",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00003",
+      "source_text": "──けれど、さっきのゲルダの言葉が^n心の中で反響して、どうにも寝付けなかった。",
+      "source_raw_sha256": "7B8E85A17227AAA40231B6C515CDF9EC3A3042FDD6482FF46234C4134D081302",
+      "target_text": "──하지만 조금 전 게르다가 한 말이^n마음속에 메아리쳐 도무지 잠들 수 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00004",
+      "source_text": "何かを静かに、けれど強く|訴[うった]えかけるあの一言に、^n僕は胸をぎゅっと締め付けられるような、^n切ない気持ちを感じずにはいられなかった。",
+      "source_raw_sha256": "C820F20D82DB78C60C031D802EEA0093CD2A131381BEBDFA6E62B5132CBF15C3",
+      "target_text": "무언가를 조용히, 하지만 강하게 호소해 오는 그 한마디에,^n나는 가슴이 꽉 조이는 듯한^n애달픈 기분을 느끼지 않을 수 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00005",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00006",
+      "source_text": "（ゲルダはグレーテルに自分を重ねてるんだろうか？）",
+      "source_raw_sha256": "690D664CC7E5683434D7569E6F61AECA7C0AEBEFBAF909BCD4FC87897994E1D2",
+      "target_text": "(게르다는 그레텔에게 자신을 겹쳐 보고 있는 걸까?)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00007",
+      "source_text": "微笑みの中の|寂[さび]しげな様子が気になった。^nなんだか、自分のことはあきらめてしまったような──^nそんなふうにも思えてしまう。",
+      "source_raw_sha256": "E26626A1D9291E1458B654ADED73AC417A5CECD61D3ADED01221F2EC47F26721",
+      "target_text": "미소 속에 비친 쓸쓸한 기색이 마음에 걸렸다.^n왠지 자기 자신은 포기해 버린 듯한──^n그런 느낌마저 든다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00008",
+      "source_text": "そう、少し前の、何としてもこの「楽園」から抜け出そうという、^n強い意志とか、覇気みたいなものに欠けるような──^n言い換えれば、「影」が薄れているような──",
+      "source_raw_sha256": "9CE453D37D473C127AB03DC1B15952A408CA22BE50E52C40DF95E41DADE495AF",
+      "target_text": "그래, 얼마 전까지 무슨 수를 써서라도 이 『낙원』에서 빠져나가려던^n강한 의지나 패기 같은 것이 부족한 듯한──^n달리 말하면 『그림자』가 옅어진 듯한──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00009",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00010",
+      "source_text": "（変なこと考えるのはよそうよ、僕）",
+      "source_raw_sha256": "BB411A5BACCAA6CC17F55FC90728057D682F19B059CCCBCE9C396E124D9E9976",
+      "target_text": "(이상한 생각은 그만하자)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00011",
+      "source_text": "僕は黒い霧のような嫌な予感を振り払うと、^n布団を頭からかぶって無理やり眠りについた。",
+      "source_raw_sha256": "F69F049F61CBD604D8106E240A4E69AB2482F04059BD90A66016FECE5A6A25E8",
+      "target_text": "나는 검은 안개 같은 불길한 예감을 떨쳐 내고,^n이불을 머리끝까지 뒤집어쓴 채 억지로 잠들었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00012",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00013",
+      "source_text": "（う……うう……）",
+      "source_raw_sha256": "335BF28EC1531281FCFA0A80B58AB2AC60CDEE052CF4AFCE3FD12F3C7C7AD73D",
+      "target_text": "(으…… 으으……)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00014",
+      "source_text": "振り払ったはずの嫌な気配は、^nどうやら眠りの中まで僕を追ってきたようだ。",
+      "source_raw_sha256": "3C1F5754302CB2E5F5EAEDA8B9CDB6C96AAA16CB9D48C72A08BC6C4B9630A5ED",
+      "target_text": "떨쳐 냈다고 생각한 불길한 기운은^n아무래도 잠 속까지 나를 따라온 모양이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00015",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00016",
+      "source_text": "（やめろ、|彼女[・・]にだけは手を出すな！）",
+      "source_raw_sha256": "0549BA813D5DDB8BD7EDE76B8F0953500B125E88CA447E64CCD2F03F7E2A47B6",
+      "target_text": "(그만둬, 그녀에게만은 손대지 마!)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00017",
+      "source_text": "僕は叫んだ。|足掻[あが]いた。",
+      "source_raw_sha256": "62F50691E165B89DD34A3C6896F3099B479F9AC6C97E04F6B1F241B53956DD2D",
+      "target_text": "나는 외쳤다. 발버둥 쳤다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00018",
+      "source_text": "それなのに声が出ない。手も足も動かない。",
+      "source_raw_sha256": "83AA5C3A13D5BD7DF03B59B1483F3D4DC7CC3D9BC4C94E5574D0AD833FFBC96B",
+      "target_text": "그런데도 목소리가 나오지 않는다. 손발도 움직이지 않는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00019",
+      "source_text": "守りたかった。",
+      "source_raw_sha256": "7B39467D661DB8688F329C88EF4F3595E295EAD5F475A1ED924F611377AD6CA7",
+      "target_text": "지켜 주고 싶었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00020",
+      "source_text": "彼女だけは汚いこと、苦しいことから遠ざけたかった。",
+      "source_raw_sha256": "928F734739A86A68480541E32A6F834E31347E17928FBBE51C923656D9B5C8FD",
+      "target_text": "그녀만은 더러운 일이나 괴로운 일에서 멀리하게 해 주고 싶었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00021",
+      "source_text": "それなのに……。",
+      "source_raw_sha256": "760D232CD110314BCA6F5E583D302EE6B791A2A353DE5E2C106ABEC17023FE41",
+      "target_text": "그런데도…….",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00022",
+      "source_text": "僕には、何もできなかった──^n何の力もなかった。",
+      "source_raw_sha256": "320FEF5B40EC803930AE5182A426B3E272E4071D3585BBF46177EE4B4D5CE383",
+      "target_text": "나는 아무것도 할 수 없었다──^n아무런 힘도 없었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1305.gsc::slot/00023",
+      "source_text": "無力感に打ちのめされ、^n僕の心は、深い深い闇の底へと堕ちて行く──",
+      "source_raw_sha256": "AAEB803327764DEC5B168E148ED95BBE4FFB69D6F0ACE7AA6E1E43C2DAD59882",
+      "target_text": "무력감에 짓눌려,^n내 마음은 깊고 깊은 어둠 밑바닥으로 추락해 간다──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어 코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>페어리 테일 · 타이틀 시안</title>
+<style>
+* { box-sizing: border-box }
+body { margin: 0; height: 100dvh; display: flex; flex-direction: column; color: #f4e6c8; background: #161015; font: 15px/1.5 "Malgun Gothic", sans-serif }
+header, footer { display: flex; align-items: center; gap: 14px; padding: 9px 18px; flex-wrap: wrap }
+header { border-bottom: 1px solid #4d3544 }
+h1 { font-size: 16px; font-weight: 600; margin: 0; flex: 1 }
+header button, header a { font: inherit; color: inherit; border: 1px solid #74515f; background: #2b1d27; border-radius: 4px; padding: 4px 10px; text-decoration: none; cursor: pointer }
+header button:hover, header a:hover { background: #47303e }
+#viewport { flex: 1; min-height: 150px; overflow: hidden; position: relative; touch-action: none; background: #100b11; cursor: grab }
+#viewport.dragging { cursor: grabbing }
+#stage { position: absolute; top: 0; left: 0; width: max-content; transform-origin: 0 0 }
+#art { display: block; max-width: none; user-select: none; pointer-events: none }
+#action { position: absolute; border: 0; padding: 0; appearance: none; background: transparent; cursor: pointer }
+#action:focus-visible { outline: 3px solid #fff1b0; outline-offset: 2px; border-radius: 8px }
+footer { color: #d2bca8; font-size: 13px; justify-content: space-between }
+output { font-variant-numeric: tabular-nums }
+</style>
+</head>
+<body>
+<header><h1 id="caption" aria-live="polite">페어리 테일</h1><button id="fit" type="button">화면에 맞추기</button><a id="save" download>PNG 저장</a></header>
+<div id="viewport" role="region" aria-labelledby="caption">
+  <div id="stage"><img id="art" alt="" draggable="false"><button id="action" type="button" hidden></button></div>
+</div>
+<footer><span><span id="hint"></span> · 휠로 확대 · 드래그로 이동 · 더블클릭으로 화면 맞춤</span><output id="scale"></output></footer>
+<script>
+const views = {
+  title: {
+    name: '통합 메인 화면', file: 'common-title-v1.png',
+    alt: '원본의 꽃 액자와 풍선, 창문 메뉴가 달린 성 왼쪽에 페어리 테일 한 줄 로고가 놓인 통합 메인 시안',
+    action: '시작 · 작품 선택 화면 열기', hint: '초록색 「시작」 창을 누르면 작품 선택', area: [805, 104, 73, 83], next: 'selection'
+  },
+  selection: {
+    name: '작품 선택 화면', file: 'work-selection-v2.png',
+    alt: '레퀴엠, 앙코르, 심포니를 나타내는 세 개의 문과 아래쪽 뒤로 버튼',
+    action: '뒤로 · 통합 메인 화면 열기', hint: '「뒤로」를 누르면 통합 메인', area: [729, 786, 218, 72], next: 'title'
+  }
+};
+const box = document.querySelector('#viewport'), stage = document.querySelector('#stage');
+const art = document.querySelector('#art'), action = document.querySelector('#action');
+const meter = document.querySelector('#scale'), save = document.querySelector('#save');
+let active, scale = 1, x = 0, y = 0, fitScale = 1, drag = null, wheelEvents = 0;
+
+function paint() {
+  stage.style.transform = 'translate(' + x + 'px,' + y + 'px) scale(' + scale + ')';
+  meter.value = Math.round(scale * 100) + '%';
+  Object.assign(box.dataset, { scale, x, y, wheelEvents });
+}
+function fit() {
+  if (!art.complete || !art.naturalWidth) return;
+  fitScale = Math.min((box.clientWidth - 24) / art.naturalWidth, (box.clientHeight - 24) / art.naturalHeight);
+  scale = fitScale;
+  x = (box.clientWidth - art.naturalWidth * scale) / 2;
+  y = (box.clientHeight - art.naturalHeight * scale) / 2;
+  paint();
+}
+function ready() {
+  if (!art.complete || !art.naturalWidth) return;
+  fit();
+  action.hidden = false;
+}
+function show() {
+  active = location.hash === '#title' ? 'title' : 'selection';
+  const view = views[active];
+  box.dataset.screen = active;
+  document.title = '페어리 테일 · ' + view.name + ' 시안';
+  document.querySelector('#caption').textContent = document.title;
+  document.querySelector('#hint').textContent = view.hint;
+  save.href = view.file;
+  action.hidden = true;
+  action.setAttribute('aria-label', view.action);
+  const [left, top, width, height] = view.area;
+  Object.assign(action.style, { left: left+'px', top: top+'px', width: width+'px', height: height+'px' });
+  art.alt = view.alt;
+  art.src = view.file;
+  ready();
+}
+action.addEventListener('click', () => { location.hash = views[active].next; });
+window.addEventListener('hashchange', show);
+window.addEventListener('keydown', event => { if (event.key === 'Escape' && active === 'selection') location.hash = 'title'; });
+box.addEventListener('wheel', event => {
+  if (event.ctrlKey || event.metaKey || !art.naturalWidth) return;
+  event.preventDefault();
+  const r = box.getBoundingClientRect(), px = event.clientX - r.left, py = event.clientY - r.top;
+  const delta = event.deltaY * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? box.clientHeight : 1);
+  const next = Math.max(fitScale * 0.45, Math.min(fitScale * 10, scale * Math.exp(-delta * 0.0015)));
+  x = px - (px - x) * next / scale;
+  y = py - (py - y) * next / scale;
+  scale = next;
+  wheelEvents++;
+  paint();
+}, { passive: false });
+box.addEventListener('pointerdown', event => {
+  if (event.button !== 0 || event.target === action) return;
+  drag = { id: event.pointerId, x: event.clientX, y: event.clientY, oldX: x, oldY: y };
+  box.setPointerCapture(event.pointerId);
+  box.classList.add('dragging');
+});
+box.addEventListener('pointermove', event => {
+  if (!drag || event.pointerId !== drag.id) return;
+  x = drag.oldX + event.clientX - drag.x;
+  y = drag.oldY + event.clientY - drag.y;
+  paint();
+});
+function endDrag() { drag = null; box.classList.remove('dragging'); }
+box.addEventListener('pointerup', endDrag);
+box.addEventListener('pointercancel', endDrag);
+box.addEventListener('dblclick', event => { if (event.target !== action) fit(); });
+document.querySelector('#fit').addEventListener('click', fit);
+new ResizeObserver(fit).observe(box);
+art.addEventListener('load', ready);
+show();
+</script>
+</body>
+</html>

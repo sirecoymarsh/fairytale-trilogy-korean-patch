@@ -1,0 +1,570 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1409_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Codex internal model only; no external MT/API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one Codex review pass",
+  "newly_reviewed_range": [
+    1,
+    49
+  ],
+  "new_review_change_count": 11,
+  "new_review_changes": [
+    {
+      "slot": 4,
+      "before": "스르륵 움직이기 시작해서야,^n아, 손발이 제대로 달린 이것은 인간이구나, 하고 알았다.",
+      "after": "꿈틀, 움직이기 시작해서야,^n아, 손과 발이 모두 달린 이것은 인간이구나, 하고 알았다."
+    },
+    {
+      "slot": 8,
+      "before": "죽어 있다. 새까맣게 탄 시체가 내게 다가오고 있다.^n그걸 깨달은 순간 소름이 돋으며 엄청난 공포에 휩싸인다.^n왜 내가 움직이는 새까맣게 탄 시체에게 습격당해야 하는 거야!?",
+      "after": "죽어 있다. 새까맣게 탄 시체가 내게 다가오고 있다.^n그걸 깨달은 순간 온몸의 털이 곤두서며 지독한 공포에 휩싸인다.^n왜 내가 움직이는 새까맣게 탄 시체에게 습격당해야 하는데!?"
+    },
+    {
+      "slot": 21,
+      "before": "──나를 대신 내세워서, 불태워 죽였어──",
+      "after": "──나를 희생양으로 삼아, 불태워 죽였어──"
+    },
+    {
+      "slot": 23,
+      "before": "──아니에요, 불에 탄 건 저예요. 당신이 한 거잖아요──",
+      "after": "──아니야, 불에 탄 건 나야. 당신이 그런 거잖아──"
+    },
+    {
+      "slot": 25,
+      "before": "이게, 뭐지.^n일이 먼저 벌어지고 원인은 뒤늦게 뒤늦게 따라붙어,^n앞뒤가 맞는 듯하면서도 전혀 뒤죽박죽인, 이건 뭐지.",
+      "after": "이게, 뭐지.^n일이 먼저 벌어지고 원인은 뒤늦게 잇달아 따라붙어,^n앞뒤가 맞는 듯하면서도 전혀 뒤죽박죽인, 이건 뭐지."
+    },
+    {
+      "slot": 29,
+      "before": "(빨리, 빨리 해야 해, 해, 나──!)",
+      "after": "(빨리, 빨리해, 해내, 나──!)"
+    },
+    {
+      "slot": 38,
+      "before": "이토록 기분 나쁜 잠자리여도,^n그리고 꾸밈없이 삭막한 이 병실이어도,^n저런 악몽보다는 훨씬 낫다며 이마의 식은땀을 닦는다.",
+      "after": "이토록 기분 나쁘게 잠에서 깼어도,^n그리고 꾸밈없이 삭막한 이 병실이어도,^n저런 악몽보다는 훨씬 낫다며 이마의 식은땀을 닦는다."
+    },
+    {
+      "slot": 44,
+      "before": "왜 이런 끔찍한 꿈을 꿨을까.^n침대 여기저기를 두드려 봐도 딱히 이상은 없다.^n몸도 악몽 때문에 녹초가 된 것 말고는 딱히 나쁘지 않다.",
+      "after": "왜 이런 끔찍한 꿈을 꿨을까.^n침대 여기저기를 두드려 봐도 딱히 이상은 없다.^n몸 상태도 악몽에 지쳐 버린 것 말고는 딱히 나쁘지 않다."
+    },
+    {
+      "slot": 47,
+      "before": "하지만 이곳은 병동이고,^n의사 선생님은 환자의 정신 상태도 늘 확인하고 싶을 터,^n……라고 생각한다.",
+      "after": "하지만 이곳은 병동이고,^n의사 선생님은 환자의 정신 상태도 늘 확인하려 할 터,^n……라고 생각한다."
+    },
+    {
+      "slot": 48,
+      "before": "그렇지만 의사 선생님을 상대로도,^n이 악몽 이야기를 꺼내는 게 옳을까.",
+      "after": "그렇지만 의사 선생님을 상대로도,^n이 악몽 이야기를 털어놓아도 될까."
+    },
+    {
+      "slot": 49,
+      "before": "증상이 악화됐다는 둥 해서,^n복잡한 일이 생기는 건 그나마 낫다고 생각한다.^n가장 싫은 건 늘 그렇듯 태연히 내 말을 받아넘기는 것이라──",
+      "after": "증상이 악화됐다는 둥 해서,^n복잡한 일이 생기는 건 차라리 감수할 수 있다.^n가장 싫은 건 늘 그렇듯 아무렇지도 않게 내 말을 받아넘기는 것이라──"
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    50,
+    107
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00001",
+      "source_text": "鼻と口に|幾重[いくえ]にも|被[かぶ]さった、ぎりぎりで息ができる程度の膜を、^n必死で|剥[は]がして空気の中に浮かび上がるような、^n目覚めの悪さと言ったらない。",
+      "source_raw_sha256": "31521E4B4AF569B5DB14F7C6CA968D2A0580F0901B91A97867704BE6FD7FA13C",
+      "target_text": "코와 입을 겹겹이 덮은, 가까스로 숨만 쉴 수 있을 정도의 막을,^n필사적으로 벗겨 내고 공기 속으로 떠오르는 듯한,^n이 지독한 잠에서 깨어나는 기분이라니.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00002",
+      "source_text": "眠っている間に風邪でもひいて、^n|鼻喉[はなのど]をつまらせたかと、ぼんやり目ヤニを指でこすれば、^nそこにいた。ソレがいた。",
+      "source_raw_sha256": "B300FB20B5E5103E9B3742362EF27AB2E54683D1D76405F3BE37B3F81BC46413",
+      "target_text": "자는 동안 감기라도 들어 코와 목이 막혔나 싶어,^n몽롱하게 눈곱을 손가락으로 비비자,^n그곳에 있었다. 그것이 있었다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00003",
+      "source_text": "僕の病室のなかに、すぐに手が届きそうな位置に。^n黒かった。^n元からの色というより、焼けて焦げてそうなった、|煤[すす]の色。",
+      "source_raw_sha256": "17620ABEDEBFEB18101FE4070C8A7A83F3ABFFE794723618A3B11AEE12B18D0A",
+      "target_text": "내 병실 안, 당장이라도 손이 닿을 듯한 곳에.^n검었다.^n본래의 색이라기보다 불타 그을려 그렇게 된, 그을음의 색.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00004",
+      "source_text": "ぞろり、と動き出したから、^nああ、手と足が|揃[そろ]ったこれは、人間なんだってわかる。",
+      "source_raw_sha256": "6164806056372B79EC7E73F2C0B1F89231906FC68B14053860AF542031D2F7B3",
+      "target_text": "꿈틀, 움직이기 시작해서야,^n아, 손과 발이 모두 달린 이것은 인간이구나, 하고 알았다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00005",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00006",
+      "source_text": "（でもこんなにも焼け焦げてしまって、^n　それで生きていられるのだろうか）",
+      "source_raw_sha256": "DED603444751BB3B55850BF3C57A390561484AED9D68A6BDF31A733F3E30CFC8",
+      "target_text": "(하지만 이렇게까지 새까맣게 타 버리고도,^n　살아 있을 수 있을까.)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00007",
+      "source_text": "どう考えても、死を|免[まぬが]れることはできなさそう。^nそれくらいにそいつは、肉体というより炭の塊に近かった。^nだからこれが、死んでいるんだって理解できた。",
+      "source_raw_sha256": "CE262118BAECC2B7ED6EA8CCABBF07A6136B361633BF243647709DD0EDAC690F",
+      "target_text": "아무리 생각해도 죽음을 피할 수 있을 것 같지 않았다.^n그만큼 그것은 육체라기보다 숯덩이에 가까웠다.^n그래서 이것이 죽어 있다는 걸 이해했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00008",
+      "source_text": "死んでいる。黒焦げの死体が、僕に迫ってきてる。^nそうと悟ったとたん、身の毛がよだって凄まじい恐怖に包まれる。^nなんで僕が、動く黒焦げの死体に襲われなくちゃいけないんだ！？",
+      "source_raw_sha256": "0979A46AF11156FAA08E4A7C8FF3E16535D58A5A31B49C3304489474394DEB78",
+      "target_text": "죽어 있다. 새까맣게 탄 시체가 내게 다가오고 있다.^n그걸 깨달은 순간 온몸의 털이 곤두서며 지독한 공포에 휩싸인다.^n왜 내가 움직이는 새까맣게 탄 시체에게 습격당해야 하는데!?",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00009",
+      "source_text": "けたたましくほとばしる、^n僕の絶叫にもかかわらず、^nそいつの|呻[うめ]きが耳の中にはいずりこむ。",
+      "source_raw_sha256": "6E728D35AC699E0898141DFDD01071BE3723106732936865ECC97D20EB05654C",
+      "target_text": "귀청을 찢듯 터져 나온^n내 비명에도 아랑곳없이,^n그것의 신음이 귓속으로 기어든다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00010",
+      "source_text": "黒焦げの死体",
+      "source_raw_sha256": "9FF87667C36A746668C71653373D1BB4B1A943FB2C2D0FEDEC50AA00D2BB2516",
+      "target_text": "새까맣게 탄 시체",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00011",
+      "source_text": "──どうしてあたしだったの──",
+      "source_raw_sha256": "FF33A750B66E971204E684C83ABC4A8288685E5B0210189BB88BE4656CA33FD9",
+      "target_text": "──왜 하필 나였어──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00012",
+      "source_text": "黒焦げの死体",
+      "source_raw_sha256": "9FF87667C36A746668C71653373D1BB4B1A943FB2C2D0FEDEC50AA00D2BB2516",
+      "target_text": "새까맣게 탄 시체",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00013",
+      "source_text": "なぜわたしだったんでしょう。",
+      "source_raw_sha256": "0E33976C9D97FB859FCCA87679837E8CA0B322EBAC29875A81A5612310DDD19D",
+      "target_text": "왜 하필 저였던 걸까요.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00014",
+      "source_text": "同じ声、なのに別々の声音で僕に|訴[うった]えかけてくる、^nぼろぼろと焦げかすを振りこぼしながら迫ってくる様が、^n吐き気を催すほど醜悪で。",
+      "source_raw_sha256": "D6FC918865249E591E636736D7A5F8E434D1CF6CC1E71D1BD79436332C249112",
+      "target_text": "같은 목소리인데도 서로 다른 말투로 내게 호소하며,^n너덜너덜 탄 부스러기를 흩뿌리면서 다가오는 꼴은,^n구역질이 날 만큼 흉측했다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00015",
+      "source_text": "生きてた時は、あんなにも綺麗で華やかだったのに。^n声から、生きていた時の姿が思い浮かぶ。^nそうか、きみは、いや、きみたちは。",
+      "source_raw_sha256": "C6B43976A80832DB9E831B0DABEB6BBF4D98F450084E22E657FF03A7900B57CC",
+      "target_text": "살아 있을 때는 그렇게나 아름답고 화려했는데.^n목소리를 듣자 살아 있을 때의 모습이 떠오른다.^n그렇구나, 너는, 아니, 너희는.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00016",
+      "source_text": "黒焦げの死体",
+      "source_raw_sha256": "9FF87667C36A746668C71653373D1BB4B1A943FB2C2D0FEDEC50AA00D2BB2516",
+      "target_text": "새까맣게 탄 시체",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00017",
+      "source_text": "──燃やしたんだね、あたしを──",
+      "source_raw_sha256": "037598AD00E5312AF9878F32E11D91A8E25FFA2E22498E1843CF039A6EDD14EA",
+      "target_text": "──태웠구나, 나를──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00018",
+      "source_text": "黒焦げの死体",
+      "source_raw_sha256": "9FF87667C36A746668C71653373D1BB4B1A943FB2C2D0FEDEC50AA00D2BB2516",
+      "target_text": "새까맣게 탄 시체",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00019",
+      "source_text": "──燃やされて死んでしまったんです、わたし──",
+      "source_raw_sha256": "0CD3CF620C031063B39C679E8189B702B6DC803A39C331189279BD9D4FABF4A9",
+      "target_text": "──저는 불에 타 죽고 말았어요──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00020",
+      "source_text": "黒焦げの死体",
+      "source_raw_sha256": "9FF87667C36A746668C71653373D1BB4B1A943FB2C2D0FEDEC50AA00D2BB2516",
+      "target_text": "새까맣게 탄 시체",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00021",
+      "source_text": "──あたしを身代わりにして、焼き殺した──",
+      "source_raw_sha256": "842868183FB3019918A86015E717253BB4625F7A07A0D66EB2CB9BEEFC7FD0E7",
+      "target_text": "──나를 희생양으로 삼아, 불태워 죽였어──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00022",
+      "source_text": "黒焦げの死体",
+      "source_raw_sha256": "9FF87667C36A746668C71653373D1BB4B1A943FB2C2D0FEDEC50AA00D2BB2516",
+      "target_text": "새까맣게 탄 시체",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00023",
+      "source_text": "──違う、わたしが焼かれたの、あなたがしたのよ──",
+      "source_raw_sha256": "23BF264015407DE45A101F4138BF71FFF18AFDBCD6852E32587A9D8C04B4AF0F",
+      "target_text": "──아니야, 불에 탄 건 나야. 당신이 그런 거잖아──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00024",
+      "source_text": "ひとつの口を借りて別々の誰かが|怨嗟[えんさ]の言葉を垂れ流し続けている。^n頭らしき場所の、口と思しいあたりから、^n僕に向けても吐き散らかしているから、そこは口なんだろう。",
+      "source_raw_sha256": "C007FE77F385B256A2046856DFF852652B443F5C5DBF12C9A2857279F7FC4E2F",
+      "target_text": "하나의 입을 빌려 서로 다른 누군가가 원한의 말을 끝없이 쏟아 낸다.^n머리처럼 보이는 곳의 입 같은 부위에서,^n나를 향해 토해 내고 있으니 거기가 입이긴 하겠지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00025",
+      "source_text": "これは、なに。^n先に物事があって、原因は後から後から追いついてきて、^n筋道が通っているようでも、全然ちぐはぐな、これはなに。",
+      "source_raw_sha256": "3A89FE746F9953D640799006B9A3B36CE127D71A1EB8FA6E7EA8F47617B3811F",
+      "target_text": "이게, 뭐지.^n일이 먼저 벌어지고 원인은 뒤늦게 잇달아 따라붙어,^n앞뒤가 맞는 듯하면서도 전혀 뒤죽박죽인, 이건 뭐지.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00026",
+      "source_text": "この感覚を僕は知ってる。^n僕だけじゃない、みんな知ってる。^nこれはあの時の、アレだ。",
+      "source_raw_sha256": "058DE8354241CD4304580706519219BA27564C4D11BF26108515678391EC2077",
+      "target_text": "이 감각을 나는 안다.^n나만이 아니라, 누구나 안다.^n이건 그때의, 그것이다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00027",
+      "source_text": "それを言い当てられたら、言葉にできたら、^n目の前にのしかかってくるこの恐怖の塊から逃げられる。^nそれがわかっているのに、言葉に組み立てられない。",
+      "source_raw_sha256": "6A1D3BEB1D4BE290220972993749184851ACC25E553D646FD690C8F82F91F492",
+      "target_text": "그 정체를 맞혀 내고 말로 표현할 수만 있다면,^n눈앞을 짓누르는 이 공포 덩어리에서 벗어날 수 있다.^n그걸 알면서도 말로 엮어 내지 못한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00028",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00029",
+      "source_text": "（早く、早くするんだ、しろ、僕──！）",
+      "source_raw_sha256": "EC3BBE231B335C204DB0672A099102EB85A6F33238DF54D29D9C006A86EBDEC7",
+      "target_text": "(빨리, 빨리해, 해내, 나──!)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00030",
+      "source_text": "やがて黒焦げの死体の憎悪の言葉は、口からだけでなく、^n他の、ぽかりと開いた口からも|漏[も]れ出しているのだと気づく。^nあそこがあんなに空いてたなら何も見えないよだって目なんだもの。",
+      "source_raw_sha256": "DF4EBFC5CEEDDBDF0A25970B46967A5C7E7C835C74C3803A8AEBC189323A04EE",
+      "target_text": "이윽고 새까맣게 탄 시체의 증오 어린 말은 입뿐 아니라,^n다른, 뻥 뚫린 입에서도 새어 나오고 있음을 깨닫는다.^n저기가 저렇게 벌어져 있으면 아무것도 보이지 않잖아, 눈인데.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00031",
+      "source_text": "僕は黒こげ死体をその目の色で見分けようとするのだけど黒焦げで、^n両目ともに黒々した洞穴だから見分けがつかないどっちなの待って、^nそこは本当に目の形した口の穴だったらどうしよう|噛[か]みつかれたら。",
+      "source_raw_sha256": "1D86416BCE253E7C7925E802CC97614E22042389BC76633B905F6FAC6709B91C",
+      "target_text": "나는 새까맣게 탄 시체를 눈 색깔로 구별하려 하지만 새까맣게 타서,^n두 눈 다 시커먼 굴이라 어느 쪽인지 모르겠어 잠깐,^n저게 정말 눈 모양을 한 입의 구멍이라면 어떡하지 물리면.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00032",
+      "source_text": "怖い、いやだ、|疎[うと]ましい、哀れ、|悲惨[ひさん]、焦げた肉の臭いが|悍[おぞ]ましい、^n来ないで、違う、平気なのか、酷い火傷、むごたらしい、凄絶な、^nひどい、切ない、誰か助けてあげて、無理、だめ、なんでこんな。",
+      "source_raw_sha256": "BEF530E01D38B4B3AFFE2B3A80D1AC989DB59D9070F794A8FB4878320AAB8B9C",
+      "target_text": "무서워, 싫어, 꺼림칙해, 불쌍해, 비참해, 탄 고기 냄새가 끔찍해,^n오지 마, 아니야, 괜찮은 건가, 심한 화상, 처참해, 처절해,^n끔찍해, 가슴 아파, 누가 좀 도와줘, 무리야, 안 돼, 왜 이렇게.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00033",
+      "source_text": "僕",
+      "source_raw_sha256": "97C6A5A29BB404B6800D26BD1061E5BAD3B4BE5DF5E6A8C1D181FADFFA70F942",
+      "target_text": "나",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00034",
+      "source_text": "（いやだ、いやだ、こんなのほんとうじゃない、^n　こんなのは──！）",
+      "source_raw_sha256": "FCCE983E1DDBBBE892AC65C8B3C77234F3B142AF1BEB973AF92F9CB21E334247",
+      "target_text": "(싫어, 싫어, 이런 건 진짜가 아니야,^n　이런 건──!)",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00035",
+      "source_text": "　^n　　　　　　　　　　　^s2夢",
+      "source_raw_sha256": "16E8738310C8A54716CC9490839E97C1319C5968AF21C274A1C15C98C3E05278",
+      "target_text": "　^n　　　　　　　　　　　^s2꿈",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00036",
+      "source_text": "その言葉が認識された瞬間に、^n黒焦げの死体は周りの情景ごと崩れて、^nあたりは暗闇に閉ざされる。",
+      "source_raw_sha256": "0A345B15F27D03C010118A7406B7EF143B09A8759918F95DEA864D65CF018C57",
+      "target_text": "그 말이 인식된 순간,^n새까맣게 탄 시체는 주변 풍경과 함께 무너져 내리고,^n사방은 어둠에 갇힌다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00037",
+      "source_text": "──と、跳ね起きれば、^nべっとりと髪の中まで湿らせた寝汗の冷たさに、^n眠っていたこと、悪夢に|囚[とら]われていたことを実感する。",
+      "source_raw_sha256": "010953B0B2E874A3ACD4D67C02896A16380A1C4039DA522E0C331F6F93E8DEEF",
+      "target_text": "──하고, 벌떡 일어나자,^n머리카락 속까지 끈적하게 적신 식은땀의 차가움에,^n내가 잠들어 있었고 악몽에 사로잡혀 있었다는 걸 실감한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00038",
+      "source_text": "こんな気持ちの悪い寝覚めでも、^nそしてこの飾り気なくそっけない病室でも、^nあんな悪夢よりはよほどまし、と額の冷や汗をぬぐう。",
+      "source_raw_sha256": "00F7D1F449832B3C6D601F8AF437B8DEA499862061B7220F7A9271E48B3CE0FA",
+      "target_text": "이토록 기분 나쁘게 잠에서 깼어도,^n그리고 꾸밈없이 삭막한 이 병실이어도,^n저런 악몽보다는 훨씬 낫다며 이마의 식은땀을 닦는다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00039",
+      "source_text": "熱いシャワーを浴びたい。^nもう夜更けでそれが無理なら、せめても乾いた布で体を|拭[ふ]きたい。^nそう思って廊下に出る。",
+      "source_raw_sha256": "D352D8CA484AA543DD2A9C2AFAA3DDCA811450AE2C262CD6D0F1436909806204",
+      "target_text": "뜨거운 물로 샤워하고 싶다.^n밤이 깊어 그럴 수 없다면 적어도 마른 천으로 몸을 닦고 싶다.^n그렇게 생각하며 복도로 나간다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00040",
+      "source_text": "そこにあれがいた。^n黒かった。^n元からの色というより、焼けて焦げてそうなった、|煤[すす]の色。",
+      "source_raw_sha256": "022EFCEAB51B91752AA02B96B82B37DA22BF1B3FA056E93E89318F1A6E06D80B",
+      "target_text": "그곳에 그것이 있었다.^n검었다.^n본래의 색이라기보다 불타 그을려 그렇게 된, 그을음의 색.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00041",
+      "source_text": "僕は黒こげ死体をその目の色で見分けようとするのだけど黒焦げで、^n両目ともに黒々した洞穴だから見分けがつかないどっちなの待って、^nそこは本当に目の形した口の穴だったらどうしよう|噛[か]みつかれたら。",
+      "source_raw_sha256": "1D86416BCE253E7C7925E802CC97614E22042389BC76633B905F6FAC6709B91C",
+      "target_text": "나는 새까맣게 탄 시체를 눈 색깔로 구별하려 하지만 새까맣게 타서,^n두 눈 다 시커먼 굴이라 어느 쪽인지 모르겠어 잠깐,^n저게 정말 눈 모양을 한 입의 구멍이라면 어떡하지 물리면.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00042",
+      "source_text": "怖い、いやだ、|疎[うと]ましい、哀れ、|悲惨[ひさん]、焦げた肉の臭いが|悍[おぞ]ましい、^n来ないで、違う、平気なのか、酷い火傷、むごたらしい、凄絶な、^nひどい、切ない、誰か助けてあげて、無理、だめ、なんでこんな。",
+      "source_raw_sha256": "BEF530E01D38B4B3AFFE2B3A80D1AC989DB59D9070F794A8FB4878320AAB8B9C",
+      "target_text": "무서워, 싫어, 꺼림칙해, 불쌍해, 비참해, 탄 고기 냄새가 끔찍해,^n오지 마, 아니야, 괜찮은 건가, 심한 화상, 처참해, 처절해,^n끔찍해, 가슴 아파, 누가 좀 도와줘, 무리야, 안 돼, 왜 이렇게.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00043",
+      "source_text": "……このあと僕は、本当に目が覚めるまで、^n何度この悪夢を繰り返したことか。",
+      "source_raw_sha256": "87B091086DC52C42B060E3B865BE0F8712DC154CFC16C8C3B3E293700206B79E",
+      "target_text": "……그 뒤로 나는 정말로 눈을 뜰 때까지,^n이 악몽을 몇 번이나 되풀이했는지 모른다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00044",
+      "source_text": "なんでこんなひどい夢を見たんだろう。^nベッドをあちこち叩きまわっても特に異常はない。^n体も、悪夢に疲れ切った他は特に具合も悪くない。",
+      "source_raw_sha256": "0BF1AE56E369B05A609783B6DFB285954C5E9CC48366148CC16902E7BF69F0A8",
+      "target_text": "왜 이런 끔찍한 꿈을 꿨을까.^n침대 여기저기를 두드려 봐도 딱히 이상은 없다.^n몸 상태도 악몽에 지쳐 버린 것 말고는 딱히 나쁘지 않다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00045",
+      "source_text": "まったく、悪夢なんてのはいつだって不条理なものだけど、^nこの夜の悪夢ばかりは誰かに文句をこぼしでもしないことには、^n|鬱憤[うっぷん]と恐怖が|澱[おり]のように|溜[た]まって、睡眠恐怖症に|罹[かか]ってしまいそう。",
+      "source_raw_sha256": "B659C4A42EC657D4C2EDDA2348000A2190B363CAC25159E4975684AF947C864E",
+      "target_text": "정말이지 악몽이란 언제나 부조리한 법이지만,^n오늘 밤의 악몽만큼은 누군가에게 불평이라도 털어놓지 않으면,^n울분과 공포가 앙금처럼 쌓여 수면 공포증에 걸릴 것만 같다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00046",
+      "source_text": "他人の夢の、それも悪夢の話なんて、^n誰も聞きたがらないだろうし、^n自分も話すのが気が引ける。",
+      "source_raw_sha256": "2EE1BD5FCE399648ED73C56833A302ED33005C7A67F2BE36289019A60E29B844",
+      "target_text": "남의 꿈, 그것도 악몽 이야기 같은 건,^n아무도 듣고 싶어 하지 않을 테고,^n나 역시 꺼내기가 망설여진다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00047",
+      "source_text": "でも、ここは病棟で、^nお医者様は患者の精神状態も常にチェックしたいはず、^n……と思う。",
+      "source_raw_sha256": "CE94E24B28832690C886287E1DC6FF5469E5557C62E203E1C2CFCA56F369FE17",
+      "target_text": "하지만 이곳은 병동이고,^n의사 선생님은 환자의 정신 상태도 늘 확인하려 할 터,^n……라고 생각한다.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00048",
+      "source_text": "けれどお医者様相手であっても、^nこの悪夢のことを告げるのはどうなんだろう。",
+      "source_raw_sha256": "3C8D5D5707FC8A206E0A81D67A9460138BE4C097FA59A884CA8EFA7C167022CD",
+      "target_text": "그렇지만 의사 선생님을 상대로도,^n이 악몽 이야기를 털어놓아도 될까.",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    },
+    {
+      "uid": "scr.xfl::1409.gsc::slot/00049",
+      "source_text": "病状が悪化しているだなんだと、^nややこしい事態を呼ぶのは、まだしもと思う。^n一番いやなのは、いつもと同じく平然と話をいなされることで──",
+      "source_raw_sha256": "B1098BB4D6D3718EE3F02391FDB1E94748CECAE75B5AE7F63343D1512C826987",
+      "target_text": "증상이 악화됐다는 둥 해서,^n복잡한 일이 생기는 건 차라리 감수할 수 있다.^n가장 싫은 건 늘 그렇듯 아무렇지도 않게 내 말을 받아넘기는 것이라──",
+      "translator": "Codex internal model",
+      "review_status": "reviewed_once",
+      "notes": "초벌 번역 후 1차 문맥·문체·용어·제어코드 검수 완료",
+      "reviewer": "Codex internal model single review pass"
+    }
+  ]
+}

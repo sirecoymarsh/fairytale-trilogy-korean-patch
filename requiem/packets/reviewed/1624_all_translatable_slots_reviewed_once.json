@@ -1,0 +1,595 @@
+{
+  "schema": "fairytale-requiem-translation-map-v1",
+  "scope": "1624_all_translatable_slots_reviewed_once",
+  "semantic_source": "ja-JP",
+  "target_language": "ko-KR",
+  "target_encoding": "cp949",
+  "translation_method": "Local Gemma 4 26B Q4_0 draft plus exactly one local Gemma review pass; no external API",
+  "review_passes_completed": 1,
+  "review_policy": "every translatable slot received exactly one local Gemma review pass",
+  "newly_reviewed_range": [
+    1,
+    48
+  ],
+  "new_review_change_count": 6,
+  "new_review_changes": [
+    {
+      "slot": 12,
+      "before": "눈보라는 아쉬운 듯한 울음소리의 잔향을 남기며,^n교회의 구석에 도사린 어둠 속으로 빨려 들어갔다.",
+      "after": "눈보라는 아쉬운 듯한 울음소리의 잔향을 남기며,^n교회 구석에 도사린 어둠 속으로 빨려 들어갔다."
+    },
+    {
+      "slot": 21,
+      "before": "자…… 이렇게, 여기까지마중 나왔잖아.^n같이 돌아가자. 따뜻한 방이 기다리고 있어.",
+      "after": "자…… 이렇게, 여기까지^n마중 나왔잖아. 같이 돌아가자. 따뜻한 방이 기다리고 있어."
+    },
+    {
+      "slot": 22,
+      "before": "──그렇게 말하며,그녀[게르다]는,^n그것이 분명 자신의 진심에서 나온 말이라고 느꼈다.^n줄곧, 이것이 그의 마음에 닿기를 바라고 있었다.",
+      "after": "──그렇게 말하며,^n게르다는, 그것이 분명 자신의 진심에서 나온 말이라고 느꼈다.^n줄곧, 이것이 그의 마음에 닿기를 바라고 있었다."
+    },
+    {
+      "slot": 23,
+      "before": "껴안은 그의 귓가에 말을 이어나가며,^n게르다의 두 눈에서 눈물이 뚝뚝흘러내린다.",
+      "after": "껴안은 그의 귓가에 말을 이어나가며,^n게르다의 두 눈에서 눈물이 뚝뚝 흘러내린다."
+    },
+    {
+      "slot": 24,
+      "before": "수정처럼 맑고 아름답게 빛나는 그 따스한눈물이,^n한 방울, 또 한 방울 소년의 뺨 위로 떨어져,^n끔찍한 저주의 얼음을 녹여 간다──",
+      "after": "수정처럼 맑고 아름답게 빛나는 그 따스한^n눈물이, 한 방울, 또 한 방울 소년의 뺨 위로 떨어져,^n끔찍한 저주의 얼음을 녹여 간다──"
+    },
+    {
+      "slot": 27,
+      "before": "핏기가 가신 소년의 하얀 입술이 떨리며,^n희미한 목소리로 한 마디 말을내뱉는다.",
+      "after": "핏기가 가신 소년의 하얀 입술이 떨리며,^n희미한 목소리로 한 마디 말을 내뱉는다."
+    }
+  ],
+  "file_translation_complete": true,
+  "lookup_slots_preserved": [
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "lookup_slot_range": [
+    49,
+    106
+  ],
+  "release_ready": false,
+  "entries": [
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00001",
+      "source_text": "轟々と吹き荒れる凄まじい吹雪の音に、^n彼女の声は|儚[はかな]くかき消される。",
+      "source_raw_sha256": "E4D605EA0A24BF06F7DA9E48BF42FDD39B1C1983BB1E06018B921EFEDDA83EBF",
+      "target_text": "휘몰아치는 거센 눈보라 소리에,^n그녀의 목소리는 덧없이 흩어진다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00002",
+      "source_text": "けれど、ゲルダは気にしなかった。",
+      "source_raw_sha256": "78DB0F8B0EEED135F83CFCF46DD9F2A05BC9CCCCC597D34A08A2856A92171BD7",
+      "target_text": "하지만 게르다는 개의치 않았다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00003",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00004",
+      "source_text": "（答えなんて、いくらでもあるもの）",
+      "source_raw_sha256": "0D5C087FAC142D446619017F66F3D9B57F5B51755ED330E5F0C2B72AA9FEE80F",
+      "target_text": "（답 같은 건, 얼마든지 있어）",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00005",
+      "source_text": "それはゲルダだけが知っている答え。^nカイのためだけに使うことができる、^nゲルダに授けられた物語の魔法。",
+      "source_raw_sha256": "5762E4A96350ED4064FC6129B7D27E8E9E17E7B5104B4C4AD8530ACB106C7D35",
+      "target_text": "그것은 게르다만이 알고 있는 답.^n카이를 위해서만 사용할 수 있는,^n게르다에게 부여된 이야기의 마법.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00006",
+      "source_text": "^d2例えば「心」。^n",
+      "source_raw_sha256": "301993DCE4A0A6A2A00266BD53F5A6A2D17C15AF45CB29F25A54E24602ED8627",
+      "target_text": "^d2예를 들어 '마음'.^n",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00007",
+      "source_text": "^d2例えば「約束」。^n",
+      "source_raw_sha256": "B9D293FFC88209A27658FCFC1BA9C412FA38C3A933482705A61A524582C92591",
+      "target_text": "^d2예를 들어 '약속'.^n",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00008",
+      "source_text": "^d2例えば「|誓[ちか]い」。",
+      "source_raw_sha256": "3923CB436AC074AACA4D9AF232C2E571C65285A71932D2CC0579D8F87B5EED2D",
+      "target_text": "^d2예를 들어 '맹세'.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00009",
+      "source_text": "^d2例えば「愛」。^n",
+      "source_raw_sha256": "54CD6FDC05EF324E17743CDEA79B06BAA0E8F050AD3D821F5A73353366157DA3",
+      "target_text": "^d2예를 들어 '사랑'.^n",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00010",
+      "source_text": "^d2そして、",
+      "source_raw_sha256": "1110CD125A10048F4D9647AB6C7E617B2FCED8CA4E6F8E998251DAA9D7F65DC8",
+      "target_text": "^d2그리고,",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00011",
+      "source_text": "^d2「抱擁」──",
+      "source_raw_sha256": "AD2CB2F40E5EC1EBCCF389646F6875CCAC9F9F6C61C010A9D46386166F96FAF2",
+      "target_text": "^d2'포옹'──",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00012",
+      "source_text": "吹雪は|口惜[くちお]しそうな唸りの|残響[ざんきょう]を引きながら、^n教会の|隅[すみ]に|蟠[わだかま]る闇の中に吸い込まれていった。",
+      "source_raw_sha256": "6AC7A4D88918BDFC01C8B2054C4BC6D3F6A16BA304D323F61098F72691098E50",
+      "target_text": "눈보라는 아쉬운 듯한 울음소리의 잔향을 남기며,^n교회 구석에 도사린 어둠 속으로 빨려 들어갔다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00013",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00014",
+      "source_text": "……カイ。",
+      "source_raw_sha256": "02AB44D53F7F7AD960636C464B24264E61D98045F28D6706AF528DC6F5873A33",
+      "target_text": "……카이.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00015",
+      "source_text": "ゲルダは|聖母子像[ピエタ]の様に少年の身体を|抱[いだ]きしめ、^n限りない愛おしさを|籠[こ]めて、「カイ」と呼んだ。",
+      "source_raw_sha256": "423892CACCA23C05D5371913758F54DD3539A4465FB50FF38B9E0A6EBDE67C6A",
+      "target_text": "게르다는 피에타처럼 소년의 몸을 끌어안고,^n한없는 애정을 담아, \"카이\"라고 불렀다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00016",
+      "source_text": "──ずっと昔にも、こんなことがあった気がする。",
+      "source_raw_sha256": "097F947A5F8004EB641A9417F508A295B8FF0992AC6ADD87511FC45E66ED27E3",
+      "target_text": "──아주 먼 옛날에도, 이런 일이 있었던 것 같은 기분이 든다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00017",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00018",
+      "source_text": "カイ……ずっと一緒にいましょう。^nたとえ離れたって、私はどこまででも探しに行くわ。",
+      "source_raw_sha256": "93C173F658A810B15D02B4C001BB6F499668E8FBD0ED36D1472AF515ADBDBB6F",
+      "target_text": "카이…… 계속 함께 있자.^n설령 떨어지게 되더라도, 난 어디까지든 찾아갈 거야.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00019",
+      "source_text": "少年の冷えた身体と心とを愛おしむように。^nあたたかな身体と言葉、^nありとあらゆる彼女の「永遠」で抱きしめる。",
+      "source_raw_sha256": "2BFBC7EA79487CED791E14F6CDF45170F28373011ABC1C8F7D63147AEC467F7D",
+      "target_text": "소년의 차가운 몸과 마음을 애틋하게 어루만지듯.^n따스한 몸과 말,^n그녀의 모든 '영원'으로 껴안는다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00020",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00021",
+      "source_text": "ほら……こうして、ここまで|迎[むか]えに来たでしょう。^n一緒に帰りましょう。暖かい部屋が待ってるわ。",
+      "source_raw_sha256": "F5EBB93CBEBFF8542058363393352BF336598A418E0BAE9933D3701DE616EB7B",
+      "target_text": "자…… 이렇게, 여기까지^n마중 나왔잖아. 같이 돌아가자. 따뜻한 방이 기다리고 있어.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00022",
+      "source_text": "──そう告げながら、|彼女[ゲルダ]は、^nそれは確かに自分の心から発した言葉だと感じた。^nずっと、これが彼の心へと届くことを願っていた。",
+      "source_raw_sha256": "2D44C6DD437032E0F4FA7ACD4D445AF47B4FBFACFC4EB910BB7031E533A51AB7",
+      "target_text": "──그렇게 말하며,^n게르다는, 그것이 분명 자신의 진심에서 나온 말이라고 느꼈다.^n줄곧, 이것이 그의 마음에 닿기를 바라고 있었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00023",
+      "source_text": "抱きしめる彼の耳元で言葉を継ぎながら、^nゲルダの双眸からぼろぼろと涙が|零[こぼ]れ落ちる。",
+      "source_raw_sha256": "8A70F4817CA57684D253F5E51B1F9C6FE9F7F27C09F776A6554D181E7E354AB8",
+      "target_text": "껴안은 그의 귓가에 말을 이어나가며,^n게르다의 두 눈에서 눈물이 뚝뚝 흘러내린다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00024",
+      "source_text": "水晶の様に清く美しく輝くその温かな|雫[しずく]が、^n１滴、また１滴と少年の頬の上に落ち、^n忌まわしい呪いの氷を溶かして行く──",
+      "source_raw_sha256": "994280094F53BCDC6D4DA5139D5B66925EA4147B324F4FC24DE38AC2B786EF7A",
+      "target_text": "수정처럼 맑고 아름답게 빛나는 그 따스한^n눈물이, 한 방울, 또 한 방울 소년의 뺨 위로 떨어져,^n끔찍한 저주의 얼음을 녹여 간다──",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00025",
+      "source_text": "カイ",
+      "source_raw_sha256": "7A02E0F1161D0422EF678698A14052DBB734A7DC9EDD956C262BF6E4E464B7DC",
+      "target_text": "카이",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00026",
+      "source_text": "ぁ……ぅぅ……。",
+      "source_raw_sha256": "50FA0A6B3628CC812966B5778F0A93AB90027D0F0482C31E0F516E2AD27C0643",
+      "target_text": "아…… 으으…….",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00027",
+      "source_text": "血の気が失せた少年の白い唇が震え、^n|幽[かす]かな声でひとつの言の葉を|紡[つむ]ぎ出す。",
+      "source_raw_sha256": "60BF0A77CFC5BB13F8AC6D951080793D04530A17EAC4E50E271E8ECF20E6A895",
+      "target_text": "핏기가 가신 소년의 하얀 입술이 떨리며,^n희미한 목소리로 한 마디 말을 내뱉는다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00028",
+      "source_text": "カイ",
+      "source_raw_sha256": "7A02E0F1161D0422EF678698A14052DBB734A7DC9EDD956C262BF6E4E464B7DC",
+      "target_text": "카이",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00029",
+      "source_text": "────",
+      "source_raw_sha256": "DB136B682932EC2B978407B1E4078CE6D3282DF518DFDCABD5326DFC763C8DE8",
+      "target_text": "────",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00030",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00031",
+      "source_text": "……え？　なに、カイ？",
+      "source_raw_sha256": "6C82EA83094A77FE777F2B8F9B902988E0FB173C41F1725898F2924DC8BC3464",
+      "target_text": "……어라? 왜 그래, 카이?",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00032",
+      "source_text": "ゲルダは問い返した。",
+      "source_raw_sha256": "1F618FA1172213DE948AF2E70C831FDEC7B8D4374F6E3CF6DE226283D52028A7",
+      "target_text": "게르다가 되물었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00033",
+      "source_text": "それは、どこか懐かしい響きだった。^nかつて彼にそう呼ばれていたような気がする。",
+      "source_raw_sha256": "870C0981FF839D7224A1D86A1A3FA196350463A728EA8230C67BB63F4359068F",
+      "target_text": "그것은 어딘가 그리운 울림이었다.^n예전에 그에게 그렇게 불렸던 것 같은 기분이 든다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00034",
+      "source_text": "けれど──彼女がそれを思い出す前に、^n彼女の温もりで血色を取り戻した少年の唇は、^nはっきりと、今度は──",
+      "source_raw_sha256": "7A60DC11227FF881B174D8DD141F703EC35F01C601B4BB1EB4E058EB3F27D24A",
+      "target_text": "하지만──그녀가 그것을 떠올리기 전에,^n그녀의 온기로 혈색을 되찾은 소년의 입술은,^n분명히, 이번에는──",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00035",
+      "source_text": "名無しの少年",
+      "source_raw_sha256": "A34780B355CC2786FEBDB29B236910FB7B8BA8C4A174E6C8E58CA56644319354",
+      "target_text": "이름 없는 소년",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00036",
+      "source_text": "……ゲルダ。",
+      "source_raw_sha256": "37F700485C5E7182D5537FD1422CEB8ACDE9B8F7EC11309783404E8EED17AC7C",
+      "target_text": "……게르다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00037",
+      "source_text": "──そう呼んで、^n震える手で彼女のてのひらを握り返した。",
+      "source_raw_sha256": "EF11F631812745F4CDD5EB000A5317009D8DFA83AB58EEDE32F5F4F555D27DF6",
+      "target_text": "──그렇게 부르며,^n떨리는 손으로 그녀의 손바닥을 맞잡았다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00038",
+      "source_text": "その言葉の|音韻[おんいん]によって、^n長い長い眠りから目覚めかけたばかりの|それ[・・]が^n上書きされていく。",
+      "source_raw_sha256": "DE87E62B14BEE2E48E32C6E18811B3669F5B8382E434BE7F1552F4151902EA88",
+      "target_text": "그 말의 음운에 의해,^n길고 긴 잠에서 막 깨어나려던 그것이^n덮어씌워져 간다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00039",
+      "source_text": "だが、それでいいのだと、彼女は思った。",
+      "source_raw_sha256": "2F85060A6AE6FB649AFD91D9EEB77BBEFD15EEE7940A44A695BCF73F6327229C",
+      "target_text": "하지만, 그걸로 됐다고 그녀는 생각했다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00040",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00041",
+      "source_text": "（私はゲルダで、彼はカイ。^n　それが、私の望んだこと。^n　それが、私の幸せなのだから）",
+      "source_raw_sha256": "D4B6A13B938775705F3260412C1DD37A0144AA67553DA0943ABD281B3AB92A72",
+      "target_text": "(나는 게르다이고, 그는 카이.^n그것이 내가 바랐던 것.^n그것이 나의 행복이니까)",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00042",
+      "source_text": "長く寒い旅をして、やっと彼を取り戻せたのだ。",
+      "source_raw_sha256": "C6D5FFA134F99D523100D1DA94648F2A6ECD9E4961BBF07DA9FD506FC31893B3",
+      "target_text": "길고 추운 여행을 거쳐, 겨우 그를 되찾을 수 있었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00043",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00044",
+      "source_text": "ほら……見て、カイ。",
+      "source_raw_sha256": "F410BC9E23502E75DE00AD91274E6559E84AAA70BCF527916B8B3B1C75B637E4",
+      "target_text": "자……봐, 카이.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00045",
+      "source_text": "抱き締めあうふたりの上に、^nステンドグラスから差し込んだ光が、^n色鮮やかなオーロラのように降り注いでいた。",
+      "source_raw_sha256": "2E37D3C882912CD25DC4309C783BABD5062D958B18D89E5E41499BDCFE2F30B9",
+      "target_text": "서로를 껴안은 두 사람 위로,^n스테인드글라스를 통해 스며든 빛이,^n색채가 선명한 오로라처럼 쏟아지고 있었다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00046",
+      "source_text": "ゲルダ",
+      "source_raw_sha256": "C0B05571F4644C93AB988A304158622DD743480BB45CE77D0BB7E449FEDF70FF",
+      "target_text": "게르다",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00047",
+      "source_text": "ずっと一緒にいましょう。^nずっとよ、永遠に。",
+      "source_raw_sha256": "C26E76010B7E2758931D4A34218030AC92DF86ED1A3DE594C095BC1223B32194",
+      "target_text": "계속 함께 있어요.^n계속, 영원히.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    },
+    {
+      "uid": "scr.xfl::1624.gsc::slot/00048",
+      "source_text": "今や忘れ去られ、役目を終えた彼女を示す言の葉の欠片は、^n教会を|覆[おお]う忌まわしい氷と、そして記憶と共に溶け去って、^nふたりを祝福するオーロラの輝きの中に|露[つゆ]と消えていった。",
+      "source_raw_sha256": "8D1D05E35A3FC83787B5F2157E25790662EFBF15736A8167FB3B3793A5304EDF",
+      "target_text": "이제는 잊혀져, 소임을 다한 그녀를 나타내는 말의 파편은,^n교회를 덮은 가증스러운 얼음과, 그리고 기억과 함께 녹아 없어져,^n두 사람을 축복하는 오로라의 광채 속으로 이슬처럼 사라져 갔다.",
+      "translator": "Local Gemma 4 26B Q4_0",
+      "review_status": "reviewed_once",
+      "reviewer": "Local Gemma 4 26B Q4_0 single review pass",
+      "notes": "Local draft followed by exactly one context/style/terminology/control-code review pass"
+    }
+  ]
+}
