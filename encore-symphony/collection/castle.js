@@ -12,6 +12,14 @@ function stopAudio(){if(audio){audio.pause();audio.removeAttribute('src');audio.
 function home(){stopAudio();busy=false;current('title');focusPrev();}
 function focusPrev(){if(returnFocus&&!returnFocus.closest('[hidden]'))returnFocus.focus({preventScroll:true});}
 function doors(mode){stopAudio();intent=mode;current('doors');const note=$('modeNote');note.textContent=menus[mode]??'';note.hidden=mode==='story';}
+function installed(w){return progress[w]?.installed===true;}
+function updateAvailability(){
+ for(const w of works){const b=$('doors').querySelector('[data-work="'+w+'"]');if(!b)continue;
+  const ready=!!progress[w],on=installed(w);b.disabled=!on;b.classList.toggle('unavailable',ready&&!on);
+  b.setAttribute('aria-label',names[w]+(!ready?' · 확인 중':on?'':' · 미설치'));
+  b.querySelector('span').textContent=!ready?'확인 중':on?names[w]:'미설치';
+ }
+}
 function hotspot(parent,label,area,fn,door=false){
  const b=button('','hit'+(door?' door':''),()=>{returnFocus=b;fn();},label);const [x,y,w,h]=area;
  Object.assign(b.style,{left:x+'%',top:y+'%',width:w+'%',height:h+'%'});b.append(node('span','',label));parent.append(b);return b;
@@ -19,27 +27,30 @@ function hotspot(parent,label,area,fn,door=false){
 function buildMain(){
  const t=$('title'),areas=[['시작',[62.8,14.4,6.4,12],()=>doors('story')],['계속',[72,25.7,7.1,14],()=>doors('continue')],['감상',[55.3,33.1,6.8,13],()=>gallery('cg')],['설정',[69.5,40.6,6.9,13.4],settings],['영상',[78.3,41,6.25,12.4],()=>gallery('movies')],['조작',[48.3,48.6,6.6,13],help],['종료',[41.5,65.2,6.5,12.5],()=>post('close')]];
  for(const [label,area,fn] of areas)hotspot(t,label,area,fn);
- const d=$('doors');for(const [i,w] of works.entries())hotspot(d,names[w],[[18.8,40,22.7,40.7],[42.1,39,21.8,42.5],[65.6,39.8,20.6,41]][i],()=>launch(w,intent),true);
+ const d=$('doors');for(const [i,w] of works.entries()){const b=hotspot(d,names[w],[[18.8,40,22.7,40.7],[42.1,39,21.8,42.5],[65.6,39.8,20.6,41]][i],()=>launch(w,intent),true);b.dataset.work=w;}
+ updateAvailability();
  hotspot(d,'뒤로',[42.5,83.1,15.8,7.2],()=>intent==='settings'?settings():home());
  const note=node('div','doorcaption');note.id='modeNote';note.hidden=true;d.append(note);
 }
 function launch(w,mode){
  if(busy)return;if(!host){notify('통합판 실행 파일에서 열어 주세요.');return;}
+ if(!installed(w)){notify('이 작품은 미설치 상태예요.');return;}
  stopAudio();busy=true;post('play',w,mode);
 }
 function albumOpen(w,g){const state=progress[w]??{flags:[]};return state.overlay||!g||state.flags.includes(g);}
 function anyGate(w,ids){return ids.length===0||ids.some(g=>albumOpen(w,g));}
 function folio(title,back){current('book');$('heading').textContent=title;$('back').onclick=back;$('body').replaceChildren();}
-function selected(){return filter==='All'?works:[filter];}
+function selected(){return (filter==='All'?works:[filter]).filter(w=>installed(w)&&catalog[w]);}
 function gallery(which,keep=false){
  if(!keep){stopAudio();section=which;filter='All';page=0;}
  folio('감상실',home);
  const body=$('body'),ts=node('nav','tabs');ts.setAttribute('aria-label','감상 종류');
  for(const [val,t] of Object.entries(tabs)){const b=button(t,'tab'+(section===val?' selected':''),()=>{if(section!==val){stopAudio();section=val;page=0;gallery(section,true);}});b.setAttribute('aria-pressed',String(section===val));ts.append(b);}body.append(ts);
  const fs=node('div','filters');fs.setAttribute('aria-label','작품별 보기');
- for(const val of ['All',...works]){const b=button(names[val]??'전체','filter'+(filter===val?' selected':''),()=>{filter=val;page=0;gallery(section,true);});b.setAttribute('aria-pressed',String(filter===val));fs.append(b);}
+ for(const val of ['All',...works]){const b=button(names[val]??'전체','filter'+(filter===val?' selected':''),()=>{filter=val;page=0;gallery(section,true);});b.setAttribute('aria-pressed',String(filter===val));if(val!=='All'&&!installed(val)){b.disabled=true;b.textContent=names[val]+' · 미설치';}fs.append(b);}
  const count=node('span','count');count.id='count';fs.append(count);body.append(fs);
- if(!works.every(w=>catalog[w]&&progress[w])){body.append(node('p','sectionnote','감상 목록을 읽고 있어요.'));return;}
+ if(!works.every(w=>progress[w])){body.append(node('p','sectionnote','감상 목록을 읽고 있어요.'));return;}
+ if(!selected().length){count.textContent='설치된 작품 없음';body.append(node('p','sectionnote','설치된 작품이 없어요. 작품을 설치한 뒤 통합판을 다시 열어 주세요.'));return;}
  if(section==='cg')cgList(body,count);else if(section==='music')songList(body,count);else if(section==='movies')filmList(body,count);else replayList(body,count);
 }
 function groups(){return selected().flatMap(w=>catalog[w].cg.map((g,i)=>({w,i,variants:albumOpen(w,g.flag)?g.variants.filter(v=>albumOpen(w,v.flag)):[]})));}
@@ -116,7 +127,7 @@ document.addEventListener('keydown',e=>{
  if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){const items=visibleButtons();if(!items.length)return;e.preventDefault();const ix=items.indexOf(document.activeElement),forward=e.key==='ArrowRight'||e.key==='ArrowDown';items[ix<0?(forward?0:items.length-1):(ix+(forward?1:-1)+items.length)%items.length].focus();}
 });
 host?.addEventListener('message',e=>{const m=e.data;
- if(m.type==='state'){progress=m.works;if(screen==='book'&&$('heading').textContent==='감상실'&&!shown)gallery(section,true);}
+ if(m.type==='state'){progress=m.works;updateAvailability();if(filter!=='All'&&!installed(filter))filter='All';if(shown&&!installed(shown.group.w))closeCG();if(screen==='book'&&$('heading').textContent==='감상실'&&!shown)gallery(section,true);}
  if(m.type==='returned'){busy=false;if(m.action==='story'||m.action==='continue')home();else if(m.action==='settings')settings();else gallery(section,true);}
  if(m.type==='error'){busy=false;notify(m.message);}
 });

@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-11-26",
+  "method": "isolated fixture, private Windows desktop, actual WPF/WebView2 runtime; no desktop switch",
+  "baseline_launcher_sha256": "ed3ed53850978af86c698b65956d7a4194b4604054a902073ceb0caaee0232fc",
+  "baseline_rechecked": ["Requiem continue opened native load screen", "normal game close returned to hub"],
+  "candidate_checks": {
+    "installation_combinations": 8,
+    "gallery_sections_across_combinations": 32,
+    "missing_works_disabled_and_grayscale": "PASS",
+    "missing_save_directory": "PASS",
+    "truncated_save_isolated_per_work": "PASS",
+    "fixture_save_restore_byte_exact": "PASS"
+  },
+  "reused_evidence": ["runtime-verification.json", "release-check.json", "qa/portability-20261124/result.json"],
+  "limits": ["not a full-story playthrough", "not full-length in-game movie playback", "no distributable base-game patch installer", "fixed relative game paths; no automatic discovery of unrelated installations"]
+}

@@ -87,6 +87,7 @@ namespace FairyCollection {
   void Send(object msg){if(ready&&web.CoreWebView2!=null)web.CoreWebView2.PostWebMessageAsJson(json.Serialize(msg));}
   void Error(string message){Send(new {type="error",message=message});}
   string Folder(string w){return Path.Combine(root,"Games",w);}
+  bool Installed(string w){return File.Exists(Path.Combine(Folder(w),exes[w]))&&File.Exists(Path.Combine(Folder(w),"scr.xfl"));}
   string SysSave(string w){return Path.Combine(Folder(w),"save",saves[w]+".dat");}
   HashSet<int> Marks(string w){
    var marks=new HashSet<int>();var p=SysSave(w);if(!File.Exists(p))return marks;
@@ -99,8 +100,14 @@ namespace FairyCollection {
   }
   void State(){
    var result=new Dictionary<string,object>();
-   foreach(var w in exes.Keys){var marks=Marks(w);result[w]=new {flags=marks.ToArray(),overlay=w!="Requiem"&&marks.Contains(7988),
-    slots=Directory.EnumerateFiles(Path.Combine(Folder(w),"save"),saves[w]+"*.dat").Count(p=>!String.Equals(Path.GetFileName(p),saves[w]+".dat",StringComparison.OrdinalIgnoreCase))};}
+   foreach(var w in exes.Keys){
+    bool installed=Installed(w);var marks=new HashSet<int>();int slots=0;string error="";
+    if(installed)try{
+     marks=Marks(w);string saveFolder=Path.Combine(Folder(w),"save");
+     if(Directory.Exists(saveFolder))slots=Directory.EnumerateFiles(saveFolder,saves[w]+"*.dat").Count(p=>!String.Equals(Path.GetFileName(p),saves[w]+".dat",StringComparison.OrdinalIgnoreCase));
+    }catch(InvalidDataException e){error=e.Message;}catch(IOException e){error=e.Message;}catch(UnauthorizedAccessException e){error=e.Message;}
+    result[w]=new {installed=installed,flags=marks.ToArray(),overlay=w!="Requiem"&&marks.Contains(7988),slots=slots,error=error};
+   }
    Send(new {type="state",works=result});
   }
   async void Message(object sender,CoreWebView2WebMessageReceivedEventArgs e){
@@ -119,6 +126,7 @@ namespace FairyCollection {
    }catch(Exception ex){Error(ex.GetBaseException().Message);}
   }
   bool CanFilm(string w,string id){
+   if(!Installed(w))return false;
    if(id=="0001")return w!="Symphony";
    int[] gates;
    if(w=="Requiem"&&id=="0011")gates=new[]{7072};
@@ -132,6 +140,7 @@ namespace FairyCollection {
   }
   async Task Launch(string w,string id){
    if(playing!=null||starting)return;
+   if(!Installed(w)){State();throw new FileNotFoundException("이 작품이 설치되어 있지 않아요. 게임 폴더를 확인해 주세요.");}
    string mode=id;
    if(id=="continue"||id=="settings"||id=="episodes")mode="native";
    if(!(mode=="native"||mode=="story"||mode=="replay"||(mode=="credits"&&w=="Symphony")))return;
