@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-26",
+  "release": "patches-preview-2026.11.26",
+  "status": "PRE-RELEASE",
+  "ui_and_documentation_author": "Codex internal",
+  "scenario_translation": "Existing Korean patch reused; no new scenario translation in this release",
+  "standalone": {
+    "newly_verified": {
+      "Symphony_actual_gui_installation": true,
+      "Symphony_output_files": 20,
+      "Symphony_korean_first_scene": true,
+      "Symphony_normal_exit_code": 0,
+      "source_and_package_overlap_rejected_before_directory_creation": true
+    },
+    "reused": {
+      "original_to_korean_files": 84,
+      "per_title_existing_native_first_scene_and_return": [
+        "Requiem",
+        "Encore",
+        "Symphony"
+      ],
+      "unchanged_delta_rows": [
+        43,
+        22,
+        19
+      ]
+    },
+    "original_logo": "Each kit copies the unchanged publisher logo from the user installation; logo files are not distributed.",
+    "not_rerun": "Requiem and Encore standalone GUI end-to-end installs; use prior validated identical deltas and game bytes."
+  },
+  "bridge": {
+    "verification": "Existing valid checks reused; unchanged ZIP",
+    "original_to_korean_files": 84,
+    "all_three_starts_and_return_after_drive_relocation": true,
+    "selective_save_hash_match": true,
+    "installation_combinations": 8,
+    "gallery_paths": 32,
+    "source": "encore-symphony/collection/builder-verification-20261126.json"
+  },
+  "single_native_engine": {
+    "verification": "Existing runtime and construction results reused; release only updates public guide text and checksums",
+    "required_works": [
+      "Requiem",
+      "Encore",
+      "Symphony"
+    ],
+    "scenario_and_menu_scripts_preserved": {
+      "Requiem": 302,
+      "Encore": 75,
+      "Symphony": 51
+    },
+    "same_game_process_transitions": [
+      "Requiem",
+      "Encore",
+      "Symphony",
+      "Requiem"
+    ],
+    "child_game_processes": 0,
+    "WebView2_auxiliary_processes_allowed": true,
+    "first_scene_and_return_all_three": true,
+    "Encore_slot_save_and_load": true,
+    "settings_and_load_cancel_return": true,
+    "selected_save_copy_counts": {
+      "Requiem": 3,
+      "Encore": 1,
+      "Symphony": 0
+    },
+    "selected_save_hash_matches": true,
+    "moved_path_run": true,
+    "opening_observation_seconds": 44.811517,
+    "opening_audio_decode_bytes": 1095149,
+    "exit_during_movie_code": 0,
+    "output_data_has_no_separate_game_executables": true,
+    "original_scripts_unchanged": true
+  },
+  "video": {
+    "promotional_mp4_full_audio_video_decode": "PASS (existing result reused)",
+    "gallery_mp4_full_audio_video_decode_files": 7,
+    "gallery_finish_scope": "Seek near the end, then natural end and return; not uninterrupted full-length in-game playback"
+  },
+  "package_audit": {
+    "original_game_archives_and_personal_saves_excluded": true,
+    "CRC_and_payload_hashes": "PASS",
+    "new_archives_Defender": "No threats found, exit 0",
+    "bridge_Defender": "Previous result reused for identical SHA-256"
+  },
+  "compatibility": {
+    "platform": "Windows 10/11 x64",
+    ".NET Framework": "4.8+",
+    "WebView2": "Required for the two collection builders and outputs; not required for standalone title patch kits",
+    "clean_Windows_attempt": "Existing bridge construction blocked by Smart App Control / CodeIntegrity 3077, unsigned xdelta3.exe, WinError 4551",
+    "security_policy_changed": false
+  },
+  "not_completed": [
+    "All scenario branches/endings playthrough",
+    "Every native in-game movie continuously from start to natural end",
+    "Clean-PC complete construction and gameplay for all packages",
+    "Frame-drop/jitter measurement"
+  ],
+  "archives": [
+    {
+      "file": "Fairytale_Encore_Korean_Patch_20261126_preview.zip",
+      "bytes": 278803320,
+      "sha256": "d596ea37fc229e921b21a5ab46f6d7c0d878eaffef853da4629f6c22b0f8bfb8",
+      "zip_crc": "PASS",
+      "payload_match": "PASS",
+      "files": 54
+    },
+    {
+      "file": "Fairytale_Requiem_Korean_Patch_20261126_preview.zip",
+      "bytes": 346768024,
+      "sha256": "f44f5a701e3d8e8c9a9af4671215613ed8da2d842ec7e571ce27640959018dc6",
+      "zip_crc": "PASS",
+      "payload_match": "PASS",
+      "files": 73
+    },
+    {
+      "file": "Fairytale_Symphony_Korean_Patch_20261126_preview.zip",
+      "bytes": 117772030,
+      "sha256": "9b6941837fd1f6f0c507a1a331436b1134b008368c99db90ed1adcc6accf161c",
+      "zip_crc": "PASS",
+      "payload_match": "PASS",
+      "files": 53
+    },
+    {
+      "file": "Fairytale_Collection_Builder_20261126_preview.zip",
+      "bytes": 1359778322,
+      "sha256": "19bd3063d79c511325a417d5a0731ce63125108142a4e3bb5756fc11b20c9af2",
+      "files": 244,
+      "zip_crc": "PASS",
+      "payload_match": "PASS",
+      "verification": "reused existing verified archive"
+    },
+    {
+      "file": "Fairytale_Story_Collection_Builder_20261126_preview.zip",
+      "bytes": 1065201280,
+      "sha256": "525a9a5f342656eb8faf24b15d3ae3f764243c54ffc9baf0a2746b632314d1de",
+      "files": 247,
+      "zip_crc": "PASS",
+      "payload_match": "PASS",
+      "original_verified_maker_preserved": true,
+      "changed_files": [
+        "사용방법.txt",
+        "Common/사용 안내.txt",
+        "manifest.json",
+        "checksums.json"
+      ],
+      "runtime_binaries_unchanged": true,
+      "no_full_game_or_saves": true
+    }
+  ],
+  "promotional_videos": [
+    {
+      "work": "Requiem",
+      "file": "Fairytale_Requiem_Korean_Opening_under50MB.mp4",
+      "bytes": 45342037,
+      "sha256": "e71b9cb6fbb07394963ffac5be1cdc2c1e4ead8a90a851cae7ef4b4e1f79b1bd",
+      "full_decode": "PASS",
+      "scope": "board attachment; not a replacement game MPEG"
+    },
+    {
+      "work": "Encore",
+      "file": "Fairytale_Encore_Korean_Opening_under50MB.mp4",
+      "bytes": 45135084,
+      "sha256": "b63b76e01781ee77d08fbea090b81f6147eef508867d68f94a1e3a198f23afe2",
+      "full_decode": "PASS",
+      "scope": "board attachment; not a replacement game MPEG"
+    }
+  ],
+  "research_sources": [
+    "https://cli.github.com/manual/gh_release_create",
+    "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+    "https://github.com/EusthEnoptEron/RaiLTools",
+    "https://github.com/Love-in-idleness/rscript2renpy",
+    "https://github.com/dotnet/runtime/tree/main/src/coreclr/pal/prebuilt/inc"
+  ]
+}
