@@ -1,11 +1,11 @@
 """Build the common gallery from retail CG, sound-room tables and original local movies."""
 from assemble import *
-from menu_scripts import pages
+from collection_core import pages
 from wording import TRACKS,ROUTES
 from concurrent.futures import ThreadPoolExecutor
 from PIL import Image
 import subprocess, tempfile, struct
-PUB=OUT/'Library';ART=PUB/'media';TMP=HERE/'tmp';TOOL=BASE/'tools'/'UiAssetTool.exe'
+PUB=OUT/'Library' if OUT else HERE/'unconfigured';ART=PUB/'media';TMP=HERE/'tmp';TOOL=BASE/'tools'/'UiAssetTool.exe'
 WORKS={'Requiem':'레퀴엠','Encore':'앙코르','Symphony':'심포니'}
 def binary(root,bank,name):
  loose=root/bank/name
@@ -96,7 +96,7 @@ def movies(work,root):
 def main():
  ART.mkdir(exist_ok=True,parents=True);TMP.mkdir(exist_ok=True)
  tracks={n:k[1] for n,k in zip([6,1,11,12,13,14,15,16,2,3,7],TRACKS)}
- result={};seen=set();futures=[]
+ result={w:dict(name=n,cg=[],music=[],movies=[],episodes=[]) for w,n in WORKS.items()};seen=set();futures=[]
  with ThreadPoolExecutor(max_workers=5) as pool:
   for w,root in GAMES.items():
    bank=root/'scr.xfl';parse=lambda n:parse_gsc(read_entry(bank,f'{n:04}.gsc'))

@@ -6,7 +6,9 @@
 
 ## 현재 공개 범위
 
-**이 저장소는 제작 소스와 한국어 수정 그림을 제공하는 저장소입니다. 일반 사용자가 원본에 적용하는 설치 패치 릴리스는 아직 없습니다.** `Code → Download ZIP`만으로 게임이나 통합판이 설치되지는 않습니다. 게임 전체, 음성·음원·완성 영상과 실행 바이너리는 포함하지 않습니다.
+제작 소스와 한국어 수정 그림, **설치 폴더를 선택해 통합판을 만드는 제작기 미리보기**를 제공합니다. [제작기 다운로드](https://github.com/sirecoymarsh/fairytale-trilogy-korean-patch/releases/tag/collection-builder-preview-2026.11.26) · [사용 방법과 호환성 제한](encore-symphony/collection/BUILDER_README.md)
+
+`Code → Download ZIP`은 소스만 받습니다. 제작기를 사용하려면 릴리스의 별도 패키지를 받으세요. 원본 게임 전체와 개인 세이브는 배포하지 않습니다. 제작기는 사용자가 선택한 원본 또는 지원하는 한국어판에서 필요한 자료를 가져옵니다.
 
 | 폴더 | 내용 |
 |---|---|
@@ -26,12 +28,14 @@
 - CG 휠 확대·축소, 드래그 이동, 화면 맞춤
 - 미설치 작품의 문을 흑백과 **미설치** 표시로 구분하고 선택 차단
 
-현재 통합판은 실행 파일 옆 `Games/Requiem`, `Games/Encore`, `Games/Symphony`를 확인합니다. 다른 위치의 설치 게임을 자동 검색하거나 경로를 등록하는 설치 마법사는 아직 없습니다. 자세한 구조와 실행 조건은 [통합판 안내](encore-symphony/collection/README.md)를 참고하세요.
+제작기에서 작품별 설치 폴더와 세이브 가져오기를 선택하면 새 폴더에 `Games/Requiem`, `Games/Encore`, `Games/Symphony`를 구성합니다. 한 작품만 있어도 만들 수 있습니다. 실행할 때는 이 상대 경로만 사용하므로 완성 폴더 전체를 옮길 수 있습니다. 자세한 구조와 실행 조건은 [통합판 안내](encore-symphony/collection/README.md)를 참고하세요.
 
 ## 2026-11-26 확인 사항
 
 기존 통합판의 레퀴엠 불러오기와 공통 메뉴 복귀를 별도 비표시 데스크톱에서 재확인했습니다. 새 미설치 처리 후보는 설치 조합 8가지, 감상실 32개 경로, 세이브 폴더 부재와 손상 세이브의 작품별 격리를 통과했습니다. 기존 세 작품의 시작·메뉴 복귀 및 감상실 검증 기록도 함께 보관합니다.
 
-장편 시나리오 전체 완주, 모든 영상의 게임 내 전체 재생, 일반 배포용 설치·복구 패키지 시험을 이번 검사로 완료한 것은 아닙니다. [검증 범위](encore-symphony/collection/verification-20261126.json)
+추가 제작기 검사에서는 세 작품의 원본부터 통합판을 만들고 다른 드라이브 경로에서 세 게임의 시작·복귀, 음악과 MP4 감상실 재생을 확인했습니다. 실제 GUI에서 심포니만 구성하고 세이브를 가져오는 경우도 통과했습니다. [제작기 검증 범위](encore-symphony/collection/builder-verification-20261126.json)
+
+**모든 PC에서 동작을 보증하는 정식판은 아닙니다.** 새 Windows Sandbox에서는 Smart App Control이 서명되지 않은 xdelta3 도구 실행을 차단했습니다. 이 정책이 적용된 환경은 현재 제한 사항입니다. Windows 10/11 64비트, .NET Framework 4.8 이상, WebView2가 필요합니다. 전체 시나리오 완주와 모든 영상의 게임 내 전체 재생을 새로 검사한 것은 아닙니다.
 
 오역·문장 잘림·실행 문제는 [Issues](https://github.com/sirecoymarsh/fairytale-trilogy-korean-patch/issues)에 작품명, 장면 또는 앞뒤 대사, 재현 순서와 함께 남겨 주세요.

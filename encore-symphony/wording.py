@@ -1,5 +1,4 @@
 """Korean UI text transcribed and translated against both Japanese game discs."""
-from assets import *
 ROUTES=[
  ('かかとを鳴らしましょう','구두 뒤축을 맞부딪쳐요'),
  ('あなたの瞳さえなければ','당신의 눈동자만 없었다면'),
@@ -20,5 +19,7 @@ EN={
  1501:ROUTES[5],1601:('禁断の闘争録','금단의 투쟁록')}
 SY=batch(1001,'降霊会|少年と白い部屋|墓地のお散歩|グレーテルとパン|オデットとジークフリート|黒の夢|グレーテルとかまど|死体がひとつ|ゲルダとカイ|黒の夢２|スノードームの世界|また死体がひとつ|ラプンツェルと王子様|さらに死体がひとつ|おまけに死体がひとつ|オデットと？|鳥の結末|罠|だあれもいない|最後の夢|×××の呪い|降霊会の記憶|灰色の悪魔の最期|再会と脱出','강령회|소년과 하얀 방|묘지 산책|그레텔과 빵|오데트와 지크프리트|검은 꿈|그레텔과 아궁이|시체 하나|게르다와 카이|검은 꿈 2|스노우 돔 속 세상|또 시체 하나|라푼젤과 왕자님|거기에 또 시체 하나|덤으로 시체 하나 더|오데트와 누구?|새의 결말|덫|아무도, 아무도 없어|마지막 꿈|×××의 저주|강령회의 기억|잿빛 악마의 최후|재회와 탈출')
 TRACKS=pairs('フェアリーテイル|コドモたちの世界|アリスのテーマ|グレーテルのテーマ|オデット＆オディールのテーマ|ラプンツェルのテーマ|ゲルダのテーマ|ドロシーのテーマ|微睡みの楽園|楽園崩壊|フェアリーテイル・カラオケVer','페어리테일|아이들의 세계|앨리스의 테마|그레텔의 테마|오데트 & 오딜의 테마|라푼젤의 테마|게르다의 테마|도로시의 테마|선잠에 잠긴 낙원|낙원 붕괴|페어리테일 · 가라오케 버전')
-if __name__=='__main__':save('audit/ui_text.json',{'translator_model':'Codex internal','source':'2015/2016 Japanese discs, raster labels','routes':ROUTES,'Encore':EN,'Symphony':SY,'music':TRACKS})
+if __name__=='__main__':
+ from assets import save
+ save('audit/ui_text.json',{'translator_model':'Codex internal','source':'2015/2016 Japanese discs, raster labels','routes':ROUTES,'Encore':EN,'Symphony':SY,'music':TRACKS})
 

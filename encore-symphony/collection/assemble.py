@@ -1,14 +1,12 @@
-"""Assemble independent game folders on Y from the verified Korean installations."""
+"""Assemble independent game folders from explicitly selected installations."""
 from pathlib import Path
 import sys, json, hashlib, os, shutil
 HERE=Path(__file__).resolve().parent
 BASE=HERE.parent
-OUT=Path('Y:/GAME/Fairytale Collection')
+OUT=None
 sys.path[:0]=[str(BASE),str(BASE/'qol')]
-from assets import RK,live,entry_map,read_entry
-from menu_scripts import parse_gsc,parse_commands,FMT,op,const,if_true,Append
-from build_options import archive
-GAMES={'Requiem':RK,'Encore':live('Encore'),'Symphony':live('Symphony')}
+from collection_core import entry_map,read_entry,parse_gsc,parse_commands,FMT,op,const,archive
+GAMES={}
 EXES={w:'フェアリーテイル・'+jp+'.exe' for w,jp in [('Requiem','レクイエム'),('Encore','アンコール'),('Symphony','シンフォニー')]}
 def digest(p):
  with p.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
@@ -16,14 +14,13 @@ def once(src,dest,private=False):
  dest.parent.mkdir(parents=True,exist_ok=True)
  if dest.exists():return
  src=src.resolve()
- if not private and src.drive.lower()==dest.drive.lower():
-  try:os.link(src,dest);return
-  except OSError:pass
+ # Independent copies prevent later changes from altering the selected source.
  tmp=dest.with_name(dest.name+'.collecting')
  shutil.copyfile(src,tmp);os.replace(tmp,dest)
 def jsonout(p,o):
  p.parent.mkdir(parents=True,exist_ok=True);t=p.with_suffix(p.suffix+'.new');t.write_text(json.dumps(o,ensure_ascii=False,indent=1),encoding='utf-8');os.replace(t,p)
 def main():
+ if OUT is None or not GAMES:raise SystemExit('Use build_collection.py with a configuration.')
  sizes={}
  for work,root in GAMES.items():
   dest=OUT/'Games'/work;size=0

@@ -53,19 +53,17 @@ def launch_entry(work, base, mode):
 
 
 def main():
-    for work in EXES:
+    for work in GAMES:
         directory = OUT / 'Entries' / work
         base = GAMES[work] / 'scr.xfl'
         directory.mkdir(parents=True, exist_ok=True)
         (directory / 'native.gsc').write_bytes(read_entry(base, '0000.gsc'))
-        reference = HERE / 'qa' / 'entry-archives' / work
         modes = ['story', 'replay']
         if work == 'Symphony':
             modes.append('credits')
         for mode in modes:
             changes = launch_entry(work, base, mode)
             (directory / (mode + '.gsc')).write_bytes(changes['0000.gsc'])
-            archive(base, reference / (mode + '.xfl'), changes)
         print(work, 'entries ready', flush=True)
 
 

@@ -81,7 +81,8 @@ namespace FairyCollection {
     core.NewWindowRequested+=(s,e)=>e.Handled=true;
     core.NavigationStarting+=(s,e)=>{Uri u;if(!Uri.TryCreate(e.Uri,UriKind.Absolute,out u)||u.Scheme!="https"||u.Host!="fairytale.example")e.Cancel=true;};
     core.WebMessageReceived+=Message;core.Navigate("https://fairytale.example/index.html");
-   } catch(Exception e){MessageBox.Show("통합 화면을 열 수 없어요.\n"+e.GetBaseException().Message,Title);Close();}
+   } catch(WebView2RuntimeNotFoundException){MessageBox.Show("Microsoft Edge WebView2 Runtime이 필요해요.\n통합판의 Support 폴더에서 WebView2_설치.exe를 실행한 뒤 다시 열어 주세요.\nWindows 10/11 64비트와 .NET Framework 4.8 이상을 지원합니다.",Title);Close();}
+   catch(Exception e){MessageBox.Show("통합 화면을 열 수 없어요.\n"+e.GetBaseException().Message,Title);Close();}
   }
   void Fullscreen(){if(WindowStyle==WindowStyle.None){WindowStyle=WindowStyle.SingleBorderWindow;WindowState=WindowState.Normal;}else{WindowStyle=WindowStyle.None;WindowState=WindowState.Maximized;}}
   void Send(object msg){if(ready&&web.CoreWebView2!=null)web.CoreWebView2.PostWebMessageAsJson(json.Serialize(msg));}
@@ -235,6 +236,10 @@ namespace FairyCollection {
   void PlayFilm(string w,string id){
    if(!CanFilm(w,id)){Error("이 영상은 아직 열리지 않았어요.");return;}
    if(id=="credits"){return;}
+   var browserMovie=Path.Combine(root,"Library","cinema",w,id+".mp4");
+   if(File.Exists(browserMovie)){
+    Send(new {type="filmOpen",url="cinema/"+w+"/"+id+".mp4",name=id=="0001"?"오프닝":"엔딩 영상 "+(Int32.Parse(id)-10)});return;
+   }
    var p=Path.Combine(root,"Cinema",w,id+".mpg");if(!File.Exists(p))throw new FileNotFoundException("영상을 찾을 수 없어요.",p);
    video=true;paused=false;pause.Content="일시 정지";filmName.Text=id=="0001"?"오프닝":"엔딩 영상 "+(Int32.Parse(id)-10);
    web.Visibility=Visibility.Collapsed;theater.Visibility=Visibility.Visible;film.Volume=volume;film.Source=new Uri(p);film.Play();timer.Start();

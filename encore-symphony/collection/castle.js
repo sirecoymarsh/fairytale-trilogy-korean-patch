@@ -98,6 +98,9 @@ function filmList(body,count){
   list.append(listEntry(on?f.name:'미해금',names[w],()=>{if(f.kind==='native'){launch(w,'credits');}else{post('film',w,f.id);}},on));
  }count.textContent='재생 가능 '+open+' / '+total+'편';body.append(list);
 }
+function closeFilm(){const v=$('movie');v.pause();v.removeAttribute('src');v.load();$('cinema').hidden=true;$('filmBack').blur();$('body').querySelector('.entry:enabled')?.focus();}
+function openFilm(m){stopAudio();const v=$('movie');$('filmCaption').textContent=m.name;$('cinema').hidden=false;v.volume=volume;v.src=m.url;v.play().catch(()=>{closeFilm();notify('영상을 재생하지 못했어요. Windows 미디어 기능과 WebView2를 확인해 주세요.');});$('filmBack').focus();}
+$('filmBack').onclick=closeFilm;$('movie').onended=closeFilm;$('movie').onerror=()=>{if(!$('cinema').hidden){closeFilm();notify('영상 파일을 재생하지 못했어요.');}};
 function replayList(body,count){
  const list=node('div','list');count.textContent='작품별 회상';for(const w of selected()){
   list.append(listEntry(names[w]+' 회상','열린 장면 다시 보기',()=>launch(w,'replay')));
@@ -121,12 +124,14 @@ function help(){
 function visibleButtons(){const parent=shown?$('viewer'):$(screen);return [...parent.querySelectorAll('button:not(:disabled)')].filter(b=>b.offsetWidth&&b.offsetHeight);}
 document.addEventListener('keydown',e=>{
  if(e.key==='F11'){e.preventDefault();post('fullscreen');return;}
+ if(!$('cinema').hidden){if(e.key==='Escape'){e.preventDefault();closeFilm();}return;}
  if(e.key==='Escape'){e.preventDefault();if(shown)closeCG();else if(screen==='book')home();else if(screen==='doors'){if(intent==='settings')settings();else home();}return;}
  if(e.target.tagName==='INPUT'||e.target.tagName==='AUDIO')return;
  if(shown&&(e.key==='ArrowLeft'||e.key==='ArrowRight')){e.preventDefault();switchCG(e.key==='ArrowLeft'?-1:1);return;}
  if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){const items=visibleButtons();if(!items.length)return;e.preventDefault();const ix=items.indexOf(document.activeElement),forward=e.key==='ArrowRight'||e.key==='ArrowDown';items[ix<0?(forward?0:items.length-1):(ix+(forward?1:-1)+items.length)%items.length].focus();}
 });
 host?.addEventListener('message',e=>{const m=e.data;
+ if(m.type==='filmOpen')openFilm(m);
  if(m.type==='state'){progress=m.works;updateAvailability();if(filter!=='All'&&!installed(filter))filter='All';if(shown&&!installed(shown.group.w))closeCG();if(screen==='book'&&$('heading').textContent==='감상실'&&!shown)gallery(section,true);}
  if(m.type==='returned'){busy=false;if(m.action==='story'||m.action==='continue')home();else if(m.action==='settings')settings();else gallery(section,true);}
  if(m.type==='error'){busy=false;notify(m.message);}

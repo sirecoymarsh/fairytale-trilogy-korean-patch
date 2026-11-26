@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-26",
+  "builder_ui_author": "Codex internal",
+  "reuse": "Existing Claude collection runtime, album, entries and delta-kit; no new game translation",
+  "original_to_korean_files": 84,
+  "gui_partial_build": {
+    "selected": [
+      "Symphony"
+    ],
+    "imported_save_hash_matches": true,
+    "unselected_catalogs_empty": true,
+    "absent_doors": "grayscale(1) brightness(0.45); disabled"
+  },
+  "relocated_runtime": {
+    "path": "T:/완성 통합판",
+    "fresh_saves_before": {
+      "Requiem": [],
+      "Encore": [],
+      "Symphony": []
+    },
+    "games": {
+      "Requiem": {
+        "first_scene": true,
+        "korean_window_title": "페어리테일 레퀴엠",
+        "normal_return": true
+      },
+      "Encore": {
+        "first_scene": true,
+        "korean_window_title": "페어리테일 앙코르",
+        "normal_return": true
+      },
+      "Symphony": {
+        "first_scene": true,
+        "korean_window_title": "페어리테일 심포니",
+        "normal_return": true
+      }
+    },
+    "music_time_seconds": 1.733838,
+    "browser_movie": {
+      "work": "Encore",
+      "video_size": [
+        1280,
+        720
+      ],
+      "duration": 127.4273,
+      "sample_times": [
+        2.037914,
+        4.039355,
+        6.040116
+      ],
+      "audio_decode_bytes": [
+        58628,
+        108943,
+        159285
+      ],
+      "seek_then_natural_end_return": true
+    }
+  },
+  "new_mp4_full_decode": [
+    {
+      "path": "Library/cinema/Encore/0001.mp4",
+      "bytes": 136871368,
+      "sha256": "10971ba06844e7fbf1b2690e3a5e410d27bdfc853f2d71596353a57a1f1ba095",
+      "full_audio_video_decode": true
+    },
+    {
+      "path": "Library/cinema/Encore/0011.mp4",
+      "bytes": 4430301,
+      "sha256": "7fe4714e202690f9763408331c0cd9b48e4eb5dc47f619289b2a975300b0e4c9",
+      "full_audio_video_decode": true
+    },
+    {
+      "path": "Library/cinema/Encore/0012.mp4",
+      "bytes": 57567757,
+      "sha256": "68ba9f88e08cbf611ac7fe6dfffc437f58f6a42d1ddbc77c0002658189cddb52",
+      "full_audio_video_decode": true
+    },
+    {
+      "path": "Library/cinema/Requiem/0001.mp4",
+      "bytes": 141139840,
+      "sha256": "97dda3203f4cfb060a1d6cb309b8f4b37da437b6ce96767d8fdc68d7b3dec7c8",
+      "full_audio_video_decode": true
+    },
+    {
+      "path": "Library/cinema/Requiem/0011.mp4",
+      "bytes": 93418210,
+      "sha256": "52041dd44fe0ec6acd75c87d294fb9fc8e85e7fba789ad23c965f981838c11a1",
+      "full_audio_video_decode": true
+    },
+    {
+      "path": "Library/cinema/Requiem/0012.mp4",
+      "bytes": 196136386,
+      "sha256": "b21642d7ae1840ba75dc3c8c17dcff8c1cb31a8d28d58c1856572832d2ea0783",
+      "full_audio_video_decode": true
+    },
+    {
+      "path": "Library/cinema/Requiem/0013.mp4",
+      "bytes": 52849687,
+      "sha256": "acf73cbdec60fa10ca5bd7d41a1f77ebcab2417bee738df996050ddb5a9dae7f",
+      "full_audio_video_decode": true
+    }
+  ],
+  "rejections": [
+    "nonempty output",
+    "wrong work folder",
+    "unknown source file"
+  ],
+  "package": {
+    "zip": "Fairytale_Collection_Builder_20261126_preview.zip",
+    "bytes": 1359778322,
+    "sha256": "19bd3063d79c511325a417d5a0731ce63125108142a4e3bb5756fc11b20c9af2",
+    "files": 244,
+    "zip_crc": "PASS",
+    "allowlist": "PASS",
+    "payload_hashes": "PASS",
+    "no_game_originals_or_saves": true
+  },
+  "clean_windows_attempt": {
+    "windows": "Windows 11 Enterprise build 26100",
+    "host_game_drive_available": false,
+    "wmp_available": false,
+    "result": "BLOCKED",
+    "block": "Smart App Control / CodeIntegrity event 3077 blocked unsigned xdelta3.exe (WinError 4551)",
+    "security_policy_changed": false
+  },
+  "limits": [
+    "Not guaranteed on every PC; unsigned tools are blocked by some application-control policies.",
+    "Clean-Windows end-to-end construction did not complete.",
+    "Full story playthrough and continuous full-length playback of every in-game movie were not repeated.",
+    "Browser movie finish was tested after seeking near the end; frame drops/jitter were not measured."
+  ],
+  "reused_evidence": [
+    "Prior all-three native starts and returns, 2026-11-24",
+    "Missing-work combinations 8 / gallery paths 32, 2026-11-26",
+    "Missing or corrupt save isolation, 2026-11-26"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution",
+    "https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-cli",
+    "https://github.com/EusthEnoptEron/RaiLTools",
+    "https://github.com/jmacd/xdelta",
+    "https://github.com/GyanD/codexffmpeg/releases/tag/7.1"
+  ],
+  "defender": {
+    "scope": "final ZIP and unpacked package",
+    "exit_code": 0,
+    "result": "no threats found",
+    "zip_sha256": "19bd3063d79c511325a417d5a0731ce63125108142a4e3bb5756fc11b20c9af2"
+  }
+}
