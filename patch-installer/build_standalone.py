@@ -79,6 +79,22 @@ def verify_file(p, expected):
     if not p.is_file() or p.stat().st_size != expected['size'] or sha(p) != expected['sha256']:
         raise ValueError('파일이 없거나 검증값이 달라요: ' + str(p))
 
+def select_source(src, row, work):
+    """Select a verified delta for original or previously released Korean bytes."""
+    if not src.is_file(): return row, 'missing'
+    alternatives = row.get('alternate_sources', [])
+    sizes = {row['size'], row.get('source_size'), *(x['source_size'] for x in alternatives)}
+    if src.stat().st_size not in sizes:
+        raise ValueError(WORKS[work] + '의 지원하지 않는 파일: ' + row['path'])
+    digest = sha(src)
+    if digest == row['sha256']: return row, 'korean'
+    if digest == row.get('source_sha256'): return row, 'original'
+    for old in alternatives:
+        if digest == old['source_sha256']:
+            return dict(row, **old), 'previous-korean'
+    raise ValueError(WORKS[work] + '의 지원하지 않는 파일: ' + row['path'])
+
+
 def build(config, package):
     manifest = json.loads((package / 'manifest.json').read_text('utf-8-sig'))
     requested = config.get('games', {})
@@ -103,14 +119,8 @@ def build(config, package):
     for w, root in roots.items():
         receipt['works'][w] = {'import_save':bool(requested[w].get('import_save',False)), 'files':[], 'save_files':0,'save_sha256':{}}
         for row in manifest['games'][w]['files']:
-            src = safe(root, row['path']); state = 'missing'
-            if src.is_file():
-                size = src.stat().st_size
-                if size not in {row['size'], row.get('source_size')}: raise ValueError(WORKS[w] + '의 지원하지 않는 파일: ' + row['path'])
-                digest = sha(src)
-                if digest == row['sha256']: state = 'korean'
-                elif digest == row.get('source_sha256'): state = 'original'
-                else: raise ValueError(WORKS[w] + '의 지원하지 않는 파일: ' + row['path'])
+            src = safe(root, row['path'])
+            row, state = select_source(src, row, w)
             if state == 'missing' and row['kind'] != 'new': raise ValueError(WORKS[w] + ' 설치 파일이 없어요: ' + row['path'])
             if state != 'korean' and row['kind'] != 'same':
                 verify_file(safe(package, row['payload']), {'size':row['payload_size'],'sha256':row['payload_sha256']})

@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-28",
+  "release": "requiem-hotfix-preview-2026.11.28",
+  "status": "PRE-RELEASE",
+  "scope": "Requiem standalone patch",
+  "changes": {
+    "gsc_files": 5,
+    "string_slots": 10,
+    "files": [
+      "1613.gsc",
+      "1620.gsc",
+      "1621.gsc",
+      "1705.gsc",
+      "1708.gsc"
+    ],
+    "commands_and_trailing_bytes_preserved": true,
+    "translator_model": "Codex internal",
+    "argon_retranslation_included": false
+  },
+  "package": {
+    "version": "2026.11.28-preview.2",
+    "source_rebuild_sha256": "d537c2151dc50701f8ceff40bf8e956ae07ef168da91f271e469f640094dbe17",
+    "script_count": 5,
+    "string_count": 10,
+    "delta_checks": [
+      {
+        "input": "original",
+        "source_sha256": "ce5a55d13c95bb005af055175135a28981184cceefc0e0af8380e69e5c43fa74",
+        "output_sha256": "d537c2151dc50701f8ceff40bf8e956ae07ef168da91f271e469f640094dbe17"
+      },
+      {
+        "input": "previous-korean",
+        "source_sha256": "ed44983ebeb3f39650c6409fdabb8c6d7b85a60134b4a8e4a3e725ee5d76eb84",
+        "output_sha256": "d537c2151dc50701f8ceff40bf8e956ae07ef168da91f271e469f640094dbe17"
+      },
+      {
+        "input": "korean",
+        "source_sha256": "d537c2151dc50701f8ceff40bf8e956ae07ef168da91f271e469f640094dbe17",
+        "output_sha256": "d537c2151dc50701f8ceff40bf8e956ae07ef168da91f271e469f640094dbe17"
+      }
+    ],
+    "unknown_hash_rejected": true,
+    "exe_unchanged": true,
+    "original_source_unchanged": true,
+    "previous_korean_source_unchanged": true,
+    "package_file_count": 75,
+    "source_tool_temp_collision_rejected": true,
+    "standalone_embedded_python_install": {
+      "exit_code": 0,
+      "files_verified": 44,
+      "previous_korean_delta_selected": true,
+      "personal_save_files_copied": 0
+    }
+  },
+  "runtime": {
+    "requiem_main_endings_completed": 12,
+    "requiem_main_endings_planned": 12,
+    "title_returns": 12,
+    "unique_story_scripts_loaded": 185,
+    "script_load_failures": 0,
+    "normal_exit_code": 0,
+    "exe_sha256": "e46f532811b3189669ccc74452a2bfb4f0f14362ef97e68018fc9cdc26b2b4f4",
+    "scr_sha256": "d537c2151dc50701f8ceff40bf8e956ae07ef168da91f271e469f640094dbe17",
+    "evidence_reuse": "Previous common-route and unaffected-branch evidence reused. Changed text pages replayed in the real engine. No full repeat after byte-identical packaging.",
+    "encore_episodes_completed": 6,
+    "symphony_endings_completed": 2
+  },
+  "failures": {
+    "reproduced_text_error_locations": 2,
+    "related_static_candidates_fixed": true,
+    "audio_wait_incidents_observed": 1,
+    "audio_wait_fixed": false,
+    "audio_unassisted_replay_passed": true,
+    "completed_main_routes": "12/12",
+    "game_attempt_failure_percentage": null,
+    "percentage_reason": "Runs used save reloads, common-route reuse and diagnostic interventions; there is no uniform trial denominator. Endpoint completion rate is not a zero-failure claim."
+  },
+  "limits": [
+    "Not all choices/recollections were exercised",
+    "Audio worker shutdown race remains a candidate; the original failed API call was not captured and EXE was not changed",
+    "All in-game movies and fresh-PC installation/runtime were not fully tested",
+    "Old bridge/story collection builders still contain the old Requiem payload and may reject this new scr.xfl hash",
+    "Full Argon retranslation and semantic review remain in progress"
+  ]
+}
