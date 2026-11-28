@@ -1,6 +1,6 @@
 # 페어리테일 이야기 모음 — 단일 엔진 제작기
 
-[릴리스](https://github.com/sirecoymarsh/fairytale-trilogy-korean-patch/releases/tag/patches-preview-2026.11.26)의 `Fairytale_Story_Collection_Builder_20261126_preview.zip`은 **레퀴엠·앙코르·심포니를 모두 가진 사용자**가 자신의 설치본으로 단일 엔진 통합판을 만드는 패키지입니다.
+[릴리스](https://github.com/sirecoymarsh/fairytale-trilogy-korean-patch/releases/tag/content-unlock-preview-2026.11.28)의 `Fairytale_Story_Collection_Builder_20261128_preview4.zip`은 **레퀴엠·앙코르·심포니를 모두 가진 사용자**가 자신의 설치본으로 단일 엔진 통합판을 만드는 패키지입니다.
 
 세 작품의 설치 폴더를 각각 선택하고, 세이브를 가져올 작품을 고른 뒤 새 빈 출력 폴더에 만드세요. 완성 후 `페어리테일 이야기 모음.exe`를 실행합니다. 세 작품이 모두 필요하며 지원 파일은 크기와 SHA-256으로 확인합니다. 이 파일 확인은 계정·라이선스 인증을 대신하지 않습니다.
 
@@ -24,3 +24,5 @@
 검토한 공개 기반: [RaiLTools](https://github.com/EusthEnoptEron/RaiLTools), [LiarsoftTool](https://github.com/Love-in-idleness/LiarsoftTool), [rscript2renpy](https://github.com/Love-in-idleness/rscript2renpy). 대체 런타임 소스까지 검토한 뒤 세 작품의 엔진 동일성을 확인하여 원작 엔진을 직접 연결했습니다. CLR 호스팅 헤더 출처: [dotnet/runtime](https://github.com/dotnet/runtime/tree/main/src/coreclr/pal/prebuilt/inc).
 
 [공개 검증 기록](../releases/verification-20261126.json)에 실제 플레이 확인과 보존된 시나리오 수를 구분해 기록했습니다. 원작 시나리오·메뉴 GSC 428개를 보존했다는 사실은 모든 루트 완주를 의미하지 않습니다.
+
+2026.11.28: 레퀴엠에도 설정 → 감상 기록의 네 기능을 제공하고 공통 감상실에 반영합니다. 회상 호출 뒤 잘못된 스크립트로 복귀하던 호출 스택 ID도 수정했습니다. [검증 범위](../releases/requiem-content-options-20261128.md).

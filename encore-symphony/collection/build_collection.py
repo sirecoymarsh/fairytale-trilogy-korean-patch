@@ -79,6 +79,39 @@ def verify_file(p, expected):
     if not p.is_file() or p.stat().st_size != expected['size'] or sha(p) != expected['sha256']:
         raise ValueError('파일이 없거나 검증값이 달라요: ' + str(p))
 
+def select_source(src, row, work):
+    """Select a verified delta for original or previously released Korean bytes."""
+    if not src.is_file(): return row, 'missing'
+    alternatives = row.get('alternate_sources', [])
+    sizes = {row['size'], row.get('source_size'), *(x['source_size'] for x in alternatives)}
+    if src.stat().st_size not in sizes:
+        raise ValueError(WORKS[work] + '의 지원하지 않는 파일: ' + row['path'])
+    digest = sha(src)
+    if digest == row['sha256']: return row, 'korean'
+    if digest == row.get('source_sha256'): return row, 'original'
+    for old in alternatives:
+        if digest == old['source_sha256']:
+            return dict(row, **old), 'previous-korean'
+    raise ValueError(WORKS[work] + '의 지원하지 않는 파일: ' + row['path'])
+
+
+def repair_imported_font(path, work, enabled):
+    """Migrate only our legacy default in the copied Requiem system settings.
+
+    The native preferences block is 0x872 bytes. Its font name begins at 0x83e.
+    Do not edit slot saves, other fonts, truncated files, or the input directory.
+    """
+    if not enabled or work != 'Requiem' or path.name != 'FRsave.dat': return None
+    data = path.read_bytes(); offset = 0x83e
+    old = b'Malgun Gothic\0'; new = b'GulimChe\0'
+    if len(data) < 0x872 or data[offset:offset+len(old)] != old: return None
+    changed = data[:offset] + new.ljust(len(old), b'\0') + data[offset+len(old):]
+    path.write_bytes(changed)
+    return {'file':path.name, 'offset':offset, 'old_font':'Malgun Gothic',
+            'new_font':'GulimChe', 'input_sha256':hashlib.sha256(data).hexdigest(),
+            'output_sha256':hashlib.sha256(changed).hexdigest()}
+
+
 def build(config, package):
     manifest = json.loads((package / 'manifest.json').read_text('utf-8-sig'))
     requested = config.get('games', {})
@@ -103,14 +136,7 @@ def build(config, package):
     for w, root in roots.items():
         receipt['works'][w] = {'import_save':bool(requested[w].get('import_save',False)), 'files':[], 'save_files':0,'save_sha256':{}}
         for row in manifest['games'][w]['files']:
-            src = safe(root, row['path']); state = 'missing'
-            if src.is_file():
-                size = src.stat().st_size
-                if size not in {row['size'], row.get('source_size')}: raise ValueError(WORKS[w] + '의 지원하지 않는 파일: ' + row['path'])
-                digest = sha(src)
-                if digest == row['sha256']: state = 'korean'
-                elif digest == row.get('source_sha256'): state = 'original'
-                else: raise ValueError(WORKS[w] + '의 지원하지 않는 파일: ' + row['path'])
+            src = safe(root, row['path']); row, state = select_source(src, row, w)
             if state == 'missing' and row['kind'] != 'new': raise ValueError(WORKS[w] + ' 설치 파일이 없어요: ' + row['path'])
             if state != 'korean' and row['kind'] != 'same':
                 verify_file(safe(package, row['payload']), {'size':row['payload_size'],'sha256':row['payload_sha256']})
@@ -152,7 +178,9 @@ def build(config, package):
                             p=safe(source,p.name); before=sha(p); dest=target/'save'/p.name; copy(p,dest)
                             if sha(dest)!=before or sha(p)!=before: raise ValueError('복사하는 동안 세이브가 바뀌었어요. 게임을 종료해 주세요.')
                             receipt['works'][w]['save_files'] += 1
-                            receipt['works'][w]['save_sha256'][p.name] = before
+                            migration = repair_imported_font(dest,w,manifest.get('repair_legacy_korean_font',False))
+                            if migration: receipt['works'][w].setdefault('font_migrations',[]).append(migration)
+                            receipt['works'][w]['save_sha256'][p.name] = sha(dest) if migration else before
                 if not receipt['works'][w]['save_files']: emit(WORKS[w]+' · 가져올 세이브가 없어 새 저장 폴더를 만들었어요.')
         assemble.OUT=stage; assemble.GAMES={w:stage/'Games'/w for w in roots}
         import album, entries

@@ -36,9 +36,9 @@ def archive(src,dest,changes):
     assert [e.name for e in check.entries]==[e.name for e in obj.entries]
     for name,b in changes.items():
         assert read_entry(dest,name)==b
-def link_feature(src,dest,game_name):
+def link_feature(src,dest,game_name,expected_sha=None):
     data=bytearray(src.read_bytes())
-    assert sha(data).lower()==read('audit/native_ui.json')[game_name]['sha256'].lower()
+    assert sha(data).lower()==(expected_sha or read('audit/native_ui.json')[game_name]['sha256']).lower()
     pe=pefile.PE(data=bytes(data));opt=pe.OPTIONAL_HEADER;base=opt.ImageBase;assert base==0x400000
     orig=opt.DATA_DIRECTORY[1];i=pe.get_offset_from_rva(orig.VirtualAddress)
     old=b''

@@ -43,4 +43,16 @@ Choice choose(){
  Choice c;c.picked=work;if(int(result)>0){c.picked=int(result)/100-1;c.action=int(result)%100;}else PostMessageW(nativeWindow,WM_CLOSE,0,0);return c;
 }
 extern "C" int __fastcall ReadAsset(void*self,void*,const char*path){std::string p=path;std::replace(p.begin(),p.end(),'/','\\');while(p.rfind(".\\",0)==0)p.erase(0,2);if(p.find(':')==std::string::npos&&p.rfind("\\",0)!=0&&p.rfind("Data\\",0)!=0&&p.rfind("Integration\\",0)!=0&&p.rfind("Save\\",0)!=0){if(p=="scr\\0001.gsc"||p=="scr\\59990.gsc"||p=="scr\\59992.gsc"||p=="scr\\59993.gsc")p="Integration\\"+std::string(keys[work])+"\\"+p.substr(4);else p="Data\\"+std::string(keys[work])+"\\"+p;}int result=game<int(__thiscall*)(void*,const char*)>(OriginalReadAsset)(self,p.c_str()); if(GetEnvironmentVariableW(L"FAIRY_UNIFIED_TRACE",nullptr,0)){std::string line=std::string("asset ")+(result?"ok ":"missing ")+p;trace(line.c_str());} return result;}
-extern "C" int __fastcall LoadScript(void*self,void*,unsigned short id){if(!mainVm&&id==0)mainVm=self;try{if(self==mainVm&&id==1&&!choosing){choosing=true;Choice c=choose();choosing=false;if(c.action>=0){selectWork(c.picked);if(c.action==1)id=59990;else if(c.action==5)id=59992;else if(c.action==6)id=59993;}SetWindowTextW(nativeWindow,L"페어리테일 이야기 모음");}auto it=vmWork.find(self);if(it==vmWork.end()||it->second!=work){*reinterpret_cast<uint16_t*>((char*)self+0x3c)=0xffff;vmWork[self]=work;}char line[100];sprintf_s(line,"script work=%d id=%u vm=%p main=%p",work,id,self,mainVm);trace(line);}catch(const std::exception&e){choosing=false;trace(e.what());MessageBoxW(GetActiveWindow(),L"작품을 전환할 수 없습니다. 저장 기록과 데이터 파일을 확인해 주세요.",L"이야기 모음",MB_OK|MB_ICONERROR);return 0;}return game<int(__thiscall*)(void*,unsigned short)>(OriginalLoadScript)(self,id);}
+extern "C" int __fastcall LoadScript(void*self,void*,unsigned short id){
+    if(!mainVm&&id==0)mainVm=self;try{if(self==mainVm&&id==1&&!choosing){choosing=true;Choice c=choose();choosing=false;if(c.action>=0){selectWork(c.picked);if(c.action==1)id=59990;else if(c.action==5)id=59992;else if(c.action==6)id=59993;
+        {
+            // The caller recorded title 0001 before this hook; work switching may reset it. Calls made by the
+            // synthetic entry must return to that entry, using its own offsets.
+            // Keep the engine call-stack identity in sync with the selected script.
+            auto depth=*game<uint16_t*>(0x85c90);require(depth<=8);
+            game<uint16_t*>(0x85c52)[depth]=id;
+            // The selected home action starts a new entry. Native menu returns
+            // restore this PC after LoadScript; never reuse the previous title PC.
+            game<uint32_t*>(0x85c68)[depth]=0;
+        }
+    }SetWindowTextW(nativeWindow,L"페어리테일 이야기 모음");}auto it=vmWork.find(self);if(it==vmWork.end()||it->second!=work){*reinterpret_cast<uint16_t*>((char*)self+0x3c)=0xffff;vmWork[self]=work;}char line[100];sprintf_s(line,"script work=%d id=%u vm=%p main=%p",work,id,self,mainVm);trace(line);}catch(const std::exception&e){choosing=false;trace(e.what());MessageBoxW(GetActiveWindow(),L"작품을 전환할 수 없습니다. 저장 기록과 데이터 파일을 확인해 주세요.",L"이야기 모음",MB_OK|MB_ICONERROR);return 0;}return game<int(__thiscall*)(void*,unsigned short)>(OriginalLoadScript)(self,id);}

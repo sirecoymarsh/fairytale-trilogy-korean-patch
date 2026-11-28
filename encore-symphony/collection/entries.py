@@ -10,8 +10,7 @@ def launch_entry(work, base, mode):
     assert boot.command.endswith(native_title)
     command = bytearray(boot.command[:-len(native_title)])
 
-    if work == 'Requiem':
-        assert title.command.startswith(const(3, 8))
+    if work == 'Requiem' and title.command.startswith(const(3, 8)):
         command.extend(const(3, 8))
     else:
         # The Korean title first registers the edition's options and migrates older save flags.

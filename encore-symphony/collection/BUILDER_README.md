@@ -30,3 +30,5 @@ Windows 10/11 64비트, .NET Framework 4.8 이상, Microsoft Edge WebView2 Runti
 소스: https://github.com/sirecoymarsh/fairytale-trilogy-korean-patch
 
 참고한 공식 자료: [WebView2 배포](https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution), [Python embeddable 배포](https://www.python.org/downloads/release/python-3119/), [Windows Sandbox CLI](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-cli), [xdelta](https://github.com/jmacd/xdelta), [FFmpeg 배포 빌드](https://www.gyan.dev/ffmpeg/builds/).
+
+2026.11.28 preview.4: 레퀴엠 설정의 콘텐츠 개방·취소·기록 초기화·복원을 공통 감상실과 연동합니다. 기존 레퀴엠 한국어 패치와 시스템 글꼴 수정판에서도 제작할 수 있습니다.

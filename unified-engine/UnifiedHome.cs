@@ -103,7 +103,12 @@ namespace FairyCollection {
     if(f.Length<0x872+6000)throw new InvalidDataException("저장 파일의 진행 정보를 읽을 수 없어요.");
     f.Position=0x872;
     for(int i=7000;i<10000;++i)if(br.ReadInt16()!=0)marks.Add(i);
-   } return marks;
+   }
+   if(w=="Requiem"&&marks.Contains(7987)){
+    int[] originals=new[]{7001,7002,7003,7004,7005,7006,7007,7008,7009,7010,7011,7012,7013,7014,7015,7016,7017,7018,7019,7020,7021,7022,7023,7024,7025,7026,7027,7028,7029,7030,7031,7032,7033,7034,7035,7036,7037,7038,7039,7040,7041,7042,7043,7044,7051,7052,7053,7055,7056,7057,7058,7059,7060,7061,7062,7063,7064,7065,7066,7067,7068,7069,7070,7071,7072,7101,7102,7103,7104,7105,7106,7107,7108,7109,7110,7111,7112,7113,7114,7115,7116,7117,7118,7119,7120,7121,7122,7123,7124,7125,7126,7127,7128,7151,7152,7153,7154,7155,7156,7157,7158,7159,7160,7161,7162,7163,7164,7165,7166,7167,7168,7169,7170,7171,7172,7201,7202,7203,7204,7205,7206,7207,7208,7209,7210,7211,7212,7213,7214,7215,7216,7217,7218,7219,7220,7221,7222,7223,7224,7251,7252,7253,7254,7255,7256,7257,7258,7259,7260,7261,7262,7263,7264,7265,7266,7267,7268,7269,7270,7271,7272,7273,7274,7301,7302,7303,7304,7305,7306,7307,7308,7309,7310,7311,7312,7313,7314,7315,7316,7317,7318,7319,7320,7321,7322,7323,7324,7325,7326,7327,7328,7329,7330,7331,7332,7333,7334,7351,7352,7353,7354,7355,7356,7357,7358,7359,7360,7361,7362,7363,7364,7365,7366,7367,7401,7402,7403,7404,7405,7406,7407,7408,7409,7410,7411,7412,7413,7414,7415,7700,7713};
+    for(int i=0;i<originals.Length;i++){marks.Remove(originals[i]);if(marks.Contains(8300+i))marks.Add(originals[i]);}
+   }
+   return marks;
   }
   void State(){
    var result=new Dictionary<string,object>();
@@ -113,7 +118,7 @@ namespace FairyCollection {
      marks=Marks(w);string saveFolder=SaveFolder(w);
      if(Directory.Exists(saveFolder))slots=Directory.EnumerateFiles(saveFolder,saves[w]+"*.dat").Count(p=>!String.Equals(Path.GetFileName(p),saves[w]+".dat",StringComparison.OrdinalIgnoreCase));
     }catch(InvalidDataException e){error=e.Message;}catch(IOException e){error=e.Message;}catch(UnauthorizedAccessException e){error=e.Message;}
-    result[w]=new {installed=installed,flags=marks.ToArray(),overlay=w!="Requiem"&&marks.Contains(7988),slots=slots,error=error};
+    result[w]=new {installed=installed,flags=marks.ToArray(),overlay=marks.Contains(7988),slots=slots,error=error};
    }
    Send(new {type="state",works=result});
   }
@@ -143,7 +148,7 @@ namespace FairyCollection {
    else if(w=="Encore"&&id=="0012")gates=new[]{7020};
    else if(w=="Symphony"&&id=="credits")gates=new[]{7700,7024};
    else return false;
-   var marks=Marks(w);return (w!="Requiem"&&marks.Contains(7988))||gates.Any(marks.Contains);
+   var marks=Marks(w);return (marks.Contains(7988))||gates.Any(marks.Contains);
   }
   Task Launch(string w,string id){
    if(!Installed(w))throw new FileNotFoundException("작품 데이터가 없어요. 세 작품으로 통합판을 다시 만들어 주세요.");

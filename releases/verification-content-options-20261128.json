@@ -1,0 +1,203 @@
+{
+  "schema": 1,
+  "version": "2026.11.28-preview.4",
+  "translator_model": "Codex internal",
+  "new_scenario_translation": false,
+  "scope": {
+    "Requiem": {
+      "cg_groups": 63,
+      "cg_variants": 219,
+      "replay_scenes": 229,
+      "modified_scripts": 234,
+      "shadow_records": 231,
+      "shadow_range": [
+        8300,
+        8530
+      ],
+      "unlock_flag": 7988
+    },
+    "features": [
+      "unlock",
+      "cancel unlock",
+      "reset viewing/read records",
+      "restore with new-record merge"
+    ]
+  },
+  "payload_sha256": {
+    "FairytaleContent.dll": "39a19a8cd1acb0ec98bb233c4863731b30d7bff51a672b8b8191c678c18b68f4",
+    "FairytaleHome.dll": "0b117f6e8d0723210994a0fa97a16d705680fe08b4c215b972a6ef39f9cebbfa",
+    "FairytaleUnified.dll": "b0612c93b19bdf8b22bee371cb66a0918e496d963034ebf4aab1eebec8d09173",
+    "grps.xfl": "9e5236f86a0af8ab6e61b7fd39549cd2b735eb6ab3def219a0ddb15b09ed36e6",
+    "scr.xfl": "0f4b871b30742f7a7c98e182adacbff207e45d05ed39651c977ef7c29ac306d8",
+    "フェアリーテイル・レクイエム.exe": "926ec80d3b361a6a29e73e08a28e6c815ce1e0868364d1f87a0f03a36b6d18d1",
+    "페어리테일 통합판.exe": "1d1cf677cdb09ca5c89da645c6e015c0f78754b606c018a4d3c43552433de1f1"
+  },
+  "script_safety": {
+    "reserved_operand_collisions": 0,
+    "original_text_bytes_preserved": true,
+    "string_ids_preserved": true,
+    "original_command_offsets_preserved": true,
+    "new_branch_targets_validated": true
+  },
+  "native_record_tests": {
+    "works": [
+      "Requiem",
+      "Encore",
+      "Symphony"
+    ],
+    "read_union": true,
+    "new_cg_and_scene_marks_preserved": true,
+    "corrupt_or_other_work_undo_rejected": true,
+    "preferences_and_progress_preserved": true
+  },
+  "standalone_hidden_runtime": {
+    "real_buttons": 4,
+    "cancel_unchanged": true,
+    "reset_restore_byte_identical": true,
+    "slot_unchanged": true,
+    "prefs_unchanged": true,
+    "mode_open": 1,
+    "mode_off": 0,
+    "reset_pending": 1,
+    "restore_pending": 0
+  },
+  "common_gallery_hidden_runtime": {
+    "off": {
+      "overlay": false,
+      "cg": 43,
+      "music": 10,
+      "movies": 1
+    },
+    "on": {
+      "overlay": true,
+      "cg": 219,
+      "music": 10,
+      "movies": 4
+    },
+    "cancel": {
+      "overlay": false,
+      "cg": 43,
+      "music": 10,
+      "movies": 1
+    },
+    "reset": {
+      "overlay": false,
+      "cg": 0,
+      "music": 7,
+      "movies": 1
+    },
+    "restored": {
+      "overlay": false,
+      "cg": 43,
+      "music": 10,
+      "movies": 1
+    }
+  },
+  "final_native_transition_matrix": [
+    {
+      "work": "Requiem",
+      "replay_close_to_home": true,
+      "settings_native_dialog_cancel": true,
+      "settings_to_home": true
+    },
+    {
+      "work": "Encore",
+      "replay_close_to_home": true,
+      "settings_native_dialog_cancel": true,
+      "settings_to_home": true
+    },
+    {
+      "work": "Symphony",
+      "replay_close_to_home": true,
+      "settings_native_dialog_cancel": true,
+      "settings_to_home": true
+    },
+    {
+      "work": "Requiem",
+      "replay_close_to_home": true,
+      "settings_native_dialog_cancel": true,
+      "settings_to_home": true
+    }
+  ],
+  "transition_failures": {
+    "before_fix": "Two reproducible failures shared a mismatched script ID / saved return offset after selecting a new common-home action.",
+    "fixed": "Synchronize current stack script ID and reset saved return PC to zero after selectWork and action selection.",
+    "final_scenarios": 4,
+    "final_failed_scenarios": 0,
+    "not_a_whole_game_failure_rate": true
+  },
+  "installer_verification": {
+    "standalone": "Bundled Python installed preview.3 into a separate folder; all 45 outputs verified.",
+    "single_engine": "Bundled Python built all three inputs (85 files); engine hash and content/home/unified DLLs checked. Last native fix changed only Common/FairytaleUnified.dll and was applied to that installed test output before final matrix.",
+    "bridge": "Unchanged gallery/media conversion and prior full builder QA reused. Changed per-game deltas, common host source, source selection and entry generation reviewed; no new full bridge GUI installation run.",
+    "new_deltas": "Every original/prior-Korean source delta decoded to exact new target hash.",
+    "source_rebuild": {
+      "all_identical": true,
+      "files": {
+        "grps.xfl": "9e5236f86a0af8ab6e61b7fd39549cd2b735eb6ab3def219a0ddb15b09ed36e6",
+        "scr.xfl": "0f4b871b30742f7a7c98e182adacbff207e45d05ed39651c977ef7c29ac306d8",
+        "フェアリーテイル・レクイエム.exe": "926ec80d3b361a6a29e73e08a28e6c815ce1e0868364d1f87a0f03a36b6d18d1"
+      }
+    }
+  },
+  "test_isolation": {
+    "hidden_private_desktop": true,
+    "muted": true,
+    "user_play_window_untouched": true,
+    "qa_only_exe_change": "Instance mutex name only, to coexist with user game. Final release EXEs retain original mutex.",
+    "content_and_native_dlls": "Exact release bytes"
+  },
+  "local_update": {
+    "updated_files": 9,
+    "save_files_preserved": 3,
+    "save_bytes_identical": true
+  },
+  "defender": {
+    "scan": "Final uncompressed release packages",
+    "detections": 0
+  },
+  "release_archives": [
+    {
+      "name": "Fairytale_Collection_Builder_20261128_preview4.zip",
+      "size": 1372310643,
+      "sha256": "b55e8086179818e413325e3ebc742554facfc10128334a8c2d88e2fa7aeb255f"
+    },
+    {
+      "name": "Fairytale_Requiem_Korean_Patch_20261128_preview4.zip",
+      "size": 359712422,
+      "sha256": "d81bc892506b1246ca719c5c60dccbdf8968c374d5ad45bc9a6539445de45c70"
+    },
+    {
+      "name": "Fairytale_Story_Collection_Builder_20261128_preview4.zip",
+      "size": 1078213969,
+      "sha256": "b7881f8af02f8292a705322dbc98d342019d98aa6a60838576264eb46bf9621b"
+    }
+  ],
+  "reused_prior_results": [
+    "Requiem 12 endings, Encore 6 episodes, Symphony 2 endings from prior route QA; not rerun here.",
+    "Unchanged opening videos, gallery media, original assets, and previously verified installer GUI/optional-title handling."
+  ],
+  "remaining": [
+    "All 229 replays and all branches have not been replayed in this revision.",
+    "Whole single-engine playthrough and complete testing on another PC remain unverified.",
+    "Previously observed Requiem voice-transition wait is not fixed by this change.",
+    "Full Argon retranslation is not included."
+  ],
+  "independent_read_only_review": [
+    "Content flags, save preservation, catalog/entry mapping and backward compatibility reviewed.",
+    "Native engine call-stack offsets and update ordering confirmed against PE bytes.",
+    "Release manifests/deltas/DLLs reviewed; stale usage-guide statements corrected."
+  ],
+  "reuse_sources": [
+    "https://github.com/EusthEnoptEron/RaiLTools",
+    "https://github.com/Love-in-idleness/LiarsoftTool",
+    "existing encore-symphony/qol, collection and native runtime"
+  ],
+  "final_native_scene_and_exit": {
+    "exit_code": 0,
+    "dll_sha256": "b0612c93b19bdf8b22bee371cb66a0918e496d963034ebf4aab1eebec8d09173",
+    "replay_page9_visible": true,
+    "previously_locked_scene_opened": true,
+    "scene_return_to_common_home": true
+  }
+}

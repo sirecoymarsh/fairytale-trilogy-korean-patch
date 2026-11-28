@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse, base64, json, os, shutil, sys, uuid
 sys.dont_write_bytecode = True
 from build_collection import (WORKS, SAVES, sha, emit, safe, overlap, copy,
-                              decode, running, verify_file, is_save, execute)
+                              decode, running, verify_file, is_save, execute, select_source, repair_imported_font)
 import assemble, entries, album
 from unified_entries import native_menu
 KEYS = {'Requiem':'R', 'Encore':'A', 'Symphony':'S'}
@@ -23,7 +23,7 @@ def engine_patch(source, target, spec):
     verify_file(target, spec['output'])
 
 
-def import_saves(roots, requested, stage, receipt):
+def import_saves(roots, requested, stage, receipt, repair_font=False):
     for w,root in roots.items():
         target = stage/'Save'/KEYS[w]; target.mkdir(parents=True,exist_ok=True)
         if not requested[w].get('import_save'): continue
@@ -37,7 +37,9 @@ def import_saves(roots, requested, stage, receipt):
                 if sha(dest) != before or sha(p) != before:
                     raise ValueError('복사하는 동안 세이브가 바뀌었어요. 게임을 종료해 주세요.')
                 receipt['works'][w]['save_files'] += 1
-                receipt['works'][w]['save_sha256'][p.name] = before
+                migration=repair_imported_font(dest,w,repair_font)
+                if migration: receipt['works'][w].setdefault('font_migrations',[]).append(migration)
+                receipt['works'][w]['save_sha256'][p.name]=sha(dest) if migration else before
         if not receipt['works'][w]['save_files']:
             emit(WORKS[w]+' · 가져올 세이브가 없어 새 기록으로 시작해요.')
 
@@ -74,14 +76,7 @@ def build(config, package):
         info = receipt['works'][w] = {'import_save':bool(requested[w].get('import_save',False)),
                                       'files':[], 'save_files':0, 'save_sha256':{}}
         for row in manifest['games'][w]['files']:
-            src = safe(root,row['path']); state = 'missing'
-            if src.is_file():
-                if src.stat().st_size not in {row['size'],row.get('source_size')}:
-                    raise ValueError(WORKS[w]+'의 지원하지 않는 파일: '+row['path'])
-                digest = sha(src)
-                if digest == row['sha256']: state = 'korean'
-                elif digest == row.get('source_sha256'): state = 'original'
-                else: raise ValueError(WORKS[w]+'의 지원하지 않는 파일: '+row['path'])
+            src = safe(root,row['path']); row, state = select_source(src,row,w)
             if state == 'missing' and row['kind'] != 'new':
                 raise ValueError(WORKS[w]+' 설치 파일이 없어요: '+row['path'])
             if state != 'korean' and row['kind'] != 'same':
@@ -118,7 +113,9 @@ def build(config, package):
             if name == assemble.EXES[w]:
                 if w != 'Symphony': continue
                 dest = tmp/'engine.bin'
-            elif name in ('FairytaleContent.dll','vorbis.acm'):
+            elif name == 'FairytaleContent.dll':
+                continue
+            elif name == 'vorbis.acm':
                 if w != 'Symphony': continue
                 dest = stage/name
             else: dest = safe(stage/'Data'/KEYS[w],name)
@@ -128,7 +125,7 @@ def build(config, package):
             else: decode(package/'Tools/xdelta3.exe',src,safe(package,row['payload']),dest,row['window'],tmp)
             verify_file(dest,row)
         engine_patch(tmp/'engine.bin',stage/ENGINE,manifest['engine'])
-        import_saves(roots,requested,stage,receipt)
+        import_saves(roots,requested,stage,receipt,manifest.get('repair_legacy_korean_font',False))
         emit('한 엔진에서 읽을 작품별 시작 경로를 만들고 있어요.')
         for w,key in KEYS.items():
             target = stage/'Integration'/key; target.mkdir(parents=True)
