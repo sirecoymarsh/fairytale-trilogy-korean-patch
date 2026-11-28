@@ -95,6 +95,23 @@ def select_source(src, row, work):
     raise ValueError(WORKS[work] + '의 지원하지 않는 파일: ' + row['path'])
 
 
+def repair_imported_font(path, work, enabled):
+    """Migrate only our legacy default in the copied Requiem system settings.
+
+    The native preferences block is 0x872 bytes. Its font name begins at 0x83e.
+    Do not edit slot saves, other fonts, truncated files, or the input directory.
+    """
+    if not enabled or work != 'Requiem' or path.name != 'FRsave.dat': return None
+    data = path.read_bytes(); offset = 0x83e
+    old = b'Malgun Gothic\0'; new = b'GulimChe\0'
+    if len(data) < 0x872 or data[offset:offset+len(old)] != old: return None
+    changed = data[:offset] + new.ljust(len(old), b'\0') + data[offset+len(old):]
+    path.write_bytes(changed)
+    return {'file':path.name, 'offset':offset, 'old_font':'Malgun Gothic',
+            'new_font':'GulimChe', 'input_sha256':hashlib.sha256(data).hexdigest(),
+            'output_sha256':hashlib.sha256(changed).hexdigest()}
+
+
 def build(config, package):
     manifest = json.loads((package / 'manifest.json').read_text('utf-8-sig'))
     requested = config.get('games', {})
@@ -160,7 +177,10 @@ def build(config, package):
                             p=safe(source,p.name); before=sha(p); dest=target/'save'/p.name; copy(p,dest)
                             if sha(dest)!=before or sha(p)!=before: raise ValueError('복사하는 동안 세이브가 바뀌었어요. 게임을 종료해 주세요.')
                             receipt['works'][w]['save_files'] += 1
-                            receipt['works'][w]['save_sha256'][p.name] = before
+                            migration = repair_imported_font(dest, w, manifest.get('repair_legacy_korean_font', False))
+                            if migration:
+                                receipt['works'][w].setdefault('font_migrations', []).append(migration)
+                            receipt['works'][w]['save_sha256'][p.name] = sha(dest) if migration else before
                 if not receipt['works'][w]['save_files']: emit(WORKS[w]+' · 가져올 세이브가 없어 새 저장 폴더를 만들었어요.')
         shutil.rmtree(tmp)
         (stage/'patch-receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=1),encoding='utf-8')

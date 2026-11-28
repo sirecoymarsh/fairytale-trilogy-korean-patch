@@ -4,7 +4,7 @@
 
 ## 다운로드
 
-**레퀴엠은 [2026.11.28 실행 오류 수정판](https://github.com/sirecoymarsh/fairytale-trilogy-korean-patch/releases/tag/requiem-hotfix-preview-2026.11.28)**을 받으세요. 기존 한국어판에서 세이브를 선택해 새 폴더로 업데이트할 수 있습니다.
+**레퀴엠은 [2026.11.28 시스템 문구·글꼴 수정판(미리보기 3)](https://github.com/sirecoymarsh/fairytale-trilogy-korean-patch/releases/tag/requiem-ui-hotfix-preview-2026.11.28)**을 받으세요. 기존 한국어판에서 세이브를 선택해 새 폴더로 업데이트할 수 있습니다. 종료·저장·불러오기 등 시스템 문자열 15곳의 깨짐, 일부 한글 획이 옅어지는 기본 글꼴 문제와 이전 시나리오 진행 오류 수정을 포함합니다.
 
 앙코르·심포니·두 통합판 제작기와 홍보 영상은 **[2026.11.26 미리보기 릴리스](https://github.com/sirecoymarsh/fairytale-trilogy-korean-patch/releases/tag/patches-preview-2026.11.26)**에 있습니다. `Code → Download ZIP`은 소스 자료입니다. 이전 통합 제작기는 새 레퀴엠 패치의 해시를 아직 지원하지 않습니다.
 
@@ -57,7 +57,7 @@
 
 Windows 10/11 64비트와 .NET Framework 4.8 이상이 필요하며, 두 통합판은 WebView2도 필요합니다. 새 Windows Sandbox에서는 Smart App Control이 서명되지 않은 xdelta3 실행을 차단했습니다. 제작기와 새 EXE/DLL은 코드 서명이 없는 미리보기이며 해당 정책 환경은 현재 호환성 제한입니다. 보안 설정 변경이나 우회를 요구하지 않습니다.
 
-**레퀴엠 알려진 문제:** 음성 전환 대기 1회가 관찰됐습니다. 보조 조작 없는 재실행은 통과했지만 EXE 수정은 미완료입니다. 주요 엔딩 도달은 오류 발생률 0%를 뜻하지 않습니다. [수정 내용·실패 기록](releases/requiem-hotfix-20261128.md) · [수정판 검증](releases/verification-requiem-20261128.json)
+**레퀴엠 알려진 문제:** 음성 전환 대기 1회가 관찰됐습니다. 보조 조작 없는 재실행은 통과했지만 음성 대기 관련 실행 코드 수정은 미완료입니다. 주요 엔딩 도달은 오류 발생률 0%를 뜻하지 않습니다. [수정 내용·실패 기록](releases/requiem-hotfix-20261128.md) · [수정판 검증](releases/verification-requiem-20261128.json)
 
 [초기 공개 검증 기록](releases/verification-20261126.json) · [브릿지 상세 기록](encore-symphony/collection/builder-verification-20261126.json)
 
@@ -74,6 +74,8 @@ Windows 10/11 64비트와 .NET Framework 4.8 이상이 필요하며, 두 통합�
 | `review-2026-11/` | 후속 교정 자료 |
 | `releases/` | 배포 안내·검증 범위·게시판 홍보문 |
 
-기존 Claude 구현과 한국어 작업물을 재사용했습니다. 2026.11.28 수정판은 검증된 줄바꿈 조정과 의미를 보존한 최소 축약만 포함합니다. 전체 아르곤 재번역은 진행 중입니다. 새 설치 화면·배포 안내 문구 작성은 Codex internal이며, 기존 번역 자료의 제작 주체는 각 기록을 따릅니다. 과거 개발 도구에는 당시 로컬 경로가 남아 있으므로 소스를 직접 실행할 때는 입력·출력 설정을 확인하세요. 배포 제작기는 사용자 선택 경로를 사용합니다.
+기존 Claude 구현과 한국어 작업물을 재사용했습니다. 2026.11.28 수정판에는 검증된 줄바꿈 조정·의미를 보존한 최소 축약과 네이티브 시스템 문구·기본 글꼴 수정이 포함됩니다. 전체 아르곤 재번역은 진행 중입니다. 새 설치 화면·배포 안내 문구 작성은 Codex internal이며, 기존 번역 자료의 제작 주체는 각 기록을 따릅니다. 과거 개발 도구에는 당시 로컬 경로가 남아 있으므로 소스를 직접 실행할 때는 입력·출력 설정을 확인하세요. 배포 제작기는 사용자 선택 경로를 사용합니다.
 
 오역·문장 잘림·실행 문제는 [Issues](https://github.com/sirecoymarsh/fairytale-trilogy-korean-patch/issues)에 작품명, 사용한 패키지, 장면과 재현 순서를 함께 남겨 주세요.
+
+최신 시스템 문구 수정판: [변경 내용](releases/requiem-system-ui-20261128.md) · [검증 기록](releases/verification-requiem-ui-20261128.json). 기존 엔딩 도달 기록은 재사용했으며 이번 재검증은 변경된 확인창·글꼴 표시·설치 결과에 한정합니다.

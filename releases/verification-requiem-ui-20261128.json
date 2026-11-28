@@ -1,0 +1,280 @@
+{
+  "version": "2026.11.28-preview.3",
+  "scope": "Requiem native UI and default font; includes unchanged preview.2 script fixes",
+  "translator_model": "Codex internal",
+  "binary": {
+    "schema": "requiem-native-system-ui-v1",
+    "translator_model": "Codex internal",
+    "source_sha256": "e46f532811b3189669ccc74452a2bfb4f0f14362ef97e68018fc9cdc26b2b4f4",
+    "output_sha256": "2c4ecc4aa4aadc6bee8c6929015d68707ff79e0020a54c4d30b90bbc241afbc7",
+    "file_size": 614400,
+    "changed_bytes": 487,
+    "strings": [
+      {
+        "id": "default_font",
+        "offset": 528704,
+        "size": 16,
+        "source": "Malgun Gothic",
+        "target": "GulimChe",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "secondary_font",
+        "offset": 530440,
+        "size": 16,
+        "source": "Malgun Gothic",
+        "target": "GulimChe",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "confirm_title",
+        "offset": 529744,
+        "size": 8,
+        "source": "確認",
+        "target": "확인",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "return_to_title",
+        "offset": 529752,
+        "size": 44,
+        "source": "タイトル画面に戻ります。\nよろしいですか？",
+        "target": "제목 화면으로 돌아갈까요?",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "overwrite_save",
+        "offset": 529796,
+        "size": 48,
+        "source": "セーブデータを上書きします。\nよろしいですか？",
+        "target": "저장 데이터를 덮어쓸까요?",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "load_save",
+        "offset": 529844,
+        "size": 48,
+        "source": "セーブデータをロードします。\nよろしいですか？",
+        "target": "저장 데이터를 불러올까요?",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "quick_load",
+        "offset": 529948,
+        "size": 28,
+        "source": "クイックロードしますか？",
+        "target": "빠른 불러오기를 할까요?",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "color_mode_notice",
+        "offset": 530640,
+        "size": 116,
+        "source": "このゲームは32Bitカラーモードで最適化されています。\nカラーモードを変更していただくとより一層お楽しみになれます。",
+        "target": "이 게임은 32비트 색상 모드에 최적화되어 있습니다.\n색상 모드를 변경하면 더 나은 화질로 즐길 수 있습니다.",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "notice_title",
+        "offset": 530756,
+        "size": 12,
+        "source": "お知らせ",
+        "target": "알림",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "compile_error",
+        "offset": 530988,
+        "size": 20,
+        "source": "コンパイルエラー",
+        "target": "컴파일 오류",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "script_nest_overflow",
+        "offset": 531008,
+        "size": 32,
+        "source": "スクリプトネストオーバーフロー",
+        "target": "스크립트 중첩 한도 초과",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "script_nest_underflow",
+        "offset": 531040,
+        "size": 32,
+        "source": "スクリプトネストアンダーフロー",
+        "target": "스크립트 중첩 단계 부족",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "invalid_layer",
+        "offset": 531072,
+        "size": 20,
+        "source": "レイヤー指定違反",
+        "target": "잘못된 레이어 지정",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "text_format_error",
+        "offset": 531104,
+        "size": 28,
+        "source": "テキストフォーマットエラー",
+        "target": "텍스트 형식 오류",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "font_preview",
+        "offset": 532592,
+        "size": 32,
+        "source": "あぃウェ５＃―壱弐鶴亀ＡｂAb",
+        "target": "가나다라 마바사 123 ABC",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "exit_title",
+        "offset": 532944,
+        "size": 12,
+        "source": "終了確認",
+        "target": "종료 확인",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      },
+      {
+        "id": "exit_game",
+        "offset": 532956,
+        "size": 32,
+        "source": "本当にゲームを終了しますか？",
+        "target": "정말 게임을 종료할까요?",
+        "source_encoding": "cp932",
+        "target_encoding": "cp949"
+      }
+    ],
+    "code_imports_resources_unchanged": true
+  },
+  "package": {
+    "files": 76,
+    "zip_crc": "PASS",
+    "package_hashes": "PASS",
+    "changed_existing_paths": [
+      "Common/한국어 패치 사용 안내.txt",
+      "Patch/Requiem/d1485bcb2e391946521c.vcdiff",
+      "Scripts/build_standalone.py",
+      "checksums.json",
+      "manifest.json"
+    ],
+    "new_paths": [
+      "Patch/Requiem/exe-preview2-to-preview3.vcdiff"
+    ],
+    "size": 346774590,
+    "sha256": "1a651680ee03cf7b4af2d451670c801a73983704773247d7100071b680189c1d"
+  },
+  "install": {
+    "output_files": 44,
+    "save_files": 2,
+    "slot_save_identical": true,
+    "input_saves_unchanged": true,
+    "migration": {
+      "file": "FRsave.dat",
+      "offset": 2110,
+      "old_font": "Malgun Gothic",
+      "new_font": "GulimChe",
+      "input_sha256": "e220dd37ef2ab733b438595ed42fc9798ae0fb85b0b0f00a839b6d6f0c159a41",
+      "output_sha256": "753d2167d7ffe8054b57a5c901aca38ee9c91c1395cdddd407bd2b885faba880"
+    },
+    "changed_system_save_offsets": [
+      2110,
+      2111,
+      2113,
+      2114,
+      2115,
+      2116,
+      2117,
+      2118,
+      2119,
+      2120,
+      2121,
+      2122
+    ],
+    "guard_cases": [
+      "custom font preserved",
+      "disabled preserved",
+      "truncated preserved"
+    ],
+    "delta_cases": [
+      {
+        "input": "japanese",
+        "state": "original",
+        "output_sha256": "2c4ecc4aa4aadc6bee8c6929015d68707ff79e0020a54c4d30b90bbc241afbc7"
+      },
+      {
+        "input": "previous_korean",
+        "state": "previous-korean",
+        "output_sha256": "2c4ecc4aa4aadc6bee8c6929015d68707ff79e0020a54c4d30b90bbc241afbc7"
+      },
+      {
+        "input": "current",
+        "state": "korean",
+        "output_sha256": "2c4ecc4aa4aadc6bee8c6929015d68707ff79e0020a54c4d30b90bbc241afbc7"
+      }
+    ],
+    "review": "read-only independent review passed for 17 slots and imported-font migration"
+  },
+  "runtime": {
+    "method": "muted private Windows desktop; final executable without runtime injection",
+    "final_exe_sha256": "2c4ecc4aa4aadc6bee8c6929015d68707ff79e0020a54c4d30b90bbc241afbc7",
+    "final_installer_output_tested": true,
+    "confirmed": [
+      "exit confirmation Korean title/body and cancel",
+      "save overwrite confirmation Korean body and cancel",
+      "load confirmation Korean body, cancel and accepted saved-game load",
+      "return-to-title confirmation Korean body and cancel",
+      "final installed build: Alice choice 뻗은 팔로 has intact ㅓ stroke and fits original menu",
+      "imported save loads normally"
+    ],
+    "coverage_notes": [
+      "Four confirmation variants were checked on the UI-only candidate. Final combined build additionally checks the same exit dialog and font change.",
+      "Quick-load prompt, rare runtime error paths and font-preview sample: static byte/encoding review only; not all naturally triggered.",
+      "Previous route completion evidence is reused; no complete route replay was performed for this release."
+    ],
+    "exit_status": 0
+  },
+  "font_cause": {
+    "old_face": "Malgun Gothic",
+    "new_face": "GulimChe",
+    "observed_character": "뻗",
+    "cp949": "BBB8",
+    "old_gdi_stem_coverage": "7-8 / 64 at lfHeight 32; independent GDI reproduction",
+    "game_font_substitution_ab": "PASS",
+    "final_install_no_hook": "PASS"
+  },
+  "defender": {
+    "result": "No threats found",
+    "exit_code": 0,
+    "zip_sha256": "1a651680ee03cf7b4af2d451670c801a73983704773247d7100071b680189c1d"
+  },
+  "known_limits": [
+    "Argon full retranslation is not included.",
+    "Previously observed audio shutdown wait remains unresolved.",
+    "Other-PC full verification and every scenario path remain outside this check.",
+    "Earlier collection builders do not yet accept these new standalone hashes."
+  ],
+  "research_sources": [
+    "https://learn.microsoft.com/en-us/windows/win32/intl/code-pages",
+    "https://learn.microsoft.com/en-us/windows/win32/api/wingdi/nf-wingdi-getglyphoutlinea"
+  ]
+}
